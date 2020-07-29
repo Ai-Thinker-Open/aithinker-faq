@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-欢迎来到安信可科技公开资料库
+欢迎来到安信可科技产品公开资料库
 =================================
 
 .. toctree::
