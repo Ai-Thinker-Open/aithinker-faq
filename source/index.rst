@@ -7,7 +7,7 @@
 =================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :glob:
 
    docs/zh_CN/menu/*
