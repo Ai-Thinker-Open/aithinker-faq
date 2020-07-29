@@ -10,5 +10,5 @@ Welcome to hello's documentation!
    :maxdepth: 2
    :glob:
 
-   docs/ch/menu/*
+   docs/zh_CN/menu/*
 
