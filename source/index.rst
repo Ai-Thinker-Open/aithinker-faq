@@ -11,4 +11,4 @@
    :glob:
 
    docs/zh_CN/menu/*
-
+   docs/en/menu/*
