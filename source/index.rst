@@ -10,5 +10,4 @@
    :maxdepth: 2
    :glob:
 
-   docs/zh_CN/menu/*
-   docs/en/menu/*
+   docs/menu/*
