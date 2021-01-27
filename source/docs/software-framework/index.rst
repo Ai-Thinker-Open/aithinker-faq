@@ -1,9 +1,7 @@
 
 ***********
-Wi-Fi类
+软件使用
 ***********
-
-:link_to_translation:`en:[English]`
 
 ESP8266系列
 ---------
@@ -11,7 +9,7 @@ ESP8266系列
    :maxdepth: 1
    :glob:
 
-   ../ESP8266/*
+   ESP8266/*
 
 
 ESP32系列  
@@ -20,4 +18,4 @@ ESP32系列
    :maxdepth: 1
    :glob:
 
-   ../ESP32/*
+   ESP32/*
