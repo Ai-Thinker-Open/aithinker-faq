@@ -1,0 +1,33 @@
+ESP8266系列
+====
+
+
+
+.. raw:: html
+
+   <style>
+   body {counter-reset: h2}
+     h2 {counter-reset: h3}
+     h2:before {counter-increment: h2; content: counter(h2) ". "}
+     h3:before {counter-increment: h3; content: counter(h2) "." counter(h3) ". "}
+     h2.nocount:before, h3.nocount:before, { content: ""; counter-increment: none }
+   </style>
+
+--------------
+
+ESP8266 如此多的编程方法，有SDK/Arduino/Lua/MicoPython等，我到底选择哪个?
+-----------------------------------------------
+
+  即使更多的编程方法，其调用的都是C为底层的，但是根据项目需求来选型编程方式，能使你的项目快速落地即可。我司推荐使用SDK编程开发，
+
+
+  - 采用C语言编程，跨平台移植性强；
+  - 如果使用 cmake 需要将例程中 CMakeLists.txt 文件内的链接配置一同复制。
+
+--------------
+
+ESP8266 rtos 环境搭建
+---------------------------------------------
+
+  ESP8266 
+

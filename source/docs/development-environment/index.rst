@@ -3,19 +3,11 @@
 开发环境
 ***********
 
-ESP8266系列
+espressif 乐鑫系列
 ---------
 .. toctree::
    :maxdepth: 1
    :glob:
 
-   ESP8266/*
+   espressif/*
 
-
-ESP32系列  
----------
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   ESP32/*
