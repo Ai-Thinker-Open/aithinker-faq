@@ -11,3 +11,10 @@ espressif 乐鑫系列
 
    espressif/*
 
+蓝牙系列
+--------
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   BT/*
