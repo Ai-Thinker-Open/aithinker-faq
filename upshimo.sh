@@ -1,0 +1,1 @@
+curl -X POST -d "branches=master" -d "token=72e55d585aabf1afe84a1631e7ba5636d4269d7f" https://readthedocs.org/api/v2/webhook/aithinker/145176/
