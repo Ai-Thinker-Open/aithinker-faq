@@ -15,6 +15,8 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
+import sphinx_rtd_theme
+from recommonmark.parser import CommonMarkParser
 import os
 import sys
 
@@ -34,7 +36,7 @@ release = u''
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #
-# needs_sphinx = '1.0'
+needs_sphinx = '0.18'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -175,7 +177,6 @@ epub_exclude_files = ['search.html']
 
 
 # md语法
-from recommonmark.parser import CommonMarkParser
 
 source_parsers = {
     '.md': CommonMarkParser,
@@ -183,9 +184,8 @@ source_parsers = {
 
 source_suffix = ['.rst', '.md']
 
-
-import sphinx_rtd_theme
 html_theme = "sphinx_rtd_theme"
+
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_logo = '_static/AI-Thinker-logo.png'
 html_theme_options = {

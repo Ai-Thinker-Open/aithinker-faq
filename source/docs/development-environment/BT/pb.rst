@@ -12,8 +12,10 @@
 - 支持ESP32-G蓝牙网关通讯，实现远程随时随地控制；
 - 支持windows环境SDK二次开发，资料代码全部开源，支持AT指令接入天猫精灵；
 - 支持Android/IOS APP和微信小程序控制；
+  
+更多资料请转跳： `安信可官方docs <https://docs.ai-thinker.com/blue_tooth_pb>`__
 
-2. 开发环境搭建
+1. 开发环境搭建
 ~~~~~~~~~~~~
 
 2.1 BLE基础知识
