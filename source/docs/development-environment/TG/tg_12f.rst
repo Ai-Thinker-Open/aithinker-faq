@@ -31,10 +31,9 @@ TG-12F模块采用平头哥TG7100C芯片，TG7100C 是智能新一代高集成 W
 **注意**
 
 - 不要使用 Windows 下 Ubuntu 子系统，建议使用虚拟机软件安装 Ubuntu。
-- 不要在 Windows 下载解压代码再拷贝到 Ubuntu 系统中，建议直接在 Ubuntu 系统内下载和解
-压代码，建议使用 git clone 下载代码。
-- 不要把代码存放在 Windows 共享目录下，然后通过 mount 挂载到 Ubuntu 系统里。建议直接在
-Ubuntu 系统内下载和解压代码。
+- 不要在 Windows 下载解压代码再拷贝到 Ubuntu 系统中，建议直接在 Ubuntu 系统内下载和解压代码，建议使用 git clone 下载代码。
+- 不要把代码存放在 Windows 共享目录下，然后通过 mount 挂载到 Ubuntu 系统里。建议直接在Ubuntu 系统内下载和解压代码。
+
 安装 Ubuntu（版本 16.04 X64）程序运行时库。请您按顺序逐条执行命令:
 ::
     sudo apt-get update
