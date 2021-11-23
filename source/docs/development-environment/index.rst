@@ -18,3 +18,11 @@ espressif 乐鑫系列
    :glob:
 
    BT/*
+
+平头哥模组
+----------
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   TG/*
