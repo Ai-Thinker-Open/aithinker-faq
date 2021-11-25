@@ -15,7 +15,7 @@
   
 更多资料请转跳： `安信可官方docs <https://docs.ai-thinker.com/blue_tooth_pb>`__
 
-1. 开发环境搭建
+2. 开发环境搭建
 ~~~~~~~~~~~~
 
 2.1 BLE基础知识
