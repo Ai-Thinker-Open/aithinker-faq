@@ -1,0 +1,51 @@
+1. 奉加PB系列
+==================
+
+1.1  出厂AT固件
+~~~~~~~~~~~~~~~~
+
+**说明：**
+
+- BLE常规功能
+
+**固件下载：** `(固件号：1212)  <https://docs.ai-thinker.com/_media/comat_1212.zip>`__
+
+**蓝牙ble透传(非mesh) AT指令集：** `<https://docs.ai-thinker.com/_media/pb%E7%B3%BB%E5%88%97%E6%A8%A1%E7%BB%84%E9%80%9A%E7%94%A8at_v1006%E7%89%88%E6%9C%AC%E6%8C%87%E4%BB%A4_v1.1.3.pdf>`__
+
+1.2 天猫精灵对接AT专有固件
+~~~~~~~~~~~~~~~~~~~
+
+**说明:**
+
+- PB-01/02 天猫精灵对接AT专有固件
+
+**固件下载：** `(固件号：1261) <https://docs.ai-thinker.com/_media/alimeshat_1261.rar>`__
+
+**天猫精灵对接AT指令集：** `(指令集链接) <https://docs.ai-thinker.com/_media/pb%E7%B3%BB%E5%88%97%E6%A8%A1%E5%9D%97_alimesh_at%E6%8C%87%E4%BB%A4%E6%89%8B%E5%86%8Cv0.1.pdf>`__
+
+~~~~~~~~~~~~~~~~
+
+
+2. 泰凌TB系列固件
+================
+
+2.1 Ble AT固件固件
+~~~~~~~~~~~~~~~~~~
+
+**说明：**
+
+- TB-02/03F/04模组 Ble AT固件
+- 版本:V0.9
+
+**固件下载：** `(固件号：1026) <https://docs.ai-thinker.com/_media/1268%E5%8F%B7%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7.zip>`__
+
+2.2 私有mesh_AT固件
+~~~~~~~~~~~~~~~~~~~~~~~
+
+**说明：**
+
+- TB-02/03F/04模组 私有mesh_AT固件
+- 版本:V0.5
+
+**固件下载：** `(固件号：1183) <https://docs.ai-thinker.com/_media/privatmesh_1183_.zip>`__
+
