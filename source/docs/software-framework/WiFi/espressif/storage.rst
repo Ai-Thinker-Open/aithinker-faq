@@ -165,3 +165,7 @@ ESP32 模组挂载 8MB PSRAM, 为何实际映射的只有 4MB？
 
   - 片外 RAM 最大可映射 4MB(0x3F80_0000-0x3FBF_FFFF) 到数据地址空间,可参考 `ESP32 datahsheet <https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf>`_ 中的 3.1.4 存储器映射的说明.
   - 可参考例程 `himem <https://github.com/espressif/esp-idf/tree/master/examples/system/himem>`_ 访问其余的 4MB 空间.
+
+ESP32-CAM开发板和ESP32-Audio-Kit开发板能支持多大的内存卡？
+--------------------------------------------------------------
+128G
