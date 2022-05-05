@@ -1052,3 +1052,36 @@ ESP-12F下面六个FLASH引脚能否使用？
 --------------
 不可使用，因为我们内部这六个引脚已经接到FLASH上
 
+arduino IDE开发环境下，ESP8266开发API资料链接？
+----------------------
+https://arduino-esp8266.readthedocs.io/en/latest/installing.html 
+
+ESP32-S/ESP-12K/ESP-12H模组，JTAG的DEGUB调试教程？
+---------------------------------
+建议参考这个教程 
+https://blog.csdn.net/Boantong_/article/details/121520707?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165122496716781818784515%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=165122496716781818784515&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-2-121520707.nonecase&utm_term=JTAG&spm=1018.2226.3001.4450
+
+ESP-C3系列模组，JTAG的DEGUB调试教程？
+---------------------------
+建议参考 
+https://blog.csdn.net/Boantong_/article/details/121566671?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165122496716781818784515%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=165122496716781818784515&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-1-121566671.nonecase&utm_term=JTAG&spm=1018.2226.3001.4450
+
+
+为什么ESP32-CAM开发板拍摄视频的速率有的快有的慢？
+--------------------------------------------------
+根据拍摄场景复杂度不同，图片的大小不同，因此传输速率不同
+
+
+何从github上面下载下来的sdk老是编译失败？
+---------------------------------------------------
+SDK要用git工具克隆下来
+
+
+ESP-S3系列模组arduino开发环境搭建教程？
+---------------------------------------------------
+https://blog.csdn.net/qq_42250136/article/details/123416799
+
+
+ESP-S3-12K-kit开发板上面RGB灯点亮的中红灯太暗，是否硬件有问题？
+------------------------------------------------
+点亮红灯的时间延长即可
