@@ -1,0 +1,35 @@
+安信可 GPS系列模块 FAQ
+======
+
+.. raw:: html
+
+   <style>
+   body {counter-reset: h2}
+     h2 {counter-reset: h3}
+     h2:before {counter-increment: h2; content: counter(h2) ". "}
+     h3:before {counter-increment: h3; content: counter(h2) "." counter(h3) ". "}
+     h2.nocount:before, h3.nocount:before, { content: ""; counter-increment: none }
+   </style>
+
+--------------
+
+GPS定位获取到的数据如何转换？（针对A9G、EC-01G以及GP-01/GP-02模组）
+--------------
+答：获取到GNGGA经纬度数据需转换公式：data/100 + data(整数部分)%100/60 + data(小数部分)/600000。
+获取到的数据为WGS84坐标系，还需转换为GCJ02坐标系。
+
+NB-Iot系列模组支持短信发送吗？
+--------------
+EC系列模组支持短信发送，前提是物联网卡开通短信功能。
+
+安信可的NB-Iot模组支持PSM模式吗？
+--------------
+支持。前提：搭载的物联网卡支持该模式。
+
+EC-01G模组定位精度是多少
+--------------
+10米
+
+EC-01G定位信息获取和NB-IOT的交互是共用一个串口还是独立分开的串口
+--------------
+共用同一个串口
