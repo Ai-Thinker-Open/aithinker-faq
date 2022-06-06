@@ -11,6 +11,16 @@ WiFi
 
    espressif/*
 
+
+海思系列相关
+---------
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   Hi/*
+
+
 RTL87XX系列
 ---------
 
