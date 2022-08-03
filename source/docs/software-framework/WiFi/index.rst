@@ -11,6 +11,13 @@ WiFi
 
    espressif/*
 
+WB2系列相关
+---------
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   BL/*
 
 海思系列相关
 ---------

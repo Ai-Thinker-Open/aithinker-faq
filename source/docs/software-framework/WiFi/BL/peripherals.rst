@@ -1,0 +1,61 @@
+外设
+====
+
+:link_to_translation:`en:[English]`
+
+.. raw:: html
+
+   <style>
+   body {counter-reset: h2}
+     h2 {counter-reset: h3}
+     h2:before {counter-increment: h2; content: counter(h2) ". "}
+     h3:before {counter-increment: h3; content: counter(h2) "." counter(h3) ". "}
+     h2.nocount:before, h3.nocount:before, { content: ""; counter-increment: none }
+   </style>
+
+--------------
+
+ADC的精度和采样率是多少？
+----------------------------
+ADC实际精度为12BIT,当OSR=256,打开平均值滤波的时候可以达到16bit精度。 当ADC工作在非多通道扫描模式时,最大可支持2M采样率。
+如果是多通道扫描模式，最大支持1M采样率。
+
+
+mtimer的作用是什么，它是如何工作的？
+----------------------------
+MTimer为内核提供的一个timer，开启后实现计时功能，计数值与比较值寄存器位于内核，使用方式与一般timer无明显区别。
+
+芯片包含几个timer?
+----------------------------
+1个64-bit mtimer，2个32-bit normal timer，1个16-bit watchdog timer。
+
+
+看门狗的超时时间如何设置？超时的现象是什么？
+-------------------------------------------------
+看门狗包含一个计数器和比较器，通过写入比较器的值，当计数器向上计数达到比较器的值时，会产生一个看门狗中断信号或者一个系统复位信号，
+具体产生哪种信号由用户自行设置。
+
+
+GPIO的配置参数有哪些？如何配置？
+-------------------------------------------------
+gpioPin : GPIO pin number， GPIO编号 gpioFun : GPIO function， GPIO功能 gpioMode : input/output/af， 
+输入/输出/复用模式 pullType : pull_up/pull_down/pull_none， 上拉/下拉/浮空 drive : drive strength， 驱动能力，
+数值越大驱动能力越强 smtCtrl : smt, 迟滞控制，建议设一 详情参见低RM GPIO章节。
+
+
+GPIO的引脚在使用时有什么需要注意的？
+-------------------------------------------------
+需要正确配置GPIO结构体，不建议同时使能input与output。
+
+
+SPI一次最多发送多少字节？发送机制是什么？
+-------------------------------------------------
+SPI一次可发送任意长度个字节，只需要保持tx fifo中有持续可用的数据，另外tx fifo的宽度可根据需要设置为8/16/24/32-bit。
+发送机制是：使能spi发送功能之后，tx fifo中的数据会按照设定的位宽和bit顺序进入移位寄存器中，然后按照极性和相位的设置在每一个时钟的上升沿/下降沿去改变MISO/MOSI的引脚电平将数据发送出去。
+例如CPOL=1，CPHA=1，则SPI时钟空闲时为高电平，数据在时钟的上升沿被送出。
+
+
+芯片是否支持播放/录音的功能，支持哪些常用的频率和位宽？
+----------------------------------------------------------------------
+芯片内置12-bit ADC以及10-bit DAC，可以通过ADC和DAC的基本功能配合推荐的功放/录音电路，完成播放和录音的功能。
+仅支持8K常用采样率16-bit位宽播放，因为DAC的时钟仅支持32K 16K 8K 512K四种采样率可选，没有专业的audio PLL ，只有8K是常用的播放采样率，其他采样率不常用。
