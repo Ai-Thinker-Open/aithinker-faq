@@ -11,7 +11,7 @@ WiFi
 
    espressif/*
 
-WB2系列相关
+博流系列相关
 ---------
 .. toctree::
    :maxdepth: 1
@@ -56,3 +56,6 @@ RTL87XX系列
    :glob:
 
    XW/*
+
+   
+

@@ -1,4 +1,4 @@
-安信可 GPS系列模块 FAQ
+EC系列相关
 ======
 
 .. raw:: html
@@ -10,8 +10,6 @@
      h3:before {counter-increment: h3; content: counter(h2) "." counter(h3) ". "}
      h2.nocount:before, h3.nocount:before, { content: ""; counter-increment: none }
    </style>
-
---------------
 
 GPS定位获取到的数据如何转换？（针对A9G、EC-01G以及GP-01/GP-02模组）
 --------------
