@@ -11,3 +11,6 @@
      h2.nocount:before, h3.nocount:before, { content: ""; counter-increment: none }
    </style>
 
+Ai-WB2系列模组支持哪些开发方式
+---------------------------
+AT开发，window环境和liunx环境开发
