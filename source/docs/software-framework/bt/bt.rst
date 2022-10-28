@@ -131,3 +131,7 @@ PB-01模组能否在没有网关的情况下实现mesh自组网？
 TB-02模组的MASH组网SDK开源么
 ---------------------------
 开源的，SDK仓库链接为：https://github.com/Ai-Thinker-Open/Telink_SIG_Mesh
+
+TB-03F V8固件，V9固件和AT MESH固件有啥区别
+--------------------
+V8 V9固件为AT基本功能固件，不具备MESH功能；AT MESH固件支持组网通信
