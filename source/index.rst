@@ -13,10 +13,7 @@ AiThinker-FAQ
 ------------------  ------------------  ------------------
 `软件使用`_          `硬件相关`_         `出厂固件`_
 ==================  ==================  ==================
-|快速入门|_          |API参考|_         |API指南|_
-------------------  ------------------  ------------------
-`快速入门`_          `API参考`_         `API指南`_
-==================  ==================  ==================
+
 
 
 .. |使用说明| image:: _static/instruction.png
@@ -37,14 +34,7 @@ AiThinker-FAQ
 .. |出厂固件| image:: _static/test-verification.png
 .. _出厂固件: docs/taobao/index.html
 
-.. |快速入门| image:: _static/instruction.png
-.. _快速入门: docs/bl_instruction/index.html
 
-.. |API参考| image:: _static/api-reference.png
-.. _API参考: docs/api-reference/index.html
-
-.. |API指南| image:: _static/api-guides.png
-.. _API指南: docs/api-guides/index.html
 
 联系我们
 ~~~~~~~~~~~~~~
@@ -65,6 +55,4 @@ AiThinker-FAQ
    docs/software-framework/index
    docs/hardware-related/index
    docs/taobao/index
-   docs/bl_instruction/index
-   docs/api-reference/index
-   docs/api-guides/index
+   

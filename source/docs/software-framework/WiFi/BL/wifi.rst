@@ -13,3 +13,6 @@ Wi-Fi
      h2.nocount:before, h3.nocount:before, { content: ""; counter-increment: none }
    </style>
 
+
+
+**安信可Ai-WB2系列SDK和API参考链接：** `参考链接 <https://wb2-api-web.readthedocs.io/en/latest/docs/api-guides/index.html>`__ 
