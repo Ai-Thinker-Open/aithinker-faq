@@ -104,3 +104,9 @@ EC-01F模组可以接STM32上么？
 EC-01F模组通过MQTT协议入网阿里物联网平台的指令有误，是为什么？
 -----------------------------------------------
 EC-01F模组入网阿里云的指令配置的是入网三元组的原始数据，不需像ESP-12F那样用户通过计算得出入网参数。
+
+请问一下EC-01F开发板可以连接STM32开发板么？
+--------------------------------
+可以，使用详情
+`参考链接  <https://blog.csdn.net/Boantong_/article/details/121177613?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522166878049216782427410678%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=166878049216782427410678&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-5-121177613-null-null.nonecase&utm_term=ec&spm=1018.2226.3001.4450
+>`__
