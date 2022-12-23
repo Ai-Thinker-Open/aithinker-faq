@@ -1128,3 +1128,50 @@ ESP32S3的ESP-IDF框架与ESP32是一样的吗？
 ESP-15可以接3.3V供电么？
 -------------------
 可以
+
+请问一下为何我用电脑调试AT指令没有什么问题，但是MCU发送指令却不行，且老是打印信息：
+--------------------
+
+::
+
+  ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+  load 0x40100000, len 6960, room 16 
+  tail 0
+  chksum 0xa5
+  load 0x3ffe8008, len 24, room 8 
+  tail 0
+  chksum 0x2c
+  load 0x3ffe8020?
+  ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+  load 0x40100000, len 6960, room 16 
+  tail 0
+  chksum 0xa5
+  load 0x3ffe8008, len 24, room 8 
+  tail 0
+  chksum 0x2c
+  load 0x3ffe80?
+  ets Jan  8 2013,rst cause:2, boot mode:(3,6)
+
+  load 0x40100000, len 6960, room 16 
+  tail 0
+  chksum 0xa5
+  load 0x3ffe8008, len 24, room 8 
+  tail 0
+  chksum 0x2c
+  load 0x3ffe80
+
+检查一下EN引脚的供电情况，另外启动模组的时候，需要足够的复位时间才可正常启动；
+
+请问ESP-12F开发板支持修改固件么？我这边想实现WIFI配网，但不是操作通过AT指令的方式；
+---------------------------
+可以，开发资料开源的，请查看链接：https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/index.html
+
+请问为什么规格书中说明：ESP-12F的IO9、IO10引脚不可用？
+---------------------------
+这两个引脚应用于flash驱动，不能用
+
+8266模块烧写固件后出现exception错误该如何排查
+------------------------
+检查是否出现烧录固件不完全的情况，可以尝试更换一个质量靠谱的烧录工具
