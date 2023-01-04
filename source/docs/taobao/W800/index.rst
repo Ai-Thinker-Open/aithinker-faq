@@ -30,3 +30,15 @@ Ai-WB1系列
 - Ai-WB1-A1S实现离线语音+APP+天猫精灵控制风扇
 
 **固件下载：** `<https://docs.ai-thinker.com/_media/ai-wb1/ai-wb1-a1s-voice_v1.1.zip>`__
+
+
+1.4 Ai-WB1-A1S-VOICE出厂固件
+~~~~~~~~~~~~~~~~~~~
+
+**说明：**
+
+- Ai-WB1-A1S-VOICE出厂固件
+
+-版本号V4.18_P1.2.0
+
+**固件下载：** `<https://docs.ai-thinker.com/_media/ai-wb1-a1s-voice%E5%87%BA%E5%8E%82%E5%9B%BA%E4%BB%B6_v4.18_p1.2.0.rar>`__
