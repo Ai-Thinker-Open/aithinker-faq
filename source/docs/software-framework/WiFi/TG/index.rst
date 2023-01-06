@@ -107,3 +107,7 @@ TG-02模组能否实现自组网？
 TG-02模块可以通过AT指令修改蓝牙名称吗
 --------------------------
 不可以修改
+
+请问一下TG-12F模组如何实现天猫精灵对接？
+---------------------------
+跟着说明文档（https://blog.csdn.net/Boantong_/article/details/109451425?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167272431116800182734936%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=167272431116800182734936&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-3-109451425-null-null.blog_rank_default&utm_term=TG&spm=1018.2226.3001.4450）操作即可实现；
