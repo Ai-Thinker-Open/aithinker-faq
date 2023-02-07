@@ -8,7 +8,7 @@ Ai-WB2系列
 **说明：**
 
 - V4.18_P1.4.4
-1. 更新 AI_ComboSDK 到 V4.18_P2.19.1
+1. 更新 AT_ComboSDK 到 V4.18_P2.19.1
 2. socket添加自动删除功能
 3. 新增指令AT+WSCANOPT,用于选择AT+WSCAN的输出信息
 

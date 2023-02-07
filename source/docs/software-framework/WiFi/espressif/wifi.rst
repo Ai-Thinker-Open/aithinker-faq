@@ -883,12 +883,14 @@ ESP-15F上面没有复位按键需要如何进入配网模式
 你好，请问一下ESP-12F有GPIO3引脚吗？
 --------------------
 有的，对应模组的RXD引脚，如下图所示
-.. image:: img/ESP-12F_GPIO.png
+
+.. image:: img/ESP-12F_GPIO.jpg
 
 请问一下ESP-12F模组可以获取网络时间么？
 ----------------
 可以调用以下指令即可：
-.. image:: img/ESP-12F_NetTime.png
+
+.. image:: img/ESP-12F_NetTime.jpg
 
 请问ESP-01S模组掉电以后AP部分内容需要重新配置么？
 -------------------

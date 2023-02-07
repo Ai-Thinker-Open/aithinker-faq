@@ -10,7 +10,7 @@
 
 **固件下载：** `(固件号：1212)  <https://docs.ai-thinker.com/_media/comat_1212.zip>`__
 
-**蓝牙ble透传(非mesh) AT指令集：** `<https://docs.ai-thinker.com/_media/pb%E7%B3%BB%E5%88%97%E6%A8%A1%E7%BB%84%E9%80%9A%E7%94%A8at_v1006%E7%89%88%E6%9C%AC%E6%8C%87%E4%BB%A4_v1.1.3.pdf>`__
+**蓝牙ble透传(非mesh) AT指令集：**  `(指令集链接) <https://docs.ai-thinker.com/_media/pb%E7%B3%BB%E5%88%97%E6%A8%A1%E7%BB%84%E9%80%9A%E7%94%A8at_v1006%E7%89%88%E6%9C%AC%E6%8C%87%E4%BB%A4_v1.1.3.pdf>`__
 
 1.2 天猫精灵对接AT专有固件
 ~~~~~~~~~~~~~~~~~~~
@@ -25,8 +25,21 @@
 
 ~~~~~~~~~~~~~~~~
 
+1.3 PB-03蓝牙从机连接状态保持浅休眠功耗版本AT固件
+~~~~~~~~~~~~~~~~~~~
 
-2. 泰凌TB系列固件
+**说明:**
+
+- 指令集同COMBO AT指令集
+
+- 支持BLE从机连接状态下保持低功耗状态
+
+- 若需要更低的平均功耗，适当调整从机连接间隔
+
+**固件下载：** `(下载链接) <https://docs.ai-thinker.com/_media/%E8%93%9D%E7%89%99%E4%BB%8E%E6%9C%BA%E8%BF%9E%E6%8E%A5%E7%8A%B6%E6%80%81%E4%BF%9D%E6%8C%81%E6%B5%85%E4%BC%91%E7%9C%A0%E5%8A%9F%E8%80%97%E7%89%88%E6%9C%ACat%E5%9B%BA%E4%BB%B6.rar>`__
+
+
+2. 泰凌TB系列
 ================
 
 2.1 Ble AT固件固件

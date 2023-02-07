@@ -33,7 +33,8 @@ WB2系列模组在做干扰规避测试项，表格上因填写什么参数
 
 请问有没有支持入网阿里云的WiFi、蓝牙双模模组？
 -----------------------------------
-Ai-WB2系列模组均支持的，可通过AT指令入网阿里云，操作过程见链接：https://blog.csdn.net/Boantong_/article/details/112971695?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167141430716800215099422%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=167141430716800215099422&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-1-112971695-null-null.nonecase&utm_term=%E9%98%BF%E9%87%8C&spm=1018.2226.3001.4450，指令与文档中描述的指令是一样的；
+Ai-WB2系列模组均支持的，可通过AT指令入网阿里云 `(操作过程见链接)  <https://blog.csdn.net/Boantong_/article/details/112971695?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167141430716800215099422%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=167141430716800215099422&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-1-112971695-null-null.nonecase&utm_term=%E9%98%BF%E9%87%8C&spm=1018.2226.3001.4450>`__
+，指令与文档中描述的指令是一样的；
 
 请问一下，我这边Ai-WB2-12F模组是否支持lua语言开发？
 ------------------------
