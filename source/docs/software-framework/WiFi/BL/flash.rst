@@ -141,3 +141,7 @@ flash支持列表
 WB2二次开发调用哪个函数接口可以获取整个内存的剩余空间
 -------------------
 可以调用xPortGetFreeHeapSize()和xPortGetMinimumEverFreeHeapSize()这两个函数接口进行获取
+
+WB2模块外置FLASH和内置FLASH有什么区别
+----------------------
+模块外置FLASH指的是模组内部除了有一个WIFI芯片还带有一个flash芯片；模块内置flash指的是WIFI芯片自带flash

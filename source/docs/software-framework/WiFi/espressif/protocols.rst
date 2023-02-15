@@ -143,3 +143,10 @@ ESP8266 测试 RTOS-SDK mqtt/ssl_mutual_auth 为何连接服务器失败？
   - 出现 SSL 无法连接可能是由于 ESP8266 内存不足导致。
   - 请使用 ESP8266-RTOS-SDK Master 版本来测试此例程，Master 版本支持在 menuconfig 配置端动态分配内存，可以减少峰值内存的开销。
   - 通过 menuconfig -> Component  config -> mbadTLS -> (键 “Y” Enable)Using  dynamic TX /RX buffer  -> (键 “Y” Enable) Free SSL peer certificate after its usage -> (键 “Y” Enable) Free certificate, key and DHM data after its usage 。
+
+请问如何去掉ESP-01S模组的上电进入透传功能？
+-----------------------
+配置如下指令即可：
+
+.. image:: img/ESP开机透传.jpg
+
