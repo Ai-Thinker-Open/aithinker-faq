@@ -37,6 +37,23 @@ Ai-WB1系列
    W800/*
 
 
+Ai-WB3系列
+--------
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   WB3/*
+
+
+Ai-M62系列
+--------
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   M62/*
+
 
 RTL87XX系列
 --------

@@ -641,3 +641,8 @@ ESP32 如何关闭程序 LOG 输出？
   - 关闭 bootloader 日志：menuconfig -> bootloader config --> bootloader log verbosity 选定为 No output 。
   - 关闭程序日志：menuconfig -> Component config --> log output --> Default log verbosity 选定为 No output 。
   - 关闭 UART0 输出日志：menuconfig -> Component Config ->Common ESP-related -> Channel for console output -> None 。
+
+
+ESP-15F模组支持microbit之类的单片机编程吗
+-------------
+支持
