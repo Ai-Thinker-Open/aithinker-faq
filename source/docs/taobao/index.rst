@@ -55,6 +55,15 @@ Ai-M62系列
    M62/*
 
 
+Ai-M61系列
+--------
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   M61/*
+
+
 RTL87XX系列
 --------
 .. toctree::

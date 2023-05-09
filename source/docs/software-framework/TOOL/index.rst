@@ -34,3 +34,8 @@ https://docs.ai-thinker.com/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B72
 有支持研发电台的模块吗
 ---------------------
 目前没有支持研发电台的模组
+
+请问：AiThinkerIDE_V1.5.2软件为什么老是安装失败？
+-------------------
+建议换一个开发环境，该软件已经不再维护了。这是开发环境搭建指导文档：
+`参考链接  <https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/windows-setup.html>`__
