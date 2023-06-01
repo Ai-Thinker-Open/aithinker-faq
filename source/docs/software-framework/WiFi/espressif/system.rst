@@ -646,3 +646,12 @@ ESP32 如何关闭程序 LOG 输出？
 ESP-15F模组支持microbit之类的单片机编程吗
 -------------
 支持
+
+ESP-12F模组能装操作系统吗
+------------------
+可以装FreeRTOS实时操作系统
+
+请问ESP-12F模组如何搭建开发环境呢？
+---------------------------
+`参考链接 <https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/index.html#setup-toolchain>`__（该说明文档没有中文版的）
+
