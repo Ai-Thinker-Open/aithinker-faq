@@ -39,3 +39,7 @@ https://docs.ai-thinker.com/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B72
 -------------------
 建议换一个开发环境，该软件已经不再维护了。这是开发环境搭建指导文档：
 `参考链接  <https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/windows-setup.html>`__
+
+请问设备是铝合金和铁制外壳，会影响信号传输么？
+--------------------
+会，金属物质会吸收射频波，对信号传输影响很大；

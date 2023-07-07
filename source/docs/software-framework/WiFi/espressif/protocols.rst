@@ -183,3 +183,8 @@ ESP8266支持音频透传吗
 8266的UDP能不能实现1对多连接
 -----------------------
 可以实现，通过组播的方式
+
+请问ESP-12F支持通过腾讯云控制设备么？
+-------------------
+支持，烧录腾讯云固件（获取链接： `点击  <https://docs.espressif.com/projects/esp-at/zh_CN/release-v2.2.0.0_esp8266/Customized_AT_Commands_and_Firmware/Tencent_Cloud_IoT_AT/index.html>`__）或者自主开发均可实现；
+腾讯云固件使用串口引脚为：TXD=GPIO15, RXD=GPIO13
