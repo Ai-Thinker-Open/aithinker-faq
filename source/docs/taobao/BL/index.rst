@@ -14,27 +14,27 @@
     * - 版本号
       - 更新内容
     * - V4.18_P2.5.1
-      - 适配 AI_HalWifiOff() 接口 
+      - 1.适配 AI_HalWifiOff() 接口 
     * - V4.18_P2.5.0
       - 1.更新flash保存方法
         
         2.更新 AI_ComboSDK
 
     * - V4.18_P2.31.1
-      - 透传模式禁止 EVENT 打印
+      - 1.透传模式禁止 EVENT 打印
     * - V4.18_P2.31.0
-      - 添加DNS相关指令
+      - 1.添加DNS相关指令
 
         AT+WDOMAIN
 
         AT+WDNS
 
     * - V4.18_P2.30.0
-      - 添加wifi重连
+      - 1.添加wifi重连
     * - V4.18_P2.29.5
-      - 取消 AI_SocketSslMalloc() static修饰
+      - 1.取消 AI_SocketSslMalloc() static修饰
     * - V4.18_P2.4.2
-      - 修复wifi直接断电时没有触发wifi断开事件导致的异常
+      - 1.修复wifi直接断电时没有触发wifi断开事件导致的异常
     * - V4.18_P2.4.1
       - 1.修改低功耗宏定义，使之和文档保持一致
 
@@ -43,15 +43,15 @@
         3.修复低功耗GPIO唤醒设置失败问题
 
     * - V4.18_P2.4.0
-      - MQTT添加无证书校验的SSL连接
+      - 1.MQTT添加无证书校验的SSL连接
     * - V4.18_P2.3.2
-      - 消告警
+      - 1.消告警
     * - V4.18_P2.3.1
-      - http添加没有Content-Length时通过结束符判断请求结束
+      - 1.http添加没有Content-Length时通过结束符判断请求结束
     * - V4.18_P2.3.0
-      - 更新 AI_ComboSDK  
+      - 1.更新 AI_ComboSDK  
     * - V4.18_P2.27.2
-      - MQTT 密码长度改为最大255字节
+      - 1.MQTT 密码长度改为最大255字节
     * - V4.18_P2.28.0
       - 1.添加SNTP相关指令
 
@@ -64,23 +64,23 @@
         2.适配SNTP接口
   
     * - V4.18_P2.2.3
-      - 更新 AI_ComboSDK
+      - 1.更新 AI_ComboSDK
     * - V4.18_P2.27.1
-      - 将mqtt收发buf默认值改为2K
+      - 1.将mqtt收发buf默认值改为2K
     * - V4.18_P2.27.0
-      - tcp client 添加断线自动重连功能    
+      - 1.tcp client 添加断线自动重连功能    
     * - V4.18_P2.26.1
-      - 修复 UDPServer自动接收数据卡死问题
+      - 1.修复 UDPServer自动接收数据卡死问题
     * - V4.18_P2.26.0
-      - 添加wifi关闭API接口 AI_HalWifiOff()
+      - 1.添加wifi关闭API接口 AI_HalWifiOff()
     * - V4.18_P2.25.1
-      - 修复不连接设置wifi自动连接不生效问题
+      - 1.修复不连接设置wifi自动连接不生效问题
     * - V4.18_P2.24.2
       - 1.添加 int Ai_IOMapGetICPinByIndex(uint8_t modePin) 接口
         
         2.AT+SLEEP增加没有初始化IOMAP的判断
     * - V4.18_P2.25.0
-      - tcp keep alive 参数实现
+      - 1.tcp keep alive 参数实现
         
     * - V4.18_P2.24.1
       - 1.修复socket的accept参数错误
@@ -88,9 +88,9 @@
         2.增加AI_HalWifiSetMac()接口
 
     * - V4.18_P2.24.0
-      - 开机自动重连添加不校验直接保存wifi参数的选项
+      - 1.开机自动重连添加不校验直接保存wifi参数的选项
     * - V4.18_P2.23.2
-      - 修复wifi上电自动进入透传模式失败问题
+      - 1.修复wifi上电自动进入透传模式失败问题
     * - V4.18_P2.23.1
       - 1.添加 AI_TakePrintLock(),AI_GivePrintLock(),AI_DataPrintNoLock()接口
 
@@ -102,7 +102,7 @@
 
         3.修复wifi连接失败后wifi扫描失败问题
     * - V4.18_P2.2.1
-      - 修改wifi名称和密码最大支持63字节
+      - 1.修改wifi名称和密码最大支持63字节
 
     * - V4.18_P2.2.0
       - 1.睡眠模式增加配置唤醒源的参数
@@ -115,9 +115,9 @@
         2.修复 esp BluFi 蓝牙配网成功后无法查询wifi连接信息问题
 
     * - V4.18_P2.0.1
-      - 更新 AI_ComboSDK
+      - 1.更新 AI_ComboSDK
     * - V4.18_P2.0.2
-      - 更新mqtt clinent ID/账号/密码 长度为127  
+      - 1.更新mqtt clinent ID/账号/密码 长度为127  
     * - V4.18_P2.0.0
       - 1.更新 AI_ComboSDK
 
