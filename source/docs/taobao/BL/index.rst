@@ -165,7 +165,7 @@
 
  ################################################
 
-**固件下载：** `(固件号：2235)  <https://axk.coding.net/s/add8b1ea-92ea-4ac0-b3d1-8a49f2aee1e6>`__
+**固件下载：** `(固件号：2235)  <https://docs.ai-thinker.com/_media/bl602_combo_v4.18_p2.5.1_combov4.18_p2.31.1_-2m_1_.zip>`__
 
 
 
