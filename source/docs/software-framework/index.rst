@@ -111,6 +111,14 @@ NB系列
    Rd/*
 
    
+开源硬件-小安派系列
+---------
+.. toctree::
+   :maxdepth: 1
+   :glob:
+
+   Ai-pi/*
+
 其它
 ---------
 .. toctree::
