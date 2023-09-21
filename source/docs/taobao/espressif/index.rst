@@ -71,7 +71,7 @@
 ~~~~~~~~~~~~~~~~~~~~~
 
 **说明：** 
-2-S开发板固件 <https://axk.coding.net/s/aa00d771-55d0-4ce0-b6a4-3e54e09f3b0e>`__
+**开发板固件:** `<https://axk.coding.net/s/aa00d771-55d0-4ce0-b6a4-3e54e09f3b0e>`__
 
 3. ESP32-S2系列
 ================
@@ -87,9 +87,9 @@
 - 固件大小：4MB
 - UART 默认配置：RX16，TX17，波特率：115200
 
-**08固件下载：** `ESP32-S2 出厂固件(固件号：1204) <https://axk.coding.net/s/2dc4b06a-f834-44e8-8268-f39b8e4f9beb>`__ (带PSRAM)
+**固件下载：** `ESP32-S2 出厂固件(固件号：1204) <https://axk.coding.net/s/2dc4b06a-f834-44e8-8268-f39b8e4f9beb>`__ (带PSRAM)
 
-**00固件下载：** `ESP32-S2 出厂固件(固件号：1205) <https://axk.coding.net/s/82ce0d42-709e-4b7b-afd7-fee7da666839>`__ (不带PSRAM)
+**固件下载：** `ESP32-S2 出厂固件(固件号：1205) <https://axk.coding.net/s/82ce0d42-709e-4b7b-afd7-fee7da666839>`__ (不带PSRAM)
 
 4. ESP-C3系列
 ===============

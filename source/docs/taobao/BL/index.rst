@@ -1,7 +1,7 @@
-1.ComboAT固件
+1.Combo-AT固件
 ==================
 
-1.1 最新版ComboAT固件(固件号2235)
+1.1 最新版Combo-AT固件(固件号2235)
 ~~~~~~~~~~~~~~~~
 
 **说明：**
@@ -165,11 +165,11 @@
 
  ################################################
 
-**固件下载：** `(固件号：2235)  <https://docs.ai-thinker.com/_media/bl602_combo_v4.18_p2.5.1_combov4.18_p2.31.1_-2m_1_.zip>`__
+**固件下载：** `(固件号：2235)  <https://docs.ai-thinker.com/_media/bl602_combo_v4.18_p2.5.1_combov4.18_p2.31.1_-2m.rar>`__
 
 
 
-1.2  ComboAT固件(固件号1923)
+1.2  Combo-AT固件(固件号1923)
 ~~~~~~~~~~~~~~~~
 
 **说明：**
@@ -269,16 +269,16 @@
 
   ################################################
 
-**固件下载：** `(固件号：1923)  <https://docs.ai-thinker.com/_media/bl602_combo_v4.18_p1.4.4_combov4.18_p2.19.1_-2m.zip>`__
+**固件下载：** `(固件号：1923)  <https://docs.ai-thinker.com/_media/1923_bl602_combo_v4.18_p1.4.4_combov4.18_p2.19.1_-2m.rar>`__
 
-1.3  最初版Combo AT出厂固件
+1.3  最初版Combo-AT出厂固件
 ~~~~~~~~~~~~~~~~
 
 **说明：**
 
 - Ai-WB2系列出厂AT固件 版本号V4.18_P1.1.0
 
-**固件下载：** `<https://docs.ai-thinker.com/_media/wb2.zip>`__
+**固件下载：** `(点击下载) <https://docs.ai-thinker.com/_media/bl602_combo_v4.18_p1.1.0_combov4.18_p2.15.2_-2m.rar>`__
 
 
 **启动信息：**
@@ -325,4 +325,4 @@
 
   ready
 
-**固件下载：** `(点击下载)  <https://docs.ai-thinker.com/_media/bl_esp_v2.3.3-2mb.zip>`__
+**固件下载：** `(点击下载)  <https://docs.ai-thinker.com/_media/bl_602_2103.rar>`__

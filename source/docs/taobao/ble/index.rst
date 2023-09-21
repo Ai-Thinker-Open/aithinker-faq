@@ -7,7 +7,7 @@
 **说明：**
 
 - BLE常规功能
-- ComboAT固件
+- Combo-AT固件
 
 **固件下载：** `(固件号：1212)  <https://docs.ai-thinker.com/_media/comat_1212.zip>`__
 
@@ -26,12 +26,12 @@
 
 ~~~~~~~~~~~~~~~~
 
-1.3 PB-03系列模组ComboAT固件
+1.3 PB-03系列模组Combo-AT固件
 ~~~~~~~~~~~~~~~~~~~
 
 **说明:**
 
-- ComboAT固件
+- Combo-AT固件
 
 
 **固件下载：** `(固件号1589) <https://docs.ai-thinker.com/_media/combofirmware_v1.3.0.zip>`__
@@ -42,7 +42,7 @@
 
 **说明:**
 
-- 指令集同ComboAT指令集
+- 指令集同Combo-AT指令集
 
 - 支持BLE从机连接状态下保持低功耗状态
 
@@ -60,7 +60,7 @@
 
 **说明：**
 
-- TB-02/03F/04模组ComboAT固件
+- TB-02/03F/04模组Combo-AT固件
 - 版本:V0.9
 
 **固件下载：** `(固件号：1268) <https://docs.ai-thinker.com/_media/1268%E5%8F%B7%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7.zip>`__
@@ -76,12 +76,12 @@
 **固件下载：** `(固件号：1183) <https://docs.ai-thinker.com/_media/privatmesh_1183_.zip>`__
 
 
-2.3 COMAT固件
+2.3 Combo-AT固件
 ~~~~~~~~~~~~~~~~~~
 
 **说明：**
 
-- TB-02/03F/04模组ComAT固件
+- TB-02/03F/04模组Combo-AT固件
 - 运行速率更换为32M适配精度要求高的蓝牙连接
 - 适配对应波特率 9600/115200/921600
 
