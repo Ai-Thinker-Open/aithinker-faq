@@ -65,7 +65,13 @@
 - 按下esc 再 :wq 表示写入保存： `source ~/.bashrc`
 - 测试是否设置变量成功： `tc32-elf-gcc -v`
 
-.. image:: ../../../_static/tb/2020022422013424.gif
+.. only:: format_html
+
+   .. image:: ../../../_static/tb/2020022422013424.gif
+
+.. only:: format_latex
+
+   .. image:: ../../../_static/tb/2020022422013424.png
 
 2.3 安装SDK并编译
 ::::::::::::::::
