@@ -1,0 +1,214 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/development-environment/BT/tb.rst:2
+#: 4413db12046440abb88a3765078b6648
+msgid "泰凌微TB系列"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:6
+#: 4225b906acba4daaae6a02abc281cf85
+msgid "1. 简介"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:7
+#: d73a958c64254639a28256e2feef94d0
+msgid ""
+"安信可科技针对物联网设计通用型的蓝牙模组，其功能强大、用途广泛。可以用于智能灯、智能插座、智能空调等其他智能家电。同时符合BLE 5.0及SIG "
+"Mesh规范，可直接通过智能手机组建Mesh网络，也可对接天猫精灵智能音箱，适用于多种智能家居应用场景。"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:9
+#: b7a9434a33fa445abe976613dceda62a
+msgid "更多资料请转跳： `安信可官方docs <https://docs.ai-thinker.com/blue_tooth>`__"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:12
+#: 2ecd081c80fc44b59669ba0fbbc4cf5f
+msgid "2. 开发环境搭建"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:15
+#: f6b5474cedf1486fa1d26b67f306dd48
+msgid "2.1 安装软件和依赖"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:16
+#: 34e957c39ecd48ca820370513b051771
+msgid "**推荐环境：**"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:18
+#: 0aafeef7db234759adf47ae51a662078
+msgid "GCC：gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:19
+#: 2f1c4da66ed34c5a969307bd178df0bf
+msgid "Python：3.6"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:20
+#: e1b6a43cbf484a3ebb3037f1430853b9
+msgid "内核：Linux ubuntu 5.3.0-28-generic #30~18.04.1-Ubuntu  x86_64 GNU/Linux"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:22
+#: f09aeeb6433845488d4aea1aa25c6138
+msgid ""
+"为了更好大家玩玩，这里给大家小白入门安装 Linux 系统； 下载 VM 虚拟机 版本15.5.1， `点我下载 "
+"<https://www.vmware.com/go/getworkstation-win>`__ ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:27
+#: 6413c2214aa04ea28b3bae34b3684a62
+msgid "和谐码： **FC7D0-D1YDL-M8DXZ-CYPZE-P2AY6**"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:29
+#: 240ba79ffa604234b6e1d1ba115ee946
+msgid ""
+"下载镜像，这里选择ubuntu桌面版18.04.4版本， `点我下载 <http://mirrors.aliyun.com/ubuntu-"
+"releases/18.04.4/ubuntu-18.04.4-desktop-amd64.iso>`__ ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:33
+#: 36ebe996cf494336a11a49af39ecdd26
+msgid ""
+"重要的一步，VM安装乌邦图步骤请参考如下教程， `点我访问 "
+"<https://jingyan.baidu.com/article/f96699bb147a73894e3c1b2e.html>`__ "
+"导进之之后，我们还需要安装几个常用的软件 ： ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:40
+#: e68f1ff1601e4d0eabae3639bc6a0064
+msgid "还有一个Python3.6要安装哈！ ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:53
+#: 4bdb52599ae948c6981faf5b5fae27ff
+msgid "2.2 安装环境"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:55
+#: 2b15c84a11674aaa9a370d0683f59f13
+msgid "下载链接获取工具链： ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:58
+#: 4fd043601bd346a087d1f31c5271fb7f
+msgid "解压到 opt文件夹里面，之后得到的文件夹名字是《tc32》: ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:61
+#: 0618c7a9f74c4d6a88fb9e9e8ea57604
+msgid "设置环境变量， **不懂linux小白的同学，认真看下面的动图哈** ："
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:63
+#: dc652ef5b05b467fad54c2fef79f4f79
+msgid "之后按下 i 表示嵌入代码： `vim ~/.bashrc`"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:64
+#: 57ae4844fc3f453288a0dcc2d97e7db4
+msgid "任意一处添加  表示嵌入代码： `export PATH=$PATH:/opt/tc32/bin`"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:65
+#: 6de7a112e2684d57a2c77103a6dff3c8
+msgid "按下esc 再 :wq 表示写入保存： `source ~/.bashrc`"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:66
+#: 76df00418eb54ff4a52450ad498f97d6
+msgid "测试是否设置变量成功： `tc32-elf-gcc -v`"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:71
+#: bbe61c84db374a9b986e16cf691ad2af
+msgid "2.3 安装SDK并编译"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:73
+#: b1232a56822a4afe955c36fa06007ab8
+msgid "以下SDK代码为同步安信可GitHub仓库，并通过git拉取: ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:76
+#: 867487a0e910465bbb0d344750014e2e
+msgid "**注意，务必让文件夹有全部权限，否则编译不通过！** ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:79
+#: a36e2b0dca2c42bda21adf8a47d2fdf5
+msgid "下面编译一个点亮LED 的程序： ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:87
+#: cbde819bc8784f7fb7fd057ab72eb2ed
+msgid "清理残留： **make clean**"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:88
+#: c59ca18ec7864b7e9a935a8c79e34f22
+msgid "编译固件： **make all**"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:89
+#: e6771d18628f4d0bb6defd44e5e4c9c6
+msgid "打开串口监控： **make monitor**"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:92
+#: 4d0b8f8d2abd4433930e1ac921baa916
+msgid "3. 常见问题"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:95
+#: c131d520a0684fedb319c90915a17f7e
+msgid "3.1 如何查看是否开发板已连接到虚拟机Linux了？"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:97
+#: 9a7a0948381e4936ad80b9b0c317aa49
+msgid "先通过查看是否依附，再看看是否在列表中？ **2条指令即可！** ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:105
+#: 521bc4c1fe7b41e5ada3d61fd5410ae4
+msgid "3.2 权限问题 /dev/ttyUSB0"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:106
+#: f811245c65904ebb8193e7e085070049
+msgid ""
+"**使用某些 Linux 版本向 TB-02 烧写固件时，可能会出现 Failed to open port /dev/ttyUSB0 "
+"错误消息。此时，可以将当前用户增加至 :ref: `Linux Dialout 组 <linux-dialout-group>`。**"
+msgstr ""
+
+#: ../../source/docs/development-environment/BT/tb.rst:108
+#: e2534f276fa5468e9bfe33109ea32971
+msgid ""
+"因为默认情况下，只有root用户和属于dialout组的用户会有读写权限，因此直接把自己的用户加入到dialout组就可以了。操作完命令后要重启一下，就永久生效了。"
+" ::"
+msgstr ""
+

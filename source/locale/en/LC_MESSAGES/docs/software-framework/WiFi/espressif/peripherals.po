@@ -1,0 +1,1134 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 14:37+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:2
+#: c83254ebda49497a8cf7f87b4ca0df55
+msgid "外设"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:17
+#: 101d7506d69544f8aca2a966f4c55ac9
+msgid "SDIO 最⾼速度能⽀持到多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:19
+#: ac0aaa5e7972498282414847d6eafe44
+msgid "SDIO 时钟能到 50 MHz, 理论最⾼速度是 200 Mbps。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:24
+#: 306730db47144acea9f5deb5a3fb53b5
+msgid "使⽤ ESP32 做触摸相关应⽤时，哪⾥有相关资料可参考？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:26
+#: 605158ecd6eb4b2381f39fef7153d2cf
+msgid ""
+"请参考推荐的 `软硬件设计 <https://github.com/espressif/esp-iot-"
+"solution/tree/master/examples/touch_pad_evb>`_。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:31
+#: 7bb6abf7a48d4afba10aca8372a1701d
+msgid "ESP-WROOM-02D 模块是否可以外接 SPI Flash ？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:33
+#: b901bf3ff035444f84d0540c03e63420
+msgid "ESP-WROOM-02D 有空闲 SPI 外设，可外接 SPI Flash，用以存储数据。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:38
+#: e072bebdf3d74c799394961c11c71e6c
+msgid "ESP-WROOM-S2 作为从机，STM32 作为 MCU ，可以使⽤ SPI 接⼝下载吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:40
+#: 463c0aa96653406d9e9180f39322ef6f
+msgid "不可以，默认下载功能仅支持串口 UART0，固件启动后可应用中使能其他外设，在应用中⾃⾏设计⽀持 OTA 功能。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:45
+#: 33bc500124d44cd7bd7a19c15659ef7f
+msgid "ESP8266 的 SDIO 是否⽀持 SD 卡？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:47
+#: dfdb885786d742219020098b88a82d92
+msgid "ESP8266 是 SDIO Slave，不⽀持 SD 卡。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:52
+#: 69e91db2a2874c04babec8bc2b051311
+msgid "ESP8266 是否支持 I2C slave 模式？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:54
+#: 313e417f2e684895b75db8572a0008ef
+msgid ""
+"不支持，如果要使用此功能，推荐使用 ESP32-S2 或者 ESP32 芯片。ESP32 参考示例：`i2C_self_test "
+"<https://github.com/espressif/esp-"
+"idf/tree/master/examples/peripherals/i2c/i2c_self_test>`_。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:59
+#: 892fe56bbc33408996c6b03af39bc97e
+msgid "ESP32 管脚配置需要注意什么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:61
+#: 646dd110ca8941d7b5914ce8f1a5417e
+msgid "ESP32 系列模组分为 ESP32-WROOM 系列和 ESP32-Wrover 系列，GPIO 使用配置注意事项如下。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:63
+#: cf2a1e487096445abc62cea4822f497d
+msgid "WROOM-32/32D/32U 系列共有 26 个 pin 脚可供客户使用, 注意事项如下："
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:65
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:73
+#: 1e06137a29bb469e8d7bda7e82bbcbbb a10c3a6e8d4e462ba2ce1e211092ca7a
+msgid "GPIO6～GPIO11 被内置 flash 占用，不可用做它用；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:66
+#: c479901bd78746a3a23a0a8bf31e3708
+msgid "GPIO34，35，36 和 39 为 input only pin 脚，不具备 output 能力"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:67
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:76
+#: 71c1c4b4da394a0fb576dd23b0e354c8 aee2fa94a0074238b350acf50437a117
+msgid "ESP32 内置 GPIO 矩阵，部分外设接口可以配置到任意空闲 pin 脚上，即硬件设计时，不需要严格将某些功能固定在某些 pin 脚上。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:69
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:78
+#: 0db2e216edba4cd3988e2becfc158073 3739e5f4939440dc9cdbe45fbd81267f
+msgid ""
+"详细信息可以参考 `ESP32 datasheet "
+"<https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf>`_"
+" 中表格 9 的内容。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:71
+#: 05607adb0ba54f62891e80649a6e4a87
+msgid "WROVER／WROVER-I／WROVER-B／WROVER-IB 共有 24 个 pin 脚可供客户使用，注意事项如下："
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:74
+#: 5c114f026cbd4cd49f450ff4cf64d0ec
+msgid "GPIO34，35，36 和 39 为 input only pin 脚，不具备 output 能力；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:75
+#: 21ef0ee149144f548890f0b06bfbc7d8
+msgid "WROVER 系列模组中，GPIO12 由于在模组内部被上拉，不建议用做触摸传感功能；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:80
+#: 2962da9ad8374855b426291d5ae8927f
+msgid "ESP32 有 3 组 UART，但下载只可使用 UART0，且 pin 脚固定"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:85
+#: ffd50a9b25d541a9be5da6a6c71bf740
+msgid "ESP32 是否支持 A2DP 发送音频？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:87
+#: dde56e016a3045a082f77a3dcf818b47
+msgid ""
+"ESP32 支持 A2DP 发送音频，可参考例程 `a2dp_source <https://github.com/espressif/esp-"
+"idf/tree/d85d3d969ff4b42e2616fd40973d637ff337fae6/examples/bluetooth/bluedroid/classic_bt/a2dp_source"
+"#esp-idf-a2dp-source-demo>`_。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:92
+#: 6802bb0ac9704c30a7730172c8ac4005
+msgid "ESP8266 I2C 是软件模拟的吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:94
+#: d1895f80589c468cbbded164dcbe6262
+msgid "ESP8266 I2C 是使用 gpio 软件模拟。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:99
+#: eda182141e704bbc85d55d153a527edc
+msgid "使用 ESP8266-NONOS-V3.0 版本的 SDK，如下报错是什么原因？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:105
+#: 60e9669ed57a4e658b71ea95e472112d
+msgid "导致 E:M 开头的 LOG  是内存不足的原因。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:110
+#: 676cd66d9b2c48379c1f77bf1ccd61f8
+msgid "ESP8266 PWM 频率范围是多少呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:112
+#: 2db19efefa314c5eb86660920df03227
+msgid "ESP8266 PWM 是软件模拟的，受定时器限制 CLK 最大为 1M。推荐频率为 1K，也可以通过降低占空比分辨率的方式提高频率。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:117
+#: 3d7d02c7964947999064153d24f6bc25
+msgid "ESP32 GPIO 管脚输出 PWM 存在限制吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:119
+#: d5b782ee41f8412ebc6fef8cd8ce6425
+msgid ""
+"ESP32 PWM 可通过 IO Matrix 切换至任意 GPIO 输出。但是由于 GPIO34 ~ GPIO39 仅为输入模式，故不支持做 "
+"PWM 输出。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:124
+#: ee8589d2a8d14cf5acaa9511af1aeb4d
+msgid "ESP32S2 Touch Sensor 的防水功能是在有水时屏蔽 Touch 还是有水时仍然能识别 Touch 事件？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:126
+#: 567ee04ac51a4bd69b253e9ed13fcb45
+msgid "当水对触摸传感器的影响较小时(水珠)，传感器会主动适应；当水对触摸传感器的影响较大时(水流)，传感器可通过软件配置来选择锁定某些传感器通道的状态来避免水的影响"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:131
+#: 5b4e686057ec4bec9fe594be1020e5df
+msgid "ESP32S2 Touch Sensor 的防水流功能在屏蔽有水流的 Touchpad 时，是否能够保持未沾水的 Pad 仍能使用？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:133
+#: 251adf437d61408f90b9f1cc2bd79306
+msgid "可以，可通过软件选择具体屏蔽的通道"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:138
+#: fe492508fe044621b1f9db0a859a579c
+msgid "是否有推荐的可以用于 Touch Sensor 测试、稳定触发 Touch Sensor 并且参数与人手触摸时参数接近的材料？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:140
+#: 416e63fedd4b499cac6e58df51a96cec
+msgid "对一致性要求较高的实验可使用手机电容笔来替代人手进行测试"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:145
+#: 1f454b86a2bf418e947544ff4866c48f
+msgid "Touch Sensor 的 Pin 能否重映射？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:147
+#: c163cda3aacd431aafe936ae5d399e46
+msgid "不能, 因为 Touch Sensor 属于模拟信号处理。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:152
+#: 8dbd470dfa304e3c8b2ca5f2708d7ed0
+msgid "在覆盖亚克力板后，Touch Sensor 检测阈值是否需要重新设置？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:154
+#: 2762b18210084ac2ac52a3a481528c96
+msgid "需要重新设置一个阈值"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:159
+#: 3aa723fa3b77493e92c1fa1e48d3cf8b
+msgid "Touch Sensor 能否检测是否有亚克力板覆盖，以便在添加或移除亚克力板时，自动切换预设定的检测阈值？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:161
+#: 325c995e7b9248fb977b1013149d9be6
+msgid "暂时不能自动适应覆盖层物理参数变化所带来的影响"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:166
+#: 04df134620b24b12b17b91f5a1db0526
+msgid "ESP32 SD 卡支持的最大容量是多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:168
+#: 24ba108ecf9e415796fb783978d21a6e
+msgid "SD3.01 规范中 SDXC 的卡最大支持 2TB（2048GB）容量。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:169
+#: cb89e6583dc945f09d664f635fa0d182
+msgid ""
+"ESP32 的 SDMMC host 符合 SD3.01 协议，通过该外设可以访问最多 2TB 的区域；使用 SDSPI 驱动通过 SPI "
+"总线访问卡时，硬件也支持访问 2TB 的区域。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:170
+#: a73edf84678547d7af31aaa15f6445cf
+msgid "在软件层面上，卡能使用的空间还受文件系统的影响。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:175
+#: 1de4ed45c77043339d22331c75032be0
+msgid "ESP32 是否支持 USB 功能？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:177
+#: 359035fa2cd54cbb8e3217d4533617fe
+msgid "ESP32 不支持 USB 功能。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:178
+#: 560526ed363a4ef5bc1ce4a454a5452f
+msgid "ESP32-S2 支持 USB1.1 。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:183
+#: 089ac6e7b49946d8b59b1ccb789995c6
+msgid "ESP8266 使⽤ hw timer 中断有哪些注意事项？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:185
+#: 8f5a1c4b95b04779857204422e35df48
+msgid ""
+"可以参考相关 API 文档  `ESP8266 技术参考手册 "
+"<https://www.espressif.com/sites/default/files/documentation/esp8266-technical_reference_cn.pdf>`__。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:186
+#: 8f3e623e41994e6a92bd7cf8c3bc487b
+msgid ""
+"如果使用 NONOS SDK 可以阅读  `ESP8266 Non-OS SDK API 参考 "
+"<https://www.espressif.com/sites/default/files/documentation/2c-"
+"esp8266_non_os_sdk_api_reference_cn.pdf>`__。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:187
+#: 3b43358a30d8465fb069c4149a33d116
+msgid ""
+"通常情况下，硬件中断需要尽快执行结束，并且将回调函数放入 IRAM 中，避免 Cache 影响。 - RTOS SDK 需要函数去添加 "
+"IRAM_ATTR - NonOS SDK 不能在函数前添加 ICACHE_FLASH_ATTR"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:194
+#: d5eefcd98b704d2589e351fe6691be9e
+msgid "ESP32 脉冲宽度调制（PWM）信号是否可以分配任意一个 I/O 上？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:196
+#: 87887029577f4fc6a02b6e307b11ec6d
+msgid "除了只有输⼊功能的 I/O（例如：GPIO34-GPIO39） 之外，理论上 PWM 可以输出到任何管脚。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:197
+#: 9b5c581a7702482a9cf4db6139f22a2b
+msgid "实际使用中仍会受到模组与芯片限制，模组未引出管脚或 Flash 占用等情况影响。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:202
+#: 498d49366db24d959af4494022daabfe
+msgid "ESP32 是否有 I2S 驱动 LCD 的参考代码？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:204
+#: 95181e43671e422389e1c3eb7a482d0d
+msgid ""
+"I2S LCD driver：`esp-iot-solution i2s_devices "
+"<https://github.com/espressif/esp-iot-"
+"solution/tree/master/components/i2s_devices>`__。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:209
+#: d8d94623f8da425db9f68d9db78501de
+msgid "ESP8266 RTOS_2.1 以及之前版本 SDK，如何将 LOG 配置到 UART1 ？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:211
+#: c1daaf3109e641eea0fe6b9c0117790c
+msgid "在配置 UART1 初始化后，可以通过 API 切换 LOG 输出到 UART1。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:220
+#: b7075d68807c4ee0a69457fd9ec17bdf
+msgid "使用 ESP8266 RTOS rel 3.0 以及之后的 SDK，如何将 LOG 配置到 UART1 ？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:222
+#: 0496fcfa887b49ed93ed25daf095769a
+msgid ""
+"可通过  menuconfig -> Component config -> ESP8266-specific -> UART for "
+"console output -> custom -> UART peripheral to use for console output -> "
+"UART0 修改为 UART1 接口。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:227
+#: 8a950a7b62f840b89b50e631fc19aee9
+msgid "ESP32 IDF 中如何使能 UART 流控？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:229
+#: ec27835656b64b29a35b722d069ac769
+#, python-format
+msgid ""
+"硬件流控使能： `uart-flow-control <https://docs.espressif.com/projects/esp-"
+"idf/zh_CN/latest/esp32/api-"
+"reference/peripherals/uart.html?highlight=uart%20flow%20control#multiple-"
+"steps>`__。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:230
+#: 475190449fcb44c3a69146d98a266cab
+#, python-format
+msgid ""
+"软件流控使能： `software-flow-control <https://docs.espressif.com/projects/esp-"
+"idf/zh_CN/latest/esp32/api-"
+"reference/peripherals/uart.html?highlight=uart%20flow%20control#software-"
+"flow-control>`__。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:235
+#: c88cd05b699b4e24b40c5ccd0d3d0231
+msgid "ESP8266 NonOS SDK PWM 的变化缓慢，又哪些原因？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:237
+#: 8f09f0ae51284acab26849f014d99c5d
+msgid ""
+"如果使用 SDK example/IOT_demo 中的渐变 API，如 light_set_aim 或 light_set_aim_r 这些 "
+"API，需要渐变的过程。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:238
+#: c640ddf38fcf46988b5bd4018da767c7
+msgid ""
+"若需要 PWM Duty 设置后⽴即⽣效，则可以调⽤接⼝ pwm_set_duty，需要注意调⽤ pwm_set_duty 后要调⽤ "
+"pwm_start 此次设置才能⽣效。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:243
+#: 6c99a03a58854187a816f7cb7d51c162
+msgid "ESP8266 部分 GPIO 出现高电平 ？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:245
+#: 5082ddd8f0f14fefa29a06fa60551e0e
+msgid ""
+"根据硬件设计，部分 GPIO 存在默认上下拉状态，所以在系统初始化时，该管脚的电平状态不受程序控制，所以会出现程序在引导过程中部分 GPIO "
+"电平不正确。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:246
+#: d36ab38ad2214cb9b4aedfb838f3fc24
+msgid ""
+"如果需要使用这些 GPIO ，硬件上建议外接器件与默认上下拉电平一致，软件可以在 bootloader "
+"过程中调整电平状态，软件方法也会存在短暂电平异常。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:251
+#: 5a2d4bd633464fab9f3437a9084cc915
+msgid "ESP8266 ADC 的精度如何？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:253
+#: c6b30da164a54bd38b9bddbd44fbaa05
+msgid "ESP8266 ADC 为 10 bit, 理论精度为 2^10=1024。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:254
+#: 8c98d00481f642ae8f85e04e8797df91
+msgid "ESP8266 连接路由器后，单 STA 模式会进⼊ modem-sleep，导致芯⽚内部参考值变化，因此 ADC 测量得数据变化。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:255
+#: fa02f6ddb35c40ac8eeb1d90074658d2
+msgid "如果想要测量精确，可以再关闭 wifi 后，使用 `system_adc_fast_read` 函数读取。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:260
+#: e4ba1bb584d5418ea624f048b65a684c
+msgid "ESP8266 如何获取 ADC 寄存器 bitmap 信息？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:262
+#: b78cf7a477b940e0b8db9d52b02222bf
+msgid ""
+"由于 ESP8266 ADC 是和内部 RF 电路⾼度集成的，所以 bitmap 和寄存器信息没有公开，如有特殊需求请联系 "
+"sales@espressif.com。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:267
+#: 8b32706196fe4512b810e88391367f73
+msgid "ESP32 ADC 有⼏个通道？采样率和有效位数是多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:269
+#: 863c7414f65e4bdca3bca48920fb7fac
+msgid "ESP32 的 ADC 共有 18 个通道。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:270
+#: d98e2925ddb04697b8e63028e41b2894
+msgid "在停⽌ Wi-Fi 的情况下，采样率能达到每秒 100000 次。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:271
+#: 9f5f719018244daab06e5cbb5f54f4d9
+msgid "在 Wi-Fi 正常⼯作的情况下，能达到每秒 1000 次。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:272
+#: ccaeeeb1f0eb42d19e7028ac5f2f0ad2
+msgid "ADC 内部有效位数为 12 位。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:277
+#: f33dd4033c3d419ea357a8505e29e52d
+msgid "ESP32 是否可以关闭线程调度使用一个单独的 CPU 以实现实时 GPIO？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:279
+#: 74a5fdffda1e4049830671baab347feb
+msgid "目前 SDK 没有相关的配置选择供 CPU1 单独运行，两个核心只支持 SMP，不支持 AMP。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:280
+#: fad2d072277e40858410c6fb23ce3a19
+msgid "解决输出波形被打断的问题有以下解决方案:"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:282
+#: 0c36cb6956aa49c8a54367387c16bb59
+msgid "使用硬件的信号输出，选择相关数字协议实现 SPI， I2C, I2S 等, 特殊用法 SPI 取信号输出线产生波形。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:283
+#: 8237de90fdc44311937345a9125d0d6e
+msgid "硬件 RMT 是否可以产生想要的波形， 并达到足够的长度 。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:284
+#: 03f9c9772bad40b1a12bce88d475961d
+msgid "硬件中断中产生相应波形，需要将所有回调放入 IRAM 中。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:285
+#: bb19b6212935431c833a2648cf7f4888
+msgid "可以利用芯片中的协处理器，它可以当作无操作系统的单片机，但目前只支持汇编语言。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:290
+#: 4d154d73130545e898a652b20da2a5a5
+msgid "ESP32 Touch 应用有哪些参考资料？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:292
+#: eecc1211b6ed448383d53c8f09104f17
+msgid ""
+"ESP32 touch 应用可以参考 `Touch 软硬件设计 <https://github.com/espressif/esp-iot-"
+"solution/tree/master/examples/touch_pad_evb>`__ 。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:298
+#: 45279499b14f4f1db4208952766fb268
+msgid "ESP32 SD 卡是否可以与 Flash & Psram 共同使用？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:300
+#: c85d63233571452c8b2266debe9ebaa2
+msgid "可以共同使用。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:301
+#: 97df7260a93c4ce3be5ec72f64ab152c
+msgid "ESP32 Flash & PSRAM 与 SD 卡使用的不是同一组 SDIO。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:306
+#: 900ddce9909543759da5666584928a6f
+msgid "ESP32 使用 UART0 作为通信串口，有哪些？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:308
+#: 971dd96d59b440118fcc808ba0f0f3eb
+msgid "通常情况下不建议将 UART0 作为普通的通信串口，因为 UART0 为设备默认 LOG 输出串口。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:309
+#: df6e58bd620341cfbe0bede6a88f31c2
+msgid "若 ESP32 的 UART 不够用，或者硬件设计已经不方便更改的情况下，如果您要使用 UART0 作为普通的通信串口，请参考以下建议："
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:311
+#: 8cd3a1f6bf8b40779419a819e28d41d7
+msgid "**软件方面**：防止打印影响串口通信，默认程序中 UART0 主要有三处打印设置"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:313
+#: b10fdc22cc2943ebb8c5149fe0103a34
+msgid "第一处是上电 ROM 打印，上电时可将 MTDO pin 设为低电平屏蔽上电 ROM 打印。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:314
+#: 94b90f33d9d24fd283481b4628fbeb32
+msgid ""
+"第二处是 bootloader log 信息输出，您可以将 menuconfig -> Bootloader config -> "
+"Bootloader log verbosity 设置为 No output 来屏蔽 bootloader log 输出。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:315
+#: 857506d4c23a42dcb6544ffd7f351599
+msgid ""
+"第三处是 app log 信息输出，您可以将 menuconfig -> Component config -> Log output -> "
+"Default log verbosity 设置为 No output 来屏蔽 log 输出。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:317
+#: e8b5f74dfc9c442e857ee2f1cf530c6e
+msgid "**硬件方面**："
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:319
+#: f79436134a2248f68a8b9b9eeaeeadc8
+msgid ""
+"在下载程序的时候，注意防止 UART0 上有其它设备，如果有其它设备可能会影响程序的下载。建议在 ESP32 和其它设备之间预留一个 0 Ω "
+"电阻，如果下载有问题可以断开这个 0 Ω 电阻。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:324
+#: f0f10fe22988403e9a6a3ade00e729c5
+msgid "ESP32-SOLO-1 的 GPIO34-GPIO39 是否可作为 UART 的 RX 及 CAN 的 RX 信号管脚？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:326
+#: c4bd9a96e57942e28bc589669af85f14
+msgid "GPIO34-GPIO39 仅作为接收，可作为 UART 的 RX 及 CAN 的 RX 信号管脚。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:331
+#: 4172160c98dc43ed988c678d4cbd8548
+msgid "使用 ESP-WROOM-S2 模组，是否支持 SDIO 作从机？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:333
+#: 65f5721d5a8140d3aef10de787561302
+msgid "ESP-WROOM-S2 的 Flash 使用的是 SPI 的接口，故支持 SDIO 作从机。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:338
+#: cd562df04aa94fd1bc76ba30ee029d74
+msgid "ESP32 是否支持使用晶振作为 I2S 的时钟源？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:340
+#: 0f06d610cad9459abead76aa4aca9183
+msgid ""
+"ESP32 不支持使用晶振作为 I2S 的时钟源，可阅读 `《ESP32 技术参考手册》 "
+"<https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_cn.pdf>`__"
+"  来了解 I2S 的时钟源配置。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:345
+#: 8add793fb9824792863dad0a94e7f32f
+msgid "使用 ESP8266 调用 adc_read_fast() API 会导致 WiFi 断连？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:347
+#: 2981254d296f4d95bd8a8fea68d1589c
+msgid ""
+"调用 adc_read_fast() API 前需要将 Wi-Fi 和中断关闭，可参见此 API 的 `使用说明 "
+"<https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/api-"
+"reference/peripherals/adc.html?highlight=adc_read#_CPPv413adc_read_fastP8uint16_t8uint16_t>`__"
+" 。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:348
+#: 18346fd7eb8d42a4a32b71de35222770
+msgid ""
+"由于adc_read_fast() API 会进行连续采集，ADC 内部与 Wi-Fi RF 存在耦合部分，无法在 Wi-Fi "
+"开启的状态下调用该函数。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:349
+#: fd3fb4134bc74dbda180a56eeb1de322
+msgid ""
+"在 Wi-Fi 开启的时候请使用 adc_read() API 进行 ADC 采集，并且将为保证数据稳定，需要使用 "
+"esp_wifi_set_ps(WIFI_PS_NONE);  关闭 Wi-Fi 调制解调休眠。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:350
+#: fc9cbb3359d74d9491f93e6ee6daada4
+msgid "备注：ADC 采样率：在停⽌ Wi-Fi 的情况下，能达到每秒 100000 次。Wi-Fi 正常⼯作的情况下，能达到每秒 1000 次。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:355
+#: 8b46cbb43922424fa59549cf4e651b3d
+msgid "使用 ESP32 如何动态修改串口波特率并立即生效？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:357
+#: 9cd1c23b8bcb4a5eb6ad53bd084917db
+msgid ""
+"请使用 uart_set_baudrate() API 来修改 UART 波特率 。 参见 `此 API 说明 "
+"<https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/api-"
+"reference/peripherals/uart.html?highlight=uart_set_baud#_CPPv417uart_get_baudrate11uart_port_tP8uint32_t>`__"
+" 。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:362
+#: 30a2f00fe23f4962939ebace49d07f34
+msgid "ESP32-S2 取消了 SDIO 接口，是否还支持外接 TF 卡？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:364
+#: ebb3b40df8d64b8898797e1df9dea69d
+msgid ""
+"ESP32-S2 有 4 组 SPI 的接口，可使用 SPI2/SPI3 的接口外接 TF 卡，当使用 SPI2/SPI3 的接口外接 TF "
+"卡时，SPI 应设为通用 SPI 模式。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:369
+#: afa72c814f70453c8aeba0df7fd69d5a
+msgid "ESP32 GPIO 电平翻转速度是多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:371
+#: 97aecca248c84400b8b97a1268f48d68
+msgid "GPIO 电平翻转大约耗时 300ns。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:376
+#: 31fcfb2045f94c9aad4955412fba04f2
+msgid "ESP32 如何连接 MIC？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:378
+#: 652de8a69d734009807df9aeec2ef29d
+msgid "如果连接数字 MIC ，可以连接 I2S 外设。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:379
+#: 2f56688a6308439b9c022a084a9b0f4d
+msgid "如果连接模拟 MIC ，可以连接 ADC 外设。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:384
+#: 0c34b5c76ea9479fabb66025df8d202c
+msgid "ESP32 是否支持模拟音频或是数字音频输出？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:386
+#: 6dc87c8f36a34951bdfd9c6a53a6e769
+msgid "ESP32 支持 DAC 模拟音频输出，可以使用它播放提示音等简单音频，但是如果用它播放音乐，音乐效果不是很好。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:387
+#: 94cd2b54a90f412e9f858a5098c7ab00
+msgid ""
+"ESP32 同时支持 I2S 数字音频输出，I2S 可配置引脚可以在 `ESP32 datasheet "
+"<https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf>`_"
+" 第四章查看。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:392
+#: 7ede0b00be074a468832cd61bd80b225
+msgid "ESP32 中 SPI/HSPI/VSPI 三者有什么区别呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:394
+#: 1bddb25e2e1a4360921277dc44827f3c
+msgid "`并行 QSPI` 接口中 SPI/HSPI/VSPI 是连接外部 Flash 的分组，默认 Flash 挂载在 SPI 分组上。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:395
+#: e93e03431d64400a8208a4b4ab43ccfe
+msgid "驱动中可以任意调用的 HSPI/VSPI 均为通用 SPI，名称中的差异仅用以分组之间的区分。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:400
+#: da9e650a4743469a94fbc79555c44acb
+msgid ""
+"ESP32 当⼀些 RTC 外设的电源打开时（SARADC1、SARADC2、AMP、HALL 传感器），GPIO36 和 GPIO39 "
+"的数字输⼊会被拉低约 80 ns，如何解决？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:402
+#: 36b1a6b2a88a4ee797ca94a32879035c
+msgid "当⽤户决定把⽤于控制以上传感器的电源域打开时，应当忽略来⾃ GPIO36 和 GPIO39 的输⼊。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:407
+#: 232cb2e9d009462daf4a7859605d6d9d
+msgid "ESP32 LEDC 递减渐变，duty 值溢出错误，如何解决？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:409
+#: 3259a71203ec4bf1a3ca9eb4515829e8
+msgid "使⽤ LEDC 的过程中，应避免以下三个条件同时成⽴："
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:411
+#: f7a06b9647e447409d5e4b71fc94b235
+msgid "LEDC 启动递减渐变功能；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:412
+#: 7aada901011b4863b6ebc1ed8700d00e
+msgid "LEDC 渐变过程中 scale 寄存器设置为 1；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:413
+#: eb4240a2aff6479483ed258fb5e3cd08
+msgid ""
+"LEDC 递减渐变开始时刻或者过程中的某⼀时刻，duty 值为 2 :sup:`LEDC_HSTIMERx_DUTY_RES` 或 2 "
+":sup:`LEDC_LSTIMERx_DUTY_RES`"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:418
+#: 3dce1d5c0e9146b1aa03b969b4e08aab
+msgid ""
+"ESP32 当 CAN 控制器处于复位模式（即 RESET_MODE 位置 1 或由于总线关闭）或总线关闭恢复状态时，接收错误计数器 (REC) "
+"的数值仍会变化，如何解决？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:420
+#: 32165eb18335485eaa27cf91fd33614f
+msgid ""
+"进⼊复位模式时，应将 ``LISTEN_ONLY_MODE`` 置位，此时 REC "
+"数值不会变化。退出复位模式前或总线关闭恢复完成时，再恢复正常的操作模式。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:425
+#: 92396877361a4914a80d31dc2735290f
+msgid ""
+"ESP32 当 CAN 控制器处于总线关闭恢复过程中时，必须等待总线上出现 128 次总线空闲信号（连续 11 "
+"个隐性位），才能再次进⼊主动错误状态，如何解决？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:427
+#: 2dd7989b63214d9f9a2c5796277fca06
+msgid ""
+"在总线关闭恢复过程中，错误报警限制中断并不⼀定指示恢复过程已完成。⽤户需检查 ``STATUS_NODE_BUS_OFF`` "
+"位来验证恢复过程是否完成。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:432
+#: 3557f461a14c4cbb8cc096f6c7db2fc9
+msgid "ESP32 总线关闭恢复完成后，CAN 控制器下⼀次发送的数据可能出错（即不符合 CAN 数据帧格式），如何解决？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:434
+#: 736901dc0a704c0581799a46059fdb36
+msgid "⼀旦通过错误报警限制中断检测到总线关闭恢复完成，CAN 控制器应先进⼊复位模式来复位控制器的内部信号，随后退出复位模式。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:439
+#: a4cbecd10a514da296d52fe70016af05
+msgid "ESP32 CAN 接收到错误的数据帧可能导致下⼀次接收到的数据字节⽆效，如何解决？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:441
+#: ce08af07103f42dea684ec82fde427e6
+msgid ""
+"⽤户可以通过置位 INTERRUPT_BUS_ERR_INT_ENA 并在接收到总线错误中断时，读取 "
+"``ERROR_CODE_CAPTURE_REG`` 来检测错误类型及错误位置。如果符合错误产⽣条件（在数据段或 CRC "
+"字段发⽣位错误或填充错误），可以采⽤以下两种解决⽅法："
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:443
+#: 28d92da2ff274660bb4787d4d2538716
+msgid "CAN 控制器可以发送 0 字节的空数据帧来复位 CAN 控制器的内部信号。建议给空数据帧分配⼀个不会被任何 CAN 总线上的节点接收的 ID。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:444
+#: 7be10679a77a4282a18c6e21082686ab
+msgid "硬件复位 CAN 控制器（需要保存并恢复当前寄存器的数值）。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:449
+#: 4292e04f86bb407ca8ae076f0795b1c7
+msgid "ESP32 如果多个 GPIO 管脚配置了沿中断，则硬件可能⽆法正确触发中断。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:451
+#: 50abb031dbf7447c854135812808ab56
+msgid "解决⽅法 1："
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:453
+#: e06a9e457e184482abe36efc650ef140
+msgid "要实现 GPIO 的上升沿中断，按照下⾯的步骤实现："
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:455
+#: b76ab675759a4effac9f6feda2fc0ad9
+msgid "配置 GPIO 的中断类型为⾼；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:456
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:462
+#: 349bb13be9f2456aa82b0694421bb2cc c0463a2755904a9382c082edd5a12215
+msgid "配置 CPU 的中断类型为 edge；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:457
+#: 6ed84e2110f24d5982cd9681d1c93945
+msgid "CPU 的中断服务响应后，把 GPIO 的中断类型改为低。此时会发⽣第⼆次中断，需要 CPU 忽略这次中断服务程序。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:459
+#: 98724e80181048e0a3fd924c370ebb00
+msgid "同理，要实现 GPIO 的下降沿中断，则按如下步骤进⾏配置："
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:461
+#: 59e2418da15f4419aa28a8d2ee6af006
+msgid "配置 GPIO 的中断类型为低；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:463
+#: a31c827da69c41c591edd60da6f96221
+msgid "CPU 的中断服务响应后，把 GPIO 的中断类型改为⾼。此时会发⽣第⼆次中断，需要 CPU 忽略这次中断服务程序。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:465
+#: eea38e7c55cd4145b84bda80db2b997a
+msgid "解决⽅法 2："
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:467
+#: 37b48141f4bd42cfae56a1f4c9b6062a
+msgid "假设 GPIO0 ~ GPIO31 为 Group1，GPIO32 ~ GPIO39 为 Group2，则："
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:469
+#: fcf04923a03e49eba6dbd4067b729c7d
+msgid "⼀个 group 中同时只能有⼀个沿中断；如果有⼀个沿中断，则不能有电平中断。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:470
+#: da1f9c8ea1e7415e9eb38346d0fd2c5c
+msgid "⼀个 group 中如果没有沿中断，则可以有多组电平中断。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:475
+#: 212779bd863d4bd0b8fdb8ba021939c9
+msgid "ESP8266 可以实现脉冲计数吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:477
+#: fe5eb8cbcdd44c9a8f719e8ab065a03c
+msgid "ESP8266 未包含硬件脉冲计数模块，所以仅支持通过 GPIO 上升沿或下降沿中断实现脉冲计数。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:478
+#: 90c559f386b54b1fafaaa39cc7bfd330
+msgid "ESP8266 芯片中 Wi-Fi 开启后由于优先级太高可能会导致 GPIO 采样出现真空，中断采集的计数丢数据。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:479
+#: 124d5a6847624fc3a2572696497cfcd4
+msgid "综上，在计数要求较为严格的场景推荐使用 ESP32 以及后续推出的芯片。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:482
+#: ad545d28aebb43f1aaa65daaebabbc42
+msgid "请问一下ESP-01S模组与单片机通信的时候EN是否需要接上拉，还是内部已经做好上拉了"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:483
+#: 2dfb91b21b214f63aa6387c47525731c
+msgid "内部已做好上拉"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:486
+#: d8bf819dcdf84386bb0bc5bd76f7858c
+msgid "ESP8266AT固件支持读取AD管脚的值吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:487
+#: 3c8580f68d624491ae93a61cdddd900c
+msgid "支持，有对应的指令"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:491
+#: 8012070df7e246319b55fe383a80faa1
+msgid "ESP-12F可以接几个小的OLED屏幕"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:492
+#: 4142dc18b2a94ca29db0cf2a5a748eb3
+msgid "只能接一个"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:495
+#: 3726c69e7d5a4da7b9b8df4f0d31a38f
+msgid "ESP8266模块具有RS232通讯功能吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:496
+#: b2480780e70641278d98deb88255b57f
+msgid "默认不支持RS232通讯，需要购买电平转换器进行转换、"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:499
+#: 6cf0ec0320d04e739cb456454d64ea7a
+msgid "请问ESP-12F模组可以作为MCU进行开发么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:500
+#: 43f87e4960664fabb774117244e78824
+msgid "可以的，内置MCU的；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:503
+#: 073b9d9aadb745c1b43351d15f6fe4c3
+msgid "ESP-01S支持手机摄像头吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:504
+#: f556fb8a8717458790e623a8890d1d84
+msgid "模块不支持手机摄像头"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:507
+#: 9f2f60defc6443b8b7455cdf6d965280
+msgid "ESP-07S和12S模组的RST，ADC需要拉电阻吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:508
+#: 8824cef403c445ae97065a90e0c6ce74
+msgid "这两个引脚不需要拉"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:511
+#: ec09ba8c4b6f4066895afb4bd04ec480
+msgid "请问ESP-12F模组的ADC是否出厂就已经校准了的？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:512
+#: 0ba4dee5b9694af8a9c3d4e3c57b605a
+msgid "是的，出厂芯片做了校准"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:515
+#: c19820e486984445935aa4e6f98c1cc4
+msgid "ESP-07S模组可以转有线网么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:516
+#: a66da95253aa4db383759a80549c65b8
+msgid "没有以太网接口；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:519
+#: b8fb1e7f26f14c889fcaaa6faaf83964
+msgid "请问ESP-12F可以通过AT指令来控制模组的IO引脚的电平么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:520
+#: 86a21f5df1c74c2789d494d2f5d3035d
+msgid "通用固件不支持，需联系商务要支持IO控制的固件"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:524
+#: 611ed189fe6342739b726d45fd344aa5
+msgid "ESP-01S模组的蓝灯频繁闪表示什么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:525
+#: 1a85cf909d074e828dbb586a98c4d275
+msgid "表示模组工作中，蓝灯是log口"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:529
+#: 4b557b68ebf14cbbbec7b811be0cd8c5
+msgid "ESP-12F模组上的LED能点亮吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:530
+#: 25f742ee482747e4aa7074323f2698b5
+msgid "LED灯可以点亮，只需要把GPIO2引脚设置为低电平即可"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:533
+#: 1d4ee985a04f4ce3aeebedc8b454d69a
+msgid "请问ESP-01S模组的EN引脚是否需要接？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:534
+#: 15a41bf4193041f294d1f12ca8f0ba60
+msgid "需要外接一个上拉电阻。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:537
+#: 82d2ac15ccb74a559112124cae2a1183
+msgid "请问两个8266模块支持互相透传么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:538
+#: fd81f6375750491aa0b3e1a872e4579e
+msgid "作为服务器不支持透传功能，仅可单向透传；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:541
+#: ef25accfdea940709d1b60d269f2fbba
+msgid "ESP-01S的规格书上的电压N表示什么意思"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:542
+#: a592c62b158f4da8a567a7bff1c72bfa
+msgid "N表示N/A 没有的意思，具体描述可以查看芯片手册"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:545
+#: c19fed67a5114ee19fad65f38f06309d
+msgid "ESP8266的那个RST脚链接的IO口有什么要求吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:546
+#: 48d6011ce9704b03ba8123aecab57b56
+msgid "没有特殊的要求，低电平就是给模组硬件复位"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:549
+#: d23f09fca542437588352fb07a02d13f
+msgid "请问一下ESP-01S模组的复位pin引脚是否需要接？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:550
+#: b98279ea36f04add847c1f39e4326583
+msgid "需要"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:553
+#: f316f8a3b0d14658b63033cd06471d79
+msgid "请问为何ESP-12F的9~14号六个引脚不能用？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/peripherals.rst:554
+#: e52c4d64e913460895c3e7cbf304fa0c
+msgid "这些引脚用于驱动flash存储代码运行代码用的。"
+msgstr ""
+
+#~ msgid ":link_to_translation:`en:[English]`"
+#~ msgstr ""
+

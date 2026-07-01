@@ -1,0 +1,183 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/taobao/ble/index.rst:2 11692bbcb65a435694acb52443c960a2
+msgid "1. 奉加PB系列"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:5 0e6f3b28753942a59e5f47ca097c428d
+msgid "1.1 PB-01/PB-02 出厂AT固件"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:7
+#: ../../source/docs/taobao/ble/index.rst:61
+#: ../../source/docs/taobao/ble/index.rst:71
+#: ../../source/docs/taobao/ble/index.rst:82 c1a3af5da87842d8b72075c1322921d8
+#: c93f998a59f54d1fad394e3adb5466dc ebbf4c05a7b54b758cac3472ac56275e
+#: fdc42a2e303947188f74e5eae42b4150
+msgid "**说明：**"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:9 8d8c63a0c97b49e0ac3c3af227146422
+msgid "BLE常规功能"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:10
+#: ../../source/docs/taobao/ble/index.rst:34 6f22c94f56f34ae08f9d2bd920c1582e
+#: 8fdb9c7be9c94d3583cb1a6e6ec8a190
+msgid "Combo-AT固件"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:12 aebb6bf1979f402c82f424ffd53b372e
+msgid ""
+"**固件下载：** `(固件号：1212)  <https://docs.ai-"
+"thinker.com/_media/comat_1212.zip>`__"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:14 c82410bde5fb42168b304a73e4d7431c
+#, python-format
+msgid ""
+"**蓝牙ble透传(非mesh) AT指令集：**  `(指令集链接) <https://docs.ai-"
+"thinker.com/_media/pb%E7%B3%BB%E5%88%97%E6%A8%A1%E7%BB%84%E9%80%9A%E7%94%A8at_v1006%E7%89%88%E6%9C%AC%E6%8C%87%E4%BB%A4_v1.1.3.pdf>`__"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:17 cc66b1d9044f49acba99e38dc47e0d14
+msgid "1.2 天猫精灵对接AT专有固件"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:19
+#: ../../source/docs/taobao/ble/index.rst:32
+#: ../../source/docs/taobao/ble/index.rst:43 97ababb6933c4ba093f9208eed14d583
+#: a8e06915bf64482bb252cf010c579e66 cae6f7d0b7314f7d8e3feaa2a76831c9
+msgid "**说明:**"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:21 2d6ed1771fa144178114cd6215af1f4b
+msgid "PB-01/02 天猫精灵对接AT专有固件"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:23 86249df3ca24460a9dbf6261041d5775
+msgid ""
+"**固件下载：** `(固件号：1261) <https://docs.ai-"
+"thinker.com/_media/alimeshat_1261.rar>`__"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:25 d00bc27781bb4aabb1f5606d41eb0f53
+#, python-format
+msgid ""
+"**天猫精灵对接AT指令集：** `(指令集链接) <https://docs.ai-"
+"thinker.com/_media/pb%E7%B3%BB%E5%88%97%E6%A8%A1%E5%9D%97_alimesh_at%E6%8C%87%E4%BB%A4%E6%89%8B%E5%86%8Cv0.1.pdf>`__"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:30 e8112a193f334bcdbbd53aa4ad9c905e
+msgid "1.3 PB-03系列模组Combo-AT固件"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:37 a124136f851b418c9d029af8108aa52c
+msgid ""
+"**固件下载：** `(固件号1589) <https://docs.ai-"
+"thinker.com/_media/combofirmware_v1.3.0.zip>`__"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:41 4daf8d21da6a42a48461b66d4e401472
+msgid "1.4 PB-03蓝牙从机连接状态保持浅休眠功耗版本AT固件"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:45 7bec342e8b7d422585bc9f6deb94647c
+msgid "指令集同Combo-AT指令集"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:47 fb85549a4bc041f2b2b14f616c2c633b
+msgid "支持BLE从机连接状态下保持低功耗状态"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:49 8ec0c064e27d4ec18579a38b43365cb0
+msgid "若需要更低的平均功耗，适当调整从机连接间隔"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:51 965de15bf7b843b4a2b0695cf2427eb8
+#, python-format
+msgid ""
+"**固件下载：** `(下载链接) <https://docs.ai-"
+"thinker.com/_media/%E8%93%9D%E7%89%99%E4%BB%8E%E6%9C%BA%E8%BF%9E%E6%8E%A5%E7%8A%B6%E6%80%81%E4%BF%9D%E6%8C%81%E6%B5%85%E4%BC%91%E7%9C%A0%E5%8A%9F%E8%80%97%E7%89%88%E6%9C%ACat%E5%9B%BA%E4%BB%B6.rar>`__"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:55 9dd705154ca84f25b881b3461b06e65e
+msgid "2. 泰凌TB系列"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:59 fd54342e078044c1ac8e775a41239dcc
+msgid "2.1 Ble AT固件"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:63
+#: ../../source/docs/taobao/ble/index.rst:84 5db58310b35642a38196010e16e28351
+#: 766eb632f46a491e815266aae900542b
+msgid "TB-02/03F/04模组Combo-AT固件"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:64 6a4a2d7611444151bdf2a53b0ce32d85
+msgid "版本:V0.9"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:66 a217051c3224403499367b5ab2e2d0c9
+#, python-format
+msgid ""
+"**固件下载：** `(固件号：1268) <https://docs.ai-"
+"thinker.com/_media/1268%E5%8F%B7%E5%9B%BA%E4%BB%B6%E5%8D%87%E7%BA%A7.zip>`__"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:69 aedca039aa284a1d985d9aed9b136cb1
+msgid "2.2 私有mesh_AT固件"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:73 ec604c78a9934ee199d3ee17d41fccc9
+msgid "TB-02/03F/04模组 私有mesh_AT固件"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:74 2ea010a9e3f14de8a1fc27489cc306bd
+msgid "版本:V0.5"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:76 192c027349dc4ee18c6f5196450ea4f9
+msgid ""
+"**固件下载：** `(固件号：1183) <https://docs.ai-"
+"thinker.com/_media/privatmesh_1183_.zip>`__"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:80 dea5daa836ad4b849b22f9ad1ad058e7
+msgid "2.3 Combo-AT固件"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:85 764a5d1a83424ef58d1e6e24867bf5eb
+msgid "运行速率更换为32M适配精度要求高的蓝牙连接"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:86 a5e70e249d7348549bf63a343c2ae610
+msgid "适配对应波特率 9600/115200/921600"
+msgstr ""
+
+#: ../../source/docs/taobao/ble/index.rst:88 d5ea7b81a3bf4f3d8613d8de40479750
+msgid ""
+"**固件下载：** `下载链接 "
+"<https://axk.coding.net/s/e2ca04f3-9c52-4258-9736-df7ef38f879a>`__"
+msgstr ""
+

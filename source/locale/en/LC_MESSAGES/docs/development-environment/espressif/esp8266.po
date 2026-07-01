@@ -1,0 +1,328 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:2
+#: 4aeb245b5a4d43d5bf64919678ae938e
+msgid "ESP8266系列"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:20
+#: 941e9f27d5b64b1091d0c014dfe6693f
+msgid "ESP8266 如此多的编程方法，有SDK/Arduino/Lua/MicoPython等，我到底选择哪个?"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:22
+#: 50d10ab1e3044f639e5c04622f01fae3
+msgid "即使更多的编程方法，其调用的都是C为底层的，但是根据项目需求来选型编程方式，能使你的项目快速落地即可。我司推荐使用SDK编程开发，"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:25
+#: 59b116f2357144d599887c025d1c7f4d
+msgid "采用C语言编程，跨平台移植性强；"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:26
+#: ea261a1d587149799753107f080afd6d
+msgid "如果使用 cmake 需要将例程中 CMakeLists.txt 文件内的链接配置一同复制。"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:31
+#: 89de263368784e61a30feb3bb9aab24f
+msgid "ESP8266 rtos 环境搭建"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:33
+#: dcbf6ec6f5a641079634c6ea9180af5d
+msgid ""
+"本博文搭配视频教学： `https://www.bilibili.com/video/BV1q4411e7MB?p=4 "
+"<https://www.bilibili.com/video/BV1q4411e7MB?p=4>`__"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:36
+#: e4cf8cb7a7f54216bd5f9ca63f3774c6
+msgid "Windows 安装 Linux 系统"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:38
+#: 5791f23e23ed40b38fad6296a7074a97
+msgid ""
+"下载 VM 虚拟机 版本15.5.1， `或点我下载 <https://www.vmware.com/go/getworkstation-"
+"win>`__ ，共享码：FC7D0-D1YDL-M8DXZ-CYPZE-P2AY6 ： ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:42
+#: af61bfb5005d4d08bda7d7f76f7f9ab8
+msgid ""
+"下载镜像，这里选择ubuntu桌面版18.04.4版本, `或点我下载 <http://mirrors.aliyun.com/ubuntu-"
+"releases/16.04/ubuntu-16.04.6-desktop-amd64.iso>`__ 。 ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:46
+#: 1d4df8c1d7a64a6c9deafa12d105faf7
+msgid ""
+"重要的一步，VM安装乌邦图步骤请参考如下教程， `或点我访问 "
+"<https://jingyan.baidu.com/article/f96699bb147a73894e3c1b2e.html>`__ ： ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:50
+#: c6b992d09b1b442f9ae3bebe8157d887
+msgid "我们还需要安装几个常用的软件： ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:57
+#: 521cca9fd98548ea838f467a26503b9c
+msgid "搭建编译环境"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:59
+#: 53049d47bd164113b4e6e9ee611bb624
+msgid "环境一变再变，也要看准官方的文档搭建，因为每个版本的环境会有所不一致！ ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:64
+#: c28eb1784d1d4493aed94142451d910d
+msgid "2.2.1. 基本环境"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:66
+#: 6e9c25b9388945ce9420116e9a0862c2
+msgid "开始一堆依赖安装： ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:70
+#: 8396f2e70a2f40fea0c7685913720aed
+msgid "成功之后："
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:75
+#: fa1128414bc844ef9307cfdd68b26ac7
+msgid "2.2.2. 编译工具链获取"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:79
+#: 8c90f666fa214fab8eee6c0b7e3b16a6
+msgid ""
+"可以看到，ESP8266 最新版本的编译工具链目前是 "
+"**5.2.0版本**，为了提高大家的效率，我这里给大家贴下安信可共享下载链接，可缩短下载时间，下图可以看到明显的下载效果： ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:85
+#: 57386756283d40b59fff3ddb37161b6d
+msgid "解压其到当前文件夹： ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:89
+#: abf228c3b55e441e954b93a1c0a6d783
+msgid "修改其权限为777： ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:94
+#: 4b1d80f237c9400e8f7aeb9b1c270c93
+msgid "2.2.3. 获取ESP8266_RTOS_SDK 代码"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:96
+#: fe80c91b82c54254a474f3d4aaa5d81d
+msgid "带子模块递归方式拉取！ ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:101
+#: 8319f03595784fbebc0a73bdfc3b72e0
+msgid "2.2.4. 设置环境变量"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:103
+#: 4adbbb26675140be99bcf1bc7aa20163
+msgid "这里就简单很多，就设置2个变量即可！先拿到上述的工具链路径和SDK路径！ 以我的环境为例： ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:109
+#: 9ca264ddfa8a48a2aedf60ed78381d79
+msgid "之后按下 i 表示嵌入代码： vim ~/.bashrc"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:110
+#: f31acaf4a4f744199a66bafc584ff67b
+msgid "任意一处添加 表示嵌入上面代码！"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:111
+#: 3d74a370da474cfcbed8f33967976915
+msgid "按下esc 再 :wq 表示写入保存： source ~/.bashrc"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:112
+#: d579baff78024b1ca96f4018bd0cdc22
+msgid "工具链环境测试是否设置成功： xtensa-lx106-elf-gcc  -v"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:113
+#: 3ffc167463204069b2d771c50a51ef9b
+msgid "IDF_PATH 路径测试是否设置成功： echo $IDF_PATH"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:117
+#: fd77e4d9033b48f39d5b1363cb0ef303
+msgid "查看工具链是否正确？"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:121
+#: bf2e9a197dd44579ad873338d00b4f30
+msgid "IDF_PATH 路径测试是否设置成功？如果提示为空则是设置失败；（忽略文件夹名字)"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:126
+#: 85cbc28a23a9431985920b60c4ede383
+msgid "编译代码"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:127
+#: f185b9d6b02b4b1dbcce178831fc4285
+msgid "终于到了编译代码啦！！过程体验真的比Windows顺畅的一匹！"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:129
+#: 8c049b8692254744b6d6bb83caa4fd62
+msgid "进去任意一个例子，然后 make menuconfig 面板设置，当然默认也可以！"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:133
+#: 2fd290cbe56f4785b7f78b7329afcf46
+msgid "通过CPU多核make all -j8 快速编译成功之后，会有如下提示！可以看到有指定的串口下载等信息！ ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:142
+#: b178d4758d0e4f73a26da6e9e0998970
+msgid "烧录和串口打印"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:144
+#: dac6dc814aa74865818eeb68cc123c12
+msgid ""
+"在Linux环境烧录我们的ESP8266模块开发板，主要注意这个串口读取的权限问题！插进我们的开发板之后，会有提示，如果没有提示，查看 **虚拟机"
+" --> 可移动设备 -->点击对应的串口！**"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:148
+#: c7d319ce87814172b2a4dbc0b64a1e82
+msgid "串口烧录： make flash"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:149
+#: f5da0894d0144c27a67a9dc2cd8c5309
+msgid "串口信息监听：make monitor"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:152
+#: 44a5dc71568e4be9b8d31699dcfb433f
+msgid "【常见问题】如何查看是否开发板已连接到虚拟机Linux了？"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:154
+#: cf32d55d10d4421c93dbf0cc4e9b27ad
+msgid "先通过查看是否依附，再看看是否在列表中？ 2条指令即可: ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:162
+#: bce77e9c970640c3bde1bedde7b31323
+msgid "【常见问题】权限问题 /dev/ttyUSB0"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:164
+#: 59f4d866fa63448ba57b22ff51030f20
+msgid ""
+"**使用某些 Linux 版本向 ESP32 烧写固件时，可能会出现 Failed to open port /dev/ttyUSB0 "
+"错误消息。此时，可以将当前用户增加至 ref Linux Dialout 组 <linux-dialout-group>。**"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:166
+#: c0fa29505961470081e36b5ca6699fb8
+msgid ""
+"因为默认情况下，只有root用户和属于dialout组的用户会有读写权限，因此直接把自己的用户加入到dialout组就可以了。操作完命令后要重启一下，就永久生效了。"
+" ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:171
+#: b02cd3a8f6764f389e63b49c97c142c4
+msgid "【常见问题】如何烧录指定的串口:"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:173
+#: 2f6709ef6eb34346ba10ab99fd80f269
+msgid "比如烧录到 **/dev/ttyUSB1**，加上 **ESPPORT** 参数即可！ ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:178
+#: 26b31df46d014161a499236c3dccd51d
+msgid "【常见问题】烧录不稳定"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:180
+#: befd7035fea948d893e3492a888d02db
+msgid "我建议还是使用 CP2102 串口芯片的板子！ 别用CH340！"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:183
+#: 4729fc82c5a240b6ad11980442b08af9
+msgid "【常见问题】提示没有那个文件或目录"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:185
+#: ../../source/docs/development-environment/espressif/esp8266.rst:196
+#: 5977f54fc6954e27b6e97eb8ef653bf9 80014568d21f48f5a5952942cf1f48c6
+msgid "例如： ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:191
+#: 5a769cede1df478fb6a835ebcb291d90
+msgid "检查下 IDF_PATH 路径!! 再重新设置!"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:194
+#: d5355a2b241c49baacfdfae64d74e1b0
+msgid "【常见问题】make menuconfig 时候报错:"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:205
+#: 861715cdb74247e3a1ed6235b1415353
+msgid "因为一些依赖没装好, 需要安装下即可: ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:209
+#: 6af790df51ae40419968f562b35f7022
+msgid "上面运行失败的，或者: ::"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:214
+#: f04c4072eacc4eb3a315785b1a7c5230
+msgid "【Windows系统下ESP-IDF开发环境搭建教程】"
+msgstr ""
+
+#: ../../source/docs/development-environment/espressif/esp8266.rst:215
+#: 222812287dfe4a928d087778466a678d
+#, python-format
+msgid ""
+"`点我查看<https://blog.csdn.net/Boantong_/article/details/112515456?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522165122489716782425170683%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=165122489716782425170683&biz_id=0&utm_medium=distribute.pc_search_result"
+".none-task-"
+"blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-1-112515456.nonecase&utm_term"
+"=ESP-IDF&spm=1018.2226.3001.4450>`"
+msgstr ""
+

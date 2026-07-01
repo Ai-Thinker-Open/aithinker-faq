@@ -1,8 +1,6 @@
 问题搜索
 ========
 
-:link_to_translation:`en:[English]`
-
 此指南目前有以下两个部分： 
 
 - 搜索问题技巧 

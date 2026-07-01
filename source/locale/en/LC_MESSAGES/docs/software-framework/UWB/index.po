@@ -1,0 +1,1310 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/software-framework/UWB/index.rst:2
+#: d617df90d4304947bd514315eb02ad47
+msgid "安信可 UWB系列模块 FAQ"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:17
+#: ../../source/docs/software-framework/UWB/index.rst:412
+#: d06f66ab186442f393abed2d894dfb25 d5981af37a93410da898f8b866ac1cd4
+msgid "BU01可以支持100个标签定位吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:18
+#: ../../source/docs/software-framework/UWB/index.rst:413
+#: 372c9712c7094964807ee4a578c8fb79 a50b700c673945fab9a534f922372c4a
+msgid "不支持哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:21
+#: ../../source/docs/software-framework/UWB/index.rst:416
+#: 09f1b8011fe146378c258151afd5a312 e249c77e1ab54210a2787381d70a6b75
+msgid "关于uwb模块我没看懂该怎么使用，有应有手册吗？这个模块需要配合基站类的设备使用吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:22
+#: ../../source/docs/software-framework/UWB/index.rst:417
+#: 8e05908fde5d4e05a7ddf2e3bfbeece1 9751f31912364351ae98993c346b3c16
+msgid "通过单片机驱动，不需要配合基站类"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:25
+#: ../../source/docs/software-framework/UWB/index.rst:420
+#: 759c98e5ad2940e39b8a05d473bbe870 87e95a3987b5461db0837287def184eb
+msgid "BU01通信距离多远？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:26
+#: ../../source/docs/software-framework/UWB/index.rst:421
+#: 38d70480b1e84448a3f4f9419fc905ca e67b9cac434d4811a1692c4819d1b412
+msgid "20米左右"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:29
+#: 959bf667ff7040f89b38b28f51d34b84
+msgid "BU01可以单独使用吗？需要如何配合使用？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:30
+#: fed5bcfc99fe48a19ff9648267d85988
+msgid "不可以，通过MCU的SPI协议操作寄存器"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:33
+#: 7120bb22b0f34874a3832aad2158f291
+msgid "BU01模组对空间复杂度有要求么？ 是获取绝对位置么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:34
+#: 392c022fa0d84fb5a0fd2d223634d058
+msgid "尽量在室外，是获取绝对位置"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:37
+#: 3586cf11b790474f94b23c75d57558c6
+msgid "BU01模块是如何实现室内定位的"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:38
+#: 91d1cd97e1f9403f8120bcdc66dd921a
+msgid "通过测试基站和模块的距离，基站要您自己去搭建"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:41
+#: ef0fe86a78d64375be44333a4fcb23e9
+msgid "有没有UWB基站"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:42
+#: 15fac40ab4694bf4b596da5c2b4b8aae
+msgid "这个基站是通过单片机操作模块实现的"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:45
+#: 7265c2ca652f4bf3be636f97c7700eeb
+msgid "BU01这种模块要几个可以定位"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:46
+#: 12674d7159274a71b51de0d18f761bd1
+msgid "3+1，三个固定，一个移动，都需要外接mcu"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:49
+#: acbc5c8bdc4a44b4a416cfb3511627c0
+msgid "BU01能用在mCore主板上嗎"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:50
+#: f3034f23a5f048688a08ab0576a6a97e
+msgid "BU01是串口通信，您的主板是否支持，如果支持就可以使用"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:53
+#: 4958ff6049b845c5a67677a861a1dfa1
+msgid "你们的uwb板子是可以直接拿来用吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:54
+#: b3554640c17b4dc89088e3fc65033d54
+msgid "需要自行编写代码"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:57
+#: b42337b65fea4a6da2b0884e4f20e1c9
+msgid "UWB请问最小的时间延迟为多少"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:58
+#: ae6640af5d104ebb87ecbbb655f231cf
+msgid "最小的时间延迟为1s"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:61
+#: 196549fab617488196f04a02f97144af
+msgid "BU01有室内可以定位达到mm级别的吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:62
+#: 2bfc2a889a394df1aa17c165ae5ba110
+msgid "正负10cm"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:65
+#: b5260cb322d7469e9e5d8fd838716f73
+msgid "请问这款UWB模块功耗约为多少呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:66
+#: 8a0dd7b59155452392aa330e5d5f3b06
+msgid "31mA"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:69
+#: c401905fc921465e8d0ed47fb13a38b2
+msgid "BU01定位精度多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:70
+#: ab939d2b9859487fba7790e9b97e2783
+msgid "+-10cm"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:73
+#: dcd01e9113f04d8c8acd46f1a8ef3c59
+msgid "BU01如果要实现定位，需要买基站吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:74
+#: a1b5ef4a5ae2457b8c7e5946777acb7e
+msgid "模块可以当基站使用"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:77
+#: 6cf80d43199f4ea99de7e54c4d711beb
+msgid "BU01可以完全替代dwm1000吧"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:78
+#: 1808b04d4617413da65501a0b087cb6a
+msgid "可以完全替代"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:81
+#: a2bffcbead624a5992dcf1ced4a5a904
+msgid "BU01这个怎么查看定位呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:82
+#: e6a374889a424b09a861abf39caa9e61
+msgid "通过计算距离长度进行定位"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:85
+#: a674875bdd3741ad93e28d0846cb6fab
+msgid "BU01集成算法吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:86
+#: e0e49d8d667043c0997a67d14083d06e
+msgid "不集成算法"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:89
+#: 13ec125651704b3c98eb5cfaa6ee957a
+msgid "BU01可以支持二次开发么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:90
+#: 4caa55f1d77644aba764f8b98f18e27b
+msgid "BU01只是一个射频模块，没有二次开发的功能"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:93
+#: 1247552e9d4f48b0bd75c7b8c47b3b30
+msgid "BU01接电就可以输出位置吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:94
+#: 9c45fd241f4b4ffe81efa62bbd0054b6
+msgid "需要代码驱动"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:97
+#: d4e0d1c9d9284a5f86146cd21cb36e44
+msgid "BW16 模块通过什么方式进行操作？是AT指令吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:98
+#: a4143e4bfaec4d1bba0e4f00924e15b9
+msgid "是AT指令"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:101
+#: 85236d8a9ac34e61972dd0e11f632f50
+msgid "BU01定位范围最大有多少？要4个基站还是三个？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:102
+#: ba0c4e8b81c54354ad6d53cdb310df65
+msgid "3个基站，定位范围最大是300米"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:105
+#: ec9b353626c84e409d0da335f9d09743
+msgid "请问有基于tdoa算法定位的产品吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:106
+#: 68348fa165074e1b909bd9b88e7278fd
+msgid "BU01"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:109
+#: f8efd9acd5f94593980b70ad7fdc7661
+msgid "你好，我想在一个矩形的教室内对一辆移动的小车进行定位，小车的运动轨迹会遍布整个教室，问一下一共需要几个UWB?如果场所大小不固定，需要经常更换，UWB这种定位方式适合吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:110
+#: 61093bf3389147a397f6e6c53fabcfa6
+msgid "300米内合适，一般需要四个UWB"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:113
+#: a499fcdc6cce419d9b6de06518fe8990
+msgid "BU01模块的最高传输速率"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:114
+#: ef1f6e7138b541ae843e4013cbe82e2b
+msgid "上行40KB/s"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:117
+#: f22818eba5db4d3ba3a17fb12e95564b
+msgid "BU01，你们给的定位算法是TOA定位还是TOF呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:118
+#: c5713c02a07840fab2772c90f9ca753e
+msgid "TOF"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:121
+#: ec4128af05664a679d05e57b482765d5
+msgid "BU01裸板这个频率多少"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:122
+#: aeddcdf8817040a498b14425399d815f
+msgid "110K"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:125
+#: 6c592f35769b423fadb0e8d025ccdc69
+msgid "BU01可以做基站跟标签？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:126
+#: ../../source/docs/software-framework/UWB/index.rst:516
+#: 12053d9ee2f24081b6b21e709c448ea9 41e98a708aad4d729cdf79a52acdfbc4
+msgid "可以的"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:129
+#: d78dde14637b4baa97caa90b3a5fca42
+msgid "BU01要買基站才可以用嗎?"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:130
+#: 29b99c2500634abca5cf978eed74e594
+msgid "模块可以当基站用"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:133
+#: bf1e4e95cc4943bfa7b82bd9b72e2cbc
+msgid "BU01可以输出原始采样信息么"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:134
+#: 4d7b0ffbc93d4d41afdceb6df48f3c6e
+msgid "这个是通过一个定位协议计算出来的结果，具体您可以去我们官网找找相关的资料， https://docs.ai-thinker.com/uwb"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:137
+#: fe87c20bd6e145d390fded779447da48
+msgid "BU01输出是距离还是经纬度"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:138
+#: 6e350e5a78274b64aea7d5b51e431a59
+msgid "距离"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:141
+#: e6d2a86f3ba7465cb0990aef5cd16556
+msgid "正确度 1Cm,范围 5~200m ，BU01能到达要求吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:142
+#: 37857b17464c48adbee490b7902a5de0
+msgid "可以达到"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:145
+#: 54485c4c9898454c8cd4a23f04af76e3
+msgid "BU01是不是还需要配合uwb基站使用 ?有没有基站的链接"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:146
+#: 2c2efa65a3554c089bf537182f656dd2
+msgid "模块可以当基站，也可以当标签"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:149
+#: 94903eecc1d74b9c8c6094d1438b0676
+msgid "BU 01模块里面是带固件的吗?还是完全自己开发"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:150
+#: 90a75c4982b04051aba78c4974463c24
+msgid "模块只是一个射频模块，需要您自己通过写单片机的程序进行开发"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:153
+#: 27bdf54612724e3fbafaeacae2c34c26
+msgid "BU01模块的调制类型是什么"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:154
+#: f527e88a7c604e7895f8dd3790d13c2c
+msgid "调制类型是SPI"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:157
+#: 300fe471e96441798507f2175210d4eb
+msgid "BU01模块里面刷好固件的吗。还是需要自己开发写固件进去的"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:158
+#: ea30773ff5d5446bba009e9b31e4decf
+msgid "模块只是一个射频模块，它需要通过外部MCU去控制的"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:161
+#: a55a5fbac5fd437c8166b3b014519dd2
+msgid "BU01有开发代码demo嘛？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:162
+#: 250e17c1231342afbcbd064f59f2cc27
+msgid "百度链接： https://pan.baidu.com/s/1tsJ7o3k8okI_PNzzg7Y4vQ  ，提取码：se1q"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:165
+#: 5fde7ce6d82b4408b3575af320f51e86
+msgid "BU01模块和这个DWM模块兼容吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:166
+#: 07183a56d0654ee1bbb45c045bd5de0e
+msgid "完全兼容"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:169
+#: 28948545e191494ebd785f4e49e11df3
+msgid "需要做UWB空间定位的话，买4片研究（3个基站1个标签）BU01可以实现吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:170
+#: ../../source/docs/software-framework/UWB/index.rst:548
+#: 1dbef9ad680d43b195d5411558d4b45e 3fb118efcbdc42ca8793877609f427e0
+msgid "可以"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:173
+#: ../../source/docs/software-framework/UWB/index.rst:213
+#: 435cc2b55857403a9780c4919bbdfbb9 9d488d8eb1df4a3ca6b576d625343f5f
+msgid "BU01范围是多大，多加几个可以扩大范围吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:174
+#: ../../source/docs/software-framework/UWB/index.rst:214
+#: 798fd27991d34181a5121352a1401385 90da3dd0b1b0404b827f71e915b122a3
+msgid "定位范围300米是3基站1标签的情况，可以通过添加基站进行范围扩大"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:177
+#: cb613eb953bd45729daeddebd165d0a1
+msgid "BU01开发板定位的时候，可以输出角度吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:178
+#: dcf9b28bf919488e8d4ed6449b8c3cfa
+msgid "不可以"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:181
+#: decf05b2d4654d50892ec02bdfafa68a
+msgid "BU01算法程序就是你们的这个开发板程序吗？  我加功能直接在这上面加？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:182
+#: daafe119aaf840a6835288dd1f13e968
+msgid "这个程序是UWB的定位算法程序，并非开发板的程序，开发板程序可以问商务索取。"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:185
+#: b2c6f556fc104215aca50fcf6307a26a
+msgid "模组是stm32驱动的，提供源代码么"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:186
+#: 39c88e653d234e119e7ed129a01c50f8
+msgid "开发板程序可以问商务索取"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:189
+#: aa00ca2bebd94338b5949b8f26b07a21
+msgid "BU01开发板接收的呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:190
+#: a82e8d01f10e49bbbb2c6bca5bf9d0dd
+msgid "开发板可以做发送也可以做接收"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:193
+#: eb8097babd0b43bc8c1881b54914b51d
+msgid "uwb的晶振误差多少"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:194
+#: f3c5dfdf227d4c488273398aad818281
+msgid "频偏10ppm"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:197
+#: cd248bfe358d4c0495a95c15423a0e41
+msgid "NodeMCU-BU01晶振精度多少？ 正负10ppm么"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:198
+#: 11e8acaed5e4451d9bcff1993a6659e3
+msgid "频偏是10ppm 定位精度为10cm以内。正负10ppm，带温补"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:201
+#: 54b14f4383c14366852bde4c471bc2df
+msgid "BU01开发版可不可以自己加一个陀螺仪"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:202
+#: bda12189c73c4d6eb6c5db4905e0d41a
+msgid "可以添加  但是需要自己去移植相关的代码"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:205
+#: fad1bb258f194c048e3c1b479ee18b08
+msgid "BU01 300米内都可以定位么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:206
+#: f04e1b01a2b044779f88bc61deadc995
+msgid "300米内都可以定位"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:209
+#: 127a32b942214e64ba183adda9cfd9ec
+msgid "BU01开发板在室内定位有经纬度输出吗 ？那我怎么知道有没有定位呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:210
+#: 5d3ddbc80f2f41c1863bfd58327185c3
+msgid "没有经纬度，室内定位是通过代码算法计算出基站和标签的距离去实现定位的"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:217
+#: b21d7660037c4654b90a41a4977af1c1
+msgid "BU01怎么获取定位位置的呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:218
+#: 10c75346f57b42abae1371b2d70aa662
+msgid "通过计算距离获取"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:221
+#: 7ec63c26f40944ee86ae3a6886604dbf
+msgid "UWB开发板资料"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:222
+#: 64d8c84d38d6443885c5c22cd08b6e62
+msgid "https://blog.csdn.net/Boantong_/article/details/106493128"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:225
+#: 0309b303a9334d9a93339e38bdc4ec71
+msgid "BU01和官方的 dwm1000 相比性能对比如何？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:226
+#: d7d018ac24754f83bf3e089be0d15307
+msgid "跟官方的DWN1000性能差不多的，不会有太大变化"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:229
+#: 5ada17b0d9154221954c38b27787bc2a
+msgid "BU01开发板主控芯片用的什么型号？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:230
+#: 47b9be0a953d49fea51892d4d32d09b5
+msgid "主控芯片是STM32"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:233
+#: a0c1ca4103174a4da99b51b8d62041ba
+msgid "UWB带程序吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:234
+#: f9d9dd5c5273439b9a6e528fa9089292
+msgid "带程序"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:237
+#: 4b25f45c5bfa491a84c313328293c34b
+msgid "BU01除了定位，还有没有数据透传功能，数据透传延迟多大？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:238
+#: 421fb15cd9314c039be4277ff2660ee1
+msgid "数据透传功能需要您自己开发实现哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:241
+#: 9e9cdb5cfe1448059f300cfebb9b3bac
+msgid "BU01能不能提高精度"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:242
+#: 44a5ab60f14c46bf8fec16b0241e7b64
+msgid "提升不了哦，这个误差值是由芯片决定"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:245
+#: 29a6c7e661e44f5d99be19bfb6082a31
+msgid "BU01支持arduino吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:246
+#: 6e072edd7b0c4a10b03e9e3839dbce97
+msgid "不支持哦 ，目前仅支持keil"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:249
+#: f16275b7436a4274a10df3155fc4c833
+msgid "uwb模块做基站的时候是否还需要加入其他的外围电路，比如单片机板子之类的"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:250
+#: 6c0f8d44219c442297804a596d290719
+msgid "模块需要加入，可以根据开发板的原理图做参考"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:253
+#: 1ab6a311d690440f832b549494ced0ef
+msgid "\"BU01直接设计到设备中就可以直接使用吗 ？不用安装什么热点吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:254
+#: 7bfbd5415e8c43808847ef8c959a8704
+msgid "是的，直接设计到设备"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:257
+#: 367523237f044739834c5501f7095bf6
+msgid "如果想做个测试系统的话，至少需要几块UWB开发板？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:258
+#: db5ad0e12778488c880236cbdcc897af
+msgid "最好四个，1个标签3个基站"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:261
+#: 78a02c77a2ce41ef85dc7726eee4ed3d
+msgid "BU01刷新率如何更改呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:262
+#: b36cb24df86946dd8666d7ca0009eec5
+msgid "亲，刷新率只能通过代码修改，AT指令集上没有关于这方面的设置哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:265
+#: b56d68c43bfc46ce8391416550580395
+msgid "UWB开发板是必须一对配对还是可以多个互相通信"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:266
+#: 7ba74028a7cd476993c47fadd0c96579
+msgid "一对配对"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:269
+#: 182cc1b6b59f4882b8fb660e18409439
+msgid "想把UWB开发板测距扩大到110~150米左右。怎么做呢？？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:271
+#: 4ea341fb48474755b6f04db14a80c4b4
+msgid "可以通过修改代码或者多买几个开发板做基站"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:274
+#: 9f75ed9fe03c4040993b54a87420a210
+msgid "UWB开发板需要做接口和通信协议开发吗？模块与模块之间的通信，是否可以一对多？具体能承载多少路？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:275
+#: baa8b867a4a340748fb7118474c463d5
+msgid "需要做通信协议开发，支持一对多，具体承载多少路根据程序来定义"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:278
+#: 3c4a084d89df428b9473fd6d3083ddc4
+msgid "BU01开发板上的MCU是什么型号？是STM32还是AVR?"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:279
+#: 1a1bbf3ea72246eda9010e72e8c8f495
+msgid "STM32F103C8"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:282
+#: 6e677502421947adaed8c5558e65dea3
+msgid "UWB可以即用作anhor 也用作tag么？如何烧写"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:283
+#: 4dda4825e1b54c7d89f004d782cf610d
+msgid "可以做基站，也可以做标签。通过jinnk或者STlink进行烧写"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:286
+#: f775d482857a4125bc5f2f6ba4c2546a
+msgid "BU01可以支持4标签 1基站 吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:287
+#: e4b94667e67f44098554f8ea2268714a
+msgid "支持4标签1基站"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:290
+#: cc22da0beee549b8af778d6b8bc70cdd
+msgid "BU01开发板和我MCU之间怎么用过IIC或者SPI通信？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:291
+#: 0d912b91942a462b8171ce5d60d55b39
+msgid "BU01开发板只能通过串口进行通讯，板子上的SPI和IIC引脚是跟MCU进行连接的，不是直接跟模块进行通讯"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:294
+#: 13b0b98fa74741ab89867736651730e7
+msgid "BU01模块是转的串口输出吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:295
+#: 71ee2ca51de2419393b0455a1a100df8
+msgid "这是一个射频模块，不是串口模块哈，需要MCU驱动"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:298
+#: 1fdd172e782e4fadaacf967d234a5b79
+msgid "BU01开发板能直接用串口输出吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:299
+#: 227d3e5b75804ae0a135b3a7e5df13b6
+msgid "开发板是可以通过串口发送AT指令"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:302
+#: d92734897c754ef2b785c9b318901d90
+msgid "BU01支持私有数据传输吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:303
+#: ../../source/docs/software-framework/UWB/index.rst:327
+#: 8784ae1296f44daf8dd5125ba8f44864 c6605b9eee7940a399b44a83a47d9759
+msgid "支持"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:306
+#: 492550827ea84a8b9c6be9cf9b8723ef
+msgid "BU01板子上的micro usb接口不可用吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:307
+#: 6120eb5e0d2744a886960a1c7e39b523
+msgid "那个是供电口"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:310
+#: 67921939a3fd47e4b602176751c324cb
+msgid "UWB开发板可以支持多少个标签"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:311
+#: ../../source/docs/software-framework/UWB/index.rst:380
+#: 9cf3be6a25ee47e8a4c05cad9a5e770c a0e1a8e76eb24b6c82f02e38f6159c29
+msgid "4个"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:314
+#: e625369b45e3435ea2a6b9c3ba48d1b2
+msgid "BU01通过什么原理定位"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:315
+#: a44d8686fcc54179a1a4e898f464bd47
+msgid "TDOA"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:318
+#: c29e11f6038240c994a0a0694d681d94
+msgid "UWB开发板可以接sma标准公头吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:319
+#: 0f1a903791d644cb8dd5283c678eb8e5
+msgid "不可以哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:322
+#: 8bf4159d42c541c49ebe4fc942eccdc3
+msgid "BU01每秒定位几次？人体遮挡会出问题吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:323
+#: 7e7a55aae9b34e03a55aee6770f757c2
+msgid "一秒定位1次，人体遮挡会影响信号。遮挡后的数据不能做定位数据输出，只能等不遮挡的数据"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:326
+#: b0b5da76c04246a194f4e3b617b99128
+msgid "BU01开发板支持二次开发吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:330
+#: e1736e41354946339e5d210002b9a727
+msgid "BU01开发板这个距离多远？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:331
+#: 1ba211323b3e47ffbd422ef5327e73b6
+msgid "\"50米、可以通过设置多基站的方式延长距离"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:334
+#: f76ffe1bd1de4996859f3a4e0d708783
+msgid "BU01开发板请问可以串口输出吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:335
+#: 9fbd9ca3a2cc4fa1b0b9343640b35edf
+msgid ""
+"串口输出测距信息  "
+"具体您可以看我们的博文https://aithinker.blog.csdn.net/article/details/106493128"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:338
+#: 3e676ee5cdfe4bf88bb946910b3f0643
+msgid "BU01开发板可以同时实现定位跟随吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:339
+#: 84861c6e91e9481fb8407267d577826f
+msgid "可以实现，目前板子实现了测距功能，定位跟随需要您自己根据我们测距代码进行移植"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:342
+#: 187730a7075a477eaaede4bd007ab173
+msgid "UWB 增加基站数量可以提高定位精度吗？是不是基站越密集，定位精度可以相对提高呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:343
+#: 403f85e23ae943cdb95c49b70fd99eb7
+msgid "可以。基站越密集，定位精度越高"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:346
+#: 65ef0c46b6f74ac3873f3c44a2b999ef
+msgid "请问BU01模块实现一对多测距需要怎么实现？是需要设置多个标签还是多个基站？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:347
+#: f505d7b5c2cb4859bd2e10e19d8e21dd
+msgid "多个标签"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:350
+#: 5fec9715d1e4420cb4c31af2f9a1788c
+msgid "UWB这个实现室内定位  要基站吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:351
+#: 1e5ee59c1f174130859343f17f24f525
+msgid "至少1个基站"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:354
+#: 8e274a5b519047c9a23762b250204291
+msgid "UWB 开发板3维定位可以实现么"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:355
+#: 3b6170c8e377480eb89fa68d86b84ca3
+msgid "可以实现三维定位的功能，但是需要您自行实现"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:358
+#: dde0528fc1ba44b9a14192198eee0b0d
+msgid "BU01可以用51单片机驱动吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:359
+#: fc6d45c60655420ba74aa3ebc32ab980
+msgid "可以，但是需要您自行移植相关程序"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:363
+#: 89ed8fc0862140b7957c9b4e0cb8fbe8
+msgid "BU01开发板是能直接输出距离吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:364
+#: 1097c4e670a746578b221a4f5f49ce9d
+msgid "是的，您可以看我们入门教程博文进行使用"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:367
+#: bad8212dc7ea48688b0f98bad519e5c7
+msgid "BU01用的话多远配一个基站"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:368
+#: 39b4b9b09b3f4779bdcb7551c1d551e3
+msgid "空旷地方300米"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:371
+#: 79242bba7d6745bfb917f4ddb66cce7e
+msgid "BU01开发板做室内定位，需要设置发射基站吗？容量是否有限制，比如在一间屋内最多可以有几个被定位可移动的目标模块？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:372
+#: 1d35542f3e9046f7be548b0e54cdc4bc
+msgid "需要设置发射基站，默认基站数量是三个，标签是4个，可以通过程序进行修改"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:375
+#: a0cdb5935f424f8ca3e4ce3d4b5c2643
+msgid "如果室内有几十只标签，UWB开发板可以做得到吗？有没有标签数量上限？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:376
+#: e64f0532cba6481ba840f8601fe43b01
+msgid "出厂固件标签是4个，可以通过修改程序，没有上限。"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:379
+#: 72993a913a264770b40452a97053a62b
+msgid "UWB开发板及模块就是定位的话，需要几个模块"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:383
+#: 5d097ca1097f4560bda9e250d44c37bb
+msgid "UWB开发板如果要测距，是至少买两个吧？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:384
+#: bdd1a87e575b45dbbf015cf7286cefe5
+msgid "2个就行，一个基站一个标签"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:387
+#: f303c8c4fc0b408bb6d388453ceb06f6
+msgid "BU01自带程序？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:388
+#: 1270b650e6c2409298657ea1e6029e9e
+msgid "它是一个射频模组 ，固化寄存器在里面.需要MCU通过SPI进行驱动"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:391
+#: e2693ebadd544768b2b6b06f942448ee
+msgid "BU01多个设备测距?最大支持多少呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:392
+#: e07effaa16ee4ffbbfd4d6021457da86
+msgid "具体需要看MCU代码定义"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:396
+#: eba781edd88c4c23b2e6a60ae2bbd2f6
+msgid "BU01那个开发板 支持多基站 1个标签的吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:397
+#: 2af6c324df584bbe83d6fcec2000053e
+msgid "支持，我们代码是设置三个基站"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:400
+#: f0a81b8f6bb548cf83b6d0bab09d2b45
+msgid "BU01开发板通信速率达到多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:401
+#: e904bc2b480445afbab6d21efe21edb2
+msgid "10KB/S"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:404
+#: 6f0b3072d2dd4b26b133332971c4afa2
+msgid "BU01这个带几个标签?"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:405
+#: 108ff80914bf4b199539c94373285929
+msgid "根据MCU定义"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:408
+#: a7c37a1095a24a7fbaaa23326582b3e7
+msgid "BU01模块天线增益是多少"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:409
+#: 82205033819d460bb2a394ea5d66718a
+msgid "2db，板载天线增益一般都是2db"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:424
+#: 0b387e0d8e2d4197a041c2de9c4e8275
+msgid "UWB开发板上的三轴加速度传感器和温湿度传感器分别是什么型号？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:425
+#: 642d1f370c314941becd6d1c2591fd27
+msgid "三轴加速度传感器型号为LIS2DH12，温湿度传感器型号为SHT20"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:428
+#: c301281a33374de5ba488cb25ee5c6b5
+msgid "UWB基站与基站之间部署的最佳距离是多少米，基站与标签的通讯距离能达到多远？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:429
+#: 355881cdecca45d9a458581dd0d0a807
+msgid "最佳距离为15米。基站与标签通讯距离最远能达到60米"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:432
+#: e9d78997b29e46f19e36454a35566cdc
+msgid "UWB模组除了定位功能之外，支持数据传输吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:433
+#: bde11291547a445ca13ec2db6c7cf133
+msgid "UWB模组支持数据传输"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:436
+#: 7cede7264fc64b65961c23e66fbea208
+msgid "UWB模块如果需要做问的精确的定位，一般间隔多少米布置一个基站"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:437
+#: ../../source/docs/software-framework/UWB/index.rst:496
+#: 721ba0f3c054493a8aea08530661af82 eeada9fe187a4471a9a9dedec1ca3099
+msgid "15米"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:440
+#: b75ccd634f124afa94ed4dac28abbb04
+msgid "UWB模组能否使用纽扣电池进行驱动"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:441
+#: 19697a56e3d44365a43a4312bfe5d8c4
+msgid "不可以，驱动电流不足；建议使用3.3V稳定的供电电源"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:444
+#: 22e1fa413d8b47a2b66741fbed9fa433
+msgid "BU01开发板支持哪些烧写方式"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:445
+#: 902b010671f4460a9d4f16332223aee5
+msgid "jink、stlink等支持SWD的烧写方式"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:448
+#: 3d9d3eff3dd8442e9a326e41a0006d37
+msgid "BU-01模组可以指定主从模式吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:449
+#: 88d2e8047ac14ef2993f95b064f08ffb
+msgid "BU-01为纯射频模块，不带MCU，我们BU-01开发板的固件就有做主从机的功能。详情查看我们官网的文档。"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:454
+#: 0ceb6104e3f44575bd2efde008f98d75
+msgid "UWB通讯最远多远？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:455
+#: c6f9deb6dea54f35a07e1ba047c95629
+msgid "60米"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:458
+#: 65aa5785310043c3b0e4e14c8dd49c60
+msgid "请问BU-01有TDOA定位算法的demo么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:459
+#: 90f80385e4664e8fba40e2fdbd712878
+msgid "没有，只要TWR定位算法。"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:462
+#: f89e7e2ccbf545deb9ac4dca81e3697c
+msgid "UB-01模组工作在什么频段的？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:463
+#: ae0a88d711fa4eaea983f917786ad212
+msgid "6.5G频段"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:466
+#: 680cd41e837349d1b6c964a771ef21ab
+msgid "请问一下BU-01模组双向测距的时候，是不是收发方均设置为基站？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:467
+#: 757ab4c33c9b4f0e9f2f387564d80b20
+msgid "一个设置为基站，另一个设置为标签"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:470
+#: b52732f6a8fc4aa8a1c49402ace89ae8
+msgid "BU01开发板一个能用吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:471
+#: ca5aee034e5a47cda98785058ed1f7c5
+msgid "不可以，测距至少需要2个才能正常测试"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:474
+#: c3f59612a385417eba6157ed2069fe5b
+msgid "请问一下，为什么我用C8T6单片机烧录定位程序驱动BU-01模组，但是程序启动不起来？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:475
+#: 01d967e482434964a39b5cc5c9e73609
+msgid "该程序适配的是我们BU-01开发板，开发板晶振用的是16M的，因此要用16M晶振的开发板驱动即可；"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:478
+#: c29cc220279647a5b824de31f06a3026
+msgid "你好，请问一下，BU-01模组的驱动库是否可移植？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:479
+#: 0e34d8ba16da4e98b033ab3c7543d50a
+msgid ""
+"用STM32驱动的源码是开放的，可以直接移植其中驱动BU-01的库； `源码获取链接  <https://docs.ai-"
+"thinker.com/uwb>`__"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:483
+#: 573530831f52446e94d5a179714a50b8
+msgid "请问我用单片机驱动BU-01模组写进去数据之后等待发送完成却迟迟不成功是什么原因呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:484
+#: 11cc48478e4f4b61a91293e3cb3f4694
+msgid "检查怀疑SPI总线驱动有问题，检查一下驱动是否正常；（SPI写入部分代码）"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:487
+#: 7773e4ced39240e0b99cac0524d4beea
+msgid "UWB开发板能同时采集加速度和UWB数据吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:488
+#: dd7840cce295443ab9a18f9a78c5870f
+msgid "可以同时采集"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:491
+#: ddd9f4f198c04de481ccd7bc73975615
+msgid "UWB模块如何实现睡眠模式下功耗小于1mA"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:492
+#: 73b67e7114d04d58bf0537102e61ffc0
+msgid "模块可以使用MCU进行SPI读写相关寄存器来实现"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:495
+#: 87ca4d9d67d047ce9617dc3e7e439133
+msgid "UWB模块如果需要定位准确，建议多少米部署一个基站"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:499
+#: d51f9d7067d649da842bc7dc28761aef
+msgid "UWB开发板在移动后会有一个大约5秒的延迟，该如何优化"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:500
+#: 3cd2208682fa4fba8f30958a6eb5dd2b
+msgid "可以通过修改内部的程序进行实现，因为开发板在移动后会重新计算定位的坐标参数值。"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:503
+#: 06775de6cf6143419d6b366ad35a4912
+msgid "UWB开发板上设置测距间隔5-20是什么单位"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:504
+#: 2f77e8243b9f45a3bebe3091379bf5c2
+msgid "采集次数，值越大刷新速度越慢"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:507
+#: acf41cadc0c746caaa6a0d4046cb3b00
+msgid "UWB是室内室外都可以用吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:508
+#: c6c6eea7b4324b2d95eb8adb8629cd59
+msgid "是的"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:511
+#: e012ece4411540e880d430457db34f03
+msgid "使用BU-01开发板做定位的话，需要买几个？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:512
+#: 03ed4a222ac74e519054f728f2d7a5a9
+msgid "一个标签，加3个基站，共4个；"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:515
+#: f19387376a34497eaa796529345df35a
+msgid "BU01模块可以和其他不同牌子的UWB模块通信吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:519
+#: fddd12db39f64d10abc8cb855c57460c
+msgid "BU01开发板可以引导小车吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:520
+#: 2e5b7338825a40039f375c03bd8e6c18
+msgid "可以，通过二次开发的方式进行实现"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:523
+#: d0c00ad9e1684c97a039584b92ab2559
+msgid "请问UWB基站应用部署一般需要几个呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:524
+#: 43799a56678c4f9982a9417ed1ae4df2
+msgid "至少需要3个以上基站。"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:527
+#: 52a57f97d3084efca5ff9b84f19f86f3
+msgid "UWB开发板在在一标签三基站的情况下，为什么只有标签端串口有返回值"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:528
+#: 1844a52724bd4980a78c5f574dd736c1
+msgid "因为只有0号基站才会输出距离信息，其他ID号的基站不会输出"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:531
+#: 5c3f16924df4481682ad04c5d8beeafe
+msgid "UWB模块可以自动标定基站吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:532
+#: 5423394cd9564f81b45deb72e682c690
+msgid "模块没有这个功能"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:535
+#: d3d5ccdd3b1d48d9876b2a2deb99ee22
+msgid "UWB模块位置信号一般多久发送一次"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:536
+#: bae4b37040954fec95c655c8438cbb31
+msgid "一般1秒钟发送一次位置信息"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:539
+#: 19cd75501efd4d609f0137701d326e4b
+msgid "UWB开发板测距频率能加快吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:540
+#: 90880d7d764e4a39b430a11b4797ca5c
+msgid ""
+"目前代码处理已经是最快的频率，输出频率可以通过AT+interval指令将数值设置到5进行测试  5已经是上限值了  这个值是获取测距数据次数"
+"   范围为5-50次  值越大刷新速度越慢"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:543
+#: 8a003e978c274259b1b5377892e71af5
+msgid "UWB开发板上的加速度传感器还需要额外接入吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:544
+#: c3da7f0655c44c6c8ff6327129dd4062
+msgid "不需要，我们出厂的板子已经焊接好温湿度和加速度传感器"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:547
+#: 53529bf6916547cf9670985c7ffb2665
+msgid "请问BU-01模组的三个VCC是否一样的，能否连接在一起？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:551
+#: 1c8e490066c54b9a99f64ce5f0dae6b2
+msgid "请问BU-01能否做到两个设备实现定位功能？"
+msgstr ""
+
+#: ../../source/docs/software-framework/UWB/index.rst:552
+#: 7fb9c70ce27c4d10acfa0ef3ef7f55fc
+msgid "两个设备做不到，至少需要三个基站给标签做定位功能。"
+msgstr ""
+

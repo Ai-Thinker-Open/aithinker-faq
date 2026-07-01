@@ -16,7 +16,6 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 import sphinx_rtd_theme
-from recommonmark.parser import CommonMarkParser
 import os
 import sys
 
@@ -42,6 +41,8 @@ release = u''
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
+    # Markdown 支持：官方推荐的 MyST 解析器（替代已废弃的 recommonmark）
+    'myst_parser',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -61,7 +62,18 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = u'ch'
+# 语言由 Read the Docs 为每个项目注入的环境变量 READTHEDOCS_LANGUAGE 决定，
+# 从而实现「同一仓库、多个 RTD 项目、各构建一种语言」的官方翻译方案；
+# 本地构建（无该环境变量）时回退为简体中文 zh_CN。
+language = os.environ.get('READTHEDOCS_LANGUAGE', 'zh_CN')
+
+# -- 国际化 (i18n) 配置 -------------------------------------------------------
+# 翻译文件（.po/.mo）存放目录，相对于 source/ 目录
+locale_dirs = ['locale/']
+# 每个 rst 生成独立的 pot 文件，便于分文件维护翻译
+gettext_compact = False
+# 为每个可翻译条目生成 uuid，源文更新时尽量保留已翻译内容
+gettext_uuid = True
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -176,13 +188,12 @@ epub_title = project
 epub_exclude_files = ['search.html']
 
 
-# md语法
-
-source_parsers = {
-    '.md': CommonMarkParser,
+# Markdown 语法支持：由 myst_parser 扩展处理 .md 文件
+# 注意：不再使用已废弃的 source_parsers（新版 Sphinx 已移除该配置项）
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.md': 'markdown',
 }
-
-source_suffix = ['.rst', '.md']
 
 html_theme = "sphinx_rtd_theme"
 

@@ -1,0 +1,785 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 14:37+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:2
+#: ad8e62a1122345f39ec41453aa0741ac
+msgid "蓝牙"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:17
+#: 1492da84d9bf4f7199c3c229d2240616
+msgid "移植例程 gatt_server 出现头文件不存在的错误？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:19
+#: 57d0d0e336704b7a9054582c62d6ce33
+msgid ""
+"移植例程 gatt_server 出现错误提示 ``fatal error: esp_gap_ble_api.h: No such file or"
+" directory``，但头文件已经包含此文件。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:21
+#: 143788e856114a2d8df54c4c37aed6e2
+msgid "检查 sdkconfig，是否未从例程中移植 sdkconfig.defaults。通常 SDK 中蓝牙默认关闭不编译，需要配置开启。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:22
+#: 80849d7f0279450392ff20f55e21debb
+msgid "如果使用 cmake 需要将例程中 CMakeLists.txt 文件内的链接配置一同复制。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:27
+#: fe3a725d2da341c49ed364a2528f326a
+msgid "ESP32 可以支持 Bluetooth® LE 5.0 吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:29
+#: e8bfc20396fa434c956e8dc78ef99717
+msgid "ESP32 硬件不支持 Bluetooth LE 5.0，支持 Bluetooth LE 4.2。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:31
+#: 47c046e3c74345df8f11bc87d2cfd11f
+msgid ""
+"ESP32 目前通过了 Bluetooth LE 5.0 的认证，但 Bluetooth LE 5.0 的新功能 ESP32 "
+"不支持（未来会有其它芯片支持 Bluetooth LE 5.0 全部新功能）。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:36
+#: 55cd0660ed6241159ff3f8329cedc932
+msgid "为什么 Bluetooth® LE 开始广播后，有些手机扫描不到？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:38
+#: 960a3f44b2ce44ff8c4e312f266d15c5
+msgid ""
+"需确认手机是否支持 Bluetooth LE 功能：有的手机在“设置” -> “蓝牙”中只显示默认的经典蓝牙，Bluetooth LE "
+"广播会被手机过滤掉。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:39
+#: 6167c344b32e4878bb722446071fa94e
+msgid "建议使用专用的 Bluetooth LE App 来调试 Bluetooth LE 功能。例如，苹果手机可以使用 LightBlue App。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:40
+#: 48cb4764e02643aba299c28904aa8b8b
+msgid "需确认广播包的格式符合规范，手机一般会对不符合格式的广播包进行过滤，只有格式正确的才能被显示出来。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:45
+#: 1f8ab0f8fada49a491e9b300699cbc6d
+msgid "ESP32 能否使用蓝牙进行 OTA？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:47
+#: c522a3dd37ed429fb184cc17e31d7d45
+msgid ""
+"可以使用蓝牙进行 OTA。如果是用 Bluetooth®，可以基于 `bt_spp_acceptor "
+"<https://github.com/espressif/esp-"
+"idf/tree/master/examples/bluetooth/bluedroid/classic_bt/bt_spp_acceptor>`_"
+" 和 `bt_spp_initiator <https://github.com/espressif/esp-"
+"idf/tree/master/examples/bluetooth/bluedroid/classic_bt/bt_spp_initiator>`_"
+" 修改；如果是用 Bluetooth LE， 可以基于 `ble_spp_server <https://github.com/espressif"
+"/esp-idf/tree/master/examples/bluetooth/bluedroid/ble/ble_spp_server>`_ 和"
+" `ble_spp_client <https://github.com/espressif/esp-"
+"idf/tree/master/examples/bluetooth/bluedroid/ble/ble_spp_client>`_ 修改。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:55
+#: db84f3f205ed4b8bac41a12a15e61566
+msgid "ESP32 的蓝牙双模如何共存及使用？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:57
+#: fa1a2cd948a644608477a4625fef47a5
+msgid ""
+"ESP32 支持的双模蓝牙并没有特殊的地方，不需要做复杂的配置或调用即可使用。从开发者的⻆度来看，Bluetooth® LE 调用 "
+"Bluetooth LE 的 API，经典蓝牙调用经典蓝牙的 API。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:59
+#: fdde6d80c24f4d3e938349973aee65a1
+msgid ""
+"经典蓝牙与 Bluetooth LE 共存说明可参考文档 `ESP32 Bluetooth & Bluetooth LE 双模蓝牙共存说明 "
+"<https://www.espressif.com/sites/default/files/documentation/btble_coexistence_demo_cn.pdf>`_。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:64
+#: 817cd81309cf4430ad261032899f4cd4
+msgid "ESP32 的 Bluetooth® LE 吞吐量是多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:66
+#: 29eb659b10f348a09cbe9690eb5b52ad
+msgid "ESP32 的 Bluetooth LE 吞吐率取决于各种因素，例如环境干扰、连接间隔、MTU 大小以及对端设备性能等等。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:67
+#: 4c0d0f61fbd743369749dec3505e470f
+msgid ""
+"ESP32 板子之间的 Bluetooth LE 通信最大吞吐量可达 700 Kbps，约 90 KB/s，具体可以参考 ESP-IDF 中的 "
+"ble_throughput example。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:72
+#: 54b33d50632249d4b5db4b287e45b0fd
+msgid "ESP32 是否支持 BT4.2 DLE (Data Length Extension)？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:74
+#: accfb62b8ea94bd3b9428f1ec637cca6
+msgid ""
+"支持。ESP-IDF 所有版本都支持 Bluetooth® 4.2 DLE，暂无对应的 sample "
+"code，可直接调相关接口实现，参见：`esp_ble_gap_set_pkt_data_len "
+"<https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-"
+"reference/bluetooth/esp_gap_ble.html?highlight=esp_ble_gap_set_pkt_data_len#_CPPv428esp_ble_gap_set_pkt_data_len13esp_bd_addr_t8uint16_t>`_。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:79
+#: ca2b1c26d24b4890a90c995873ef02ff
+msgid "ESP32 的蓝⽛和 Wi-Fi 如何共存？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:81
+#: a03ac0c22d994eb68faaa8c979e47f4f
+msgid ""
+"在 menuconfig 中，有个特殊选项 “Software controls WiFi/Bluetooth "
+"coexistence”，⽤于通过软件来控制 ESP32 的蓝⽛和 Wi-Fi 共存，可以平衡 Wi-Fi、蓝⽛控制 RF 的共存需求。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:83
+#: c1908fd8701f498d86b947f8bd624728
+msgid ""
+"如果使能 ``Software controls WiFi/Bluetooth coexistence`` 选项，Bluetooth® LE "
+"scan 间隔不应超过 ``0x100 slots`` （约 160 ms）。若只是 Bluetooth LE 与 Wi-Fi "
+"共存，则开启这个选项和不开启均可正常使⽤。但不开启的时候需要注意 Bluetooth LE scan window 应大于 150 ms，并且 "
+"Bluetooth LE scan interval 尽量⼩于 500 ms。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:84
+#: 57181a9a34dd4b4bb68403a432390f5e
+msgid "若经典蓝⽛与 Wi-Fi 共存，则建议开启这个选项。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:89
+#: a7405622f9204d059dd50762093dc617
+msgid "ESP32 蓝牙的兼容性测试报告如何获取？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:91
+#: 9d6e029283f447dcb791f3c10e7ebe4d
+msgid "请联系 sales@espressif.com 获得兼容性测试报告。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:96
+#: 2eb83befc95642eea62be721d7798a83
+msgid "ESP32 蓝牙的发射功率是多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:98
+#: 4653546b41534718b56d58c33062366a
+msgid ""
+"ESP32 蓝牙的发射功率有 9 档，对应功率 -12 ~ 12 dBm，间隔 3 dBm "
+"一档。控制器软件对发射功率进行限制，根据产品声明的对应功率等级选取档位。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:103
+#: 24aca74d9a31413bb94f7016d36186cd
+msgid "ESP32 可以实现 Wi-Fi 和 Bluetooth® LE 桥接的功能吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:105
+#: 2b02030e33c9446383c1e907eb7432a4
+msgid ""
+"可以实现，这个属于应⽤层开发：可以通过 Bluetooth LE 获取数据，由 Wi-Fi 转出去。可参考 `Wi-Fi 和蓝⽛共存的 demo "
+"<https://github.com/espressif/esp-"
+"idf/tree/release/v4.0/examples/bluetooth/esp_ble_mesh/ble_mesh_wifi_coexist>`_，修改为⾃⼰的应⽤即可。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:110
+#: 9d0f4d2213b94cc59c3f17457dc4f0f5
+msgid "ESP32 的 Bluetooth® LE 工作电流是多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:113
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:235
+#: 7c78b5d6b88c48e49cecf2329c3d7033 c07bf961404e4391ac8140e7e446ee1d
+msgid "电流"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:113
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:235
+#: 9fa27dbce21341f9a61adca4d0182247 a34f406cc3cd498785709c3a4ebee8c8
+msgid "最大值 (mA)"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:113
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:235
+#: 544c2245d7a3401993667c721f5ed709 e19e9846bba04a6d965d95c7b9e6ca81
+msgid "最小值 (mA)"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:113
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:235
+#: 33e4caaa000f4c0e820dd7330dece51a 6157c1e12fa2414880af73b76cadc0fb
+msgid "平均值"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:115
+#: af82e952696c49b48bbcc38d863f710f
+msgid "Advertising: Adv Interval = 40ms"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:115
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:117
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:119
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:121
+#: 0f249c9307934c14907340c0bedc0423 4e786dad15d240f39eb9f66cb57868a7
+#: 7081103fc80147ab80213c1451b243bb fb0fc5da9260498c890cd01fb15ac22a
+msgid "142.1"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:115
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:117
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:119
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:121
+#: 1a307bd3cf6d4832bc57e41d1e570041 2c83988b77844a28aa7d3ae0436d5790
+#: 7558d4a8e79e454b9405ef08c170a73d cd675da203854510b17618c1a953aa05
+msgid "32"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:115
+#: 912f3b97e8414dd49b3419c9e020ea4e
+msgid "42.67"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:117
+#: d42fe9084f9547bd9d51107f7685a322
+msgid "Scanning: Scan Interval = 160ms,Window = 20ms"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:117
+#: 48ca952083a44f37927a56f9446b6fa7
+msgid "44.4"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:119
+#: adbbcec7af4f4ec69dfe23304f76f4f3
+msgid "Connection(Slave): Connection Interval = 20ms, Iatency = 0"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:119
+#: 906f2ff7dd99478d8f2ec632cd783432
+msgid "42.75"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:121
+#: 3803a7c493da47c69852f7a987fa3a68
+msgid "Connection(Slave): Connection Interval = 80ms, Iatency = 0"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:121
+#: 4f110e04276c4036b10ec8e84f6e25bb
+msgid "35.33"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:127
+#: 0c71cb373b9e4fb89e7038e67b55d331
+msgid "ESP32 支持哪些 Bluetooth® LE Profile？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:129
+#: bceba0d725f14a3d8ec5c66ad2adf51a
+msgid ""
+"目前支持完整的 GATT/SMP 等基础模块，支持自定义配置；已经实现的配置有 Bluetooth LE HID（设备端）、电池、DIS、Blu-"
+"Fi（蓝牙配网）等。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:134
+#: 6697a34fec084dbc8360545f2f26403a
+msgid "如何使用 ESP32 蓝牙连接手机播放音乐？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:136
+#: dc03aba33aff40929f2e7b2342944395
+msgid ""
+"用手机通过蓝牙播放音乐，ESP32 用作 A2DP Sink。A2DP Sink Demo 只是通过手机获取 SBC "
+"编码的数据流，若要播放出声音，需要做编解码转换，通常需要编解码器、数/模转换器、扬声器等模块。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:141
+#: 43539d4d95f84990b95861dbfa2dc5b6
+msgid "ESP32 的 SPP 性能如何？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:143
+#: b7b4dcaf709e4432906534a964eb7c79
+msgid "使用两块 ESP32 开发板对跑 SPP，单向吞吐量量可达 1900 Kbps，约 235 KB/s，已接近规范里的理论值。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:148
+#: 78208a796c3c463fb6d31c480f2d8ca3
+msgid "ESP32 的 Bluetooth® LE 传输速率最大为多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:150
+#: 536bca4075c84e12b330c13d1b69332a
+msgid "屏蔽箱测试 Bluetooth LE 传输速率可以达到 800 Kbps。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:155
+#: c45e185147844d00b45520117120298b
+msgid "ESP32 Bluetooth® LE 如何进入 Light-sleep 模式呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:157
+#: 37ae3fc9f0d748aa829dba8a571e7de3
+msgid "硬件上需要外加 32 kHz 的外部晶振，否则 Light-sleep 模式不会生效。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:159
+#: 0883e21345b947d8a8fda6044f0a7deb
+msgid "软件上（SDK4.0 以及以上版本才会支持）在 menuconfig 中需要使能以下配置："
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:161
+#: 1ce4e628a0184bc2b67ac3b6f84c1f08
+msgid ""
+"Power Management:| menuconfig ---> Component config ---> Power management"
+" --->[*] Support for power management"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:163
+#: 365a3638f02c4d71aae6ae9ab710a5f5
+msgid ""
+"Tickless Idle:| menuconfig ---> Component config ---> FreeRTOS --->[*] "
+"Tickless idle support (3) Minimum number of ticks to enter sleep mode for"
+" (NEW)"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:165
+#: b834aa0853764a589ecd8774abf42ec6
+msgid ""
+"需使能 \"Tickless idle\" 功能使 ESP32 自动进入 Light-sleep 模式。如果在 3 个节拍（默认）内无任务运行，则"
+" FreeRTOS 将进入 Light-sleep 模式，即 100 Hz 节拍率下为 30 ms。若您希望缩短 Light-sleep "
+"模式的持续时间，可通过将 FreeRTOS 节拍率调高来实现，如：menuconfig ---> Component config ---> "
+"FreeRTOS ->(1000) Tick rate (Hz)。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst
+#: 97f02c2e3dbc4e568ea3946c2838fa94
+msgid ""
+"Configure external 32.768Hz crystal as RTC clock source :| menuconfig "
+"---> Component config ---> ESP32-specific --->RTC clock source (External "
+"32kHz crystal)[*] Additional current for external 32kHz crystal"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:169
+#: a84ea6cd391846b297c395e983a04cb5
+msgid ""
+"\"additional current\" 选项为解决 ESP32 晶振失败的替代方案。请在您使用外部 32 kHz "
+"晶体时使能该选项。该硬件问题将在下一个 ECO 芯片中解决。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst
+#: 68598a15de104b008566db3ccfff977d
+msgid ""
+"Enable Bluetooth modem sleep with external 32.768kHz crystal as low power"
+" clock :| menuconfig ---> Component config ---> Bluetooth ---> Bluetooth "
+"controller ---> MODEM SLEEP Options --->[*] Bluetooth modem sleep"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:176
+#: 9987abbd7702454bbcf160a8f58ed3aa
+msgid "选择 ESP32 芯片实现蓝牙配网的方式，是否有文档可以提供参考？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:178
+#: 8db22df018df4c3c82303395eab933be
+msgid ""
+"蓝牙配网说明可参考 `ESP32 Blufi <https://docs.espressif.com/projects/esp-"
+"idf/zh_CN/latest/esp32/api-"
+"guides/blufi.html?highlight=blufi>`_。蓝牙配网示例可以参考 `Blufi "
+"<https://github.com/espressif/esp-"
+"idf/tree/master/examples/bluetooth/bluedroid/ble/blufi>`_。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:183
+#: e3b0ea0b75264ff7b504e23afc38af25
+msgid "ESP32 经典蓝牙 SPP 的传输速率能达到多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:185
+#: d46e95abca8d45fcb5faef1746d10fc8
+msgid "在开放环境下，双向同时收发，实测可达到 1400+ Kbps 到 1590 Kbps（此数据仅作为参考，实际情况建议客户根据应用环境实测）。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:190
+#: 09c96432f3c943dcb9f30b353fb822bb
+msgid "ESP32 的蓝牙是否兼容 Bluetooth® ver2.1 + EDR 协议？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:192
+#: 9d36a69aeb284297b1b258d26f38c686
+msgid ""
+"兼容。ESP32 的蓝牙是向下兼容的，您可以使用官方的 `蓝牙示例 <https://github.com/espressif/esp-"
+"idf/tree/master/examples/bluetooth>`_ 进行测试。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:197
+#: a433e0c44d8243839c9bde115a4205ab
+msgid "ESP32 支持多少蓝牙客户端连接？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:199
+#: ff70bcd5316645339fbdc66038d292d2
+msgid "Bluetooth® LE Server 最大支持 9 个客户端连接，应用中需查看配置参数 ble_max_conn。测试稳定连接为 3 个客户端。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:204
+#: 3fd9e83a3454438b8dc7cdab57db06d6
+msgid "ESP32 如何获取蓝牙设备的 MAC 地址？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:206
+#: aa5a5cbf75f942649f0699d4e40bdcb7
+msgid ""
+"可调用 `esp_bt_dev_get_address(void); <https://github.com/espressif/esp-"
+"idf/blob/f1b8723996d299f40d28a34c458cf55a374384e1/components/bt/host/bluedroid/api/include/api/esp_bt_device.h#L33>`_"
+" API 来获取蓝牙配置的 MAC 地址。也可以调用 `esp_err_t esp_read_mac(uint8_t* "
+"mac,esp_mac_type_ttype); <https://github.com/espressif/esp-"
+"idf/blob/6c17e3a64c02eff3a4f726ce4b7248ce11810833/components/esp_system/include/esp_system.h#L233>`_"
+" API 获取系统预设的分类 MAC 地址。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:211
+#: 33df93198c004293950f95dc8b189abd
+msgid "ESP32 SDK 中默认的蓝牙的发射功率是多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:213
+#: d86b3edf3608445db59542266b8dab7b
+msgid "ESP32 SDK 中默认情况下使用功率级别 4，相应的发射功率为 0 dBm。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:214
+#: 3f1e4917d440415bb33bc333c2a2e26a
+msgid ""
+"ESP32 蓝牙的发射功率从 0 到 7，共有 8 个功率级别，发射功率范围从 –12 dBm 到 9 dBm。功率电平每增加 1 "
+"时，发射功率增加 3 dBm。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:219
+#: 9ab4e45b5c3a4521b4e30c46222f8a52
+msgid "ESP32 Wi-Fi Smartconfig 配网和 Bluetooth® LE Mesh 可以同时使用吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:221
+#: afea5d99c59447dea49a9589086b9e90
+msgid "不推荐同时打开。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:223
+#: 0b881cf8728249f8b3fb6026dffac5b5
+msgid "Smartconfig 需要一直收配网数据，所以会一直占用天线，如果和 Bluetooth LE Mesh 共同使用，会导致失败率非常高。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:225
+#: e7a3eb95c51a4f3ca0135b2e4b365043
+msgid "Bluetooth LE Mesh 可以和 Blufi 同时使用，所以推荐配网方式选择 Blufi 配网。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:230
+#: 1ddbb2bd842348f38608f83a89cd271d
+msgid "ESP32 的经典蓝牙工作电流是多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:232
+#: 52365f13efa94fcab0f035cca5cd4e8d
+msgid "A2DP (Single core CPU 160 Mhz，DFS = false，commit a7a90f)"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:237
+#: e4d51b28cf8e45b3a7d7a377236ad48d
+msgid "Scanning"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:237
+#: b5000f7299e84753a76604221820ec8c
+msgid "106.4"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:237
+#: 03b8cb02d2bc487fb94dc1acdd0723b6
+msgid "30.8"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:237
+#: b2dc2f5d3cfa480aada6bb511aa6778d
+msgid "37.8"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:239
+#: 7e2a23db43004ef4a2b5ae1ff625f6c1
+msgid "Sniff"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:239
+#: 486b9e187724438baa00419cd355e14d
+msgid "107.6"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:239
+#: 1929179987d349c39963e6fcd417221f
+msgid "31.1"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:239
+#: e7f3dccd00c44bb8bd486925908d0f4b
+msgid "32.2"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:241
+#: a08e520f27cb465f8e6eae7c64c54564
+msgid "Play Music"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:241
+#: f8e099fd39de42e080ea56da011fed64
+msgid "123"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:241
+#: 0df73a9bef604f769c2c87ca4c6ff669
+msgid "90.1"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:241
+#: 2632e0e0b0b7458da1fd99778a33db84
+msgid "100.4"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:247
+#: 31d0cbd4e0ed4f2eaac10e5cbdd10b3c
+msgid "ESP32 如何修改蓝牙的发射功率？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:249
+#: c89fd7e9b5ef46b49f8daad4e1b51fc3
+msgid ""
+"蓝牙发射功率可通过 esp_ble_tx_power_set(); 函数进行设置，可参见 `esp_bt.h "
+"<https://github.com/espressif/esp-"
+"idf/blob/c77c4ccf6c43ab09fd89e7c907bf5cf2a3499e3b/components/bt/include/esp_bt.h>`_。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:254
+#: 8ea573ed64734a7fb28434c82c3b986e
+msgid "ESP32 的 Bluetooth® LE 蓝牙配网兼容性如何？是否开源？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:256
+#: 64da02a16d5343c58a918b6030a66d88
+msgid ""
+"ESP32 的蓝牙配网，简称 Blu-Fi 配网，兼容性与 Bluetooth LE 兼容性一致，测试过苹果、华为、小米、OPPO、魅族、 "
+"一加、中兴等主流品手机，兼容性良好。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:257
+#: eba111944df04682b78f7be9d0499bdd
+msgid "目前 Blu-Fi 协议及手机应用部分的代码不开源。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:262
+#: 338086aa9365494287bdbea3eb48944e
+msgid "ESP32 运行 bt_spp_acceptor 例程时， IOS 设备无法扫描到 ESP32 设备是什么原因？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:264
+#: 54b3b6e12ffe4c2c9ecec18fa04c85c2
+msgid ""
+"苹果开放的蓝牙有：A2DP、HID 的 keyboard、avrcp 以及 SPP（需要 MFI）和高端的 Bluetooth® LE 外加给予 "
+"Bluetooth LE 的 ANCS。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:265
+#: 1be48c4fd6bd45649350d75424b1734b
+msgid ""
+"如果 IOS 设备想要和对端设备通过 SPP 通信，那么对端设备的 SPP 需要通过 MFI 认证。目前 ESP32 SPP 没有通过 MFI "
+"认证，因此 IOS 设备无法扫描到 ESP32。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:270
+#: e09cc43c02bc44758c0ebf9f18f35e2a
+msgid ""
+"ESP32 Bluetooth® LE/Bluetooth® Secure Simple Pairing (SSP) 与 legacy "
+"pairing 安全性对比？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:272
+#: ea99360acdfb48418645e3ac6da7ccbe
+msgid "Secure Simple Pairing (SSP) 比 legacy pairing 更加安全。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:273
+#: eb02473b90f24f30b484e1e08a51d404
+msgid "legacy pairing 使用对称加密算法，Secure Simple Pairing (SSP) 使用的是非对称加密算法。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:278
+#: 4e7e48faa0654b199e2d69d4530fa382
+msgid "ESP32 Bluetooth® LE MTU 大小如何确定？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:280
+#: e0d38e61af264ff9b7250bdfff6ebab6
+msgid "ESP32 端蓝牙 Bluetooth LE 默认的 MTU 为 23 字节，最大可以设置为 517 字节。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:281
+#: 5843f6506c9041aaa09ffd34e77633da
+msgid "手机端的 MTU 由手机端自行定义，最终通信的 MTU 选择两端 MTU 较小的那一个。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:286
+#: 231e095f22404b12afb5a01ecad98d4f
+msgid ""
+"ESP32 Bluetooth® LE 模式下广播数据时遇到 \"W (17370) BT_BTM: data exceed max adv "
+"packet length\" 如何解决？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:288
+#: fe04ca3cb5a242d5bd1f9a2d46aa8727
+msgid "出现该警告的原因是广播的数据长度超出最大广播数据包长度限制。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:289
+#: 85f639bfa9764bc0975d262075ce9257
+msgid "广播有效载荷数据长度最大为 31 字节。如果超过 31 字节，那么蓝牙协议栈会丢弃一些数据，并且给出警告。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:290
+#: da73a606752547488b92aa59ee2e1cc0
+msgid "如果需要广播的数据长度超出最大限制，超出的数据可以放在扫描响应数据包 (scan response data) 中。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:295
+#: 3c4ce52859ca43cc961e0b702523b886
+msgid ""
+"ESP32 Bluetooth® LE 能否同时支持主从模式，作 gatt server 的同时，也可作为 gatt client "
+"接收其他设备的广播数据？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:297
+#: 10a2373aa29d4757973b233b24cf2c6b
+msgid ""
+"支持，可参考例程 `gattc_gatts_coex <https://github.com/espressif/esp-"
+"idf/tree/master/examples/bluetooth/bluedroid/coex/gattc_gatts_coex>`_。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:302
+#: 13d05233dd7846548a71eeeda0454993
+msgid "ESP32 的 Bluetooth® LE 连接数 6 个以上会有哪些风险？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:304
+#: af7746296a0e4a96ac233681893af181
+msgid "通常要根据具体的应用决定，在常规场景下，ESP32 Bluetooth LE 连接 3 个设备可以稳定通信。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:305
+#: 2f4ca6881ec545f99062071511371097
+msgid ""
+"Bluetooth LE 的最大连接数未有一个准确的值，在多个 Bluetooth LE 设备同时连接的的时候，RF "
+"是分时复用的，需要设计者保证每一个设备不会长时间占用导致其他设备超时断开。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:306
+#: 105f7fb723f6490492b887d99d272dd5
+msgid ""
+"连接参数里面有 connection interval、connection window、latency、timeout, 可以在 "
+"``latency`` 以内的不应答，但是若超过 ``timeout`` 的时间，将会导致连接断开。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:307
+#: 227c5b7582714ca9bbbb4b492965fc5d
+msgid ""
+"假设配置参数中 ``interval`` 是 100，window 是 5 , Wi-Fi 关闭时，将会连接较多设备。如果用了 Wi-Fi，或者 "
+"``interval`` 设置的太小，将只能连接较少设备。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:308
+#: 129a35250fb141a8be3d32439242b846
+msgid ""
+"当 Bluetooth LE 支持多的设备并发连接时，RF 的 solt 管理出错概率会增加，所以 Bluetooth LE "
+"设备连接较多时，需要针对具体场景调试。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:313
+#: 0e2812e04c234d38960a47f8b12e348c
+msgid "使用 ESP32 设备作为 Bluetooth® LE 主机，最大支持多少台从机设备进行连接？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:315
+#: 0ba33c699fa4418491035549abf86a28
+msgid "ESP32 的 Bluetooth LE 最大支持 9 台从机设备进行连接，建议连接数量 3 个设备以内。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:316
+#: a36f51e9ec52421dabb6388d63fa5061
+msgid ""
+"可通过 menuconfig -> Component config -> Bluetooth -> Bluetooth controller "
+"-> BLE MAX Connections 进行配置。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:321
+#: 2ab766ad35504b7592274fe5c9a1d9ab
+msgid "ESP32 如何通过 Bluetooth® BR/EDR 传文件？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:323
+#: 23eadc72052e4d149f4bd93f111ab2a5
+msgid ""
+"可参考链接 `classic bt <https://github.com/espressif/esp-"
+"idf/tree/master/examples/bluetooth/bluedroid/classic_bt>`_ 下的 "
+"``bt_spp_acceptor`` 或者 ``bt_spp_initiator`` 例程。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:328
+#: c7e31e59fc0c4069a6c84ab9c4e0f89b
+msgid "ESP32 下载 ESP_SPP_SERVER 例程，如何修改蓝牙设备名称？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:330
+#: 3aff3f2e1860425f9119fe7900a7ab82
+msgid "蓝牙设备名称可以通过修改 ``adv`` 参数实现："
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/espressif/ble-bt.rst:339
+#: 90601f8dbe6b472a95357abb3494ece4
+msgid ""
+"第三行 0x0F 表示后续数据长度为 15，0x09 表示数据类型（固定不变），0x45 开始后续数据代表设备名称对应的 ASCII "
+"码（默认为：BLE_SPP_SERVER)。"
+msgstr ""
+
+#~ msgid ":link_to_translation:`en:[English]`"
+#~ msgstr ""
+

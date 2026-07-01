@@ -1,0 +1,364 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/software-framework/VC/index.rst:2
+#: 26b5101e096d4fce8082048de6d2c31f
+msgid "离线语音VC系列"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:17
+#: be0b0df94b854d5daa4ccda8859838b2
+msgid "语料命令词最多支持多少条？"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:18
+#: 6951e85ae0a346a798bfd57e1005ca50
+msgid "150条"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:22
+#: 18eceb5f394140d8bd038bde604ea6f0
+msgid "唤醒词最多支持多少条？"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:23
+#: d8e504c363e94d19bccc6bb96f584afa
+msgid "10条"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:27
+#: 1979c2ec7ade49a8b74eac67ab1afea7
+msgid "VC系列模组电路设计时候，需不需要外加功放芯片？"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:28
+#: 5aaa7813428a4002bfa6fe5cf41a87c3
+msgid "不需要"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:32
+#: 7f914f5e9b574c19b8e28c7ff5f733dc
+msgid "VC系列模组支持以下哪些烧录方式？"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:33
+#: 84b5948946e34762a6f921c447a59a74
+msgid "JTAG调试器和串口烧录"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:37
+#: 40f4da4bcf0e470a91c4573e9603510b
+msgid "VC系列模组的电压电流要求是？"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:38
+#: 9830f8e9f89844a79698450e206af06e
+msgid "供电电压 3.6V-5V，供电电流>500mA"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:42
+#: 41b39079cc464605a72a4786bf6e923d
+msgid "中英版本唤醒/命令固件支持自学习吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:43
+#: ../../source/docs/software-framework/VC/index.rst:74
+#: 3e2857e70c034f4aba984a6fd3a8af1a 60becd37584445d6b38d7b5bd026a6a0
+msgid "支持"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:47
+#: 89e0a912b9354d3d969a3274b69897b0
+msgid "支持粤语/河南话等方言吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:48
+#: c215ba5fc1fe4f45b2ba706843b879bb
+msgid "不支持"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:52
+#: 1a995452e1be4935be27cf420c8b2ce2
+msgid "VC系列和之前的VB系列语音模组，开发环境/下载器是一样的吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:53
+#: ef320b58702044fc83211df7124cf472
+msgid "VC使用开发平台是Linux ,VB是Windows CDK IDE，各自有自己的下载器下载"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:57
+#: 68e7bd6f375741cd8353977dc6e34e5c
+msgid "VC系列模组接麦克风推荐购买哪种"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:58
+#: d95328837cd24fc4b0b49d9c71a38dc7
+msgid "可以按照灵敏度-27db的标准"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:61
+#: dd70085a21424245ba5ff863b90edd9b
+msgid "VC系列模组咪头的拾音最远能达到多少米"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:62
+#: 37ee549b044e46bfbff0b22424deb506
+msgid "最远5米。"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:65
+#: 4ce8ad9525b649898f83c88fb8898617
+msgid "VC系列模组支持播报吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:66
+#: 6bc8afd30c5a409a87e8b2305206b22b
+msgid "支持，不过没有TTS功能"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:69
+#: 9d7f18a6f8ae442a997853ee2f4ec581
+msgid "VC系列模组使用语音开放平台是不能进入I2C开发吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:70
+#: ae8be89a6cda4c3c8155722441770d9c
+msgid "不能开发I2C功能"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:73
+#: 2ad99fbc74224a80b543493d38181386
+msgid "VC系列模组支持自定义免唤醒命令词吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:77
+#: e81a74415ff9471c8fa13e729ab1c1bc
+msgid "VC系列开发板中文固件和英文固件是不是硬件通用的"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:78
+#: ec2bc4eaba5c48e998a3c3817863a6b3
+msgid "共用同一个硬件"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:81
+#: a3e8a88b7a6941558d831f918512c8f2
+msgid "VC模组在线创建产品SDK中有B2B3B6B7引脚，但是实际产品引脚定义没有这几个引脚，是怎么回事"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:82
+#: c548f7eb64f8417d88d974282a5e9e82
+msgid "B0 B1 B8 是特殊功能脚，B8是系统log 默认是输出脚波特率57600，B0 B1是JATG 烧录脚"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:85
+#: 6004ea7a63f94dec90867b260fcf8b2c
+msgid "VC系列所使用的咪头参数是多少"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:86
+#: a7ea479a228543b68c8a627d353045ac
+msgid "咪头的接收灵敏度为-31dB"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:89
+#: 4fdb007e478f41bd8dbe1ef106d68aa0
+msgid "VC-02模块支持永久唤醒吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:90
+#: 028920a6c8b6453b82046804dd6273cf
+msgid "支持，需要通过开发实现，出厂固件没有实现该功能"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:93
+#: bb7e4a04ff3d4550aa2d05bef2a25483
+msgid "请问VC语音开发板的串口是哪一种芯片？"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:94
+#: 5e56ca823278433d97744717a8201023
+msgid "CH340"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:97
+#: 28036e2977ee416189910299705dec86
+msgid "VC-02-Kit是否可以用于驱动舵机？"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:98
+#: eb0dc0305de64ffcac75f62ea11cfe8f
+msgid "需外部搭建H桥等电路配合驱动"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:101
+#: 4b26abd3d8aa4fcabe386cf4bfb52bf2
+msgid "目前有哪些模块支持声纹识别功能"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:102
+#: be61a5a2a4b84e0499a26c80d8eb0bbc
+msgid "声纹识别功能的模块目前没有，有语音识别的VC系列模块"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:105
+#: fb209cbd199d42e395c0d2a0ad63a44f
+msgid "VC开发板是否可以通过板子上的USB口进行固件烧录"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:106
+#: 6ae7bf5df7e246a5929a0609f1b8e2d5
+msgid ""
+"可以，模块通过USB转串口的方式给开发板进行固件烧写(烧录的固件必须使用build.sh "
+"update指令生成的uni_app_release_update.bin,烧录工具只能使用UniOneUpdateTool.exe)"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:109
+#: 4bfcd50a217d4fdbba81f006d1640a80
+msgid "VC-02的命令词可以自己编辑吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:110
+#: 1f23fe01a6534391b2d9b60b706eeba4
+msgid "可以，通过平台生成SDK的方式"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:113
+#: 6a6095c0911f438c8d7fbfe29c3153cd
+msgid "VC-02开发板可以同时识别英文和中文吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:114
+#: 45477250efdf4fff974bcb2fe3e5bf4b
+msgid "不可以，烧写什么版本的固件就支持什么语言"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:117
+#: ef2f2694bfde483bac6ab75532c660dd
+msgid "VC-01中文和英文能做到一起使用吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:118
+#: ba3f025b8f774ec29ef5fa959b543abb
+msgid "不可以，中文固件和英文固件只能二选一"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:121
+#: e2a7dfd8183d4673bdcf9849c6bd7cea
+msgid "请问VC-02-Kit是要自己写代码么？还是给一个网页，设置完了以后生成bin文件？"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:122
+#: ba6d39a0db36457191f94fed5729a4f6
+msgid "网页设置完成将生成对应功能的SDK，用户直接SDK编译完成后生成固件，也可在SDK的功能做一些完善之后再编译生成固件"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:125
+#: 3a280093edae4295a99131920702977c
+msgid "VC-02离线语音模组可以使用arduinoIDE编程吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:126
+#: 4d339b97a9f94fca99ab545ab8174764
+msgid "不可以，目前仅支持通过语音平台生成的SDK进行编程"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:129
+#: 1d5c226be44b4395ab72a961b8925744
+msgid "VC-02开发板做开发的时候注册账号，下载离线语音固件需要收费吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:130
+#: f0a3c0d97e1c4702be9a9f17bf336b60
+msgid "不需要收费，注册账号和下载固件都是免费的"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:133
+#: b61c4e7650c448beb8ab6b0d4768e9da
+msgid "请问贵司有支持语音对话，并且可以对接云端的模组么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:134
+#: 74126c40bc8d4f4daff03f4adb1b2447
+msgid "目前没有支持语音对话的模组；"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:137
+#: e9baa812ec6b4875947d7a18edab626a
+msgid "VC系列模组通过在线生成离线语音估计，只有一个文件，没有update格式的问题该如何处理"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:138
+#: d89b09b68ee14d9d8f3e542254177223
+msgid "使用./build.sh update，编译的时候后缀带update才会有"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:141
+#: 62decb730bd84820b2cadef64c3b0037
+msgid "VC-02开发板配套的喇叭是多少欧姆多少W的"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:142
+#: 5ac2dd41e6964287ab4c9f6777e77d4d
+msgid "2W8欧姆"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:145
+#: 348ca1d1e9e74f799ebdf8d87198909a
+msgid "VC-02开发板支持休眠状态下进行语音唤醒吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:146
+#: db90968f579840e786df12863d900498
+msgid "不支持休眠状态进行语音唤醒，目前仅支持待机状态进行语音唤醒"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:149
+#: 0404fc3c4f8d4c919a0a4b646597874d
+msgid "VC-02开发板可以录音吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:150
+#: 82ba029c390149cd9976d36b8b5a3c1b
+msgid "不可以，开发板没有录音功能"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:153
+#: b3eb9f3d1b38457591c690bde6bfd6d8
+msgid "VC离线语音模组支持OTA吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:154
+#: 91b9cbf6487744ce98534d4d9dc8bb38
+msgid "不支持，模组本身没有这个功能"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:157
+#: c107f153324c46698103cbce7d672069
+msgid "请问离线语音模组输出能驱动几路继电器呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/VC/index.rst:158
+#: a589fe43041640b899e21dfcb0bcd2ba
+msgid "4"
+msgstr ""
+

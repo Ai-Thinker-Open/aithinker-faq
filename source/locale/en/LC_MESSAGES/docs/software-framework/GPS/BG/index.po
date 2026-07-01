@@ -1,0 +1,851 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:2
+#: dd4a6c4117de4b568483b71ea53a7ef2
+msgid "安信可 GPS系列模块 FAQ"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:17
+#: 253916b99b544651b723bad1d0a419b3
+msgid "BG01-T数据刷新率多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:18
+#: 4aac1f1a73274eeb90e5b6786f194b04
+msgid "答：默认一秒钟，最快能达到200ms"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:21
+#: 57904aa32b7b44448ac462b8349716ae
+msgid "BG02模块精度怎么样"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:23
+#: a51690596a0742aa91cc754cde1dd253
+msgid "定位精度5米"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:26
+#: fb7b32fd7afc403b87c61fa442b21783
+msgid "BG01-T GPS协议是ublox还是nmea"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:27
+#: 6be1fc1993ee4704834a3e20aabde9fb
+msgid "协议是NMEA"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:30
+#: 16622a777be648aba0f19787896a5435
+msgid "这个BG02-T模块输入电源是多少V？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:31
+#: ddef5d264b9941aebfa2d769941f2c5d
+msgid "3.3V"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:34
+#: 9cb29a085665491f9702100055374834
+msgid "\"BG01-T怎么看定位"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:35
+#: e9aeb48054cf4e2e9dd2faaa3d20549f
+msgid "通过串口的打印信息，获取经纬度"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:38
+#: 53af6173cae341d795c2207dcb0e546b
+msgid "BG01-T加电池就可以定位了吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:40
+#: 3ab56bbf5da34fc982c8e69eca637e25
+msgid "是的，要在室外才能正常定位"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:43
+#: db5d118f70de4b22a6ec3542d7494507
+msgid "BG-01用的是哪一款APP？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:44
+#: 702a1250abc94ea58945fce9b5b380fa
+msgid "没有APP的哦，数据是通过串口进行查看的哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:47
+#: 33ed3add29954fe5a1170f057064d2d3
+msgid "BG01-T通电就可以定位吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:48
+#: 34e6845e2fed42039745c9e66da2aec1
+msgid "是的，通电就可以进行定位"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:51
+#: dd63cc6adfed492a8c9cae93b79e267a
+msgid "BG01-T，这个USB口是做什么用的 ？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:52
+#: 757c67c845e14e819bc59d3940def8e6
+msgid "USB是方便接线"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:55
+#: ea89ee439ca94877a060f7b74ad3ce19
+msgid "BG-02和GP-02有什么区别吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:56
+#: 52a92f7b091c41e1855706125abeedd8
+msgid "使用的GPS芯片不一样，推荐使用BG-02，BG-02定位的精度高，性能好。"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:59
+#: 53fb230e61ed45daab65708acdfd8fef
+msgid "BG02-T VCC电压范围具体是多少"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:60
+#: ed39b73454e546318939ec278b69b12b
+msgid "3.6~5V"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:63
+#: d7a4d3792c8f4160bb328c863ea7a840
+msgid "bg01t和bg02t有什么区别"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:64
+#: 1ded4e694b2c4f8a8787339b47cb5b48
+msgid "BG01-T比BG02-T尺寸大一些，天线大一点，稳定性好一点。其它并无区别"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:67
+#: f864e7549d5344e88f70f5345694dc08
+msgid "BG02模块5V供电行吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:68
+#: e094d0a474c84e68a86ebaa226727a1c
+msgid "单模块只能使用3.3V供电"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:72
+#: 92793f96b1da444e8adb6514af2d3407
+msgid "BG02-T 5v供电没事吧"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:73
+#: 96b7eed3440b4cad88e854fea3bec81b
+msgid "没有问题，开发板上面有做降压电路的"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:76
+#: fbdd6cb872ee42f5bc09c98f9d5bd46a
+msgid "BG01-T模块通电就输出gps 坐标吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:77
+#: b88efc963bb94fc4a354f96a20468498
+msgid "通电输出经纬度"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:80
+#: 2d3817480b9f4bb683ad2f88333ddd59
+msgid "BG01-T可以远程访问嘛"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:81
+#: b16212c7e0df4ccb85a476ee0df61473
+msgid "不可以远程访问"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:84
+#: 60ca1a7b25fc4a30a03be64dc6f8b6fd
+msgid "BG02-T 不是中科微的芯片嘛？有配置工具吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:85
+#: 3c2bd55ca2634a0795e50e7b1742a657
+msgid "这款模组的芯片是GK9501国科微的。上电就自动输出信息的"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:88
+#: 2f0400bde0694aae8d2bee847204236c
+msgid "BG02-T电池电压是多少呢？上面那科纽扣电池是多大电压的"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:89
+#: 3bfcff863a7348179ce76316c5e1219f
+msgid "这个是GPS的开发板，供电需要3.6V到5V。3.3V"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:92
+#: a522e1ede5664480972cc1d85bafa44d
+msgid "BG01-T用什么平台可以实时看到定位器的位置"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:93
+#: 623e26b2bc2843b880a336b1efdd31fd
+msgid "上电是通过串口调试助手查看打印出来的定位数据"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:96
+#: 461673ec0ae64d369a2adc29a1b6622a
+msgid "BG01-T定位模块可以加在别的电路板里面吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:97
+#: ../../source/docs/software-framework/GPS/BG/index.rst:106
+#: 07c198e9213b452498d204cb3555dffd 79eecbc9288f4859a6d8c2b8e1b7ca6c
+msgid "可以"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:100
+#: 802c3cbceaa0441c993faf6e3a261fcb
+msgid "BG01-T模块夏利n7可以用吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:101
+#: e9fe8274a2e04b488801aa66311ac195
+msgid "不行哦，我们做的只是模块，需要配合其他单片机才能使用"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:105
+#: c0d7e16c35254324829ad82d3582a46d
+msgid "BG02用3.3V 800mA的LDO供电可以么"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:109
+#: 9b4319b340b048b6a7a178a92ff8742e
+msgid "BG01-T可不可以做GPS车速传感器用"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:110
+#: b9fdf638879446e89e17a332748895da
+msgid "车载定位"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:113
+#: c7a99e59ae7249b0a27bf83ec0d632ea
+msgid "BG01-T能装万年历上改成卫星授时吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:116
+#: 7dc02e13550c4ef38282914cc6982be1
+msgid "不行哦，这个只是GPS的定位，没有授时的功能这款BG01-T有指示灯吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:118
+#: 276ff0405b924e1289f0282a8aa0009c
+msgid "没有指示灯哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:121
+#: e302aee6c53744cea8ce20921c4c05de
+msgid "BG01-T模块航模可以用吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:122
+#: d2afb9f57a2a4d6197c698e62dfd15a3
+msgid "可以用"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:125
+#: e8d4c9dbd4bc4fb5ad8cdbc7d3758db9
+msgid "BG01模块能装在无人机上吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:126
+#: ../../source/docs/software-framework/GPS/BG/index.rst:159
+#: ../../source/docs/software-framework/GPS/BG/index.rst:281
+#: ../../source/docs/software-framework/GPS/BG/index.rst:323
+#: ../../source/docs/software-framework/GPS/BG/index.rst:343
+#: 4def0fecb35d4aafbda4356d1b6e942a 778da2562997420da16983bd8ef6ef1a
+#: 8bb007e3180e4f7984d16f1203fa5a41 b1c60c33c0d24a13a6d61512d561fe18
+#: ee808cb2397b4080b143245687a03ef7
+msgid "可以的"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:129
+#: aadbc014773c4560a3489ed27b910a96
+msgid "BG01-T已经集成了 MCU 了吗？ 也就是直接可以将GPS信息发送到自己的服务器，不需要额外接入处理芯片了？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:130
+#: 203d735d23e74d058634da5b21669ef9
+msgid "这个只是将GPS信息接收到通过串口助手打印出来  需要额外接入处理芯片"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:133
+#: 0c77e6e2575f47ca902f61f5e461cc45
+msgid "BG01-T默认出货波特率是多少"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:134
+#: ee7be77c3c01482f87d3b79e13c2c463
+msgid "115200"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:137
+#: c35f81479f7d4b0694d791f93d723824
+msgid "Bg02-T 后台能看到定位吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:139
+#: e4de5600f7424374b4e47c7643806f7f
+msgid "这个是在串口信息上进行查看的，没有联网的功能"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:142
+#: 4f8db0ffdb0143b486504baa2843f681
+msgid "GPS模块波特率19200的有吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:143
+#: da480fe71a174195ad009ac3e6bb9d33
+msgid "BG01、BG02可以通过设置进行波特率的更改"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:146
+#: 8ca5db9877c84d669f174e71aa60cac6
+msgid "BG02-T这款gps的波特率是多少 ？另外协议是nmea还是ublox"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:147
+#: 14fdccf567b54152b46426a5962e0a84
+msgid "9600，协议是nmea，可以5V供电"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:150
+#: 20f1339cfefc4a1d8e9ef716630ec449
+msgid "BG01如何定位"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:151
+#: cf538fd0d72d482b96867e50e0ff2356
+msgid "通过搜星定位，不需要插卡"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:154
+#: 6671537673264b32aa64ccea39d964c5
+msgid "BG01-T GPS和BDS都支持,,,是分开支持还是同时支持?"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:155
+#: 71c8e57479bf4f909075c45cbeab83d6
+msgid "同时支持"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:158
+#: a28fd26233d74cd9aa63359aa974025d
+msgid "BG02-T可以用在飞控上吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:162
+#: 61c44c7f7ff5464491334a9723e86679
+msgid "BG02模块接上陶瓷天线就能使用了嘛？装飞控上的，就使用到VCC RX TX GND这四根线"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:163
+#: ../../source/docs/software-framework/GPS/BG/index.rst:331
+#: 003ed51f7f9842db959c906ad9ca2429 e285679f86a84ff89dc997f3e784ea57
+msgid "是的"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:166
+#: 863c89ca0dd84a28aec7871c4378e318
+msgid "有没有低功耗gps模块？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:167
+#: c0ac844fbf6343deb9ce36af24059204
+msgid "BG01  BG02"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:170
+#: 742dc994ed7743c980fa6950f07a5b42
+msgid "BG02-T可以连8266吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:171
+#: c6acc202954c403e9bfb6783d5060fed
+msgid "不行哦，它没有联网的功能"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:174
+#: 101e5451fa1547bca25b228873b6d031
+msgid "BG02-T可以作为8266的外设吗 ."
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:175
+#: 78b30966dcf34cf9b77f8319b1b07099
+msgid "可以作为8266的外设"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:178
+#: 942f689040ed4b05926ecae620e5ea89
+msgid "BG01-T模块能直接写入程序吗？可以二次开发？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:179
+#: 85d9aa74967f4423822cbfdf5a78552a
+msgid "这个不行哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:182
+#: 77ab3dbcf1464f68906b89f73635e20f
+msgid "BG02最低电流多少了"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:183
+#: b2524132ff654d63bd2e1c21e03c8b68
+msgid "0.3mA"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:186
+#: 992e0baad61a417f83d0cea128d58147
+msgid "BG01模块天线有什么要求吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:187
+#: 3cc82c45f6d34743bd07e607fd136082
+msgid "淘宝搜索GPS天线就行"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:190
+#: 3da693a02b3e4f5f952a5dacc98ed8bd
+msgid "BG02定位精度多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:191
+#: 2861d84afbb745b89f0077c315a5ded1
+msgid "定位精度小于10米"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:194
+#: 60931a72a8d644f7ad9e3b54d41fc6d1
+msgid "BG02-T搜星速度怎样"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:195
+#: ef6df7a7f30d417083e8410c8f766b6f
+msgid "30S"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:198
+#: 528e10ea40da421187a4dc27ad3b9600
+msgid "BG01-T可以改软件的经纬度吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:199
+#: 9d2b17a773814c61bf4bbe474a520bff
+msgid "不可以哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:202
+#: 2d03586e72724b39b1b560194ecce59d
+msgid "BG01-T空旷地能搜多少颗星？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:203
+#: d22c64d9436b47219723c702d072e884
+msgid "30颗星"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:206
+#: 8168932c1d2b4fed8fb21b4ded408893
+msgid "BG02-T支持北斗通信吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:207
+#: f43bffa333e84ea198925dadd9d1f184
+msgid "可以通过串口进行通信设置定位参数，具体您可以查看官网的GK9501指令集"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:211
+#: a1d78f6e040440bb912831471adf749f
+msgid "Bg01-T GPS gate触发周期是1秒，还是10毫秒或其它可设定"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:212
+#: 29f2b44022c44638a12691c3325fef0b
+msgid "可设定"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:215
+#: 6e602544b8da4bbbaf58416e9928d496
+msgid "BG01-T这个模块有秒脉冲1pps信号输出吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:216
+#: 16994437dc4049c299c32ded2f696e7c
+msgid "有的"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:219
+#: abdbcd8e58c44ac2b7afbf3b9cce4e40
+msgid "BG01-T可以加装北斗模块，形成双模块搜星定位？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:220
+#: e125992034c84a4983611e9b89577bdd
+msgid "不行哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:223
+#: 010ccaee776148ca89e2088f818da5fc
+msgid "BG01-T有定位，监听吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:224
+#: 5bc2ff5eaa9640f19b73180b1f9ac9d8
+msgid "只有定位功能"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:227
+#: 72072205d8824e7f8e36adb79c0e3d50
+msgid "BG01-T供电是用数据线还是用vcc和gnd引脚呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:228
+#: 8ebfa454100c4ab2a6e6d223d28c7c01
+msgid "数据线、VCC GND二选一"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:231
+#: 72a0250314534dd29c4569b1a5e9ab69
+msgid "BG01-T模块用vcc，gnd供电的话，需要多大的电压？ 是3.3伏，还是五伏？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:232
+#: 954281f097044c248910345b32bbfaed
+msgid "5V"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:235
+#: 776b240da2e646c899a41bb27ae43067
+msgid "BG01-T_封装.pcb ，这个文件打不开"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:236
+#: 94769417146d486a920bfe465ca49bd6
+msgid "用PADS9.5版本，不是用AD"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:239
+#: 17db4bb43e0b439dac21179aa8be2cbc
+msgid "这个BG02-T的输出协议是什么"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:240
+#: bda9f2b94aca46eeaa4136edd3133c0c
+msgid "输出协议是NMEA"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:243
+#: 8a4f9c793fab4e3ca8aafb38ca9a5dd5
+msgid "BG02-T模块怎么还有个纽扣电池 ？可以去掉么"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:245
+#: 450265234e214c8c8bcf091f9d8ddbd8
+msgid "那个是超级电容 ，驱动模块的"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:248
+#: 55ebf2c4e855497d993d1a24adbb08a2
+msgid "请问BG02-T模块的通信接口是？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:249
+#: eb75fc9e52c84049b828a96ee8e08121
+msgid "串口"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:252
+#: 10de578340184576aeeb360c5657e605
+msgid "BG02-T可以直接读取北斗信号吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:253
+#: 9ed584fbd89a42418ab3ba4a844c9ae3
+msgid "不需要哦，直接就能读取.不过要到室外"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:256
+#: 059de4711f75473892d8898d34541b96
+msgid "BG02-T农村空旷地最少搜多少星？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:257
+#: 36d67ab0fcde4290b96669114c7df599
+msgid "10颗以上是没问题的"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:260
+#: 3e121b8096d844fb9b232cf3df08a066
+msgid "BG01-T模块怎样装进导航?怎么接导航电路板上?"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:261
+#: ef4aa51f0ed24a6f99e436ea6495a0d9
+msgid "通过串口"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:264
+#: f186844aaecd40969aaa422e21894874
+msgid "BG01-T是北斗和GPS双模吗？ 是可以直接接USB用吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:265
+#: 429aee5a3f2f4297b1da4f8d23afa385
+msgid "是的，GPS+北斗，USB只是供电功能，不能当串口，需要另外购买串口板CP2102"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:268
+#: 1fa51c3010064c1d91fa9d4ad6cc3b9f
+msgid "BG01—T和BG02-T的主要差别在哪？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:269
+#: 023af9cc815641598508867d7f3e7811
+msgid "BG01-T比BG02-T尺寸大一些，陶瓷天线大一点，BG01-T的稳定性相对更好一点，其它并无区别。您可以根据您的具体需求来选择"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:272
+#: dd75b96d489f4b18865cff8aa78227d6
+msgid "BG02-T GPS定位精度多少"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:273
+#: a76b2457b2c74efca5d4cae04f6d543f
+msgid "10CM"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:276
+#: 1eac27e9e9fc4666b25afed0c0229cc0
+msgid "\"BG01-T USb是数据接口吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:277
+#: f013b57a70e5400094f235e806160eb8
+msgid "仅支持供电"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:280
+#: e8603029ad9b45fbb5d3af0f1446c824
+msgid "BG02这个可以用手环里面吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:284
+#: 4b7dd1f54d6d48338b9e62a718377ec9
+msgid "这款可以同单片机通信不"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:285
+#: 84b66eea588e4816896db1094c2e5afd
+msgid "可以同单片机通信"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:288
+#: 41e0d66cb8a043a0b1a32c36825dcf6c
+msgid "BG02-T是接到电脑取得卫星的数据吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:289
+#: 92f2c96f25e4479b88f7494a9252761b
+msgid "用USB转TTL的串口板接好线 ，然后USB插到电脑上就有GPS数据出来"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:292
+#: 1e744bcefb3e4af5bcb17d270369f2d7
+msgid "BG-02支持 北斗定位吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:293
+#: 43d831af821841838b14e2b80a006431
+msgid ""
+"\"BG系列GPS模块是通过搜星定位，不需要插卡， 通电就可以获取经纬度信息 "
+"，通过串口调试助手查看打印出来的定位数据，不过需要注意的是需要在室外才能正常定位，室内是无法使用的，如果室内定位推荐您选用我们的另一款UWB高精度测距定位模块BU01：https://item.taobao.com/item.htm?ft=t&id=602542217862\""
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:298
+#: a25569baee7d4f1da698a265675235dd
+msgid "Bg02是单GPS吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:299
+#: 0a477bee527146248950afa39b71ef13
+msgid "GPS+BDS"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:302
+#: 5d11bbedabd344b79ee91ecc09e0fe54
+msgid "BG01/02支持SIM卡吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:303
+#: 4d093eadaeca459f9f5958688d2fcdf3
+msgid "不支持"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:306
+#: d8db67ecc1a7486483dee9e0926937f9
+msgid "BG02的必须得接天线才能使用吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:307
+#: ad4c1959b48441d8ba0fd21c6668c34d
+msgid "必须"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:310
+#: bf093f4f3314443a9ef12f368e03e225
+msgid "BG01-T和BG02-T的供电范围多少"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:311
+#: 75228f1d3a504ebe83ef845bb67e8b59
+msgid "BG01-T和BG02-T的供电电压范围是3.6-5V，BG01和BG02单模块则只能使用3.3V供电"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:314
+#: 1c8dfe8cc04f41eca8ea2d3469728a8b
+msgid "BG02-T串口，供电引脚那4个焊盘间距和宽度多少"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:315
+#: 490aff83328f4d749d6ecf12c4f85b1a
+msgid "都是2.0mm"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:318
+#: 960048a4b316410bad86dd8a9e1ae484
+msgid "BG01-T gps不支持5v供电吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:319
+#: bb93a98287754f438772ac56c7bdc762
+msgid "支持"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:322
+#: ce7be23dd93344e99851dc89b0ee7be7
+msgid "BG02可以配电池吗，做成充电那种"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:326
+#: 65ecdbec3f794618a2537547c00a1398
+msgid "BG02-T想集成到PCB板上，应该怎么焊接呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:327
+#: 07834f018bed48709281a1c7a2aab660
+msgid "如果集成到PCB板上，建议使用单模组"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:330
+#: 776bb863092d43bc9bbd1517f299e541
+msgid "BG02-T是体积最小的带天线模块？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:334
+#: 0fa48b5e25bd47d79a090a39dc0727cb
+msgid "请问BG01-T如何测试？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:335
+#: ba5ec5a7a15e43889a019fafe482f68b
+msgid "上电就会默认输出串口打印信息"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:338
+#: 00c1e8c0fc064036996420808b8d3e31
+msgid "BG02-T接上串口  接上电就输出定位信息了？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:339
+#: ae7f16e0c4dc49c59548ff3a59f15ba9
+msgid "接上电就能输出定位信息"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:342
+#: ac064643b38d426fac35b8b31f5610d5
+msgid "BG02-T不用联网都能获取经纬度吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:346
+#: 1eff696a11fd4087848af633ccb93772
+msgid "BG01-T定位模块的安装有什么要求？？ttl的距离最长能搞多远"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:347
+#: 031a5a74335740349826992db2d87f89
+msgid "天线朝天空。10cm"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:350
+#: 53287188907c4f299f401503143e58fa
+msgid "BG01-T micro usb干什么的 只供电？"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:351
+#: 969406f3aa6e4883bdef89f303cbb7be
+msgid "这个USB接口是方便接线，只可以给模块供电，没有其他功能哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:354
+#: 677330794f9b46e4b64d19f8170f7061
+msgid "BG02需要插卡吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:355
+#: 50d731c7724f4c339694c524a8c10086
+msgid "不需要"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:358
+#: f654e53eb0164c84bfb47207d9231638
+msgid "BG02和GP02有什么区别"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:359
+#: 4c7997b995bc44dabc838e68bcb282c9
+msgid "用的芯片厂家不同"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:362
+#: a820525b8dbc47169c5f43d0854e2d83
+msgid "BG01-T用什么软件来看定位呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/GPS/BG/index.rst:363
+#: 17d93a10f420412eb2c2fd655be23023
+msgid "BG系列GPS模块是通过搜星定位，不需要插卡，通电就可以获取经纬度信息，通过串口调试助手查看打印出来的定位数据，不过需要注意的是需要在室外才能正常定位，室内是无法使用的，如果室内定位推荐您选用我们的另一款UWB高精度测距定位模块BU01：https://item.taobao.com/item.htm?ft=t&id=602542217862"
+msgstr ""
+

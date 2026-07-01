@@ -1,0 +1,287 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 14:37+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/hardware-related/document-contribution.rst:2
+#: 4e4b2836d6a947ccbe891718bf1cfda8
+msgid "贡献指南"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:4
+#: 4bc8a4a6303a4dc484df72ac546b1cfa
+msgid ""
+"我们欢迎对 esp-faq 项目做出贡献，如修复错误，添加文档等。我们通过 `Github Pull Requests "
+"<https://help.github.com/en/github/collaborating-with-issues-and-pull-"
+"requests/about-pull-requests>`_ 接受贡献。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:7
+#: cfe435951db54876b659ac0fc7d3effa
+msgid "提交流程"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:9
+#: 08a65affdea749049048ab3a6dc4f962
+msgid "这一节，是对 ``新增问题`` 和 ``修改问题`` 两个操作的流程简要介绍，流程中涉及的环节具体要求，请点击链接查看。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:11
+#: 80bde2d596954d8197d7675246a679a8
+msgid "针对 ``git`` 相关操作不做具体的介绍，可以查看 `Git 相关教程 <https://git-scm.com/book/zh/v2>`_。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:14
+#: 82ee410751334226a900c3c804833159
+msgid "新增问题"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:16
+#: ../../source/docs/hardware-related/document-contribution.rst:26
+#: 8fd9faecd2ff4dec9a24512652b9309a a419028303434807bd06bb9d43d84933
+msgid "在本地 `新建分支`_，遵循 `分支命名规范`_；"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:17
+#: d5c36596dcce47bab2f8ab8d9a52b309
+msgid "在本地或者 web IDE 找到与问题类型对应的 ``*.rst`` 文件，根据模板格式新增问题；"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:18
+#: ../../source/docs/hardware-related/document-contribution.rst:28
+#: 03eeadd8b0f94291a1da552e0b2a6a7a 06be1811661b41669affe571c2a6e6b7
+msgid "编辑完成后，打开预览界面查看显示结果是否符合预期，可以使用 `本地编译环境`_ 编译文档，并检查生成网页是否满足；"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:19
+#: 2d475d8d77cb4ef18ba2cc8fc770f90d
+msgid "遵循 `提交信息规范`_，推送到 github 后并提交 Pull Requests；"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:20
+#: ../../source/docs/hardware-related/document-contribution.rst:30
+#: 1ab8fa02735943b093e1bbb304b3d9c0 288096ca33e84c29b196f63a8d9f8d93
+msgid "若满足上述预期，则 `提交合并请求`_；"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:21
+#: a2bc5d50942b48148c1530c934354796
+msgid "待文档所有讨论解决并成功提交 PR，即完成新增问题的流程。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:24
+#: 08b5fbb9ac7e47bb82aa37193babc5b7
+msgid "修改问题"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:27
+#: 626ad775b0cb42efa71316e32c2527d4
+msgid "在本地或者 web IDE 找到与问题类型对应的 ``*.rst`` 文件，修改期望修改的问题；"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:29
+#: bd66d2828712491b88882d8330561bbf
+msgid "遵循 `提交信息规范`__，推送到 github 后并提交 Pull Requests；"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:31
+#: 0731405069f54171b1032a60464256c7
+msgid "待文档所有讨论解决并成功提交 PR，即完成修改的流程。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:34
+#: 5f2288bcdb4d419a9f5a33f63a0b894e
+msgid "新建分支"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:36
+#: 898fe9152b2c4316855ccf0664e2064d
+msgid "新建分支都基于 **主分支** 进行；操作时，请留意当前所在分支是否为你期望合入的分支。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:38
+#: 898c1a19c87547deb56f99ee810e00e9
+msgid "操作示例:"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:47
+#: 156be6b4d7044c8a9a31c572ec64d652
+msgid "分支命名规范"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:49
+#: 91115cd9f23849f4a3548e0a31913a3b
+msgid ""
+"新增问题：``add/artificial-intelligence_{q&a}``，``{q&a}`` 使用文件名的英语简要，例如新增 "
+"``artificial intelligence camera model`` 问题，分支名：``add/artificial-"
+"intelligence_camera_model``。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:51
+#: 8a9119797988435b8ea1df190fa91e40
+msgid ""
+"修改问题：``mod/artificial-intelligence_q&a``，``q&a`` 使用文件名的英语简要，例如修改 "
+"``artificial intelligence camera model`` 问题，分支名：``mod/artificial-"
+"intelligence_camera_model``。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:54
+#: 4baa13c65c0849d69a070da6d3dddd10
+msgid "问题编辑规范"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:56
+#: 474c10db779c44bca11efbad5447fe9b
+msgid "参考问题模板。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:59
+#: 8ac757b2858a4cd688ac557af1a6132a
+msgid "问题模块示例"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:73
+#: 17805e3178d14e6683e941e7403064d2
+msgid "问题图片示例"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:93
+#: e1f56df5a1fd4577afe285382a663bfd
+msgid "本地编译环境"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:95
+#: 932a1deafb3e4030994f12270d7ec1f6
+msgid "测试验证环境使用 ubuntu 或 Debian 系统，配置 python 环境为 ``3.7``。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:96
+#: b7852b38af1a4bfba541394480402ccd
+msgid "推荐使用 python 虚拟环境，或者 docker 环境。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:134
+#: 27df02b5909a4b8a993b54158f1855bd
+msgid "提交信息规范"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:136
+#: e8a9bc9708664f3fa77395fa26b7908e
+msgid "在分支上添加提交信息，以说明添加/修改/删除问题功能。每个提交都有一条消息，例如："
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:145
+#: 3dfa2dc5eb0445c7a595d69bcd6a824e
+msgid "提交信息的第一行应类似于“问题类别：添加/修复/删除/更改内容”。第一行以提交要更改的文件名的名称开头。例如："
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:147
+#: 560a2f760953469f981d3f99b2accfbb
+msgid "``artificial-intelligence: esp-eye support those camera models.``"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:149
+#: ce9884d317804f7d95fd854c4a239085
+msgid "要添加有关该提交的更多详细信息，请将其放在第一行之后的提交消息中。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:151
+#: 1ca8c169390446ff81f701f3debd7932
+msgid ""
+"一个好的 git "
+"提交消息讲述了一个为什么发生更改的故事，因此，阅读提交日志的人可以了解项目的开发。编写良好的提交信息现在看来似乎是在浪费时间，但是在将来尝试了解某些原因更改时，这对您和您的同事很有用（对我们的客户也有用）。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:154
+#: 014c0ed3c2b14fc4ab0b9b5de5567354
+msgid "提交合并请求"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:156
+#: f4eacd63ac694171b55876c288af6ebe
+msgid "一旦完成修改就可以对分支进行第一次提交，如果您需要进行更多的更改，请进行更多提交。完成您对该分支的所有提交后，提交合并请求。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:158
+#: 0249ba4e629a4b7a8a8d2597547e8a5f
+msgid "我们使用 github 合并请求功能将分支合并到主分支中，步骤："
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:160
+#: 3b746ee6f490470491f04c536ec8e16d
+msgid "将您的分支推送到 github 仓库；"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:161
+#: ef427f49c2df46e19ca5b8c5353173ec
+msgid ""
+"转到 `esp-faq <https://github.com/espressif/esp-faq>`_，然后单击 “New pull "
+"request”；"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:162
+#: 44ce8568e2d04a799b128e7c5c06d87a
+msgid "选择您刚创建准备合并的分支，然后填写“合并请求”详细信息。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:164
+#: 0522504d97364cacb1310aa0985aeefb
+msgid ""
+"参考：`IDF贡献代码 <https://docs.espressif.com/projects/esp-"
+"idf/zh_CN/latest/esp32/contribute/index.html>`_。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:167
+#: ddd2bd5e284543d48603e619f1ca4ac8
+msgid "提交合并请求相关规范"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:169
+#: 1a773f23f7cf4b35bbc29f5013d8b8cb
+msgid "Title 要求:"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:175
+#: cc397b3912b244f4a53b3bef9153bcb7
+msgid "Description 要求:"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:177
+#: 5c8e3d155c97488eb2cb8d4a854d89bd
+msgid "分点描述该合并修改的信息。"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:179
+#: 941bb25237fd4f33af3b81c8a795d8c9
+msgid "示例："
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:181
+#: 1df4c498f5f74f97b89ee94260e56001
+msgid "Title:"
+msgstr ""
+
+#: ../../source/docs/hardware-related/document-contribution.rst:187
+#: 4149bad379754fa8ac9210556bb197cb
+msgid "Description:"
+msgstr ""
+
+#~ msgid ":link_to_translation:`en:[English]`"
+#~ msgstr ""
+

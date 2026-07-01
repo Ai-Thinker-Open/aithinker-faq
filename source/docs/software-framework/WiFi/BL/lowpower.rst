@@ -1,8 +1,6 @@
 低功耗
 ====
 
-:link_to_translation:`en:[English]`
-
 .. raw:: html
 
    <style>

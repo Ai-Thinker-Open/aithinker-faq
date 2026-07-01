@@ -1,0 +1,1418 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 14:37+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:2
+#: 038c3a9436cc4a4cb94d16f5b79da76d
+msgid "flash支持列表"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:19
+#: e174a115490c4b69862ad6763e7e0778
+msgid "Brand Name"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:19
+#: a28a0cbc1c1542c8b8ac505b5fb336de
+msgid "Model Name"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:19
+#: c3ccf8313048404fb676dc887c89a2c0
+msgid "JedecID"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:19
+#: 365887c8aace4ff38115c63a245ee79c
+msgid "Pin"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:19
+#: 5af864ed0cea4cbf96a3b5fa3d7a1abb
+msgid "Capacity"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:19
+#: 789fadeabd5b4fb081c42867dc94fe45
+msgid "Voltage"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:19
+#: e80cc9baf85643cc835acf039827ecde
+msgid "Drive Supported"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:19
+#: 97355031701546fca01bc968210eaa19
+msgid "Write Read Compare"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:19
+#: b795c58023d64d38a62def07b53118ae
+msgid "Boot Support"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:19
+#: c07f862e29e047479790ac8eea1b4d44
+msgid "Block Protect"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:19
+#: f01b01bf5116470f83a63523cf09dbe9
+msgid "Write Speed(MB/s)"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:19
+#: 503d1e9dd5cb447fbf3a79d0f56ba685
+msgid "Read Speed(MB/s)"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:19
+#: 82006767ca0e4b81b2803688ceff9e77
+msgid "TestResult"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:19
+#: 192c1104abcb40c297e59147c5c8ae08
+msgid "Remarks"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:21
+#: 283f0c257bbc4ac6be0f4e96622a8feb
+msgid "华邦(Winbond)"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:21
+#: a31048825fa341a9b380c9ebb94b4dbf
+msgid "W25Q80DV"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:21
+#: eec66f0b32bb4a8c9fce0e5ff3f0571a
+msgid "ef4014"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:21
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:23
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:25
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:27
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:29
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:31
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:33
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:35
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:37
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:39
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:41
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:43
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:45
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:47
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:49
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:51
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:53
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:55
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:57
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:59
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:61
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:63
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:65
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:67
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:69
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:71
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:73
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:75
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:77
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:79
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:81
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:83
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:85
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:87
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:89
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:91
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:93
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:95
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:97
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:99
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:101
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:103
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:105
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:107
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:109
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:111
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:113
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:115
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:117
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:119
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:121
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:123
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:125
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:127
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:129
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:131
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:133
+#: 067e763c34664d538ca80aa6c6add0c6 0af6704d4bf944cca6f414ff4004ff8d
+#: 1285464b4002463680e3d4c4a850a7b7 13c3ec1d4f1149f9ab915f06ebcc52e3
+#: 1dbfe5ef9adc4eb8853682a86f8bc9bf 1e6429b3e799407487abd8b5c330c72f
+#: 205598e59fa3454aa176dbcab6075419 242e5fa91cba435ea96c34f9c8697790
+#: 258a730f008e47b9bb8093c8da699946 331eacec8b904142aab6b9d606186bc1
+#: 38583bf30d024c628bff3f8db87b5607 3cb7e150628949d7ab2ac7cf256e8190
+#: 3db666dea00044d69cf08e376d5ba4a4 3f0748096b5c49e99c40a2a07a4c446f
+#: 441646c068174211ba4f2739d6a9eba9 4a8d6d3c79a2425f92b4ba485dfa0a76
+#: 4ab6ffc449fb4705a28bf68f0643e217 4e525ea6f8c44d46ae34bff47279a019
+#: 554da553b3be49c998e63bdf5f5c5dcd 585b37999dce4e13a1601e08f701bb5e
+#: 5cd60c6c8bc44031a251af6d9c7797fa 63b2508ad2964105b307bf0c471648b8
+#: 670de31248e445b5b99c1fa1c414c89d 71b1038974e8417aa71b6e22695c4828
+#: 73940e848af1433b8b85704f8fa0286a 739929bb69574d88802b2b2dc3cf8763
+#: 75929b459d1644be88f4f6b65537895a 78307cf2289d440b96d847dec1e6e5d1
+#: 7b773a86f4de4af49227aa700acab352 7d47a566e2db473984f382f5f393e337
+#: 85438fccd1944d90b7e2839503868c44 8afbd6d07c374858b58e4cd40be51322
+#: 8fb176b8546c47869465158dbfeb84b2 91c4589a303d43d396b03743c7b54ccf
+#: 947cf2d00b8f4c2ab1f1222b1bf07363 951601d51aa34520bffb7020fa8cf13a
+#: 9c9c662432af41d78c4b1a47a5aa32d8 9e77bea024814bdd8ae3b75ca124b3ca
+#: 9f38c359c74d4d52a5a893ddc1a2f1c6 a06fc053b90e450faba0d4fc041de8c4
+#: ae1356d8268f451ba91786c59191c890 b84ff7666adf4ccd922ecc38f9137430
+#: b8618b4a4d174e97baa56a94fcb46354 be25fa218f9d4b1aadb1b3139024bce5
+#: bed23163dfcb4d8fae3ab26fd6f99929 ca0193222d254c0b8bffa4920e8cf0ec
+#: ce1a450d83c64e478266da53741aaff0 d19e25b8de7348ccbdf4fdac6c4e98fc
+#: d3b6b7f32af24a64b55b982d8b867b75 d5d3ff94031542f78cc94e20ee687229
+#: d92bba3eccc444bab92a64d41b33c806 da26f33503c24491ae59eb0799ecdf9d
+#: dcc44f30f8784ff799d99cacdd97ee3b e3b646ce96b2465b9eabb03c6acfbab1
+#: ed9c076b7df84ae3aec631b2794d9a38 ee97a39175f94e069faf3722f26fe1ce
+#: f7aa7839067448f6bbd3e27e9a9128d9
+msgid "8"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:21
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:31
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:43
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:51
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:55
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:71
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:77
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:81
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:95
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:103
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:105
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:119
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:125
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:133
+#: 01105896bd0346ec922320699d6cf43a 0eb48101380e48e89b65dd71ee65bf2e
+#: 318d53078dc249838d9823bcf5b888a9 39571132854b45e6bee8701cd892580e
+#: 479f4169729742088c21cca587d357e5 52d9f786b4fc42789fd67e738a6b8243
+#: 5e4effbd2cad4b7f826e7643b1c0b79a 6ed2768637f74797b6b8750918f110bf
+#: 95480f0ae8a544999a9d7fa30f86b667 9872a3a6e158408a92d42430cd978dba
+#: a7add6b73d224255b91e8123c9be82c4 c84f36cebc6f4357a07ea26b7d0396bb
+#: e437f6ef3b74448bac1bfa9ef8792ce0 ebeef61f89b64f2b85727318ea16d8bb
+msgid "1MB"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:21
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:23
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:25
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:27
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:29
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:41
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:43
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:45
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:47
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:49
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:63
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:65
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:67
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:69
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:75
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:77
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:79
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:87
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:89
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:91
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:93
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:95
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:97
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:99
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:101
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:103
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:105
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:107
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:109
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:111
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:113
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:115
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:117
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:125
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:127
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:129
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:131
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:133
+#: 03724b624183498aae3e960b3a52114c 1d47bd948d234d7eaa5350e02598c7e6
+#: 1e009dfea7c44a078d70b63eb5b0241f 32ae348e89e544ee9edf1dd8e4c19c1d
+#: 3d2639a432d14c49be6b5572d2b2d75e 3f96b17214a44625ac3aa8de0bdcafcd
+#: 40306eac30cb488b8ff2afd605953515 42114b1f5175448ba8dfd3f923ff56a2
+#: 48082937aaa945c48fb4c3019711e175 519fd5a1e1de45979f6a4a797d274c96
+#: 521201e8411b40c19bbd4864838fdf47 52dfdb9a83544e14b747f76df25563c7
+#: 56c5be3dad044e749555b56eeaef3cb2 61aa0018c34d40d2aeb808333c594dbe
+#: 653859d948a443a1bf800c459d187721 7277ca6e2cf245e7b8166141bf21c90a
+#: 7961d2f2c7354d41b6b956d666985e0b 80fbc621a1cf48a9884d00fb75ffb103
+#: 92d14b7b463b46d09d02e40d2f2ee30d 946dda658e994cf08324c824486e1207
+#: 9817e68f8dbc4267ae906ca09d3753c6 9a3e476d0b1d432ebb95d887673802a3
+#: 9e66554cdd604508b9f5953ed30d57aa a2c0fd81d14542798fb50c1500b1fe61
+#: b084be08956a48fdb87daebd58f7f117 b0b42dbf045749a2a3b096c494c3485a
+#: b62b7ee823a74f9b8287c34c068ce846 bea22397d4394673a285fc65d87e21af
+#: bf004de4e1c84cbaa4a9195e078aebda c0849a57e0e241879eb8664c160a8535
+#: c99a85b6ed0740acaec07d58f6a65bf0 e2d2c8660ea54c62a651dc43c3a79bc1
+#: e6fdac7bf98343b08de0d2c80941fcfa f0eb0048a8f149c09d924380d1f9748f
+#: f31979d891f844d0bdaaec646012e2d4 f46946504dea4cccb548a80e905dcc92
+#: fc3c0131656c4a949586961a840aaf63 ff75d68907bc4b858e40cce247ff1116
+msgid "3.3v"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:21
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:23
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:25
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:27
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:29
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:31
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:33
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:35
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:37
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:39
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:41
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:43
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:45
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:47
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:49
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:51
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:53
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:55
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:57
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:59
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:61
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:63
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:65
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:67
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:69
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:71
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:73
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:75
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:77
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:79
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:81
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:83
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:85
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:87
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:89
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:91
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:93
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:95
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:97
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:99
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:101
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:103
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:105
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:107
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:109
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:111
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:113
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:115
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:117
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:119
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:121
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:123
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:125
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:127
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:129
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:131
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:133
+#: 00e91dfbf67f40e199c80f0e3fb6287a 00efc3d4a09b41e0929a369b15633c30
+#: 059b7229f78c4a1184d41843435a038a 05bf13e5d8d045fa95172a50e6ce0f1a
+#: 0661063da9ae44f8a3ea8c6ec3375235 07cabb4393004af5b29ae0aa80071f36
+#: 07dfa5a9d9b846b684f8b7583f67b7f5 09821e58d4f847dbad7a412399323f4c
+#: 09bc8810eb4b4f02a5bb8339140c9cd1 09cd11f4e90d448284f102288c8c9fdc
+#: 0a3465c3b8fb41dd82e69d22548b2306 0b4eefff2ca049fdaaa8e21c5febef9f
+#: 0d626c4291854c9a97083c425631d033 0d7127a5449143b5bd954b4b1b088a8c
+#: 0e278107abf24f92b8664f795e799f3e 12f9d84d64904f1896837b2c318eff6b
+#: 131562604a554f18a0ec7801c2a15bdb 13f2fb23b88d4569a40baa3beda79cb9
+#: 141007825d794d529cc7b99c3332ac58 177c9cdfcaf245aebb1b639ddc81ec5e
+#: 1ca5e0d852c74640abc8664fd371fae8 1ce9bfefc50f49d580e86aa7ca33ee89
+#: 205247fe411d43f58c3e6932f5c8a492 215597e7ba43474499b0a193cb75b140
+#: 234b1f819711479982bda4eb90e96a83 239c8244eaac421e8a48dc560f6d95a4
+#: 2714402aa7fd4f798a21c8924d968999 2c215e558b504ee0a6c9fe3a01d48e62
+#: 2d98486c63c84562980b475e5e659979 2fec98076596462ba72a6cdacf168088
+#: 30100f3e9cba41f1b23cdb8b3b8ef601 31a4773cce274c7baa55db29f4104e7e
+#: 3293f22d4ca4440cb1f8bad9793a77fa 35590b5a73d34e2cac14200697e8b0f1
+#: 37af44f324d943a88e08c94a30c8e91f 38284ebccebc42be8a5f34400e0fa03f
+#: 384da25faf624269af1106af235a49c0 3996dcd624ee448eb5668b6d781f2b4d
+#: 3f48809090074e1ca251eaa853d886f3 42ed49c23ea5494bb0a2b504d4ebcc40
+#: 44c6c83f3ede44c0a272b429e0824483 4b7dd5a82a664cd7b9942d0de13d6059
+#: 4bc51a8e54284befa11e2d6d7572c519 4c88f1d2814d464e8bc558c5c4910ccc
+#: 4d81cfdc04fa4f24b81347a074ed6315 51f4287415f2435082c9054cd9a7fc9a
+#: 532b6a309e924b1a83a152f96e21ffd0 53392c04de4842aba8e59569e8ab9058
+#: 58af8cfcf0a74d07ab00eabf303ffaca 594ad3e3afcf43bfa064337c092aae20
+#: 59800db02679417a9b30f74d369295f5 5c24f0a70fa54fc68f847f95435e06c4
+#: 5d229e899e754d1696de7b2f59ad608d 68678a9000854995bc37c9506099bfc0
+#: 693c62e001e143b8b5d4524c72494aaa 6f689742943841f1b8fb1375a47971f7
+#: 71fbefefb80045ca8c0b533caa0b1b03 7212416ce47d43edad77e36878bf06de
+#: 72266e1ff6dc46dbb9ca2c4d4fc72239 749751a279d041258d441bf46c38c3e3
+#: 74ee724587de43099d978cf4af8ec47e 7501163bfc3446a886e4194fca24a2c9
+#: 77d35bc9500e43f1a3ff949abc017e03 780d351c9b3a4ca7a905fc0214067661
+#: 787d6ffe6a6b4dc68b8b512613e79499 7a496a9fcd4340feb5cc94d971984c4f
+#: 7ce35173b4534f1d8825afa0b6318fc3 7e70f112ab5d45be97ab754f975a8b7e
+#: 80983bb2e11248aba7299c88fce69f37 811505c9d50c48f7b085c509a3aaea43
+#: 87488bd73ebe4301832f3b0aa3e60b8e 8b1309b2d7464b70bee296be20971d09
+#: 9070aaa2f9544dbebf3a37c0ed84f038 9127dc42c6a74155b6fc7ca44dd82652
+#: 91d16758fe784c6baa4ba8beea28a043 929576226b704706a1bd295b6e226777
+#: 932084efe919476ab14c1672fb96d20c 94627b32d70d4a8ca364d4fdfd16975b
+#: 9559055138ed49b597b510f08b9f64f9 95f21a9e98354708a147a3e48c5dfcf4
+#: 9682f1d2dd8d486797b1360b7289c58f 96ea31a1b5a4485b8d06f166d0656c4e
+#: 97c33d33814c4392a5922375efb67bfb 9828255fd5e3447d95f3addf4b2cad35
+#: 984df51088394d26b068ae8cb4029ead 98b52493284e419581cf83787408d789
+#: 9edbc5612710478a97e650e848ea4df7 9f0e96e7b654413197d1f974c7b6b5c8
+#: a38e4e1aaabe462a9263b624204fb45e a4a86632667145f2b32e739b85901498
+#: a6a248c2e90a4f279aceda1a1026732a a737d5e89f434b25a4e7c63bc1c70f6e
+#: a748d5b6aef1407492dc94142c52cb4c a754dcd1a60249e9a58912ed1bd4e5d4
+#: a75c3341be084267ae950f49bd564517 a80c62e37ec149328f96baa85604dbfb
+#: aa35cd3f17bc4aaea81693b655deae3e abaa961966dd4ebfb89ad328622eec10
+#: ada96a34a7f740d0bb7cf27d2e3e41b1 aef0ed9f1d9e44178d3422eb23a955cd
+#: af90855515684b51b0911abdcc2937a4 b04b173266474b3081790f37c69f3470
+#: b0622f5c7cb44f8690d288d3ec9971ef b3bb7e8cfd6c458485b934de06706ebd
+#: b5886742c9cf4e3dae3b4a180b44e867 b910c03b3c2148c5bd27491fb8bc6a2c
+#: bbc3fa6a8e8d4e20bf48e853b84a4d77 bc4a6d2fb8264953b4f0bd01e311fbd6
+#: bf06d605df0d40c9b615bf5e7689d2a6 c0d99c89f5964a17bd980ebc22e5845d
+#: c12168f248564e369bf8a238a35dfe39 c1b547b430d74956802d8d6e0207116d
+#: c21ae3c35a5f4783af988e45658ce255 c274d68960134e8187064731b5402275
+#: c306084a70ff4ca5a2442bebc6c86d35 c44e5c5d55fd44ea9a1f0ecd2855b417
+#: c46479c1aa1f4d6e83e8248fec472916 c537eafedbdd419f8919c9b69d459e43
+#: c5d81fe9f1374d2fb90d6096d98c189b c6b10f4771ce40a78e356d10c1264096
+#: c6db0fac7506498184c5f265fccc6a6b c72cd2c2d039413383c7c66798e52993
+#: c7af969a769f4f00b4990f0bf50f5c0b c82d4dd4becf464d8e6c99a208d18b87
+#: c94a0546192040109f4e123570b1996c cd0ae0283a4e47158d84f63e15814427
+#: cd40457f88844a59b77003000e2529fd cf9109b38ed4450c9f4f4270d4b9ec46
+#: cfb4d5cd72a54ea7a7ea6f787835fd62 d06510ecf3364177a631bbd837de56eb
+#: d121c46cb7204ce0927d73d1f6b73fd3 d13d1e59d1144e2c92892fcfdf6d9f0d
+#: d26bce9f18f24fc8b18cc79055985070 d2bd94182c7e4112b61a11d5af51f3de
+#: d30ac67fa3dc4206808c9945b262a7cf d35a969e82624b7398a55baaf3cfd1d4
+#: d3a3f736266d401083c9f46faa3e7801 d751036a5dad4a7dac9c3e21fb3e767a
+#: d90b4941836f4674aae1111ad01bedce d942a6a9b4554a09b3043df5e30ce981
+#: d98e268ca8d4497f8f1eac3ccbfcd0a2 d9c6ff879375475b83e0362fcd29625d
+#: d9f41b67fb584f3b8f0ddca3c43f2d96 db1b364c181441d288dac61d0193b3bb
+#: db4ffbdd43444dceb1178bfd0b1c744a db54ed63fb9343568485535e707e0f9c
+#: db97bbcf7d5d41b3978805215478f7ec dcd603d5d1a944999089ebb6b4d12590
+#: df5ea33418ea482eb66c9352dc3a05f2 df9752c37c344120be83a412cf3e8daa
+#: e129ffe6d39c4e99bf61008da8341de9 e508fca9557746cd86db31e3b2e28913
+#: e62cb1a6424740d5bcdd021cd804be5a e83f55f9252a4f67aaa256720a4637d1
+#: e9ff88c6cdad495b81e40e232969e036 ea10b77ef98346ff8ed4ffb08f75c9d6
+#: ec7bfede8dd344cb80b20d782cedd3bd f323a3ef4c894add9c4ca8381fe16b01
+#: f46e9a9a6a8241398a00feee7ffc1970 f474748601024384bbf23b68e7784328
+#: f4ae713fc09e4d17bf59afd2dbfc0a11 f6a3effb3a574ec3bcaff922df1460a8
+#: f775706b38ed4493a4ce7713246f0d64 f7bfc6693aae4daf800c081f727b57e4
+#: f872b1fb932346bfb520400754c8d29e f936231f485241919a25eed33bc81414
+#: f963ea3cdd5e47038ae8d881ea4c406d fa775a851ab64554be70a14e1097d826
+#: fbafb748e58749a4953e43627811dd4a fc923d371eb945f5bdb42b943559df87
+#: fd9cde23a3f64fe2b62e676bcd50aad2
+msgid "OK"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:21
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:23
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:25
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:27
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:29
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:31
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:33
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:35
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:37
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:39
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:41
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:43
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:45
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:47
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:49
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:51
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:53
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:55
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:57
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:59
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:61
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:63
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:65
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:67
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:69
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:71
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:73
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:75
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:77
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:79
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:81
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:83
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:85
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:87
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:89
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:91
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:93
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:95
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:97
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:99
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:101
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:103
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:105
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:107
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:109
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:111
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:113
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:115
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:117
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:119
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:121
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:123
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:125
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:127
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:129
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:131
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:133
+#: 00fb9dab4e0541edaf150e8cb595cdef 010222d0031f49f0b062d095a139fab0
+#: 018d82aa3f1f439c90f50fb0d55006e7 02b2fc746f684ecbbc2348f48f899d10
+#: 05aa3eb6cab3461e846363599ee9dda6 05ddab0f1da24e49b6306e731597ecb0
+#: 0704aaaef663425c86d8801647de419c 09d591ebea284c6d92a297fd5a796f04
+#: 0ce7b3a13b7b4ade84de44c6e27df2bf 0d52797dd4324d929da8ee1c40ebd7b4
+#: 1094995adf25413bb7c375cb2b1a1187 10bb212d33b4460fb7c42183698fb0ca
+#: 1147417ba42746ebb9bdc9add4ddee74 11921d2f1f07429fa54a793aa0369d79
+#: 1219ca5c298946cbbba755e5cdbd1bbf 1223298f1a7f48038c73ab3cf7f4ad32
+#: 127c9c0babaa40fe9b7ef4921238b34b 13d43591ebb842f7859dfa197b0935a5
+#: 14f10c388026493dbb244cb1cf9b0e5f 152ad9b5596841149682af1984dc2e5b
+#: 161c860ad568495ebfb4c7adeb0b38d4 172ead1321ca4d36b93bb388a02746a4
+#: 191afdbb119c4e5493b40ec617ec5299 1a85a2bb11224e37bc59e285e762e143
+#: 1b0199f4ef494289aeec4a220e99d4a3 1c8ed1b1400c4e159b558925aec5b81f
+#: 208d027890724d0cb694b9e19fce1f6a 20d56effe6a7443c9eead8aa7538e4eb
+#: 216560236dab444692faaa614ad0d588 23f803b1c2224a54855e96b0eb12bf88
+#: 253efabcef3049cc8e28112ad2b6a403 26c48676e612429c92eb23b8159ae766
+#: 2796538ed0924b2fb69758d35d69f443 28d39f1282e24e79a20c91a267e5b312
+#: 29854a2c475e4fdc81fdd669c5c7ad59 2b762273f0c7445c94b0715fbe922f97
+#: 2d074e108a274bd4805fbeba212c3e06 2d1035fb0e9b40109866e715431c53f6
+#: 2dfb5443a499450f85aae6ee62ea5c86 2e3b3b9e908c4e229a362e0981b9745d
+#: 319ddeffc12c4b32b73748cb5beca596 345b6efd715641b997b91988a9523669
+#: 35b163ec2361498aad2a28b8557308f9 35cb952642194121b1fcc4ab5ff56ec2
+#: 3a4ac3bcec464cbabcc15133ac403ac4 3ec45ac6f1fc4fc787e4d448abf25461
+#: 3ef1bf43c9b841989791bdca46e5d7a8 3fb6b20ae81b4efd8335a233aa342e70
+#: 4008d5f1a2e64a52b1ffe602430a6036 402508875d8d4bdbabc59f876985275a
+#: 427e9a17b7da4ea6b31194564b1a193a 42bb507da39e4f08a431c6715735c56b
+#: 4404ae85fb1f4a3e9868dacd4d271d39 441ed2a928544a668e2d108d05931150
+#: 45fe19c1a2244cbf909ca4296b9bb751 462c697b1e1c4758919639b71cb001fe
+#: 46d62c29262e4232923a3014f56f2f75 49156213b1b443ecbcc6f17cfe60c24e
+#: 50fcfeeb9abb4600af8ba20446721bae 521967ed8b7e4d14920f0178307ce470
+#: 56a3b1c23d3a4365848aa05aec0c6204 58d187f891ab4ea7b9613f04e0625c27
+#: 58d1b4f5894b4f1b9742809ee663c632 59013e2372d34d19a76b9013d640807e
+#: 598f2dffecce464f9fb923940372d0d5 59b97b60ca6e4aa88d25e95d0fefb2fb
+#: 5a0dd5d03bc0470980196cb75c7df703 5f5328cb9fb0459aa62df3018b834363
+#: 5f997b67724e4fecb95bec7c74e863bd 601c429fc7da4bd1a8de89adf133aed2
+#: 60874aa456ee4918983b8c20b44caa9b 63b9e11a4bbc4148a89b826a1f508620
+#: 66725225e9a04432b59f15bf6caf3967 667308174fdc498caa28f51775603fac
+#: 669569c168e342beb783fb212fa08a6a 693302e0c54743bcb9b10b31ee6d7061
+#: 6aabc1a05874459d9a00ffeb21580462 7157301f89714d27ab734f08c0ff9a00
+#: 7436455b5639431f9266ee66c9416142 789879c24e134a53880158dbd0ef678f
+#: 79f960e2ad1d48389ad27ffcd8c202dd 7fc8a4ab88d5460abb0e410ff1eba890
+#: 805f74cd6be7408bbfbeb7b1ab9d95a5 81ad7aab04c54336a2d8bd91bf272214
+#: 81d67c7181b648798263f25c6632f833 8293fe68889f49c5bc4805a36f149ede
+#: 8493b2947d0b4a35b08b5116040a727e 84b9ac61354b4f2bb92963085ecbd9e1
+#: 864a4b8222b540518ef329e3cca8c91d 86ad0089464b4a8c94ebf3ce2d124929
+#: 88ca2d602f154f66b9823b75817f016f 890c9a220f22487e8055dceb8b7170b8
+#: 8ab4a9a9012b4f5b88f542d3c1ae1092 8b70dbd649f24ce19325bf010ba527df
+#: 8d26b55775e7478d881c81afdf031d4c 8e31a72b40f8428daf354a7a13862f3c
+#: 8eaabf766b0f4b97911515da4a339245 8f6772a421bf4b6e9ddb3d719279a453
+#: 8f7d30430f0a48d79639ad4437b147ab 8f87154cd94046b59821ee41322c6653
+#: 90bdd5ff9d5b42e5a7ff38ebb8cb5081 90d677c2204a4aff9142b3b7670edc71
+#: 9323588dc83c451ba39981df364f179c 935fa212ae854d25bc6141b9624af8ab
+#: 96950ea5890943b9bd90f6fe3a568652 973db22323264f9c85bf1691ba1ebcbc
+#: 9975792c2dea45f58b029fe58ee15f07 9a3d377f2b1b495e86fd7d02672892c9
+#: 9b3a72db3d2745e994bc452c89894d90 9c88801a6af44ada90830e763fdc4123
+#: 9d12213246d5454185973a0ce2d7fd1b 9d309c13a76b4b6e92b847af602c1de0
+#: 9e4e18b1af0240ee83f498f318e7d3e9 9f2fe6f697b74ee189b72de64378cd1a
+#: a02f07a7a53f42508e55d037af82070b a059518bb0314233be4e4029a55984b0
+#: a07cac2d06ce4760bde672c5daa04a5b a3210e2bc340446f81cdf91d8ae973a5
+#: a396102360b14c198ccff598a5d9c5ad a53ae4bafa1f44f0804eda98d45d478c
+#: a59f67c36a01449889def921ad304cef a5fff699a2644aa2ba3a35566c10802d
+#: a638352ea1c84c7d900480f8d6e6b7b9 ab1e1869735442e3ac97aff99d504e34
+#: ab862f4d06ce428aa6458df08f5803a3 ae1d28ef40e34ce1a4d2ba5675589c2e
+#: ae6e9f12f37d469d805d1adbba82e504 b06ec0b63b4f4a27ad6173fb2e1f23a8
+#: b0d3a622bb4043b7ab79de10e5d38d65 b6e7df54a073491d99fe06c6388a1669
+#: b87a18dd57524338ab68dba47f4ef4fb b8b67fc8a26c4782a4e35df4f248df56
+#: b9d627e15486482da5f35dc084cf58ee bb03d3f8d0fe48609008e557ca2b0f9d
+#: bb72fcad3de949c0a8f36da6c2111af1 bb9f789ea3e94fb589145ee38321d755
+#: bbcba46f31a54503bffb793be99129fa bfb9f4ebbe4641c3948bd7308db30870
+#: c331963202a54cb2b082b1663b63d853 c3b3d7626b3f4e4da980655917398ee9
+#: c6b8b2c19d9d422588d9a3eec374d101 c7b19ad5bc44474f99e902d8595c18f7
+#: cb7a0d192dda44ebb5288b7af7fbbcb7 cc2a26ce57614b5f80f253c4a3d228e4
+#: cc5f6e9f5b5c49fc992d7257c5ea59ad cce91f1e00a446c2b56883eefebd4a57
+#: cf4095796bd247f194cc4ab2554f4881 cf4b1b0ceb234417835c98d77bc0197d
+#: d06ef084d8ed4bf19b4ca79621e161d8 d27ecb3cc0fb417bb2a627df6ba0917b
+#: d49e74f7d08b4959a08269d486b216b1 d4f42cf5d6f64f8c8b5d49936ef62dbd
+#: d5e99a3de65f4caea1a44b40fade1749 d5ea8418db114d2392db1024e53aa390
+#: d718f851b77242738f147357482b30a6 d891b6e9e4934d4c8188d0715258930a
+#: d923b50a83c74a6a93a216bb669c9672 db05b54e6bca4d63ac0c80acf3984440
+#: dd9d5bcec8134fceba03b947aa0306e2 e4697a81eea443959b11e8524d339865
+#: e6d3a75851af4fc9828bb24fa0dc2218 e7dd23e43b944c4985e37714736f003c
+#: e8a518acacf84c8283de839bef3175c2 eb46d9eabe7c4e179facc9172420bdfe
+#: ed45617c0ae44a5a8f3d29e22cb3a5a0 eeb45718f5144b33af0a3d1b133f3ed0
+#: f265ca0e103b43a3bb28d81159e474b9 faf96985fb8c47fab4f4dacedd448e4b
+#: fd90742e389f4766bd0f1a9f2f245eeb fdb6329fd8e7469bb2b28786b54ab425
+#: fea55ba0fda843d18fd20bf12d060f5b
+msgid "NA"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:21
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:23
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:25
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:27
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:29
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:31
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:33
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:35
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:37
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:39
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:41
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:43
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:45
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:47
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:49
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:51
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:53
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:55
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:57
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:59
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:61
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:63
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:65
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:67
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:69
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:71
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:73
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:75
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:77
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:79
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:81
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:83
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:85
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:87
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:89
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:91
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:93
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:95
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:97
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:99
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:101
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:103
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:105
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:107
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:109
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:111
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:113
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:115
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:117
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:119
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:121
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:123
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:125
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:127
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:129
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:131
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:133
+#: 005100f0cbf949608cfd2012bb5fbe43 01a70efeef8146e2b664025d15f7f396
+#: 029738c235bc4bc786d6fa03f767f45a 03864af12061456b932db7d541a6b993
+#: 067b8b25b54244edada0151f791e104f 08279177de2f49c7ad5f1aa87db60984
+#: 129b15dec89346a5b715cbf1488d5b62 162bb7693a114258ac53b65fb603c61c
+#: 1a99a377f7384ae1b15661acd0f4d785 26673094a04c466cba62c47da66463bc
+#: 2726989d1e0a45f7966e677f03ee6a68 2aa8c3364c0d42e5b38798748628a7f9
+#: 2f4c5de65e3342f68cc9f5b145e68da9 374d4682788c42d6b92e7626f0c0b9e5
+#: 39fa0e38c57142bc90a6439768751ed5 3aa966c3eb3c4ec18568d46238e152d0
+#: 42730324b8414564974075c066fe51a1 43cda56e038046bfb93606e81a8d3139
+#: 4880433884c04ecf9988a8c25a3d5caa 4cc6fe1b56e340e6867a3eed6340ce6e
+#: 4fb8ad52ba5f423d846ff8652ad02228 51962efce3bd447f9f516dd4d54ea035
+#: 5eab0fd21b2f47f9864ef0b8cbe7a4b8 6252a09166f447f1bcb9fc4a82edbf39
+#: 63f87e179a564e0c85add79c79a115e7 65a1dc695ce04edaaec8fd8f421c9988
+#: 6616e60037b443efa3ed93ae35b16b0e 6a60c918b52c4a7ca2dbcb0269c7385e
+#: 6ad74024e00f4c4aab3fef7bf27443d3 6c13a63970834c77af054efff4680f09
+#: 6cdb97c2cbab489ab7a1e2ca940a90cc 722ee7508ff7421a9f05f2ce83429a74
+#: 72f5ccdd69604ac29e1b7272a2fdfa42 76d06b19e00f470093906d9f73e1e95d
+#: 7a57df67354b496c8c12b0fdbcc7e376 7cc32bf6e2334228a88defbcbe81c3c9
+#: 7fb8fc8c82104faab78f4ab959eb6133 8138ac2d0cb34bd794624f37871b88ab
+#: 8291d56a81574706bd5d2e98d2dd8c4f 837ffe87000d44998198e8c5d449a917
+#: 906a1c0f8dc54e66befe29d95b7a0a5b 9179fbe338264295be630b2dd465cfbf
+#: 929ccb44d16e4d1eba00f2f4ad42cf1e 9754b53fc24f45a6894c2d4163f3a5e6
+#: 982b3265472f476fbd355d4b96683f83 99ad0c40b88348e882a78d6032effb6f
+#: a71800a4a3664b2c8bde548e9ed5ecdb ad7748ad5d7743d5a4be069299650251
+#: b998af46c96a497a9e663d9d66418222 bc50a1ac1d10467b9698c78ad879c85d
+#: c4c7a780bc1d4fee920d22bd0473bd5b ca55656babec4f7bb3cb1ae87ec92150
+#: da921c75a15c484889c150e10fce4adc dbac3d46db8a4a9799dbf72fdb5c19b2
+#: e6922e8eb3a44b019e5efc7998db9d60 eaa707de2401497eb573b205c79c05af
+#: f3b0ff34cb544cba9ccb08d550225e01
+msgid "PASS"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:21
+#: f81181e403b84a80bcfe8f747ff77202
+msgid "don't support continue read"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:23
+#: d1552befe57e4865bdd62b7dc23966fb
+msgid "W25Q16DV"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:23
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:25
+#: f0121d54cb4e47fdbfe30c9bf0df1437 f067e19f557d494aadebee918aed6a72
+msgid "ef4015"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:23
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:25
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:27
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:33
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:45
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:53
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:57
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:65
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:79
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:83
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:87
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:97
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:107
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:109
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:115
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:121
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:127
+#: 211a0c55e7fc4f70aa59410a9548533b 2e738256f1494b5c95556a4e124327ab
+#: 318fabe62ad04f349ea0f801ddbd64b0 323040bef04c479790de4e650b1b1e6f
+#: 3d084c2e26ff4c438dd15d68fc2ba601 68ea9bfb311f41fc8a6e778536ac59a3
+#: 79072b0bc85f44698e772616a5910612 7c1683f4f9c247f8a75051badfe3b95f
+#: 84bcd18e293a462eb6578d492fde4608 85d148426d1c44afbec74ebe9412fedb
+#: 97d8b91665f94d65ba5f49c1226ef21d 9fa52898b40c4c3e963e52c73f500319
+#: bae09788a0484a07ae9e502971544542 c3e7157b157245adbafce543a22311b3
+#: dd356d1f99354df39f23fd5282bc913a f499ae73fc2a433fb14c1965bb64b84b
+#: f96512111696462cb2b60032e0748175
+msgid "2MB"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:25
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:27
+#: 6d231066c07c4335b1929d9173c2df08 758039697f1c425bb9e903986c06fd29
+msgid "W25Q16JV"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:27
+#: 57678eebd3074426a9765a30658fb46a
+msgid "ef7015"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:29
+#: c25b495095a8402db5edd76eec916e70
+msgid "W25Q32JV"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:29
+#: 71bcc28523c04ef6bc65f72001577d5e
+msgid "ef4016"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:29
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:35
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:39
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:47
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:59
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:67
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:73
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:85
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:89
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:99
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:117
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:123
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:129
+#: 04bd3022e15447fc864c6320000c64bb 0bcf9640053b41239b54f803387f0e54
+#: 212c59f2c6ee4bfe8856e53ba0168fa1 336b5b562c12470c8585b469b09d756e
+#: 38f6618ad09c4fe8ac09099d552cca97 3dc70b293ff04976958ff8504e4c8bd2
+#: 47c061a94ba0499c92753dcdd9320abc 6b0d6564e7cc47af8cbb04585ba22edd
+#: b5b9a77c7b674323acac28bb0cbaf9c6 c983f917e63049729550243fe9180828
+#: cda274c4c16c432b8fea04382f8bbda8 cf90524efa39491985fd2fc64553db6b
+#: e79afdf7b0284d49a21fb942a2a0a6fd
+msgid "4MB"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:31
+#: 5598ae3879d448dabb36a0af6b64f293
+msgid "W25Q80EW"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:31
+#: f12ac5b4acd946368b2f94a4352f4919
+msgid "ef6014"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:31
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:33
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:35
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:37
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:39
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:51
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:53
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:55
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:71
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:73
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:81
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:83
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:85
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:119
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:121
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:123
+#: 05b030f5a5ec448eb46ec593946c6332 2145a57950454c7d90702c3aca1e9ff2
+#: 2202357a22e4423e9263bf24f4893c1b 2fa8f630a88e42088e29e92af9aec3a9
+#: 506b1957b29e4140937da72d4cef920d 69aca0fe915c4c38954509807022533b
+#: 71047c44ea494445949606971a4e4156 7c7f7864a10446728ef7b6010fe5013d
+#: 9198bab7b99447be98ead23e93667956 97e01d2541014b4eb4faa62331e7b0b3
+#: a87bf0f25aa64f5f9b144713d76ebf14 d2694e1bd4c74171b3ec788f1415eb84
+#: e0f13afc52594ea1a87ffd33621da941 e5a0c23efed64e0c8a69aeba51d95bc4
+#: ec490ba60f8e44c68fd7d63ed3019b5c f3e42fa0a8e745d190079f9f4b7e9009
+msgid "1.8v"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:33
+#: 6bea0b0236254b7db84f31a5d725306f
+msgid "W25Q16FW"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:33
+#: e5204c8b41724df2a3edc027ccd4f5b2
+msgid "ef6015"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:35
+#: a6fe2702602c46bd9dbfe59519e39118
+msgid "W25Q32FW"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:35
+#: 8a6164f43de341af8acfb1f4f72948e0
+msgid "ef6016"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:37
+#: 0515fd00b1e7417cb94e4c6e6fe5d7d3
+msgid "W25Q128FW"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:37
+#: 1871d93887d44c3985f9bd510974ddca
+msgid "ef6018"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:37
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:93
+#: 06452cbbd11344a09a176042f028f0ef 93ddc78da0c643fabae7a6f05a9bb8db
+msgid "16MB"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:39
+#: bb2ad3bbd75549a6aadd737d38d6c41b
+msgid "W25Q32JW"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:39
+#: e56b211fcaf24c1e968ece99e3434ccd
+msgid "ef8016"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:41
+#: afb36a004ea44352bfd7028653239c48
+msgid "兆易 创新 (Gigadevice)"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:41
+#: 1f36a7feba47438297eaf02433da7cc0
+msgid "MD25D40D"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:41
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:63
+#: 230a7a1eb9a64315a554e97b80ffb505 b7fdb350a3024265b7502a36b15e6f06
+msgid "514013"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:41
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:63
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:75
+#: 04198d58390c4a7f808743e7b05e8e88 31edf8608a2b438db6f5acb279fecdc8
+#: d472a29052aa4490a68ae79e1e31b323
+msgid "512KB"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:41
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:63
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:65
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:75
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:77
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:79
+#: 2b0b927d069b4ae1890d1da46026bb18 9c9a31c027684dd1b52528d2546af692
+#: b7acb9ff04ee4b10811aa53bbdfe917f d4e8bee968ed4e85bb3038e1e9625833
+#: e81d52cbe7894c9d8d60e97395fe7745 fd8d5fdafa3f4db08b49bcdb696ffad0
+msgid "don't support QPI mode"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:43
+#: 05a553f00dcb46cf94b03686394d2e76
+msgid "GD25Q80E"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:43
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:65
+#: 77a6f04e1d5c45f18e5236e543027edd cf761348d8b247f090444be4d8d3299f
+msgid "c84014"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:45
+#: 9b656603df254517bf362c9efb987ad6
+msgid "GD25Q16E"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:45
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:67
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:79
+#: 2055af7079674693bd222d7fe27a1fd5 7e43555373ea4c3a99418f2629e7789a
+#: 9a5160afb8b14588a052e92880733f99
+msgid "c84015"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:47
+#: f26e648254fb4defb91578128af45532
+msgid "GD25Q32E"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:47
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:69
+#: 18820a34ef9a406baecf9270a77b5d9d 8c47a715ccf54666bcd35e4f84b02153
+msgid "c84016"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:49
+#: a740e036a674422c9c1fb190ef8977af
+msgid "GD25Q64E"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:49
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:71
+#: 16f8c44ae7964a398b4afdda42bd139a b4d89ada04d342ceba2f92a9897105be
+msgid "c84017"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:49
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:69
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:91
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:101
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:111
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:131
+#: 3a6a3922f4224aa49942b7aeff6773f9 5233b911d3d9489e9d7ebc81671c8d3c
+#: 6946c85cbe3b4de7b1d3af3e15404857 a61d53f646844d049bc15ea17882dc99
+#: c592b96e4ba043219290f9086bafa2c1 edef2c15b77047dab6ccacbcd363fe83
+msgid "8MB"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:51
+#: afa7a89557354b6596a46d75bd2b7d40
+msgid "GD25LQ80C"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:51
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:73
+#: 720666cd48ec438dac992f0dc64f6b41 ac0dc8913d1e40278a371f42a561d222
+msgid "c86014"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:53
+#: d76b90397b644fba8627e7f1d8e024fa
+msgid "GD25LE16C"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:53
+#: d5ae34fc5ab74d819f0204d581ca7151
+msgid "c86015"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:55
+#: 8e12e711aecb47e0822699031f477d16
+msgid "GD25LQ32D"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:55
+#: 61722184127d416eb06b12aecea21f4d
+msgid "c86016"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:57
+#: 3a901dc05e5648299b0b90958ccfd173
+msgid "GD25WQ80E"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:57
+#: 487f037518444f22b10faf1f3f9c1e6d
+msgid "c86514"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:57
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:59
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:61
+#: 1e9a48573829432f8aa07a81e0daeb24 72724957917b4eb99d7e8385b3786693
+#: fd1bcac31fc74fdbba14331cab50db82
+msgid "1.8v/3.3v"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:59
+#: 28b5e7f2d9274c938343d2cd2ad83a56
+msgid "GD25WQ16E"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:59
+#: 57fda0fc27364c0a8846208cf847eb91
+msgid "c86515"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:61
+#: 2af37a09fc1a45c9ade347782b32651f
+msgid "GD25WQ32E"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:61
+#: cde1d53102b04fc792fb1aa92a3bb89f
+msgid "c86516"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:61
+#: ff3842ffe5ea45bf93c701bd21e498ac
+msgid "512MB"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:63
+#: 87abea157e9a457ea77d16dfb356751e
+msgid "芯天"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:64
+#: 5ef7e063433c47fe8e2aa8f073cbba5c
+msgid "下"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:65
+#: bbd61e9d558c477c989ee5ca49b6e8a1
+msgid "(XTX)"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:63
+#: 99124801b2594387bfeffdcf3843c5da
+msgid "XT25F04D"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:65
+#: 3e870c1055704fa6a86862e8e51a17ae
+msgid "XT25F16B"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:67
+#: 5964e54957834e9ba3b3dde260721abe
+msgid "XT25F32B"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:69
+#: d07dc467879347cdad4df313bdb7565a
+msgid "XT25F64B"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:71
+#: b2635c2711af418b89593fc4a1cd7a6e
+msgid "XT25Q80B"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:71
+#: 6df1bf3cb1f94018af31ee6099a90606
+msgid "don't support burst wrap"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:73
+#: 57974a65456d4e9fbab0bc8f2f1ad18e
+msgid "XT25Q32B"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:75
+#: 1b713f7d4de44272be6e3e7e83af932a
+msgid "旺宏"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:77
+#: 7324830aa2a94fddaa47a6c71bfe4bd3
+msgid "(MXIC)"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:75
+#: f410fda411d147d79dacc4196039f0e1
+msgid "KH25V40"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:75
+#: b5e93f66fbf1422194ec43622c9df59f
+msgid "c22013"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:77
+#: 308094b696d6447dbb2f9fee95f04185
+msgid "KH25V80"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:77
+#: 816769a019c347b5a79a046cb0d6ba9e
+msgid "c22014"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:79
+#: 6316df2308844cc4a570a8d23beb350a
+msgid "KH25V16"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:81
+#: fe291e6e470b463aa21c19f221872f2d
+msgid "MX25V80"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:81
+#: a5127b93817a4efb81a24452383013b6
+msgid "c22534"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:83
+#: d305400bc0cf4ce4b1c03cc93d75012c
+msgid "MX25V16"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:83
+#: 450d4e3e120642c7ac82482e62b62984
+msgid "c22535"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:85
+#: f397deb308f64784bb01fe630e64d769
+msgid "MX25V32"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:85
+#: 367886b9d3754d44bb35f45a3c227a23
+msgid "c22536"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:87
+#: f68f38df8ec94ca6a5a49738ccd71af7
+msgid "博 雅 (Boya)"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:87
+#: 800d68d415234d54b0533850906c8ea6
+msgid "BY25Q16B"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:87
+#: f303f0c0d7724f659aba0b7998ffde72
+msgid "684015"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:89
+#: e2cee47e58164a1097dfb44c5e7baf1e
+msgid "BY25Q32B"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:89
+#: 1c791f4fd1e04739a5436344db417fd1
+msgid "684016"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:91
+#: d9dde8dfb85a4613a7dd0e17823960f6
+msgid "BY25Q64B"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:91
+#: 7c9271f356324a49adf812de16b55b39
+msgid "684017"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:93
+#: 8908ac61db0e4bff8fd024186b643bc7
+msgid "BY25Q128B"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:93
+#: 5e9b428014f742be85cd45f231877cdf
+msgid "684018"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:95
+#: 11b32113936f499687a423c3c8e93614
+msgid "普 冉 (Puya)"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:95
+#: 3cc99e9984ce4abb8a2ba4ac92f88976
+msgid "P25Q80H"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:95
+#: f0341046848c44fda25d2ed51a600d09
+msgid "856014"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:97
+#: 95588a72ed5b493aa4deba76ba44bedf
+msgid "P25Q16H"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:97
+#: 78e55a8f8a184286a697a34031e2c70d
+msgid "856015"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:99
+#: ceeefa1fd0ba41e083c94b9166e37a21
+msgid "P25Q32H"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:99
+#: 68badb33bd454be887567f5ca3aa25ce
+msgid "856016"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:101
+#: 903b01e245074082af9c390acf8a3e15
+msgid "P25Q64H"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:101
+#: 141172cdba5c42bca5e605a0cf564cff
+msgid "856017"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:103
+#: ade1ce4ec3e24fdbb3a103c5e4f78838
+msgid "恒 烁 (Zbit)"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:103
+#: 9ee4ad2f22b24221b7f22728c6c18202
+msgid "ZB25VQ40"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:103
+#: 175134a837da4e41ae5222307a650ad6
+msgid "5e6013"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:105
+#: c4e0e5a22f3643d79979b4a091d5e640
+msgid "ZB25VQ80"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:105
+#: 0e2f56254939463b8e50c886400729ac
+msgid "5e6014"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:107
+#: ad74d94899b14d22874089b812caabff
+msgid "ZB25VQ16"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:107
+#: f89f1d1ed25b46a896e3abff56a6205a
+msgid "5e6015"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:109
+#: 5b30e147928e4fd4aa2d9231f62c8efd
+msgid "ZB25Q16B"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:109
+#: a76a5ff6f15140a2ba4445033640e91a
+msgid "5e4015"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:111
+#: 477b1c4b98a54ff0825753e2a3c9cb72
+msgid "ZB25VQ64"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:111
+#: b181307b9aa34044bc88631739b8bb8c
+msgid "5e4017"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:113
+#: d6621db4ed9e42a9a7a1d32bfa23fad4
+msgid "ISSI"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:113
+#: fa3e74536119470cafdac7dc32d25600
+msgid "IS25LP080D"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:113
+#: 69db59a5390b47b08fab34b20a2c14f2
+msgid "9d6014"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:113
+#: 74f68d8f9d994ae88285fad6a36fc449
+msgid "1KB"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:115
+#: 1b6ca916c5224d6d8a2c3995be571f78
+msgid "IS25LP016D"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:115
+#: 9fe2d368fb2e496a9d451f84f23d94b3
+msgid "9d6015"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:117
+#: d3cdbb75d9d3467dbc6a83cfa24d38d2
+msgid "IS25LP032D"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:117
+#: 8a1dec68a2324937aad28c6e5b1c24b2
+msgid "9d6016"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:119
+#: c0214161b71e46ad840217eb380c1c75
+msgid "IS25WP080D"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:119
+#: d50cf0e65af849c89ccedc2ea61eb2e0
+msgid "9d7014"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:121
+#: 5d9f12970ee441eba971beba86530ae8
+msgid "IS25WP016D"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:121
+#: eda2af32e56943cd8757dd3713f3be70
+msgid "9d7015"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:123
+#: 5974fdebfb3e45c888ebd37086c1d61b
+msgid "IS25WP032D"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:123
+#: 73b092860bfc486ea78689e96096c088
+msgid "9d7016"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:125
+#: 714ce98b492e4202b81e5567467fb110
+msgid "武 汉 新 芯 (XMC)"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:125
+#: 47102d434d314de4b0a9d3579c1ecd27
+msgid "XM25QH80B"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:125
+#: fe47a89839814986987750730d53b936
+msgid "204014"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:127
+#: 4b35161fae904cf8be39ba33453cd571
+msgid "XM25QH16C"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:127
+#: 196937889d2d4ad4942a20f215477cc7
+msgid "204015"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:129
+#: 3b45a543cbc04ab089c0229586a8eca9
+msgid "XM25QH32C"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:129
+#: 61bc28c887414353ba8b46828645503b
+msgid "204016"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:131
+#: 6570c341dd154dc6a54ce24c22b493de
+msgid "XM25QH64C"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:131
+#: 18d8f2b49d024d599d3a61da233aa690
+msgid "204017"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:133
+#: 5ce1f6c8cacc44d8836b56593b077704
+msgid "芯 天 下 (FM)"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:133
+#: ba52f8ed86ad44d5a51f34308caa3812
+msgid "FM25Q08"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:133
+#: 2f53efcdda4f4b80913b3e4d2eb6322b
+msgid "a14014"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:140
+#: 22940075ca0b40efa5338e2c79bbe70e
+msgid "WB2二次开发调用哪个函数接口可以获取整个内存的剩余空间"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:141
+#: 78c0eef7fdb24001acdb3e2445e3e452
+msgid "可以调用xPortGetFreeHeapSize()和xPortGetMinimumEverFreeHeapSize()这两个函数接口进行获取"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:144
+#: 891909e8c1544a12a3176111978f309b
+msgid "WB2模块外置FLASH和内置FLASH有什么区别"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/flash.rst:145
+#: 58577ca1ca7d43d1a60b0cb51d22376b
+msgid "模块外置FLASH指的是模组内部除了有一个WIFI芯片还带有一个flash芯片；模块内置flash指的是WIFI芯片自带flash"
+msgstr ""
+
+#~ msgid ":link_to_translation:`en:[English]`"
+#~ msgstr ""
+

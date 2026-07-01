@@ -1,0 +1,114 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 14:35+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/taobao/question-search.rst:42
+msgid "开发环境"
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:42
+msgid "应用方案"
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:42
+msgid "软件平台"
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:42
+msgid "硬件相关"
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:2
+#: dd8cbeb562cb4b7da82f9efe5a6315cc
+msgid "问题搜索"
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:4
+#: b01b4f7c75db4a7286861ac8dc68b876
+msgid "此指南目前有以下两个部分："
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:6
+#: ../../source/docs/taobao/question-search.rst:10
+#: 6c084aaa42fb41e1897834da3e007922 79ed1cf22d8a4e73a4c40ee0f2f69c6d
+msgid "搜索问题技巧"
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:7
+#: ../../source/docs/taobao/question-search.rst:35
+#: aa66b9ce491d416daf5c793fce31813f ee4d67b0cfc4408e96c793aa7fb5cf6f
+msgid "问题分类框架"
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:12
+#: 01e806b1b5d143fd85138c2fa2e113d3
+msgid "目前可以归纳出以下 2 种搜索问题的技巧："
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:14
+#: ../../source/docs/taobao/question-search.rst:18
+#: 9f3171b933864436a3e8f01e0ed1c4d9 a09f88b550d24ec6a828211a942ca651
+msgid "搜索关键词"
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:15
+#: ../../source/docs/taobao/question-search.rst:28
+#: 3f2c556963fe4df8add6345f8a9fc50f 4f3befab495648f58b1f2debefa5dea1
+msgid "排除某个关键词"
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:20
+#: 27f8dffee06345078ce80bbef411f168
+msgid "将问题中的关键词提取出来并搜索它们，此时搜索结果会得到最匹配的结果。"
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:23
+#: fc3abe84da324fc088bdb176e2d7dabb
+msgid "比如问题为：``ESP32 的 Bluetooth LE 吞吐量是多少？``"
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:25
+#: 8cd2fa869d9442b4a6661b8310d1c19a
+msgid "此时搜索：``ESP32``、``BLE`` 和 ``吞吐量`` 等关键字为宜。"
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:30
+#: 90851360cab2488c90a3ba6edbbfa286
+msgid "在搜索内容中添加一个标识符 ``-``, 格式为： ``关键词  -排除关键词``。此时搜索结果不会出现有排除关键词的结果。"
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:32
+#: 70ff8ad39b0c4a7999c81ba5cf9c9f4d
+msgid "比如搜索：``ESP32 -ble``。任何搜索结果中有 ``ble`` 的结果将会被过滤。"
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:37
+#: 3470156546d94bffbfffc4ac3998c40c
+msgid "在掌握上述 ``搜索问题技巧`` 后，可以利用 ESP-FAQ 已经做好的分类来提取想搜索问题里的关键词并搜索。以下是此网站的框架："
+msgstr ""
+
+#: ../../source/docs/taobao/question-search.rst:40
+#: 862fa4d317654f3d91110d6c3477588f
+msgid "ESP-FAQ"
+msgstr ""
+
+#~ msgid ":link_to_translation:`en:[English]`"
+#~ msgstr ""
+

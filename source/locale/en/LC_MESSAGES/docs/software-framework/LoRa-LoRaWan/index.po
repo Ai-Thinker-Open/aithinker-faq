@@ -1,0 +1,3272 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:2
+#: cbca583923424e10909fed6c857a8d45
+msgid "安信可 LoRa/LoRaWan系列模块 FAQ"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:17
+#: 23b81bf0fcda4093a7468c49f6c6b7f2
+msgid "Ra-01模块和Ra-02模块的区别是什么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:18
+#: d4fd80c883a242ecba424d3284da454e
+msgid "答：Ra-01，Ra-02内部只有一个SX1278芯片，两者的区别就是一个天线座子（Ra-02多了一个Ipex座子）"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:21
+#: 1b092b70744d4746a9d78dc6f3aff8d5
+msgid "RHF78-052模块用OTAA入网模式失败了，显示join failed 有什么办法去定位失败原因吗?"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:22
+#: b71fdfc8d06a4478a2631bafcb67345b
+msgid "AT+CH=CN470 设置为该地区信道"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:25
+#: 632595b78b51476b84031ae1d3e17785
+msgid "SX1278有寻址或数据加密功能吗?是不是别人的1278只要与我同频就可以收到所有数据?"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:26
+#: b69d7be1e5b24808996ccfccb89706e1
+msgid "答：没有寻址加密，同频都可以收到。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:29
+#: f7a30e816a3c46dd9df51a0a861efbc9
+msgid "LoRa模块如何进入低功耗模式（睡眠模式），低功耗模式下功耗是多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:30
+#: a7d9288a39d64e7cbce296d1447e04f8
+msgid "通过SPI通信写寄存器的方式进入低功耗模式，低功耗模式下电流为0.2uA（微安μA）------注：此方法不适用Ra-06"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:33
+#: d5a3ea7c615d4e9f823ebc34b5121f64
+msgid "LoRa模块上使用的是普通晶体还是TCXO石英晶体，频点为多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:34
+#: c614f59a91dd4e6e89230794518e8293
+msgid "答：使用的是普通晶体，频点为32Mhz"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:37
+#: 77a75c88b1ba4a16951df184e604b9fb
+msgid "关于SX1278射频模式切换的引脚要如何设置？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:38
+#: e3c043a507bf4f72aa29fdfd869d5be0
+msgid "答：LoRa模组没有射频开关芯片，不支持这样切换，直接通过SPI配置寄存器就可以使用LoRa模组"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:41
+#: bec9dc1e505149d492c49b1715590216
+msgid "不同的LoRa模块之间通信，可以给LoRa模块加地址吗，用来区分是哪一个LoRa模块?"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:42
+#: fd8521b9ac43477d86f84b5716e43b12
+msgid "答：可以，在有效负载的前两个字节定义为地址"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:45
+#: 2ff152303841437aa2899c6aae4da5d8
+msgid "信号带宽（BW），符号速率（Rs）和数据速率（DR）间的关系是什么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:46
+#: 50b87f86eb1c4609a6427e8cdac9e62b
+msgid ""
+"Rs=BW/(2^SF)、DR= SF*( BW/2^SF)*CR，但我们建议你使用Semtech "
+"LoRa调制解调器计算器按照不同的配置选型评估数据速率和传输时间。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:49
+#: 5dd19a8cbd5f4d3da6538bea95dd70e8
+msgid "LoRa设备天线上可以达到的实际Tx功率是多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:50
+#: 0ee1a9be90d8413ea7b34febee6f9d92
+msgid ""
+"在芯片引脚输出的功率是+20dBm，经过匹配/滤波损耗后在天线后，在天线上功  率是+19dBm "
+"+/-0.5dB。最大输出功率在不同的地区有不同的规定，LoRaWAN规范定义了不同地区不同的输出功率使链路预算最大化。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:53
+#: 61c40c98cd8d495298d45fa1d93a6479
+msgid "当两个LoRa模块不能相互通信时，故障检测的步骤是什么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:54
+#: 279b474c4e8c448aab13e86827ad0a12
+msgid "答：首先，在两个设备间检查由晶振引起的频率偏移。带宽（BW）、中心频率和数据速率这些都源自晶振频率。其次，检查在两边的软件/固件设置，确保频率、带宽、扩频因子、编码率和数据包结构是一致的。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:57
+#: a711e8af97424114b4c552625bbff211
+msgid "LoRa模块可以发送或者接受一个无限长度的有效载荷数据包吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:58
+#: 14e22e53ab02425798e4ece451de0c5d
+msgid "答：不可以，在LoRa发送或者接受中最大数据包长度是256个字节"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:61
+#: 89f643510e32416aa876bf235868aff7
+msgid "LoRa模式的有效载荷长度可以用任意数据配置为256个字节吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:62
+#: 32b82cc72aee469aaab9bb3ea7b64344
+msgid ""
+"答：SX127x LoRa设备在LoRa模式中有一个256字节的FIFO。理论上，所有的256字                 "
+"节都可以用于TX或RX。然而，用低数据速率配置，256字节有效载荷的传输时          "
+"间将会很长（几秒或更长），这对于抗衰落和高干扰环境是不好的。在大多数环境             "
+"中这不是一个健壮的配置，因此建议如果想要一个使用低数据速率长的有效载荷，            那么数据包可以分成几个短的数据包。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:65
+#: 75b0795d49e3484685e8ae8d943f4f3f
+msgid "LoRa网关的容量是多少？一个网关可以连接多少个节点？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:66
+#: 7a6694b5970e4639b7bd45adff829014
+msgid ""
+"答：首先最重要的是，容量是在一定时间内节接受数据包数量的一个结果。一个SX1301       "
+"有8个通道，使用LoRaWAN协议每天可以接受接近150万包数据。因此，如果你的应用每小时发送一个包，那么一个SX1301网关可以处理大约62500个终端设备。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:69
+#: c2813161a0354294b830cfd701a444d7
+msgid "如果不能达到+20dBm，如何解决输出功率问题？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:70
+#: 1ad2857492ca4c8490cd8c325b44af29
+msgid "答：1.请确认你连接到正确的引脚（PA_Boost）设置，20dBm输出的引脚。每个频段有两个输出端口。一个是高功率端口称为PA_boost，另一个是高效端口称为RFO。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:71
+#: f396d7b7aacf45f9bfa574fc39660e83
+msgid ""
+"2. 然后，检测软件配置。应该正确地配置好三个寄存器：RegPaConfig、RegOcp 和 "
+"RegPaDac。这意味着你在软件中应选择正确的引脚做相应的输出，再依据你需要的功耗级别设置正确的值 3. "
+"确认他们与Semtech参考设计相一致以便设计一个好的PCB布局。这对于可能达到最大的输出功率来说是重要的。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:75
+#: 4287442823a64f1f98fd5f5cccc23887
+msgid "LoRa通信距离和什么有关？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:76
+#: ba32296e84af4503853d6e84fd7dfb51
+msgid ""
+"1，发射功率。 2，天线角度，通常天线应该相互平行。 "
+"3，天线的中心频率是否与模块通讯频率匹配。每个天线都有一定的频率范围，称为带宽，在这个范围内，天线阻抗最小，效率最高，这个范围的中间最佳点即中心频率，驻波比最小。"
+" "
+"4，LoRa的配置参数。空中速率越高，LoRa发送数据的速率越快，但是接收灵敏度就降低了。所以要提高通讯距离，就需要适当降低空中速率。空中速率大小和扩频因子SF、带宽BW、编码率有关。空中速率与扩频因子、编码率大小反相关，与带宽正相关。例如，远距离测试时，参数可以这样设置：扩频因子:12；带宽BW:6；编码率:2，注意在低速率通讯时，开启LoRa低速率优化功能。"
+" 5，程序错误。典型的是PA设置错误，LoRa 1278/1276有三个射频信号发送口，分别是RFO_LF: "
+"低频率发送口，效率高；PA_BOOST: 20dBm信号放大口，安信可的Ra01,Ra02使用的是该发送口，程序里务必开启；RFO_HF: "
+"高频率发送口，效率高 根据硬件原理图连接，选择相应的发送口。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:84
+#: 959138b1b5a84fe39672ebb8c836afc5
+msgid "Ra-01这个可以用线连单片机吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:85
+#: 89849de8ef2246afab0e95a6fc39e799
+msgid "答：可以   通过单片机的SPI协议进行驱动"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:88
+#: b687a0dab97f4f5aa574398b70c9416c
+msgid "\"RHF76-052可以传输多远"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:89
+#: b817d80d1866491d84067e3ac53cbe60
+msgid "答：2公里"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:92
+#: a174a7a4e86a432bbaac76774ba1e018
+msgid "Ra-06 里边的 MCU，我们能用来开发传感器吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:93
+#: f0cbd57f3a814809955485ceb56bcb49
+msgid "\"答：不支持二次开发"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:96
+#: ac34e1b68a154a02919e33af28145637
+msgid "LoRa测试板底座的功能是什么"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:97
+#: 689caeaaec5f424aa4772ad753ee5790
+msgid "\"答：MCU驱动LoRa模块，MCU型号是STC15W408AS"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:100
+#: a46f65bdb37249eda5252ef8e1ae0bd9
+msgid "模块的使用的晶振是多少MHz的？ 能否提供STM32的demo代码"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:101
+#: c364dff7d9d94b60ae681a7a7bfd3ff2
+msgid "32晶振，我们官网有STM32的代码哈"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:104
+#: 947b82bc82d04d17bbb374ff2fd8da16
+msgid "Ra-02支持点对多吗 ？支持一对多吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:105
+#: 0fc8c24e09da4fcba44e3c56a8746036
+msgid "支持，只要同频"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:108
+#: 992753386498471fb81423e0de27db9e
+msgid "Ra-01与Ra-02增益大概有多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:109
+#: f82878a6b090434db85dbd9599b81d8b
+msgid "1.5db"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:112
+#: b64338da58f441b6a043e8b776391cda
+msgid "Ra-01模组上的晶振是多少频率的？需要这个参数"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:113
+#: e9ff9313f20643c390b5ba13ae50eafe
+msgid "使用的是普通晶体，频点为32Mhz"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:116
+#: f5610f202a0349cb88952e8d93d7ad24
+msgid "Ra-01和Ra-02距离是多远"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:117
+#: 34a937597ba742648e9d52a422544838
+msgid "正常可以达到3km"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:120
+#: 000ff6696ac54677ada4b0b13d6e16a5
+msgid "Ra-06可以和LoRa网关配合吗 ？RHF76-052可以吗 ？Ra06只能点对点传输"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:121
+#: eecc5c4f77144688883edbceebdb95c9
+msgid "不行，点对点通信，或者用一个Ra-06作为网关端开发使用"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:124
+#: c288e40d34c442a98f1b7c5298148711
+msgid "LoRa的模块有集中器的么"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:125
+#: affe1490cad14e7f963366f79c1eb01d
+msgid "没有 ，这个只是一个射频芯片"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:128
+#: 96a5a3f62abf433b87a0db082231d15b
+msgid "Ra-02模块与MCU通信是什么协议？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:129
+#: f07867730be1401481ffa522e8845142
+msgid "SPI协议"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:132
+#: efc219e765c3474a95de44467ac244ec
+msgid "Ra-01模组能配置成20dB的发射功率吗？我看你们模组上标的是pa+18dB，最大发射功率是18dB?"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:133
+#: 080688b58dda4516b45d449947689011
+msgid "可以配置成20dB，但是实际有线损，实际上是少一点的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:136
+#: 8585bf7657c24e17a96a4b3990646907
+msgid "Ra-02支持470MHZ吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:137
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:291
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:497
+#: 09c15edd597e45fd9264126b2d537c55 15431844172d4d008313bd0bd00c4052
+#: d5343af1a74f4f7aa1787f7c29d514e2
+msgid "支持的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:140
+#: 93cfbc3ee7d740c6a9abf52fdd1319f9
+msgid "Ra-01与Ra-02支持自组网吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:141
+#: 66d8f2a4e98e4d3eadcbf93c8d7ec5fa
+msgid "可以支持组网，但是需要网关"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:144
+#: 1032615e30094e158e819c5d86535ec0
+msgid "LoRa测试版可编程吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:145
+#: 75c2defe5c5841a6a2314a2230bdcacb
+msgid "测试板可以编程"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:148
+#: e424c1dd54d846be85cd60d3ed0a97fe
+msgid "Ra-06接口是什么呢，SPI还是UART"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:149
+#: 4cfae1a3992d417095a2b9acf073a226
+msgid "UART，SPI是01 02"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:152
+#: b8ae88cf54bd4a338c425d2bdde56a4e
+msgid "LoRa模组与LoRaWAN模组这两个区别是什么"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:153
+#: 1b2b10c16c834547b08c384396c0f5a9
+msgid "一个是射频模块，一个是集成LoRawan协议的模块"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:156
+#: 84bdd78bde9d477daf86ed4d99e4f34b
+msgid "Ra-02可以星型组网么"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:157
+#: 1a2ae53596394c6a9fe73ff34e565cad
+msgid "可以的，但需要网关 ，我们店铺没有网关，网关是很大一台设备"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:160
+#: d4d12ebbca4d4b009b8d821d7906092e
+msgid "Ra-06  能与Ra-01互通吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:161
+#: 9ae0c95b55274300adb5d52ae62b106a
+msgid "可以 ，只要参数设置对"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:164
+#: ade8f0615e5d498e9ed6e66f4ac55279
+msgid "你们LoRa模组最远能到多少距离"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:165
+#: 8297fd4d449d4535a668a0339bfd14be
+msgid "3公里左右，空旷的地方（Ra-06）"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:168
+#: 7dfdfbf6cda841aab58ec39278287c92
+msgid "LoRa测试版用什么样的烧录器啊"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:169
+#: 7459d8a9ad41497ebc3d9cc2591e38fa
+msgid "CP2102"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:172
+#: 475d42257fe2475ea7e803605bcf2c70
+msgid "Ra-02 和Ra-06 待机状态下的功耗为什么标的差这么多"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:173
+#: 1b4527c9870a4133a571f6e0a50c72b5
+msgid "Ra-01和02有衬底电流，06在原本的基础上进行了改良"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:176
+#: aa6aa723b14641d8920751142a47767f
+msgid "LoRa模块组网可以多个模块接入一个进行数据传输吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:177
+#: faa41c8c906949ccad64b2143ab8c251
+msgid "可以，只要频率相同"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:180
+#: ec9364362e544aaeaf2771becc77bc18
+msgid "Ra-01通信距离能不能加长"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:181
+#: 038ddfb72ae94d2aa727538003bb004b
+msgid "通信距离能加长，推荐使用棒状天线，需要专门频段的棒状天线哦，还有要注意实际的环境，如果有墙或者楼房阻挡会干扰信号。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:184
+#: d4097e89cfa2442e81e36960f88e15d3
+msgid "你们没有SPI接口的LoRa模块吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:185
+#: 1b5ae820f84843758de9894b7f91890a
+msgid "Ra-01  Ra-02都是SPI接口"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:188
+#: b43526856c6b472193f72b8f9cbdc983
+msgid "这款Ra-01模块的DIO0~5是可编程的，对不对 ？有说明资料吗 ？我想让它接IIC传感器可以吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:189
+#: 6de61f5b6ff14f6da20c4fdf52d17e34
+msgid "不行哦，Ra-01 02只是射频芯片模块，模块不能单独当做单片机进行使用"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:192
+#: 2f0eda23850a4b838d38b37b840792b0
+msgid "Ra06可以编程吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:193
+#: 5bf6705a3d2344418a66b0fa5e37c5d8
+msgid "目前暂时不开放编程"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:196
+#: a13f71c3e8bc40339fa8e47c80905435
+msgid "LoRa模块Ra-02发射功率能持续工作在20dbm下么，还是最高只能设18dbm"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:197
+#: c9b3dcd0bd124496a7c1f67ba5165b97
+msgid "可以持续工作在20dbm"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:200
+#: f1c224520ddc499da11d0346e989f666
+msgid "Ra-02支持配置不同信道吗 ？有多少个频率可以设置 ？怎么配置频率"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:201
+#: e62ad61bfbc043ac8f026ac3d63194be
+msgid "Ra-02只能设置频率，不能设置信道。433频率和470频率 。通过软件，自己编写MCUA代码设置。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:204
+#: 05ccd82e7c574e919a713284a991e40a
+msgid "sx1278理性支持配置信道呀？Ra-02模块的接口协议呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:205
+#: 2a397c325a9c4bf6bbc86a062afcb695
+msgid "不支持配置信道，接口协议就是SPI协议"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:209
+#: 6189b20ff0734cf7a0aeb70d4a892a8e
+msgid "LoRaWAN节点模块，跟LoRa模块Ra-02是否可以互相通信？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:210
+#: af2980b13ce04628b80cef208d14780d
+msgid "不可以，使用的协议不一样"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:213
+#: 3dce3332764446a1a2547a5d13be801f
+msgid "LoRaWAN节点模块里面的MCU，可以支持二次开发吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:214
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1045
+#: 36bf55102f694caea45af85129e43af7 e5e9b646dce9414cb363d47d0b14115d
+msgid "不支持"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:217
+#: cd37ceb108534d7ba0394bf7f8648568
+msgid "Ra-01开发方式模式是用两块单片机分别连接两块Ra01吗?Ra-01本身是有程序了，能改动的吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:218
+#: 38fcecf72c4e456da35018b1e4a21d85
+msgid "用单片机分别连接2块Ra-01 .本身是射频芯片 只能通过单片机驱动"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:221
+#: 2329e34668964baea05b46ea8b8874a7
+msgid "两个射频芯片有“对码”这一说的吗 ?是一个发了另一个就能收到?"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:222
+#: 6d6d10b6a08b437b95266c10cabc9ab5
+msgid "有的,这个是收发芯片,收发参数必须相同"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:226
+#: 5ef30d33119544b88fbf7d5eae73cc4d
+msgid "Ra-01是不是可以同时作为发送和接收的？可以一个与多个连接吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:227
+#: 997d0af7b38b425e885a6477d4376bda
+msgid "可以作为发送和接收，但是不是同时。可以一个与多个连接"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:230
+#: 94bedc88b8d04719a9a93ffc9f33cbd4
+msgid "Ra-01在125MHZ带宽下，正常距离是多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:231
+#: 3314e4bdb555471e9a11dcdbda1159a8
+msgid "500米"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:234
+#: 47d450770a6448d7851e7bd99cd27c4e
+msgid "Ra-02所有433的都通用么？天线那是不是dbi越大信号越强"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:235
+#: 76d681bcf85a47d68fbb7878d6fbc98d
+msgid "都可以使用，只要频段在433Mhz的就行。DBI越大信号越强，但是方向性越差"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:238
+#: 043169da9bc34da993898869e45bcee3
+msgid "Ra-02可以用在智能家居产品上吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:239
+#: bf46faca9ef54a34bd83dc5b18568865
+msgid "可以的，具体实现需要您自行研究"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:242
+#: 42903d669ef949648de96ef77fca61eb
+msgid "Ra-01H模块能到多少公里呀"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:243
+#: e90b15cd8b074d4c961fc2f94bc06242
+msgid "3-4KM"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:246
+#: f2b2303998ea4e61b7c59fdec071db91
+msgid "Ra-06是半双工还是全双工"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:247
+#: baa96a41fe344e08862e2a7a3c54fb09
+msgid "半双工"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:250
+#: 4a77fe2db69945faa9dd058b0d50017b
+msgid "你们的这个at指令LoRa和LoRaWan是共用的吗?"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:251
+#: d831e8bb143548bd82199a5511b8aefb
+msgid "不共用，Ra-01和02都不是发送AT指令，是通过单片机操作寄存器来进行通讯的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:254
+#: 9422f4d40a66405dad154f0be3e39b2c
+msgid "LoRa支持FSK和OOK吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:255
+#: 0ea53803b74a445495a1f19396c17afd
+msgid "可以支持,之前发送的示例是LoRa模式  如果想使用FSK模式需要您自己重新编写程序"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:258
+#: ce9113eab2b649f2837776aa393ccc21
+msgid "Ra-01模块uart口波恃率多少，可否修改波特率和地址？如何改？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:259
+#: 82080a3aa1a84f7da785993259bdf944
+msgid "Ra-01是SPI通讯，不是串口哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:262
+#: ce616ea96477448b8d40e3b667f0d600
+msgid "Ra-01的频段是可以自己软件配置的吧？433和470之间切换？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:263
+#: d3a6698115694a7b974dfbc21481437d
+msgid "410-525是可以调试的，最好的频段是433/470"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:266
+#: 2d0d1ec66c824d5e825cb60d4c2a0d03
+msgid "LoRa传输距离多远？实测多少米？待机电流多大的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:267
+#: 297b759a7923471aa3883a98d53e6dde
+msgid "最远可达10公里，但是传输速率慢，要等很久才会收到信息。在海边空旷环境下，天线距离地面3.5M，实测10KM/1.5mA."
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:270
+#: 5aec16951ab54fabb1c8be74cd6e3632
+msgid "Ra-02可以用PCB板天线么"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:271
+#: 60f0897bca63485a9333ff9060261441
+msgid "不可以，要使用PCB板天线用Ra-01"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:274
+#: 1c47432add3240699cee5976f0ee8157
+msgid "Ra-02在市内能到多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:275
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:840
+#: f51fe724b898431e914c83fea3937bd7 fecf149dd5c94e2393b5443470ae9ef9
+msgid "市内干扰要是比较多的话，对信号强度有影响， 一般能到3km左右"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:278
+#: b469d2c095f14456a85a29a44f2d485c
+msgid "如何设置LoRa前导码寄存器地址呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:279
+#: 9032c62f42bb41fa801707c3a0a55b44
+msgid "通过SPI协议读写寄存器"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:282
+#: afa4cfb7b8744934a34f4a3e0986a22d
+msgid "LoRa收发切换是怎么做的？移植时不知道如何切换"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:283
+#: 50ee2a2256fa4a169757cb9a16d4c6b0
+msgid "通过SPI协议改变这个寄存器的值，这个寄存器是引脚映射的功能，具体是DIO0引脚"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:286
+#: cf4872b8fdc84499922abfeba81b0ce6
+msgid "LoRaWAN进入低功耗电流是多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:287
+#: 70467f2bb0ff460dad3551284ac94f29
+msgid "低功耗能达到0.2uA"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:290
+#: ba876ac6d7524ea2b8b7cb893da1494e
+msgid "贵司LoRaWan模块支持LoRawan协议的Class A和C么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:294
+#: 5977dd5948f24fcebb7403095f558005
+msgid "LoRawan这个支持二次开发么"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:295
+#: ba2a27ccb11649f1a1374feb25f64f6c
+msgid "LoRawan模块不支持开发，LoRa模块需要外接MCU进行驱动"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:298
+#: d04b624a7e0549d8a691489ce4b31536
+msgid "LoRa模块支持透传吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:299
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:630
+#: 03e315bc6ec149eab216216c643d10e5 43647158cf6e418a8a085410451a1619
+msgid "不支持透传"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:302
+#: 58c660087901426aa1651019a1235450
+msgid "LoRa测试板这里面是什么单片机？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:303
+#: 3ad1829c1ce84a89948278a64893932b
+msgid "STC15W408AS"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:307
+#: 8de71920247543b38417f4a0e103b054
+msgid "LoRa不是局域网的嘛，和云怎么对接"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:308
+#: 3ae4f25c06794c498219dea812608924
+msgid "LoRa不是局域网，LoRa是射频通讯，跟云无关"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:311
+#: b411d7a320864d0099296834f541856d
+msgid "用Ra-01的FSK模式，发现模块没有收发切换引脚，对接收会造成影响吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:312
+#: 6994ac7d883e4bc8bac50dc17ccd4321
+msgid "通过DIO映射去控制模块的收发"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:315
+#: 74c914a05fc24570be824054810c1b2b
+msgid "Ra-01发射功率多大"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:316
+#: 61f4b731f2bc43e89832a6655b34d66d
+msgid "18+-2，功率是是100mW"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:320
+#: c8eaf436c7524f67bb5934281f97126b
+msgid "Ra-06发射功率是可设的吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:321
+#: 18800608decc4360b6dd5407a9d9e8be
+msgid "可以，通过AT指令设置"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:324
+#: 157adb9aaa4949749af716d56f8266b6
+msgid "Ra-06串口参数出厂默认是多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:325
+#: c2bdc5b235ad4d5681a81c98c0249acd
+msgid "9600 偶校验 1位停止位"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:328
+#: 8172bef25c794b28954e754dd745a989
+msgid "Ra-02收和发的转换时间是多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:329
+#: 311b5581d7c6429db04d30692c4a9b64
+msgid "这个是可以自定义的，推荐转换时间为100ms以上"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:332
+#: b5f26002fb0942098168f0babe49175c
+msgid "LoRa可以防止数据碰撞吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:333
+#: 4825be0ecaf34f609d994ea55618510e
+msgid "可以，但是要您自己编写程序"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:336
+#: 136395ebcac5428d8985eb6b19136100
+msgid "LoRa一对多的时候，终端可以主动上报吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:337
+#: a3dc3e577f74428ca2cdec5c9483792d
+msgid "通过逻辑程序实现"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:340
+#: 1420bf4e865245c999583a451bd8032a
+msgid "LoRa测试板带空中唤醒吗?不是测试板吗?原本的不带吗 ?原本是空的？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:342
+#: 6ed170170a254ea3a4d2575165713e00
+msgid "这个需要您自己去写代码逻辑。原来的程序只是用来通讯使用，没有做空中唤醒的功能"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:345
+#: a979144ac9c148cca96561cfad859852
+msgid "LoRaWAN这个支持多少个组网通信"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:346
+#: 91572ee1447143059639dfc3aa3b7f07
+msgid "需要根据您自己代码逻辑实现组网哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:349
+#: e6821be52191407b93020bf5a74c4964
+msgid "Ra-01没有发射和接收控制引脚，那怎么控制收发呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:350
+#: 87721bec98bc4863ac12f6a6a27febbb
+msgid "通过操作DIO0引脚"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:353
+#: 54588b71e9944636bb0ff3d85df4b48b
+msgid "Ra-06模块的接收灵敏度到底是多少？ 是在哪个波特率下测试到的？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:354
+#: 464f975c0974417faba8647a839cf212
+msgid "433频段  SF=7  BW=125KHz 测出来的接收灵敏度为-125"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:357
+#: 6f6b125967af498492c1d5e18bd617e3
+msgid "1278有spi接口的模块吗？功率大于等于1w的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:358
+#: 7d408d5c8535403aa502e39cf240b53b
+msgid "Ra-01和Ra-02模块哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:361
+#: 20619b75525a4747b5430dfcc1fc0997
+msgid "两个Ra-02模块之间可以直接组网通信吧。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:362
+#: 95807a5d1b0d4e6e8d967d44b7337c86
+msgid "可以组网通信，但是需要您自己去代码实现，我们给的驱动代码只是点对点通讯的，没有组网"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:365
+#: 985ee77881474bf6b7995fd25ab4de6a
+msgid "Ra-01的收发切换是怎么实现的？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:366
+#: f18837cf0f5f4aaba4521544f5701d0f
+msgid "通过更改DIO0的电平"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:369
+#: 2a89138b604e44d194d7db65ba3f590c
+msgid "想要1对50的无线组网 ，这个Ra-01模块可以实现吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:370
+#: 2818beb06ed5497da82604e0ee7fe0c7
+msgid "需要配合网关"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:373
+#: b870a04fdb5f4f16a9238159141a5e7f
+msgid "Ra-01H的腳位跟 Ra-01是一樣的吧??"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:374
+#: 2de0e1142c504a7987adcd640066d507
+msgid "一样的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:377
+#: 3633b327e89e4ca3b1a17b7975b89341
+msgid "Ra-06 其他未使用到的管脚是否可以悬空处理？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:378
+#: 9acf024ac3d54d318140aa80066478e2
+msgid "可以哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:381
+#: ae960ce3c7ab4dc989ae57513fd6190d
+msgid "Ra-02是否支持470M频段"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:382
+#: 7bac2bf207ad4770be4a65f2d3e187d2
+msgid "支持的，410-525"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:385
+#: 77ca1648a03c4799b57f85e9eb14c902
+msgid "单独LoRa扩展板接电脑是不是可以作为LoRa终端工作？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:386
+#: 4c507f4123c84d509909d084ae1174d0
+msgid "不行哦，必须要有开发板"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:389
+#: 7ec8dd3fa69a482ab8b687e21a053969
+msgid "LoRa系列的是不是都不支持二次开发  自己烧写"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:390
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:493
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:698
+#: 8f6039375b8c462ca9e53527fd1441f8 9172b2c54e3f4e87a7b0389b6317e4f6
+#: effef283bb1149ccbc7e73b504fb72eb
+msgid "是的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:393
+#: 82f791d40cf8404e806633eb801083b1
+msgid "Ra-06  这个模组能不能休眠呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:394
+#: d4ed825ca2314ff8a187492e672bf081
+msgid "有休眠模式哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:398
+#: 055c5d943419460aa02a64e4dc04ea02
+msgid "Ra-01模块能支持天猫精灵吗 ？那你们能支持什么平台呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:399
+#: 8b6b819ba07d4f11b9c48548bda91d3a
+msgid "Ra-01不支持天猫精灵。不支持任何平台 ，它只是一个点对点通讯的模块"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:402
+#: 1508cfa4cea943d59e5b08fdc461f026
+msgid "Ra-01组网的话，有数量限制吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:403
+#: b716f1984cb64bb48c59ac859f816735
+msgid "理论上没有哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:406
+#: a8e183e567ec48f79b58a8cea4b95e78
+msgid "这款Ra-02设备可以同时连多少台LoRa设备？软件最多能实现连接多少台呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:407
+#: 0fdd8df71b5044189b85e6b77b282ae0
+msgid "这个是要通过软件去实现，两万五台"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:410
+#: 34ff32b7b7cd45ea965537423ff08a39
+msgid "Ra-02这DIO0\\1\\2\\3\\4 这几个管脚干嘛用的？ 要接吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:411
+#: b11def1e142f4c4bbd738cbda9bdf942
+msgid "这几个是控制数据发射和接收的，具体可以查看我们LoRa的芯片手册"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:414
+#: 66dba0517bf04aed991d94260a70a7a1
+msgid "Ra-06是需要单独购买网关，还是Ra 06.有网关模式"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:415
+#: 7287d3f22acb4c0c958bc367a8c9030d
+msgid "Ra06有网关模式"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:418
+#: fa9cb2a0d14a4520b2c28e018db6ebf8
+msgid "Ra-02模块 通讯距离有多远 ？有障碍物呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:419
+#: cd8739e9defd4935b8832d4e722bc910
+msgid "空旷的距离下，距离是10KM。有障碍物会有一定的干扰性，一般会降低5%的距离"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:422
+#: d4fdd8aee9a84bb9805d8b0541029002
+msgid "LoRa测试版可以修改哪些参数"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:423
+#: f7ab749b0616462d9bdf8750e2a7cee9
+msgid "频率 带宽 发射功率等"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:426
+#: 4cf6ba38601b4748932388d075d5a9b6
+msgid "Ra-01待机电流是多大啊?能不能做到2uA"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:427
+#: e1c7e8a68e9c4396a48f47eaf4e7a716
+msgid "1.5mA。不能，这个不是待机功耗，是睡眠功耗，深度睡眠功耗0.9uA"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:430
+#: 9613deaae2fe4cf281bb3b312ffeda30
+msgid "Ra-06模块是用的私有协议？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:431
+#: 38b1bfaf3eee4c63a5d8fde3910acfae
+msgid "是的，私有协议"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:434
+#: d24b876600a7480fb6ee096de1c44d15
+msgid "Ra-02，支持发送与接收的全双工通信吗 ？支持同时进行发送与接收吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:435
+#: 13a6ca90fd9841c59fc4cc130950539d
+msgid "全双工，支持同时进行发送和接收"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:439
+#: 9391af66835b412eb40e7ddfbc07c7ce
+msgid "Ra01用弹簧天线能实际测试能发送多远 ？正常楼宇及城市间呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:440
+#: d70b13833c05406abc08bc83013ebdc1
+msgid "空旷的距离下，可达到10KM。楼宇城市一般可以到3KM;"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:443
+#: 2ed1ceb0fed2486aab0b59870a582363
+msgid "Ra-02 SLEEP电流多大？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:444
+#: 70e5e31d2ca14883a18323243336a8f0
+msgid "5uA以下"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:447
+#: 32af8be923cf4cfeba57d635097f5aaa
+msgid "Ra-02最好的灵敏度是-141？ 这时候带宽最窄是125k？ 码率配到多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:448
+#: 2d912c188546439d9f25ec27bb729de9
+msgid "扩频因子设置成12，带宽125K，编码率4/5"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:451
+#: c286023b91d140b7bce7d200bf068d86
+msgid "Ra-01和sx1276核心有什么区别？代码可通用吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:452
+#: 165fec672f5c4b91a12f647fae4c0b3b
+msgid "代码可通用"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:455
+#: 0b1742a7cb2c4653b546116a6fce0c90
+msgid "Ra-02的1脚是地吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:456
+#: f16e55fa6bb74b8aa97ce0803f4382af
+msgid "是的，Ra-02是IPEX座子"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:459
+#: a4f9081aaebe4e8d927f2f23e9b4f7f1
+msgid "Ra-02用哪种天线"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:460
+#: fa1520e120434e3ebb651177b3cf0649
+msgid "Ra-02配的是433M频段的天线，IPEX头的，您发图片的这种是SMA头，如果要使用这种，需要购买IPEX转SMA的天线"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:463
+#: 2d18a0eeaf474b48a6a90b9ff46a045f
+msgid "Ra-06模块支持中继吗 ?距离能叠加吗?"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:464
+#: 428992d0dfcd4c708f407b83abb7f730
+msgid "支持的.不能叠加。模块和模块之间的通讯距离是固定的 .是的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:467
+#: 6e46a45d005148549559c03f6b3c2a5a
+msgid "Ra-01Ra-01可以烧录么？ 能写程序么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:468
+#: 3c1a45280e99420284df67769fab1676
+msgid "不行，不支持二次开发"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:471
+#: ce2f627eb5f94d08a3ae7e657bc681f6
+msgid "sx1278芯片可以进行proteus仿真嘛？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:472
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:530
+#: 97241b2039ff40699ee0c22601be51b1 e8c13b468a774605b77ba4a89a73dccd
+msgid "不可以"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:475
+#: da3f5f1c30d8405fbe268d6f7cc877e3
+msgid "Ra-06是透传的吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:476
+#: 45b02a5a9b954080a4aa031b6ae56080
+msgid "Ra 06不支持透传"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:479
+#: 484260b9cab54cada7a8393bb444db00
+msgid "Ra-02低功耗模式下待机电流多少"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:480
+#: 3e31b8af5d064e80b7ca0d608eccf95f
+msgid "1.5mA"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:483
+#: f96f9106c830461dae999d7097cf6f1d
+msgid "Ra-06是一定要接外置天线呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:484
+#: 44a790ce647e48c9aa482382fd910ce9
+msgid "要外置天线"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:487
+#: a78d1e1a265e46faa3b03abcfee50a0b
+msgid "Ra-06拿来没有天线如何调试呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:488
+#: 0f2e5474a5784c6ab86314e505fea005
+msgid ""
+"没有天线也可以进行调试，只是传输距离不会太远 .调试方法参考这个网址 "
+"https://blog.csdn.net/Boantong_/article/details/104549973"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:492
+#: 27818707e4a242878849038b39d8f828
+msgid "Ra-06买433MHZ的天线就可以了"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:496
+#: 4d68a15279204104b098a2a121a3a356
+msgid "这款LoRa-02模块支持空中速率0.5 kbps吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:500
+#: 8c0097a34eb842b38412f0372f71c2c5
+msgid "LoRa可以中继不？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:501
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:610
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1029
+#: 6fe059820fe34f258f0abaea98ce4e48 a8ee6f10cbea49c5b08f4cd161cf94c9
+#: bcfd5b142c9241d7a9c5d9e1cd793c54
+msgid "可以"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:504
+#: fa9bb3c1c45e42efb45933f9286e143a
+msgid "Ra-02用哪种天线？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:505
+#: 377c981b72474faa92ffdc380915a33a
+msgid "433M和470M的天线都可以用的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:509
+#: 53cbea06138a4f48859bba0aa850f51c
+msgid "Ra-01/02/06/01H， 这4款都可以和网关组网吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:510
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:650
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:771
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:783
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:861
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:865
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1094
+#: 42ac9695d842432b88087048a95c0490 46b2eff83c9647bfb8104ceaa769687a
+#: 75f1969ec46942ed96a69c11fa9b6f6a 9509cf4d97ee489cb8092fda8da3a5e1
+#: a2ff28d1bcb347aca4cdf352a17c129d b7276d23cbe8463db08bfab5d0f9e89a
+#: fe313988d8664a5f88305cd67a0cb594
+msgid "可以的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:513
+#: ad6e21b6211340abab04c885b1a5e197
+msgid "Ra-01点对点的通信吗 ?支持LoRaWAN协议么 ？服务器呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:514
+#: 6284c509afc542159df05874628579d0
+msgid "点对点通讯是最基本的，如果需要支持LoRawan请在自己的MCU进行实现。服务器这个需要您自己搭建"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:517
+#: babacdfb354742f3959f78bebbfd7d04
+msgid "Ra-02可以放在设备的壳体里面，还有信号么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:518
+#: 56e03bf982fc44de9584a0b6cdd0079d
+msgid "壳体不是金属就有"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:521
+#: 0b187623f6594aeb864c2385ee206ab3
+msgid "Ra-01模块休眠电流能达到多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:522
+#: 4bd588bbf13249c8866e9af9c71e9694
+msgid "5uA"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:525
+#: dd5d6f540ae74f20bb483f4cd2770712
+msgid "请问 Ra-02 速率 300kbps的时候距离可以到多远？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:526
+#: d9609cdc09b54925893270deca75409c
+msgid "一般能达到3公里"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:529
+#: 04d6e55ad345485e99079855f51a11db
+msgid "Ra-01可以图传吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:533
+#: c52faa3d8bec433ba29bc245e080d37a
+msgid "Ra-02的最低功耗电流是多少"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:534
+#: cf38199a93d54978b1bcd4a17b434882
+msgid "0.5uA"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:537
+#: bb8fd2eff2b04451af6a14214ce5e46a
+msgid "LoRa集中器私有协议网关， 是否可以连到MQTT？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:538
+#: ddf140fd9a4d458499dad405c707a8a3
+msgid "可以连接到MQTT"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:541
+#: 1fa241a490d9414fad62087c72c6ce08
+msgid "Ra-02 没有天线引出口么"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:542
+#: 7e245e4eea384a34a756f29f48e39c0e
+msgid "您要引脚引出的话，可以购买Ra01"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:545
+#: a25241f67f414b5d94267929e9caba7d
+msgid "有组好网的LoRa模块吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:546
+#: 06ab4aa8949e4a20965f03361d23e481
+msgid "Ra-06，不过要配合我们的网关"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:549
+#: ab5ce3b926a44f32bdc752e6259e4afc
+msgid "Ra-01和02的区别"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:550
+#: b667f72ae0634571ab6713de7082c6ec
+msgid "01需要焊接弹簧天线  02多了一个IPEX座子  直接找带IPEX座子的胶棒天线上去插上去"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:553
+#: 765d5ba2af774ef39078b21f636e2011
+msgid "LoRa网关能覆盖多少米 ？信号稳定的情况"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:554
+#: 2b39af3bcb7f4a4b90171d4dd5270448
+msgid "3km"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:557
+#: b8939df9e1634ec7a89a91815c65cea5
+msgid "网关不能直接连接自己的私有云吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:558
+#: ab10ba92f38a45968c52200d5ed2dd94
+msgid "可以直接连接私有云"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:561
+#: 4b2c908ab17548cc875d75fcb51bbd96
+msgid "Ra-02模块我要从板子上拆下来，热风抢温度大概要多少度"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:562
+#: db8f31b35d014fc9b97741419ae6fc21
+msgid "400度"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:565
+#: a9dfa935c7b84292a2000ee9b56b6a92
+msgid "Ra01 睡眠状态 电流多少呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:566
+#: 5616074285994f1487ddfd9456bc344c
+msgid "睡眠模式这边测试过5uA"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:569
+#: fe56a25acb624000accef08cf2cfcd6d
+msgid "Ra-02能接入阿里云物联网平台吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:570
+#: 33f65df57c4d4d8fb93f86d0a2eb0a89
+msgid "不能接入哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:573
+#: 2d3e37a60fc94887a2f3ac7ba8b0d8da
+msgid "Ra-02的休眠功耗有多少"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:574
+#: 8cd1469dc02543b19d1f75146179fd69
+msgid "\"3uA"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:577
+#: 1a5f1b95cf6541aa813ea475b5e32701
+msgid "Ra-01的最低功耗就是待机么"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:578
+#: bb0dc3b897d64356a165485c98230104
+msgid "待机功耗跟睡眠功耗不一样"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:582
+#: 9207165d92764c469c7fb8ca84893c19
+msgid "Ra-07 和Ra-06可以通讯吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:583
+#: 8e96494550cc4255904f9d365a84ecba
+msgid "不可以通信，内部的通讯协议不一样，06是私有协议，07是LoRawan协议"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:587
+#: 9f5e245a7a8d4ad0b9671395e90143e8
+msgid "这个Ra-02 ipex是1代还是4代"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:588
+#: 5e05a58e37764a5d82e2a55bf446fad5
+msgid "亲，标准品一般都是使用1代的IPEX座子，这个是为了契合我们的天线"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:591
+#: f2c5530fdede4f42b312a1665669b7d2
+msgid "LoRa测试板可以点点互通吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:592
+#: 6cf0d8291aa948aea6e153ae01b9bfd0
+msgid "这个只是测试点对点通信"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:595
+#: 455bdbf40c7d4df3ad77a9ff3b0ca61a
+msgid "Ra-02控制发送接收 是怎么控制的啊"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:596
+#: 525579c81a8846649d73cf6d322731d6
+msgid "通过SPI通讯协议修改寄存器值，具体修改的方式，您可以查看芯片手册"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:600
+#: ae7dab0f42e448a389f6304e24a144a3
+msgid "Ra-02怎么设置为470兆的频段 ？模块的频率选择"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:602
+#: 2fffb46ed0fb4e4a8c55c1aab018c1ef
+msgid "通过软件改写相关的寄存器值"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:605
+#: 82d4b1db4b5c436d9b63c96c494b50d0
+msgid "LoRa和LoRawan有啥区别呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:606
+#: 3d3f0d9d6b65472093d6b9725f1cc167
+msgid "https://blog.csdn.net/kangerdong/article/details/92395165"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:609
+#: eaaa7b6c65af4ce1b28d24475b0cf612
+msgid "Ra-02两个模块可以用同一个天线嘛"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:613
+#: 57d823334b24411d8c6ab33ee29ff273
+msgid "Ra-01数据发出到收到回复的时间 延时多少"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:614
+#: c016d42baab74d06b9ed135d2e49cebd
+msgid "1S"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:617
+#: 2fdab8862ea84285ab38eca38dcdb3bd
+msgid "LoRa数据传输最快可以达到多少呢 ？速率 10米距离左右 可以达到吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:618
+#: 4c98de59474e480f982b32fc4bdac9de
+msgid "每包数据是256字节每秒 ，速率不高的哦。每包数据是256字节每秒 ，速率不高的哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:621
+#: df63f71501cc480e8701227eba87b36b
+msgid "LoRa测试板可以发指令更改频率吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:622
+#: 81385231d4ad4eba8d8c704d54178552
+msgid "不行哈，要修改频率需要通过修改源代码"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:625
+#: d9c441a257da4ce486a86ad29c9beb47
+msgid "Ra-06与Ra-01的信号可以互通吗？比如用Ra-01做为子设备，Ra-06做为网关设备"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:626
+#: c54dbccfa6c04df8ac5ad80f88934b95
+msgid "只要参数设置没问题就可以互通"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:629
+#: 31160f6ac1bc4b3e972b0e08dab9f3c4
+msgid "Ra-01可以和手机透传吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:633
+#: e476d83e8e974b74a2878eed91ee15fc
+msgid "Ra-01 带中继功能么"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:634
+#: 2e373e0927e94f5990f3aeb197b5e980
+msgid "中继功能需要您自己在单片机实现"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:637
+#: 5bb8e5e980b74cf88749bc9a957b137d
+msgid "学校宿舍超表，300个点，需要发送到中点。有推荐的模块方案吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:638
+#: 3c64fc3172e54864b9d691fd7edaf11f
+msgid "推荐LoRa"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:641
+#: 6af58d1e8d6c4fd1a21fbb214ed738ca
+msgid "Ra-01模块能跳频吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:642
+#: fee8380310b74b988b3413089d616604
+msgid "可以跳频"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:645
+#: e22bab1059bd4bb2a0bb44443787bfb7
+msgid "LoRa转接板是直接连上单片机就能用吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:646
+#: dc3ef888c520481c8611083e091b837d
+msgid "可以，通过单片机的SPI协议进行驱动"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:649
+#: 1cc0aa01e1684d08bae2dc428a69a2a1
+msgid "Ra-02型号的模块，可以低功耗运行吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:652
+#: a68e4b30909c4999a0c6f0410c7dff32
+msgid "Ra-01H模块默认是868mhz的吗 ？还是要切换的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:653
+#: bfdff231be5748a9ac5c1c2322febeee
+msgid "软件定义的哈，通过单片机进行设置的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:656
+#: 3b16cb8d7cb244f4b42771c4cb0bc3ac
+msgid "Ra-06不用IPEX座，怎么弄"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:657
+#: d03f17bf29054a788e6ef7b64a433779
+msgid "通过更改电阻"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:660
+#: ec54ad7245ef44b483ea84d3e611456e
+msgid "Ra06一次性能发送多少个字节数据？？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:661
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:905
+#: 3c661ad90f7a4c519bf50946c750859b 5c1428a743e5423c832f2a128407cad4
+msgid "250个"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:664
+#: 5b7c3ebc72414a0d9718694895531dfd
+msgid "Ra-02里面下载固件了吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:665
+#: 19595de1d4c940bfb69b42d550505296
+msgid "Ra-02只是一个射频模组,它需要外接MCU通过SPI协议进行寄存器的操作"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:668
+#: 884d344d10b7409b9add69e01c5f9e86
+msgid "Ra01模块的RESET管脚可以悬空吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:669
+#: 5dd7bad20af14d52a060a37368c830d3
+msgid "不可以悬空，是必须接的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:672
+#: e53821c3feb04fd1acdaec970d4c4fc4
+msgid "Ra-01这个待机状态下，能外部无线电唤醒耗电最小电流能到多少?可以到uA级么"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:673
+#: 0e7679681e5947ac82e6bc392635991b
+msgid "1.5mA左右，uA级是睡眠状态"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:677
+#: 53fbcfc60e304c2ebbcccae0981278f6
+msgid "Ra-07需要外挂mcu？不是带有mcu了吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:678
+#: 483ea555101e40208c36332babc6ccc8
+msgid "自带MCU是LoRa芯片，实际使用还需要外挂MCU"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:681
+#: b212568ced444ac2b59ad65555735753
+msgid "Ra-02发送的话输出是多少w？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:682
+#: 937af781dd4548f68f7ff0f8a1350adf
+msgid "20db"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:685
+#: 6d7ab4609f57494b80ea85188656d684
+msgid "LoRa有arduino例程吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:686
+#: 4aac66f08dfe4384a0a2492d18b08033
+msgid "这边不提供arduino例程哦，您可以自己在网上找找哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:689
+#: 0640a98857ef4372bc3dbd7ddc692194
+msgid "Ra-01能不能组网？是不是链接串口就能发送"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:690
+#: e3e2cb2d5f654b4cab478d7f02dea492
+msgid "不行，Ra-01模块是射频模块，需要MCU驱动"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:693
+#: d94a7b57cde5426baa18d42c6c14a501
+msgid "\"Ra-06这一款是邮票孔还是通孔呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:694
+#: a4793e54ba3a4c1b8f84388d04ae4d37
+msgid "邮票"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:697
+#: de19a580f1e54f7cb7bed992456e78e9
+msgid "Ra02是半双工通信吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:701
+#: 9c6b0430e91f4148a5d6dbb0fc08c6b0
+msgid "Ra-06还需要自己开发吗？还是拿到后配置一下就能使用"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:702
+#: 7f6fb6bcc63047e3b3b900d567ab5945
+msgid ""
+"不需要开发，拿到后配置就能使用。https://blog.csdn.net/Boantong_/article/details/104549973"
+"  具体使用您可以查看这个资料"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:705
+#: c204ce983098494da5b8ac540a3afb45
+msgid "Ra-06能做透传？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:706
+#: af27aaa3b66e4f018fc3ddfac5bbf797
+msgid "不做"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:709
+#: da661ef7e81a4be783047b5fe8c7acc9
+msgid "Ra-02是不是做不了网关的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:710
+#: 9bea6c7d9e764908910bb1b887162f50
+msgid "可以做网关，但需要您自己写相关协议"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:713
+#: 4c07cb025ba14f038cd78ecea02c9af6
+msgid "Ra-06能和其他的1278配套使用吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:714
+#: 74dae860ef164602bc11b37f6f61ba87
+msgid "可以配套使用，但是相关参数需要自行适配"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:717
+#: 171b9b8abb774b0fada778218c9ddcbd
+msgid "Ra-07或Ra-07H可以直接工作在串口模式下吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:718
+#: 32946c6b2f3741138892c0fbea77b0c1
+msgid "可以直接工作在串口模式下"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:721
+#: 97cec478f9de486e9467aac86d24f481
+msgid "Ra-01用这个天线传输距离可以多远？与外置天线效果一样吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:722
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:816
+#: 48309381011a406184431c8b26a9d8bb 6817e9dba9964c9485bd64968e05f619
+msgid "最远可达10公里，但是传输速率慢，要等比较久才会收到信息。在海边等空旷环境下，天线距离地面3.5M，实测10KM"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:725
+#: ae4bdaf1c3ed44c29c1ada494efad0c1
+msgid "Ra-01的模块，请问您知道怎么读取它的寄存器嘛"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:726
+#: 09cce49c86f94863a039d07bdcc5dfb0
+msgid "通过SPI协议"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:729
+#: eeb8ceb4906e4446929ae8b24014e337
+msgid "Ra-07H可以用来做对讲机吗，语音包有带压缩吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:730
+#: d7a1ae99cd0c4c21b828f77d191f8a81
+msgid "可以做对讲机，语音包压缩需自行实现，LoRa只是用来传数据"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:733
+#: b768c667ebd44f9589268e31f670b9d4
+msgid "Ra-02为啥 发射只到18 dbm？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:734
+#: c799f60b5c0a40f7884dc01b72649639
+msgid "18+-2，最大可以到20的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:737
+#: f3697475c3f642d68509b18b96b9e996
+msgid "Ra-01转接板的尺寸有吗、"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:738
+#: 59b69d8af41d4b7ca5407bda5a407de6
+msgid "26mmx26mm"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:741
+#: 7f46530c0fc041d5b92ca8e32e2c7cc8
+msgid "Ra-01S支持组网吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:742
+#: 3768e65140bd45e49cfa893fc7ca6abe
+msgid "支持"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:745
+#: 6c568abbe87145a0a5f922aee51894c3
+msgid "Ra-01S在海面上能传输多远"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:746
+#: c58a70b24c964a188217b46aa14984eb
+msgid "11公里"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:749
+#: 4435a44b8e3a42fd9baa8d2a1008e805
+msgid "Ra02这款模块可以连接网关吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:750
+#: 5a8bf11256a647ea94cd1e1a63223290
+msgid "可以连接， 但是需要您自行在单片机上实现网关协议"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:753
+#: bad6c91137b0478ba3630d222c526f02
+msgid "购买Ra-01转接板的话，直接用杜邦线连接到单片机，可以用吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:754
+#: 03cdc1179c714c6498b5e26a0d1fc0b9
+msgid "可以，但模组必须接单片机;"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:758
+#: 791f84a201fa486a949a9bd01aeb123b
+msgid "Ra-02实际上你们的天线和GND是连在一块的？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:759
+#: 3c26716f417e4c89960533e73070be38
+msgid "一端是跟内部射频引脚，一端是跟GND"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:762
+#: 151b43c307fc4a27a1e29939e943691e
+msgid "LoRawan和LoRa有什么区别"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:763
+#: 27fe0a82c6604fd085a808f9984f6810
+msgid "LoRawan是在LoRa上集成的一个通讯协议"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:766
+#: afeff6c622e64da4bdf2ec1e1bb7fd10
+msgid "LoRa模块，如何实现的组网？比如我买了3个模块，他们互相之间怎么连接？不能双向通信？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:767
+#: 5257a518b85049d68007cbde117eef53
+msgid "两个发送 一个接收。模块是收发模块 ，可以当发送可以当接收，需要通过软件设置"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:770
+#: 764e601251f4499693840aed0a20f5d8
+msgid "Ra-01S供电是要3.3V吗？功率1W就够了吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:774
+#: 015df778b7ef4bb6a0e7d4d21dcd7ff2
+msgid "Ra-07支持阿里云MQTT吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:775
+#: 58aec3d7cc7f4b81816f92784f2c1196
+msgid "可以对接阿里云linkwanhttps://aithinker.blog.csdn.net/article/details/107989571"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:778
+#: c2cd9bf500ad4e699f7e68e97d0d2093
+msgid "有230Mhz的LoRa模块吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:779
+#: 768dca38374f4cfdae7d97c46a9b1751
+msgid "Ra-01H"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:782
+#: 3c98b0451a174df8a271ca3462bd97e9
+msgid "Ra-07模块可以直接用串口软件测试吗？通过串口发送命令测试"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:786
+#: f08b2e6bfd154f3bae646d2b1e750f1a
+msgid "Ra-01是不是有协议？？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:787
+#: 011423c7e6854208a47a623d8ff647bf
+msgid "只是一个射频模组，有SPI协议"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:790
+#: 89a46c03c63f45058dc33a2983fe9f58
+msgid "Ra-01, Ra-01s封装一样吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:791
+#: 2a951ad1f96f451f9922d08e3c9d45b2
+msgid "封装一样的，但是引脚定义不一样"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:794
+#: d2ce87c9a9b04b6c925b39269e697550
+msgid "Ra-07可以跟Ra-02通信吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:795
+#: 0624be5335194df8bad5ed1d7d49c6c9
+msgid "不行哦"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:798
+#: 3708e78d0cb0443591ab887db5494d7a
+msgid "Ra-01s有没有转接板，跟Ra-01是不是兼容"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:799
+#: 6e89720092b74c89a0bb5a87a53e2a6b
+msgid "跟Ra01兼容"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:802
+#: 7146717e078f4f7ca5046b1477712822
+msgid "Ra-01S是透传模块么？请问支持中继么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:804
+#: c7fd6419461745dcaa402a92a2af8a42
+msgid "是的。中继需要您自己再单片机上进行实现，模块只是一个射频模块"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:807
+#: 4bd4c58c4fe64d9192ea087de0fa4d60
+msgid "Ra-01 模块用不了  RG-01 ？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:808
+#: 24c58b3dd93a419b848920b47c1c0700
+msgid "目前Ra-06和RG01进行通讯，Ra01的还在进行适配"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:811
+#: d61ea4547c504961b5f7d5c82c0caf1e
+msgid "Ra-01/02需要两种模块才能完成发送和接收是吧"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:812
+#: 2d3cf2a0c5214b91b4dbdebcf9b7f391
+msgid "模块是收发模块，但是测试需要两个，一个设置成发送，一个设置成接收"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:815
+#: 27f3d5360ef644848d921df076797650
+msgid "Ra-01最远通信多少米？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:819
+#: 6f708a25123d4a198c757bbb5076f501
+msgid "Ra-01是标准的LoRa协议吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:820
+#: 0cfca4c862e5462fa3060cdad5af280b
+msgid "是的，需要使用单片机驱动模组，模块只是一个射频器件"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:823
+#: 4817d0f10e864d628268c0a575327197
+msgid "这个Ra-01S能传多远在树林"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:824
+#: 7037e728c4f54e79b8bbed1c8ac82875
+msgid "5公里"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:827
+#: 54973bcb7f424fb0a9a82dbd2a59def6
+msgid "Ra-01模块可以读取信号强度吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:828
+#: b5118015f338459f951f916f16faa5ce
+msgid "可以的，您可以查看寄存器手册"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:831
+#: 5294a1ab74ec4df2b2619acc093f5227
+msgid "Ra-01s的模组是否能和你们的网关通信？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:832
+#: 7a8081f430c847d296d67f2015aee12c
+msgid "可以和网关通讯，需您自行实现相关通讯协议"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:835
+#: 0715e3fc417342d1b149bb84b17f8c08
+msgid "Ra-01S TXEN和RXEN是什么功能？怎么用的？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:836
+#: 4904bdb2d8c34b6089bbabf939d83b66
+msgid "这个是接到射频电路上的，具体您可以查看规格书中的模块内部原理图"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:839
+#: 7fecf796d2f64b638c6f17b8a56759cc
+msgid "Ra-02的距离多少"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:843
+#: 3e3d498763aa42e3b64e6bb10cc35fe8
+msgid "Ra-01S发射功率可调吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:845
+#: 959254236100424c8465d5c463dc6777
+msgid "可通过操控寄存器进行设置"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:848
+#: 54ea94bb0efc4d919c8210bab47fa86b
+msgid "Ra-01H 有它配套的天線嗎"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:849
+#: 9a21dd3e7d3e4cabbc55fcfd49f3a0c9
+msgid "频段在868 、915频段都可以"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:852
+#: 3659bc79dcc242efbcbefcf8b456f821
+msgid "Ra-01S模块和Ra-01模块，在程序的编写上有区别吗？引脚定义是否一样"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:853
+#: 8809b7169933456097d182e00815a083
+msgid "一样的，区别具体您可以查看我们的示例"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:856
+#: 95378d40576a43b7bcf0403bb126a63c
+msgid "Ra-01S跟之前的Ra-01在封装和程序上是不是都兼容的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:857
+#: 008aba5575ea48b0b52b1890c565a12f
+msgid "兼容"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:860
+#: 0803b6229fda4e2c8ab290a564c24879
+msgid "Ra-01S可以多个发射，一个接收吧"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:864
+#: f939eb6a55df43799d9d2a54e6bdf4dd
+msgid "1268与1278在LoRa模式下能否通信？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:868
+#: 5a2771b379514cd7ac4ab3bf90e5c619
+msgid "LoRa-01模块有中继功能吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:869
+#: ca42e31fd52b455c9e0b44b7183efca8
+msgid "需MCU实现"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:872
+#: 869da1927d4c424a8ba499329f342f27
+msgid "Ra-01没有找到具体功能模式的资料呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:873
+#: c8678ce5c88c4747bc54c05b0a257bec
+#, python-format
+msgid ""
+"您可以查看sx1278中文数据手册，https://docs.ai-"
+"thinker.com/%E5%8E%9F%E5%8E%82%E8%B5%84%E6%96%99"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:876
+#: 77baf437d7c249eba1dd7e671e21a0ef
+msgid "Ra-06支持空中唤醒吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:877
+#: 18e11c052feb49bfb1bae4b16abd6c90
+msgid "它有CAD模式，具体您可以看看指令集"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:880
+#: f6bd02a5a12c4b94851ee0970540b355
+msgid "Ra-01不加弹簧天线的通信距离大概为多少呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:881
+#: 6386aa3288e2496cbdf45c0f2d472aa8
+msgid "接了天线的情况，空旷 2公里没什么问题的。不接天线就几厘米"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:884
+#: 6e9c745350284bbbb0e1da6aa89c52d7
+msgid "Ra-06  CAD模式的话  功耗有多大  唤醒需要多久？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:885
+#: 6b8c740ea85c4b62bb72de60ef5b8b58
+msgid "7uA，唤醒需要1S"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:888
+#: fbaa8bfe4f3f4e3a8708e49f92f2e95d
+msgid "Ra-06模块的硬件资料"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:889
+#: a679c4a189804631a5322464d14bdd9c
+msgid "https://docs.ai-thinker.com/_media/LoRa/hardware/Ra-06_v1.3.zip"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:892
+#: 13cad27b3cee402d8b42cad695c8304a
+msgid "Ra-07和Ra-08有什么主要的区别"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:893
+#: 7bd82ddbff2942bd8b3f449d7a41e0b1
+msgid "Ra-08除了支持jink烧写外还支持串口烧写，方便做二次开发使用"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:896
+#: 1fec96724ef24293af6b8f43b7f5261d
+msgid "LoRa模块可以组网不"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:897
+#: fcd4b349fc7045eba2348134d1a782c9
+msgid "可以组网，但是组网功能相关代码逻辑需要自行实现"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:900
+#: 45c06a46e58f4799a0b75dc0f8aaa56a
+msgid "LoRa模块影响通信速率和距离的两大重点原因是哪些。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:901
+#: 6912c1a3177f48d48f648359d9bd8ea6
+msgid "扩频因子和带宽，扩频因子越大距离越远，但是速率比较慢；带宽越宽速率越快，但是距离较近，两者相反。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:904
+#: 35ef75bc463c4d009dcc5df30fb0b917
+msgid "LoRa模块一次最大可以传输多少个字节"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:908
+#: c2e11dc3926047caaa05a69282679457
+msgid "Ra-08模块能否点对点通信"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:909
+#: 694151d5e5f74713a9d6a0df8df8aff0
+msgid "出厂固件不支持，可以通过二次开发的方式进行实现"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:912
+#: 235805f01b084c0f806e5fc9dc67f288
+msgid "Ra-01的测试板能给Ra-01S使用吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:913
+#: f125518cf1414cc1b8191192d1aec769
+msgid "不能，因为驱动不同"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:916
+#: 64798242a546406da1f723bf47e8cf09
+msgid "Ra-08烧录串口和通讯串口的发送引脚是否共用"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:917
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1214
+#: c94d354c40ce497680bbb12ebf54fc6a f1393e0f9f8e4333ab4d34f9f3e65c4e
+msgid "共用"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:920
+#: ad96ce07f6844db68dc0fca050fb333d
+msgid "Ra-01以及Ra-01S模组的引脚驱动有区别吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:921
+#: ee27b8107d3042c7afe3a4df0577b98c
+msgid "有的，Ra-01模组中断提示引脚为DIO0，而Ra-01S则用DIO1以及busy结合；"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:924
+#: 4c6b4f19754b4cacba91ee8dede004e4
+msgid "Ra08模块出厂固件支持点对点传输吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:925
+#: c1d6e88b5d8b4d5c8a624298c3114345
+msgid "不支持，出厂固件仅支持与LoRawan网关进行通信，如需点对点传输得需要二次开发实现"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:928
+#: dfa9014cead140a995fdea5a286b6ba3
+msgid "Ra-01S模块在使用的时候是否需要接上TXEN RXEN引脚"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:929
+#: 0b868d21b324423e8d3c5c0f3e435914
+msgid "不需要，我们通过软件控制射频收发，不需要硬件控制"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:932
+#: 496f65eb4a8f4fd699b6619dcc82783b
+msgid "Ra-01、02模块支持自定义LoRawan通讯协议吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:933
+#: f43c29110f5a430596e04fb6f025a541
+msgid "支持，可以在MCU上实现LoRawan相关的功能"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:936
+#: 1914307ab9ab4b528071d9e7d1ae6e48
+msgid "Ra-07、08模组能否当LoRawan网关使用"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:937
+#: a9df708d8c3d4960997dd532fbfa7336
+msgid "不能，单模组仅支持LoRawan节点"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:940
+#: 9ce30d3544dc4141ba74497f7534930f
+msgid "Ra-01S和SC上的TXEN、RXEN引脚是做什么用处"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:941
+#: d57c804e03594b35bead3c2cf2b05970
+msgid "这个是射频天线开关引脚，控制射频收发使用"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:944
+#: d8a705f038d0491a8404b73955d36d94
+msgid "Ra-08H支持AS923频段吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:945
+#: 0a5b5b07fdff49568ed456e8eea3fa71
+msgid "支持，需要烧写支持AS923频段的固件"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:948
+#: 4fb397eee1124923a5e063a0f01831b5
+msgid "Ra-07/08LoraWan模组有几个接收通道"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:949
+#: 827567e1751f47c5b794e1b43ee43dd9
+msgid "8个。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:952
+#: 3eb082c8974f4487bb334d9bab16d7db
+msgid "Ra-01S和SC跑官方驱动需要接TXEN,RXEN引脚吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:953
+#: 7774135521784a5ba26b3a4655c26437
+msgid "不需要，接线除了常规的SPI引脚外，只需要接RESET,DIO1,BUSY引脚"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:956
+#: 4ad726c132f445b7bc151771c2fd2afc
+msgid "Ra-08模组能当网关使用吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:957
+#: d3a35a423dcc47a8b4f5c9273c97047d
+msgid "不能，模组只能当节点使用，不能当网关"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:960
+#: 7dea24b5f87d4436989db721b0537f33
+msgid "LoRa的通讯方式是全双工还是半双工"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:961
+#: 12d2b6f8716b41b98925fc9825fe8afe
+msgid "半双工的方式"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:964
+#: 57702702e3f6461db4bbaf3061811d23
+msgid "LoRa模块不配天线有什么影响"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:965
+#: 61bb0b74a60f437e9e50647898a57783
+msgid "模块没有天线会出现距离短 经常丢包的情况"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:968
+#: 8fc44f68abf147eb8c6c841297f73250
+msgid "有带中继功能的LoRa模组么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:969
+#: 38af63b860384e659d1fec9ecbd74003
+msgid "LoRa模组可实现中继功能，但需要客户自行设计该功能"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:972
+#: 51633ef606574a2d9f39672fbc343dc4
+msgid "Ra-08的二次开发的demo编译好的固件烧录地址设置为什么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:973
+#: 81ff3c08103e41e1be23052e8e3604a4
+msgid "烧录地址为0x08000000"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:976
+#: 88996d3762e44a98bb64ada082e63526
+msgid "Ra-08H模组为何无法入网TTN，用的网关是US915网段？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:977
+#: f29e4930503043b282eb1838c5a9ca53
+msgid "查清楚，a、模组是否已经烧录了US915网段的固件；b、查下模组的掩码配置是否与网关一致"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:980
+#: eb524a0cbfc64aeebba0519ec8d76e8e
+msgid "Ra-08模组在上电可看到log信息，但是发送AT指令没有反应是什么原因呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:981
+#: 19aad5f89f154c03854eb940f8aa54c2
+msgid "RX口没有选择LPRXD接口"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:984
+#: fb116690be984780b0fdd834c1840cef
+msgid "Ra-01模组与Ra-02模组的转接板是否兼容的呢"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:985
+#: dd147dea4b2d4292a43904a8e3eebff6
+msgid "转接板兼容Ra-01、Ra-02、Ra-01H、Ra-01S、Ra-01SH以及Ra-01SC模组，单驱动引脚的解析不完全一样"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:988
+#: d6285e90e59746498f148e205b443416
+msgid "Ra-01SH默认不带IPEX座子，补上IPEX座子能插IPEX线使用吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:989
+#: 22f78b0306ab4cf0be96da15be37bc4b
+msgid "补上IPEX座子能插IPEX线"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:992
+#: 8b0d1c426a4445d9a06409a6e36f640d
+msgid "Ra-08模块在设计上需要注意哪些引脚"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:993
+#: 799d660fac6141858f4a6b3420f8b1a7
+msgid "IO2引脚和IO11引脚，IO2为烧录引脚，正常使用需要保持低电平或者悬空，IO11引脚为系统引脚，正常使用必须为高电平或者悬空"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:996
+#: 466d80336b044cf69f6e14c2518623fd
+msgid "Ra-01S中的DIO1不使用中断触发的形式，可以修改代码实现收发模式切换吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:997
+#: bdae06e324314e368fbc9b9388d1fe13
+msgid "可以通过修改代码实现，但是需对寄存器手册比较熟悉"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1000
+#: 41bc4f5d25f34c0f9040306c3750b93a
+msgid "LoRa测试底板能焊接哪些模组，使用上有什么需要注意的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1001
+#: 0ddd4faea50440e7be61d43395c2fb02
+msgid ""
+"测试底板能焊接Ra-01/02/01S/01SC等模组，其中，Ra-01/02在STM32例程上需要接DIO0引脚，Ra-"
+"01S/SC需要接DIO1和BUSY引脚"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1004
+#: 228c712fb43b410c99fe9c79effd3083
+msgid "Ra-08开发板的Class B入网方式，重启的情况下数据无法传输到服务器，显示计数不对，是为何？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1005
+#: fcef018906244d37a1f0cb661231d0b5
+msgid "Class B入网方式不需要做入网动作，因此重启的情况下，计数将重置为0，而服务器的计数值不变，因此，一旦计数值对不上，服务器将丢弃该数据。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1008
+#: 3fdb7ee8c147407288a9e6824a40a1ea
+msgid "Ra-02模组的ipex接口是什么规格的？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1009
+#: da36ceb07dcb490d85d4f6127fd18adc
+msgid "我司所有带IPEX底座的模组均是搭配的IPEX 1代底座。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1012
+#: 60759e2f58a94caf837f110f6aae4cfd
+msgid "Ra-02模组我不小心用螺丝刀碰一下就没信号了，但是如果MCU重启又有信号了，是什么原因呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1013
+#: 2ed15d1434674c72be1971b5703e4db2
+msgid "天线短路了，需分离之后重置射频发射或者接收功能。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1016
+#: 4055d8b106d24508a57ece1675a56fd1
+msgid "Ra-08中的SPI引脚是否就是规格书中标注的SSP引脚？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1017
+#: c3391bf9a36e4fedb4ead6b5327859bc
+msgid "是的。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1020
+#: 8c61a76f60744f11bb99b244068eb6a7
+msgid "Ra-01模块内置的SX1278芯片，在初始化配置时PA输出引脚应当设置为RFO还是PA_BOOST"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1021
+#: efbf59f4a2fd48759148a87bd2e8001e
+msgid "设置PA_BOOST"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1024
+#: 9a05ef9d0508484c929d44cd003b1380
+msgid "Ra-01S模块内部芯片外部有没有加PA放大器"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1025
+#: 647e329caa834bfeaff238752761e445
+msgid "没有添加放大器"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1028
+#: 012302d8880f42b08bc95b4a10736d36
+msgid "LoRa模块能否用在水表上"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1032
+#: 792c4004e884452dbd7f38b770904c52
+msgid "有没有不限包长度的lora模组"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1033
+#: 8afad46c18724c3ab9a938dd0915afec
+msgid "目前lora模块最大包长度为250个字节，没有不限包长度的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1036
+#: 1d966c8b7ce24e79853616722c606797
+msgid "请问Ra-08模组支持设置扩频因子么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1037
+#: 55c5aa00a9bd43f0a239b5431d2ffb97
+msgid "支持通过AT指令设置扩频因子，在设置之前实现关闭ADR功能；"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1040
+#: 3ff42073daf3431b9d2d9f8dcde3485f
+msgid "Ra-08模块能否当网关使用"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1041
+#: 0a9ee92fc81e473e92ba34f8e4807409
+msgid "不能，只能当节点"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1044
+#: 8199a8c2adf4465a9a075dd9d652fee1
+msgid "RG-02支持连接helium平台吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1048
+#: 1f0f7574cefc4f3fadab2f94fd40ddc2
+msgid "LoRa模块的信号能穿透铁皮盒子吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1049
+#: 5b99a99121f14f03bc14a5d17094d43e
+msgid "不能穿透，信号会被铁皮盒子吸收"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1052
+#: 0c848206e4ec49ee821c89dfb9333f8f
+msgid "Ra-01SC模块如果不使用IPEX座子，可以直接焊接天线引脚引天线出来吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1053
+#: 19009939146d47af83bd01ee8086617c
+msgid "可以焊接，因为座子和天线引脚是导通的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1056
+#: b8830b42eead4b5fb83d2be5d774ca99
+msgid "有对讲机的模块吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1057
+#: 229910f4ecca45558ee87d733d70fe39
+msgid "可以推荐使用2.4G或者lora模块"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1060
+#: cf7f35773492451db6ee200246724fb8
+msgid "Lora模块同频情况下如何防止相互干扰"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1061
+#: 9733a985324f4eee90b68bfb159bd34a
+msgid "同频会产生干扰，需要自己做协议筛选信息"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1064
+#: b6c80cd89c3e40c6a66108706612d03d
+msgid "Ra-08模组与RG-02网关在470M频段通信需要注意什么"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1065
+#: bd088269ee304162aed16cdefdaefd00
+msgid "CRXP指令参数设置505300000，频点掩码需要设置0400"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1068
+#: b0a483291d8547c9b388d747a78319d2
+msgid "Ra-08模组如果不需要dataDown数据上传该如何做"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1069
+#: 2ddac652ed6147629c9dd7f8440e4913
+msgid "AT+DTRX指令上需要将confirm禁掉"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1072
+#: 5839ad10e96b484fa8021fbaa6efeb65
+msgid "请问一下我用STM32驱动Ra-01模组的时候，debug的情况下可以正常启动模组读取数据，可是直接运行起来又出问题，是什么原因呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1073
+#: f188ff65521847489a2a5bea33f5c175
+msgid "debug模式下，为单步运行，时序可控，因此要检查程序中指令与指令之间是否有时隙。排查指令发送之间冲突原因。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1076
+#: cd0f94384aa2438ab86b90338c91f5b1
+msgid "请问一下，RG-02网关可以通过4G与私有服务器通过MQTT通讯么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1077
+#: c75a43865cd0484ca63a0617e061b51d
+msgid ""
+"可以的，请参考说明文档。 "
+"https://blog.csdn.net/Boantong_/article/details/126717812?spm=1001.2014.3001.5501"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1081
+#: 3128629aa1ba4d6b9ba8410cb9b221a1
+msgid "请问一下Ra-01S模组的晶振有温度补偿功能么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1082
+#: 6064fce1e95f44debbd1e4a998867146
+msgid "该模组用的普通晶振，没有温度补偿功能；"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1085
+#: 075b63dfb3354a528c86a4509d5b7b1e
+msgid "请问一下1276芯片不是全频段的么，为何Ra-01H模组频段为800多到900多兆？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1086
+#: 7d133bb42a9f4a7b843edf37a873c0b1
+msgid "模组中的射频电路专门做了射频区间的，该芯片也可以设置其他频率，但是信号会很差；"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1089
+#: cda593000f664b878f014035e55bc857
+msgid "请问Ra-01模组分主从的吗？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1090
+#: 5357a6d704a04092891175d497fab47d
+#, python-format
+msgid ""
+"该模组为纯射频模块，仅实现数据透传，需MCU驱动，主从功能是应用层面的，需用户开发实现；我们提供驱动demo，请查看链接：https://docs"
+".ai-thinker.com/%E5%BC%80%E5%8F%91%E8%B5%84%E6%96%99"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1093
+#: fe3bcd0831b34605a16b7f93866fd52c
+msgid "请问Ra-08H模组设置工作频点为923MHz可以么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1097
+#: 2c218e6dc1984a409379a8e336eaacce
+msgid "请问Ra-08-Kit有EU433固件么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1098
+#: 7f0e632a07464e6cb7f01298dae1bde2
+msgid "当前没有该固件"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1101
+#: 81a3d625a3d341caa0e8ad764a98a3ae
+msgid "RA-01模块能用在打窝船主板上吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1102
+#: 3075647e06ce4bf2abe2d7b051b5b67a
+msgid "可以使用"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1105
+#: 43098b475ee549dea547833fd9e2c9d6
+msgid "Lora模块在CAD模式中，SF及BW的参数正常设置多少比较合适"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1106
+#: 43f1dd72094a45d5a0a194c2eb8366e6
+msgid "根据测试环境进行调整，以实测为准"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1109
+#: 58a8eeeaae0e4c528cb748ff628300b6
+msgid "Lora接收模式空闲状态和接收超时的区别是什么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1110
+#: 962aac261ab54e8f869edd4715b46b96
+msgid "空闲状态指的是模块没有接收到发送方的数据，接收超时指的是模块在指定时间内没有接收到发送方的数据"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1113
+#: 7f41a4ecc12944b1bf930abac5ea6541
+msgid "Ra-01SC可以用在arduino和ESP32上吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1114
+#: 6c5e2c68e9a047cf9f9581d887c7a91d
+msgid "模组可以使用，有对应的arduino示例"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1117
+#: 4a39d7ea67ae4431b343149f9feb7bb5
+msgid "Ra-08支持片上开发吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1118
+#: ad831f79d82c4430833d33a58c78e792
+msgid "模组支持开发，有对应的SDK和教程"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1121
+#: e2454370d71c4e1282951eab49c301df
+msgid "Lora测试板可以连接电脑吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1122
+#: 51ec9977bb8c48169f2dfbb9371c703a
+msgid "可以，不过需要配合串口板去连接"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1125
+#: a096a4599e314976abb8dc541832078a
+msgid "Ra-08可以用pathy吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1126
+#: 5f03ad6d79be4699a868dfd6ef38a7ed
+msgid "不可以使用"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1129
+#: dccc04a2735e45889bb239f65e092e2a
+msgid "有没有支持测距的lora模块"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1130
+#: 25283138ac4c40b6bf3627ea5afbea0e
+msgid "目前没有，如需测距可以选择UWB模块"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1133
+#: 4a8e078eb0eb42809cd795ac77c15a02
+msgid "Lora模块可以支持MQTT吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1134
+#: a50b95e99c284588a3d8e096fc8846dd
+msgid "不可以，如需使用MQTT必须要接一个WIFI模块实现"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1137
+#: 9fd95f4e87e84865bd749c74e915e6f6
+msgid "请问433M天线跟470M天线用起来一样的么？对信号是否有影响，目前用的470M频段，买433M的天线"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1138
+#: d69ec4aa8df84368ab353cbb9b19b505
+msgid "可以用的，信号影响不大"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1141
+#: 8805b08cb4b74385bc1fe48dac6e4e3d
+msgid "请问是否有发射功率大于22db的lora模块？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1142
+#: 7075724c2b3b4ab78e60ddf9ef8850ba
+msgid "没有"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1145
+#: 94c3f9ed937e4712af1e51cffd5b269a
+msgid "请问RG-02网关最多支持连接多少个设备？多了会有什么后果？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1146
+#: defc9781c5c046a4acab33905a8fa5c2
+msgid "200个，多了会丢包严重"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1150
+#: 95154b0ff2654bab8248160d93c78313
+msgid "请问LoRa模块可以用51单片机驱动么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1151
+#: 4e313f17c77e41c5b6ea34bde080e49a
+#, python-format
+msgid ""
+"Ra-01模组有51单片机的驱动程序；获取链接：https://docs.ai-"
+"thinker.com/%E5%BC%80%E5%8F%91%E8%B5%84%E6%96%99"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1156
+#: 0a870e4ea53b477bad1ee640de60888c
+msgid "RA08开发板使用需要配置外部晶振电路吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1157
+#: 44f841f8f2bc41c59ee8cc2ba3bd0d50
+msgid "不需要配置，直接插上USB口即可使用"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1160
+#: b17eb5a37c6042da857835002bb37247
+msgid "RA01S可以和RA02通信吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1161
+#: a632b040dbc9470f8eb27e6090f97349
+msgid "可以 只要lora参数相同即可相互通信"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1164
+#: e9937abee69f4e80993c2c346be155fa
+msgid "lora的模块支持串口透传使用有哪些模组推荐"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1165
+#: f58de213c6a74a78b178501b90c1f3cb
+msgid "可以使用RA-08模组，支持串口透传和lorawan通讯协议"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1168
+#: 32964fb1860647fe80c1143bf9087781
+msgid "RA-01SC模组适配的收发器模块是哪一款"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1169
+#: 2c37c53d50b04560a5f509a6f2b3ac03
+msgid "RA01,02,01S模组都支持适配"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1172
+#: ecebe697274e4d1f928deaf624ffeb63
+msgid "lora模块通过什么方式与ESP模块进行连接"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1173
+#: d92b8ba66725401ca3536e472a5ce96a
+msgid "通过SPI的方式"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1176
+#: 402f842561fc4521b1f3d943e8bfc325
+msgid "RG-02网关通过什么方式连接到云平台"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1177
+#: 8935cdebbd92449d91efd87d1f67361d
+msgid "通过MQTT的方式"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1180
+#: 57dffee2e1cc4be8a8b706c84c5be179
+msgid "RA-08开发板可以用windows上的keil软件进行开发吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1181
+#: b21fa82a77634543b55ff359e2dc24d1
+msgid "可以使用keil软件进行开发"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1184
+#: 6977c06ae50b424080920617787fbced
+msgid "请问Ra-01是否满足工信部的微功率短距离无线电发射设备目录和技术要求相关规定？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1185
+#: 489e21f0492b4006a4e34bcbd2ebe468
+msgid "不满足，功率太大。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1188
+#: e7ee2eb9688642c58ea40528ac8b610e
+msgid "请问Ra-01SC是否有设置地址的寄存器？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1189
+#: c3b05c466c694f399ad993dcda6172c5
+msgid "没有。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1192
+#: c8249a3fc120456883da761b5873d264
+msgid "请问频段923-2，支持Class B的节点与网关选哪？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1193
+#: 1b91a805f9df4ac2a6623a279bf7ce41
+msgid "支持该功能的节点选择Ra-08H，需联系安信可工作人员获取固件，我司没有支持Class B的网关。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1196
+#: bfb9cc0c2b6b454b8c949cf8f14b99ad
+msgid "请问：RG-02网关是否支持sim 4G卡？是否插上去就可以直接用了？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1197
+#: 9010713981aa4a7698465e22ceebc4c8
+msgid ""
+"支持，需要配置，详情见介绍的博文： `参考链接  "
+"<https://aithinker.blog.csdn.net/article/details/126717812>`__"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1201
+#: 4c088e753a6c42bd918c16ae2c6a0ace
+msgid "请问：lora模组是半双工还是全双工的？整机功率多大？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1202
+#: 99f40f314f55426487e0dd4c2c7bf2b7
+msgid "是半双工的，sx127x系列模组最大功率为20db，sx126x是22 db。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1205
+#: 435741652bb4425ebd35f6d76bbfb957
+msgid "如果需要实现8层楼之间的通讯，推荐使用哪款模组"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1206
+#: 1547de058e514d6091b2f318ba0c2f0b
+msgid "推荐使用Lora系列"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1209
+#: e740cd8d43c74b6080a819a40e761e09
+msgid "Ra-01SC封装做了引线到天线，现在使用IPEX版本，原来的封装会因为天线引出影响IPEX的效果吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1210
+#: 2fd6b6736f0643c4964aaecd19c43471
+msgid "会影响，建议去掉引线"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1213
+#: c040edf557aa4a6d99c9f29c0ba04632
+msgid "RA08烧录串口和通讯串口的发送引脚是否共用"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1217
+#: d357d92ff3b44776a78a9ed5e8895a3f
+msgid "Ra-01模组天线馈线可否直接焊接在天线接口端子上"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1218
+#: c689966aab3c4c06975a81443f528ce2
+msgid "可以直接焊接"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1221
+#: 2dce55ef3b8843ecad67bf1ad21094e0
+msgid "请问Ra-01模组能接入ESP32么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1222
+#: f836c57fd569421897c372c7863ff4e3
+msgid "不可以；"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1225
+#: af62a5ec1e674b09ace3bd34ba4f6fe5
+msgid "有没有功率放大的lora模组"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1226
+#: cd41fddd13764927847f086b6344b5f8
+msgid "没有，lora模组最大发射功率为22db，通过软件进行设置"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1229
+#: fa57a6c1d90248cfb06a644b896b0eec
+msgid "Ra-08模组可以做点对点，点对多点的功能吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1230
+#: ee3598b20b384253b85be425199d270e
+msgid "可以，需要更新专门的透传固件"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1233
+#: fb22dd4967344756bcec853651b05a73
+msgid "Ra-01SC模组是否支持空中唤醒"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1234
+#: dfd14c1762974ddb94ec6b869588914c
+msgid "模组支持空中唤醒功能，具体实现方式可以参考CAD模式相关介绍"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1237
+#: da69c68fcd07431b9648d8364c264f34
+msgid "Ra-01SC上有3个GND引脚，使用的时候全都要接还是只接一个就行"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1238
+#: 0ab5764c2fbd48338e44b675617831e7
+msgid "使用的时候只需要接一个GND即可"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1241
+#: b5b5235631ee4a389a9cc00f12316bcc
+msgid "Ra-01SC是收发一体吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1242
+#: e76a1e3260da4359a7696d68df74788e
+msgid "是的，模组既可以当发送也可以当接收"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1245
+#: 56e5f1b670b84495bae4a900880df7dc
+msgid "Ra-08模组二次开发有windows的编译环境吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1246
+#: 7924c4899faa4cd4a804ad54677e8167
+msgid "可以通过SDK的keil脚本生成keil工程进行编译"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1249
+#: 22b90ce5d7a547a0aa043436c5589939
+msgid "Ra-08模块可以跑loramac-node吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1250
+#: e3586f40b09e41d88c69799d977bd6e6
+msgid "可以，通过GCC工具链进行编译烧写使用"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1253
+#: 351e08cb70944e59a0d07547adb03560
+msgid "Ra-08H默认出厂固件使用的是哪一个频段，是否支持AS923"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1254
+#: de3fb02d5d2d497aacb5106cd0c93c37
+msgid "默认出厂使用的频段为EU868,如果需要使用AS923频段，可以联系我们获取对应的固件进行更新"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1257
+#: dc52a8c924324a26b33aad0ebffca969
+msgid "Ra-08和Ra-08H可以通信吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1258
+#: bfd89973b9a3428993579f96acb4de57
+msgid "不可以。这两款模组使用的频段不一样，无法进行通信"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1261
+#: 6b9e423a0b594e6c9e33b225a2aec756
+msgid "请问Ra-08模组能实现收发透传么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1262
+#: c208750a05cf4dfc8f025aa3da5c0425
+msgid "可以，烧录透传固件即可；"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1265
+#: 3f7b832d2ac7489cb68d3fd325e1074b
+msgid "请问Ra-01是否有RXEN以及TXEN两个引脚？若是要切换发送接收要如何切换"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1266
+#: a9a64bb35dd64a64b473c5b99ed83fab
+msgid "这两个引脚内部已经做好了控制电路，未引出；收发模式切换通过配置寄存器的方式实现即可；"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1269
+#: 5a16e157aaa04b2ba78a52257cf829ba
+msgid "请问Ra-08的IO口数量较少，请问后期有扩展IO口数量的计划么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1270
+#: 48def821f2024673ae62c87e9f9eaf71
+msgid "目前没有；"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1273
+#: c82ff6c5bd0349b28f5eeb0cf867a431
+msgid "请问Ra-08模组是否支持I2C实现AT交互功能？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1274
+#: 2a59707db17649199ad4b10e94230c46
+msgid "该功能可实现，但是要用户自行实现；"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1277
+#: 4dbb8b0eda7e40f29bacc4d0fd394b92
+msgid "请问Ra-08/08H是否同时支持ClassA与ClassB？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1278
+#: b1953c858ee8499a80b82e5be226f34f
+msgid "支持；"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1281
+#: a7acf7de72a84af29dbcc7bc945e1e74
+msgid "请问Ra-08模组为何LP串口只有接收没有发送呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1282
+#: f4e3b9e395da412485c8a8c07863238d
+msgid "有的接收端口是UART0_RX；"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1285
+#: 14a33b875af44e909dffbb2e891e056d
+msgid "请问Ra-01可以通过MCU驱动实现lorawan通讯么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1286
+#: cfaeae337c444567a808616bf7646005
+msgid "支持，MCU中做好lorawan协议栈即可实现；"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1289
+#: 18ee1ab2bcc04766a1ed1fa282916daf
+msgid "RA-01模组可以读取rssi的值吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1290
+#: 5b3215640c304a0ab2141957aae11aa1
+msgid "可以读取，通过SPI读写RSSI对应的寄存器值"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1293
+#: 9b461c66b2464529a965698353467085
+msgid "RA-08透传固件发一条数据的时间比较长，可以改善吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1294
+#: 38e5413f5b494bec9154c2c8851ac3fa
+msgid "不可以，这个时间受lora调制方式限制的"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1297
+#: 09b6a96a28854525bf1da55f4d345f25
+msgid "如何增加lora的传输距离"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1298
+#: fcdfa4ae854d448d9088c8085a0ae50e
+msgid "调整Lora相关的参数值和选择增益好的lora天线"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1301
+#: d3e6b3e7093e4c0f83361eff8c6219bf
+msgid "RA-08H支持US915频段吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1302
+#: 777b1291f360428a9fde817992cc735f
+msgid "支持，不过需要烧写对应的US915频段的lorawan固件"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1305
+#: 1e20ea60558e4c9a8c978340b1ea409a
+msgid "RG-02网关工作温度是多少"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1306
+#: f2effafeab2e46d4a6363e19648f8b19
+msgid "-20-70摄氏度"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1309
+#: ad29bba20a9545dbbe2e2f5d23a5ec85
+msgid "Ra-01SC天线孔可以焊接在电路板上面吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1310
+#: 577952694c7842b0a7ad3e9247282b01
+msgid "可以焊接，不过在天线设计的时候需要做好50欧姆的阻抗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1313
+#: 1cf51055b9454acfab16cc4e566e46b8
+msgid "Lora可以定点发送数据吗"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1314
+#: f819a62d092046c7a6cd73911d034ffd
+msgid "不可以，模组不支持该功能"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1317
+#: e5d08c8385144cc49c3a083108b63bc3
+msgid "请问Ra-08入网LoRaWAN平台是否支持数据透传？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1318
+#: e3d831df500249a8ba9a10f9a7e64450
+msgid "不支持，仅支持指定数据长度传输数据。透传功能需自行开发。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1321
+#: 44c36af765b644e69645cf4734fbdd02
+msgid "请问Ra-08模组支持监听串口数据，收到数据直接发送到LoRaWAN平台么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1322
+#: 9893baca060240daaca523d5a177d556
+msgid "该功能需要用户自行开发设计实现。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1325
+#: 6578e01c9c72460eb5460dd85ab21b84
+msgid "问请问Ra-02模组410M~535M不同相邻信道间隔至少多大不会互相干扰？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1326
+#: dad416a4700a41f08fe7879c98393c58
+msgid "至少配置的带宽的两倍。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1329
+#: aa20b8ddf1a74cb7a232c2f637b159d6
+msgid "请问LoRa模组是否可以实现对讲机功能？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1330
+#: f4941a41581b465781167dba1efe8d57
+msgid "不可以，数据量太大，实时性太高。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1333
+#: 6618d21c0c5a4bb3a0226b7133c3487b
+msgid "请问为何Ra-08模组烧录了CN470之后，三元组均是00？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1334
+#: 8e907cb306a649da807b8832424fb3ec
+msgid "入网三元组需要到服务器上面申请，并通过AT指令的方式写入模组内部。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1337
+#: 011a83aa9ec543be8cc9e754bccb532f
+msgid "请问Ra-02模组支持lora mesh组网么？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1338
+#: 7b929138ee414bd5bd72c07123587834
+msgid "支持，mesh组网属于应用层部分内容，要用户在MCU开发实现"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1341
+#: 494a10138742483db31d03a7f93ad274
+msgid "请问为何Ra-01SC驱动的时候，写数据到寄存器之后，读出来的数据始终是0xFF？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1342
+#: a4fdcbd7f31a4a47ac53fcc527153f08
+msgid "SPI驱动有问题，需要排查一下；强烈推荐用硬件SPI驱动lora模组。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1345
+#: c9a980aa1df54f4195e1f599570d728b
+msgid "请问Ra-01CS模组的STM32F103C8T6工程是否编译下载好固件即可实现串口收发测试呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1346
+#: eb9f7464d41b4c3db4de1ef059ea3804
+msgid "需要用户手动配置发送或接收模式。"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1349
+#: ed6e12758f5d40cf882dc060b54d5214
+msgid "请问Ra-08模组是否只能用lorawan相关功能呢？"
+msgstr ""
+
+#: ../../source/docs/software-framework/LoRa-LoRaWan/index.rst:1350
+#: 2933343078e342fbb031b581cb8e4072
+msgid ""
+"Ra-08支持二次开发，用户可根据自身需求做开发，收发等驱动都是做好了的。二次开发源码： `获取链接  <https://github.com"
+"/Ai-Thinker-Open/Ai-Thinker-LoRaWAN-Ra-08.git>`__"
+msgstr ""
+

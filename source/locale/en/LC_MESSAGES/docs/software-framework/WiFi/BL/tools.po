@@ -1,0 +1,246 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:2
+#: e355485f2aff4bf2b452d56e13bbb464
+msgid "工具说明"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:18
+#: 1cccdc8330b64f009fffa4e431036ae0
+msgid "Dev Cube工具"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:21
+#: db28894324f14551afd476b6826b86a9
+msgid "MCU和IOT这两个界面有什么不同的功能？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:22
+#: c9fe0954dc73490485b5b4f25365a7c9
+msgid "MCU界面适用于MCU类芯片，搭配MCU SDK一起使用 IOT界面适用于带无线功能的芯片，搭配IOT SDK一起使用"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:26
+#: bb6a7658bf714295bfdec5fc43fc7426
+msgid "烧写时，可以自动选择flash嘛？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:27
+#: 720234ab59b044d9842efbed2f5dd95a
+msgid ""
+"烧写时，工具自动选择Flash，Flash选择优先级： 内封Flash Swap Pin > 内封FLash > 外置Flash GPIO "
+"17-22 > 外置Flash GPIO 0-2&20-22。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:31
+#: 6f3835d0342a4e78b886af329ae0ed73
+msgid "波特率最大可以达到多少？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:32
+#: 81b334afa8de4b0fb43708a9ec4110bb
+msgid "工具使用UART烧写时，建议的最大波特率可以达到2000000。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:36
+#: 3cf7d9a75732461795d8733e60f2065d
+msgid "工具烧写1MB的文件，需要多久时间？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:37
+#: 10769a2611264cfc89b55c15f659b544
+msgid ""
+"工具选择UART下载，波特率2000000时，向Winbond Flash烧写1MB文件耗时11秒左右。 "
+"该时间仅供参考，会因为Flash型号的不同有小幅变化。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:41
+#: 6d8c8ce9edfa448aa7ae8c072e2eab82
+msgid "下载失败的原因有哪些？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:42
+#: 9d76d0af61ff4507992f18dc9a18a9bd
+msgid "芯片没有从UART启动，导致工具和芯片握手失败"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:44
+#: fde51f8256d34642b590dd10f14f17d8
+msgid "工具界面选择不合理，晶振选错等"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:46
+#: a826e6bcc498407db29fe0716368c305
+msgid "烧写文件大小超过Flash可用容量"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:48
+#: b8b667dc0a3d4737aab8de6e58f5d599
+msgid "使用外置Flash时，Flash有虚焊"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:50
+#: 9f2c6aacae4f4449aff6907d995cbd63
+msgid "使用了工具暂不支持的Flash型号"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:52
+#: 994b69b2db104d5c9bab04b9a2d54598
+msgid "Flash被写保护"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:54
+#: 73337ac7ce9a46a3a8dca60801c8dd5b
+msgid "工具默认使用4线模式烧写Flash，有个别型号Flash最多只支持2线模式，这种情况需要做特殊配置才能正常烧写"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:56
+#: f8ea73d5c18449d1be83bbfae0c5125f
+msgid "工具log界面提示“Verify fail”，需要确认硬件板子设计是否能支持高波特率下载"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:60
+#: c7cb3ed055ba494ea5ff0dd83a0e5f58
+msgid "使用说明"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:61
+#: 1d99b17ed7b44a6a9e4497bc1179da8e
+msgid "具体可参考《BLDevCube用户使用手册》。路径为：docs/BLDevCube用户使用手册.pdf。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:64
+#: 8c38311895b74a959de3f28cf5e2a7f9
+msgid "文件烧录进去后无反应，怎么排查问题？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:65
+#: dfbc791eebfc47389a47606c6e1861e9
+msgid ""
+"在Dev Cube的IOT界面上是否勾选Partition "
+"Table(需要勾选)，是否选择了正确的分区表文件(文件名不带boot2_iap，并与实际Flash大小匹配)；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:67
+#: 17cfe17010db46ffafcf0e663ad5db11
+msgid "在Dev Cube的IOT界面上是否勾选Boot2 Bin(bl602需要勾选，bl702不需要勾选)；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:69
+#: eb30335611604329852879f16325d1c0
+msgid "接上串口板，烧写其它能正常工作的bin文件(带有UART打印)，排除硬件问题；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:71
+#: 31e81fa6983b4f60ac4b418f9f279481
+msgid "是否修改了主函数名(bl602主函数为bfl_main，bl702主函数为bl702_main)；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:73
+#: 87df8d07172e432c97b85452a287fdd0
+msgid "用FreedomStudio调试，是否能运行到主函数，不能的话，检查是否修改了portASM.S或flash.ld；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:75
+#: 7004b289f7494904b684cd131443a940
+msgid "是否修改了UART初始化代码，是否将UART_TX引脚配置成了其它功能或配置成了高阻，UART时钟是否被禁掉；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:77
+#: d0f4cf0a6e5a4be2ba11e305eef49cd3
+msgid "是否修改了printf函数或使用了其它打印函数；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:79
+#: dcd230d715da4842bd9a3be88cae0a6a
+msgid "是否修改了系统时钟；"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:83
+#: 4e55a9c1f66a4f0993cf353b59276a71
+msgid "Ai-WB2系列模组烧写是否需要接IO8引脚"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:84
+#: 053990b1e17f481c9b32acf687d45d28
+msgid "不需要，只需要接四根线，点击烧录软件的下载按钮后给模块硬件复位即可下载"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:89
+#: deeecd914dd849cf8d46bb464ffeb11b
+msgid "工厂批量烧写工具"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:92
+#: 67155a16b69c46e28844f3cb22080948
+msgid "批量烧写工具支持哪些烧写模式?"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:93
+#: d5cc651c459442ff9da3ce4dcdc12d8d
+msgid "单文件模式： 工具界面指定烧写文件和指定烧写地址，工具会将指定文件烧写到Flash指定地址上"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:95
+#: 389ab253af5044f2976545c673639804
+msgid "开发模式： 可以在配置文件中指定多个烧写文件和对应的烧写地址，工具会一次性烧写多个文件到Flash对应的烧写地址上"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:97
+#: dc6620a7451541929d1690d1cd7a23a4
+msgid "动态模式： 支持动态生成烧写文件，适用于一机一码等烧写文件需要动态改变的场景，动态文件生成功能需要按具体需求定制"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:101
+#: e697e5e0a34a4b2089b62079df237fdb
+msgid "批量烧写工具对于芯片上电时序有什么样的要求？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:102
+#: 28974fd6e7bf4a3ab9e7d9af0b4b17be
+msgid ""
+"批量烧写工具在做烧写任务前，需要让芯片从UART启动。 建议使用博流烧写板控制芯片的上电时序，确保批量生产时，烧写的稳定性。 "
+"博流烧写板和烧写工具之前会有一套软硬件之间协同控制芯片上电时序的流程。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:107
+#: 82b388fc87374c31be7fddd72df2587a
+msgid "使用说明？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:108
+#: 73a70a4c46cd4134a3de14d6ce68a650
+msgid "具体可参考《BL批量烧写工具使用手册》。"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:111
+#: b48e6d876ada4b029b018be3812bda2b
+msgid "请问WB2模组是否买了TTL模块就可以实现供电以及烧录功能？"
+msgstr ""
+
+#: ../../source/docs/software-framework/WiFi/BL/tools.rst:112
+#: 45d71d52e2eb4472b1ff06973aa533b6
+msgid ""
+"是的，TTL `购买链接  "
+"<https://item.taobao.com/item.htm?spm=a1z10.3-c-s.w4002-24271435830.9.45c84853LqwXqs&id=565546260974>`__"
+msgstr ""
+

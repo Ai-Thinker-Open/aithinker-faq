@@ -10,6 +10,8 @@ if "%SPHINXBUILD%" == "" (
 set SOURCEDIR=source
 set BUILDDIR=build
 
+REM 中英文翻译：提取模板用 "make.bat gettext"，翻译更新与双语言构建请运行 build_i18n.ps1
+
 if "%1" == "" goto help
 
 %SPHINXBUILD% >NUL 2>NUL

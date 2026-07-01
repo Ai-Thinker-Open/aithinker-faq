@@ -1,0 +1,602 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, 安信可科技
+# This file is distributed under the same license as the 安信可科技 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 安信可科技 \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.16.0\n"
+
+#: ../../source/docs/taobao/BW16/index.rst:2 9760753219d54d2e84395d76b1353200
+msgid "RTL87XX系列"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:5 ea40368cd9174e7db1cbe918f28ce710
+msgid "1.1 BW16最新版Combo-AT固件(固件号2179)"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:7 2eb76f70815d479fba09144ee80b3f22
+msgid "当前版本为V4.18_P5.6.4，以下是针对上个版本固件号1879，版本号v4.9.2 更新内容。"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:9 db6b5ec4926c4bdab6804aecf73dd243
+msgid "**说明：**"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:14 52746d41eee8460696d78568326ce0a0
+msgid "版本号"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:15 dc4c28d2c6b04da0ae0ebe83f8073ad2
+msgid "更新内容"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:16 cec45a447fc740ef9961c79300c16e9b
+msgid "V4.18_P5.6.4"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:17 9c535a41526e4ddd9cea0c83a63ab41b
+msgid "1.添加 AI_HalWifiOn() 接口"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:19 808a70e9aa8748939f403fe76eaacbc0
+msgid "2.适配 AI_HalWifiOn() 接口，修复wifi关闭后无法重连问题"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:20 c54f6a987a264047b163aa2dd903dbd3
+msgid "V4.18_P5.6.3"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:21 293b60031a964ad0bc630f168938a937
+msgid "1.flash 保存兼容配置保存和普通保存"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:22 a817275da3944887bc314d4d3e5d5f9e
+msgid "V4.18_P5.6.2"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:23 5e0d88188f4e4cd38ede45b0e6039b7d
+msgid "1.更新 AI_ComboSDK V4.18_P2.29.1,优化 flash 存储，减少 flash 擦写次数"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:25 2dad03e462774111a931637b85e2272d
+msgid "2 .修复 flash 保存报错"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:26 dd1bd0d5ba1a42f787492aef8bf54248
+msgid "V4.18_P5.6.1"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:27 f1f5f1796e274267af8b873758c549f6
+msgid "1.修改 flash 保存，改为 config 专用保存方式，避免写入时断电导致的异常"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:28 db313a57828c485a991018100eab56ba
+msgid "V4.18_P5.6.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:29 1fdcf72c7d664a69be6970197ae200e5
+msgid "1.更新 AI_ComboSDK V4.18_P2.29.0,MQTT 添加无证书校验的 SSL 连接"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:30 c83b5e90129b460ab8a0e36aa0fda5a4
+msgid "V4.18_P5.5.1"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:31 b2f5304f8803464e81a1154174188a25
+msgid "1.修复malloc失败卡死问题(关闭了malloc失败的回调函数)"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:33 b716e4dcfb614b479c0ca8724d075c7c
+msgid "2.修复编译错误"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:34 e09024d213484951a68dd0c0a9c74a71
+msgid "V4.18_P5.5.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:35
+#: ../../source/docs/taobao/BW16/index.rst:46
+#: ../../source/docs/taobao/BW16/index.rst:83 366a416b2ab84bc39a8da6d71b24e884
+#: 759465bee195423e8a2043568d5ad59c b27aa8e9b1344134a080b2f62318419d
+msgid "1.更新 AI_ComboSDK"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:36 133a027d85d84dec9b00b42514924d22
+msgid "V4.18_P2.28.2"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:37 c0d86b1aa0304de2be31a6a5999b6545
+msgid "1.消告警"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:38 98b55417c2184fa9867866c6a37e95ff
+msgid "V4.18_P2.28.1"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:39 84d4b2c14b604462b8621a93f20ee2ea
+msgid "1.http添加没有Content-Length时通过结束符判断请求结束"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:40 0a291f8eb890466aae2f5ad0f6b70f50
+msgid "V4.18_P2.28.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:41 873a66f5431b423c84427aa3011d1e92
+msgid "1.添加SNTP相关指令 AT+SNTPTIME AT+SNTPTIMECFG AT+SNTPINTV"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:45 1b8475b374a54740a1412e379ee8a7ae
+msgid "V4.18_P5.4.2"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:47 6574ff5fb6f14b919394ee5cb6800269
+msgid "V4.18_P2.27.2"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:48 bf473c577b2b468ba3cae4216a9c171c
+msgid "1.MQTT 密码长度改为最大255字节"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:49 22f5d5ce6a054a92a626174311d0dfdb
+msgid "V4.18_P2.27.1"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:50 7cc076610a924e6cac4e5a0ea5b7c131
+msgid "1.将mqtt收发buf默认值改为2K"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:51 1595aa7479b6402685812b37118398c3
+msgid "V4.18_P5.4.1"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:52 53160761544c4045a56a0c2d2d8d2959
+msgid "1.更新原厂SDK补丁 6.2_patch_integrated_221206_bf3b2a72(94571)"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:53 e35140e9d29d42219f8c3f6661b0bd02
+msgid "V4.18_P5.4.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:54 36c43dc475114c8584102efe57de52e1
+msgid "1.更新 AI_ComboSDK 到 V4.18_P2.27.0，tcp client 添加断线自动重连功能"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:55 d975de916e8145229c654d0e42f990e0
+msgid "V4.18_P5.3.2"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:56 5946891041cd436dbbe1c291f66fbc18
+msgid "1.修复wifi重连和蓝牙配网成功后wifi状态显示没有获取IP问题"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:57 cb5887adce654d78a778d4f127761ae0
+msgid "V4.18_P5.3.1"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:58 2df3eee38b2548948da62260d3597ee6
+msgid "1.更新 AI_ComboSDK 到 V4.18_P2.26.1，修复 UDPServer自动接收数据卡死问题"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:59 f4d46b32a6dc4c7fbf7ba7fb09852ca7
+msgid "V4.18_P5.3.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:60 8a4051f77b66402888effe6b1d87cfaa
+msgid "1.更新 AI_ComboSDK 到 V4.18_P2.26.0，1.添加wifi关闭API接口 AI_HalWifiOff()"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:62 616355d4147b4a8da9eb8dbd2fa7289f
+msgid "2.适配 AI_HalWifiOff() 接口"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:63 f5a276cacfa141709f14cf5dd14bd9a8
+msgid "V4.18_P5.2.1"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:64 9208f27db5094293bb7dd000332ff3e4
+msgid "1.更新 AI_ComboSDK 到 V4.18_P2.25.1，修复不连接设置wifi自动连接不生效问题"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:65
+#: ../../source/docs/taobao/BW16/index.rst:68 2c18af06bb764389bab43f29de071861
+#: 48a81b31321f4047b1cf4228acfd9a33
+msgid "V4.18_P5.2.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:66 f9acac6003fe431baac07377781c4f8d
+msgid ""
+"1.更新 AI_ComboSDK 到 V4.18_P2.24.2，添加 int Ai_IOMapGetICPinByIndex(uint8_t "
+"modePin) 接口 2.AT+SLEEP增加没有初始化IOMAP的判断，适配深睡眠接口"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:69 f5f83ccba28d41b99940a97b2d8f85d0
+msgid "tcp keep alive 参数实现"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:70 5252b08d36fe4f43a3456bf4b68d7a33
+msgid "V4.18_P5.1.1"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:71 223384c3d57e41a99c0ed5c1172826f4
+msgid "1.更新 AI_ComboSDK 到 V4.18_P2.24.1， 修复socket的accept参数错误"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:73 a09ce2dbe7d4420090b2f8f056f30bbb
+msgid "2.增加AI_HalWifiSetMac()接口"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:74 f4e77d9e58b54e12929c0e85a65ecbf3
+msgid "V4.18_P5.1.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:75 b6e2e6963b78479f93730437f954382f
+msgid "1.更新 AI_ComboSDK 到 V4.18_P2.24.0，开机自动重连添加不校验直接保存wifi参数的选项"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:76 b35824be3a4a44bf8b99a146c3f4ddfd
+msgid "V4.18_P5.0.3"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:77 ae0f3482454f43c1a2bcb6937cc16c67
+msgid "1.更新 AI_ComboSDK 到 V4.18_P2.23.2，修复wifi上电自动进入透传模式失败问题"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:78 399935c93b954b38bc62644cb31c5bb5
+msgid "V4.18_P5.0.2"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:79 60780cd0a4b04973827bb95c526b25b6
+msgid ""
+"1.更新 AI_ComboSDK 到 V4.18_P2.23.1，添加 "
+"AI_TakePrintLock(),AI_GivePrintLock(),AI_DataPrintNoLock()接口"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:81 4f4cf4124f8f4b019b4fd5064a783589
+msgid "2.修复socket通信时主动打印数据时多线程打印乱序问题"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:82 8fa390c4c2114b28b9b72d6aa7055f4f
+msgid "V4.18_P5.0.1"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:84 748372fdd19141adb839444b0f8a9150
+msgid "V4.18_P2.23.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:85 a060492fe026440ab5a2fefd707d6de4
+msgid "1.剥离 AI_HalSetWifiConfigName() 接口"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:86 d0b198dd325642b3b8f12c373152d43f
+msgid "V4.18_P2.22.1"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:87 3eff3d4e225b4cbea45d903167624ca6
+msgid "1.修改wifi名称和密码最大支持63字节"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:88 5a588c1c6b3c43d789056a7c6d0801ba
+msgid "V4.18_P2.22.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:89 a779178bbda34378b0c452ac275daea8
+msgid "1.睡眠模式增加配置唤醒源的参数"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:90 413b6671b8514ad4aa4207becc9825b8
+msgid "V4.18_P2.21.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:91 6eb900b63b5e4dabb81e804a38f81e28
+msgid "1.esp BluFi 蓝牙配网增加自定义名称功能"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:92 561ac2acfb794aee9725cb307e90dfc1
+msgid "V4.18_P2.20.2"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:93 e721dd6702534f169a7b44e525dad9f2
+msgid "1.更新mqtt clinent ID/账号/密码 长度为127"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:94 dea4763afcbd44aea1c94cb7be186707
+msgid "V4.18_P2.20.1"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:95 060892ac8005480c94418ea672b4a95d
+msgid "1.修复蓝牙配网后没有自动保存配网信息问题"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:97 9a6484064c49466482a4213d67c19185
+msgid "2.适配 AI_HalSetPowerMode()接口"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:98 ea8c4050a11741119fe33fb1e81eec20
+msgid "V4.18_P5.0.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:99 f870562efb5a442c8b776d2fe847f4e3
+msgid "1.更新 AI_ComboSDK V4.18_P2.20.0，抽象读取rssi接口"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:101 afb1e928f8a64dd38844834527978165
+msgid "2.udp server添加发送功能，发送对象为第一次收到数据时的对象"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:102 2bdbeeb8362c44d289b862cd3b2f2fa1
+msgid "V4.18_P4.14.3"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:103 6f1a4fa27e304c94a3c82f37fe3aeea4
+msgid "1.更新 AI_ComboSDK 到V4.18_P2.19.3，修复蓝牙透传大文件时咬狗问题"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:105 59adb0221da446418fb29002298caf02
+msgid "2.修复wifi扫描输出信息的兼容问题."
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:107 9778502336ce476a822726d76f51d89e
+msgid "3.新增指令AT+WRSSI获取连接后的信号强度."
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:109 c291e197175a4a8a81eca649c1dee256
+msgid "4.AT+WSCAN参数1输入改为全字匹配"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:110 731a768ec0764974988a9890fa977d11
+msgid "V4.18_P4.14.2"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:111 593204052bc1410ea133daf47a0feb3a
+msgid "1.更新 AI_ComboSDK 到V4.18_P2.19.2，去掉延时减小socket异常时无法断开的情况"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:113 f2bf3be472444c8f9dfd77c6dd2af9cd
+msgid "2.修改蓝牙默认UUID"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:114 23f9a6443d43424692cbfdffd811aad9
+msgid "V4.18_P4.14.1"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:115 0995fbdeb9994720861a1b404007f8be
+msgid "1.更新 AI_ComboSDK 到V4.18_P2.19.1，socket添加自动删除功能"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:116 7e1127c65ae446a5a867801e2221e1fe
+msgid "V4.18_P4.14.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:117 04f704885c784b8f8bb014a3291f344c
+msgid "1.更新 AI_ComboSDK 到V4.18_P2.19.0，1.添加蓝牙配网"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:119 5a7dd61b5f184281b2dc591f0a349f59
+msgid "2.修复ping卡死"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:121 83071f2c54904162b384d87668a6e721
+msgid "3.新增指令AT+WSCANOPT,用于选择AT+WSCAN的输出信息，适配AI_HalSystemIsrunning函数"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:122 b72d6e5b657441618bc3bcfb95789d33
+msgid "V4.18_P4.13.2"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:123 1d11263aabd9464ba67084afff8587a0
+msgid "1.更新 AI_ComboSDK 到V4.18_P2.15.2，设置默认IOMap容量为48个"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:125 6a04f7876d6b4869a53e3029b94d761f
+msgid "2.修复ble从机notify导致重启问题"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:126 fb9f32d67f5046c78108287a4106c10f
+msgid "V4.18_P4.13.1"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:127 947910bdc2ca441395a0993ceb9d5e20
+msgid "1.更新 AI_ComboSDK 到 V4.18_P2.15.1，修复 AI_ParseParam 指令第一个参数为空是没有解析到的问题"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:128 b157b1981e464aebba68692c12f7a860
+msgid "V4.18_P4.13.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:129 beb6e5f3d8d84577ad23eafa00348209
+msgid "1.更新 AI_ComboSDK 到 V4.18_P2.15.0，AT+MQTT添加重连功能"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:131 b3d79555f10c484aa1f3397eae6ecdb7
+msgid "2.添加取消订阅指令 AT+MQTTUNSUB"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:133 5134c430c9074c13a0b34605281ddb97
+msgid "3.添加STA MAC查询指令 AT+CIPSTAMAC_DEF"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:134 5b1bb263b7364733b2147a9e37e8adf9
+msgid "V4.18_P4.12.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:135 8940dd6e6e5a41febcfcaa6235575a11
+msgid "1.AI_ComboSDK更新到V4.18_P2.14.0，修改socket和蓝牙透传分包逻辑,使分包更完整"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:137 4e97f4b0c62e4ec491f180fc35f61a63
+msgid "2.修改透传模式退出逻辑，减少误退出，蓝牙发送适配长数据发送"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:138 ccffd71d8950482e85fe731e250c21c3
+msgid "V4.18_P4.11.3"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:139 e7a09255c2dc4496a61e393068e97c79
+msgid ""
+"1.更新AI_ComboSDK到 V4.18_P2.13.6，添加新指令 AT+HTTPCLIENTLINE （原指令 "
+"AT+HTTTPCLIENTLINE 为了兼容性代码保存，但是手册不再体现）"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:141 cebd1b0c3ba0449da9c4bfdd6c651c1c
+msgid "2.优化蓝牙MAC获取，优先从flash加载，从hal加载失败则打开蓝牙重新获取一次"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:143 fa79193e501f4ffda0cc778b9d88afc7
+msgid "3.取消开启蓝牙前设置MAC(会导致iphone 无法扫描到 BW16)"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:145 24871de43fd04fabb8e8fa890bfe13fa
+msgid "4.修复socket读取大数据时咬狗问题"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:146 9bc1ff6faa6444e5abaa3e15d51076d3
+msgid "v4.11.2"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:147 000f6faf67004f5a9baf6ec4fc736537
+msgid "1.更新AI_ComboSDK到]v2.13.2，修复HTTP请求带参数时数据发送长度错误问题"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:149 714c7854d72f40598f9dc9ae6f59d5d4
+msgid "2.修复任务创建堆栈深度设置错误问题"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:150 29bfedba2b7342258615e3a16fa755b1
+msgid "v4.11.1"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:151 d660f4c27aaa41fa913fff720d6fb5e1
+msgid ""
+"1.更新AI_ComboSDK到v2.13.1，添加手机配网完成后保存配网信息的回调函数 "
+"ai_Callbacks.wifiCfgCallback()"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:153 947d9ab6cd0542c18216e4eeb7acd5e7
+msgid "2.将socket默认分包大小改为1024byte，适配 ai_Callbacks.wifiCfgCallback()"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:154 e00e02cfc55840238b01e40b3ce80476
+msgid "v4.11.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:155 9abc9baa400d428086cba2736f812f1a
+msgid "1.AI_ComboSDK 更新到  v2.13.0，1.修改 AI_HalGetApClientList() API接口"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:157 5ffaef87de284632a6ed433bf1b4f620
+msgid "2.修复获取AP客户端列表空间作用域错误问题"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:159 0bf1376972314cca9a741a8462d28b20
+msgid "3.修复MQTT订阅超时资源释放错误"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:161 aad5987217bc4689b97a6483bce90e2b
+msgid "4.AI_DataPrint 打印函数添加信号量互斥，避免打印乱序"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:163 79cd77fd4e3f4ff98560afc05e0b253c
+msgid "5.AT+SOCKET 添加指定 conid选项，修复 AI_HalxTaskCreate 获取句柄错误问题导致的内存泄露"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:164 dddefbb65e21428e8a82adc5961e822e
+msgid "v4.10.1"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:165 2cb77c020d1740399184fc3b2989d2b0
+msgid "1.AI_ComboSDK 到 v2.12.2，修复蓝牙自动进入透传错误"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:166 9f318e568d3547ff8229956ef84a064a
+msgid "v4.10.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:167 5c24f151f7ca4cac93d6f3436539f99b
+msgid "1.开启蓝牙配网指令"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:169 489c1c1216594735a75120c361ec3abd
+msgid ""
+"2.更新 submodule/RealtekAmebadSDK "
+"合入补丁，6.2_patch_integrated_220507_7a3045e0(72412)，6.2_patch_integrated_220728_48de91fa(81022)"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:171 7b91103f1ff34eccb843d81d5e8db200
+msgid "3.合入 patch/fix-OTA-power.patch 补丁,修复出厂固件OTA测试功率不足问题"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:173 d52484a716c7458f96003d13d44baf06
+msgid "4.更新 AI_ComboSDK 到 v2.12.0"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:175 be9c8ca1412c45b59fc56c8772138fe4
+msgid "4.1.修复GPIO读取时需要打印错误(系统内部引脚从0开始，AT指令的序号从1开始)"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:177 018d2f539e9241829c5c68e92cd499ea
+msgid "4.2.重命名自己引入的内核链表，函数和宏定义添加AI头，避免和SDK冲突"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:179 c69ee58af2e648aeaf82f95979cb1b3b
+msgid "4.3.编译消告警"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:181 051aeb7b138c41fc83dad758e665610a
+msgid "4.4.添加 AI_CONFIG_HAVE_OTA 宏定义"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:183 56f78f99fb8540408ff084c7e169eda7
+msgid "4.5.修复之前部分书写错误"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:185 029d1db15608432e862fd811527ebcd7
+msgid "4.6.MQTT添加AI_MQTT_RETURN_SUCCESS枚举"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:187 91502162e7f24f65aca5a0f5b7168179
+msgid "4.7.修改任务创建和删除任务API参数"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:189 08b54ea0f6a14f2f955dbca75e096edd
+msgid "4.8.修复弱定义 AI_HalxSemaphoreTakeAuto 中调用和返回值错误"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:191 6ba1376c560f4bf187d696fbd5523eaa
+msgid "4.9.添加API接口返回值描述"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:194
+#: ../../source/docs/taobao/BW16/index.rst:210 38c98e31b50e422bb7db55445de37c0a
+#: ee331d0dfdf54367b733049dee39d036
+msgid "**启动信息**"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:204 8b5c1fced8c540b58963beb7ac5d24f9
+msgid ""
+"**固件下载：** `固件号2179  <https://docs.ai-"
+"thinker.com/_media/2179_bw16_combo_soft_v4.18_p5.6.4_combov4.18_p2.29.2_.zip>`__"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:208 74260aa074814c0e971922500886ef76
+msgid "1.2 BW16 Combo-AT固件(固件号1879)"
+msgstr ""
+
+#: ../../source/docs/taobao/BW16/index.rst:220 d5381a4478df46468fda4b941e6c043f
+msgid ""
+"**固件下载：** `固件号1879  <https://docs.ai-"
+"thinker.com/_media/1879_bw16_combo_soft_v4.9.2_combov2.11.2_.rar>`__"
+msgstr ""
+

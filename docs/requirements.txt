@@ -1,0 +1,9 @@
+# Read the Docs 构建依赖（锁定与 Python 3.8 兼容的版本）
+Sphinx==4.5.0
+sphinx-rtd-theme==1.2.2
+docutils==0.17.1
+# Markdown 支持：官方推荐的 MyST 解析器（替代已废弃的 recommonmark）
+# 0.18.1 兼容 Sphinx 4.x / docutils 0.17 / Python 3.8
+myst-parser==0.18.1
+# 中英文翻译工具
+sphinx-intl==2.1.0
