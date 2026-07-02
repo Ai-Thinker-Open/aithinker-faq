@@ -40,7 +40,7 @@ $HtmlDir = Join-Path $BuildDir 'html'
 $HtmlEnDir = Join-Path $HtmlDir 'en'
 
 function Update-Translations {
-    Write-Host '[1/2] 提取可翻译文本并更新英文 .po 文件...' -ForegroundColor Cyan
+    Write-Host '[1/3] 提取可翻译文本并更新英文 .po 文件...' -ForegroundColor Cyan
     sphinx-build -b gettext $SourceDir $GettextDir
     if ($LASTEXITCODE -ne 0) { throw 'gettext 提取失败' }
 
@@ -52,10 +52,21 @@ function Update-Translations {
         Remove-Item -Recurse -Force $GettextDir
     }
     Write-Host '翻译文件已更新：source\locale\en\LC_MESSAGES\*.po' -ForegroundColor Green
+
+    Write-Host '[2/3] 编译 .po -> .mo（英文构建必需）...' -ForegroundColor Cyan
+    Push-Location $SourceDir
+    try {
+        sphinx-intl build -l en
+        if ($LASTEXITCODE -ne 0) { throw 'sphinx-intl build 失败' }
+    }
+    finally {
+        Pop-Location
+    }
+    Write-Host '已编译：source\locale\en\LC_MESSAGES\*.mo' -ForegroundColor Green
 }
 
 function Build-Docs {
-    Write-Host '[2/2] 构建中文站点 -> build\html ...' -ForegroundColor Cyan
+    Write-Host '[3/3] 构建中文站点 -> build\html ...' -ForegroundColor Cyan
     sphinx-build -b html $SourceDir $HtmlDir
     if ($LASTEXITCODE -ne 0) { throw '中文站点构建失败' }
 
@@ -67,6 +78,14 @@ function Build-Docs {
 }
 
 if ($BuildOnly) {
+    Push-Location $SourceDir
+    try {
+        sphinx-intl build -l en
+        if ($LASTEXITCODE -ne 0) { throw 'sphinx-intl build 失败' }
+    }
+    finally {
+        Pop-Location
+    }
     Build-Docs
 }
 elseif ($UpdateOnly) {
