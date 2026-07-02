@@ -6,81 +6,67 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 14:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/WiFi/W800/index.rst:2
-#: 58b9d02343f449318c7c820e7ef9581a
+#: ../../source/docs/software-framework/WiFi/W800/index.rst:2 58b9d02343f449318c7c820e7ef9581a
 msgid "安信可 WB1系列模块 FAQ"
-msgstr ""
+msgstr "Ai-Thinker WB1 Series Module FAQ"
 
-#: ../../source/docs/software-framework/WiFi/W800/index.rst:18
-#: 573f96031ea843d5b0227c2881e7c7d8
+#: ../../source/docs/software-framework/WiFi/W800/index.rst:18 573f96031ea843d5b0227c2881e7c7d8
 msgid "Ai-WB1-32S-CAM可以串口接4G模块吗"
-msgstr ""
+msgstr "Can the Ai-WB1-32S-CAM be connected to a 4G module via serial port?"
 
-#: ../../source/docs/software-framework/WiFi/W800/index.rst:19
-#: 4306735e02304578a92e33e6327f182c
+#: ../../source/docs/software-framework/WiFi/W800/index.rst:19 4306735e02304578a92e33e6327f182c
 msgid "可以通过串口接4G模块"
-msgstr ""
+msgstr "It can be connected to a 4G module via serial port."
 
-#: ../../source/docs/software-framework/WiFi/W800/index.rst:22
-#: 9dba388136914cdebae3a186585626db
+#: ../../source/docs/software-framework/WiFi/W800/index.rst:22 9dba388136914cdebae3a186585626db
 msgid "Ai-WB1-32S-CAM支持arduino开发吗"
-msgstr ""
+msgstr "Does the Ai-WB1-32S-CAM support Arduino development?"
 
-#: ../../source/docs/software-framework/WiFi/W800/index.rst:23
-#: c31d2d84916642c187fb19a7243ee8bb
+#: ../../source/docs/software-framework/WiFi/W800/index.rst:23 c31d2d84916642c187fb19a7243ee8bb
 msgid "目前暂不支持"
-msgstr ""
+msgstr "Currently, it is not supported."
 
-#: ../../source/docs/software-framework/WiFi/W800/index.rst:26
-#: 6ca479f99292444aabf6fc8983c86c9c
+#: ../../source/docs/software-framework/WiFi/W800/index.rst:26 6ca479f99292444aabf6fc8983c86c9c
 msgid "Ai-WB1-32S-CAM上的摄像头是多少像素的"
-msgstr ""
+msgstr "What is the resolution of the camera on the Ai-WB1-32S-CAM?"
 
-#: ../../source/docs/software-framework/WiFi/W800/index.rst:27
-#: 5ce0030e71da4404ab574bc7074129ae
+#: ../../source/docs/software-framework/WiFi/W800/index.rst:27 5ce0030e71da4404ab574bc7074129ae
 msgid "摄像头是30W"
-msgstr ""
+msgstr "The camera resolution is 300,000 pixels."
 
-#: ../../source/docs/software-framework/WiFi/W800/index.rst:30
-#: 19cb37198a504f75bfab3d9cc22aeb1a
+#: ../../source/docs/software-framework/WiFi/W800/index.rst:30 19cb37198a504f75bfab3d9cc22aeb1a
 msgid "Ai-WB1-32S-CAM摄像头开发板支持本地录像吗"
-msgstr ""
+msgstr "Does the Ai-WB1-32S-CAM camera development board support local video recording?"
 
-#: ../../source/docs/software-framework/WiFi/W800/index.rst:31
-#: 0d41a43c9ccc41aeb4422b7f24aa769b
+#: ../../source/docs/software-framework/WiFi/W800/index.rst:31 0d41a43c9ccc41aeb4422b7f24aa769b
 msgid "二次开发实现，目前现成固件仅支持拍照功能"
-msgstr ""
+msgstr "This can be implemented through secondary development. Currently, the ready-made firmware only supports taking photos."
 
-#: ../../source/docs/software-framework/WiFi/W800/index.rst:34
-#: eb7a1c1f5c484674b42073219187fc64
+#: ../../source/docs/software-framework/WiFi/W800/index.rst:34 eb7a1c1f5c484674b42073219187fc64
 msgid "Ai-WB1-32S-CAM可以实现拍摄视频然后保存到TF卡功能吗"
-msgstr ""
+msgstr "Can the Ai-WB1-32S-CAM implement the function of recording video and saving it to a TF card?"
 
-#: ../../source/docs/software-framework/WiFi/W800/index.rst:35
-#: 72e4c3c699464c249bc4e9344fc850f6
+#: ../../source/docs/software-framework/WiFi/W800/index.rst:35 72e4c3c699464c249bc4e9344fc850f6
 msgid "可以实现，需做开发"
-msgstr ""
+msgstr "Yes, it can be implemented, but development is required."
 
-#: ../../source/docs/software-framework/WiFi/W800/index.rst:38
-#: 33df66926d8b413a9a1968de491649d0
+#: ../../source/docs/software-framework/WiFi/W800/index.rst:38 33df66926d8b413a9a1968de491649d0
 msgid "Ai-WB1-A1S-VOICE音频开发板有录音功能吗"
-msgstr ""
+msgstr "Does the Ai-WB1-A1S-VOICE audio development board have a recording function?"
 
-#: ../../source/docs/software-framework/WiFi/W800/index.rst:39
-#: 52f076b39c6c4d01b52259e81f674597
+#: ../../source/docs/software-framework/WiFi/W800/index.rst:39 52f076b39c6c4d01b52259e81f674597
 msgid "默认没有录音功能，需做开发实现"
-msgstr ""
-
+msgstr "It does not have a recording function by default; development is required to implement it."

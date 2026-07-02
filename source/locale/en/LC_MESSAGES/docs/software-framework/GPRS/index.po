@@ -6,1555 +6,1215 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 14:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:2
-#: 18f7e2c67d1643dda873292be5011ba7
+#: ../../source/docs/software-framework/GPRS/index.rst:2 18f7e2c67d1643dda873292be5011ba7
 msgid "安信可 GPRS系列模块 FAQ"
-msgstr ""
+msgstr "Ai-Thinker GPRS Series Module FAQ"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:17
-#: 2eca6c782a5945e0ae605926d222f692
+#: ../../source/docs/software-framework/GPRS/index.rst:17 2eca6c782a5945e0ae605926d222f692
 msgid "A9/A9G支持什么卡？"
-msgstr ""
+msgstr "What SIM cards do A9/A9G support?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:18
-#: 87702739a42b4099b6d062e583676f46
+#: ../../source/docs/software-framework/GPRS/index.rst:18 87702739a42b4099b6d062e583676f46
 msgid "答：A9/A9G只支持物联网卡和移动4G手机卡，暂时不支持联通，电信等手机卡"
-msgstr ""
+msgstr "A: A9/A9G only support IoT SIM cards and China Mobile 4G mobile SIM cards. China Unicom, China Telecom, and other mobile SIM cards are not supported for now."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:21
-#: a52e5a9641984d4aab4456ecc24e514a
+#: ../../source/docs/software-framework/GPRS/index.rst:21 a52e5a9641984d4aab4456ecc24e514a
 msgid "A9G模块定位的精度是多少？"
-msgstr ""
+msgstr "What is the positioning accuracy of the A9G module?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:22
-#: 3887c0610bb54c059e5d03170299c681
+#: ../../source/docs/software-framework/GPRS/index.rst:22 3887c0610bb54c059e5d03170299c681
 msgid "答：开阔环境下的定位精度约为4.83米（95%CEP）,在室内窗口环境下的定位精度约为79.62米"
-msgstr ""
+msgstr "A: The positioning accuracy is about 4.83m in an open environment (95% CEP); and about 79.62m in an indoor window environment."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:25
-#: 2129fe4290cb4d9783162fc6bbcf1dac
+#: ../../source/docs/software-framework/GPRS/index.rst:25 2129fe4290cb4d9783162fc6bbcf1dac
 msgid "A9可以代替A6吗"
-msgstr ""
+msgstr "Can A9 replace A6?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:26
-#: 37e7f69019984ff387a080b4b4c1f318
+#: ../../source/docs/software-framework/GPRS/index.rst:26 37e7f69019984ff387a080b4b4c1f318
 msgid "答：功能完全可以替代，只是脚位封装不一样"
-msgstr ""
+msgstr "A: Functionally, it can fully replace A6, but the pinout/package is different."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:29
-#: c15d41d898b24f3a9ebbe9f9a44522ed
+#: ../../source/docs/software-framework/GPRS/index.rst:29 c15d41d898b24f3a9ebbe9f9a44522ed
 msgid "A9模块有对应的测试APP吗"
-msgstr ""
+msgstr "Is there a corresponding test app for the A9 module?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:30
-#: ff0e844cb75b42baaaaa53bda143b834
+#: ../../source/docs/software-framework/GPRS/index.rst:30 ff0e844cb75b42baaaaa53bda143b834
 msgid "https://wiki.ai-thinker.com/gprs/a9g/a9tracker"
-msgstr ""
+msgstr "https://wiki.ai-thinker.com/gprs/a9g/a9tracker"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:33
-#: 382ba56874424a998fab8840efa5ba6d
+#: ../../source/docs/software-framework/GPRS/index.rst:33 382ba56874424a998fab8840efa5ba6d
 msgid "A9G开发板的示例代码网址"
-msgstr ""
+msgstr "Sample code URL for the A9G development board:"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:34
-#: fbd544975aca45cca6ac49e2a767cbb4
+#: ../../source/docs/software-framework/GPRS/index.rst:34 fbd544975aca45cca6ac49e2a767cbb4
 msgid "https://github.com/Ai-Thinker-Open/GPRS_C_SDK"
-msgstr ""
+msgstr "https://github.com/Ai-Thinker-Open/GPRS_C_SDK"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:37
-#: 22a84c91b6a44959bfbc78fd4cabd04c
+#: ../../source/docs/software-framework/GPRS/index.rst:37 22a84c91b6a44959bfbc78fd4cabd04c
 msgid "30M卡在一套板上用过段时间，还可以放到別的板上用吗？(不超月限量）"
-msgstr ""
+msgstr "After a 30MB SIM card has been used on one board for a period of time, can it still be used on another board? (Provided the monthly limit is not exceeded.)"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:38
-#: ../../source/docs/software-framework/GPRS/index.rst:54
-#: ../../source/docs/software-framework/GPRS/index.rst:135
-#: ../../source/docs/software-framework/GPRS/index.rst:260
-#: ../../source/docs/software-framework/GPRS/index.rst:302
-#: ../../source/docs/software-framework/GPRS/index.rst:539
-#: ../../source/docs/software-framework/GPRS/index.rst:587
-#: 1c93a572df5a44eaa5bf05cde7b1fd51 25f640b7e87440bfa6a89c2d0e902505
-#: 59a7dd94ae28485283eefce0fcf6a080 6890479e8d5542f1883cb92ba2fb1503
-#: a5bc688f95494c1e93d64a86df4369c4 caaf618d73214a7aadef352e97db9f9a
-#: f5da000bb6904ef9b5aee8a2195fb874
+#: ../../source/docs/software-framework/GPRS/index.rst:38 ../../source/docs/software-framework/GPRS/index.rst:54 ../../source/docs/software-framework/GPRS/index.rst:135 ../../source/docs/software-framework/GPRS/index.rst:260 ../../source/docs/software-framework/GPRS/index.rst:302 ../../source/docs/software-framework/GPRS/index.rst:539 ../../source/docs/software-framework/GPRS/index.rst:587 1c93a572df5a44eaa5bf05cde7b1fd51 25f640b7e87440bfa6a89c2d0e902505 59a7dd94ae28485283eefce0fcf6a080 6890479e8d5542f1883cb92ba2fb1503 a5bc688f95494c1e93d64a86df4369c4 caaf618d73214a7aadef352e97db9f9a f5da000bb6904ef9b5aee8a2195fb874
 msgid "可以的"
-msgstr ""
+msgstr "Yes."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:41
-#: 6dde194c48e54efbacbc90af231d853b
+#: ../../source/docs/software-framework/GPRS/index.rst:41 6dde194c48e54efbacbc90af231d853b
 msgid "A9模组可以用来开发维码器吗？"
-msgstr ""
+msgstr "Can the A9 module be used to develop a QR-code device?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:42
-#: e0052abe5b9143438224cbda90ad78cb
+#: ../../source/docs/software-framework/GPRS/index.rst:42 e0052abe5b9143438224cbda90ad78cb
 msgid "可以，只要能联网都可以，不过服务器您自己要去开发，以及它们之间的信息传输"
-msgstr ""
+msgstr "Yes, as long as it can connect to the network. However, you need to develop the server yourself, as well as the information transmission between them."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:45
-#: 4bf1eb88e2fe459f9488d2be8a1ec0a0
+#: ../../source/docs/software-framework/GPRS/index.rst:45 4bf1eb88e2fe459f9488d2be8a1ec0a0
 msgid "有没有2G模块，带有天线座子的？"
-msgstr ""
+msgstr "Is there a 2G module with an antenna connector?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:46
-#: ../../source/docs/software-framework/GPRS/index.rst:191
-#: ../../source/docs/software-framework/GPRS/index.rst:224
-#: ../../source/docs/software-framework/GPRS/index.rst:236
-#: ../../source/docs/software-framework/GPRS/index.rst:376
-#: ../../source/docs/software-framework/GPRS/index.rst:396
-#: ../../source/docs/software-framework/GPRS/index.rst:486
-#: 24eac184da234d9fa096860c5a62d621 54a32d206e9d49be8e210e3a8d6e111d
-#: 60df0c5664c74455afe830acffc7ee4e 7067159c75b3402984d297b6c13b9e97
-#: b4fde951012a4ed9a355e4a1c88c32f2 b7745b61bae5425f99f91289191d6a11
-#: d4768336dced4bfbacddd37116fd80f7
+#: ../../source/docs/software-framework/GPRS/index.rst:46 ../../source/docs/software-framework/GPRS/index.rst:191 ../../source/docs/software-framework/GPRS/index.rst:224 ../../source/docs/software-framework/GPRS/index.rst:236 ../../source/docs/software-framework/GPRS/index.rst:376 ../../source/docs/software-framework/GPRS/index.rst:396 ../../source/docs/software-framework/GPRS/index.rst:486 24eac184da234d9fa096860c5a62d621 54a32d206e9d49be8e210e3a8d6e111d 60df0c5664c74455afe830acffc7ee4e 7067159c75b3402984d297b6c13b9e97 b4fde951012a4ed9a355e4a1c88c32f2 b7745b61bae5425f99f91289191d6a11 d4768336dced4bfbacddd37116fd80f7
 msgid "A9G"
-msgstr ""
+msgstr "A9G."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:49
-#: f7390cbeff3a4873801188f2b4216a9b
+#: ../../source/docs/software-framework/GPRS/index.rst:49 f7390cbeff3a4873801188f2b4216a9b
 msgid "A9G室内定位效果怎么样"
-msgstr ""
+msgstr "How is the indoor positioning performance of A9G?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:50
-#: 909aac2d2def4322bb72f5c05b5d35f5
+#: ../../source/docs/software-framework/GPRS/index.rst:50 909aac2d2def4322bb72f5c05b5d35f5
 msgid "不支持室内定位哦"
-msgstr ""
+msgstr "Indoor positioning is not supported."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:53
-#: 7258fcc9bc87433384ab485515b73cf0
+#: ../../source/docs/software-framework/GPRS/index.rst:53 7258fcc9bc87433384ab485515b73cf0
 msgid "A9G开发板可以支持tcp链接吗"
-msgstr ""
+msgstr "Does the A9G development board support TCP connections?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:57
-#: 93d28772dcd8466bb74445a6565346a5
+#: ../../source/docs/software-framework/GPRS/index.rst:57 93d28772dcd8466bb74445a6565346a5
 msgid "A9G，这个可以支持透传云吗"
-msgstr ""
+msgstr "Does A9G support transparent transmission cloud?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:58
-#: 18fbcb02a4b94daf90cec590f9512c40
+#: ../../source/docs/software-framework/GPRS/index.rst:58 18fbcb02a4b94daf90cec590f9512c40
 msgid "支持透传云"
-msgstr ""
+msgstr "Yes, transparent transmission cloud is supported."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:61
-#: 00f8cfd9f8504359af0ebfa011a8c908
+#: ../../source/docs/software-framework/GPRS/index.rst:61 00f8cfd9f8504359af0ebfa011a8c908
 msgid "2G模块的传输速率大概是多少啊"
-msgstr ""
+msgstr "What is the approximate transmission rate of the 2G module?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:62
-#: ff2a6a9c83a94a0fb4d8efd3dd043ddc
+#: ../../source/docs/software-framework/GPRS/index.rst:62 ff2a6a9c83a94a0fb4d8efd3dd043ddc
 msgid "下载 85.6Kbps，上传 42.8Kbps；"
-msgstr ""
+msgstr "Download: 85.6Kbps; upload: 42.8Kbps."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:65
-#: 26069690deda40d086425e5199804039
+#: ../../source/docs/software-framework/GPRS/index.rst:65 26069690deda40d086425e5199804039
 msgid "BG01-T 需要驱动吗"
-msgstr ""
+msgstr "Does BG01-T require a driver?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:66
-#: e151d16e8dd4403891cba407eae144b6
+#: ../../source/docs/software-framework/GPRS/index.rst:66 e151d16e8dd4403891cba407eae144b6
 msgid "上电就能用"
-msgstr ""
+msgstr "It can be used after power-on."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:69
-#: f125d402d5954a6f8977d8212a01965d
+#: ../../source/docs/software-framework/GPRS/index.rst:69 f125d402d5954a6f8977d8212a01965d
 msgid "A9G请问能在51单片机上用吗？ 手机端能以地图形式实时定位嘛？"
-msgstr ""
+msgstr "Can A9G be used with a 51 MCU? Can the mobile app display real-time positioning in map form?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:70
-#: e59596227a6f42f6aec2e82b95e86aca
+#: ../../source/docs/software-framework/GPRS/index.rst:70 e59596227a6f42f6aec2e82b95e86aca
 msgid "只要能串口通讯就可以在51单片机上使用 ，可以定位"
-msgstr ""
+msgstr "As long as serial communication is possible, it can be used with a 51 MCU. Positioning is supported."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:73
-#: d8faa4ead126405c866086a987c2184f
+#: ../../source/docs/software-framework/GPRS/index.rst:73 d8faa4ead126405c866086a987c2184f
 msgid "A9G的二维码字符串怎么获取"
-msgstr ""
+msgstr "How can I obtain the QR-code string of A9G?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:74
-#: d994c416ebec47018f82c8a1ccdfd5a3
+#: ../../source/docs/software-framework/GPRS/index.rst:74 d994c416ebec47018f82c8a1ccdfd5a3
 msgid "生成二维码后生成二维码字符串"
-msgstr ""
+msgstr "After generating the QR code, the QR-code string is generated."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:77
-#: 8921ef4889cf410f99a25cf74af591bc
+#: ../../source/docs/software-framework/GPRS/index.rst:77 8921ef4889cf410f99a25cf74af591bc
 msgid "A9G开发板能用arduinoide吗 ？怎么编程"
-msgstr ""
+msgstr "Can the A9G development board be used with Arduino? How is it programmed?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:78
-#: bc3a1fc15dd94f538380d5f812037499
+#: ../../source/docs/software-framework/GPRS/index.rst:78 bc3a1fc15dd94f538380d5f812037499
 msgid "不能。用SDK进行开发"
-msgstr ""
+msgstr "No. It is developed using the SDK."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:81
-#: ddc751a0e9044dc9826d7ac3d1401c3c
+#: ../../source/docs/software-framework/GPRS/index.rst:81 ddc751a0e9044dc9826d7ac3d1401c3c
 msgid "A9G模块  跑什么操作系统的？"
-msgstr ""
+msgstr "What operating system does the A9G module run?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:82
-#: 8dcda439531c4e14afd1befeb5861b4b
+#: ../../source/docs/software-framework/GPRS/index.rst:82 8dcda439531c4e14afd1befeb5861b4b
 msgid "裸机"
-msgstr ""
+msgstr "Bare-metal."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:85
-#: 7549e879b5884c31bc9814d545a488d6
+#: ../../source/docs/software-framework/GPRS/index.rst:85 7549e879b5884c31bc9814d545a488d6
 msgid "A9G 支持lua ? A9G  与A9 有些什么区别呢？支持USB么"
-msgstr ""
+msgstr "Does A9G support Lua? What are the differences between A9G and A9? Does it support USB?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:86
-#: 64be5f67805841a2b55e7830b25a68b3
+#: ../../source/docs/software-framework/GPRS/index.rst:86 64be5f67805841a2b55e7830b25a68b3
 msgid "不支持lua，不支持USB ，USB是用来供电的，A9G多了一个GPS功能"
-msgstr ""
+msgstr "Lua is not supported. USB is not supported; USB is used for power supply. A9G adds GPS functionality compared with A9."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:89
-#: e245f7d05cea413fb069f0a1bf742bd3
+#: ../../source/docs/software-framework/GPRS/index.rst:89 e245f7d05cea413fb069f0a1bf742bd3
 msgid "A9G跑的是什么协议栈"
-msgstr ""
+msgstr "What protocol stack does A9G run?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:90
-#: 1f19f1997dcb4c6eaf52763a9ebac2bd
+#: ../../source/docs/software-framework/GPRS/index.rst:90 1f19f1997dcb4c6eaf52763a9ebac2bd
 msgid "GSM"
-msgstr ""
+msgstr "GSM."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:92
-#: d812b2a60f71478fa3c7fdd4893e39a2
+#: ../../source/docs/software-framework/GPRS/index.rst:92 d812b2a60f71478fa3c7fdd4893e39a2
 msgid "A9模块在国外能使用吗？"
-msgstr ""
+msgstr "Can the A9 module be used overseas?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:93
-#: a50f53f650fc4a35b183acb5cd1c6a82
+#: ../../source/docs/software-framework/GPRS/index.rst:93 a50f53f650fc4a35b183acb5cd1c6a82
 msgid "\"亲，这个不确定，因为通信频段可能不一样，这个需要配合物联网卡使用"
-msgstr ""
+msgstr "It is uncertain because communication frequency bands may differ. It needs to be used with an IoT SIM card."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:96
-#: b39209e012e54f0ab75362860b56bc87
+#: ../../source/docs/software-framework/GPRS/index.rst:96 b39209e012e54f0ab75362860b56bc87
 msgid "A9芯片回来我直接用吗？不用再下固件了吧。 那我直接发指令就可以控制是吧？通过单片机串口"
-msgstr ""
+msgstr "After receiving the A9 chip, can I use it directly? Do I need to download firmware again? Can I control it directly by sending commands through the MCU serial port?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:97
-#: 31731454dce54766b9d0f50171bfa7ad
+#: ../../source/docs/software-framework/GPRS/index.rst:97 31731454dce54766b9d0f50171bfa7ad
 msgid "不用在下固件。是的，直接控制"
-msgstr ""
+msgstr "No need to download firmware again. Yes, it can be controlled directly."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:100
-#: d53ad3aec06e4c0a8b911a41d5ce6ef4
+#: ../../source/docs/software-framework/GPRS/index.rst:100 d53ad3aec06e4c0a8b911a41d5ce6ef4
 msgid "\"机智云是不是不支持A9G模块了？"
-msgstr ""
+msgstr "Does Gizwits no longer support the A9G module?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:101
-#: ../../source/docs/software-framework/GPRS/index.rst:454
-#: 36392f3cf94e49ce982f68e1013515e9 874f1309528f4e4da1a2de3162f495f6
+#: ../../source/docs/software-framework/GPRS/index.rst:101 ../../source/docs/software-framework/GPRS/index.rst:454 36392f3cf94e49ce982f68e1013515e9 874f1309528f4e4da1a2de3162f495f6
 msgid "支持的"
-msgstr ""
+msgstr "It is supported."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:104
-#: 66243e5858c44399b0fabfe0a448c64b
+#: ../../source/docs/software-framework/GPRS/index.rst:104 66243e5858c44399b0fabfe0a448c64b
 msgid "A9G的开发板那个gps数据是从串口2读取吧？"
-msgstr ""
+msgstr "Is the GPS data of the A9G development board read from UART2?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:105
-#: ../../source/docs/software-framework/GPRS/index.rst:289
-#: ../../source/docs/software-framework/GPRS/index.rst:364
-#: 1c6f008f44fa479592794d7f8c2211b3 23ec8d1d76714b589eff0b743006573b
-#: d663cba414b64070b28db0a0bd1f5c98
+#: ../../source/docs/software-framework/GPRS/index.rst:105 ../../source/docs/software-framework/GPRS/index.rst:289 ../../source/docs/software-framework/GPRS/index.rst:364 1c6f008f44fa479592794d7f8c2211b3 23ec8d1d76714b589eff0b743006573b d663cba414b64070b28db0a0bd1f5c98
 msgid "是的"
-msgstr ""
+msgstr "Yes."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:108
-#: a6d48b8310f9442cb9c3c085cb323661
+#: ../../source/docs/software-framework/GPRS/index.rst:108 a6d48b8310f9442cb9c3c085cb323661
 msgid "A9G开发板使用需要哪些东西？"
-msgstr ""
+msgstr "What is needed to use the A9G development board?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:109
-#: 025cd3037bfb45d4864ded6ec5d54ae1
+#: ../../source/docs/software-framework/GPRS/index.rst:109 025cd3037bfb45d4864ded6ec5d54ae1
 msgid "开发板+CP2102.电源用电脑的USB口就可以供电,CP2102就是拿来供电还有调试的"
-msgstr ""
+msgstr "Development board + CP2102. The computer USB port can be used for power supply. CP2102 is used for both power supply and debugging."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:112
-#: 2ef709a209044dc793ee589be444fdab
-msgid ""
-"A9G模组的 GPRS, GPS是可以同时工作的么? 另外, 我看你们官网关于A9G模组说明里面有HTTPGET方法暂不支持(下一版本支持), "
-"那现在HTTPGET方法支持了么?"
-msgstr ""
+#: ../../source/docs/software-framework/GPRS/index.rst:112 2ef709a209044dc793ee589be444fdab
+msgid "A9G模组的 GPRS, GPS是可以同时工作的么? 另外, 我看你们官网关于A9G模组说明里面有HTTPGET方法暂不支持(下一版本支持), 那现在HTTPGET方法支持了么?"
+msgstr "Can GPRS and GPS of the A9G module work at the same time? Also, I saw on your official website that the HTTPGET method for A9G is temporarily unsupported and will be supported in the next version. Is HTTPGET supported now?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:113
-#: 0d69959e112142ac8986e4b9c88555ec
+#: ../../source/docs/software-framework/GPRS/index.rst:113 0d69959e112142ac8986e4b9c88555ec
 msgid "亲，是支持的哦，A9G可以get"
-msgstr ""
+msgstr "Yes, it is supported. A9G can perform GET."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:116
-#: df0b2200007944b3bba8b42ba2a14fdb
+#: ../../source/docs/software-framework/GPRS/index.rst:116 df0b2200007944b3bba8b42ba2a14fdb
 msgid "请问A9模块串口能兼容5V电平吗？"
-msgstr ""
+msgstr "Is the serial port of the A9 module compatible with 5V levels?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:118
-#: 38004c29604644919d3d258a6d6ae61c
+#: ../../source/docs/software-framework/GPRS/index.rst:118 38004c29604644919d3d258a6d6ae61c
 msgid "不能兼容5V电平，A9供电要5V电源，电流要2A以上"
-msgstr ""
+msgstr "It is not compatible with 5V levels. A9 requires a 5V power supply, and the current should be above 2A."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:121
-#: 966bf9f30e594e5d9f8364ccd0113296
+#: ../../source/docs/software-framework/GPRS/index.rst:121 966bf9f30e594e5d9f8364ccd0113296
 msgid "A9G支持MQTT吗？"
-msgstr ""
+msgstr "Does A9G support MQTT?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:123
-#: 1442e83f8ba048c5a251e828f50c3ace
+#: ../../source/docs/software-framework/GPRS/index.rst:123 1442e83f8ba048c5a251e828f50c3ace
 msgid "支持的，需要您二次开发哦"
-msgstr ""
+msgstr "Yes, but you need to perform secondary development."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:126
-#: c9c67234543f4f2eb35dc5ed56542395
+#: ../../source/docs/software-framework/GPRS/index.rst:126 c9c67234543f4f2eb35dc5ed56542395
 msgid "gprs如何获取模组二维码字符串"
-msgstr ""
+msgstr "How does GPRS obtain the module QR-code string?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:127
-#: 190afe32665e44248e04100ce1f569e3
+#: ../../source/docs/software-framework/GPRS/index.rst:127 190afe32665e44248e04100ce1f569e3
 msgid "通过发送AT指令"
-msgstr ""
+msgstr "By sending AT commands."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:130
-#: 12ceb8e314ae4b088806248a01b2874e
+#: ../../source/docs/software-framework/GPRS/index.rst:130 12ceb8e314ae4b088806248a01b2874e
 msgid "A9G开发板这个怎么开发 ？怎么实时发送温度到微信公众号？"
-msgstr ""
+msgstr "How do I develop with the A9G development board? How can I send temperature to a WeChat official account in real time?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:131
-#: fd64b56021354e96aa80aeb3c4464282
+#: ../../source/docs/software-framework/GPRS/index.rst:131 fd64b56021354e96aa80aeb3c4464282
 msgid "可以进行开发，通过SDK"
-msgstr ""
+msgstr "Development can be done through the SDK."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:134
-#: 0f3bbc8afc8e4c4dadd9990447132776
+#: ../../source/docs/software-framework/GPRS/index.rst:134 0f3bbc8afc8e4c4dadd9990447132776
 msgid "请问a9模块必须与机智云软件结合起开使用吗？a9模块能与stm32f1系列开发版结合使用吗？"
-msgstr ""
+msgstr "Must the A9 module be used together with Gizwits software? Can the A9 module be used with STM32F1 series development boards?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:138
-#: 2c18f74bf0ec4b8facd8e07ddb2f24d5
+#: ../../source/docs/software-framework/GPRS/index.rst:138 2c18f74bf0ec4b8facd8e07ddb2f24d5
 msgid "GP-01，GP-02，BG01-T，BG02-T这些定位器是需要后期开发还是直接可以用？ 手机上可以看定位吗"
-msgstr ""
+msgstr "Do GP-01, GP-02, BG01-T, and BG02-T locators require later development, or can they be used directly? Can positioning be viewed on a mobile phone?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:139
-#: 07a27e0a3550465ca4c67cb6dd2fa4e4
+#: ../../source/docs/software-framework/GPRS/index.rst:139 07a27e0a3550465ca4c67cb6dd2fa4e4
 msgid "直接可以使用 ，手机上看不了哦，是通过串口打印定位信息的"
-msgstr ""
+msgstr "They can be used directly. However, positioning cannot be viewed on a mobile phone; positioning information is printed through the serial port."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:142
-#: 68c5c1b694c040b29e4f9b3a3e7ede42
+#: ../../source/docs/software-framework/GPRS/index.rst:142 68c5c1b694c040b29e4f9b3a3e7ede42
 msgid "A9G支持MQTT的at命令吗？"
-msgstr ""
+msgstr "Does A9G support MQTT AT commands?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:143
-#: ../../source/docs/software-framework/GPRS/index.rst:324
-#: 28c51baaea194b38b8fe3e34dfb8af71 770bd5cbe15943baae31ee986f3eb4f8
+#: ../../source/docs/software-framework/GPRS/index.rst:143 ../../source/docs/software-framework/GPRS/index.rst:324 28c51baaea194b38b8fe3e34dfb8af71 770bd5cbe15943baae31ee986f3eb4f8
 msgid "支持MQTT"
-msgstr ""
+msgstr "MQTT is supported."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:146
-#: 866e43e3b8364120a11d3e756b9c1175
+#: ../../source/docs/software-framework/GPRS/index.rst:146 866e43e3b8364120a11d3e756b9c1175
 msgid "A9开发板支持wifi吗？"
-msgstr ""
+msgstr "Does the A9 development board support Wi-Fi?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:147
-#: 01a00035eeec4bb28b303c81e8f47966
+#: ../../source/docs/software-framework/GPRS/index.rst:147 01a00035eeec4bb28b303c81e8f47966
 msgid "A9是2G模块，不走WI-FI协议"
-msgstr ""
+msgstr "A9 is a 2G module and does not use the Wi-Fi protocol."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:150
-#: eec6603f96114578aadc15a115dad3d1
+#: ../../source/docs/software-framework/GPRS/index.rst:150 eec6603f96114578aadc15a115dad3d1
 msgid "A9Tracker这个软件手机打不开啊"
-msgstr ""
+msgstr "The A9Tracker software cannot be opened on the phone."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:152
-#: fdf80662e94d419d97e6224e9e2a6d09
+#: ../../source/docs/software-framework/GPRS/index.rst:152 fdf80662e94d419d97e6224e9e2a6d09
 msgid "这个是软件和手机版本不兼容的原因，目前这边已经在进行更新，后续会有一个新的APP"
-msgstr ""
+msgstr "This is due to incompatibility between the software and the phone version. We are currently updating it, and a new app will be released later."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:155
-#: 9fef1416bab24bee81f471d4c5b87501
+#: ../../source/docs/software-framework/GPRS/index.rst:155 9fef1416bab24bee81f471d4c5b87501
 msgid "A9G能通过一个串口读取GPS信息和进行AT控制吗？ 只能通过两个串口吗？ 两个串口分别是哪两个？能二次开发吗"
-msgstr ""
+msgstr "Can A9G read GPS information and perform AT control through one serial port? Must two serial ports be used? Which serial ports are they? Can it be secondarily developed?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:156
-#: a75add6661894db08dbc849d19a3da72
+#: ../../source/docs/software-framework/GPRS/index.rst:156 a75add6661894db08dbc849d19a3da72
 msgid "不可以哦 ，只能通过两个串口。一个是AT串口  一个是下载串口  一个是GPS串口，下载串口只是做下载使用，可以二次开发"
-msgstr ""
+msgstr "No. It can only be done through two serial ports. One is the AT serial port, one is the download serial port, and one is the GPS serial port. The download serial port is only for downloading. Secondary development is supported."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:159
-#: 287a59f8d93742d991f90c9b6a649271
+#: ../../source/docs/software-framework/GPRS/index.rst:159 287a59f8d93742d991f90c9b6a649271
 msgid "A9开发板供电可以极限是5.5V吗？5.28会有问题吗"
-msgstr ""
+msgstr "Is the maximum power supply limit of the A9 development board 5.5V? Will 5.28V cause problems?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:160
-#: 354fdede06264685a9e698e4822ec55d
+#: ../../source/docs/software-framework/GPRS/index.rst:160 354fdede06264685a9e698e4822ec55d
 msgid "5V。应该会有哦，因为模块供电范围是3.8V-4.2V，USB是做了降压电路处理"
-msgstr ""
+msgstr "5V. It may cause problems because the module power supply range is 3.8V to 4.2V. The USB port has a step-down circuit."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:163
-#: a5f73e937c5b4b0ebff7a38e000b808f
+#: ../../source/docs/software-framework/GPRS/index.rst:163 a5f73e937c5b4b0ebff7a38e000b808f
 msgid "A9G开发板可以刷NodeMCU 吗"
-msgstr ""
+msgstr "Can the A9G development board flash NodeMCU?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:165
-#: ../../source/docs/software-framework/GPRS/index.rst:252
-#: 51ee8625b35743fc8761d5d14346d84b 6c4f113ddc4a4e33b938a23f74074855
+#: ../../source/docs/software-framework/GPRS/index.rst:165 ../../source/docs/software-framework/GPRS/index.rst:252 51ee8625b35743fc8761d5d14346d84b 6c4f113ddc4a4e33b938a23f74074855
 msgid "不行哦"
-msgstr ""
+msgstr "No."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:168
-#: 7c09c5485a5b4d4293708098a7637355
+#: ../../source/docs/software-framework/GPRS/index.rst:168 7c09c5485a5b4d4293708098a7637355
 msgid "A9G模块能和3.3v的单片机直接相连吗？"
-msgstr ""
+msgstr "Can the A9G module be directly connected to a 3.3V MCU?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:170
-#: eb9dd3cdc2c948058aaf939b01e828e2
+#: ../../source/docs/software-framework/GPRS/index.rst:170 eb9dd3cdc2c948058aaf939b01e828e2
 msgid "除了供电哦，供电要使用4.2V或者5V"
-msgstr ""
+msgstr "Except for power supply. The power supply should use 4.2V or 5V."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:173
-#: 19c7c6541ffa4e42be17824784888182
+#: ../../source/docs/software-framework/GPRS/index.rst:173 19c7c6541ffa4e42be17824784888182
 msgid "A9G开发板的频率，是支持4G?"
-msgstr ""
+msgstr "Does the A9G development board frequency support 4G?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:174
-#: 114beddb2a91420b93809ea6b42f692a
+#: ../../source/docs/software-framework/GPRS/index.rst:174 114beddb2a91420b93809ea6b42f692a
 msgid "不支持4G哦，4G指的是通讯协议，不是指频段"
-msgstr ""
+msgstr "4G is not supported. 4G refers to the communication protocol, not the frequency band."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:178
-#: c17e029370fb4f09b9a3061bf177db56
+#: ../../source/docs/software-framework/GPRS/index.rst:178 c17e029370fb4f09b9a3061bf177db56
 msgid "A9G模块有集成NB协议吗"
-msgstr ""
+msgstr "Does the A9G module integrate the NB protocol?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:179
-#: 27536903b7b84c24a40f094eda08df8e
+#: ../../source/docs/software-framework/GPRS/index.rst:179 27536903b7b84c24a40f094eda08df8e
 msgid "没有集成NB协议"
-msgstr ""
+msgstr "No, it does not integrate the NB protocol."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:182
-#: bc2895726be544739b7ee808062b88c5
+#: ../../source/docs/software-framework/GPRS/index.rst:182 bc2895726be544739b7ee808062b88c5
 msgid "BG01-T输出是串口还是usb"
-msgstr ""
+msgstr "Is the BG01-T output serial or USB?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:183
-#: 063ea897c4e943299a8f024043803ebf
+#: ../../source/docs/software-framework/GPRS/index.rst:183 063ea897c4e943299a8f024043803ebf
 msgid "串口"
-msgstr ""
+msgstr "Serial port."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:186
-#: 91185e4e792d4e54b082eb271e7b0ac0
+#: ../../source/docs/software-framework/GPRS/index.rst:186 91185e4e792d4e54b082eb271e7b0ac0
 msgid "A9G开发板里面的单片机芯片是51的还是stm32的"
-msgstr ""
+msgstr "Is the MCU chip inside the A9G development board a 51 or STM32?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:187
-#: d2ce9c075e244a47ad9f37b740fc36de
+#: ../../source/docs/software-framework/GPRS/index.rst:187 d2ce9c075e244a47ad9f37b740fc36de
 msgid "都不是哦，单片机型号脚RDA8955"
-msgstr ""
+msgstr "Neither. The MCU model is RDA8955."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:190
-#: a4b66ca3e08248a4ae6fed696520e44b
+#: ../../source/docs/software-framework/GPRS/index.rst:190 a4b66ca3e08248a4ae6fed696520e44b
 msgid "有没有可以发短信报文的北斗芯片"
-msgstr ""
+msgstr "Is there a BeiDou chip that can send SMS packets?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:194
-#: c9150a5d9e5e4351a6dd97549bd84db4
+#: ../../source/docs/software-framework/GPRS/index.rst:194 c9150a5d9e5e4351a6dd97549bd84db4
 msgid "A9G的io能承受5V吗"
-msgstr ""
+msgstr "Can the IO pins of A9G tolerate 5V?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:196
-#: 1f0b3e2495054022bc09659161f3c7b6
+#: ../../source/docs/software-framework/GPRS/index.rst:196 1f0b3e2495054022bc09659161f3c7b6
 msgid "不能，只能承受3.3V的电压"
-msgstr ""
+msgstr "No. They can only tolerate 3.3V."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:199
-#: 12d0c3812ef243a6872663f700d20533
+#: ../../source/docs/software-framework/GPRS/index.rst:199 12d0c3812ef243a6872663f700d20533
 msgid "48      \"Bg01可直接当定位器使用吗？"
-msgstr ""
+msgstr "48\tCan BG01 be used directly as a locator?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:200
-#: d427af24ba9840009e7cb0bf8b2e82e9
+#: ../../source/docs/software-framework/GPRS/index.rst:200 d427af24ba9840009e7cb0bf8b2e82e9
 msgid "可以当定位器使用，但我们的模组不是成品，买了不能直接当定位器使用，需要做一定的开发工作"
-msgstr ""
+msgstr "It can be used as a locator, but our module is not a finished product. It cannot be used directly as a locator after purchase; some development work is required."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:203
-#: b28abb8014104a40b55a46c17928e5c5
+#: ../../source/docs/software-framework/GPRS/index.rst:203 b28abb8014104a40b55a46c17928e5c5
 msgid "BG01-T车载怎么安装"
-msgstr ""
+msgstr "How is BG01-T installed in a vehicle?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:204
-#: ed2b484a0ee540c09a59651c838e0224
+#: ../../source/docs/software-framework/GPRS/index.rst:204 ed2b484a0ee540c09a59651c838e0224
 msgid "这个是安装到开发板上的"
-msgstr ""
+msgstr "It is installed on the development board."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:206
-#: 0dfb2aba52d94a14855ed0520c3b04a2
+#: ../../source/docs/software-framework/GPRS/index.rst:206 0dfb2aba52d94a14855ed0520c3b04a2
 msgid "A9开发板的开发环境搭建具体指南链接"
-msgstr ""
+msgstr "Specific guide link for setting up the A9 development board environment"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:207
-#: 8a2ae126469f4ad7963f8b89adeccd80
+#: ../../source/docs/software-framework/GPRS/index.rst:207 8a2ae126469f4ad7963f8b89adeccd80
 msgid "https://blog.csdn.net/xh870189248/article/details/100123432"
-msgstr ""
+msgstr "https://blog.csdn.net/xh870189248/article/details/100123432"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:211
-#: 1d3520e5e89145a9bf27f55c48b87c41
+#: ../../source/docs/software-framework/GPRS/index.rst:211 1d3520e5e89145a9bf27f55c48b87c41
 msgid "有A9G联接阿里云的DEMO么"
-msgstr ""
+msgstr "Is there a demo for A9G connecting to Alibaba Cloud?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:212
-#: a77c7941fb004464906160bba176750e
+#: ../../source/docs/software-framework/GPRS/index.rst:212 a77c7941fb004464906160bba176750e
 msgid "https://github.com/Ai-Thinker-Open/GPRS_C_SDK/tree/master/demo/mqtt"
-msgstr ""
+msgstr "https://github.com/Ai-Thinker-Open/GPRS_C_SDK/tree/master/demo/mqtt"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:215
-#: 1525a5277c5a41598d7bef82d64bf407
+#: ../../source/docs/software-framework/GPRS/index.rst:215 1525a5277c5a41598d7bef82d64bf407
 msgid "A9G开发板 GPS天线能用小型贴片的吗？"
-msgstr ""
+msgstr "Can the A9G development board use a small patch GPS antenna?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:216
-#: cda03fe36fd5466b91bc51eafdc3dde3
+#: ../../source/docs/software-framework/GPRS/index.rst:216 cda03fe36fd5466b91bc51eafdc3dde3
 msgid "可以的哦，只要是GPS天线基本没什么问题"
-msgstr ""
+msgstr "Yes. As long as it is a GPS antenna, there is basically no problem."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:219
-#: 9650fac79beb401486090163b95f1b49
+#: ../../source/docs/software-framework/GPRS/index.rst:219 9650fac79beb401486090163b95f1b49
 msgid "A9G开发板 stc12系列适用么 ？用于开发单片机"
-msgstr ""
+msgstr "Is the A9G development board suitable for STC12 series MCU?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:220
-#: 1335a7e2805d46739a3aad0dd72cb567
+#: ../../source/docs/software-framework/GPRS/index.rst:220 1335a7e2805d46739a3aad0dd72cb567
 msgid "\"适用，只要能用串口功能都适用"
-msgstr ""
+msgstr "Yes. As long as serial port functionality is available, it is suitable."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:223
-#: 4cf1b4f90c554efb89bf839154ef3219
+#: ../../source/docs/software-framework/GPRS/index.rst:223 4cf1b4f90c554efb89bf839154ef3219
 msgid "\"请问下哪款产品可以实现移动网络下的数据发送和接收？"
-msgstr ""
+msgstr "Which product can transmit and receive data over a mobile network?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:227
-#: 3feda5ef82a94f98a057e26ea862513f
+#: ../../source/docs/software-framework/GPRS/index.rst:227 3feda5ef82a94f98a057e26ea862513f
 msgid "A9G开发板有对应接口的电池吗？"
-msgstr ""
+msgstr "Does the A9G development board have a battery with a corresponding connector?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:228
-#: f37bbd7ef17b4635b4dda922e5c1e541
+#: ../../source/docs/software-framework/GPRS/index.rst:228 f37bbd7ef17b4635b4dda922e5c1e541
 msgid "没有哦，我们都是使用CP2102进行供电"
-msgstr ""
+msgstr "No. We all use CP2102 for power supply."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:231
-#: d34fafb6d9f443a1bba7aa6bea4bba43
+#: ../../source/docs/software-framework/GPRS/index.rst:231 d34fafb6d9f443a1bba7aa6bea4bba43
 msgid "A9这个模块支持固件编程吗？"
-msgstr ""
+msgstr "Does the A9 module support firmware programming?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:232
-#: ea6079323da148e493ad06743f06ed39
+#: ../../source/docs/software-framework/GPRS/index.rst:232 ea6079323da148e493ad06743f06ed39
 msgid "支持固件编程"
-msgstr ""
+msgstr "Yes, firmware programming is supported."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:235
-#: 0407d2c047594ac2a524922d21a39ba5
+#: ../../source/docs/software-framework/GPRS/index.rst:235 0407d2c047594ac2a524922d21a39ba5
 msgid "A7可以用什么替代"
-msgstr ""
+msgstr "What can replace A7?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:239
-#: 3d3411ac3ee243c889cf450c041b533f
+#: ../../source/docs/software-framework/GPRS/index.rst:239 3d3411ac3ee243c889cf450c041b533f
 msgid "A9G开发板可以支持esp 32摄像头录像吗？"
-msgstr ""
+msgstr "Can the A9G development board support ESP32 camera recording?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:240
-#: 09d993d483df40d399de30c23779d98f
+#: ../../source/docs/software-framework/GPRS/index.rst:240 09d993d483df40d399de30c23779d98f
 msgid "不支持，A9G走的是2G网络  摄像头走的是WIFI"
-msgstr ""
+msgstr "No. A9G uses a 2G network, while the camera uses Wi-Fi."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:243
-#: cea8dfab9555485296c3aa02e1a35b76
+#: ../../source/docs/software-framework/GPRS/index.rst:243 cea8dfab9555485296c3aa02e1a35b76
 msgid "A9G 国外的 2G 网络能用吗"
-msgstr ""
+msgstr "Can A9G be used on overseas 2G networks?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:244
-#: 171c59620fdd44828bd616ba22985637
+#: ../../source/docs/software-framework/GPRS/index.rst:244 171c59620fdd44828bd616ba22985637
 msgid "可以，只要是2G网络都支持"
-msgstr ""
+msgstr "Yes, as long as it is a 2G network."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:247
-#: 835eaaf6c1c6452bb284d98b07ecf4da
+#: ../../source/docs/software-framework/GPRS/index.rst:247 835eaaf6c1c6452bb284d98b07ecf4da
 msgid "A9G开发板可以改变gps定位？"
-msgstr ""
+msgstr "Can the A9G development board change GPS positioning?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:248
-#: be7c674525254b9292b76d44d68aea9c
+#: ../../source/docs/software-framework/GPRS/index.rst:248 be7c674525254b9292b76d44d68aea9c
 msgid "不行哦，是获取GPS定位，不是更改GPS定位"
-msgstr ""
+msgstr "No. It obtains GPS positioning; it does not modify GPS positioning."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:251
-#: c7da28b1b1e241188dae7a8a6802e89e
+#: ../../source/docs/software-framework/GPRS/index.rst:251 c7da28b1b1e241188dae7a8a6802e89e
 msgid "这个流量卡，可以用在GPS定位？ 放在车辆里的"
-msgstr ""
+msgstr "Can this data SIM card be used for GPS positioning in a vehicle?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:255
-#: 872936d4c024402f86be39306454c5bd
+#: ../../source/docs/software-framework/GPRS/index.rst:255 872936d4c024402f86be39306454c5bd
 msgid "三种哪种定位好 ？定位模块双模的，是gps加北斗好，还是gps加格格纳斯好"
-msgstr ""
+msgstr "Which positioning option is better among the three? For dual-mode positioning modules, is GPS + BeiDou better, or GPS + GLONASS?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:256
-#: f1af6256806b4e39beea230f29706075
+#: ../../source/docs/software-framework/GPRS/index.rst:256 f1af6256806b4e39beea230f29706075
 msgid "GPS+北斗"
-msgstr ""
+msgstr "GPS + BeiDou."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:259
-#: 6cdbec269b774b6596d60bb1bf8c6918
+#: ../../source/docs/software-framework/GPRS/index.rst:259 6cdbec269b774b6596d60bb1bf8c6918
 msgid "A9开发板是能够用串口控制直接用gprs上网  然后发短信的吧？"
-msgstr ""
+msgstr "Can the A9 development board be controlled through the serial port to directly access the Internet via GPRS and send SMS?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:263
-#: f1cfc2ba2f0c482990c22f624ba5fab7
+#: ../../source/docs/software-framework/GPRS/index.rst:263 f1cfc2ba2f0c482990c22f624ba5fab7
 msgid "\"A9模块有集成单片机在里面吗？"
-msgstr ""
+msgstr "Does the A9 module have an integrated MCU inside?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:265
-#: 2ad21a7c38f6479d8823c35397d03f45
+#: ../../source/docs/software-framework/GPRS/index.rst:265 2ad21a7c38f6479d8823c35397d03f45
 msgid "A9本身就可以当单片机使用"
-msgstr ""
+msgstr "A9 itself can be used as a MCU."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:268
-#: a074f0402f8247d7b99e437ac6bffe86
+#: ../../source/docs/software-framework/GPRS/index.rst:268 a074f0402f8247d7b99e437ac6bffe86
 msgid "想完成一个可以通过GPRS将GPS数据上传到特定服务器的操作。A9G开发板可以实现吗？"
-msgstr ""
+msgstr "I want to upload GPS data to a specific server via GPRS. Can the A9G development board do this?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:269
-#: 9b493ad3624f436996a7db1c2f66f840
+#: ../../source/docs/software-framework/GPRS/index.rst:269 9b493ad3624f436996a7db1c2f66f840
 msgid "可以的，https://blog.csdn.net/Boantong_/article/details/104654508"
-msgstr ""
+msgstr "Yes. https://blog.csdn.net/Boantong_/article/details/104654508"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:272
-#: bae49c4b762b4a5e90611c32c3815d80
+#: ../../source/docs/software-framework/GPRS/index.rst:272 bae49c4b762b4a5e90611c32c3815d80
 msgid "\"A9G开发板请问支持用arduino开发吗"
-msgstr ""
+msgstr "Does the A9G development board support Arduino development?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:273
-#: ../../source/docs/software-framework/GPRS/index.rst:328
-#: ../../source/docs/software-framework/GPRS/index.rst:348
-#: ../../source/docs/software-framework/GPRS/index.rst:372
-#: ../../source/docs/software-framework/GPRS/index.rst:380
-#: ../../source/docs/software-framework/GPRS/index.rst:511
-#: ../../source/docs/software-framework/GPRS/index.rst:571
-#: 029017a66b31423399f032acb4e44ef9 4f14209dde4d46358fddea6a1d3b3609
-#: 6fc8cd96a19d483085978018f075f007 ae5d668354464b738577bdf56160d7ff
-#: d02b557d9744422684c01da011491a9d d806a9765e1d44b79cf572e8c8051250
-#: e059ffe669ef49bd971a8c07242229d8
+#: ../../source/docs/software-framework/GPRS/index.rst:273 ../../source/docs/software-framework/GPRS/index.rst:328 ../../source/docs/software-framework/GPRS/index.rst:348 ../../source/docs/software-framework/GPRS/index.rst:372 ../../source/docs/software-framework/GPRS/index.rst:380 ../../source/docs/software-framework/GPRS/index.rst:511 ../../source/docs/software-framework/GPRS/index.rst:571 029017a66b31423399f032acb4e44ef9 4f14209dde4d46358fddea6a1d3b3609 6fc8cd96a19d483085978018f075f007 ae5d668354464b738577bdf56160d7ff d02b557d9744422684c01da011491a9d d806a9765e1d44b79cf572e8c8051250 e059ffe669ef49bd971a8c07242229d8
 msgid "不支持"
-msgstr ""
+msgstr "No."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:276
-#: 2c3d102472674a35bad8caf1544332a3
+#: ../../source/docs/software-framework/GPRS/index.rst:276 2c3d102472674a35bad8caf1544332a3
 msgid "A9G CSDTK教程连接有吗"
-msgstr ""
+msgstr "Is there a link to the A9G CSDTK tutorial?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:277
-#: 844245d0f57b4689853eb0e2605369b7
+#: ../../source/docs/software-framework/GPRS/index.rst:277 844245d0f57b4689853eb0e2605369b7
 msgid "https://blog.csdn.net/Boantong_/article/details/104444592"
-msgstr ""
+msgstr "https://blog.csdn.net/Boantong_/article/details/104444592"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:280
-#: 56a2afb994d24552af13d391c6dbc0f0
+#: ../../source/docs/software-framework/GPRS/index.rst:280 56a2afb994d24552af13d391c6dbc0f0
 msgid "A9模块硬件连接方式是怎么样的 ？可以连接STM32F767吗"
-msgstr ""
+msgstr "What is the hardware connection method for the A9 module? Can it connect to STM32F767?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:281
-#: f2a356c061e341ed9fff3686a9b79b0d
+#: ../../source/docs/software-framework/GPRS/index.rst:281 f2a356c061e341ed9fff3686a9b79b0d
 msgid "通过串口，可以连接，具体您可以参考下我们官网的资料，https://docs.ai-thinker.com/gprs"
-msgstr ""
+msgstr "Through the serial port. It can be connected. Please refer to our official documentation: https://docs.ai-thinker.com/gprs"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:284
-#: eec88659dad440019715d9b5b86fe95b
+#: ../../source/docs/software-framework/GPRS/index.rst:284 eec88659dad440019715d9b5b86fe95b
 msgid "CA-01模块要用什么类型的流量卡？"
-msgstr ""
+msgstr "What type of data SIM card is required for the CA-01 module?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:285
-#: 08d9235be95b40889e2632efe02f4114
+#: ../../source/docs/software-framework/GPRS/index.rst:285 08d9235be95b40889e2632efe02f4114
 msgid "用普通的4G流量卡就行"
-msgstr ""
+msgstr "An ordinary 4G data SIM card is fine."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:288
-#: 8d8d43bd01ed4654909cdcf21c10032e
+#: ../../source/docs/software-framework/GPRS/index.rst:288 8d8d43bd01ed4654909cdcf21c10032e
 msgid "A9G和A9模块是不是引脚通用的？"
-msgstr ""
+msgstr "Are the A9G and A9 module pins compatible?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:292
-#: 2ed7c88221d541d7bed3789bb6c5a675
+#: ../../source/docs/software-framework/GPRS/index.rst:292 2ed7c88221d541d7bed3789bb6c5a675
 msgid "A9G开发板可用usb连接电脑了吧"
-msgstr ""
+msgstr "Can the A9G development board be connected to a computer via USB?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:293
-#: 68fdcc13a97e491d8f7a5e8bb0560b51
+#: ../../source/docs/software-framework/GPRS/index.rst:293 68fdcc13a97e491d8f7a5e8bb0560b51
 msgid "USB口只是供电功能，通讯需要购买CP2102"
-msgstr ""
+msgstr "The USB port is only for power supply. For communication, you need to purchase a CP2102."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:296
-#: 8c87e579719040de95a29195aa3f628d
+#: ../../source/docs/software-framework/GPRS/index.rst:296 8c87e579719040de95a29195aa3f628d
 msgid "A9G开发板定位信息可以根据基站定位吧？"
-msgstr ""
+msgstr "Can the positioning information of the A9G development board be based on base-station positioning?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:297
-#: d0b73b091325441ea8ef1ad65f497d85
+#: ../../source/docs/software-framework/GPRS/index.rst:297 d0b73b091325441ea8ef1ad65f497d85
 msgid "可以，有基站定位和GPS定位，GPS定位精度更高"
-msgstr ""
+msgstr "Yes. It supports base-station positioning and GPS positioning. GPS positioning is more accurate."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:301
-#: 55321d65f433471798ee003362fdd32e
+#: ../../source/docs/software-framework/GPRS/index.rst:301 55321d65f433471798ee003362fdd32e
 msgid "A9G能发短信吗"
-msgstr ""
+msgstr "Can A9G send SMS?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:305
-#: fcb643768e52406eb286907cbfae8b9e
+#: ../../source/docs/software-framework/GPRS/index.rst:305 fcb643768e52406eb286907cbfae8b9e
 msgid "物联卡欧创的插卡版能用？"
-msgstr ""
+msgstr "Can the OuChuang plug-in IoT SIM card be used?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:307
-#: 68c8a2a5db65410da25434a000cd1875
+#: ../../source/docs/software-framework/GPRS/index.rst:307 68c8a2a5db65410da25434a000cd1875
 msgid "支持2G通讯协议都可以使用"
-msgstr ""
+msgstr "Any card that supports the 2G communication protocol can be used."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:310
-#: bec8ea1391d64b3688250d8da2f63e48
+#: ../../source/docs/software-framework/GPRS/index.rst:310 bec8ea1391d64b3688250d8da2f63e48
 msgid "A9G开发板二次开发的资料"
-msgstr ""
+msgstr "A9G development board secondary development materials"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:311
-#: 621d9e409269485da495b8edb10db539
+#: ../../source/docs/software-framework/GPRS/index.rst:311 621d9e409269485da495b8edb10db539
 msgid "github.com/Ai-Thinker-Open/GPRS_C_SDK"
-msgstr ""
+msgstr "github.com/Ai-Thinker-Open/GPRS_C_SDK"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:314
-#: 04bc15f4b5ee4fd0882665cb68a5ca39
+#: ../../source/docs/software-framework/GPRS/index.rst:314 04bc15f4b5ee4fd0882665cb68a5ca39
 msgid "A9G 模块能不能用socket通信"
-msgstr ""
+msgstr "Can the A9G module use socket communication?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:315
-#: 1f091699e2c142f79217ae9fe4a0c1fe
+#: ../../source/docs/software-framework/GPRS/index.rst:315 1f091699e2c142f79217ae9fe4a0c1fe
 msgid "可以用socket通信"
-msgstr ""
+msgstr "Yes, socket communication can be used."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:319
-#: f2af9bae5ac843e38b713f24031bd1d3
+#: ../../source/docs/software-framework/GPRS/index.rst:319 f2af9bae5ac843e38b713f24031bd1d3
 msgid "只有A9G开发板能实现GPS定位吗 ？单独的开发板，没有加外设也能实现GPS定位吗"
-msgstr ""
+msgstr "Is only the A9G development board able to implement GPS positioning? Can a standalone development board without peripherals implement GPS positioning?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:320
-#: 7c9b92c2db18437cbd6d49d442bb1258
+#: ../../source/docs/software-framework/GPRS/index.rst:320 7c9b92c2db18437cbd6d49d442bb1258
 msgid "GPS定位，BG01和BG02也可以哈。可以的，它是通过搜星的"
-msgstr ""
+msgstr "BG01 and BG02 can also perform GPS positioning. Yes, it can; it searches for satellites."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:323
-#: 65ebb5ef70d14c6fab58d7da5cc0b6f8
+#: ../../source/docs/software-framework/GPRS/index.rst:323 65ebb5ef70d14c6fab58d7da5cc0b6f8
 msgid "A9开发板 这个支持mqtt嘛？"
-msgstr ""
+msgstr "Does the A9 development board support MQTT?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:327
-#: 4f05808fa6f34ee6abc24e95cc8157b9
+#: ../../source/docs/software-framework/GPRS/index.rst:327 4f05808fa6f34ee6abc24e95cc8157b9
 msgid "\"A9G   怎么连FTP呢 ？"
-msgstr ""
+msgstr "How does A9G connect to FTP?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:331
-#: 8e1ac7ab37c04ae588adaf6c9af1fbbc
+#: ../../source/docs/software-framework/GPRS/index.rst:331 8e1ac7ab37c04ae588adaf6c9af1fbbc
 msgid "A9G内置单片机吗"
-msgstr ""
+msgstr "Does A9G have a built-in MCU?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:332
-#: b43876c802a74709a83285c9b83bcce6
+#: ../../source/docs/software-framework/GPRS/index.rst:332 b43876c802a74709a83285c9b83bcce6
 msgid "不内置单片机，但是模块内部芯片支持二次开发"
-msgstr ""
+msgstr "It does not have a built-in MCU, but the internal chip of the module supports secondary development."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:335
-#: 1ccec621a7984403a49d5b7a356f508d
+#: ../../source/docs/software-framework/GPRS/index.rst:335 1ccec621a7984403a49d5b7a356f508d
 msgid "a9g可以用充电宝供电吗 ？直接用CP2102插充电宝供电可以吗"
-msgstr ""
+msgstr "Can A9G be powered by a power bank? Can CP2102 be directly plugged into a power bank for power supply?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:336
-#: 32b75e6f71f6442cad54f7e90d2c7ff5
+#: ../../source/docs/software-framework/GPRS/index.rst:336 32b75e6f71f6442cad54f7e90d2c7ff5
 msgid "可以使用充电宝给模块的VUSB引脚供5V的电。可以的"
-msgstr ""
+msgstr "You can use a power bank to supply 5V to the module's VUSB pin."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:339
-#: f47dbf0ad80d47cb8902aadd28e15f3f
+#: ../../source/docs/software-framework/GPRS/index.rst:339 f47dbf0ad80d47cb8902aadd28e15f3f
 msgid "A9模组，可以连接485吗 ？我这边传感器采集过来的数据是通过485接口出来的，我想用A9接收这些数据上传到云端"
-msgstr ""
+msgstr "Can the A9 module connect to 485? The data collected from my sensor is output through an 485 interface, and I want A9 to receive the data and upload it to the cloud."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:340
-#: c50782d56958472a94c1cd122bdf95d3
+#: ../../source/docs/software-framework/GPRS/index.rst:340 c50782d56958472a94c1cd122bdf95d3
 msgid "需要转电平，将485电平转换成TTL电平才能成功接收"
-msgstr ""
+msgstr "Level conversion is required. 485 levels must be converted to TTL levels for successful reception."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:343
-#: c30b97d3d5dd4385a0266f77edca450f
+#: ../../source/docs/software-framework/GPRS/index.rst:343 c30b97d3d5dd4385a0266f77edca450f
 msgid "做一对对讲机，A9G开发板这个可以不"
-msgstr ""
+msgstr "Can the A9G development board be used to make a pair of walkie-talkies?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:344
-#: 9460efe42b7f424abc3d2eb80f60a18f
+#: ../../source/docs/software-framework/GPRS/index.rst:344 9460efe42b7f424abc3d2eb80f60a18f
 msgid "\"可以做对讲机"
-msgstr ""
+msgstr "Yes, it can be used to make walkie-talkies."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:347
-#: 5190ae430e914f0e8d79943c28f59685
+#: ../../source/docs/software-framework/GPRS/index.rst:347 5190ae430e914f0e8d79943c28f59685
 msgid "A9/A9G 支不支持LUA编程"
-msgstr ""
+msgstr "Do A9/A9G support Lua programming?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:351
-#: 937e88d3f9584ba0b0f11ad76351a19d
+#: ../../source/docs/software-framework/GPRS/index.rst:351 937e88d3f9584ba0b0f11ad76351a19d
 msgid "a9g 的linux环境怎么搭建了"
-msgstr ""
+msgstr "How do I set up the Linux environment for A9G?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:352
-#: 5cb4797e9a5044bd88ef225f33e29105
-msgid ""
-"https://blog.csdn.net/Boantong_/article/details/104444592  "
-"，目前liunx环境有点问题，建议您先使用window环境"
-msgstr ""
+#: ../../source/docs/software-framework/GPRS/index.rst:352 5cb4797e9a5044bd88ef225f33e29105
+msgid "https://blog.csdn.net/Boantong_/article/details/104444592  ，目前liunx环境有点问题，建议您先使用window环境"
+msgstr "https://blog.csdn.net/Boantong_/article/details/104444592. Currently, there are some issues with the Linux environment. It is recommended to use the Windows environment first."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:355
-#: 51345e65250e4438975e34513579b7f6
+#: ../../source/docs/software-framework/GPRS/index.rst:355 51345e65250e4438975e34513579b7f6
 msgid "A9G能直接和单片机连接吗"
-msgstr ""
+msgstr "Can A9G be connected directly to a MCU?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:356
-#: 6fb0aceef7b94a8da2f20f0f89af343c
+#: ../../source/docs/software-framework/GPRS/index.rst:356 6fb0aceef7b94a8da2f20f0f89af343c
 msgid "可以的，通过串口去连接"
-msgstr ""
+msgstr "Yes, via the serial port."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:359
-#: ed8b46c5b795487584ac51f12adda1ae
+#: ../../source/docs/software-framework/GPRS/index.rst:359 ed8b46c5b795487584ac51f12adda1ae
 msgid "A9G开发板是直接通电源他就将定位信息上传吗？"
-msgstr ""
+msgstr "After powering on the A9G development board, will it automatically upload positioning information?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:360
-#: a2947af62a9d48ca999d9537e8c3b00a
+#: ../../source/docs/software-framework/GPRS/index.rst:360 a2947af62a9d48ca999d9537e8c3b00a
 msgid "设置相关的定位指令就可以输出定位信息"
-msgstr ""
+msgstr "It can output positioning information after setting the relevant positioning commands."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:363
-#: ba1da78d69654a4eb9e058c8a49b0ef8
+#: ../../source/docs/software-framework/GPRS/index.rst:363 ba1da78d69654a4eb9e058c8a49b0ef8
 msgid "物联卡是Nano SIM卡？"
-msgstr ""
+msgstr "Is the IoT SIM card a Nano SIM card?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:367
-#: 7f7f5ea05dec4ff0aa4856a9d669b361
+#: ../../source/docs/software-framework/GPRS/index.rst:367 7f7f5ea05dec4ff0aa4856a9d669b361
 msgid "gps天线是有源还是无源"
-msgstr ""
+msgstr "Is the GPS antenna active or passive?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:368
-#: 6a912c9a5f8e45d1ac0bae7a92ddf1fd
+#: ../../source/docs/software-framework/GPRS/index.rst:368 6a912c9a5f8e45d1ac0bae7a92ddf1fd
 msgid "\"有源天线"
-msgstr ""
+msgstr "Active antenna."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:371
-#: 5af53bf36b9c4079b94dd6f77f98c341
+#: ../../source/docs/software-framework/GPRS/index.rst:371 5af53bf36b9c4079b94dd6f77f98c341
 msgid "采用A9模块，在国外是否支持基站定位呢？"
-msgstr ""
+msgstr "Does the A9 module support base-station positioning overseas?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:375
-#: 2cf415abdf5448ebba3df51a508c2c02
+#: ../../source/docs/software-framework/GPRS/index.rst:375 2cf415abdf5448ebba3df51a508c2c02
 msgid "gps定位儿童防丢模块，有什么推荐的?"
-msgstr ""
+msgstr "What do you recommend for a GPS positioning anti-lost module for children??"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:379
-#: 033cf23c62694e9dac65cfc11baa2459
+#: ../../source/docs/software-framework/GPRS/index.rst:379 033cf23c62694e9dac65cfc11baa2459
 msgid "A9G支持lua吗"
-msgstr ""
+msgstr "Does A9G support Lua?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:383
-#: f326e09235fa495ea8305cd03cbd7e14
+#: ../../source/docs/software-framework/GPRS/index.rst:383 f326e09235fa495ea8305cd03cbd7e14
 msgid "A9开发板的GPIO兼容3.3v电压吗"
-msgstr ""
+msgstr "Are the GPIO pins of the A9 development board compatible with 3.3V?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:384
-#: b5ec2d63e4b34c09b12af7bf49c5903f
+#: ../../source/docs/software-framework/GPRS/index.rst:384 b5ec2d63e4b34c09b12af7bf49c5903f
 msgid "兼容"
-msgstr ""
+msgstr "Yes."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:387
-#: 19fce0e74aeb4e19a0beaed01684c870
+#: ../../source/docs/software-framework/GPRS/index.rst:387 19fce0e74aeb4e19a0beaed01684c870
 msgid "请问Ａ9模块，额定供电电流是多少"
-msgstr ""
+msgstr "What is the rated power supply current of the A9 module?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:388
-#: 254adc164ed0473289be69895bd1bd16
+#: ../../source/docs/software-framework/GPRS/index.rst:388 254adc164ed0473289be69895bd1bd16
 msgid "2A"
-msgstr ""
+msgstr "2A."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:391
-#: 2cfed120b27a4deea8c4f44d1f2f7858
+#: ../../source/docs/software-framework/GPRS/index.rst:391 2cfed120b27a4deea8c4f44d1f2f7858
 msgid "A9模块可以不要TF卡吗"
-msgstr ""
+msgstr "Can the A9 module be used without a TF card?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:392
-#: 19684bc32a9546e7a37541cdad3f8587
+#: ../../source/docs/software-framework/GPRS/index.rst:392 19684bc32a9546e7a37541cdad3f8587
 msgid "可以不需要TF卡"
-msgstr ""
+msgstr "Yes, a TF card is not required."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:395
-#: a492b0ca3be44d9a9eadaab34d8202fd
+#: ../../source/docs/software-framework/GPRS/index.rst:395 a492b0ca3be44d9a9eadaab34d8202fd
 msgid "想开发一个智能开关，要求可以读电压电流及电量的，请问有什么无线解决方案的模块可以推荐一下啊"
-msgstr ""
+msgstr "I want to develop a smart switch that can read voltage, current, and power consumption. What wireless solution module can you recommend?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:399
-#: 61ab4fd99d934839b8c6d2e46e83f26e
+#: ../../source/docs/software-framework/GPRS/index.rst:399 61ab4fd99d934839b8c6d2e46e83f26e
 msgid "A9G这个如果不插卡，调到GPS定位模式，是否输出GPS信息"
-msgstr ""
+msgstr "If A9G is not inserted with a SIM card and is switched to GPS positioning mode, will it output GPS information?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:400
-#: 56bc6bc2179a42f7862ed1852ddbd018
+#: ../../source/docs/software-framework/GPRS/index.rst:400 56bc6bc2179a42f7862ed1852ddbd018
 msgid "输出的，GPS定位信息跟你插不插卡没关系"
-msgstr ""
+msgstr "Yes. GPS positioning information has nothing to do with whether a SIM card is inserted."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:403
-#: d8827368f2e14cfaa4c596a3fc041b61
+#: ../../source/docs/software-framework/GPRS/index.rst:403 d8827368f2e14cfaa4c596a3fc041b61
 msgid "A9G 模块工作电流是多少"
-msgstr ""
+msgstr "What is the operating current of the A9G module?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:404
-#: e2481b3b7bf349bca5eaa43d412f80a1
+#: ../../source/docs/software-framework/GPRS/index.rst:404 e2481b3b7bf349bca5eaa43d412f80a1
 msgid "工作电压3.8V-4.2V,建议4V供电"
-msgstr ""
+msgstr "Operating voltage is 3.8V to 4.2V. A 4V power supply is recommended."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:407
-#: b637ca01d32e41ed9cb0a4617d988d32
+#: ../../source/docs/software-framework/GPRS/index.rst:407 b637ca01d32e41ed9cb0a4617d988d32
 msgid "A9G的板子，有没有提供类似替换的函数？函数名叫什么名字？"
-msgstr ""
+msgstr "Does the A9G board provide a function similar to string replacement? What is the function name?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:408
-#: d8fa56c0fdb14664a7aed3481bced60c
+#: ../../source/docs/software-framework/GPRS/index.rst:408 d8fa56c0fdb14664a7aed3481bced60c
 msgid "有的，sprintf"
-msgstr ""
+msgstr "Yes, sprintf."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:411
-#: 8e5c5e590544447683597c72e165e825
+#: ../../source/docs/software-framework/GPRS/index.rst:411 8e5c5e590544447683597c72e165e825
 msgid "A9模组里面是自带看门狗吗"
-msgstr ""
+msgstr "Does the A9 module have a built-in watchdog?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:412
-#: 7b7846461d16466cbbb2d0521c590d47
+#: ../../source/docs/software-framework/GPRS/index.rst:412 7b7846461d16466cbbb2d0521c590d47
 msgid "自带看门狗，您可以查看我们的SDK里面的示例"
-msgstr ""
+msgstr "Yes, it has a built-in watchdog. You can check the examples in our SDK."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:414
-#: 2c0063b1c83b4e20b8e7f207b7a2a3b5
+#: ../../source/docs/software-framework/GPRS/index.rst:414 2c0063b1c83b4e20b8e7f207b7a2a3b5
 msgid "AT的指令是由另一台電腦經由RS232的方式下AT指令字串給A9G, 是這樣嗎?"
-msgstr ""
+msgstr "Are AT commands sent from another computer to A9G via RS232 as AT command strings?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:415
-#: fdba0d45e43145f28b050d0f795eeb49
+#: ../../source/docs/software-framework/GPRS/index.rst:415 fdba0d45e43145f28b050d0f795eeb49
 msgid "不是，它是通过串口发送AT指令"
-msgstr ""
+msgstr "No. They are sent through the serial port."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:418
-#: 0312bed103cf4c04b60302d1297d7b2a
+#: ../../source/docs/software-framework/GPRS/index.rst:418 0312bed103cf4c04b60302d1297d7b2a
 msgid "A9G开发板需要刷系统嘛"
-msgstr ""
+msgstr "Does the A9G development board need to flash a system?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:419
-#: a49fed91cdf04aad89976b1077f43484
+#: ../../source/docs/software-framework/GPRS/index.rst:419 a49fed91cdf04aad89976b1077f43484
 msgid "不需要刷系统"
-msgstr ""
+msgstr "No system flashing is required."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:422
-#: 634168f8b8f04fbf885462ccada96c59
+#: ../../source/docs/software-framework/GPRS/index.rst:422 634168f8b8f04fbf885462ccada96c59
 msgid "A9模块只要用4g的卡就行？"
-msgstr ""
+msgstr "Can the A9 module use any 4G SIM card?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:423
-#: 70e5ad91bb494b569d14758772495d11
+#: ../../source/docs/software-framework/GPRS/index.rst:423 70e5ad91bb494b569d14758772495d11
 msgid "可以用移动运营商的电话卡，但是走的还是2G协议"
-msgstr ""
+msgstr "It can use a China Mobile operator phone card, but it still uses the 2G protocol."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:426
-#: 6e921649beec4464be14bbc9325e02ee
+#: ../../source/docs/software-framework/GPRS/index.rst:426 6e921649beec4464be14bbc9325e02ee
 msgid "物联卡可定位吗"
-msgstr ""
+msgstr "Can an IoT SIM card be used for positioning?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:427
-#: 8176dbf2786348e4b937251d0b40b7fb
+#: ../../source/docs/software-framework/GPRS/index.rst:427 8176dbf2786348e4b937251d0b40b7fb
 msgid "基站定位是可以的，GPS定位就是使用GPS模块的功能"
-msgstr ""
+msgstr "Base-station positioning is possible. GPS positioning uses the GPS module function."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:430
-#: 4bd505764d0640748b905acc511c10d2
+#: ../../source/docs/software-framework/GPRS/index.rst:430 4bd505764d0640748b905acc511c10d2
 msgid "A9开发板可以用ardunio开发吗"
-msgstr ""
+msgstr "Can the A9 development board be developed using Arduino?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:431
-#: ddecd5d9c6e54dc29a545a16bdd4401c
+#: ../../source/docs/software-framework/GPRS/index.rst:431 ddecd5d9c6e54dc29a545a16bdd4401c
 msgid "\"A9开发板不支持arduino开发"
-msgstr ""
+msgstr "The A9 development board does not support Arduino development."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:434
-#: 83f4394ef766435fbb708ddf4a633270
+#: ../../source/docs/software-framework/GPRS/index.rst:434 83f4394ef766435fbb708ddf4a633270
 msgid "A9G 支持基站定位么 ？精度多少"
-msgstr ""
+msgstr "Does A9G support base-station positioning? What is the accuracy?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:435
-#: 133ab187562e4bd0a5e200a63f8aea86
+#: ../../source/docs/software-framework/GPRS/index.rst:435 133ab187562e4bd0a5e200a63f8aea86
 msgid "支持基站定位，精度是500米"
-msgstr ""
+msgstr "Yes. Base-station positioning accuracy is 500m."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:438
-#: 1076ece14be041a98b160fc41227dec3
+#: ../../source/docs/software-framework/GPRS/index.rst:438 1076ece14be041a98b160fc41227dec3
 msgid "Stm32可以用A9g连接onenet吗"
-msgstr ""
+msgstr "Can STM32 use A9G to connect to OneNET?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:439
-#: 1afc3024d46a46468d63c893bba24fc7
+#: ../../source/docs/software-framework/GPRS/index.rst:439 1afc3024d46a46468d63c893bba24fc7
 msgid "可以使用"
-msgstr ""
+msgstr "Yes."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:441
-#: d04d6c234fa5499ebcdc4b62071987ae
+#: ../../source/docs/software-framework/GPRS/index.rst:441 d04d6c234fa5499ebcdc4b62071987ae
 msgid "A9G开发板的主控芯片是STM32的吗"
-msgstr ""
+msgstr "Is the main control chip of the A9G development board STM32?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:442
-#: f2a289ff3e3b447a9785f35a293a842c
+#: ../../source/docs/software-framework/GPRS/index.rst:442 f2a289ff3e3b447a9785f35a293a842c
 msgid "A9G开发板主控芯片是RDA8955"
-msgstr ""
+msgstr "The main control chip of the A9G development board is RDA8955."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:445
-#: 9113efdb7a4642ea8ed1c6267019caf1
+#: ../../source/docs/software-framework/GPRS/index.rst:445 9113efdb7a4642ea8ed1c6267019caf1
 msgid "A9G开发板接stm32需要cp2102吗"
-msgstr ""
+msgstr "Does connecting the A9G development board to STM32 require CP2102?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:446
-#: 3e096f0049484710a11be03fee417327
+#: ../../source/docs/software-framework/GPRS/index.rst:446 3e096f0049484710a11be03fee417327
 msgid "不需要，直接用STM32的串口接A9G开发板的串口就可以"
-msgstr ""
+msgstr "No. Just connect the STM32 serial port directly to the serial port of the A9G development board."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:449
-#: 5f16136cea15459aa6f2b521de0a0326
+#: ../../source/docs/software-framework/GPRS/index.rst:449 5f16136cea15459aa6f2b521de0a0326
 msgid "A9和新出的4G模块，那个功耗小？"
-msgstr ""
+msgstr "Which consumes less power, A9 or the new 4G module?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:450
-#: 6f854207e18345bcbdfedaf0523ccf6b
+#: ../../source/docs/software-framework/GPRS/index.rst:450 6f854207e18345bcbdfedaf0523ccf6b
 msgid "A9"
-msgstr ""
+msgstr "A9."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:453
-#: 897d253722d344d9bce9027879b4936f
+#: ../../source/docs/software-framework/GPRS/index.rst:453 897d253722d344d9bce9027879b4936f
 msgid "A9G开发板串口支持3.3V电平吗"
-msgstr ""
+msgstr "Does the A9G development board serial port support 3.3V levels?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:457
-#: 50d73a56653549fab91965940162bae6
+#: ../../source/docs/software-framework/GPRS/index.rst:457 50d73a56653549fab91965940162bae6
 msgid "A9G开发板是不是插卡就可以用了"
-msgstr ""
+msgstr "Can the A9G development board be used just by inserting a SIM card?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:458
-#: aea16078a81b47caa160daa70ea21627
+#: ../../source/docs/software-framework/GPRS/index.rst:458 aea16078a81b47caa160daa70ea21627
 msgid "插卡通过串口发送AT指令"
-msgstr ""
+msgstr "Insert the SIM card and send AT commands through the serial port."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:461
-#: cc5ddcf9da204fd7aef5a4b9b679b55c
+#: ../../source/docs/software-framework/GPRS/index.rst:461 cc5ddcf9da204fd7aef5a4b9b679b55c
 msgid "A9G开发板有没有连接阿里云的demo"
-msgstr ""
+msgstr "Is there a demo for the A9G development board connecting to Alibaba Cloud?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:462
-#: e3be148f0c4c470b94e0e3d444d0cf8e
-msgid ""
-"直连的没有哈，可以通过MQTT协议去连接，github.com/Ai-Thinker-"
-"Open/GPRS_C_SDK/tree/master/demo/mqtt"
-msgstr ""
+#: ../../source/docs/software-framework/GPRS/index.rst:462 e3be148f0c4c470b94e0e3d444d0cf8e
+msgid "直连的没有哈，可以通过MQTT协议去连接，github.com/Ai-Thinker-Open/GPRS_C_SDK/tree/master/demo/mqtt"
+msgstr "There is no direct-connection demo. You can connect through the MQTT protocol: github.com/Ai-Thinker-Open/GPRS_C_SDK/tree/master/demo/mqtt."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:465
-#: 00f1befce0954352a2eda27321af29e4
+#: ../../source/docs/software-framework/GPRS/index.rst:465 00f1befce0954352a2eda27321af29e4
 msgid "A9G开发板要外接GPS天线的话，是选有源的还是无源的？"
-msgstr ""
+msgstr "If the A9G development board needs an external GPS antenna, should I choose an active or passive antenna?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:466
-#: 50bb2c72587a48669a1fff7844914daa
+#: ../../source/docs/software-framework/GPRS/index.rst:466 50bb2c72587a48669a1fff7844914daa
 msgid "有源无源都可以，改一下电路即可"
-msgstr ""
+msgstr "Both active and passive antennas can be used, but the circuit needs to be modified accordingly."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:469
-#: 20a3e490c3234d99afd0512c383e057e
+#: ../../source/docs/software-framework/GPRS/index.rst:469 20a3e490c3234d99afd0512c383e057e
 msgid "A9G二次开发链接"
-msgstr ""
+msgstr "A9G secondary development link"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:470
-#: 023f348d33224206ab9498651f12d07e
+#: ../../source/docs/software-framework/GPRS/index.rst:470 023f348d33224206ab9498651f12d07e
 msgid "https://ai-thinker-open.github.io/GPRS_C_SDK_DOC/zh/"
-msgstr ""
+msgstr "https://ai-thinker-open.github.io/GPRS_C_SDK_DOC/zh/"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:473
-#: 45fe53d957e2430bb9b07fa4c77294e8
+#: ../../source/docs/software-framework/GPRS/index.rst:473 45fe53d957e2430bb9b07fa4c77294e8
 msgid "A9G开发板是手机用的，还是电脑用的？"
-msgstr ""
+msgstr "Is the A9G development board for mobile phones or computers?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:474
-#: af0e6c0c81184da1b6a6f8d774ca5fd1
+#: ../../source/docs/software-framework/GPRS/index.rst:474 af0e6c0c81184da1b6a6f8d774ca5fd1
 msgid "给单片机用的，可以使用电脑进行调试"
-msgstr ""
+msgstr "It is for microcontrollers. A computer can be used for debugging."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:477
-#: 391adeb42584417fb8cc623a48c35bcd
+#: ../../source/docs/software-framework/GPRS/index.rst:477 391adeb42584417fb8cc623a48c35bcd
 msgid "A9G 开发板支持基站定位吗？"
-msgstr ""
+msgstr "Does the A9G development board support base-station positioning?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:478
-#: 94fd2d944f24463baefdbd2556b77e40
+#: ../../source/docs/software-framework/GPRS/index.rst:478 94fd2d944f24463baefdbd2556b77e40
 msgid "支持"
-msgstr ""
+msgstr "Yes."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:481
-#: 9c0474f04cd044f99f961bff7f052be7
+#: ../../source/docs/software-framework/GPRS/index.rst:481 9c0474f04cd044f99f961bff7f052be7
 msgid "A9G模块，是否可以向外发送定位信号"
-msgstr ""
+msgstr "Can the A9G module send positioning signals outward?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:482
-#: 15c3a1f7bfd54be18f19bf475e42f5cd
+#: ../../source/docs/software-framework/GPRS/index.rst:482 15c3a1f7bfd54be18f19bf475e42f5cd
 msgid "只能将定位信号上报到云服务器"
-msgstr ""
+msgstr "It can only upload positioning information to a cloud server."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:485
-#: 50018ad6069b40da8773842ff401ad1f
+#: ../../source/docs/software-framework/GPRS/index.rst:485 50018ad6069b40da8773842ff401ad1f
 msgid "GSM模块，自带MQTT协议的用A9,还是用A6。哪个程序更简单些"
-msgstr ""
+msgstr "For a GSM module with built-in MQTT protocol, should I use A9 or A6? Which program is simpler?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:489
-#: 352c4e70b281462891a7cf22c5ab83b2
+#: ../../source/docs/software-framework/GPRS/index.rst:489 352c4e70b281462891a7cf22c5ab83b2
 msgid "A9G开发板会定时发送短信给我手机吗"
-msgstr ""
+msgstr "Will the A9G development board periodically send SMS messages to my phone?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:490
-#: 4c67e3074afb439c8438f7e7aad5524a
+#: ../../source/docs/software-framework/GPRS/index.rst:490 4c67e3074afb439c8438f7e7aad5524a
 msgid "不会，要模块设置好参数才会发短信"
-msgstr ""
+msgstr "No. The module will send SMS only after parameters are properly configured."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:493
-#: c27915ec5cc34874bc711d8cc9a4dbef
+#: ../../source/docs/software-framework/GPRS/index.rst:493 c27915ec5cc34874bc711d8cc9a4dbef
 msgid "A9G开发板是国产芯片吗？"
-msgstr ""
+msgstr "Is the A9G development board a domestic chip?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:494
-#: a6c3b8036ca64904be8256f851e92153
+#: ../../source/docs/software-framework/GPRS/index.rst:494 a6c3b8036ca64904be8256f851e92153
 msgid "RDA8955"
-msgstr ""
+msgstr "RDA8955."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:497
-#: 5f3e26214561473da7b69cdf5105fd43
+#: ../../source/docs/software-framework/GPRS/index.rst:497 5f3e26214561473da7b69cdf5105fd43
 msgid "A9G开发板不是有个usb接口吗"
-msgstr ""
+msgstr "Doesn't the A9G development board have a USB port?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:499
-#: 3a1727e6018442afbd03b5b69df3d42d
+#: ../../source/docs/software-framework/GPRS/index.rst:499 3a1727e6018442afbd03b5b69df3d42d
 msgid "USB口只是供电作用，没有串口作用"
-msgstr ""
+msgstr "The USB port is only for power supply and has no serial-port function."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:502
-#: 6c0965527fcd496c8ad20ca82901b783
+#: ../../source/docs/software-framework/GPRS/index.rst:502 6c0965527fcd496c8ad20ca82901b783
 msgid "A9开发板是支持SIM卡发送定位信息的是吗"
-msgstr ""
+msgstr "Does the A9 development board support sending positioning information with a SIM card?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:503
-#: 463a63b36d2840f6a7f3dfd2d20433d8
+#: ../../source/docs/software-framework/GPRS/index.rst:503 463a63b36d2840f6a7f3dfd2d20433d8
 msgid "支持基站定位"
-msgstr ""
+msgstr "It supports base-station positioning."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:506
-#: 88196101ebcc416a86df6d8b3829e19f
+#: ../../source/docs/software-framework/GPRS/index.rst:506 88196101ebcc416a86df6d8b3829e19f
 msgid "A9模组上的iic可以接设备iic接口的嘛"
-msgstr ""
+msgstr "Can the IIC on the A9 module be connected to an IIC interface of a device?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:507
-#: 39ed0d3c16534348a37abce7a5ec775d
+#: ../../source/docs/software-framework/GPRS/index.rst:507 39ed0d3c16534348a37abce7a5ec775d
 msgid "可以，但是需要您自己二次开发"
-msgstr ""
+msgstr "Yes, but you need to perform secondary development yourself."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:510
-#: 32be194aa1ee43d18107c99b737febbf
+#: ../../source/docs/software-framework/GPRS/index.rst:510 32be194aa1ee43d18107c99b737febbf
 msgid "A9支持lua吗？"
-msgstr ""
+msgstr "Does A9 support Lua?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:514
-#: 1e89bab8cb6242a7802a731202f8857e
+#: ../../source/docs/software-framework/GPRS/index.rst:514 1e89bab8cb6242a7802a731202f8857e
 msgid "上位机软件是在哪里？手机还是电脑？"
-msgstr ""
+msgstr "Where is the host software? On a phone or computer?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:515
-#: 8d0d26e7c37746baaef6644a6660a420
+#: ../../source/docs/software-framework/GPRS/index.rst:515 8d0d26e7c37746baaef6644a6660a420
 msgid "https://blog.csdn.net/Boantong_/article/details/104444592，您可以参考下这个资料"
-msgstr ""
+msgstr "https://blog.csdn.net/Boantong_/article/details/104444592 You can refer to this material."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:518
-#: e39a49310d1f49c19fe7c560c411f48c
+#: ../../source/docs/software-framework/GPRS/index.rst:518 e39a49310d1f49c19fe7c560c411f48c
 msgid "A9开发板拨打和接听电话，可以吗"
-msgstr ""
+msgstr "Can the A9 development board make and answer phone calls?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:519
-#: 3093dccf25d04a1690c66bf8abac9988
+#: ../../source/docs/software-framework/GPRS/index.rst:519 3093dccf25d04a1690c66bf8abac9988
 msgid "可以的，官网有示例"
-msgstr ""
+msgstr "Yes. There are examples on the official website."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:522
-#: 805ee279dcfd47198c9972c70f0c0a07
+#: ../../source/docs/software-framework/GPRS/index.rst:522 805ee279dcfd47198c9972c70f0c0a07
 msgid "A9G可以用在小程序上的定位开发吗"
-msgstr ""
+msgstr "Can A9G be used for location development in a mini program?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:523
-#: d3c686874d4d4c2ab98d14314a832a86
+#: ../../source/docs/software-framework/GPRS/index.rst:523 d3c686874d4d4c2ab98d14314a832a86
 msgid "可以，具体您可以看看这个博文https://blog.csdn.net/xh870189248/article/details/100123432"
-msgstr ""
+msgstr "Yes. For details, see this blog post: https://blog.csdn.net/xh870189248/article/details/100123432"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:526
-#: 36bff7b6797a497699ebb4e8a4ba5522
+#: ../../source/docs/software-framework/GPRS/index.rst:526 36bff7b6797a497699ebb4e8a4ba5522
 msgid "A9G 3.3v供电能行吗"
-msgstr ""
+msgstr "Can A9G be powered by 3.3V?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:527
-#: 8c97e884c24f4df4810ea8cad779653f
+#: ../../source/docs/software-framework/GPRS/index.rst:527 8c97e884c24f4df4810ea8cad779653f
 msgid "不行"
-msgstr ""
+msgstr "No."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:530
-#: 948efee445444d888c33be797e7f849d
+#: ../../source/docs/software-framework/GPRS/index.rst:530 948efee445444d888c33be797e7f849d
 msgid "A9G开发板定位精度是多少？开发后可以直接输出定位信息吗"
-msgstr ""
+msgstr "What is the positioning accuracy of the A9G development board? After development, can it directly output positioning information?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:531
-#: ee1ccdcddf5244a48f0d60a905fb45cb
+#: ../../source/docs/software-framework/GPRS/index.rst:531 ee1ccdcddf5244a48f0d60a905fb45cb
 msgid "\"GPS定位是10cm 基站定位是500米。需要发送指令设置"
-msgstr ""
+msgstr "GPS positioning is 10cm; base-station positioning is 500m. Commands need to be sent for configuration."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:534
-#: db33a7d9bdea41f699ed693e56ec968b
+#: ../../source/docs/software-framework/GPRS/index.rst:534 db33a7d9bdea41f699ed693e56ec968b
 msgid "A9G开发板是不是买回来插卡接电就可以用了"
-msgstr ""
+msgstr "Can the A9G development board be used immediately after buying it, inserting a SIM card, and powering it on?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:535
-#: e9f3f3489b3a465a9dda2369e8a013e8
+#: ../../source/docs/software-framework/GPRS/index.rst:535 e9f3f3489b3a465a9dda2369e8a013e8
 msgid "需要发送指令，官网有教程哦"
-msgstr ""
+msgstr "Commands need to be sent. Tutorials are available on the official website."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:538
-#: 35e0d531b98b415faa9da717fc364850
+#: ../../source/docs/software-framework/GPRS/index.rst:538 35e0d531b98b415faa9da717fc364850
 msgid "A9G模块背面的引脚 可以不焊接悬空吗？"
-msgstr ""
+msgstr "Can the pins on the back of the A9G module be left unconnected without soldering?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:542
-#: 2d995a54d10145cc987868cfbf3a87dd
+#: ../../source/docs/software-framework/GPRS/index.rst:542 2d995a54d10145cc987868cfbf3a87dd
 msgid "A9开发板可用于正常拨打手机吧？"
-msgstr ""
+msgstr "Can the A9 development board be used to make normal mobile phone calls?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:543
-#: 89ddc987d16e47e9bdd5a9f39ea7ee3a
+#: ../../source/docs/software-framework/GPRS/index.rst:543 89ddc987d16e47e9bdd5a9f39ea7ee3a
 msgid "\"可以。但是需要手机SIM卡，物联网卡不支持打电话和发短信"
-msgstr ""
+msgstr "Yes. However, it requires a mobile phone SIM card. IoT SIM cards do not support phone calls or SMS."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:546
-#: d84c05924e234165bf525d40bc57c68f
+#: ../../source/docs/software-framework/GPRS/index.rst:546 d84c05924e234165bf525d40bc57c68f
 msgid "这个BG02-T是贴片式的吗？"
-msgstr ""
+msgstr "Is BG02-T an SMT module?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:547
-#: dc1beb93ac5c4dea97305fd77fff698d
+#: ../../source/docs/software-framework/GPRS/index.rst:547 dc1beb93ac5c4dea97305fd77fff698d
 msgid "不是贴片式哦， 这个是一个简单的转接板，上面有引脚引出来"
-msgstr ""
+msgstr "No. It is a simple adapter board with pins brought out."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:550
-#: 2e37e057fde34de69263b2ec267ae790
+#: ../../source/docs/software-framework/GPRS/index.rst:550 2e37e057fde34de69263b2ec267ae790
 msgid "BG01—T在没有任何网络辅助的情况下定位效果如何"
-msgstr ""
+msgstr "How is the positioning performance of BG01-T without any network assistance?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:551
-#: 01cf4102ee3f4ea8bf7aa8df5f0d4311
+#: ../../source/docs/software-framework/GPRS/index.rst:551 01cf4102ee3f4ea8bf7aa8df5f0d4311
 msgid "只能搜星定位，没有联网的功能，误差10cm内"
-msgstr ""
+msgstr "It can only perform satellite positioning and has no networking function. The error is within 10cm."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:554
-#: 9216401330b54380b4fb42565cadff0b
+#: ../../source/docs/software-framework/GPRS/index.rst:554 9216401330b54380b4fb42565cadff0b
 msgid "A9G可以直接用吗，插上卡"
-msgstr ""
+msgstr "Can A9G be used directly after inserting a SIM card?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:555
-#: 5647bf177be14f539cf4a15d643cd10a
+#: ../../source/docs/software-framework/GPRS/index.rst:555 5647bf177be14f539cf4a15d643cd10a
 msgid "需要通过发送AT指令"
-msgstr ""
+msgstr "AT commands need to be sent."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:558
-#: 306ee69b2dcd47da927687dd65847a3d
+#: ../../source/docs/software-framework/GPRS/index.rst:558 306ee69b2dcd47da927687dd65847a3d
 msgid "A9G室内可以定位吗？a9G需要多少时间定位？"
-msgstr ""
+msgstr "Can A9G position indoors? How long does A9G take to position?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:559
-#: 1c4bbc52325e47b195b0e41452c5cdd9
+#: ../../source/docs/software-framework/GPRS/index.rst:559 1c4bbc52325e47b195b0e41452c5cdd9
 msgid "室内不行，必须室外，一般30秒"
-msgstr ""
+msgstr "Indoor positioning is not possible; it must be outdoors. It usually takes 30 seconds."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:562
-#: c70b5d0c7b67470f8acbc4204c61b3e5
+#: ../../source/docs/software-framework/GPRS/index.rst:562 c70b5d0c7b67470f8acbc4204c61b3e5
 msgid "A9G单纯gps需要多少时间定位？"
-msgstr ""
+msgstr "How long does A9G take for GPS-only positioning?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:563
-#: 2f8f94a9c5aa40a2a5da24eac9a6ca5b
+#: ../../source/docs/software-framework/GPRS/index.rst:563 2f8f94a9c5aa40a2a5da24eac9a6ca5b
 msgid "2分钟左右"
-msgstr ""
+msgstr "About 2 minutes."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:566
-#: e0f61709302640908d372dee5cd8ef5d
+#: ../../source/docs/software-framework/GPRS/index.rst:566 e0f61709302640908d372dee5cd8ef5d
 msgid "a9g开发板支持二次开发的方式是什么？"
-msgstr ""
+msgstr "What secondary development method does the A9G development board support?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:567
-#: 7db5c7d0ee924d36acfb92d17ae00a14
+#: ../../source/docs/software-framework/GPRS/index.rst:567 7db5c7d0ee924d36acfb92d17ae00a14
 msgid "C语言，https://aithinker.blog.csdn.net/article/details/104444592"
-msgstr ""
+msgstr "C language. https://aithinker.blog.csdn.net/article/details/104444592"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:570
-#: d07ce2aab076490c8e63620bda252995
+#: ../../source/docs/software-framework/GPRS/index.rst:570 d07ce2aab076490c8e63620bda252995
 msgid "A9G开发板能支持摄像头吗"
-msgstr ""
+msgstr "Does the A9G development board support a camera?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:574
-#: 29f39874613042dd971d4402a0e75e2f
+#: ../../source/docs/software-framework/GPRS/index.rst:574 29f39874613042dd971d4402a0e75e2f
 msgid "A9G开发板中的Usb1.1，是做什么用途的？"
-msgstr ""
+msgstr "What is USB 1.1 on the A9G development board used for?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:575
-#: 6d9e50735a544f158ed080cb7ad032aa
+#: ../../source/docs/software-framework/GPRS/index.rst:575 6d9e50735a544f158ed080cb7ad032aa
 msgid "供电"
-msgstr ""
+msgstr "Power supply."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:578
-#: b72c37e2ff0c4953814e7549faf9e265
+#: ../../source/docs/software-framework/GPRS/index.rst:578 b72c37e2ff0c4953814e7549faf9e265
 msgid "A9G开发板GPS定位支持北斗定位吗？GPRS和GPS功能切换都能通过AT指令实现吗"
-msgstr ""
+msgstr "Does the A9G development board GPS positioning support BeiDou? Can GPRS and GPS function switching be implemented through AT commands?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:579
-#: c029b2b561064781b4752810c2720000
+#: ../../source/docs/software-framework/GPRS/index.rst:579 c029b2b561064781b4752810c2720000
 msgid "支持，能通过AT指令实现"
-msgstr ""
+msgstr "Yes, BeiDou is supported, and switching can be implemented through AT commands."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:582
-#: 084085fb27f744d3b396e76d2a875b54
+#: ../../source/docs/software-framework/GPRS/index.rst:582 084085fb27f744d3b396e76d2a875b54
 msgid "A9G开发板发送MQTT消息报文最长是多少啊"
-msgstr ""
+msgstr "What is the maximum length of an MQTT message packet sent by the A9G development board?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:583
-#: f08c7e86fba04ae690202fb303a3cbc0
+#: ../../source/docs/software-framework/GPRS/index.rst:583 f08c7e86fba04ae690202fb303a3cbc0
 msgid "256"
-msgstr ""
+msgstr "256."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:586
-#: 307bab8f522a4ae2989127e47bbf64d5
+#: ../../source/docs/software-framework/GPRS/index.rst:586 307bab8f522a4ae2989127e47bbf64d5
 msgid "A9G用5v供电可以吗？"
-msgstr ""
+msgstr "Can A9G be powered by 5V?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:590
-#: 4fc54a6a6a4a4e139348ff5ca5fb06c6
+#: ../../source/docs/software-framework/GPRS/index.rst:590 4fc54a6a6a4a4e139348ff5ca5fb06c6
 msgid "A9G可以将IO口检测到开关状态传送出去吗？"
-msgstr ""
+msgstr "Can A9G transmit the switch state detected by an IO pin?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:591
-#: ad2869b685884a9c9f998ebd56228bac
+#: ../../source/docs/software-framework/GPRS/index.rst:591 ad2869b685884a9c9f998ebd56228bac
 msgid "需要二次开发"
-msgstr ""
+msgstr "Secondary development is required."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:594
-#: a1299523774f43c1bdce87bb148d1774
+#: ../../source/docs/software-framework/GPRS/index.rst:594 a1299523774f43c1bdce87bb148d1774
 msgid "A9G连接机智云出现ERROR:50该如何处理？"
-msgstr ""
+msgstr "How to handle ERROR:50 when A9G connects to Gizwits?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:595
-#: 618b3217d05a4ca28223358d08563fc3
+#: ../../source/docs/software-framework/GPRS/index.rst:595 618b3217d05a4ca28223358d08563fc3
 msgid "先发送AT+CGATT=0分离上一次的附着，在发送AT+CGATT=1，AT+CGDCONT=1,\"IP\",\"CMNET\"，AT+CGACT=1,1三条指令重新入网"
-msgstr ""
+msgstr "First send AT+CGATT=0 to detach from the previous attachment, then send AT+CGATT=1, AT+CGDCONT=1,\"IP\",\"CMNET\", and AT+CGACT=1,1 to re-register on the network."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:598
-#: 03ea3ff4bc24448b81a5aa777a81d510
+#: ../../source/docs/software-framework/GPRS/index.rst:598 03ea3ff4bc24448b81a5aa777a81d510
 msgid "A9G模块为何获取不到定位数据？"
-msgstr ""
+msgstr "Why can’t the A9G module obtain positioning data?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:599
-#: 4e6d402202464ab38dfe63ca9cb53146
+#: ../../source/docs/software-framework/GPRS/index.rst:599 4e6d402202464ab38dfe63ca9cb53146
 msgid "单模组情况，考虑匹配的天线有问题。"
-msgstr ""
+msgstr "For a standalone module, consider whether there is a problem with the matched antenna."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:602
-#: 33e424da4fbd4583989d3c179c803713
+#: ../../source/docs/software-framework/GPRS/index.rst:602 33e424da4fbd4583989d3c179c803713
 msgid "A9G断电后重新上电无法联网导致机智云失败，该如何解决"
-msgstr ""
+msgstr "How to solve Gizwits failure caused by A9G being unable to reconnect to the network after power-off and power-on?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:603
-#: a2d78db30661490bbf136cd3ae1bcb9f
+#: ../../source/docs/software-framework/GPRS/index.rst:603 a2d78db30661490bbf136cd3ae1bcb9f
 msgid "先发送AT+CGATT=0分离上一次的网络附着，后面重新发送AT+CGATT=1，AT+CGDCONT=1,\"IP\",\"CMNET\"，AT+CGACT=1,1重新附着网络即可"
-msgstr ""
+msgstr "First send AT+CGATT=0 to detach from the previous network attachment, then send AT+CGATT=1, AT+CGDCONT=1,\"IP\",\"CMNET\", and AT+CGACT=1,1 to attach to the network again."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:606
-#: dc9e45b6f4bb428ba4b34500b545379e
+#: ../../source/docs/software-framework/GPRS/index.rst:606 dc9e45b6f4bb428ba4b34500b545379e
 msgid "A9G打电话的时候接话筒声音小该如何解决"
-msgstr ""
+msgstr "How to solve low microphone/receiver volume during calls on A9G?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:607
-#: d25504cbc7f5455d91fdcc5b166b2e98
+#: ../../source/docs/software-framework/GPRS/index.rst:607 d25504cbc7f5455d91fdcc5b166b2e98
 msgid "尝试发送AT+CRSL=15设置一下通话音量的等级。"
-msgstr ""
+msgstr "Try sending AT+CRSL=15 to set the call volume level."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:610
-#: dfc1d7884f7b4e6bb43c200aa98d634b
+#: ../../source/docs/software-framework/GPRS/index.rst:610 dfc1d7884f7b4e6bb43c200aa98d634b
 msgid "哪些模组支持基站定位"
-msgstr ""
+msgstr "Which modules support base-station positioning?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:611
-#: 3f4e525998754af1adacba1b55395c9d
+#: ../../source/docs/software-framework/GPRS/index.rst:611 3f4e525998754af1adacba1b55395c9d
 msgid "A9G模组和4GCat.1模块"
-msgstr ""
+msgstr "A9G module and 4G Cat.1 modules."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:614
-#: 1cc18dc2a5b64477b42b4c9e67b7e296
+#: ../../source/docs/software-framework/GPRS/index.rst:614 1cc18dc2a5b64477b42b4c9e67b7e296
 msgid "A9G开发板为何短信与通话服务正常，唯独联网功能异常？"
-msgstr ""
+msgstr "Why are SMS and call services normal on the A9G development board, but networking is abnormal?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:615
-#: 649567af735b44d384751756c0c0f34b
+#: ../../source/docs/software-framework/GPRS/index.rst:615 649567af735b44d384751756c0c0f34b
 msgid "仅仅联网功能异常的情况，怀疑卡流量已用完，需向营业厅服务专员确认。"
-msgstr ""
+msgstr "If only the networking function is abnormal, the SIM card data may have been used up. Please confirm with the carrier service staff."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:618
-#: 2437d65095d643b1abc6d0ca0b2b4972
+#: ../../source/docs/software-framework/GPRS/index.rst:618 2437d65095d643b1abc6d0ca0b2b4972
 msgid "A9G实现不了你们公众号的定位功能怎么办？"
-msgstr ""
+msgstr "What should I do if A9G can no longer implement the positioning function from your WeChat official account?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:619
-#: 886fc2852c9141c0a134b6e7e1f1e2a0
+#: ../../source/docs/software-framework/GPRS/index.rst:619 886fc2852c9141c0a134b6e7e1f1e2a0
 msgid "该功能已没有维护了，因此若是要实现定位功能，建议通过MQTT协议连接阿里的定位功能。详情参考我们EC-01G连接阿里云地图实现定位的文档。"
-msgstr ""
+msgstr "This function is no longer maintained. Therefore, if you need positioning functionality, it is recommended to connect to Alibaba's positioning function through the MQTT protocol. For details, refer to our document on EC-01G connecting to Alibaba Cloud Map for positioning."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:622
-#: 5989d822bb2e4ea8a73887e253f8f7c4
+#: ../../source/docs/software-framework/GPRS/index.rst:622 5989d822bb2e4ea8a73887e253f8f7c4
 msgid "A9G如何发送中文短信，需要做哪些操作"
-msgstr ""
+msgstr "How does A9G send Chinese SMS messages, and what operations are required?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:623
-#: f34ec63ace764cc5be9a15ee8e838bd8
+#: ../../source/docs/software-framework/GPRS/index.rst:623 f34ec63ace764cc5be9a15ee8e838bd8
 msgid "需要使用PDU工具将中文进行编码"
-msgstr ""
+msgstr "You need to use a PDU tool to encode Chinese characters."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:626
-#: 7f2c53d0a3404ef1bda02615d75ce54c
+#: ../../source/docs/software-framework/GPRS/index.rst:626 7f2c53d0a3404ef1bda02615d75ce54c
 msgid "A9模块支持TTS吗"
-msgstr ""
+msgstr "Does the A9 module support TTS?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:627
-#: a27922efcd374799bf39c810ef1caeb1
+#: ../../source/docs/software-framework/GPRS/index.rst:627 a27922efcd374799bf39c810ef1caeb1
 msgid "不支持，模块仅支持打电话功能"
-msgstr ""
+msgstr "No. The module only supports phone-call functionality."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:630
-#: 4991e15dfa9f45e2b380d05fcc971e85
+#: ../../source/docs/software-framework/GPRS/index.rst:630 4991e15dfa9f45e2b380d05fcc971e85
 msgid "请问一下A9可以播放TF卡里面的音乐么？"
-msgstr ""
+msgstr "Can A9 play music from a TF card?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:631
-#: cbf9d5b66e0344d19b5d1a4d36a5d700
+#: ../../source/docs/software-framework/GPRS/index.rst:631 cbf9d5b66e0344d19b5d1a4d36a5d700
 msgid "不支持；"
-msgstr ""
+msgstr "No."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:634
-#: 666942bc83fa40d4b49c53f8a290ef6b
+#: ../../source/docs/software-framework/GPRS/index.rst:634 666942bc83fa40d4b49c53f8a290ef6b
 msgid "请问一下A9G微信定位功能为何没用呢？"
-msgstr ""
+msgstr "Why doesn’t the A9G WeChat positioning function work?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:635
-#: 7c73173066174309b55ea0936a5d40d5
+#: ../../source/docs/software-framework/GPRS/index.rst:635 7c73173066174309b55ea0936a5d40d5
 msgid "当前GPS功能服务器已经不维护了，若是要实现GPS可视化功能，要自行去找别的服务器（比如阿里云定位功能），实现实时定位功能。"
-msgstr ""
+msgstr "The current GPS function server is no longer maintained. If you want GPS visualization, you need to find another server yourself, such as Alibaba Cloud positioning, to implement real-time positioning."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:638
-#: 4015d8ad04fb42279e7223e5bcd329a3
+#: ../../source/docs/software-framework/GPRS/index.rst:638 4015d8ad04fb42279e7223e5bcd329a3
 msgid "请问一下A9G模块或者EC-01G模块能否通过短信将GPS数据传输出去？"
-msgstr ""
+msgstr "Can the A9G module or EC-01G module transmit GPS data by SMS?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:639
-#: c7f4cccd0ecf44a7aaa13c68ec58da7f
+#: ../../source/docs/software-framework/GPRS/index.rst:639 c7f4cccd0ecf44a7aaa13c68ec58da7f
 msgid "A9G模块可以实现；EC-01G不能实现，该模组没有发送短信的功能；"
-msgstr ""
+msgstr "The A9G module can implement this. EC-01G cannot, because it does not have SMS-sending functionality."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:642
-#: ef8e26243a704df8a001ed915c656cc9
+#: ../../source/docs/software-framework/GPRS/index.rst:642 ef8e26243a704df8a001ed915c656cc9
 msgid "A9G模块出现+CME ERROR:148 该如何排查"
-msgstr ""
+msgstr "How to troubleshoot +CME ERROR:148 on the A9G module?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:643
-#: 46aa134a53d142e98349b61d134734af
+#: ../../source/docs/software-framework/GPRS/index.rst:643 46aa134a53d142e98349b61d134734af
 msgid "请检查SIM卡是否出现锁卡或者无流量的情况"
-msgstr ""
+msgstr "Please check whether the SIM card is locked or has no data remaining."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:646
-#: 1fb4d41abf4346508376d7ff99d1f05e
+#: ../../source/docs/software-framework/GPRS/index.rst:646 1fb4d41abf4346508376d7ff99d1f05e
 msgid "A9G开发板可以增加IO输入输出功能吗"
-msgstr ""
+msgstr "Can the A9G development board add IO input/output functionality?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:647
-#: 41a434e2686542cba7189a3c788946bd
+#: ../../source/docs/software-framework/GPRS/index.rst:647 41a434e2686542cba7189a3c788946bd
 msgid "可以，通过SDK开发实现"
-msgstr ""
+msgstr "Yes, it can be implemented through SDK development."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:650
-#: c013e7a1cd6f416b8c569c58ad4e7310
+#: ../../source/docs/software-framework/GPRS/index.rst:650 c013e7a1cd6f416b8c569c58ad4e7310
 msgid "A9开发板支持lua开发吗"
-msgstr ""
+msgstr "Does the A9 development board support Lua development?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:651
-#: e6d1398161a64d8582a17c37039e0689
+#: ../../source/docs/software-framework/GPRS/index.rst:651 e6d1398161a64d8582a17c37039e0689
 msgid "不支持，如需开发可以下载C SDK"
-msgstr ""
+msgstr "No. If development is required, you can download the C SDK."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:655
-#: ab2105eb8a7c498e80a1be6d0b14a63b
+#: ../../source/docs/software-framework/GPRS/index.rst:655 ab2105eb8a7c498e80a1be6d0b14a63b
 msgid "A9G模块是如何传输数据的"
-msgstr ""
+msgstr "How does the A9G module transmit data?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:656
-#: 83d9b80cc7ec4557b2d01691d5463be3
+#: ../../source/docs/software-framework/GPRS/index.rst:656 83d9b80cc7ec4557b2d01691d5463be3
 msgid "通过物联网卡或者移动2G进行无线传输"
-msgstr ""
+msgstr "It transmits wirelessly through an IoT SIM card or China Mobile 2G."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:659
-#: ecc9c4e3290345079301f996798a1f9c
+#: ../../source/docs/software-framework/GPRS/index.rst:659 ecc9c4e3290345079301f996798a1f9c
 msgid "A9G支持主动打电话功能吗"
-msgstr ""
+msgstr "Does A9G support active phone dialing?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:660
-#: 4386daae551e46a9addc2db1a2421c76
+#: ../../source/docs/software-framework/GPRS/index.rst:660 4386daae551e46a9addc2db1a2421c76
 msgid "支持，通过串口发送指令实现，有相关的AT示例"
-msgstr ""
+msgstr "Yes. It can be implemented by sending commands through the serial port, and related AT examples are available."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:663
-#: 93e51cb056f943679bb0daf77cecc1da
+#: ../../source/docs/software-framework/GPRS/index.rst:663 93e51cb056f943679bb0daf77cecc1da
 msgid "A9G可以测量经纬度和海拔高度吗"
-msgstr ""
+msgstr "Can A9G measure longitude, latitude, and altitude?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:664
-#: 9bf26bf12c96470f8f6c3bd0eda3fce6
+#: ../../source/docs/software-framework/GPRS/index.rst:664 9bf26bf12c96470f8f6c3bd0eda3fce6
 msgid "可以测试，通过串口发送GPS相关指令解析相关参数"
-msgstr ""
+msgstr "Yes. Send GPS-related commands through the serial port and parse the relevant parameters."
 
-#: ../../source/docs/software-framework/GPRS/index.rst:667
-#: 78a94c716ad04158ba278063f6d94471
+#: ../../source/docs/software-framework/GPRS/index.rst:667 78a94c716ad04158ba278063f6d94471
 msgid "A9G开发板要插sd卡还是要插sim卡"
-msgstr ""
+msgstr "Should the A9G development board be inserted with an SD card or a SIM card?"
 
-#: ../../source/docs/software-framework/GPRS/index.rst:668
-#: c3271d98bdd34f54bbf7e2a6bbd4f0c5
+#: ../../source/docs/software-framework/GPRS/index.rst:668 c3271d98bdd34f54bbf7e2a6bbd4f0c5
 msgid "开发板使用AT功能只需插sim卡即可，如需做SD卡读写功能则需要再插上sd卡进行调试"
-msgstr ""
-
+msgstr "For using AT functions, only a SIM card is required. If SD card read/write functionality is needed, then insert an SD card for debugging."

@@ -6,80 +6,62 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 14:37+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/WiFi/BL/system.rst:2
-#: a5faac1ea329476ab4cbc95c271c75d9
+#: ../../source/docs/software-framework/WiFi/BL/system.rst:2 a5faac1ea329476ab4cbc95c271c75d9
 msgid "系统"
-msgstr ""
+msgstr "System"
 
-#: ../../source/docs/software-framework/WiFi/BL/system.rst:17
-#: 801978795a174baba953c5ee1afc1697
+#: ../../source/docs/software-framework/WiFi/BL/system.rst:17 801978795a174baba953c5ee1afc1697
 msgid "CPU架构，运行频率以及RAM"
-msgstr ""
+msgstr "CPU architecture, operating frequency, and RAM"
 
-#: ../../source/docs/software-framework/WiFi/BL/system.rst:18
-#: d82241fbaf63460c97b2ba082590bd64
+#: ../../source/docs/software-framework/WiFi/BL/system.rst:18 d82241fbaf63460c97b2ba082590bd64
 msgid "BL602是基于RISC-V处理器芯片，最高运行频率是160MHz,特殊情况下允许超频到192M，芯片可用RAM。"
-msgstr ""
+msgstr "BL602 is based on a RISC-V processor chip. Its maximum operating frequency is 160 MHz; in special cases, it can be overclocked to 192 MHz. The chip has usable RAM."
 
-#: ../../source/docs/software-framework/WiFi/BL/system.rst:21
-#: 6095716f34cc4d49b3d3b7db0b689fbb
+#: ../../source/docs/software-framework/WiFi/BL/system.rst:21 6095716f34cc4d49b3d3b7db0b689fbb
 msgid "模组从上电到运行程序最快需要多长时间？"
-msgstr ""
+msgstr "What is the shortest time required for the module to run the program after power-on?"
 
-#: ../../source/docs/software-framework/WiFi/BL/system.rst:22
-#: eca2b47d8c154402b35062721bb7a932
+#: ../../source/docs/software-framework/WiFi/BL/system.rst:22 eca2b47d8c154402b35062721bb7a932
 msgid "约3ms。"
-msgstr ""
+msgstr "About 3 ms."
 
-#: ../../source/docs/software-framework/WiFi/BL/system.rst:25
-#: 4bfa86dfe9a74b20a406822dd68b70dc
+#: ../../source/docs/software-framework/WiFi/BL/system.rst:25 4bfa86dfe9a74b20a406822dd68b70dc
 msgid "模组掉电的时候，数据存储在哪里？"
-msgstr ""
+msgstr "Where is data stored when the module is powered off?"
 
-#: ../../source/docs/software-framework/WiFi/BL/system.rst:26
-#: 0197277e069f4def9a6baa00e85a7a8b
+#: ../../source/docs/software-framework/WiFi/BL/system.rst:26 0197277e069f4def9a6baa00e85a7a8b
 msgid "完全掉电时，芯片内ram上的数据均会丢失。PDS、HBN模式不同level下ram区域掉电情况各不相同，需要case by case。"
-msgstr ""
+msgstr "When power is completely cut off, all data in the chip’s internal RAM will be lost. In PDS and HBN modes, the RAM power-down status varies depending on different levels and needs to be analyzed case by case."
 
-#: ../../source/docs/software-framework/WiFi/BL/system.rst:29
-#: a74e33fbd4a44d5f8b592af0264ad1a5
+#: ../../source/docs/software-framework/WiFi/BL/system.rst:29 a74e33fbd4a44d5f8b592af0264ad1a5
 msgid "为什么模块默认支持Cli串口通讯，在哪设置不开启这个选型？"
-msgstr ""
+msgstr "Why does the module support CLI serial communication by default, and where can this option be disabled?"
 
-#: ../../source/docs/software-framework/WiFi/BL/system.rst:30
-#: e19dda57e80b4be2915ce76173090d49
-msgid ""
-"我们移植了命令行交互工具cli（command-line interface），已经将其移植到我们到系统中，在对应的工程目录的 "
-"proj_config.mk 文件把 CONFIG_SYS_AOS_CLI_ENABLE:=0，如果没有，则添加这个设置。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/BL/system.rst:30 e19dda57e80b4be2915ce76173090d49
+msgid "我们移植了命令行交互工具cli（command-line interface），已经将其移植到我们到系统中，在对应的工程目录的 proj_config.mk 文件把 CONFIG_SYS_AOS_CLI_ENABLE:=0，如果没有，则添加这个设置。"
+msgstr "We have ported the command-line interaction tool CLI (command-line interface) into the system. To disable it, set the following in the proj_config.mk file under the corresponding project directory: CONFIG_SYS_AOS_CLI_ENABLE:=0. If this setting does not exist, add it."
 
-#: ../../source/docs/software-framework/WiFi/BL/system.rst:33
-#: e04d591f4c6448e0a6d39a228528feee
+#: ../../source/docs/software-framework/WiFi/BL/system.rst:33 e04d591f4c6448e0a6d39a228528feee
 msgid "为什么我写的组件或代码，无法开启LOG打印日志？"
-msgstr ""
+msgstr "Why can't the component or code I wrote enable LOG printing?"
 
-#: ../../source/docs/software-framework/WiFi/BL/system.rst:34
-#: a0962092d36d4490b2c8f7dd204c0b07
-msgid ""
-"日志管理组件blog开关需在相应的 proj_config.mk 文件目录下，LOG_ENABLED_COMPONENTS配置上增加对应组件的名字"
-" 例如这里需要增加blog_testa blog_testb blog_testc "
-"的日志输出：LOG_ENABLED_COMPONENTS:=blog_testa blog_testb blog_testc "
-"其他组件默认关闭，组件名字就是其文件夹名字。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/BL/system.rst:34 a0962092d36d4490b2c8f7dd204c0b07
+msgid "日志管理组件blog开关需在相应的 proj_config.mk 文件目录下，LOG_ENABLED_COMPONENTS配置上增加对应组件的名字 例如这里需要增加blog_testa blog_testb blog_testc 的日志输出：LOG_ENABLED_COMPONENTS:=blog_testa blog_testb blog_testc 其他组件默认关闭，组件名字就是其文件夹名字。"
+msgstr "The switch for the log management component blog must be configured in the corresponding proj_config.mk file directory. Add the corresponding component names to LOG_ENABLED_COMPONENTS. For example, to enable log output for blog_testa, blog_testb, and blog_testc, configure: LOG_ENABLED_COMPONENTS:=blog_testa blog_testb blog_testc. Other components are disabled by default. The component name is the same as its folder name."
 
 #~ msgid ":link_to_translation:`en:[English]`"
 #~ msgstr ""
-

@@ -6,295 +6,204 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 14:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/taobao/espressif/index.rst:2
-#: 78fb7f5aeb2a4daa9a96828b56a61b06
+#: ../../source/docs/taobao/espressif/index.rst:2 78fb7f5aeb2a4daa9a96828b56a61b06
 msgid "1. ESP8266系列"
-msgstr ""
+msgstr "1. ESP8266 Series"
 
-#: ../../source/docs/taobao/espressif/index.rst:5
-#: 1ab6f3277eb64c00b2f86d0d4a2e03e6
+#: ../../source/docs/taobao/espressif/index.rst:5 1ab6f3277eb64c00b2f86d0d4a2e03e6
 msgid "1.1 通用AT固件"
-msgstr ""
+msgstr "1.1 General AT Firmware"
 
-#: ../../source/docs/taobao/espressif/index.rst:7
-#: ../../source/docs/taobao/espressif/index.rst:33
-#: ../../source/docs/taobao/espressif/index.rst:49
-#: ../../source/docs/taobao/espressif/index.rst:61
-#: ../../source/docs/taobao/espressif/index.rst:79
-#: ../../source/docs/taobao/espressif/index.rst:97
-#: 06e7c2f696434e429250e8d1808d5837 38091ca1a2df486aae004d5853e77d2b
-#: 534ad62161ba4ccd9a39fcbb6c921327 5906db2e9d93480b8389ff1f7cfdc659
-#: 8a91aa4fd9e74311aa734f2048915fd4 d132fdb828d1412ea86c783018614b2b
+#: ../../source/docs/taobao/espressif/index.rst:7 ../../source/docs/taobao/espressif/index.rst:33 ../../source/docs/taobao/espressif/index.rst:49 ../../source/docs/taobao/espressif/index.rst:61 ../../source/docs/taobao/espressif/index.rst:79 ../../source/docs/taobao/espressif/index.rst:97 06e7c2f696434e429250e8d1808d5837 38091ca1a2df486aae004d5853e77d2b 534ad62161ba4ccd9a39fcbb6c921327 5906db2e9d93480b8389ff1f7cfdc659 8a91aa4fd9e74311aa734f2048915fd4 d132fdb828d1412ea86c783018614b2b
 msgid "**说明：**"
-msgstr ""
+msgstr "**Description:**"
 
-#: ../../source/docs/taobao/espressif/index.rst:9
-#: bd1a5ce5b66a41de81919a67291ed649
+#: ../../source/docs/taobao/espressif/index.rst:9 bd1a5ce5b66a41de81919a67291ed649
 msgid "特性：操作简单，任何mcu均可直接接入"
-msgstr ""
+msgstr "Features: Easy to use; any MCU can be directly connected"
 
-#: ../../source/docs/taobao/espressif/index.rst:10
-#: ../../source/docs/taobao/espressif/index.rst:26
-#: ../../source/docs/taobao/espressif/index.rst:54
-#: 16cd23495d4d4c379c6f87a995fc0d79 24817dd6afb74107b80ba3a9fb3ac2e6
-#: d1299c172fed4e2e95e4efce92b350b7
+#: ../../source/docs/taobao/espressif/index.rst:10 ../../source/docs/taobao/espressif/index.rst:26 ../../source/docs/taobao/espressif/index.rst:54 16cd23495d4d4c379c6f87a995fc0d79 24817dd6afb74107b80ba3a9fb3ac2e6 d1299c172fed4e2e95e4efce92b350b7
 msgid "UART 默认配置: RX16，TX17，波特率：115200"
-msgstr ""
+msgstr "UART default configuration: RX16, TX17, baud rate: 115200"
 
-#: ../../source/docs/taobao/espressif/index.rst:11
-#: cef4f131a3ea444ba76c5f4cd6aa629d
+#: ../../source/docs/taobao/espressif/index.rst:11 cef4f131a3ea444ba76c5f4cd6aa629d
 msgid "更新时间：2019年12月22日"
-msgstr ""
+msgstr "Update date: December 22, 2019"
 
-#: ../../source/docs/taobao/espressif/index.rst:12
-#: fdc4c9ffd3564455a40cdf0f734d15e8
-msgid ""
-"更新说明：v1.7.1.0 AT Firmware，内含 8Mbit 和 32Mbit "
-"两个版本，请客户根据自己产品的flash大小来烧录，串口引脚为TXD,RXD"
-msgstr ""
+#: ../../source/docs/taobao/espressif/index.rst:12 fdc4c9ffd3564455a40cdf0f734d15e8
+msgid "更新说明：v1.7.1.0 AT Firmware，内含 8Mbit 和 32Mbit 两个版本，请客户根据自己产品的flash大小来烧录，串口引脚为TXD,RXD"
+msgstr "Update notes: v1.7.1.0 AT Firmware, including two versions: 8Mbit and 32Mbit. Please flash the version according to the flash size of your product. The serial pins are TXD and RXD."
 
-#: ../../source/docs/taobao/espressif/index.rst:14
-#: 5287d3fad8f4483a9d0be40394306dba
-msgid ""
-"**固件下载：** `1MB固件(固件号：0884) <https://axk.coding.net/s/34c8a493-8a50-4f70"
-"-9fdc-633b4e632504>`__"
-msgstr ""
+#: ../../source/docs/taobao/espressif/index.rst:14 5287d3fad8f4483a9d0be40394306dba
+msgid "**固件下载：** `1MB固件(固件号：0884) <https://axk.coding.net/s/34c8a493-8a50-4f70-9fdc-633b4e632504>`__"
+msgstr "**Firmware Download:** `1MB Firmware (Firmware No.: 0884) <https://axk.coding.net/s/34c8a493-8a50-4f70-9fdc-633b4e632504>`__"
 
-#: ../../source/docs/taobao/espressif/index.rst:16
-#: aeab0afd57514e14b1e53978482f2911
-msgid ""
-"**固件下载：** `4MB固件(固件号：0883)  <https://axk.coding.net/s/dcd2cba7-a235-4e0a-"
-"bea5-88fadcac9ec3>`__"
-msgstr ""
+#: ../../source/docs/taobao/espressif/index.rst:16 aeab0afd57514e14b1e53978482f2911
+msgid "**固件下载：** `4MB固件(固件号：0883)  <https://axk.coding.net/s/dcd2cba7-a235-4e0a-bea5-88fadcac9ec3>`__"
+msgstr "**Firmware Download:** `4MB Firmware (Firmware No.: 0883)  <https://axk.coding.net/s/dcd2cba7-a235-4e0a-bea5-88fadcac9ec3>`__"
 
-#: ../../source/docs/taobao/espressif/index.rst:19
-#: 29688bcc97a34635b4cf3c4bdc529744
+#: ../../source/docs/taobao/espressif/index.rst:19 29688bcc97a34635b4cf3c4bdc529744
 msgid "1.2 直连腾讯云AT固件"
-msgstr ""
+msgstr "1.2 AT Firmware for Direct Connection to Tencent Cloud"
 
-#: ../../source/docs/taobao/espressif/index.rst:21
-#: 4364497c7f3b43debdd807e7dd2945ac
+#: ../../source/docs/taobao/espressif/index.rst:21 4364497c7f3b43debdd807e7dd2945ac
 msgid "**说明:**"
-msgstr ""
+msgstr "**Description:**"
 
-#: ../../source/docs/taobao/espressif/index.rst:23
-#: e4af8ffcb96745c7827c0e7aeefe144f
+#: ../../source/docs/taobao/espressif/index.rst:23 e4af8ffcb96745c7827c0e7aeefe144f
 msgid "特性：可连接腾讯开发平台，Flash 至少2MB才可以烧录"
-msgstr ""
+msgstr "Features: Can connect to the Tencent development platform. At least 2MB Flash is required for flashing."
 
-#: ../../source/docs/taobao/espressif/index.rst:24
-#: 8a1874fc7ee1461bbf1408f9fa81b05a
+#: ../../source/docs/taobao/espressif/index.rst:24 8a1874fc7ee1461bbf1408f9fa81b05a
 msgid "更新说明：2020年02月28日更新，串口引脚为 TXD=GPIO15, RXD=GPIO13"
-msgstr ""
+msgstr "Update notes: Updated on February 28, 2020. Serial pins: TXD=GPIO15, RXD=GPIO13"
 
-#: ../../source/docs/taobao/espressif/index.rst:25
-#: ../../source/docs/taobao/espressif/index.rst:38
-#: 75d9b31bd6d34db09b72415d111ec16b e92d863d049c47b6a7481af152028ad2
+#: ../../source/docs/taobao/espressif/index.rst:25 ../../source/docs/taobao/espressif/index.rst:38 75d9b31bd6d34db09b72415d111ec16b e92d863d049c47b6a7481af152028ad2
 msgid "固件大小：2MB"
-msgstr ""
+msgstr "Firmware size: 2MB"
 
-#: ../../source/docs/taobao/espressif/index.rst:28
-#: d179174a3a8a47bab1fdc3cdf73c0c0e
-msgid ""
-"**固件下载：** `安信可腾讯云固件(固件号：1027) <https://axk.coding.net/s/71c2ad1b-b995"
-"-435d-991f-ec4478044fe4>`__"
-msgstr ""
+#: ../../source/docs/taobao/espressif/index.rst:28 d179174a3a8a47bab1fdc3cdf73c0c0e
+msgid "**固件下载：** `安信可腾讯云固件(固件号：1027) <https://axk.coding.net/s/71c2ad1b-b995-435d-991f-ec4478044fe4>`__"
+msgstr "**Firmware Download:** `Ai-Thinker Tencent Cloud Firmware (Firmware No.: 1027) <https://axk.coding.net/s/71c2ad1b-b995-435d-991f-ec4478044fe4>`__"
 
-#: ../../source/docs/taobao/espressif/index.rst:31
-#: 2d805d2511234fb29d62d0313fac4c9c
+#: ../../source/docs/taobao/espressif/index.rst:31 2d805d2511234fb29d62d0313fac4c9c
 msgid "1.3 MQTT透传固件"
-msgstr ""
+msgstr "1.3 MQTT Transparent Transmission Firmware"
 
-#: ../../source/docs/taobao/espressif/index.rst:35
-#: e5c5bff42808492aa072bfc5dd5b05fb
+#: ../../source/docs/taobao/espressif/index.rst:35 e5c5bff42808492aa072bfc5dd5b05fb
 msgid "特性：支持TLS连接，务必注意通讯引脚为（ txd=GPIO15, rxd=GPIO13），Flash 至少2MB才可以烧录"
-msgstr ""
+msgstr "Features: Supports TLS connection. Please note that the communication pins are (txd=GPIO15, rxd=GPIO13). At least 2MB Flash is required for flashing."
 
-#: ../../source/docs/taobao/espressif/index.rst:36
-#: 0204cdc7221c4e148b664042da7bb37d
+#: ../../source/docs/taobao/espressif/index.rst:36 0204cdc7221c4e148b664042da7bb37d
 #, python-format
-msgid ""
-"使用说明： `使用指导 <https://docs.ai-"
-"thinker.com/_media/esp8266/mqtt%E5%9B%BA%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%8C%87%E5%AF%BC.rar>`__"
-msgstr ""
+msgid "使用说明： `使用指导 <https://docs.ai-thinker.com/_media/esp8266/mqtt%E5%9B%BA%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%8C%87%E5%AF%BC.rar>`__"
+msgstr "User Guide: `User Guide <https://docs.ai-thinker.com/_media/esp8266/mqtt%E5%9B%BA%E4%BB%B6%E4%BD%BF%E7%94%A8%E6%8C%87%E5%AF%BC.rar>`__"
 
-#: ../../source/docs/taobao/espressif/index.rst:37
-#: bfe5ca4d43194336bd147a18e563d172
+#: ../../source/docs/taobao/espressif/index.rst:37 bfe5ca4d43194336bd147a18e563d172
 msgid "更新时间：2020年2月21日"
-msgstr ""
+msgstr "Update date: February 21, 2020"
 
-#: ../../source/docs/taobao/espressif/index.rst:39
-#: e9dfc58a5fd5446fb41bf61cc6e3121d
+#: ../../source/docs/taobao/espressif/index.rst:39 e9dfc58a5fd5446fb41bf61cc6e3121d
 msgid "更新说明：串口引脚为 TXD=GPIO15, RXD=GPIO13,串口1作为log串口，默认波特率为115200"
-msgstr ""
+msgstr "Update notes: Serial pins: TXD=GPIO15, RXD=GPIO13. UART1 is used as the log serial port, with a default baud rate of 115200."
 
-#: ../../source/docs/taobao/espressif/index.rst:41
-#: 97e6f7b9ba844e97a5f189d107e4597a
-msgid ""
-"**点我下载：** `MQTT透传固件(固件号：1030) <https://axk.coding.net/s/7264452d-"
-"ac0a-4241-917a-85052ded2e3a>`__"
-msgstr ""
+#: ../../source/docs/taobao/espressif/index.rst:41 97e6f7b9ba844e97a5f189d107e4597a
+msgid "**点我下载：** `MQTT透传固件(固件号：1030) <https://axk.coding.net/s/7264452d-ac0a-4241-917a-85052ded2e3a>`__"
+msgstr "**Click to Download:** `MQTT Transparent Transmission Firmware (Firmware No.: 1030) <https://axk.coding.net/s/7264452d-ac0a-4241-917a-85052ded2e3a>`__"
 
-#: ../../source/docs/taobao/espressif/index.rst:44
-#: 753c4d03134f4d5aa6d9a5c248af699b
+#: ../../source/docs/taobao/espressif/index.rst:44 753c4d03134f4d5aa6d9a5c248af699b
 msgid "2. ESP32系列"
-msgstr ""
+msgstr "2. ESP32 Series"
 
-#: ../../source/docs/taobao/espressif/index.rst:47
-#: eab846075c2346ce8f152e609092561f
+#: ../../source/docs/taobao/espressif/index.rst:47 eab846075c2346ce8f152e609092561f
 msgid "2.1 ESP32-S 出厂AT固件"
-msgstr ""
+msgstr "2.1 ESP32-S Factory AT Firmware"
 
-#: ../../source/docs/taobao/espressif/index.rst:51
-#: 6822943048704a83ac675416f1da59fe
+#: ../../source/docs/taobao/espressif/index.rst:51 6822943048704a83ac675416f1da59fe
 msgid "特性：支持MQTT，支持BLE"
-msgstr ""
+msgstr "Features: Supports MQTT and BLE"
 
-#: ../../source/docs/taobao/espressif/index.rst:52
-#: c4178ad5b2bd4b15b9bc7b0b908d5e73
+#: ../../source/docs/taobao/espressif/index.rst:52 c4178ad5b2bd4b15b9bc7b0b908d5e73
 msgid "更新时间：2020年2月14日"
-msgstr ""
+msgstr "Update date: February 14, 2020"
 
-#: ../../source/docs/taobao/espressif/index.rst:53
-#: ../../source/docs/taobao/espressif/index.rst:65
-#: ../../source/docs/taobao/espressif/index.rst:83
-#: 797e7d46281e4f22b2d4de83515ca09d 87c48a2d418f48b8b5494c9390f6772c
-#: bcd56419a78e49f394663ecfc9bb4e8a
+#: ../../source/docs/taobao/espressif/index.rst:53 ../../source/docs/taobao/espressif/index.rst:65 ../../source/docs/taobao/espressif/index.rst:83 797e7d46281e4f22b2d4de83515ca09d 87c48a2d418f48b8b5494c9390f6772c bcd56419a78e49f394663ecfc9bb4e8a
 msgid "固件大小：4MB"
-msgstr ""
+msgstr "Firmware size: 4MB"
 
-#: ../../source/docs/taobao/espressif/index.rst:56
-#: dfd58a95060749c3855e5cf48bf09ab8
-msgid ""
-"**固件下载：** `ESP32-S默认出厂固件(固件号：1029) <https://axk.coding.net/s/dc381137"
-"-542c-436e-a225-de015ff65a3d>`__"
-msgstr ""
+#: ../../source/docs/taobao/espressif/index.rst:56 dfd58a95060749c3855e5cf48bf09ab8
+msgid "**固件下载：** `ESP32-S默认出厂固件(固件号：1029) <https://axk.coding.net/s/dc381137-542c-436e-a225-de015ff65a3d>`__"
+msgstr "**Firmware Download:** `ESP32-S Default Factory Firmware (Firmware No.: 1029) <https://axk.coding.net/s/dc381137-542c-436e-a225-de015ff65a3d>`__"
 
-#: ../../source/docs/taobao/espressif/index.rst:59
-#: 1350e31329a9443ab3354010dd3b2f03
+#: ../../source/docs/taobao/espressif/index.rst:59 1350e31329a9443ab3354010dd3b2f03
 msgid "2.2 ESP32-SL 出厂AT固件"
-msgstr ""
+msgstr "2.2 ESP32-SL Factory AT Firmware"
 
-#: ../../source/docs/taobao/espressif/index.rst:63
-#: e29f5109b59c40ec89dcc276ab34a3a1
+#: ../../source/docs/taobao/espressif/index.rst:63 e29f5109b59c40ec89dcc276ab34a3a1
 msgid "特性：支持MQTT,不支持BLE"
-msgstr ""
+msgstr "Features: Supports MQTT; does not support BLE"
 
-#: ../../source/docs/taobao/espressif/index.rst:64
-#: 9bec4e821e7e4e26a8fbddea39de7e61
+#: ../../source/docs/taobao/espressif/index.rst:64 9bec4e821e7e4e26a8fbddea39de7e61
 msgid "更新时间：2020年04月20日"
-msgstr ""
+msgstr "Update date: April 20, 2020"
 
-#: ../../source/docs/taobao/espressif/index.rst:66
-#: b4758b6fcfde4a00be0ba7e7bf711df9
+#: ../../source/docs/taobao/espressif/index.rst:66 b4758b6fcfde4a00be0ba7e7bf711df9
 msgid "UART默认配置：RX16，TX17，波特率：115200"
-msgstr ""
+msgstr "UART default configuration: RX16, TX17, baud rate: 115200"
 
-#: ../../source/docs/taobao/espressif/index.rst:68
-#: c77e828d7a0441eb8751923871561d3f
-msgid ""
-"**固件下载：** `ESP32-SL默认出厂固件(固件号：1084) <https://axk.coding.net/s/b43a7c4d-"
-"280b-4336-9bc5-c5b1e2695765>`__"
-msgstr ""
+#: ../../source/docs/taobao/espressif/index.rst:68 c77e828d7a0441eb8751923871561d3f
+msgid "**固件下载：** `ESP32-SL默认出厂固件(固件号：1084) <https://axk.coding.net/s/b43a7c4d-280b-4336-9bc5-c5b1e2695765>`__"
+msgstr "**Firmware Download:** `ESP32-SL Default Factory Firmware (Firmware No.: 1084) <https://axk.coding.net/s/b43a7c4d-280b-4336-9bc5-c5b1e2695765>`__"
 
-#: ../../source/docs/taobao/espressif/index.rst:71
-#: 540872906cd447479617059f6bd28129
+#: ../../source/docs/taobao/espressif/index.rst:71 540872906cd447479617059f6bd28129
 msgid "2.3 ESP32-S 开发板出厂固件"
-msgstr ""
+msgstr "2.3 ESP32-S Development Board Factory Firmware"
 
-#: ../../source/docs/taobao/espressif/index.rst:73
-#: e5bce8cc07004ffc88e9c14d5b509b70
-msgid ""
-"**说明：** **开发板固件:** "
-"`<https://axk.coding.net/s/aa00d771-55d0-4ce0-b6a4-3e54e09f3b0e>`__"
-msgstr ""
+#: ../../source/docs/taobao/espressif/index.rst:73 e5bce8cc07004ffc88e9c14d5b509b70
+msgid "**说明：** **开发板固件:** `<https://axk.coding.net/s/aa00d771-55d0-4ce0-b6a4-3e54e09f3b0e>`__"
+msgstr "**Description:** **Development Board Firmware:** `<https://axk.coding.net/s/aa00d771-55d0-4ce0-b6a4-3e54e09f3b0e>`__"
 
-#: ../../source/docs/taobao/espressif/index.rst:77
-#: 67c7240500ec465ba459c69cf1010b88
+#: ../../source/docs/taobao/espressif/index.rst:77 67c7240500ec465ba459c69cf1010b88
 msgid "3. ESP32-S2系列"
-msgstr ""
+msgstr "3. ESP32-S2 Series"
 
-#: ../../source/docs/taobao/espressif/index.rst:81
-#: ff6894ff0a634e1caa536be690c72172
+#: ../../source/docs/taobao/espressif/index.rst:81 ff6894ff0a634e1caa536be690c72172
 msgid "特性：只适用于NodeMCU-32S开发板，非AT固件"
-msgstr ""
+msgstr "Features: Only applicable to the NodeMCU-32S development board; non-AT firmware"
 
-#: ../../source/docs/taobao/espressif/index.rst:82
-#: 69fab560271c46818eeffc88979226f4
+#: ../../source/docs/taobao/espressif/index.rst:82 69fab560271c46818eeffc88979226f4
 msgid "更新时间：2017年07月05日"
-msgstr ""
+msgstr "Update date: July 05, 2017"
 
-#: ../../source/docs/taobao/espressif/index.rst:85
-#: e181a0acbc3f48ffa8e6e77b49acf0b3
-msgid ""
-"**固件下载：** `ESP3 - 特性：适用于ESP-12K和ESP-12H， - 固件大小：4MB - UART "
-"默认配置：RX16，TX17，波特率：115200"
-msgstr ""
+#: ../../source/docs/taobao/espressif/index.rst:85 e181a0acbc3f48ffa8e6e77b49acf0b3
+msgid "**固件下载：** `ESP3 - 特性：适用于ESP-12K和ESP-12H， - 固件大小：4MB - UART 默认配置：RX16，TX17，波特率：115200"
+msgstr "**Firmware Download:** `ESP3 - Features: Applicable to ESP-12K and ESP-12H - Firmware size: 4MB - UART default configuration: RX16, TX17, baud rate: 115200"
 
-#: ../../source/docs/taobao/espressif/index.rst:90
-#: 0cf14b512d8147fca727210800a899d8
-msgid ""
-"**固件下载：** `ESP32-S2 出厂固件(固件号：1204) "
-"<https://axk.coding.net/s/2dc4b06a-f834-44e8-8268-f39b8e4f9beb>`__ "
-"(带PSRAM)"
-msgstr ""
+#: ../../source/docs/taobao/espressif/index.rst:90 0cf14b512d8147fca727210800a899d8
+msgid "**固件下载：** `ESP32-S2 出厂固件(固件号：1204) <https://axk.coding.net/s/2dc4b06a-f834-44e8-8268-f39b8e4f9beb>`__ (带PSRAM)"
+msgstr "**Firmware Download:** `ESP32-S2 Factory Firmware (Firmware No.: 1204) <https://axk.coding.net/s/2dc4b06a-f834-44e8-8268-f39b8e4f9beb>`__ (with PSRAM)"
 
-#: ../../source/docs/taobao/espressif/index.rst:92
-#: ca02522169b64956bad8811d9ca7bca1
-msgid ""
-"**固件下载：** `ESP32-S2 出厂固件(固件号：1205) <https://axk.coding.net/s/82ce0d42"
-"-709e-4b7b-afd7-fee7da666839>`__ (不带PSRAM)"
-msgstr ""
+#: ../../source/docs/taobao/espressif/index.rst:92 ca02522169b64956bad8811d9ca7bca1
+msgid "**固件下载：** `ESP32-S2 出厂固件(固件号：1205) <https://axk.coding.net/s/82ce0d42-709e-4b7b-afd7-fee7da666839>`__ (不带PSRAM)"
+msgstr "**Firmware Download:** `ESP32-S2 Factory Firmware (Firmware No.: 1205) <https://axk.coding.net/s/82ce0d42-709e-4b7b-afd7-fee7da666839>`__ (without PSRAM)"
 
-#: ../../source/docs/taobao/espressif/index.rst:95
-#: 9d8d2718132e48cb8a343a61e66bb299
+#: ../../source/docs/taobao/espressif/index.rst:95 9d8d2718132e48cb8a343a61e66bb299
 msgid "4. ESP-C3系列"
-msgstr ""
+msgstr "4. ESP-C3 Series"
 
-#: ../../source/docs/taobao/espressif/index.rst:99
-#: 92c34f994b83406081f3dbd5b3af341f
+#: ../../source/docs/taobao/espressif/index.rst:99 92c34f994b83406081f3dbd5b3af341f
 msgid "特性：单WiFi，不支持BLE"
-msgstr ""
+msgstr "Features: Wi-Fi only; does not support BLE"
 
-#: ../../source/docs/taobao/espressif/index.rst:100
-#: 8178e046748b4e9da3efce7c97e7ed88
+#: ../../source/docs/taobao/espressif/index.rst:100 8178e046748b4e9da3efce7c97e7ed88
 msgid "更新时间：2021年7月31日"
-msgstr ""
+msgstr "Update date: July 31, 2021"
 
-#: ../../source/docs/taobao/espressif/index.rst:101
-#: 689d8dcde11c44bf94fdb485776df045
+#: ../../source/docs/taobao/espressif/index.rst:101 689d8dcde11c44bf94fdb485776df045
 msgid "固件大小：2MB、4MB"
-msgstr ""
+msgstr "Firmware size: 2MB, 4MB"
 
-#: ../../source/docs/taobao/espressif/index.rst:102
-#: a6ef6c10324b45ba98de24f0552ff6aa
+#: ../../source/docs/taobao/espressif/index.rst:102 a6ef6c10324b45ba98de24f0552ff6aa
 msgid "UART 默认配置：RX20，TX21，波特率：115200"
-msgstr ""
+msgstr "UART default configuration: RX20, TX21, baud rate: 115200"
 
-#: ../../source/docs/taobao/espressif/index.rst:104
-#: 7130e66360b04ad19328cc33156a4ca0
-msgid ""
-"**2MB固件下载：** `ESPC3 出厂固件 <https://axk.coding.net/s/7aa7a14e-"
-"e8f5-46a7-8b90-0428ab190dc5>`__"
-msgstr ""
+#: ../../source/docs/taobao/espressif/index.rst:104 7130e66360b04ad19328cc33156a4ca0
+msgid "**2MB固件下载：** `ESPC3 出厂固件 <https://axk.coding.net/s/7aa7a14e-e8f5-46a7-8b90-0428ab190dc5>`__"
+msgstr "**2MB Firmware Download:** `ESPC3 Factory Firmware <https://axk.coding.net/s/7aa7a14e-e8f5-46a7-8b90-0428ab190dc5>`__"
 
-#: ../../source/docs/taobao/espressif/index.rst:106
-#: f35a80970c3e4e3a99804e1dbc9b3500
-msgid ""
-"**4MB固件下载：** `ESPC3 出厂固件 "
-"<https://axk.coding.net/s/95b5f9af-d167-4de1-83d7-3fb45402dd7e>`__"
-msgstr ""
-
+#: ../../source/docs/taobao/espressif/index.rst:106 f35a80970c3e4e3a99804e1dbc9b3500
+msgid "**4MB固件下载：** `ESPC3 出厂固件 <https://axk.coding.net/s/95b5f9af-d167-4de1-83d7-3fb45402dd7e>`__"
+msgstr "**4MB Firmware Download:** `ESPC3 Factory Firmware <https://axk.coding.net/s/95b5f9af-d167-4de1-83d7-3fb45402dd7e>`__"

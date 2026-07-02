@@ -6,131 +6,91 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 14:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/application-solution/index.rst:2
-#: 1dffb5a198fa458fab78ed85b96d3455
+#: ../../source/docs/application-solution/index.rst:2 1dffb5a198fa458fab78ed85b96d3455
 msgid "应用方案"
-msgstr ""
+msgstr "Application Solutions"
 
-#: ../../source/docs/application-solution/index.rst:4
-#: 9a8113c03a134357bddd20f942ebe979
+#: ../../source/docs/application-solution/index.rst:4 9a8113c03a134357bddd20f942ebe979
 msgid "本节简单介绍我司模组的一些成熟方案，持续更新中..."
-msgstr ""
+msgstr "This section briefly introduces some mature solutions based on our modules, and is continuously updated..."
 
-#: ../../source/docs/application-solution/index.rst:7
-#: 1628fbf1b4574fdfaa0de469836aa1c9
+#: ../../source/docs/application-solution/index.rst:7 1628fbf1b4574fdfaa0de469836aa1c9
 msgid "天猫精灵/阿里飞燕平台"
-msgstr ""
+msgstr "Tmall Genie / Alibaba Feiyan Platform"
 
-#: ../../source/docs/application-solution/index.rst:9
-#: a38379c1371744d582e9ecb6857773ce
-msgid ""
-"1、 AT透传指令接入阿里云物联网平台笔记（非天猫精灵语音控制） 安信可ESP-12S对接代码教程（AT+MCU方式）： "
-"https://aithinker.blog.csdn.net/article/details/104791452"
-msgstr ""
+#: ../../source/docs/application-solution/index.rst:9 a38379c1371744d582e9ecb6857773ce
+msgid "1、 AT透传指令接入阿里云物联网平台笔记（非天猫精灵语音控制） 安信可ESP-12S对接代码教程（AT+MCU方式）： https://aithinker.blog.csdn.net/article/details/104791452"
+msgstr "1. Notes on connecting to Alibaba Cloud IoT Platform via AT transparent transmission commands (no Tmall Genie voice control) Ai-Thinker ESP-12S integration code tutorial (AT + MCU method): https://aithinker.blog.csdn.net/article/details/104791452"
 
-#: ../../source/docs/application-solution/index.rst:13
-#: 0a207460a7084456a4174fb07620c111
+#: ../../source/docs/application-solution/index.rst:13 0a207460a7084456a4174fb07620c111
 msgid "2、安信可自研固件接入天猫精灵IOT平台控制单路插座的教程 （支持天猫精灵语音控制） 安信可ESP-12S对接代码教程（AT+MCU方式）："
-msgstr ""
+msgstr "2. Tutorial on connecting Ai-Thinker self-developed firmware to the Tmall Genie IoT Platform for controlling a single-channel socket (supports Tmall Genie voice control) Ai-Thinker ESP-12S integration code tutorial (AT + MCU method):"
 
-#: ../../source/docs/application-solution/index.rst:16
-#: ce9bf18a5f6640dc99f53bcc934c09b5
+#: ../../source/docs/application-solution/index.rst:16 ce9bf18a5f6640dc99f53bcc934c09b5
 msgid "https://aithinker.blog.csdn.net/article/details/106059991"
-msgstr ""
+msgstr "https://aithinker.blog.csdn.net/article/details/106059991"
 
-#: ../../source/docs/application-solution/index.rst:18
-#: a2c6b9ba106e42339304b7e6ef28b937
-msgid ""
-"3、安信可自研固件指令接入天猫精灵IOT平台实现控制RGB冷暖灯的教程 （支持天猫精灵语音控制） 安信可ESP-"
-"12S对接代码教程（AT+MCU方式）： "
-"https://aithinker.blog.csdn.net/article/details/105970895"
-msgstr ""
+#: ../../source/docs/application-solution/index.rst:18 a2c6b9ba106e42339304b7e6ef28b937
+msgid "3、安信可自研固件指令接入天猫精灵IOT平台实现控制RGB冷暖灯的教程 （支持天猫精灵语音控制） 安信可ESP-12S对接代码教程（AT+MCU方式）： https://aithinker.blog.csdn.net/article/details/105970895"
+msgstr "3. Tutorial on using Ai-Thinker self-developed firmware commands to connect to the Tmall Genie IoT Platform for controlling an RGB cool/warm light (supports Tmall Genie voice control) Ai-Thinker ESP-12S integration code tutorial (AT + MCU method): https://aithinker.blog.csdn.net/article/details/105970895"
 
-#: ../../source/docs/application-solution/index.rst:22
-#: 33e4e4bb21ae40609af0fcf5e9468d2f
-msgid ""
-"4、安信可ESP-12S对接代码教程（AT+MCU方式）： "
-"https://aithinker.blog.csdn.net/article/details/105676625"
-msgstr ""
+#: ../../source/docs/application-solution/index.rst:22 33e4e4bb21ae40609af0fcf5e9468d2f
+msgid "4、安信可ESP-12S对接代码教程（AT+MCU方式）： https://aithinker.blog.csdn.net/article/details/105676625"
+msgstr "4. Ai-Thinker ESP-12S integration code tutorial (AT + MCU method): https://aithinker.blog.csdn.net/article/details/105676625"
 
-#: ../../source/docs/application-solution/index.rst:25
-#: c7772422c5e5494b9cd8c8e365d7b9ca
-msgid ""
-"5、安信可自研固件指令接入接入阿里飞燕 , 轻松天猫精灵语音控制单片机。 （天猫精灵语音控制） 安信可ESP-"
-"12S对接代码教程（AT+MCU方式）： "
-"https://aithinker.blog.csdn.net/article/details/105651819"
-msgstr ""
+#: ../../source/docs/application-solution/index.rst:25 c7772422c5e5494b9cd8c8e365d7b9ca
+msgid "5、安信可自研固件指令接入接入阿里飞燕 , 轻松天猫精灵语音控制单片机。 （天猫精灵语音控制） 安信可ESP-12S对接代码教程（AT+MCU方式）： https://aithinker.blog.csdn.net/article/details/105651819"
+msgstr "5. Ai-Thinker self-developed firmware commands connect to Alibaba Feiyan, enabling easy Tmall Genie voice control of microcontrollers. (Tmall Genie voice control) Ai-Thinker ESP-12S integration code tutorial (AT + MCU method): https://aithinker.blog.csdn.net/article/details/105651819"
 
-#: ../../source/docs/application-solution/index.rst:30
-#: 7aaf969ee7d146c59e32b6a9ce3b0c18
+#: ../../source/docs/application-solution/index.rst:30 7aaf969ee7d146c59e32b6a9ce3b0c18
 msgid "京东小京鱼平台"
-msgstr ""
+msgstr "JD Xiaojingyu Platform"
 
-#: ../../source/docs/application-solution/index.rst:31
-#: 524012f1fa0f4ec797db9cd99507ddf7
+#: ../../source/docs/application-solution/index.rst:31 524012f1fa0f4ec797db9cd99507ddf7
 msgid "补充中..."
-msgstr ""
+msgstr "To be supplemented..."
 
-#: ../../source/docs/application-solution/index.rst:34
-#: ed85e3b7fe3c401f869c10dac7f2ad44
+#: ../../source/docs/application-solution/index.rst:34 ed85e3b7fe3c401f869c10dac7f2ad44
 msgid "腾讯物联/微信小程序平台"
-msgstr ""
+msgstr "Tencent IoT / WeChat Mini Program Platform"
 
-#: ../../source/docs/application-solution/index.rst:36
-#: 93abeea65d57474e95dee099ec79c71a
-msgid ""
-"1、对接腾讯物联开发平台 （不支持任何音响语音控制） 安信可ESP-12S对接代码教程（AT或SDK开发）： https://github.com"
-"/Ai-Thinker-Open/Ai-Thinker-Open-qcloud-esp-wifi"
-msgstr ""
+#: ../../source/docs/application-solution/index.rst:36 93abeea65d57474e95dee099ec79c71a
+msgid "1、对接腾讯物联开发平台 （不支持任何音响语音控制） 安信可ESP-12S对接代码教程（AT或SDK开发）： https://github.com/Ai-Thinker-Open/Ai-Thinker-Open-qcloud-esp-wifi"
+msgstr "1. Connecting to the Tencent IoT Development Platform (does not support voice control via any smart speaker) Ai-Thinker ESP-12S integration code tutorial (AT or SDK development): https://github.com/Ai-Thinker-Open/Ai-Thinker-Open-qcloud-esp-wifi"
 
-#: ../../source/docs/application-solution/index.rst:40
-#: 00c41ddd9a3f4adc8fbe8f2c44ba8c12
-msgid ""
-"微信小程序MQTT通过连接百度天工远程控制安信可ESP8266开发板； （不支持任何音响语音控制） B站视频教程： "
-"https://www.bilibili.com/video/BV1W7411o7cg"
-msgstr ""
+#: ../../source/docs/application-solution/index.rst:40 00c41ddd9a3f4adc8fbe8f2c44ba8c12
+msgid "微信小程序MQTT通过连接百度天工远程控制安信可ESP8266开发板； （不支持任何音响语音控制） B站视频教程： https://www.bilibili.com/video/BV1W7411o7cg"
+msgstr "WeChat Mini Program MQTT remotely controls the Ai-Thinker ESP8266 development board by connecting to Baidu Tiangong (does not support voice control via any smart speaker); Bilibili video tutorial: https://www.bilibili.com/video/BV1W7411o7cg"
 
-#: ../../source/docs/application-solution/index.rst:44
-#: 7b32a16878a54ffab779631a29e11ba1
+#: ../../source/docs/application-solution/index.rst:44 7b32a16878a54ffab779631a29e11ba1
 msgid "微信小程序源码： https://github.com/Ai-Thinker-Open/WCMiniColorControl"
-msgstr ""
+msgstr "WeChat Mini Program source code: https://github.com/Ai-Thinker-Open/WCMiniColorControl"
 
-#: ../../source/docs/application-solution/index.rst:47
-#: e48d286a85d84488a0b6a14dadc6551f
-msgid ""
-"设备端源码： https://github.com/Ai-Thinker-Open/AiClouds3.0-Device/tree/master"
-"/Ai-examples/4.BaiDu-rgb-esp8266"
-msgstr ""
+#: ../../source/docs/application-solution/index.rst:47 e48d286a85d84488a0b6a14dadc6551f
+msgid "设备端源码： https://github.com/Ai-Thinker-Open/AiClouds3.0-Device/tree/master/Ai-examples/4.BaiDu-rgb-esp8266"
+msgstr "Device-side source code: https://github.com/Ai-Thinker-Open/AiClouds3.0-Device/tree/master/Ai-examples/4.BaiDu-rgb-esp8266"
 
-#: ../../source/docs/application-solution/index.rst:54
-#: 1e00b77e23a64abc808171d98f5c1e66
+#: ../../source/docs/application-solution/index.rst:54 1e00b77e23a64abc808171d98f5c1e66
 msgid "亚马逊/微软IoT平台"
-msgstr ""
+msgstr "Amazon / Microsoft IoT Platform"
 
-#: ../../source/docs/application-solution/index.rst:56
-#: bcf5db81d577487d813efcc7b82eac53
-msgid ""
-"1、AT对接亚马逊云平台（不支持任何音响语音控制） 安信可ESP-12S对接代码教程（AT+MCU方式）： "
-"https://aithinker.blog.csdn.net/article/details/104633166"
-msgstr ""
+#: ../../source/docs/application-solution/index.rst:56 bcf5db81d577487d813efcc7b82eac53
+msgid "1、AT对接亚马逊云平台（不支持任何音响语音控制） 安信可ESP-12S对接代码教程（AT+MCU方式）： https://aithinker.blog.csdn.net/article/details/104633166"
+msgstr "1. Connecting to Amazon Cloud Platform via AT commands (does not support voice control by any smart speaker) Ai-Thinker ESP-12S integration code tutorial (AT + MCU method): https://aithinker.blog.csdn.net/article/details/104633166"
 
-#: ../../source/docs/application-solution/index.rst:60
-#: b14a7807c73e4a2cac1f9cb87b6585cb
-msgid ""
-"2、AT透传指令接入微软IOT物联网平台 （不支持任何音响语音控制） 安信可ESP-"
-"12S对接代码教程（AT+MCU方式）：https://aithinker.blog.csdn.net/article/details/104836750"
-msgstr ""
-
+#: ../../source/docs/application-solution/index.rst:60 b14a7807c73e4a2cac1f9cb87b6585cb
+msgid "2、AT透传指令接入微软IOT物联网平台 （不支持任何音响语音控制） 安信可ESP-12S对接代码教程（AT+MCU方式）：https://aithinker.blog.csdn.net/article/details/104836750"
+msgstr "2. Connecting to Microsoft IoT Platform via AT transparent transmission commands (does not support voice control by any smart speaker) Ai-Thinker ESP-12S integration code tutorial (AT + MCU method): https://aithinker.blog.csdn.net/article/details/104836750"

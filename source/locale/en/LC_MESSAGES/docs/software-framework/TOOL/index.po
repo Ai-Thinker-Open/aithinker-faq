@@ -6,125 +6,100 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 14:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/TOOL/index.rst:2
-#: 5fe8791dc8094ac3a2d2951f92697768
+#: ../../source/docs/software-framework/TOOL/index.rst:2 5fe8791dc8094ac3a2d2951f92697768
 msgid "其它"
-msgstr ""
+msgstr "Others"
 
-#: ../../source/docs/software-framework/TOOL/index.rst:15
-#: b5ed5681df354e61a5aa378faf0fbead
+#: ../../source/docs/software-framework/TOOL/index.rst:15 b5ed5681df354e61a5aa378faf0fbead
 msgid "MAC OS上如何查询串口号？"
-msgstr ""
+msgstr "How do I check the serial port number on macOS?"
 
-#: ../../source/docs/software-framework/TOOL/index.rst:16
-#: f52fcdbb88fc4e6989c05c68ee1cec7b
+#: ../../source/docs/software-framework/TOOL/index.rst:16 f52fcdbb88fc4e6989c05c68ee1cec7b
 msgid "通过指令“ls /dev/cu.*”查询。"
-msgstr ""
+msgstr "Use the command \"ls /dev/cu.*\" to query it."
 
-#: ../../source/docs/software-framework/TOOL/index.rst:19
-#: ba3623ffcc604355a85f301d331f725b
+#: ../../source/docs/software-framework/TOOL/index.rst:19 ba3623ffcc604355a85f301d331f725b
 msgid "CH340以及CP2102驱动获取链接："
-msgstr ""
+msgstr "Download links for CH340 and CP2102 drivers:"
 
-#: ../../source/docs/software-framework/TOOL/index.rst:20
-#: 62066f78bce3460d8dc8effb0601a824
+#: ../../source/docs/software-framework/TOOL/index.rst:20 62066f78bce3460d8dc8effb0601a824
 #, python-format
 msgid "https://docs.ai-thinker.com/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B72"
-msgstr ""
+msgstr "https://docs.ai-thinker.com/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B72"
 
-#: ../../source/docs/software-framework/TOOL/index.rst:23
-#: 3f56b65bcc8c44a0b939d5b5db685cf2
+#: ../../source/docs/software-framework/TOOL/index.rst:23 3f56b65bcc8c44a0b939d5b5db685cf2
 msgid "你们USB转TTL（cp2102芯片）不支持2M速率么？"
-msgstr ""
+msgstr "Does your USB-to-TTL adapter (CP2102 chip) not support a 2M baud rate?"
 
-#: ../../source/docs/software-framework/TOOL/index.rst:24
-#: 6f82207748f949099bef9f5fd42133fb
+#: ../../source/docs/software-framework/TOOL/index.rst:24 6f82207748f949099bef9f5fd42133fb
 msgid "该工具最大支持1M速率"
-msgstr ""
+msgstr "This tool supports a maximum baud rate of 1M."
 
-#: ../../source/docs/software-framework/TOOL/index.rst:27
-#: 08e952b4011949fbb464cac5d1eb659f
+#: ../../source/docs/software-framework/TOOL/index.rst:27 08e952b4011949fbb464cac5d1eb659f
 msgid "请问CP2102模块与CH340模块是否兼容？"
-msgstr ""
+msgstr "Are the CP2102 module and CH340 module compatible?"
 
-#: ../../source/docs/software-framework/TOOL/index.rst:28
-#: 046a0cf7af8044dc9b825acb3d6d2de9
+#: ../../source/docs/software-framework/TOOL/index.rst:28 046a0cf7af8044dc9b825acb3d6d2de9
 msgid "均是串口模块，使用方法一样，只是驱动不同；"
-msgstr ""
+msgstr "Both are serial port modules and are used in the same way; only the drivers are different."
 
-#: ../../source/docs/software-framework/TOOL/index.rst:31
-#: 08e21072e6eb4f819408ea857b00c6f9
+#: ../../source/docs/software-framework/TOOL/index.rst:31 08e21072e6eb4f819408ea857b00c6f9
 msgid "有SDIO接口的数据透传模组么？"
-msgstr ""
+msgstr "Do you have a data transparent transmission module with an SDIO interface?"
 
-#: ../../source/docs/software-framework/TOOL/index.rst:32
-#: 9d4c8541a5364352a392e633712f33b1
+#: ../../source/docs/software-framework/TOOL/index.rst:32 9d4c8541a5364352a392e633712f33b1
 msgid "没有"
-msgstr ""
+msgstr "No."
 
-#: ../../source/docs/software-framework/TOOL/index.rst:35
-#: 801bb497dd234fcc990f1b2e8b90220d
+#: ../../source/docs/software-framework/TOOL/index.rst:35 801bb497dd234fcc990f1b2e8b90220d
 msgid "有支持研发电台的模块吗"
-msgstr ""
+msgstr "Do you have modules that support radio transceiver development?"
 
-#: ../../source/docs/software-framework/TOOL/index.rst:36
-#: 6b16603c963e417e829359cb9088845b
+#: ../../source/docs/software-framework/TOOL/index.rst:36 6b16603c963e417e829359cb9088845b
 msgid "目前没有支持研发电台的模组"
-msgstr ""
+msgstr "Currently, there are no modules that support radio transceiver development."
 
-#: ../../source/docs/software-framework/TOOL/index.rst:39
-#: f487bb9172bb488bac7e064a13bc341e
+#: ../../source/docs/software-framework/TOOL/index.rst:39 f487bb9172bb488bac7e064a13bc341e
 msgid "请问：AiThinkerIDE_V1.5.2软件为什么老是安装失败？"
-msgstr ""
+msgstr "Why does the AiThinkerIDE_V1.5.2 software keep failing to install?"
 
-#: ../../source/docs/software-framework/TOOL/index.rst:40
-#: 41a0e4dcaff84325ab1191d0eed5db18
-msgid ""
-"建议换一个开发环境，该软件已经不再维护了。这是开发环境搭建指导文档： `参考链接  "
-"<https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-"
-"started/windows-setup.html>`__"
-msgstr ""
+#: ../../source/docs/software-framework/TOOL/index.rst:40 41a0e4dcaff84325ab1191d0eed5db18
+msgid "建议换一个开发环境，该软件已经不再维护了。这是开发环境搭建指导文档： `参考链接  <https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/windows-setup.html>`__"
+msgstr "It is recommended to switch to another development environment, as this software is no longer maintained. Here is the development environment setup guide: `Reference link  <https://docs.espressif.com/projects/esp8266-rtos-sdk/en/latest/get-started/windows-setup.html>`__"
 
-#: ../../source/docs/software-framework/TOOL/index.rst:44
-#: d13c6b971fef4e2d8566c39d9bd933e6
+#: ../../source/docs/software-framework/TOOL/index.rst:44 d13c6b971fef4e2d8566c39d9bd933e6
 msgid "请问设备是铝合金和铁制外壳，会影响信号传输么？"
-msgstr ""
+msgstr "If the device has an aluminum alloy or iron enclosure, will it affect signal transmission?"
 
-#: ../../source/docs/software-framework/TOOL/index.rst:45
-#: 2a781eedaccd46b1bf53eec0db97028b
+#: ../../source/docs/software-framework/TOOL/index.rst:45 2a781eedaccd46b1bf53eec0db97028b
 msgid "会，金属物质会吸收射频波，对信号传输影响很大；"
-msgstr ""
+msgstr "Yes. Metal materials absorb RF waves and have a significant impact on signal transmission."
 
-#: ../../source/docs/software-framework/TOOL/index.rst:48
-#: c80ee4ea603f4d759947bac4115260cb
+#: ../../source/docs/software-framework/TOOL/index.rst:48 c80ee4ea603f4d759947bac4115260cb
 msgid "CP2102串口板外面的塑料皮套有什么作用，给剪开有影响吗"
-msgstr ""
+msgstr "What is the purpose of the plastic sleeve outside the CP2102 serial port board? Will cutting it open have any impact?"
 
-#: ../../source/docs/software-framework/TOOL/index.rst:49
-#: 35584f7c06f041fcbcbdada9d3e97d6f
+#: ../../source/docs/software-framework/TOOL/index.rst:49 35584f7c06f041fcbcbdada9d3e97d6f
 msgid "塑料皮套起到保护内部电路的作用，不推荐将皮套剪掉，这样会降低串口板的使用寿命"
-msgstr ""
+msgstr "The plastic sleeve protects the internal circuit. It is not recommended to cut it off, as doing so will reduce the service life of the serial port board."
 
-#: ../../source/docs/software-framework/TOOL/index.rst:52
-#: 5aeba98948344650982b8c916166e7a1
+#: ../../source/docs/software-framework/TOOL/index.rst:52 5aeba98948344650982b8c916166e7a1
 msgid "请问贵司有能驱动720P摄像头的产品么？"
-msgstr ""
+msgstr "Does your company have any products that can drive a 720P camera?"
 
-#: ../../source/docs/software-framework/TOOL/index.rst:53
-#: ae88b1f9b309409691cb7e9cf430b37b
+#: ../../source/docs/software-framework/TOOL/index.rst:53 ae88b1f9b309409691cb7e9cf430b37b
 msgid "没有。"
-msgstr ""
-
+msgstr "No."

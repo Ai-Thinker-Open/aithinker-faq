@@ -6,192 +6,134 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 14:37+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:2
-#: 80fa76c08704421990308240bb3f79db
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:2 80fa76c08704421990308240bb3f79db
 msgid "以太网"
-msgstr ""
+msgstr "Ethernet"
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:17
-#: 15170307ba4049ed9495356a811d707c
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:17 15170307ba4049ed9495356a811d707c
 msgid "ESP32 以太网开发板示例出现 \"emac: Reset EMAC Timeout\" 有哪些原因？"
-msgstr ""
+msgstr "What are the possible causes of \"emac: Reset EMAC Timeout\" in the ESP32 Ethernet development board example?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:19
-#: 31446721a9a0421eac67483095be37e7
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:19 31446721a9a0421eac67483095be37e7
 msgid "此 log 为 EMAC 初始化超时，与 RMII 时钟有关，建议排查硬件问题，查看 PHY 晶振是否虚焊等。"
-msgstr ""
+msgstr "This log indicates an EMAC initialization timeout, which is related to the RMII clock. It is recommended to troubleshoot hardware issues, such as checking whether the PHY crystal is poorly soldered."
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:24
-#: ab7a10d1a58f47ed8b46a9a3d4a59d04
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:24 ab7a10d1a58f47ed8b46a9a3d4a59d04
 msgid "ESP32 外接 LAN8720，GPIO0 对其提供 CLK，Ethernet 例程初始化出错。如何解决？"
-msgstr ""
+msgstr "An ESP32 is connected to an external LAN8720, with GPIO0 providing CLK. The Ethernet example reports an initialization error. How can this be resolved?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:67
-#: f23f3d2b938f43ac997d03c534f92e86
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:67 f23f3d2b938f43ac997d03c534f92e86
 msgid "请检查 IO0 上是否有电容。作为 CLK 输出 pin 的时候最好 IO0 上没有接电容，这会影响时序。"
-msgstr ""
+msgstr "Check whether there is a capacitor on IO0. When IO0 is used as the CLK output pin, it is best not to connect a capacitor to IO0, as it may affect timing."
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:68
-#: aca3552ffc4e40c5acdd375b6386ad19
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:68 aca3552ffc4e40c5acdd375b6386ad19
 msgid "GPIO0 输出 RMII 时钟切记在 Kconfig 中要勾选 ``CONFIG_PHY_CLOCK_GPIO0_OUT``。"
-msgstr ""
+msgstr "When GPIO0 outputs the RMII clock, make sure ``CONFIG_PHY_CLOCK_GPIO0_OUT`` is selected in Kconfig."
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:69
-#: 9cb20ae8ae7344708aa2657e0aba5566
-msgid ""
-"另外，以太网部分除了可以参考 example 中的 README 讲解，也可以参阅官方文档 `API 参考 "
-"<https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/api-"
-"reference/network/esp_eth.html>`_。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:69 9cb20ae8ae7344708aa2657e0aba5566
+msgid "另外，以太网部分除了可以参考 example 中的 README 讲解，也可以参阅官方文档 `API 参考 <https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/api-reference/network/esp_eth.html>`_。"
+msgstr "In addition, for the Ethernet section, apart from referring to the README in the example, you can also refer to the official documentation: `API Reference <https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/api-reference/network/esp_eth.html>`_."
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:74
-#: 4b1e0f7e0c9f4ce8a61890d0fc7de758
-msgid ""
-"使用 ESP-IDF 中的 Ethernet 示例时，出现错误代码 \"Timed out waiting for PHY register "
-"0x3 to have value 0xc0f0 (mask 0xfff0). Current value 0xffff\"，请问该如何解决？"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:74 4b1e0f7e0c9f4ce8a61890d0fc7de758
+msgid "使用 ESP-IDF 中的 Ethernet 示例时，出现错误代码 \"Timed out waiting for PHY register 0x3 to have value 0xc0f0 (mask 0xfff0). Current value 0xffff\"，请问该如何解决？"
+msgstr "When using the Ethernet example in ESP-IDF, the error \"Timed out waiting for PHY register 0x3 to have value 0xc0f0 (mask 0xfff0). Current value 0xffff\" appears. How can this be resolved?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:76
-#: a81c97d596074a58a698df071ab47934
-msgid ""
-"请参考：`BBS issue "
-"<https://www.esp32.com/viewtopic.php?f=12&t=6322&p=27381#p27381>`_ 与 "
-"`Github issue <https://github.com/espressif/esp-"
-"idf/pull/1127#issuecomment-340727923>`_。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:76 a81c97d596074a58a698df071ab47934
+msgid "请参考：`BBS issue <https://www.esp32.com/viewtopic.php?f=12&t=6322&p=27381#p27381>`_ 与 `Github issue <https://github.com/espressif/esp-idf/pull/1127#issuecomment-340727923>`_。"
+msgstr "Please refer to: `BBS issue <https://www.esp32.com/viewtopic.php?f=12&t=6322&p=27381#p27381>`_ and `Github issue <https://github.com/espressif/esp-idf/pull/1127#issuecomment-340727923>`_."
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:77
-#: c193f5b5c7f74013b1ccbba7bce9073f
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:77 c193f5b5c7f74013b1ccbba7bce9073f
 msgid "读 PHY 寄存器值为 0xFFFF 时，通常情况可以这样排查："
-msgstr ""
+msgstr "When the PHY register value reads as 0xFFFF, you can usually troubleshoot as follows:"
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:79
-#: a9145dd926dc48f4963f636ad2e45a2f
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:79 a9145dd926dc48f4963f636ad2e45a2f
 msgid "检查 MDIO 和 MDC 的接线是否错误"
-msgstr ""
+msgstr "Check whether the MDIO and MDC wiring is incorrect."
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:80
-#: 843cf16b0eae4dc2a729d3f3cca2e0fb
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:80 843cf16b0eae4dc2a729d3f3cca2e0fb
 msgid "检查 RMII 需要的 50 MHz 时钟是否正常"
-msgstr ""
+msgstr "Check whether the 50 MHz clock required by RMII is normal."
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:81
-#: 941b404235cd43098fd22b117ab4f6bd
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:81 941b404235cd43098fd22b117ab4f6bd
 msgid "检查 PHY 地址是否配置正确（包括软件和硬件）"
-msgstr ""
+msgstr "Check whether the PHY address is configured correctly, including both software and hardware settings."
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:83
-#: e48eaef956e04b30942408c064e2ef4b
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:83 e48eaef956e04b30942408c064e2ef4b
 msgid "强烈建议检查一遍控制 PHY 地址的 strap 引脚，保证其不要悬空，**不要默认**！确保这些 strap 引脚已经被外部电阻上拉或者下拉了。"
-msgstr ""
+msgstr "It is strongly recommended to check the strap pins that control the PHY address and ensure they are not floating. **Do not rely on defaults**! Make sure these strap pins are pulled up or pulled down by external resistors."
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:84
-#: fa679f44b76f4556913ded68ccebef4a
-msgid ""
-"如果还是不够确定 PHY 地址究竟是多少，可以在软件中尝试设置 PHY 地址从 0 开始到 31，然后读取 PHY ID "
-"寄存器，看看是否能够读到正常的数据，如果正确，记录下当前 PHY 地址。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:84 fa679f44b76f4556913ded68ccebef4a
+msgid "如果还是不够确定 PHY 地址究竟是多少，可以在软件中尝试设置 PHY 地址从 0 开始到 31，然后读取 PHY ID 寄存器，看看是否能够读到正常的数据，如果正确，记录下当前 PHY 地址。"
+msgstr "If you are still not sure what the PHY address is, you can try setting the PHY address from 0 to 31 in software, then read the PHY ID register to see whether valid data can be read. If the data is correct, record the current PHY address."
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:90
-#: 162ddf9005a843a99d45f166d80b1f98
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:90 162ddf9005a843a99d45f166d80b1f98
 msgid "使用 ESP-IDF v4.1，ESP32 Ethernet 如何设置静态 IP？"
-msgstr ""
+msgstr "How do I set a static IP for ESP32 Ethernet when using ESP-IDF v4.1?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:92
-#: f4f66fcc293343d4b01ab52a88b4b34b
-msgid ""
-"由于 ESP-IDF v4.1 以及以上版本会摒弃掉 tcp/ip 的接口，推荐使用 `ESP-NETIF "
-"<https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-"
-"reference/network/esp_netif.html>`_ 的接口。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:92 f4f66fcc293343d4b01ab52a88b4b34b
+msgid "由于 ESP-IDF v4.1 以及以上版本会摒弃掉 tcp/ip 的接口，推荐使用 `ESP-NETIF <https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_netif.html>`_ 的接口。"
+msgstr "Since ESP-IDF v4.1 and later versions deprecate the TCP/IP interfaces, it is recommended to use the `ESP-NETIF <https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/network/esp_netif.html>`_ interfaces."
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:94
-#: cfc889e0a2614bf79401297d89fc2b77
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:94 cfc889e0a2614bf79401297d89fc2b77
 msgid "参考示例代码如下："
-msgstr ""
+msgstr "Reference example code:"
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:126
-#: e492a6b1f3a64697ae14991efb8dd952
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:126 e492a6b1f3a64697ae14991efb8dd952
 msgid "ESP32-Ethernet-Kit 开发板模组替换成 ESP32-WROOM-32D 以太网功能是否存在影响？"
-msgstr ""
+msgstr "If the module on the ESP32-Ethernet-Kit development board is replaced with ESP32-WROOM-32D, will the Ethernet function be affected?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:128
-#: 671ab52200224f4bb7f9073e2c48f589
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:128 671ab52200224f4bb7f9073e2c48f589
 msgid "ESP32-Ethernet-Kit 上的 ESP32-WROVER-B 可以更换成 ESP32-WROOM-32D，且以太网功能不受影响。"
-msgstr ""
+msgstr "The ESP32-WROVER-B on the ESP32-Ethernet-Kit can be replaced with ESP32-WROOM-32D, and the Ethernet function will not be affected."
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:129
-#: d0958eb9daa94b249e10dffa3e31edf7
-msgid ""
-"ESP32-WROOM 和 ESP32-WROVER 系列模组最大的区别是：ESP32-WROVER 带有 4 MB PSRAM，而 "
-"ESP32-WROOM 默认没有 PSRAM。请参考："
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:129 d0958eb9daa94b249e10dffa3e31edf7
+msgid "ESP32-WROOM 和 ESP32-WROVER 系列模组最大的区别是：ESP32-WROVER 带有 4 MB PSRAM，而 ESP32-WROOM 默认没有 PSRAM。请参考："
+msgstr "The main difference between ESP32-WROOM and ESP32-WROVER series modules is that ESP32-WROVER has 4 MB PSRAM, while ESP32-WROOM does not have PSRAM by default. Please refer to:"
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:131
-#: 9df14e92b80240779b03828a7d7eb230
-msgid ""
-"`ESP32-WROOM-32D 技术规格书 "
-"<https://www.espressif.com/sites/default/files/documentation/esp32-wroom-"
-"32d_esp32-wroom-32u_datasheet_cn.pdf>`_"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:131 9df14e92b80240779b03828a7d7eb230
+msgid "`ESP32-WROOM-32D 技术规格书 <https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_cn.pdf>`_"
+msgstr "`ESP32-WROOM-32D Datasheet <https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_cn.pdf>`_"
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:132
-#: 58d88bc6539b470fb956d36b25f18e20
-msgid ""
-"`ESP32-WROVER-B 技术规格书 "
-"<https://www.espressif.com/sites/default/files/documentation/esp32"
-"-wrover-b_datasheet_cn.pdf>`_"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:132 58d88bc6539b470fb956d36b25f18e20
+msgid "`ESP32-WROVER-B 技术规格书 <https://www.espressif.com/sites/default/files/documentation/esp32-wrover-b_datasheet_cn.pdf>`_"
+msgstr "`ESP32-WROVER-B Datasheet <https://www.espressif.com/sites/default/files/documentation/esp32-wrover-b_datasheet_cn.pdf>`_"
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:134
-#: 1b905c07e6a84a9090d214ff26577954
-msgid ""
-"ESP32-WROOM 和 ESP32-WROVER 模组都使用的是 ESP32 芯片，ESP32 芯片支持以太网，详情可以参考 `ESP32 "
-"技术规格书 "
-"<https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf>`_。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:134 1b905c07e6a84a9090d214ff26577954
+msgid "ESP32-WROOM 和 ESP32-WROVER 模组都使用的是 ESP32 芯片，ESP32 芯片支持以太网，详情可以参考 `ESP32 技术规格书 <https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf>`_。"
+msgstr "Both ESP32-WROOM and ESP32-WROVER modules use the ESP32 chip, and the ESP32 chip supports Ethernet. For details, refer to the `ESP32 Datasheet <https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_cn.pdf>`_."
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:135
-#: 4f0d9bd0978841649730f8433fbbead0
-msgid ""
-"相关文档：`ESP32-Ethernet-Kit 入门指南 <https://docs.espressif.com/projects/esp-"
-"idf/zh_CN/latest/esp32/hw-reference/esp32/get-started-ethernet-"
-"kit.html>`_。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:135 4f0d9bd0978841649730f8433fbbead0
+msgid "相关文档：`ESP32-Ethernet-Kit 入门指南 <https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/hw-reference/esp32/get-started-ethernet-kit.html>`_。"
+msgstr "Related document: `ESP32-Ethernet-Kit Getting Started Guide <https://docs.espressif.com/projects/esp-idf/zh_CN/latest/esp32/hw-reference/esp32/get-started-ethernet-kit.html>`_."
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:139
-#: 3b71a15320234211a072dcdff43cdbb5
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:139 3b71a15320234211a072dcdff43cdbb5
 msgid "ESP32-S,ESP-WROOM-32,ESP32-A1S模组有什么区别?"
-msgstr ""
+msgstr "What are the differences between ESP32-S, ESP-WROOM-32, and ESP32-A1S modules?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:141
-#: 3d9bebee164241edb646f43fd06726d2
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:141 3d9bebee164241edb646f43fd06726d2
 msgid "答：ESP32-S与ESP32-WROOM-32为通用类型的模组，软硬件部分，除了天线形式有差异，其他部分都一样，ESP32-A1S模组内置AC101音频解码芯片，可以进行音频相关的开发，支持播放音乐和录音"
-msgstr ""
+msgstr "ESP32-S and ESP32-WROOM-32 are general-purpose modules. In terms of software and hardware, except for differences in antenna form, the other parts are the same. The ESP32-A1S module has a built-in AC101 audio codec chip, which can be used for audio-related development and supports music playback and recording."
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:145
-#: 57b7529e96d74a0490f06035070a0483
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:145 57b7529e96d74a0490f06035070a0483
 msgid "nodemcu32的开发板下载需要注意什么?"
-msgstr ""
+msgstr "What should be noted when downloading firmware to a NodeMCU-32 development board?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:147
-#: db15775769bd484fb80b7afea98a248f
+#: ../../source/docs/software-framework/WiFi/espressif/ethernet.rst:147 db15775769bd484fb80b7afea98a248f
 msgid "答：串口驱动是否安装，接线是否良好，点击START出现等待电平同步的时候有没有长按IO0按钮"
-msgstr ""
+msgstr "Check whether the serial port driver is installed, whether the wiring is good, and whether the IO0 button is held down when \"waiting for level synchronization\" appears after clicking START."
 
 #~ msgid ":link_to_translation:`en:[English]`"
 #~ msgstr ""
-

@@ -6,146 +6,110 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 14:37+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:2
-#: 44527a2bce5441678202fb3087261966
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:2 44527a2bce5441678202fb3087261966
 msgid "共存"
-msgstr ""
+msgstr "Coexistence"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:17
-#: bf68a8ade0714bfb86b39e01f6737072
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:17 bf68a8ade0714bfb86b39e01f6737072
 msgid "Wi-Fi 和 ESP-BLE-MESH 共存时，支持哪些模式？"
-msgstr ""
+msgstr "Which modes are supported when Wi-Fi and ESP-BLE-MESH coexist?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:19
-#: eb94c8acfd7e426b8aaf413d952d789b
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:19 eb94c8acfd7e426b8aaf413d952d789b
 msgid "目前，只有 Wi-Fi STA 模式支持共存。"
-msgstr ""
+msgstr "Currently, coexistence is supported only in Wi-Fi STA mode."
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:24
-#: f95feef5e2804ec3bd2470253866313d
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:24 f95feef5e2804ec3bd2470253866313d
 msgid "Wi-Fi 和 ESP-BLE-MESH 共存时，为什么 Wi-Fi 吞吐量很低？"
-msgstr ""
+msgstr "Why is Wi-Fi throughput very low when Wi-Fi and ESP-BLE-MESH coexist?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:26
-#: d931b4363eaf4a27a065e1d6548ed72c
-msgid ""
-"未搭载 PSRAM 的 ESP32-DevKitC 开发板，Wi-Fi 和 ESP-BLE-MESH 共存可以正常运行，但是吞吐率较低。当 Wi-"
-"Fi 和 ESP-BLE-MESH 共存时，搭载 PSRAM 的 ESP32-DevKitC 速率可以稳定在 1 Mbps 以上。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:26 d931b4363eaf4a27a065e1d6548ed72c
+msgid "未搭载 PSRAM 的 ESP32-DevKitC 开发板，Wi-Fi 和 ESP-BLE-MESH 共存可以正常运行，但是吞吐率较低。当 Wi-Fi 和 ESP-BLE-MESH 共存时，搭载 PSRAM 的 ESP32-DevKitC 速率可以稳定在 1 Mbps 以上。"
+msgstr "On an ESP32-DevKitC development board without PSRAM, Wi-Fi and ESP-BLE-MESH coexistence can run normally, but the throughput is low. When Wi-Fi and ESP-BLE-MESH coexist, the throughput of an ESP32-DevKitC equipped with PSRAM can remain stable above 1 Mbps."
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:28
-#: 3373c929d13b43e187a6b90591ffa1bc
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:28 3373c929d13b43e187a6b90591ffa1bc
 msgid "应使能 menuconfig 中的一些配置来支持 PSRAM:"
-msgstr ""
+msgstr "Some configurations in menuconfig should be enabled to support PSRAM:"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:30
-#: 03535db9026c499f858d285e1d24a8b8
-msgid ""
-"``ESP32-specific --> Support for external,SPI-connected RAM --> Try to "
-"allocate memories of Wi-Fi and LWIP...``"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:30 03535db9026c499f858d285e1d24a8b8
+msgid "``ESP32-specific --> Support for external,SPI-connected RAM --> Try to allocate memories of Wi-Fi and LWIP...``"
+msgstr "``ESP32-specific --> Support for external,SPI-connected RAM --> Try to allocate memories of Wi-Fi and LWIP...``"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:31
-#: 5398a668dbb74aa2b47ca5128be6669a
-msgid ""
-"``Bluetooth --> Bluedriod Enable --> BT/BLE will first malloc the memory "
-"from the PSRAM``"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:31 5398a668dbb74aa2b47ca5128be6669a
+msgid "``Bluetooth --> Bluedriod Enable --> BT/BLE will first malloc the memory from the PSRAM``"
+msgstr "``Bluetooth --> Bluedriod Enable --> BT/BLE will first malloc the memory from the PSRAM``"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:32
-#: 44f3776135de48339762aaa6334d0215
-msgid ""
-"``Bluetooth --> Bluedriod Enable --> Use dynamic memory allocation in "
-"BT/BLE stack.``"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:32 44f3776135de48339762aaa6334d0215
+msgid "``Bluetooth --> Bluedriod Enable --> Use dynamic memory allocation in BT/BLE stack.``"
+msgstr "``Bluetooth --> Bluedriod Enable --> Use dynamic memory allocation in BT/BLE stack.``"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:33
-#: fe965edf2bc0425c89868448c1716489
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:33 fe965edf2bc0425c89868448c1716489
 msgid "``Bluetooth --> Blutooth controller --> BLE full scan feature supported.``"
-msgstr ""
+msgstr "``Bluetooth --> Blutooth controller --> BLE full scan feature supported.``"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:34
-#: efd2b3300d7f4e979630c50c61f8d3c6
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:34 efd2b3300d7f4e979630c50c61f8d3c6
 msgid "``Wi-Fi --> Software controls Wi-Fi/Bluetooth coexistence --> Wi-Fi``"
-msgstr ""
+msgstr "``Wi-Fi --> Software controls Wi-Fi/Bluetooth coexistence --> Wi-Fi``"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:39
-#: 8b17505e17654523bd1c98f3c5e2eaa3
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:39 8b17505e17654523bd1c98f3c5e2eaa3
 msgid "ESP32 支持 16MB 的 External Flash 和 8MB 的 External PSRAM 共存吗？"
-msgstr ""
+msgstr "Does ESP32 support coexistence of 16 MB External Flash and 8 MB External PSRAM?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:41
-#: e828d20468e54952a404bdc0b93d95e2
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:41 e828d20468e54952a404bdc0b93d95e2
 msgid "ESP32 可以支持 16MB 的 External Flash 和 8MB 的 External PSRAM 共存使用。"
-msgstr ""
+msgstr "ESP32 supports using 16 MB External Flash and 8 MB External PSRAM together."
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:46
-#: 23383725700a4db7898ababf4ae385de
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:46 23383725700a4db7898ababf4ae385de
 msgid "ESP32 Wi-Fi Mesh 和 BLE Mesh 可以同时支持吗？"
-msgstr ""
+msgstr "Can ESP32 Wi-Fi Mesh and BLE Mesh be supported at the same time?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:48
-#: 8b17e976c1bb407ca878dcab33177681
-msgid ""
-"不支持，补充一点：ESP32 Wi-Fi Mesh 和 BLE 可以同时支持，或者 ESP32 Wi-Fi STA 模式和 BLE Mesh "
-"可以同时支持。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:48 8b17e976c1bb407ca878dcab33177681
+msgid "不支持，补充一点：ESP32 Wi-Fi Mesh 和 BLE 可以同时支持，或者 ESP32 Wi-Fi STA 模式和 BLE Mesh 可以同时支持。"
+msgstr "No. To add, ESP32 Wi-Fi Mesh and BLE can be supported at the same time, or ESP32 Wi-Fi STA mode and BLE Mesh can be supported at the same time."
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:53
-#: 6714ff5136c046ba9dc09d2c7ceadccb
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:53 6714ff5136c046ba9dc09d2c7ceadccb
 msgid "ESP32 蓝牙和 WI-FI 能否同时使用？"
-msgstr ""
+msgstr "Can ESP32 Bluetooth and Wi-Fi be used at the same time?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:55
-#: 6460f06fbd124dbb816cf64d51b5d8ef
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:55 6460f06fbd124dbb816cf64d51b5d8ef
 msgid "ESP32 的 Wi-Fi 和蓝牙可共存，但需要分时控制，可在 menuconfig 中使能 Wi-Fi 和蓝牙共存设置。如下："
-msgstr ""
+msgstr "ESP32 Wi-Fi and Bluetooth can coexist, but time-division control is required. You can enable the Wi-Fi and Bluetooth coexistence setting in menuconfig as follows:"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:56
-#: caf9f36b3b674eb2bff02ff061502d9b
-msgid ""
-"``menuconfig -> Component config -> Wi-Fi -> Software controls "
-"WiFi/Bluetooth coexistence （Enable）``"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:56 caf9f36b3b674eb2bff02ff061502d9b
+msgid "``menuconfig -> Component config -> Wi-Fi -> Software controls WiFi/Bluetooth coexistence （Enable）``"
+msgstr "``menuconfig -> Component config -> Wi-Fi -> Software controls WiFi/Bluetooth coexistence （Enable）``"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:61
-#: 2e94dfcc422e47c2a9aec18848a28120
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:61 2e94dfcc422e47c2a9aec18848a28120
 msgid "ble 和 a2dp 共存，进入 ble 扫描的时候音频数据接收会丢失、卡顿怎么解决？"
-msgstr ""
+msgstr "When BLE and A2DP coexist, audio data reception is lost or stutters when BLE scanning starts. How can this be resolved?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:63
-#: 38b4a0d7674644f49e3729c8735870de
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:63 38b4a0d7674644f49e3729c8735870de
 msgid "降低BLE扫描的占空比"
-msgstr ""
+msgstr "Reduce the duty cycle of BLE scanning."
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:64
-#: 6e0fdb5a4b9d47af9ce002a4d1349cb8
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:64 6e0fdb5a4b9d47af9ce002a4d1349cb8
 msgid "使用 ringbuf 缓存音频数据"
-msgstr ""
+msgstr "Use a ringbuf to cache audio data."
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:69
-#: f839ae6b86d64586847d4c7456e01c67
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:69 f839ae6b86d64586847d4c7456e01c67
 msgid "ESP32 的网口 （LAN8720） 与 WIFI （WIFI-AP） 能否共存？"
-msgstr ""
+msgstr "Can the ESP32 Ethernet port (LAN8720) and Wi-Fi (Wi-Fi AP) coexist?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:71
-#: 8ca2054d2bf24e04897e175f5e70a065
+#: ../../source/docs/software-framework/WiFi/espressif/coexistence.rst:71 8ca2054d2bf24e04897e175f5e70a065
 msgid "可以共存的。将两个连接的检测事件写成一个就可以实现共存。"
-msgstr ""
+msgstr "They can coexist. Coexistence can be implemented by writing the detection events of the two connections into one event handler."
 
 #~ msgid ":link_to_translation:`en:[English]`"
 #~ msgstr ""
-

@@ -6,302 +6,237 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 14:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:2
-#: 9de3a89acdb4485f82762f84139aefc3
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:2 9de3a89acdb4485f82762f84139aefc3
 msgid "安信可 平头哥TG系列模块 FAQ"
-msgstr ""
+msgstr "Ai-Thinker T-Head TG Series Module FAQ"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:17
-#: 846f253583584d53a75c54eb49e5734e
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:17 846f253583584d53a75c54eb49e5734e
 msgid "TG-12F模块，只要在天猫精灵注册相关信息就可以直接连接实现天猫精灵控制么"
-msgstr ""
+msgstr "Can the TG-12F module connect directly to Tmall Genie for control as long as the relevant information is registered on Tmall Genie?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:18
-#: 2050d224e2fa40979897e524777c73ea
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:18 2050d224e2fa40979897e524777c73ea
 msgid "是的"
-msgstr ""
+msgstr "Yes."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:21
-#: 77bfceb0649d4783859500a817e26b2a
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:21 77bfceb0649d4783859500a817e26b2a
 msgid "TG-12F需要自己烧录嘛？有直接连天猫精灵的嘛？"
-msgstr ""
+msgstr "Does the TG-12F need to be flashed by the user? Is there one that can connect directly to Tmall Genie?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:22
-#: 706d078654794e92a479315409d30609
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:22 706d078654794e92a479315409d30609
 msgid "不需要您自己烧录，出厂的AT固件就能连接天猫精灵"
-msgstr ""
+msgstr "You do not need to flash it yourself. The factory AT firmware can connect to Tmall Genie."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:25
-#: 3314bbd67d574592941efb7b7854dee3
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:25 3314bbd67d574592941efb7b7854dee3
 msgid "TG-12F里面的默认固件控制有相关文档说明么？"
-msgstr ""
+msgstr "Is there any documentation for the default firmware control in the TG-12F?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:26
-#: aead77d009f846bfaf8cb7cf5435f91d
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:26 aead77d009f846bfaf8cb7cf5435f91d
 msgid "https://aithinker.blog.csdn.net/article/details/109451425"
-msgstr ""
+msgstr "https://aithinker.blog.csdn.net/article/details/109451425"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:29
-#: 43f9104dabe74b309048379a5bdf4cd6
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:29 43f9104dabe74b309048379a5bdf4cd6
 msgid "TG-12F可以直接替换12S不？"
-msgstr ""
+msgstr "Can the TG-12F directly replace the 12S?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:30
-#: 8e8865f822b149748d0a96a3b00bdde2
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:30 8e8865f822b149748d0a96a3b00bdde2
 msgid "可以替换"
-msgstr ""
+msgstr "Yes, it can be used as a replacement."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:33
-#: 054e3846e72a4ac79b5e36b8d65445a8
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:33 054e3846e72a4ac79b5e36b8d65445a8
 msgid "TG-12F-Kit开发板是不是用IDE开发"
-msgstr ""
+msgstr "Does the TG-12F-Kit development board use an IDE for development?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:34
-#: 70a63412238f44af8686486a6d8f24e6
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:34 70a63412238f44af8686486a6d8f24e6
 msgid "只能用liunx"
-msgstr ""
+msgstr "It can only be developed on Linux."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:37
-#: 2df5926777de4fd795f34eee8ae93ed1
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:37 2df5926777de4fd795f34eee8ae93ed1
 msgid "TG-12F能直连天猫精灵的？"
-msgstr ""
+msgstr "Can the TG-12F connect directly to Tmall Genie?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:38
-#: ed3c2608ab0b4c96bac4cf0467087f15
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:38 ed3c2608ab0b4c96bac4cf0467087f15
 msgid "可以的，https://aithinker.blog.csdn.net/article/details/109451425"
-msgstr ""
+msgstr "Yes. https://aithinker.blog.csdn.net/article/details/109451425"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:41
-#: f3ef9b105eec48448ac170f1f28b63bc
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:41 f3ef9b105eec48448ac170f1f28b63bc
 msgid "TG-12F开发板能接入小米吗？"
-msgstr ""
+msgstr "Can the TG-12F development board connect to Xiaomi?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:42
-#: 1932b93bf424404f95f28520698d22c0
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:42 1932b93bf424404f95f28520698d22c0
 msgid "目前暂不支持"
-msgstr ""
+msgstr "Currently, it is not supported."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:45
-#: 33cae37e3bd54a5a89f5d269d6d25d2b
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:45 33cae37e3bd54a5a89f5d269d6d25d2b
 msgid "TG-12F理想距离多远"
-msgstr ""
+msgstr "What is the ideal transmission distance of the TG-12F?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:46
-#: b946116f3dee478c9bc3bb7b0228d6f6
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:46 b946116f3dee478c9bc3bb7b0228d6f6
 msgid "300米"
-msgstr ""
+msgstr "300 meters."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:49
-#: 20429d52fd4e46f19c8e054a949232e2
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:49 20429d52fd4e46f19c8e054a949232e2
 msgid "TG-12F模块支持二次开发吗？是不是阿里的license也在里面了"
-msgstr ""
+msgstr "Does the TG-12F module support secondary development? Is the Alibaba license also included in it?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:50
-#: fd3d5dcc95934f3da364fae7dc3f9b9d
-msgid ""
-"支持，https://aithinker.blog.csdn.net/article/details/110559410.在里面 TG-"
-"12F开发源码 github.com/Ai-Thinker-Open/Ai-Thinker-Open-TG7100C_SDK"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:50 fd3d5dcc95934f3da364fae7dc3f9b9d
+msgid "支持，https://aithinker.blog.csdn.net/article/details/110559410.在里面 TG-12F开发源码 github.com/Ai-Thinker-Open/Ai-Thinker-Open-TG7100C_SDK"
+msgstr "Yes, secondary development is supported: https://aithinker.blog.csdn.net/article/details/110559410. The license is included. TG-12F development source code: github.com/Ai-Thinker-Open/Ai-Thinker-Open-TG7100C_SDK"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:55
-#: 134b97df0ac24456a295823f0da2f285
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:55 134b97df0ac24456a295823f0da2f285
 msgid "TG-12F模块接天猫精灵，可以控制多少引脚呢？"
-msgstr ""
+msgstr "When the TG-12F module is connected to Tmall Genie, how many pins can it control?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:56
-#: c39a826539f943b08bf8f9cffacf1e6a
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:56 c39a826539f943b08bf8f9cffacf1e6a
 msgid "可以控制13个引脚"
-msgstr ""
+msgstr "It can control 13 pins."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:59
-#: 547bcb74e08a4bd29f8cf48ee963afe0
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:59 547bcb74e08a4bd29f8cf48ee963afe0
 msgid "TG-12F的蓝牙现在能独立使用吗"
-msgstr ""
+msgstr "Can the Bluetooth of the TG-12F be used independently now?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:60
-#: 886f6c61e35d4e70bd98bfcfee9d03e2
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:60 886f6c61e35d4e70bd98bfcfee9d03e2
 msgid "不能独立使用"
-msgstr ""
+msgstr "It cannot be used independently."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:63
-#: 1214e53615054d07be28c53bdfd8668c
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:63 1214e53615054d07be28c53bdfd8668c
 msgid "TG-12F开发板可以同时接入天猫精灵和app吗"
-msgstr ""
+msgstr "Can the TG-12F development board connect to both Tmall Genie and an app at the same time?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:64
-#: 2932d5494f414015aeaf068af4bc4216
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:64 2932d5494f414015aeaf068af4bc4216
 msgid "可以接入天猫精灵和app"
-msgstr ""
+msgstr "Yes, it can connect to both Tmall Genie and an app."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:67
-#: e9621db5eed64f38a220b9ac9ba03633
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:67 e9621db5eed64f38a220b9ac9ba03633
 msgid "TG-12F能监控用不"
-msgstr ""
+msgstr "Can the TG-12F be used for monitoring?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:68
-#: 847881aa5ccf4964b1a79ae9005a8f91
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:68 847881aa5ccf4964b1a79ae9005a8f91
 msgid "可以的"
-msgstr ""
+msgstr "Yes."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:71
-#: 765981fcf590475b98241fb45f7e0584
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:71 765981fcf590475b98241fb45f7e0584
 msgid "TG-12F开发板的开发资料"
-msgstr ""
+msgstr "Development resources for the TG-12F development board"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:72
-#: 2015adacc14f4190a22178f602a3b02b
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:72 2015adacc14f4190a22178f602a3b02b
 msgid "https://blog.csdn.net/Boantong_/article/details/110559410"
-msgstr ""
+msgstr "https://blog.csdn.net/Boantong_/article/details/110559410"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:76
-#: 9c89a08131dc476986378502d8bdab53
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:76 9c89a08131dc476986378502d8bdab53
 msgid "TG-12F 开发板固件接入iot平台还需要自己开发吗"
-msgstr ""
+msgstr "Does the TG-12F development board firmware require custom development to connect to an IoT platform?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:77
-#: 13fdc8ad242b47cf9ad8a07bafe8183b
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:77 13fdc8ad242b47cf9ad8a07bafe8183b
 msgid "AT固件可以对接，连接TCP服务器；"
-msgstr ""
+msgstr "The AT firmware can connect to a TCP server."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:80
-#: a6bf06bfb78b4ce384b107466bfbd1ef
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:80 a6bf06bfb78b4ce384b107466bfbd1ef
 msgid "TG-12F开发板对接阿里云iot平台需要烧录其他的软件吗"
-msgstr ""
+msgstr "Does the TG-12F development board need other software to be flashed when connecting to Alibaba Cloud IoT Platform?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:81
-#: 408dd5d1116b47e5bd6060bce88ab1cd
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:81 408dd5d1116b47e5bd6060bce88ab1cd
 msgid "不需要哦，出厂AT固件就支持连接"
-msgstr ""
+msgstr "No. The factory AT firmware already supports connection."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:84
-#: 16bd6baa23c5418790035c0acffe80d0
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:84 16bd6baa23c5418790035c0acffe80d0
 msgid "TG-12F开发板上电在调试时发现有个问题 用AT指令发送任和数据 返回的都是OK，是怎么回事"
-msgstr ""
+msgstr "During debugging after powering on the TG-12F development board, any data sent using AT commands returns OK. What is the reason?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:85
-#: ce9276106d58439b9055d92d915f94ae
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:85 ce9276106d58439b9055d92d915f94ae
 msgid "使用时候需要将IO8拉低，拉低后再重新上电才能正常使用"
-msgstr ""
+msgstr "When using it, IO8 needs to be pulled low. After pulling it low, power on again, and it can be used normally."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:89
-#: e8bd0dfa69ef46a5b7180f3782dba659
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:89 e8bd0dfa69ef46a5b7180f3782dba659
 msgid "TG-12F模组可以跑micropython程序吗"
-msgstr ""
+msgstr "Can the TG-12F module run MicroPython programs?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:90
-#: b424485c29394ba8b5c1f1bff0315f76
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:90 b424485c29394ba8b5c1f1bff0315f76
 msgid "不可以，目前没有适配的程序"
-msgstr ""
+msgstr "No. There is currently no adapted program."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:93
-#: 254fc238ad674023b57022fa3d1ddaff
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:93 254fc238ad674023b57022fa3d1ddaff
 msgid "TG-02模组支持arduino开发吗"
-msgstr ""
+msgstr "Does the TG-02 module support Arduino development?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:94
-#: 1844b187ca0842e3acc4024805522ac0
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:94 1844b187ca0842e3acc4024805522ac0
 msgid "不支持"
-msgstr ""
+msgstr "No, it does not."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:97
-#: 3fb193e48b444301a61c311d25af4986
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:97 3fb193e48b444301a61c311d25af4986
 msgid "TG-01M模组的GND引脚是怎么对应的？"
-msgstr ""
+msgstr "How do the GND pins of the TG-01M module correspond?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:98
-#: 28fd7d10964e4773b6d86557c110b679
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:98 28fd7d10964e4773b6d86557c110b679
 msgid "如图："
-msgstr ""
+msgstr "As shown in the figure:"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:104
-#: 2a281fc42cbe4387a72edd0fe6718de2
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:104 2a281fc42cbe4387a72edd0fe6718de2
 msgid "TG-02模组能否实现自组网？"
-msgstr ""
+msgstr "Can the TG-02 module implement self-organizing networking?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:105
-#: a22cef2e7f8b4df9940a85d74d181f29
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:105 a22cef2e7f8b4df9940a85d74d181f29
 msgid "可以，需要二次开发，可在我们官网上找到开发相关资料。"
-msgstr ""
+msgstr "Yes. Secondary development is required. Development-related materials can be found on our official website."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:108
-#: ed8a2a31fcbb45928a010f9c05d67387
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:108 ed8a2a31fcbb45928a010f9c05d67387
 msgid "TG-02模块可以通过AT指令修改蓝牙名称吗"
-msgstr ""
+msgstr "Can the TG-02 module modify the Bluetooth name through AT commands?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:109
-#: 465b9bec9df54e7ebd9f4db1810904ff
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:109 465b9bec9df54e7ebd9f4db1810904ff
 msgid "不可以修改"
-msgstr ""
+msgstr "No, it cannot be modified."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:112
-#: 16e8652d01504cedb3ea7f313bf1fd27
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:112 16e8652d01504cedb3ea7f313bf1fd27
 msgid "请问一下TG-12F模组如何实现天猫精灵对接？"
-msgstr ""
+msgstr "How can the TG-12F module connect to Tmall Genie?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:113
-#: bb381e2779924bcd8a591ec8d8127cd0
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:113 bb381e2779924bcd8a591ec8d8127cd0
 #, python-format
-msgid ""
-"跟着说明文档（https://blog.csdn.net/Boantong_/article/details/109451425?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167272431116800182734936%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=167272431116800182734936&biz_id=0&utm_medium=distribute.pc_search_result"
-".none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-3-109451425-null-"
-"null.blog_rank_default&utm_term=TG&spm=1018.2226.3001.4450）操作即可实现；"
-msgstr ""
+msgid "跟着说明文档（https://blog.csdn.net/Boantong_/article/details/109451425?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167272431116800182734936%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=167272431116800182734936&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-3-109451425-null-null.blog_rank_default&utm_term=TG&spm=1018.2226.3001.4450）操作即可实现；"
+msgstr "Follow the operation guide in the documentation (https://blog.csdn.net/Boantong_/article/details/109451425?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167272431116800182734936%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=167272431116800182734936&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-3-109451425-null-null.blog_rank_default&utm_term=TG&spm=1018.2226.3001.4450) to implement it."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:116
-#: 01514fb870444e39b00214e684548aa5
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:116 01514fb870444e39b00214e684548aa5
 msgid "请问TG-01M天猫精灵模组是否支持二次开发？"
-msgstr ""
+msgstr "Does the TG-01M Tmall Genie module support secondary development?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:117
-#: 8e33aeea95114b5cb58487ce457e0cfc
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:117 8e33aeea95114b5cb58487ce457e0cfc
 #, python-format
-msgid ""
-"支持的，`查看文档  "
-"<https://blog.csdn.net/Boantong_/article/details/110559410?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167564622616800182130897%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=167564622616800182130897&biz_id=0&utm_medium=distribute.pc_search_result"
-".none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-2-110559410-null-"
-"null.blog_rank_default&utm_term=TG-12&spm=1018.2226.3001.4450>`__"
-msgstr ""
+msgid "支持的，`查看文档  <https://blog.csdn.net/Boantong_/article/details/110559410?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167564622616800182130897%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=167564622616800182130897&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-2-110559410-null-null.blog_rank_default&utm_term=TG-12&spm=1018.2226.3001.4450>`__"
+msgstr "Yes, it does. `View documentation  <https://blog.csdn.net/Boantong_/article/details/110559410?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167564622616800182130897%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=167564622616800182130897&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-2-110559410-null-null.blog_rank_default&utm_term=TG-12&spm=1018.2226.3001.4450>`__"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:120
-#: 660624ab03b94baba27cbc3623c02f03
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:120 660624ab03b94baba27cbc3623c02f03
 msgid "TG-01M开发板默认出货带阿里生活物联的激活码吗"
-msgstr ""
+msgstr "Does the TG-01M development board ship with an activation code for Alibaba Life IoT by default?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:121
-#: 08cd42af03f447e297a4765f3348fe26
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:121 08cd42af03f447e297a4765f3348fe26
 msgid "出货不带激活码，如果有该需求，可以联系商务进行定制"
-msgstr ""
+msgstr "It does not ship with an activation code. If you need this, please contact sales for customization."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:124
-#: c89fd35c337c4ccabe67305e741ceb05
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:124 c89fd35c337c4ccabe67305e741ceb05
 msgid "TG-12F模组可以在小米网关使用吗"
-msgstr ""
+msgstr "Can the TG-12F module be used with a Xiaomi gateway?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:125
-#: da9ba614373c43069b354d2866a37c3d
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:125 da9ba614373c43069b354d2866a37c3d
 msgid "不可以，目前不支持对接小米网关"
-msgstr ""
+msgstr "No. Connecting to a Xiaomi gateway is currently not supported."
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:128
-#: cab762c3cab94a109ea0476bc81da055
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:128 cab762c3cab94a109ea0476bc81da055
 msgid "请问TG-12F模组是否自带固件，免配置，直接贴到底板供电就可以使用？"
-msgstr ""
+msgstr "Does the TG-12F module come with firmware and require no configuration, so it can be used directly after being mounted on a baseboard and powered?"
 
-#: ../../source/docs/software-framework/WiFi/TG/index.rst:129
-#: 3d11e4517d6647eb876065d779c8ab0b
+#: ../../source/docs/software-framework/WiFi/TG/index.rst:129 3d11e4517d6647eb876065d779c8ab0b
 msgid "TG-12F模组自带AT固件，需要用户通过串口配置AT指令的方式实现入网需求。"
-msgstr ""
-
+msgstr "The TG-12F module comes with AT firmware. Users need to configure AT commands through the serial port to complete network access requirements."

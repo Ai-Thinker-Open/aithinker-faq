@@ -6,374 +6,283 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 14:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:2
-#: ../../source/docs/development-environment/TG/tg_12f.rst:121
-#: b58235e594e24d33ae95d5b1645bb3d7 c2c69a7457dc4ae5aa77524b011e23b6
+#: ../../source/docs/development-environment/TG/tg_12f.rst:2 ../../source/docs/development-environment/TG/tg_12f.rst:121 b58235e594e24d33ae95d5b1645bb3d7 c2c69a7457dc4ae5aa77524b011e23b6
 msgid "TG-12F"
-msgstr ""
+msgstr "TG-12F"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:5
-#: 5c1f57316e07425d9a3d33f77ce7549e
+#: ../../source/docs/development-environment/TG/tg_12f.rst:5 5c1f57316e07425d9a3d33f77ce7549e
 msgid "1. 简介"
-msgstr ""
+msgstr "1. Introduction"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:6
-#: d54fef700fa94aa99eefe6851d1c73f1
-msgid ""
-"`平头哥官方资料获取 "
-"<https://occ.t-head.cn/vendor/detail/download?id=3840454249402605568&vendorId=3706716635429273600&module=1#sticky>`__"
-msgstr ""
+#: ../../source/docs/development-environment/TG/tg_12f.rst:6 d54fef700fa94aa99eefe6851d1c73f1
+msgid "`平头哥官方资料获取 <https://occ.t-head.cn/vendor/detail/download?id=3840454249402605568&vendorId=3706716635429273600&module=1#sticky>`__"
+msgstr "`Get official T-Head documentation <https://occ.t-head.cn/vendor/detail/download?id=3840454249402605568&vendorId=3706716635429273600&module=1#sticky>`__"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:8
-#: a733971203fb43deb0ef2862fa82f56c
-msgid ""
-"TG-12F模块采用平头哥TG7100C芯片，TG7100C 是智能新一代高集成 Wi-Fi 和 BLE 组合芯片。无线子系统包含 2.4G 射频"
-"、Wi-Fi 802.11b/g/n 和 BLE 基带/MAC 设计。微控制器子系统包含一个低功耗 32 位 RISC "
-"CPU、高速缓存和存储器。电源管理单元提供灵活的设置实现低功耗模式，并支持多种安全功能。"
-msgstr ""
+#: ../../source/docs/development-environment/TG/tg_12f.rst:8 a733971203fb43deb0ef2862fa82f56c
+msgid "TG-12F模块采用平头哥TG7100C芯片，TG7100C 是智能新一代高集成 Wi-Fi 和 BLE 组合芯片。无线子系统包含 2.4G 射频、Wi-Fi 802.11b/g/n 和 BLE 基带/MAC 设计。微控制器子系统包含一个低功耗 32 位 RISC CPU、高速缓存和存储器。电源管理单元提供灵活的设置实现低功耗模式，并支持多种安全功能。"
+msgstr "The TG-12F module uses the T-Head TG7100C chip. TG7100C is a new-generation highly integrated smart Wi-Fi and BLE combo chip. The wireless subsystem includes 2.4G RF, Wi-Fi 802.11b/g/n, and BLE baseband/MAC designs. The microcontroller subsystem includes a low-power 32-bit RISC CPU, high-speed cache, and memory. The power management unit provides flexible settings to implement low-power modes and supports multiple security features."
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:10
-#: 4f9d2f31ebc2436b9d46d78188280bbe
+#: ../../source/docs/development-environment/TG/tg_12f.rst:10 4f9d2f31ebc2436b9d46d78188280bbe
 msgid "产品特性："
-msgstr ""
+msgstr "Product features:"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:12
-#: d00028bbfa284d47962d432dd425c1ac
+#: ../../source/docs/development-environment/TG/tg_12f.rst:12 d00028bbfa284d47962d432dd425c1ac
 msgid "802.11b/g/n，Wi-Fi+BLE5.0 Combo，支持 STA，Soft AP 和 Sniffer模式"
-msgstr ""
+msgstr "802.11b/g/n, Wi-Fi + BLE5.0 Combo, supports STA, Soft AP, and Sniffer modes"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:13
-#: fe9db1302ddc449f8ac7a920832c7799
+#: ../../source/docs/development-environment/TG/tg_12f.rst:13 fe9db1302ddc449f8ac7a920832c7799
 msgid "采用开源自主可控 RISC-V CPU，1～160MHz 可调，276KB SRAM"
-msgstr ""
+msgstr "Uses an open-source, independently controllable RISC-V CPU, adjustable from 1 to 160MHz, with 276KB SRAM"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:14
-#: 0266c8bee2484bef9c4a369c77c945aa
+#: ../../source/docs/development-environment/TG/tg_12f.rst:14 0266c8bee2484bef9c4a369c77c945aa
 msgid "超快连接：冷启动快连仅 70ms"
-msgstr ""
+msgstr "Ultra-fast connection: cold-start quick connection in only 70ms"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:15
-#: 1cbfbbe39b2f4c56b1b9325b5ddc1953
+#: ../../source/docs/development-environment/TG/tg_12f.rst:15 1cbfbbe39b2f4c56b1b9325b5ddc1953
 msgid "超远距离：最大发射功率 21dBm，灵敏度-98dBm，多穿透一堵墙。"
-msgstr ""
+msgstr "Ultra-long range: maximum transmit power 21dBm, sensitivity -98dBm, capable of penetrating one more wall"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:16
-#: c43a2f736c144b1b9011810cede2b4f5
-msgid ""
-"高安全性：支持安全启动、安全调试、AES 128/192/256 "
-"加密引擎、WPA3、MD5、SHA-1/224/256、PKA（RSA/ECC）加密     引擎"
-msgstr ""
+#: ../../source/docs/development-environment/TG/tg_12f.rst:16 c43a2f736c144b1b9011810cede2b4f5
+msgid "高安全性：支持安全启动、安全调试、AES 128/192/256 加密引擎、WPA3、MD5、SHA-1/224/256、PKA（RSA/ECC）加密     引擎"
+msgstr "High security: supports secure boot, secure debugging, AES 128/192/256 encryption engine, WPA3, MD5, SHA-1/224/256, PKA (RSA/ECC) encryption engine"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:17
-#: 3ab9a075cacd4e31b91d98fb81653754
+#: ../../source/docs/development-environment/TG/tg_12f.rst:17 3ab9a075cacd4e31b91d98fb81653754
 msgid "支持 Wi-Fi 和 BLE 共存"
-msgstr ""
+msgstr "Supports Wi-Fi and BLE coexistence"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:19
-#: ededa4957f2d46a08efbbeb6faed1f6b
+#: ../../source/docs/development-environment/TG/tg_12f.rst:19 ededa4957f2d46a08efbbeb6faed1f6b
 msgid "应用场景："
-msgstr ""
+msgstr "Application scenarios:"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:21
-#: 23d385dd7ffb42abbd236f7b1b4b7f34
+#: ../../source/docs/development-environment/TG/tg_12f.rst:21 23d385dd7ffb42abbd236f7b1b4b7f34
 msgid "智能照明"
-msgstr ""
+msgstr "Smart lighting"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:22
-#: ac65543a15c6449bada1b612cccd1664
+#: ../../source/docs/development-environment/TG/tg_12f.rst:22 ac65543a15c6449bada1b612cccd1664
 msgid "智能开关"
-msgstr ""
+msgstr "Smart switches"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:23
-#: 278e68f2d9df4960ae993e1317d9d1de
+#: ../../source/docs/development-environment/TG/tg_12f.rst:23 278e68f2d9df4960ae993e1317d9d1de
 msgid "智能插座"
-msgstr ""
+msgstr "Smart sockets"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:24
-#: 9895ce386abd4de18be9f2756985587f
+#: ../../source/docs/development-environment/TG/tg_12f.rst:24 9895ce386abd4de18be9f2756985587f
 msgid "智能家电"
-msgstr ""
+msgstr "Smart home appliances"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:25
-#: 081e8cac79224fc19af251b4540655ae
+#: ../../source/docs/development-environment/TG/tg_12f.rst:25 081e8cac79224fc19af251b4540655ae
 msgid "监控遥控"
-msgstr ""
+msgstr "Monitoring and remote control"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:28
-#: f933767565a64f71aae587732fb39edf
+#: ../../source/docs/development-environment/TG/tg_12f.rst:28 f933767565a64f71aae587732fb39edf
 msgid "2. 开发环境搭建依赖"
-msgstr ""
+msgstr "2. Development Environment Dependencies"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:29
-#: bdd88ac8aa214fa8bd7a5c71cb4d406f
+#: ../../source/docs/development-environment/TG/tg_12f.rst:29 bdd88ac8aa214fa8bd7a5c71cb4d406f
 msgid "目前TG-12F开发环境仅支持Linux环境，不支持windows环境。"
-msgstr ""
+msgstr "Currently, the TG-12F development environment only supports Linux and does not support Windows."
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:31
-#: 1ff99f7b61e44ee6bee3166978d82f31
+#: ../../source/docs/development-environment/TG/tg_12f.rst:31 1ff99f7b61e44ee6bee3166978d82f31
 msgid "**注意**"
-msgstr ""
+msgstr "**Note**"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:33
-#: ../../source/docs/development-environment/TG/tg_12f.rst:109
-#: a74413ad0a184038a825cbfbb7f608fd bb6ce84316a546b8a661796de12cafc9
+#: ../../source/docs/development-environment/TG/tg_12f.rst:33 ../../source/docs/development-environment/TG/tg_12f.rst:109 a74413ad0a184038a825cbfbb7f608fd bb6ce84316a546b8a661796de12cafc9
 msgid "不要使用 Windows 下 Ubuntu 子系统，建议使用虚拟机软件安装 Ubuntu。"
-msgstr ""
+msgstr "Do not use the Ubuntu subsystem under Windows. It is recommended to install Ubuntu using virtual machine software."
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:34
-#: ../../source/docs/development-environment/TG/tg_12f.rst:110
-#: 4b14a789cff64c6bbfbe4257186419fc a9bd525c5fac43f2ba18dce7341d52aa
-msgid ""
-"不要在 Windows 下载解压代码再拷贝到 Ubuntu 系统中，建议直接在 Ubuntu 系统内下载和解压代码，建议使用 git clone "
-"下载代码。"
-msgstr ""
+#: ../../source/docs/development-environment/TG/tg_12f.rst:34 ../../source/docs/development-environment/TG/tg_12f.rst:110 4b14a789cff64c6bbfbe4257186419fc a9bd525c5fac43f2ba18dce7341d52aa
+msgid "不要在 Windows 下载解压代码再拷贝到 Ubuntu 系统中，建议直接在 Ubuntu 系统内下载和解压代码，建议使用 git clone 下载代码。"
+msgstr "Do not download and extract the code on Windows and then copy it to the Ubuntu system. It is recommended to download and extract the code directly within the Ubuntu system, preferably using git clone."
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:35
-#: ../../source/docs/development-environment/TG/tg_12f.rst:111
-#: b8d14df2d9744a05baf5bb20a5e5dac0 e23f2ff227f94646bf011ac1ce4b8619
+#: ../../source/docs/development-environment/TG/tg_12f.rst:35 ../../source/docs/development-environment/TG/tg_12f.rst:111 b8d14df2d9744a05baf5bb20a5e5dac0 e23f2ff227f94646bf011ac1ce4b8619
 msgid "不要把代码存放在 Windows 共享目录下，然后通过 mount 挂载到 Ubuntu 系统里。建议直接在Ubuntu 系统内下载和解压代码。"
-msgstr ""
+msgstr "Do not store the code in a Windows shared directory and then mount it into the Ubuntu system. It is recommended to download and extract the code directly within the Ubuntu system."
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:37
-#: 85b01361295549468510bd7c665097b7
+#: ../../source/docs/development-environment/TG/tg_12f.rst:37 85b01361295549468510bd7c665097b7
 msgid "安装 Ubuntu（版本 16.04 X64）程序运行时库。请您按顺序逐条执行命令: ::"
-msgstr ""
+msgstr "Install the runtime libraries for Ubuntu (version 16.04 X64). Please execute the commands one by one in order: ::"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:44
-#: 4bf02056ba3d4ba08d09d28f7b4725c2
+#: ../../source/docs/development-environment/TG/tg_12f.rst:44 4bf02056ba3d4ba08d09d28f7b4725c2
 msgid "安装 Ubuntu（版本 16.04 X64）依赖软件包。请您按顺序逐条执行命令: ::"
-msgstr ""
+msgstr "Install the dependency packages for Ubuntu (version 16.04 X64). Please execute the commands one by one in order: ::"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:54
-#: 1d3a6cdd074d4f77be3a029791e45785
+#: ../../source/docs/development-environment/TG/tg_12f.rst:54 1d3a6cdd074d4f77be3a029791e45785
 msgid "安装 Python 依赖包。请您按顺序逐条执行命令: ::"
-msgstr ""
+msgstr "Install Python dependency packages. Please execute the commands one by one in order: ::"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:63
-#: 105f0435868e4495bdf9232ed3591a57
+#: ../../source/docs/development-environment/TG/tg_12f.rst:63 105f0435868e4495bdf9232ed3591a57
 msgid "**说明:**"
-msgstr ""
+msgstr "**Description:**"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:65
-#: 4af33ca3238b417e9b34c0abfa833698
-msgid ""
-"安装完成后，请您使用 aos-cube --version 查看 aos-cube 的版本号，需确保 aos-cube 的版本号大于等于 "
-"0.5.11。"
-msgstr ""
+#: ../../source/docs/development-environment/TG/tg_12f.rst:65 4af33ca3238b417e9b34c0abfa833698
+msgid "安装完成后，请您使用 aos-cube --version 查看 aos-cube 的版本号，需确保 aos-cube 的版本号大于等于 0.5.11。"
+msgstr "After installation, please use aos-cube --version to check the version number of aos-cube. Make sure the aos-cube version is greater than or equal to 0.5.11."
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:66
-#: 3476ea040f2a4f3d8459aa4ce536bbc8
+#: ../../source/docs/development-environment/TG/tg_12f.rst:66 3476ea040f2a4f3d8459aa4ce536bbc8
 msgid "如果在安装过程中遇到网络问题，可使用国内镜像文件。"
-msgstr ""
+msgstr "If you encounter network issues during installation, you can use domestic mirror sources."
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:67
-#: d572ab82bd284b959e92e58525cfd680
+#: ../../source/docs/development-environment/TG/tg_12f.rst:67 d572ab82bd284b959e92e58525cfd680
 msgid "安装/升级 pip"
-msgstr ""
+msgstr "Install/upgrade pip"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:69
-#: d699cd9954e241b98de67d897c9a12d9
+#: ../../source/docs/development-environment/TG/tg_12f.rst:69 d699cd9954e241b98de67d897c9a12d9
 msgid "执行以下指令： ::"
-msgstr ""
+msgstr "Execute the following command: ::"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:73
-#: 142e7b39b762462895567bd20c9d2db8
+#: ../../source/docs/development-environment/TG/tg_12f.rst:73 142e7b39b762462895567bd20c9d2db8
 msgid "基于 pip 依次安装第三方包和 aos-cube ::"
-msgstr ""
+msgstr "Install third-party packages and aos-cube sequentially based on pip: ::"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:80
-#: 0b6385277eb146d9a5bcc0bef80e2772
+#: ../../source/docs/development-environment/TG/tg_12f.rst:80 0b6385277eb146d9a5bcc0bef80e2772
 msgid "1. 获取SDK"
-msgstr ""
+msgstr "1. Get the SDK"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:81
-#: ca627486a5bf45488f37db8ced6e2b9f
+#: ../../source/docs/development-environment/TG/tg_12f.rst:81 ca627486a5bf45488f37db8ced6e2b9f
 msgid "执行： ::"
-msgstr ""
+msgstr "Execute: ::"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:86
-#: 755bccfd2e2642f4b070890072d8ae32
+#: ../../source/docs/development-environment/TG/tg_12f.rst:86 755bccfd2e2642f4b070890072d8ae32
 msgid "4. 编译"
-msgstr ""
+msgstr "4. Compilation"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:87
-#: f7eaa8f6077d4fb1b63f4651980c0293
+#: ../../source/docs/development-environment/TG/tg_12f.rst:87 f7eaa8f6077d4fb1b63f4651980c0293
 msgid "快速编译 living_platform_demo示例。 ::"
-msgstr ""
+msgstr "Quickly compile the living_platform_demo example. ::"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:91
-#: dc895764df3c40c483cbb36b4c275607
+#: ../../source/docs/development-environment/TG/tg_12f.rst:91 dc895764df3c40c483cbb36b4c275607
 msgid "SDK 根目录 build.sh 文件说明如下，根据硬件使用的模组型号和要编译的应用，修改文件中的如下参数:"
-msgstr ""
+msgstr "The build.sh file in the SDK root directory is described as follows. Modify the following parameters in the file according to the module model used by the hardware and the application to be compiled:"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:93
-#: 8fba22024e6b4efba0379d2f770be768
+#: ../../source/docs/development-environment/TG/tg_12f.rst:93 8fba22024e6b4efba0379d2f770be768
 msgid "default_type=\"example\" //配置产品类型"
-msgstr ""
+msgstr "default_type=\"example\" // Configure the product type"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:94
-#: 4d1ebd363ccd44fa8612b0441ad6c8aa
+#: ../../source/docs/development-environment/TG/tg_12f.rst:94 4d1ebd363ccd44fa8612b0441ad6c8aa
 msgid "default_app=\"living_platform_demo\" //配置编译的应用名称"
-msgstr ""
+msgstr "default_app=\"living_platform_demo\" // Configure the application name to be compiled"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:95
-#: 0b83f1be7f004eba9cde9ddd9af650b8
+#: ../../source/docs/development-environment/TG/tg_12f.rst:95 0b83f1be7f004eba9cde9ddd9af650b8
 msgid "default_board=\"tg7100cevb\" //配置编译的模组型号"
-msgstr ""
+msgstr "default_board=\"tg7100cevb\" // Configure the module model to be compiled"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:96
-#: b488ece5806b41e38984175b563fc893
-msgid ""
-"default_region=MAINLAND //配置设备的连云区域,配置为 MAINLAND 或 SINGAPORE "
-"都可以，设备可以全球范围内激活"
-msgstr ""
+#: ../../source/docs/development-environment/TG/tg_12f.rst:96 b488ece5806b41e38984175b563fc893
+msgid "default_region=MAINLAND //配置设备的连云区域,配置为 MAINLAND 或 SINGAPORE 都可以，设备可以全球范围内激活"
+msgstr "default_region=MAINLAND // Configure the cloud connection region of the device. It can be configured as MAINLAND or SINGAPORE, and the device can be activated worldwide"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:97
-#: 9d58264d0f474ceca3421050f84e163b
+#: ../../source/docs/development-environment/TG/tg_12f.rst:97 9d58264d0f474ceca3421050f84e163b
 msgid "default_env=ONLINE //配置连云环境，默认设置为线上环境（ONLINE）"
-msgstr ""
+msgstr "default_env=ONLINE // Configure the cloud connection environment. The default setting is the online environment (ONLINE)"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:98
-#: 4e8ab87663a646a2bb5838ed974aa0f8
+#: ../../source/docs/development-environment/TG/tg_12f.rst:98 4e8ab87663a646a2bb5838ed974aa0f8
 msgid "default_debug=0 // Debug log 等级"
-msgstr ""
+msgstr "default_debug=0 // Debug log level"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:99
-#: 2391eb7235634b789d84c5c76e459a9b
+#: ../../source/docs/development-environment/TG/tg_12f.rst:99 2391eb7235634b789d84c5c76e459a9b
 msgid "default_args=\"\" //配置其他编译参数[非必选参数]"
-msgstr ""
+msgstr "default_args=\"\" // Configure other compilation parameters [optional]"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:100
-#: d83cfec34ed64dd3ac03e40e2cddb94d
-msgid ""
-"编译完成后，在 out/living_platform_demo@tg7100cevb/目录下会生成 "
-"living_platform_demo@tg7100cevb.bin文件。该文件为需要烧录到真实设备中的固件。"
-msgstr ""
+#: ../../source/docs/development-environment/TG/tg_12f.rst:100 d83cfec34ed64dd3ac03e40e2cddb94d
+msgid "编译完成后，在 out/living_platform_demo@tg7100cevb/目录下会生成 living_platform_demo@tg7100cevb.bin文件。该文件为需要烧录到真实设备中的固件。"
+msgstr "After compilation is completed, the living_platform_demo@tg7100cevb.bin file will be generated in the out/living_platform_demo@tg7100cevb/ directory. This file is the firmware that needs to be flashed to the actual device."
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:104
-#: 5a8ce4f1ad894854a0ae95c73201d66e
+#: ../../source/docs/development-environment/TG/tg_12f.rst:104 5a8ce4f1ad894854a0ae95c73201d66e
 msgid "**说明：**"
-msgstr ""
+msgstr "**Description:**"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:106
-#: 44ae0e18e39a4f9aa141730b7d1095af
+#: ../../source/docs/development-environment/TG/tg_12f.rst:106 44ae0e18e39a4f9aa141730b7d1095af
 msgid "build.sh 脚本会自动判断模组的 toolchain（交叉编译工具链）是否已经安装，如果没有安装，脚本会自动安装。 编译出错常见问题："
-msgstr ""
+msgstr "The build.sh script will automatically determine whether the toolchain (cross-compilation toolchain) for the module has been installed. If it has not been installed, the script will automatically install it. Common issues when compilation fails:"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:114
-#: d09f84598a78453f84923ab31390fd7e
+#: ../../source/docs/development-environment/TG/tg_12f.rst:114 d09f84598a78453f84923ab31390fd7e
 msgid "5. 烧录"
-msgstr ""
+msgstr "5. Flashing"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:115
-#: efe481ba8aac48c9a4b4364a186a64da
+#: ../../source/docs/development-environment/TG/tg_12f.rst:115 efe481ba8aac48c9a4b4364a186a64da
 msgid "进入烧录模式先将IO8拉高进入烧录模式。"
-msgstr ""
+msgstr "To enter flashing mode, first pull IO8 high."
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:117
-#: 23f4670a669243e1a2bbc031127c4f1d
+#: ../../source/docs/development-environment/TG/tg_12f.rst:117 23f4670a669243e1a2bbc031127c4f1d
 msgid "开发板接线：开发板已默认将IO8拉高，直接用Micro-USB线将开发板和电脑连接起来即可"
-msgstr ""
+msgstr "Development board wiring: The development board pulls IO8 high by default. Simply connect the development board to the computer using a Micro-USB cable."
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:118
-#: a3531d6c0bd043dcb5b54b2e1d535ac0
+#: ../../source/docs/development-environment/TG/tg_12f.rst:118 a3531d6c0bd043dcb5b54b2e1d535ac0
 msgid "模组接线"
-msgstr ""
+msgstr "Module wiring"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:121
-#: bc6e1d7b5b00434d8420df9434d3f5e7
+#: ../../source/docs/development-environment/TG/tg_12f.rst:121 bc6e1d7b5b00434d8420df9434d3f5e7
 msgid "USB  to  TTL"
-msgstr ""
+msgstr "USB  to  TTL"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:123
-#: ../../source/docs/development-environment/TG/tg_12f.rst:124
-#: 3598add2a9d2463798b92b3e447cebf2 499001ab476f425ca126d26587b6a057
+#: ../../source/docs/development-environment/TG/tg_12f.rst:123 ../../source/docs/development-environment/TG/tg_12f.rst:124 3598add2a9d2463798b92b3e447cebf2 499001ab476f425ca126d26587b6a057
 msgid "TX"
-msgstr ""
+msgstr "TX"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:123
-#: ../../source/docs/development-environment/TG/tg_12f.rst:124
-#: 1955ebec690f4e72b9f98d2b55339d37 ceb10d86a73a46d28a2018b359465e66
+#: ../../source/docs/development-environment/TG/tg_12f.rst:123 ../../source/docs/development-environment/TG/tg_12f.rst:124 1955ebec690f4e72b9f98d2b55339d37 ceb10d86a73a46d28a2018b359465e66
 msgid "RX"
-msgstr ""
+msgstr "RX"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:125
-#: 511926a0c6484fca8e4bd1114aab2690
+#: ../../source/docs/development-environment/TG/tg_12f.rst:125 511926a0c6484fca8e4bd1114aab2690
 msgid "IO8"
-msgstr ""
+msgstr "IO8"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:125
-#: b6ec0183ab2f4e909b89757932cc07f2
+#: ../../source/docs/development-environment/TG/tg_12f.rst:125 b6ec0183ab2f4e909b89757932cc07f2
 msgid "DTR"
-msgstr ""
+msgstr "DTR"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:126
-#: 5f80826ec69543be8a64bf6a1a614087
+#: ../../source/docs/development-environment/TG/tg_12f.rst:126 5f80826ec69543be8a64bf6a1a614087
 msgid "EN"
-msgstr ""
+msgstr "EN"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:126
-#: cbe5fd2c2dbc440d8f3618c7f59a4a50
+#: ../../source/docs/development-environment/TG/tg_12f.rst:126 cbe5fd2c2dbc440d8f3618c7f59a4a50
 msgid "RST/RTS"
-msgstr ""
+msgstr "RST/RTS"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:127
-#: e45708d8e7144a25aceca3cc0eeaddab
+#: ../../source/docs/development-environment/TG/tg_12f.rst:127 e45708d8e7144a25aceca3cc0eeaddab
 msgid "VDD"
-msgstr ""
+msgstr "VDD"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:127
-#: f51313306cfb49d98fe061e27035c763
+#: ../../source/docs/development-environment/TG/tg_12f.rst:127 f51313306cfb49d98fe061e27035c763
 msgid "3.3V"
-msgstr ""
+msgstr "3.3V"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:128
-#: 089551fbc3e24735aff5a66293f3c83f 48aa62d156e8488299d1cc389b23683d
+#: ../../source/docs/development-environment/TG/tg_12f.rst:128 089551fbc3e24735aff5a66293f3c83f 48aa62d156e8488299d1cc389b23683d
 msgid "GND"
-msgstr ""
+msgstr "GND"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:130
-#: 91fe458f54e340a3a8ed40c8767ef4a6
-msgid ""
-"下载 `TG7100C_FlashEnv烧录调试工具 <https://occ-oss-prod.oss-cn-"
-"hangzhou.aliyuncs.com/userFiles/3706713731985244160/resource/3706713731985244160smJBaJkFPK.zip>`__"
-msgstr ""
+#: ../../source/docs/development-environment/TG/tg_12f.rst:130 91fe458f54e340a3a8ed40c8767ef4a6
+msgid "下载 `TG7100C_FlashEnv烧录调试工具 <https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/userFiles/3706713731985244160/resource/3706713731985244160smJBaJkFPK.zip>`__"
+msgstr "Download the `TG7100C_FlashEnv flashing and debugging tool <https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/userFiles/3706713731985244160/resource/3706713731985244160smJBaJkFPK.zip>`__"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:132
-#: b68b52beb8844bc4860e8ba15c71831b
+#: ../../source/docs/development-environment/TG/tg_12f.rst:132 b68b52beb8844bc4860e8ba15c71831b
 msgid "在下载的文件包里面打开文件夹docs下的 `TG Flash Environment` 用户手册"
-msgstr ""
+msgstr "In the downloaded package, open the `TG Flash Environment` user manual in the docs folder"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:133
-#: 4a44df7563ca4c6798090b4e93929c8d
+#: ../../source/docs/development-environment/TG/tg_12f.rst:133 4a44df7563ca4c6798090b4e93929c8d
 msgid "打开 `TGFlashEnv.exe`"
-msgstr ""
+msgstr "Open `TGFlashEnv.exe`"
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:135
-#: 5c0a41bea57f4efda99b964694631117
+#: ../../source/docs/development-environment/TG/tg_12f.rst:135 5c0a41bea57f4efda99b964694631117
 msgid "按照TG Flash Environment用户手册步骤配置好点击下载。"
-msgstr ""
+msgstr "Follow the steps in the TG Flash Environment user manual to configure it, then click Download."
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:139
-#: bd4662abe535403b8b36e06d0e38d73d
+#: ../../source/docs/development-environment/TG/tg_12f.rst:139 bd4662abe535403b8b36e06d0e38d73d
 msgid "**注意:** 如果出现以下错误，大概率是USB-TTL不支持此波特率，可以把波特率设置低一点试试，建议使用1M以下波特率。"
-msgstr ""
+msgstr "**Note:** If the following error occurs, it is most likely that the USB-to-TTL adapter does not support this baud rate. Try setting the baud rate lower. It is recommended to use a baud rate below 1M."
 
-#: ../../source/docs/development-environment/TG/tg_12f.rst:145
-#: fd9c1ac62fc243939ff3314494819b98
+#: ../../source/docs/development-environment/TG/tg_12f.rst:145 fd9c1ac62fc243939ff3314494819b98
 msgid "下载完成后将IO8拉低进入运行模式，复位运行程序。 在串口调试助手把DTR打勾可实现IO8拉低，点击复位即可运行程序，默认波特率为921600"
-msgstr ""
-
+msgstr "After the download is completed, pull IO8 low to enter running mode, then reset to run the program. In the serial port debugging assistant, checking DTR can pull IO8 low. Click reset to run the program. The default baud rate is 921600."

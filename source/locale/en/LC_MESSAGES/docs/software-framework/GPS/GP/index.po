@@ -6,221 +6,179 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 14:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:2
-#: 687eaa56802c4768a364b8105b76691c
+#: ../../source/docs/software-framework/GPS/GP/index.rst:2 687eaa56802c4768a364b8105b76691c
 msgid "安信可 GPS系列模块 FAQ"
-msgstr ""
+msgstr "Ai-Thinker GPS Series Module FAQ"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:17
-#: c0291558e7be4cd7b5708ddb5dbac703
+#: ../../source/docs/software-framework/GPS/GP/index.rst:17 c0291558e7be4cd7b5708ddb5dbac703
 msgid "GP-02出货配的天线是无源天线还是有源天线"
-msgstr ""
+msgstr "Is the antenna shipped with GP-02 a passive antenna or an active antenna?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:18
-#: bc88326a3a934c4ca874f8bf9688b040
+#: ../../source/docs/software-framework/GPS/GP/index.rst:18 bc88326a3a934c4ca874f8bf9688b040
 msgid "无源天线"
-msgstr ""
+msgstr "Passive antenna."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:21
-#: e78c51781e714c4b942071fd6a6038c7
+#: ../../source/docs/software-framework/GPS/GP/index.rst:21 e78c51781e714c4b942071fd6a6038c7
 msgid "GP-02开发板上的圆形器件是什么？实际电路设计能否不接？型号是什么？"
-msgstr ""
+msgstr "What is the round component on the GP-02 development board? Can it be omitted in the actual circuit design? What is its model?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:22
-#: bd16cba56372481ab20471288df31513
+#: ../../source/docs/software-framework/GPS/GP/index.rst:22 bd16cba56372481ab20471288df31513
 msgid "圆形器件是法拉电容，不是纽扣电池，型号为XH414H。实际电路设计可以不接"
-msgstr ""
+msgstr "The round component is a Farad capacitor, not a coin cell battery. The model is XH414H. It can be omitted in the actual circuit design."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:25
-#: 610ce8adf55f4ce18f494039608f1cee
+#: ../../source/docs/software-framework/GPS/GP/index.rst:25 610ce8adf55f4ce18f494039608f1cee
 msgid "GP-01和GP-02有什么区别"
-msgstr ""
+msgstr "What is the difference between GP-01 and GP-02?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:26
-#: 7c8e31a6344746d589fe955f50eab0f9
+#: ../../source/docs/software-framework/GPS/GP/index.rst:26 7c8e31a6344746d589fe955f50eab0f9
 msgid "只是封装不同，其他软件功能都一样"
-msgstr ""
+msgstr "Only the package is different. Other software functions are the same."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:29
-#: d6cd95ef7c8542079f535690392dd20b
+#: ../../source/docs/software-framework/GPS/GP/index.rst:29 d6cd95ef7c8542079f535690392dd20b
 msgid "GPS模组上的VCC_RF引脚是做什么用途使用"
-msgstr ""
+msgstr "What is the VCC_RF pin on the GPS module used for?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:30
-#: 450be44bd7a04d1ea5e36f277c64213d
+#: ../../source/docs/software-framework/GPS/GP/index.rst:30 450be44bd7a04d1ea5e36f277c64213d
 msgid "给有源天线引脚进行供电"
-msgstr ""
+msgstr "It is used to supply power to the active antenna pin."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:33
-#: fd2bc2293993498c875361fa447d653e
+#: ../../source/docs/software-framework/GPS/GP/index.rst:33 fd2bc2293993498c875361fa447d653e
 msgid "GP-02和BG-02有什么区别"
-msgstr ""
+msgstr "What is the difference between GP-02 and BG-02?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:34
-#: 9cbd207e20d846c8bab6eab60a21bd13
+#: ../../source/docs/software-framework/GPS/GP/index.rst:34 9cbd207e20d846c8bab6eab60a21bd13
 msgid "芯片厂商不同"
-msgstr ""
+msgstr "They use chips from different manufacturers."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:37
-#: 1086cf12699d41fc838cd7a610acaa9b
+#: ../../source/docs/software-framework/GPS/GP/index.rst:37 1086cf12699d41fc838cd7a610acaa9b
 msgid "GP-01的串口有两个吗"
-msgstr ""
+msgstr "Does GP-01 have two serial ports?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:38
-#: 1207f802f1e446b591ecb02cc6a3c4ce
+#: ../../source/docs/software-framework/GPS/GP/index.rst:38 1207f802f1e446b591ecb02cc6a3c4ce
 msgid "没有两个，只有一个串口"
-msgstr ""
+msgstr "No. It has only one serial port."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:41
-#: 420837c0882f4724bb90a42c417011ec
+#: ../../source/docs/software-framework/GPS/GP/index.rst:41 420837c0882f4724bb90a42c417011ec
 msgid "GPS上的VRTC引脚安装3V纽扣电池有没有起作用"
-msgstr ""
+msgstr "Does installing a 3V coin cell battery on the VRTC pin of the GPS module work?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:42
-#: 4f4412d0b3bb459b8de98b235c21798e
+#: ../../source/docs/software-framework/GPS/GP/index.rst:42 4f4412d0b3bb459b8de98b235c21798e
 msgid "VBAT有供电会有热启动功能，如果VBAT有供电，GPS定位后断电，再次上电会有RTC时间输出。"
-msgstr ""
+msgstr "If VBAT is powered, the module supports hot start. If VBAT is powered, after the GPS obtains a a position fix and then powers off, RTC time will be output when it is powered on again."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:45
-#: b54fb1b3da6b459084dbaf155cf1aa8e
+#: ../../source/docs/software-framework/GPS/GP/index.rst:45 b54fb1b3da6b459084dbaf155cf1aa8e
 msgid "GPS获取的时间能精确到ms的吗？，目前模块是1s返回一次时间，时间格式：hhmmss.sss，.sss这个显示是0，怎么设置才能看到值？"
-msgstr ""
+msgstr "Can the time obtained by GPS be accurate to milliseconds? Currently, the module returns the time once per second. The time format is hhmmss.sss, but .sss is displayed as 0. How can I set it to show a value?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:46
-#: 0e47f66c28fb4e108a5e64045fdeb751
+#: ../../source/docs/software-framework/GPS/GP/index.rst:46 0e47f66c28fb4e108a5e64045fdeb751
 msgid "GPS都是按整秒输出的，不会有ms输出。"
-msgstr ""
+msgstr "GPS outputs time in whole seconds and does not output milliseconds."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:49
-#: 630fca31181e443faabdcdaabf6552a8
+#: ../../source/docs/software-framework/GPS/GP/index.rst:49 630fca31181e443faabdcdaabf6552a8
 msgid "如果GPS模块由于外界地理环境的原因，暂时收不到数据，你们的GPS模块是否仍然可以送GPS本地的时间给MCU"
-msgstr ""
+msgstr "If the GPS module temporarily cannot receive data due to the external geographical environment, can your GPS module still send the GPS local time to the MCU?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:50
-#: 9062730b56e04e3ca513eea2e4b6e877
+#: ../../source/docs/software-framework/GPS/GP/index.rst:50 9062730b56e04e3ca513eea2e4b6e877
 msgid "GPS从定位到不定位时，模块仍然有时间输出，如果模块没有定位过是没有时间的。"
-msgstr ""
+msgstr "When the GPS module changes from a positioned state to a non-positioned state, it will still output time. If the module has never been positioned before, there will be no time output."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:53
-#: 9d3410442ba34b13abbcb3f4f26b4c96
+#: ../../source/docs/software-framework/GPS/GP/index.rst:53 9d3410442ba34b13abbcb3f4f26b4c96
 msgid "GP-02模组能否使用GK9501指令集"
-msgstr ""
+msgstr "Can the GP-02 module use the GK9501 command set?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:54
-#: bb5029440597448b97789c9f4c5b2c2c
+#: ../../source/docs/software-framework/GPS/GP/index.rst:54 bb5029440597448b97789c9f4c5b2c2c
 msgid "不可以，两者芯片方案不同，不能兼容使用"
-msgstr ""
+msgstr "No. The two modules use different chip solutions and are not compatible."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:57
-#: 1d61ae968a8949f4910063d87cc7c912
+#: ../../source/docs/software-framework/GPS/GP/index.rst:57 1d61ae968a8949f4910063d87cc7c912
 msgid "GPS模块无法定位该如何排查"
-msgstr ""
+msgstr "How should I troubleshoot if the GPS module cannot complete positioning?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:58
-#: 7cb55c9d81e34f3bbc912c014a5d599e
+#: ../../source/docs/software-framework/GPS/GP/index.rst:58 7cb55c9d81e34f3bbc912c014a5d599e
 msgid "首先检查是否在室外测试，室内肯定无法定位的，其次检查下供电，一般使用3.3V"
-msgstr ""
+msgstr "First, check whether the test is being performed outdoors. Positioning is definitely not possible indoors. Second, check the power supply. Generally, 3.3V is used."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:61
-#: 09f0e601612c45bda0b5033ba075f4ea
+#: ../../source/docs/software-framework/GPS/GP/index.rst:61 09f0e601612c45bda0b5033ba075f4ea
 msgid "GPS模块是主动发送定位信息的吗"
-msgstr ""
+msgstr "Does the GPS module actively send positioning information?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:62
-#: 7ff49b7ec005452d8ce1fcf19b35680e
+#: ../../source/docs/software-framework/GPS/GP/index.rst:62 7ff49b7ec005452d8ce1fcf19b35680e
 msgid "是的"
-msgstr ""
+msgstr "Yes."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:65
-#: 1fffe694375e4e1fb278dec7abd867c8
+#: ../../source/docs/software-framework/GPS/GP/index.rst:65 1fffe694375e4e1fb278dec7abd867c8
 msgid "请问GP-01模组串口通信协议是哪一种协议？"
-msgstr ""
+msgstr "What serial communication protocol does the GP-01 module use?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:66
-#: 257955d177e04c538487b10184ec1759
+#: ../../source/docs/software-framework/GPS/GP/index.rst:66 257955d177e04c538487b10184ec1759
 msgid "NMEA协议，下载该资源（），其中包含协议文档；"
-msgstr ""
+msgstr "NMEA protocol. Download this resource (), which contains the protocol document."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:70
-#: 5fda6325deca4d0594a7b98b69d838f4
+#: ../../source/docs/software-framework/GPS/GP/index.rst:70 5fda6325deca4d0594a7b98b69d838f4
 msgid "GP-02能外接GPRS模块或者4G模块传递消息吗"
-msgstr ""
+msgstr "Can GP-02 be connected to a GPRS module or 4G module to transmit messages?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:71
-#: fd1123c28de848e28040c0ddfe5b05b4
+#: ../../source/docs/software-framework/GPS/GP/index.rst:71 fd1123c28de848e28040c0ddfe5b05b4
 msgid "可以外接，通过串口的方式"
-msgstr ""
+msgstr "Yes. It can be connected externally via the serial port."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:74
-#: d4473a6327d8448bbb7176e96b4994a6
+#: ../../source/docs/software-framework/GPS/GP/index.rst:74 d4473a6327d8448bbb7176e96b4994a6
 msgid "GP-02模块可以导引无人机飞行吗"
-msgstr ""
+msgstr "Can the GP-02 module guide a drone to fly?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:75
-#: 218b158fae28473f8b9a1946978f3d28
+#: ../../source/docs/software-framework/GPS/GP/index.rst:75 218b158fae28473f8b9a1946978f3d28
 msgid "模块不支持导引功能"
-msgstr ""
+msgstr "The module does not support guidance functions."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:78
-#: 6105d21e60e4425d8a994a5a18bd7347
+#: ../../source/docs/software-framework/GPS/GP/index.rst:78 6105d21e60e4425d8a994a5a18bd7347
 msgid "GPS模组可以获取网络时间吗"
-msgstr ""
+msgstr "Can the GPS module obtain network time?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:79
-#: c7b1f166f16d4048a20734956c3d8204
+#: ../../source/docs/software-framework/GPS/GP/index.rst:79 c7b1f166f16d4048a20734956c3d8204
 msgid "不可以，不过可以通过搜星的方式获取UTC时间，然后自行转换"
-msgstr ""
+msgstr "No. However, it can obtain UTC time by searching for satellites, and then you can convert it yourself."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:82
-#: 5c0efa1ff4e740a39a3b1ea1de8ce0ae
+#: ../../source/docs/software-framework/GPS/GP/index.rst:82 5c0efa1ff4e740a39a3b1ea1de8ce0ae
 msgid "GPS模组只能使用有源天线吗"
-msgstr ""
+msgstr "Can the GPS module only use an active antenna?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:83
-#: 39d2e7494ca74cfdaec076dbc29a9f10
+#: ../../source/docs/software-framework/GPS/GP/index.rst:83 39d2e7494ca74cfdaec076dbc29a9f10
 msgid "有源天线和无源天线都可以使用"
-msgstr ""
+msgstr "Both active antennas and passive antennas can be used."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:86
-#: 0f53926314214d129ea18e8ba177c286
+#: ../../source/docs/software-framework/GPS/GP/index.rst:86 0f53926314214d129ea18e8ba177c286
 msgid "GP-02开发板天线是有源天线还是无源天线，板子上用的电池还是电容"
-msgstr ""
+msgstr "Is the antenna on the GP-02 development board an active antenna or a passive antenna? Is the component on the board a battery or a capacitor?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:87
-#: a910e1f294c2479193d026f0228314a5
+#: ../../source/docs/software-framework/GPS/GP/index.rst:87 a910e1f294c2479193d026f0228314a5
 msgid "天线是无源天线，板子上使用的是超级电容"
-msgstr ""
+msgstr "The antenna is a passive antenna, and the board uses a supercapacitor."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:90
-#: 89be3466d90e482782b138d62541bee2
+#: ../../source/docs/software-framework/GPS/GP/index.rst:90 89be3466d90e482782b138d62541bee2
 msgid "GP-02开发板上的超级电容能保存参数大概多少个小时"
-msgstr ""
+msgstr "How many hours can the supercapacitor on the GP-02 development board save parameters?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:91
-#: dbff4d9ebfb74950adf20cd89812b7c6
+#: ../../source/docs/software-framework/GPS/GP/index.rst:91 dbff4d9ebfb74950adf20cd89812b7c6
 msgid "这个需要实际测试，如果是一直开启定位测试的情况下建议经常供电使用"
-msgstr ""
+msgstr "This needs to be tested in practice. If positioning tests are continuously enabled, it is recommended to power the module frequently."
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:94
-#: 25ae582d91064d8ea0750d5451263030
+#: ../../source/docs/software-framework/GPS/GP/index.rst:94 25ae582d91064d8ea0750d5451263030
 msgid "请问GP-01模组的PPS信号有什么作用？"
-msgstr ""
+msgstr "What is the function of the PPS signal on the GP-01 module?"
 
-#: ../../source/docs/software-framework/GPS/GP/index.rst:95
-#: f7d8389feddb48df95d10801249f5c5a
+#: ../../source/docs/software-framework/GPS/GP/index.rst:95 f7d8389feddb48df95d10801249f5c5a
 msgid "信号为时间脉冲，用于时间同步。"
-msgstr ""
-
+msgstr "The signal is a time pulse used for time synchronization."

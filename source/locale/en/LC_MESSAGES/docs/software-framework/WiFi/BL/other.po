@@ -6,339 +6,268 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 14:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:2
-#: 1d76a0662d2b48b39cb69c9cb435ba58
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:2 1d76a0662d2b48b39cb69c9cb435ba58
 msgid "其他"
-msgstr ""
+msgstr "Other"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:15
-#: e660e0ab3e394e53aad5471e9753fd53
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:15 e660e0ab3e394e53aad5471e9753fd53
 msgid "Ai-WB2系列模组支持哪些开发方式"
-msgstr ""
+msgstr "What development methods are supported by Ai-WB2 series modules?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:16
-#: ff9dba028b3846a0a0a6847adba4925d
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:16 ff9dba028b3846a0a0a6847adba4925d
 msgid "AT开发，window环境和liunx环境开发"
-msgstr ""
+msgstr "AT development, development in Windows environment, and development in Linux environment."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:19
-#: d1744fc505434563b99c2920ab4c461c
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:19 d1744fc505434563b99c2920ab4c461c
 msgid "Ai-WB2-32S模组与ESP32-S模组有什么区别，软硬件能否兼容"
-msgstr ""
+msgstr "What are the differences between the Ai-WB2-32S module and the ESP32-S module? Are the software and hardware compatible?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:20
-#: 561de2610bab4c5f922a235a48b4b0ea
-msgid ""
-"Ai-"
-"WB2-32模组与ESP32-S模组封装兼容，但是引脚定义不一样；软件上所使用的芯片也不一样，WB2-32S使用的是BL602芯片，ESP32模组使用的是ESP32D0WD芯片"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:20 561de2610bab4c5f922a235a48b4b0ea
+msgid "Ai-WB2-32模组与ESP32-S模组封装兼容，但是引脚定义不一样；软件上所使用的芯片也不一样，WB2-32S使用的是BL602芯片，ESP32模组使用的是ESP32D0WD芯片"
+msgstr "The Ai-WB2-32 module is package-compatible with the ESP32-S module, but the pin definitions are different. In terms of software, the chips used are also different. The WB2-32S uses the BL602 chip, while the ESP32 module uses the ESP32D0WD chip."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:23
-#: 11672b972fdb454083caf9a80c1f22ca
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:23 11672b972fdb454083caf9a80c1f22ca
 msgid "WB2模组支持WAPI协议吗"
-msgstr ""
+msgstr "Does the WB2 module support the WAPI protocol?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:24
-#: e39e2cd6040b4a7baef34c5a4c984eed
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:24 e39e2cd6040b4a7baef34c5a4c984eed
 msgid "支持，不过需要通过二次开发实现"
-msgstr ""
+msgstr "Yes, but it needs to be implemented through secondary development."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:27
-#: 3e8e298574b049c8904f92947c3e21b4
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:27 3e8e298574b049c8904f92947c3e21b4
 msgid "WB2系列模组在做干扰规避测试项，表格上因填写什么参数"
-msgstr ""
+msgstr "When performing the interference avoidance test item for WB2 series modules, what parameters should be filled in the table?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:28
-#: 761db048f52d48eb84edf78af267eb83
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:28 761db048f52d48eb84edf78af267eb83
 msgid "选择监测与避让"
-msgstr ""
+msgstr "Select monitoring and avoidance."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:31
-#: 6ca2ffb842204abd8f84d097b8d4953e
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:31 6ca2ffb842204abd8f84d097b8d4953e
 msgid "请问Ai-WB2-12F模组重新烧写固件的时候，EN引脚的电平设置情况如何？"
-msgstr ""
+msgstr "When reflashing firmware for the Ai-WB2-12F module, how should the EN pin level be set?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:32
-#: 3a66abc24f32478fb77bcbc3ab1a7284
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:32 3a66abc24f32478fb77bcbc3ab1a7284
 msgid "当软件提示 “Please Press Reset Key” 的时候，将EN引脚拉低之后，再拉高"
-msgstr ""
+msgstr "When the software prompts “Please Press Reset Key”, pull the EN pin low, and then pull it high again."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:35
-#: 69645d5d1a494134be280fdfbbca6357
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:35 69645d5d1a494134be280fdfbbca6357
 msgid "请问有没有支持入网阿里云的WiFi、蓝牙双模模组？"
-msgstr ""
+msgstr "Are there any Wi-Fi and Bluetooth dual-mode modules that support connecting to Alibaba Cloud?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:36
-#: 8d90e16e518c427aa71cd8d522bab15d
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:36 8d90e16e518c427aa71cd8d522bab15d
 #, python-format
-msgid ""
-"Ai-WB2系列模组均支持的，可通过AT指令入网阿里云 `(操作过程见链接)  "
-"<https://blog.csdn.net/Boantong_/article/details/112971695?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167141430716800215099422%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=167141430716800215099422&biz_id=0&utm_medium=distribute.pc_search_result"
-".none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-1-112971695-null-"
-"null.nonecase&utm_term=%E9%98%BF%E9%87%8C&spm=1018.2226.3001.4450>`__ "
-"，指令与文档中描述的指令是一样的；"
-msgstr ""
+msgid "Ai-WB2系列模组均支持的，可通过AT指令入网阿里云 `(操作过程见链接)  <https://blog.csdn.net/Boantong_/article/details/112971695?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167141430716800215099422%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=167141430716800215099422&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-1-112971695-null-null.nonecase&utm_term=%E9%98%BF%E9%87%8C&spm=1018.2226.3001.4450>`__ ，指令与文档中描述的指令是一样的；"
+msgstr "All Ai-WB2 series modules support this. They can connect to Alibaba Cloud through AT commands. `(See the operation process in the link)  <https://blog.csdn.net/Boantong_/article/details/112971695?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522167141430716800215099422%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fblog.%2522%257D&request_id=167141430716800215099422&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_ecpm_v1~rank_v31_ecpm-1-112971695-null-null.nonecase&utm_term=%E9%98%BF%E9%87%8C&spm=1018.2226.3001.4450>`__ The commands are the same as those described in the document."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:40
-#: 723eb784f9184f809b836974e90ea910
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:40 723eb784f9184f809b836974e90ea910
 msgid "请问一下，我这边Ai-WB2-12F模组是否支持lua语言开发？"
-msgstr ""
+msgstr "Does the Ai-WB2-12F module support Lua language development?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:41
-#: 5c364d44b12947039d664f84cae1562a
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:41 5c364d44b12947039d664f84cae1562a
 msgid "Ai-WB2-xx系列模组均不支持lua语言开发，仅8266系列支持；"
-msgstr ""
+msgstr "Ai-WB2-xx series modules do not support Lua language development. Only the 8266 series supports it."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:44
-#: bddc93ab52c340979431ac91284bae23
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:44 bddc93ab52c340979431ac91284bae23
 msgid "请问贵公司是否有rj45以太网网络透传功能的模组？"
-msgstr ""
+msgstr "Does your company have any module with RJ45 Ethernet network transparent transmission function?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:45
-#: 5cbdb79f8ee945c8917d1131aa8eb660
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:45 5cbdb79f8ee945c8917d1131aa8eb660
 msgid "没有。"
-msgstr ""
+msgstr "No."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:48
-#: 608bad96e50945d786ebd71e2760187f
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:48 608bad96e50945d786ebd71e2760187f
 msgid "请问程序存储空间与我申请的flash空间是否会有冲突？"
-msgstr ""
+msgstr "Will the program storage space conflict with the flash space I apply for?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:49
-#: d36d865cdd98476281c431c595911fae
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:49 d36d865cdd98476281c431c595911fae
 msgid "不会，空间的分化由分区表决定，编译器中已做了防冲突功能；"
-msgstr ""
+msgstr "No. Space allocation is determined by the partition table, and the compiler already includes an anti-conflict mechanism."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:52
-#: 6e9d3ab468c444449c65d65a60701b4b
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:52 6e9d3ab468c444449c65d65a60701b4b
 msgid "WB2系列模组可以用ESP-IDF开发吗？"
-msgstr ""
+msgstr "Can WB2 series modules be developed using ESP-IDF?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:53
-#: f3f3c71bb96d43e39133d1591f1b4ac2
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:53 f3f3c71bb96d43e39133d1591f1b4ac2
 msgid "不可以，芯片方案不同"
-msgstr ""
+msgstr "No. The chip solutions are different."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:56
-#: c3270686d20e493fba0e78abc1aaec8e
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:56 c3270686d20e493fba0e78abc1aaec8e
 msgid "WB2-07S模组天线是蓝牙的还是WIFI的，还是两个共用天线"
-msgstr ""
+msgstr "Is the antenna of the WB2-07S module for Bluetooth or Wi-Fi, or do they share one antenna?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:57
-#: 2a91eb45460c408f958bd0613b1c4951
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:57 2a91eb45460c408f958bd0613b1c4951
 msgid "BLE和WIFI共用一条天线，分时复用"
-msgstr ""
+msgstr "BLE and Wi-Fi share one antenna and use time-division multiplexing."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:60
-#: 3c62261e953d4306a4fff5d76c976582
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:60 3c62261e953d4306a4fff5d76c976582
 msgid "请问WB2-32S是否支持arduino开发？"
-msgstr ""
+msgstr "Does the WB2-32S support Arduino development?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:61
-#: 260d7723c3c44d079d914494f3083d48
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:61 260d7723c3c44d079d914494f3083d48
 msgid "不支持"
-msgstr ""
+msgstr "No."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:64
-#: fbfb323f688e4b79b61004257e4812d4
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:64 fbfb323f688e4b79b61004257e4812d4
 msgid "请问WB2模组是用的什么内核？"
-msgstr ""
+msgstr "What core does the WB2 module use?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:65
-#: b47857821a3947b9a87c85d69eceac10
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:65 b47857821a3947b9a87c85d69eceac10
 msgid "RISC-V"
-msgstr ""
+msgstr "RISC-V."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:68
-#: da8450eb731343ad8c9c1b035b244b0b
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:68 da8450eb731343ad8c9c1b035b244b0b
 msgid "请问WB2模组支持空中升级么？"
-msgstr ""
+msgstr "Does the WB2 module support over-the-air upgrade?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:69
-#: 37ff8da7497e42f78d85b4cf2720278d
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:69 37ff8da7497e42f78d85b4cf2720278d
 msgid "支持OTA"
-msgstr ""
+msgstr "Yes, it supports OTA."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:72
-#: 8bf40f10c7074ae6abfb772c23e8ae38
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:72 8bf40f10c7074ae6abfb772c23e8ae38
 msgid "请问WB2模组有16M闪存的么？"
-msgstr ""
+msgstr "Is there a WB2 module with 16M flash?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:73
-#: 5448a62222ad4e78a96048d065938010
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:73 5448a62222ad4e78a96048d065938010
 msgid "通用的是2M与4M版本，16M需求的需联系商务定制；"
-msgstr ""
+msgstr "The common versions are 2M and 4M. For 16M requirements, please contact sales for customization."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:76
-#: d8792057b7ec4b08b5a6db85dc8c249b
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:76 d8792057b7ec4b08b5a6db85dc8c249b
 msgid "WB2系列模块能传输水下的视频吗"
-msgstr ""
+msgstr "Can WB2 series modules transmit underwater video?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:77
-#: 72cb146e57be4eb2ad352a3ab1fd0ca5
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:77 72cb146e57be4eb2ad352a3ab1fd0ca5
 msgid "不支持，水下会吸收一部分的WIFI信号"
-msgstr ""
+msgstr "No. Underwater environments absorb part of the Wi-Fi signal."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:80
-#: cf7e2c2fd85d41bca8c003121b87899a
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:80 cf7e2c2fd85d41bca8c003121b87899a
 msgid "Ai-WB2-32S开发板支持TinyGo吗"
-msgstr ""
+msgstr "Does the Ai-WB2-32S development board support TinyGo?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:81
-#: 652a937698b2459391c778c2ecfd8f32
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:81 652a937698b2459391c778c2ecfd8f32
 msgid "目前不支持Go语言开发"
-msgstr ""
+msgstr "Go language development is not currently supported."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:84
-#: e98c319846114eb1b21f653a2602e06a
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:84 e98c319846114eb1b21f653a2602e06a
 msgid "WB2模块使用单行模式发送数据遇到0x0A会数据异常，应该怎样处理"
-msgstr ""
+msgstr "When the WB2 module uses single-line mode to send data, data becomes abnormal when encountering 0x0A. How should this be handled?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:85
-#: 246b1ad5ce324afe98e9a2e620667c05
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:85 246b1ad5ce324afe98e9a2e620667c05
 msgid "由于单行模式的指令判断0D 0A为结束符，故可以使用另外一条指令AT+SOCKETSEND进行发送"
-msgstr ""
+msgstr "Because the command in single-line mode determines 0D 0A as the terminator, you can use another command, AT+SOCKETSEND, to send the data."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:88
-#: a24740ad10b941d881016c6013cfc3dc
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:88 a24740ad10b941d881016c6013cfc3dc
 msgid "请问WB2系列模组的SDK编译完成以后的固件是合并的还是分散的呢？"
-msgstr ""
+msgstr "After the SDK compilation of WB2 series modules is completed, is the firmware merged or separated?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:89
-#: bbbe7abb5a3a49bc9adb168c80477e1a
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:89 bbbe7abb5a3a49bc9adb168c80477e1a
 msgid "是分散的"
-msgstr ""
+msgstr "It is separated."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:92
-#: 6ed58342af6142daa69fda787af3366a
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:92 6ed58342af6142daa69fda787af3366a
 msgid "WB2-12F跟BW16引脚兼容吗"
-msgstr ""
+msgstr "Are the pins of WB2-12F and BW16 compatible?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:93
-#: 83c0d3ba6caf41d6a1a140f8495b3eb4
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:93 83c0d3ba6caf41d6a1a140f8495b3eb4
 msgid "AT固件的脚位兼容，可以无缝切换使用"
-msgstr ""
+msgstr "The pins of the AT firmware are compatible and can be switched seamlessly."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:96
-#: b87cf7dc94cc4355a10a8509a1b688c8
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:96 b87cf7dc94cc4355a10a8509a1b688c8
 msgid "WB2-12F可以直接移植ESP-12F的代码吗"
-msgstr ""
+msgstr "Can ESP-12F code be directly ported to WB2-12F?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:97
-#: 5e3f0f232fc24cf7bee5b5d0ec000d3b
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:97 5e3f0f232fc24cf7bee5b5d0ec000d3b
 msgid "不可以直接移植，需要基于WB2的SDK进行修改"
-msgstr ""
+msgstr "No. It cannot be directly ported. It needs to be modified based on the WB2 SDK."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:100
-#: 60fdee2ee9d247a28302136a116b98d1
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:100 60fdee2ee9d247a28302136a116b98d1
 msgid "WB2系列模组支持BLE MESH与其他品牌的BLE MESH可通配使用吗"
-msgstr ""
+msgstr "Can the BLE MESH function of WB2 series modules be used interchangeably with BLE MESH from other brands?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:101
-#: 4a0feb0d411643e59b0bba9ae71579ec
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:101 4a0feb0d411643e59b0bba9ae71579ec
 msgid "MESH功能需要做开发实现  AT固件没有该功能"
-msgstr ""
+msgstr "The MESH function needs to be implemented through development. The AT firmware does not have this function."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:104
-#: bf12424534264a5485f20f7bc1ada5ca
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:104 bf12424534264a5485f20f7bc1ada5ca
 msgid "WB2-07S的GPIO接口，模块内部有没有上拉电阻"
-msgstr ""
+msgstr "Do the GPIO interfaces of the WB2-07S have internal pull-up resistors inside the module?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:105
-#: e7106714cbb14fa9b27bc99874933f95
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:105 e7106714cbb14fa9b27bc99874933f95
 msgid "模组内部的GPIO没有接上拉电阻"
-msgstr ""
+msgstr "The GPIOs inside the module are not connected to pull-up resistors."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:108
-#: 08053d7738f24970bbd07fca2058e7c8
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:108 08053d7738f24970bbd07fca2058e7c8
 msgid "ESP8266二次开发中的eagle.flash文件该如何生成"
-msgstr ""
+msgstr "How is the eagle.flash file generated during secondary development of ESP8266?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:109
-#: 2cd0c139716d4c06aac8b808935e2a3e
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:109 2cd0c139716d4c06aac8b808935e2a3e
 msgid "在编译规则中，APP选项选择为0，表示不使用OTA功能"
-msgstr ""
+msgstr "In the compilation rules, set the APP option to 0, indicating that OTA is not used."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:112
-#: 8d2f43e495414310a96aee92c85a49d1
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:112 8d2f43e495414310a96aee92c85a49d1
 msgid "8266模块频繁出现wdt reset该如何解决"
-msgstr ""
+msgstr "How to solve frequent wdt reset on the 8266 module?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:113
-#: 80ce97fa4ecb4765a18491278e02bc68
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:113 80ce97fa4ecb4765a18491278e02bc68
 msgid "检查供电电源，禁止使用USB转TTL串口板进行供电"
-msgstr ""
+msgstr "Check the power supply. Do not use a USB-to-TTL serial board for power supply."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:116
-#: 46893bc719b945f895226c6e5cefc220
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:116 46893bc719b945f895226c6e5cefc220
 msgid "请问有支持NFC配网的WiFi模块么？"
-msgstr ""
+msgstr "Are there any Wi-Fi modules that support NFC provisioning?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:117
-#: 63ab5b2d7d234e49b522c97d40caee28
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:117 63ab5b2d7d234e49b522c97d40caee28
 msgid "目前没有；"
-msgstr ""
+msgstr "Not currently."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:120
-#: 3af526aa8b33414aaa89411358289137
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:120 3af526aa8b33414aaa89411358289137
 msgid "请问我二次开发固件SPI烧录模式要配置成什么呢？QIO么？"
-msgstr ""
+msgstr "What SPI flashing mode should be configured for secondary development firmware? QIO?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:121
-#: c7f4ceabe5e9418aadabf1e301fdb4b5
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:121 c7f4ceabe5e9418aadabf1e301fdb4b5
 msgid "有二次开发所配置的SPI模式决定；"
-msgstr ""
+msgstr "It is determined by the SPI mode configured for secondary development."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:124
-#: 9766bfa2c27f436ea337cfc368068be4
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:124 9766bfa2c27f436ea337cfc368068be4
 msgid "WB2系列出厂固件支持在线升级吗"
-msgstr ""
+msgstr "Does the factory firmware of the WB2 series support online upgrade?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:125
-#: b106be21818e4cb795f61e223bdcbcb8
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:125 b106be21818e4cb795f61e223bdcbcb8
 msgid "支持，可以通过发送OTA指令进行在线升级操作"
-msgstr ""
+msgstr "Yes. Online upgrade can be performed by sending OTA commands."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:128
-#: 9a556f47650b4361aaee821d93d8c8b6
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:128 9a556f47650b4361aaee821d93d8c8b6
 msgid "请问有WB2系列模组开发的API说明文档么？"
-msgstr ""
+msgstr "Is there an API documentation for WB2 series module development?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:129
-#: 029e7a103ed84a8f8513f3611e57e77b
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:129 029e7a103ed84a8f8513f3611e57e77b
 msgid "有的，查看 `(查看链接)  <https://wb2-api-web.readthedocs.io/en/latest/>`__"
-msgstr ""
+msgstr "Yes. See `(link)  <https://wb2-api-web.readthedocs.io/en/latest/>`__"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:132
-#: ed4207153d9344e89ca90dc702ed09b4
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:132 ed4207153d9344e89ca90dc702ed09b4
 msgid "请问为何WB2-12S模组发送指令没有任何反应？"
-msgstr ""
+msgstr "Why does the WB2-12S module not respond to commands?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:133
-#: a295bc14bbb14f96ab0fad415b850ebd
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:133 a295bc14bbb14f96ab0fad415b850ebd
 msgid "若是上电有启动信息，则检查一下RX口是否没接稳，或者接错了。若是没有启动信息，则串口部分有问题，要排查问题。"
-msgstr ""
+msgstr "If there is startup information after power-on, check whether the RX pin is loose or connected incorrectly. If there is no startup information, there is an issue with the serial port part, and troubleshooting is required."
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:136
-#: 89afbbeb545d42dba86377320a060eb2
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:136 89afbbeb545d42dba86377320a060eb2
 msgid "请问模组底部的大焊盘需要接地么？还是悬空？"
-msgstr ""
+msgstr "Should the large pad at the bottom of the module be grounded or left floating?"
 
-#: ../../source/docs/software-framework/WiFi/BL/other.rst:137
-#: cf3654d4187841f0b789c3cfe6e538e9
+#: ../../source/docs/software-framework/WiFi/BL/other.rst:137 cf3654d4187841f0b789c3cfe6e538e9
 msgid "建议直接接地，有助于散热。"
-msgstr ""
-
+msgstr "It is recommended to connect it directly to ground, which helps with heat dissipation."

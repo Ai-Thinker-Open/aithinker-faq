@@ -6,433 +6,322 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 14:37+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:2
-#: cc0327c29d974fc4a70a839d1574fbfe
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:2 cc0327c29d974fc4a70a839d1574fbfe
 msgid "协议"
-msgstr ""
+msgstr "Protocols"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:18
-#: a8e3766cd4294715ace4d1400d6db496
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:18 a8e3766cd4294715ace4d1400d6db496
 msgid "ESP8266 OpenSSL 是否⽀持 Hostname validation？"
-msgstr ""
+msgstr "Does ESP8266 OpenSSL support hostname validation?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:20
-#: d895ee449c0c4df1af2ebb2d41ee2bf2
-msgid ""
-"⽀持，目前 ESP8266 OpenSSL 是基于 mbedTLS 封装的接口，mbedTLS 支持 ``Hostname "
-"validation``。使用 esp-tls 可以根据配置切换 mbedTLS 与 wolfSSL。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:20 d895ee449c0c4df1af2ebb2d41ee2bf2
+msgid "⽀持，目前 ESP8266 OpenSSL 是基于 mbedTLS 封装的接口，mbedTLS 支持 ``Hostname validation``。使用 esp-tls 可以根据配置切换 mbedTLS 与 wolfSSL。"
+msgstr "Yes. Currently, ESP8266 OpenSSL is an interface wrapper based on mbedTLS, and mbedTLS supports ``Hostname validation``. When using esp-tls, you can switch between mbedTLS and wolfSSL according to configuration."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:25
-#: f105f1f1f137447ca550a5bf8399a8f7
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:25 f105f1f1f137447ca550a5bf8399a8f7
 msgid "ESP32 是否⽀持 PCI-E 协议？"
-msgstr ""
+msgstr "Does ESP32 support the PCI-E protocol?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:27
-#: 2a2ed658ac5e4e7e9a525ed9417c8fd9
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:27 2a2ed658ac5e4e7e9a525ed9417c8fd9
 msgid "ESP32 不支持 PCI-E 协议。"
-msgstr ""
+msgstr "ESP32 does not support the PCI-E protocol."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:32
-#: 261c3ab3d5ba444ea247503fa415ac35
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:32 261c3ab3d5ba444ea247503fa415ac35
 msgid "ESP32 如何优化通信延时？"
-msgstr ""
+msgstr "How to optimize communication latency on ESP32?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:34
-#: 1bad544af1da4341a4fb56ddd1f6df93
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:34 1bad544af1da4341a4fb56ddd1f6df93
 msgid "建议关闭 Wi-Fi 休眠功能，调用 ``API：esp_wifi_set_ps(WIFI_PS_NONE)``。"
-msgstr ""
+msgstr "It is recommended to disable Wi-Fi power saving by calling ``API: esp_wifi_set_ps(WIFI_PS_NONE)``."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:35
-#: fa7fe4728cb24162ba078c2be7bb2caa
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:35 fa7fe4728cb24162ba078c2be7bb2caa
 msgid "建议在 menucongfig 关掉 ``AMPDU`` 功能。"
-msgstr ""
+msgstr "It is recommended to disable the ``AMPDU`` function in menuconfig."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:40
-#: 6dcf8f97b3b34d838c0817be7c28fcc8
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:40 6dcf8f97b3b34d838c0817be7c28fcc8
 msgid "ESP8285 是否⽀持 CCS（Cisco Compatible eXtensions）？"
-msgstr ""
+msgstr "Does ESP8285 support CCS (Cisco Compatible eXtensions)?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:42
-#: f27f06b7e44e47ea9730d3e164fd2a61
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:42 f27f06b7e44e47ea9730d3e164fd2a61
 msgid "ESP8285 不支持 CCS （Cisco Compatible eXtensions。"
-msgstr ""
+msgstr "ESP8285 does not support CCS (Cisco Compatible eXtensions)."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:47
-#: 325d65aebfc947e796149f0e0ba9a4c6
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:47 325d65aebfc947e796149f0e0ba9a4c6
 msgid "ESP8266 ⽀持 HTTP 服务端吗？"
-msgstr ""
+msgstr "Does ESP8266 support an HTTP server?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:49
-#: 30169ab84de149bfb49f35045f066bec
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:49 30169ab84de149bfb49f35045f066bec
 msgid "⽀持。ESP8266 在 SoftAP 和 Station 模式下都可以作服务端。"
-msgstr ""
+msgstr "Yes. ESP8266 can work as a server in both SoftAP and Station modes."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:51
-#: c15a8b24e0574728b9e2aafe7d574e65
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:51 c15a8b24e0574728b9e2aafe7d574e65
 msgid "在 SoftAP 模式下，ESP8266 的服务端 IP 地址是 192.168.4.1。"
-msgstr ""
+msgstr "In SoftAP mode, the server IP address of ESP8266 is 192.168.4.1."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:52
-#: bb87b4b3ba0546d79a123b52bcd04f39
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:52 bb87b4b3ba0546d79a123b52bcd04f39
 msgid "如果 Station 模式，服务端的 IP 地址为路由器分配给 ESP8266 的 IP。"
-msgstr ""
+msgstr "In Station mode, the server IP address is the IP assigned to ESP8266 by the router."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:53
-#: 4749b738a47448b1832b3d8b27c17b99
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:53 4749b738a47448b1832b3d8b27c17b99
 msgid "如果基于 SDK 进行⼆次开发，可参考相关应用示例。"
-msgstr ""
+msgstr "If you are developing based on the SDK, please refer to the relevant application examples."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:54
-#: aeade3997c1f4b7881aeed5a9683561d
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:54 aeade3997c1f4b7881aeed5a9683561d
 msgid "如果使⽤ AT 指令，需使⽤ ``AT+CIPSERVER`` 开启服务端。"
-msgstr ""
+msgstr "If you are using AT commands, use ``AT+CIPSERVER`` to enable the server."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:59
-#: f74040edb6eb48be8cc0720031ffe4d0
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:59 f74040edb6eb48be8cc0720031ffe4d0
 msgid "ESP32 是否 lora 通信？"
-msgstr ""
+msgstr "Does ESP32 support LoRa communication?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:61
-#: 8b5572a3199e457bb0290a86370b35f1
-msgid ""
-"ESP32 自身并不支持 lora 通信，芯片没有集成 lora 协议栈与对应的射频部分。ESP32 可以外接集成 lora 协议的芯⽚，作为主控"
-" MCU连接 lora 芯片，可以实现 Wi-Fi 与 lora 设备的通信。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:61 8b5572a3199e457bb0290a86370b35f1
+msgid "ESP32 自身并不支持 lora 通信，芯片没有集成 lora 协议栈与对应的射频部分。ESP32 可以外接集成 lora 协议的芯⽚，作为主控 MCU连接 lora 芯片，可以实现 Wi-Fi 与 lora 设备的通信。"
+msgstr "ESP32 itself does not support LoRa communication, because the chip does not integrate the LoRa protocol stack or the corresponding RF part. ESP32 can be connected externally to a chip that integrates the LoRa protocol. As the main control MCU connected to the LoRa chip, ESP32 can implement communication between Wi-Fi and LoRa devices."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:66
-#: 22cdad19171e4110a483e5138fc8bc94
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:66 22cdad19171e4110a483e5138fc8bc94
 msgid "TCP 链接关闭后占用的相关资源何时释放 ？"
-msgstr ""
+msgstr "When are the related resources occupied by a TCP connection released after the connection is closed?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:68
-#: eadd9a7148434ac68a9123f1d155a98f
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:68 eadd9a7148434ac68a9123f1d155a98f
 msgid "TCP 链接关闭后占用的相关资源会在 20 s 或者发送的 ``linger/send_timeout`` 超时之后释放。"
-msgstr ""
+msgstr "The related resources occupied by a TCP connection will be released after 20 seconds or after the configured ``linger/send_timeout`` timeout expires."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:73
-#: e7d8c6e7bb884b7b93b324d5d41f29d5
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:73 e7d8c6e7bb884b7b93b324d5d41f29d5
 msgid "如何使用 mqtt 配置服务器地址为自主云平台？"
-msgstr ""
+msgstr "How to configure an MQTT server address as a private cloud platform?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:75
-#: 9a7b4155bf4e49f493c72b87d8d103f7
-msgid ""
-"可以参考例程 `mqtt example <https://github.com/espressif/esp-"
-"idf/tree/master/examples/protocols/mqtt>`_。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:75 9a7b4155bf4e49f493c72b87d8d103f7
+msgid "可以参考例程 `mqtt example <https://github.com/espressif/esp-idf/tree/master/examples/protocols/mqtt>`_。"
+msgstr "You can refer to the `mqtt example <https://github.com/espressif/esp-idf/tree/master/examples/protocols/mqtt>`_."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:80
-#: 5a5e5486147f460a9117780d9f25a06d
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:80 5a5e5486147f460a9117780d9f25a06d
 msgid "使用 ESP32 ，请问 ULP 里面用 jump 跳转到一个函数，是否有返回的指令？"
-msgstr ""
+msgstr "When using ESP32, if jump is used in ULP to jump to a function, is there a return instruction?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:82
-#: d7a253b042fd40b580ec5ecd1ead6e32
-msgid ""
-"目前 ULP CPU 指令列表以及说明 `参见 <https://docs.espressif.com/projects/esp-"
-"idf/en/latest/esp32/api-guides/ulp_instruction_set.html#add-add-to-"
-"register>`_。返回指令通常使用一个通用寄存器备份 PC 地址，用于后续跳回，由于目前 ULP 只有 4 个通用寄存器，所以需要合理使用。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:82 d7a253b042fd40b580ec5ecd1ead6e32
+msgid "目前 ULP CPU 指令列表以及说明 `参见 <https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/ulp_instruction_set.html#add-add-to-register>`_。返回指令通常使用一个通用寄存器备份 PC 地址，用于后续跳回，由于目前 ULP 只有 4 个通用寄存器，所以需要合理使用。"
+msgstr "The current ULP CPU instruction list and description can be found `here <https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-guides/ulp_instruction_set.html#add-add-to-register>`_. A return instruction usually uses a general-purpose register to back up the PC address for jumping back later. Since the current ULP has only 4 general-purpose registers, they need to be used reasonably."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:87
-#: 1766644cc625459dadb3d41a4c22d064
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:87 1766644cc625459dadb3d41a4c22d064
 msgid "ESP8266 RTOS SDK rel3.2 sntp 校准后误差会逐渐变大，如何解决？"
-msgstr ""
+msgstr "The time error gradually increases after SNTP calibration in ESP8266 RTOS SDK rel3.2. How to solve it?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:89
-#: 4c6e7760e82148f3a747c8eeeac5c472
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:89 4c6e7760e82148f3a747c8eeeac5c472
 msgid "原因是 8266 系统定时器有误差，采用软件定时器，自身存在误差较大。可通过以下几种方法改善："
-msgstr ""
+msgstr "The reason is that the 8266 system timer has errors. It uses a software timer, which itself has relatively large errors. The issue can be improved in the following ways:"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:91
-#: 415c946325cd4f068f37323827c38496
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:91 415c946325cd4f068f37323827c38496
 msgid "releaseV3.2 分支可以通过创建 task 定时重新从服务器同步时间（推荐 300s）。"
-msgstr ""
+msgstr "For the releaseV3.2 branch, you can create a task to periodically synchronize time from the server again. A recommended interval is 300 seconds."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:92
-#: 814a472cf14b4638bb43835c8faccf93
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:92 814a472cf14b4638bb43835c8faccf93
 msgid "releaseV3.3 与 master 分支的系统时钟代码有进行重构，目前测试误差较小，并且也可以定时同步服务器时间。"
-msgstr ""
+msgstr "The system clock code in the releaseV3.3 and master branches has been refactored. Current tests show smaller errors, and time can also be synchronized from the server periodically."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:93
-#: b761bf94e8884c2d9fae4a1a49842d68
-msgid ""
-"master 分支继承了 releaseV3.3 上的代码重构，除此之外，可通过 menuconfig 配置 sntp "
-"同步间隔，路径如下：``Component config > LWIP > SNTP -> Request interval to update "
-"time (ms)``。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:93 b761bf94e8884c2d9fae4a1a49842d68
+msgid "master 分支继承了 releaseV3.3 上的代码重构，除此之外，可通过 menuconfig 配置 sntp 同步间隔，路径如下：``Component config > LWIP > SNTP -> Request interval to update time (ms)``。"
+msgstr "The master branch inherits the code refactoring from releaseV3.3. In addition, the SNTP synchronization interval can be configured through menuconfig at the following path: ``Component config > LWIP > SNTP -> Request interval to update time (ms)``."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:98
-#: f1ab58bfe93741ccb2cabcbf6b06c890
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:98 f1ab58bfe93741ccb2cabcbf6b06c890
 msgid "ESP8266 是否支持设备端 UDP 广播自发自收？"
-msgstr ""
+msgstr "Does ESP8266 support UDP broadcast self-sending and self-receiving on the device side?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:100
-#: 0c19b45b818d486e89206179618c8ed7
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:100 0c19b45b818d486e89206179618c8ed7
 msgid "ESP8266 设备端支持 UDP 广播自发自收."
-msgstr ""
+msgstr "ESP8266 supports UDP broadcast self-sending and self-receiving on the device side."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:101
-#: 532fc838b3634d2dbaa2fdadc6a5236b
-msgid ""
-"需要在 menuconfig 配置选项中，需要把 LWIP 的 LOOPBACK 选项打开，``menuconfig -> Component "
-"config -> Enable per-interface lookback (键 \"Y\" 使能)``。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:101 532fc838b3634d2dbaa2fdadc6a5236b
+msgid "需要在 menuconfig 配置选项中，需要把 LWIP 的 LOOPBACK 选项打开，``menuconfig -> Component config -> Enable per-interface lookback (键 \"Y\" 使能)``。"
+msgstr "In menuconfig, the LWIP LOOPBACK option needs to be enabled: ``menuconfig -> Component config -> Enable per-interface lookback (press \"Y\" to enable)``."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:106
-#: 0b82b93aef56454a80510444f95c71d6
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:106 0b82b93aef56454a80510444f95c71d6
 msgid "TCP/IP 默认配置的数据包长度是多少？"
-msgstr ""
+msgstr "What is the default packet length in TCP/IP configuration?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:108
-#: 7130b12601c744fb9d6733e137b40086
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:108 7130b12601c744fb9d6733e137b40086
 msgid "在默认配置中，单包数据，TCP 1460 字节，UDP 1472 字节。"
-msgstr ""
+msgstr "In the default configuration, the single-packet data length is 1460 bytes for TCP and 1472 bytes for UDP."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:113
-#: 2e6bc0fe6ada4a408a5fa534b08d568b
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:113 2e6bc0fe6ada4a408a5fa534b08d568b
 msgid "SNTP 协议中使用 UTC 与 GMT 的方法为何获取不到目标时区的时间？"
-msgstr ""
+msgstr "Why cannot the time of the target time zone be obtained when using UTC and GMT in the SNTP protocol?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:115
-#: e53797e124bd482da27d32e446999798
-msgid ""
-"TZ = UTC-8 被解释为 POSIX 时区，在 POSIX 时区格式中，这 3 个字母是时区的缩写(任意)，数字是时区落后于 UTC "
-"的小时数。 UTC-8 表示时区,缩写为 “ UTC” ，比实际 UTC 晚 -8 小时, 即 UTC + 8 小时。故 UTC+8 是比 UTC"
-" 落后 8 小时, 就出现了 UTC+8 比正确的北京时间相差 16 小时的情况。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:115 e53797e124bd482da27d32e446999798
+msgid "TZ = UTC-8 被解释为 POSIX 时区，在 POSIX 时区格式中，这 3 个字母是时区的缩写(任意)，数字是时区落后于 UTC 的小时数。 UTC-8 表示时区,缩写为 “ UTC” ，比实际 UTC 晚 -8 小时, 即 UTC + 8 小时。故 UTC+8 是比 UTC 落后 8 小时, 就出现了 UTC+8 比正确的北京时间相差 16 小时的情况。"
+msgstr "TZ = UTC-8 is interpreted as a POSIX time zone. In POSIX time zone format, these three letters are the time zone abbreviation (arbitrary), and the number indicates the number of hours the time zone lags behind UTC. UTC-8 means the time zone abbreviation is “UTC”, and it lags behind actual UTC by -8 hours, that is, UTC + 8 hours. Therefore, UTC+8 means 8 hours behind UTC, resulting in a 16-hour difference from the correct Beijing time."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:121
-#: 4a63a9ac81cb4770b1cae8e2e6044c0c
-msgid ""
-"ESP32 是否有特殊的固件或者 SDK ，可以不使用芯片内部的 TCP/IP 协议，仅提供 AP/STA（TCP/IP "
-"bypass），给开发者更多的权限？"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:121 4a63a9ac81cb4770b1cae8e2e6044c0c
+msgid "ESP32 是否有特殊的固件或者 SDK ，可以不使用芯片内部的 TCP/IP 协议，仅提供 AP/STA（TCP/IP bypass），给开发者更多的权限？"
+msgstr "Does ESP32 have special firmware or SDK that does not use the chip's internal TCP/IP protocol and only provides AP/STA (TCP/IP bypass), giving developers more permissions?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:123
-#: 42eaf838aa144d7284bf158c6424e3a9
-msgid ""
-"ESP-Dongle 的软件方案符合您的上述需求，烦请联系 `我司商务 <https://www.espressif.com/zh-hans"
-"/contact-us/sales-questions>`__，签署 NDA 后获取相关方案。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:123 42eaf838aa144d7284bf158c6424e3a9
+msgid "ESP-Dongle 的软件方案符合您的上述需求，烦请联系 `我司商务 <https://www.espressif.com/zh-hans/contact-us/sales-questions>`__，签署 NDA 后获取相关方案。"
+msgstr "The ESP-Dongle software solution meets the requirements above. Please contact `our sales team <https://www.espressif.com/zh-hans/contact-us/sales-questions>`__ and obtain the relevant solution after signing an NDA."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:128
-#: 707d58de829944e997ef64e94eaf90dd
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:128 707d58de829944e997ef64e94eaf90dd
 msgid "请问安卓 EspTouch 可以添加自己想要广播的数据吗？比如添加设备ID，希望ESP32能接收到这个ID。"
-msgstr ""
+msgstr "Can Android EspTouch add custom broadcast data, such as a device ID, so that ESP32 can receive this ID?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:130
-#: eafd7473cfa043dd966efdfc28fc1d57
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:130 eafd7473cfa043dd966efdfc28fc1d57
 msgid "目前的 EspTouch 协议下发送的数据内容都是固定的，不支持自定义数据"
-msgstr ""
+msgstr "Under the current EspTouch protocol, the transmitted data content is fixed and custom data is not supported."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:131
-#: 484aae5ea353475d84d89ca5f1886431
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:131 484aae5ea353475d84d89ca5f1886431
 msgid "如果需要发送自定义数据的话，建议使用 Blufi ，这是基于 BLE 的配网协议"
-msgstr ""
+msgstr "If you need to send custom data, it is recommended to use Blufi, which is a BLE-based provisioning protocol."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:132
-#: 8a7a308d836c4fbcbeb1f2886ab4a73e
-msgid ""
-"设备端：https://github.com/espressif/esp-"
-"idf/tree/master/examples/bluetooth/blufi"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:132 8a7a308d836c4fbcbeb1f2886ab4a73e
+msgid "设备端：https://github.com/espressif/esp-idf/tree/master/examples/bluetooth/blufi"
+msgstr "Device side: https://github.com/espressif/esp-idf/tree/master/examples/bluetooth/blufi"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:133
-#: 0f8e95d9cdec48728dbf42dcbb51189f
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:133 0f8e95d9cdec48728dbf42dcbb51189f
 msgid "Android APP：https://github.com/EspressifApp/EspBlufiForAndroid"
-msgstr ""
+msgstr "Android APP: https://github.com/EspressifApp/EspBlufiForAndroid"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:134
-#: 3f9d6b8b21074d449a3a19863278ac45
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:134 3f9d6b8b21074d449a3a19863278ac45
 msgid "iOS APP：https://github.com/EspressifApp/EspBlufiForiOS"
-msgstr ""
+msgstr "iOS APP: https://github.com/EspressifApp/EspBlufiForiOS"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:139
-#: 47fb14cb30904c18983cd337861ed04c
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:139 47fb14cb30904c18983cd337861ed04c
 msgid "ESP8266 测试 RTOS-SDK mqtt/ssl_mutual_auth 为何连接服务器失败？"
-msgstr ""
+msgstr "Why does ESP8266 fail to connect to the server when testing RTOS-SDK mqtt/ssl_mutual_auth?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:141
-#: 6cd849f1c14640809249400ccc16f5d7
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:141 6cd849f1c14640809249400ccc16f5d7
 msgid "出现 SSL 无法连接可能是由于 ESP8266 内存不足导致。"
-msgstr ""
+msgstr "SSL connection failure may be caused by insufficient ESP8266 memory."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:142
-#: b4a67346a0b549c5b656468438ae641c
-msgid ""
-"请使用 ESP8266-RTOS-SDK Master 版本来测试此例程，Master 版本支持在 menuconfig "
-"配置端动态分配内存，可以减少峰值内存的开销。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:142 b4a67346a0b549c5b656468438ae641c
+msgid "请使用 ESP8266-RTOS-SDK Master 版本来测试此例程，Master 版本支持在 menuconfig 配置端动态分配内存，可以减少峰值内存的开销。"
+msgstr "Please use the ESP8266-RTOS-SDK Master version to test this example. The Master version supports dynamic memory allocation in menuconfig, which can reduce peak memory overhead."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:143
-#: bdc640837dc44812bcc701ce5029fe92
-msgid ""
-"通过 menuconfig -> Component  config -> mbadTLS -> (键 “Y” Enable)Using  "
-"dynamic TX /RX buffer  -> (键 “Y” Enable) Free SSL peer certificate after "
-"its usage -> (键 “Y” Enable) Free certificate, key and DHM data after its "
-"usage 。"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:143 bdc640837dc44812bcc701ce5029fe92
+msgid "通过 menuconfig -> Component  config -> mbadTLS -> (键 “Y” Enable)Using  dynamic TX /RX buffer  -> (键 “Y” Enable) Free SSL peer certificate after its usage -> (键 “Y” Enable) Free certificate, key and DHM data after its usage 。"
+msgstr "Configure through menuconfig -> Component config -> mbadTLS -> (press \"Y\" Enable) Using dynamic TX/RX buffer -> (press \"Y\" Enable) Free SSL peer certificate after its usage -> (press \"Y\" Enable) Free certificate, key and DHM data after its usage."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:146
-#: 05caa87512b647dcbf3e3e75471411bc
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:146 05caa87512b647dcbf3e3e75471411bc
 msgid "请问如何去掉ESP-01S模组的上电进入透传功能？"
-msgstr ""
+msgstr "How to remove the power-on transparent transmission function of the ESP-01S module?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:147
-#: 8ddbf095ab8c4cddbb7099d350203995
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:147 8ddbf095ab8c4cddbb7099d350203995
 msgid "配置如下指令即可："
-msgstr ""
+msgstr "Configure the following command:"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:153
-#: 9458d3169d414344b22c071e0199bcd1
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:153 9458d3169d414344b22c071e0199bcd1
 msgid "ESP-01F最大同时建立几个socket"
-msgstr ""
+msgstr "How many sockets can ESP-01F establish at the same time at most?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:154
-#: 9a3d6f8b180a4d7aa0690c46dd0b0b84
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:154 9a3d6f8b180a4d7aa0690c46dd0b0b84
 msgid "五个"
-msgstr ""
+msgstr "Five."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:157
-#: df2c7744222e4152855adc0ed3046032
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:157 df2c7744222e4152855adc0ed3046032
 msgid "请问ESP-12F模块是否有控制灯的套餐"
-msgstr ""
+msgstr "Does the ESP-12F module have a package for controlling lights?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:158
-#: cab1c115416d4aad848b57c06eb9b0e6
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:158 cab1c115416d4aad848b57c06eb9b0e6
 msgid "没有，SDK是开放的，特定功能需用户自行设计，我司不做方案"
-msgstr ""
+msgstr "No. The SDK is open, and specific functions need to be designed by users themselves. We do not provide solutions."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:161
-#: 4b82e91085424772aafad16214efbdfc
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:161 4b82e91085424772aafad16214efbdfc
 msgid "请问ESP8266有HTTP的固件么？"
-msgstr ""
+msgstr "Does ESP8266 have HTTP firmware?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:162
-#: 77fb536830084bbca7f64d6532ede02a
-msgid ""
-"没有，需要用户自行编译获取，相关操作见链接内容： `参考链接  <https://docs.espressif.com/projects/esp-"
-"at/zh_CN/release-v2.2.0.0_esp8266/Compile_and_Develop/index.html>`__"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:162 77fb536830084bbca7f64d6532ede02a
+msgid "没有，需要用户自行编译获取，相关操作见链接内容： `参考链接  <https://docs.espressif.com/projects/esp-at/zh_CN/release-v2.2.0.0_esp8266/Compile_and_Develop/index.html>`__"
+msgstr "No. Users need to compile and obtain it themselves. For related operations, see the link below: `Reference link <https://docs.espressif.com/projects/esp-at/zh_CN/release-v2.2.0.0_esp8266/Compile_and_Develop/index.html>`__"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:166
-#: 096996d756b346cba2382f500fea76fc
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:166 096996d756b346cba2382f500fea76fc
 msgid "请问：ESP-07S MQTT固件是否可以连接HTTP协议的服务器？"
-msgstr ""
+msgstr "Can the ESP-07S MQTT firmware connect to an HTTP server?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:167
-#: 9b98d0b27e3f4b2ea4414415b3f5971d
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:167 9b98d0b27e3f4b2ea4414415b3f5971d
 msgid "可以通过TCP协议模拟实现。"
-msgstr ""
+msgstr "It can be simulated through the TCP protocol."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:170
-#: 084780f19cbd480bac98f1808f57c3e9
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:170 084780f19cbd480bac98f1808f57c3e9
 msgid "ESP8266可以做SSL功能吗"
-msgstr ""
+msgstr "Can ESP8266 implement SSL functionality?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:171
-#: b19c1904aabc42cf8f3f507be5ee72d1
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:171 b19c1904aabc42cf8f3f507be5ee72d1
 msgid "由于SSL消耗的内存空间较大，不适合做SSL，推荐选择WB2系列"
-msgstr ""
+msgstr "Because SSL consumes a large amount of memory, ESP8266 is not suitable for SSL. It is recommended to choose the WB2 series."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:174
-#: 96f66e59d2ba4f2180cf2339124933ba
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:174 96f66e59d2ba4f2180cf2339124933ba
 msgid "ESP8266支持音频透传吗"
-msgstr ""
+msgstr "Does ESP8266 support audio transparent transmission?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:175
-#: cd7674f0a64645578bdcbb2e6814668f
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:175 cd7674f0a64645578bdcbb2e6814668f
 msgid "只要音频数据量不大就支持透传"
-msgstr ""
+msgstr "As long as the audio data volume is not large, transparent transmission is supported."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:178
-#: aa0b2a60d6b14d92b9d1a1d174f00829
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:178 aa0b2a60d6b14d92b9d1a1d174f00829
 msgid "8266模块默认的DNS服务器IP地址为多少"
-msgstr ""
+msgstr "What is the default DNS server IP address of the 8266 module?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:179
-#: 5b0289213cdb4f4da1a2b230379bd814
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:179 5b0289213cdb4f4da1a2b230379bd814
 msgid "208.67.222.222"
-msgstr ""
+msgstr "208.67.222.222"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:182
-#: c94474897afe4b3982285e0e81b82e0d
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:182 c94474897afe4b3982285e0e81b82e0d
 msgid "8266的UDP能不能实现1对多连接"
-msgstr ""
+msgstr "Can UDP on 8266 implement one-to-many connections?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:183
-#: d7992249e510495c84ef4dc94d4f470f
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:183 d7992249e510495c84ef4dc94d4f470f
 msgid "可以实现，通过组播的方式"
-msgstr ""
+msgstr "Yes. It can be implemented through multicast."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:186
-#: e19015a6bbba4889b7efd91b3cfc838f
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:186 e19015a6bbba4889b7efd91b3cfc838f
 msgid "请问ESP-12F支持通过腾讯云控制设备么？"
-msgstr ""
+msgstr "Does ESP-12F support controlling devices through Tencent Cloud?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:187
-#: f0a3beb389f24ddabbb592e96e0a71ab
-msgid ""
-"支持，烧录腾讯云固件（获取链接： `点击  <https://docs.espressif.com/projects/esp-"
-"at/zh_CN/release-v2.2.0.0_esp8266/Customized_AT_Commands_and_Firmware/Tencent_Cloud_IoT_AT/index.html>`__）或者自主开发均可实现；"
-" 腾讯云固件使用串口引脚为：TXD=GPIO15, RXD=GPIO13"
-msgstr ""
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:187 f0a3beb389f24ddabbb592e96e0a71ab
+msgid "支持，烧录腾讯云固件（获取链接： `点击  <https://docs.espressif.com/projects/esp-at/zh_CN/release-v2.2.0.0_esp8266/Customized_AT_Commands_and_Firmware/Tencent_Cloud_IoT_AT/index.html>`__）或者自主开发均可实现； 腾讯云固件使用串口引脚为：TXD=GPIO15, RXD=GPIO13"
+msgstr "Yes. It can be implemented by flashing Tencent Cloud firmware (`click here <https://docs.espressif.com/projects/esp-at/zh_CN/release-v2.2.0.0_esp8266/Customized_AT_Commands_and_Firmware/Tencent_Cloud_IoT_AT/index.html>`__) or by independent development. The serial pins used by the Tencent Cloud firmware are: TXD=GPIO15, RXD=GPIO13."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:191
-#: c007b38fc8744de5ac191e8ba6a0c8e8
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:191 c007b38fc8744de5ac191e8ba6a0c8e8
 msgid "请问ESP-01S模组是否可以烧录直连腾讯云固件？"
-msgstr ""
+msgstr "Can the ESP-01S module be flashed with firmware for direct connection to Tencent Cloud?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:192
-#: 29fd7a0583d24a24934409f32dcd6f7b
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:192 29fd7a0583d24a24934409f32dcd6f7b
 msgid "不支持，flash容量不足。入网腾讯云可以用AT MQTT固件通过配置MQTT指令的方式实现连接腾讯云的功能。"
-msgstr ""
+msgstr "No. The flash capacity is insufficient. To connect to Tencent Cloud, you can use AT MQTT firmware and configure MQTT commands to connect to Tencent Cloud."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:195
-#: af309847c8bd4671853181fcf357c007
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:195 af309847c8bd4671853181fcf357c007
 msgid "请问ESP-12F模组经常发生服务器掉线问题要怎么办？"
-msgstr ""
+msgstr "What should I do if the ESP-12F module often disconnects from the server?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:196
-#: 9b88c123ac6e40da9f190a7d3bfe879e
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:196 9b88c123ac6e40da9f190a7d3bfe879e
 msgid "先排查是wifi离线了还是与服务器连接断开了，若是wifi断开了，排查模组与路由之间连接是否给踢掉。或者路有信号太弱。若是与服务器断开了，是否被服务器踢掉了，还是网络不稳定。"
-msgstr ""
+msgstr "First check whether Wi-Fi is disconnected or the connection to the server is disconnected. If Wi-Fi is disconnected, check whether the connection between the module and the router has been kicked off, or whether the router signal is too weak. If the server connection is disconnected, check whether it was kicked off by the server or whether the network is unstable."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:199
-#: 99442b9a7c7040bf910a6f71ef747fba
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:199 99442b9a7c7040bf910a6f71ef747fba
 msgid "ESP-07的MQTT协议版本是多少"
-msgstr ""
+msgstr "What MQTT protocol version does ESP-07 use?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:200
-#: 2d5bf5bc02af40918ecc5fc023748a1a
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:200 2d5bf5bc02af40918ecc5fc023748a1a
 msgid "MQTT协议版本为3.1.1"
-msgstr ""
+msgstr "The MQTT protocol version is 3.1.1."
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:203
-#: 4a643060bdb048f59e4b08e2dc68fa78
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:203 4a643060bdb048f59e4b08e2dc68fa78
 msgid "ESP-01S模块配置作为TCP server模式使用如何保存配置"
-msgstr ""
+msgstr "How to save the configuration when the ESP-01S module is configured as a TCP server?"
 
-#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:204
-#: 9c78d4a12dcd44a0b4022b7114e0cf48
+#: ../../source/docs/software-framework/WiFi/espressif/protocols.rst:204 9c78d4a12dcd44a0b4022b7114e0cf48
 msgid "AT固件目前不支持该功能，需要对模块固件做二次开发实现"
-msgstr ""
+msgstr "The AT firmware currently does not support this function. Secondary development of the module firmware is required."
 
 #~ msgid ":link_to_translation:`en:[English]`"
 #~ msgstr ""
-

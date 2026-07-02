@@ -6,66 +6,63 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 14:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: ../../source/docs/taobao/M61/index.rst:2 c6281baac545456894e28c5893b84837
 msgid "Ai-M61系列"
-msgstr ""
+msgstr "Ai-M61 Series"
 
 #: ../../source/docs/taobao/M61/index.rst:6 efe6921788da455eb4aeeea65e13c102
 msgid "1.1 Ai-M61系列出厂AT固件"
-msgstr ""
+msgstr "1.1 Ai-M61 Series Factory AT Firmware"
 
 #: ../../source/docs/taobao/M61/index.rst:8 024264060e7542b186b492d14e1a9e0e
 msgid "**说明：**"
-msgstr ""
+msgstr "**Description:**"
 
 #: ../../source/docs/taobao/M61/index.rst:10 7b8cc7d1b4854b21b517ddecb124b85e
 msgid "固件版本号：(V0.0.1)"
-msgstr ""
+msgstr "Firmware version: (V0.0.1)"
 
 #: ../../source/docs/taobao/M61/index.rst:11 507b71d3d2284f34b6e7bd213c703741
 msgid "启动方式：自定义"
-msgstr ""
+msgstr "Boot mode: Custom"
 
 #: ../../source/docs/taobao/M61/index.rst:12 73c4cc371b14401ba8f33074ec012b9d
 msgid "固件大小：1038KB"
-msgstr ""
+msgstr "Firmware size: 1038KB"
 
 #: ../../source/docs/taobao/M61/index.rst:13 9c9e0eed9e49475980a43a782fc520a6
 msgid "日志串口|波特率：UART1(IO17、28) | 115200"
-msgstr ""
+msgstr "Log serial port | Baud rate: UART1(IO17, 28) | 115200"
 
 #: ../../source/docs/taobao/M61/index.rst:14 1a4b840445a747afb6a82765707d2323
 msgid "命令串口|波特率：UART0(IO21、IO22) | 115200"
-msgstr ""
+msgstr "Command serial port | Baud rate: UART0(IO21, IO22) | 115200"
 
 #: ../../source/docs/taobao/M61/index.rst:15 99869df551c14cb6b2d939858685ab4b
 msgid "支持升级：否"
-msgstr ""
+msgstr "Upgrade supported: No"
 
 #: ../../source/docs/taobao/M61/index.rst:16 af044cf7508b4006937efb1d374e78e9
 msgid "MD5校验码：d1ef7b7d2adcfe729845564b16ace279"
-msgstr ""
+msgstr "MD5 checksum: d1ef7b7d2adcfe729845564b16ace279"
 
 #: ../../source/docs/taobao/M61/index.rst:19 9d56c36897e94531bed568e9ebdd795d
 msgid "**启动信息**"
-msgstr ""
+msgstr "**Boot Information**"
 
 #: ../../source/docs/taobao/M61/index.rst:36 49edf53e613c42dab2c650d8db6b6270
-msgid ""
-"**固件下载：** `(固件号：2128)  <https://docs.ai-"
-"thinker.com/_media/m61_combo_v0.01_04141114_1_.zip>`__"
-msgstr ""
-
+msgid "**固件下载：** `(固件号：2128)  <https://docs.ai-thinker.com/_media/m61_combo_v0.01_04141114_1_.zip>`__"
+msgstr "**Firmware Download:** `(Firmware No.: 2128)  <https://docs.ai-thinker.com/_media/m61_combo_v0.01_04141114_1_.zip>`__"

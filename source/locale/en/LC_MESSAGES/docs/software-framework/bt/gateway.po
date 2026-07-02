@@ -6,197 +6,159 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: 安信可科技 \n"
+"Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-07-01 14:28+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: en\n"
 "Language-Team: en <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:2
-#: d723fe2aebc94a8c8eeed26193e251da
+#: ../../source/docs/software-framework/bt/gateway.rst:2 d723fe2aebc94a8c8eeed26193e251da
 msgid "蓝牙网关"
-msgstr ""
+msgstr "Bluetooth Gateway"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:17
-#: a2a0faa461a94ef38c6d2dac220e54a6
+#: ../../source/docs/software-framework/bt/gateway.rst:17 a2a0faa461a94ef38c6d2dac220e54a6
 msgid "这个32-G网关能否进行二次开发"
-msgstr ""
+msgstr "Can this 32-G gateway be secondarily developed?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:19
-#: ../../source/docs/software-framework/bt/gateway.rst:60
-#: 9abefde4b9d4452a995407e2b62a8f16 f019d54a10014eebb324efd56d8303fe
+#: ../../source/docs/software-framework/bt/gateway.rst:19 ../../source/docs/software-framework/bt/gateway.rst:60 9abefde4b9d4452a995407e2b62a8f16 f019d54a10014eebb324efd56d8303fe
 msgid "不支持"
-msgstr ""
+msgstr "No, it does not."
 
-#: ../../source/docs/software-framework/bt/gateway.rst:22
-#: 4b81d697315f41f899412a7a8bb2b6f8
+#: ../../source/docs/software-framework/bt/gateway.rst:22 4b81d697315f41f899412a7a8bb2b6f8
 msgid "蓝牙网关和蓝牙模组之间是通过什么方式通信的，ble连接还是ble mesh交互"
-msgstr ""
+msgstr "How do the Bluetooth gateway and Bluetooth module communicate? Through a BLE connection or BLE Mesh interaction?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:23
-#: 53c269df9ea04994a983d2aed7ea0c16
+#: ../../source/docs/software-framework/bt/gateway.rst:23 53c269df9ea04994a983d2aed7ea0c16
 msgid "BLE MESH"
-msgstr ""
+msgstr "BLE Mesh."
 
-#: ../../source/docs/software-framework/bt/gateway.rst:26
-#: babe4311ced240f2a5f04f4921a3296b
+#: ../../source/docs/software-framework/bt/gateway.rst:26 babe4311ced240f2a5f04f4921a3296b
 msgid "这款32-G产品，里面是esp32的芯片吗"
-msgstr ""
+msgstr "Is this 32-G product equipped with an ESP32 chip?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:27
-#: d591f9d7c75242df909a57c123f3fb7a
+#: ../../source/docs/software-framework/bt/gateway.rst:27 d591f9d7c75242df909a57c123f3fb7a
 msgid "ESP32D0WDQ5"
-msgstr ""
+msgstr "ESP32D0WDQ5."
 
-#: ../../source/docs/software-framework/bt/gateway.rst:31
-#: 404db57a9c7649e8ad1fc7e50ac9d3e9
+#: ../../source/docs/software-framework/bt/gateway.rst:31 404db57a9c7649e8ad1fc7e50ac9d3e9
 msgid "蓝牙网关能连接多少个蓝牙终端呢"
-msgstr ""
+msgstr "How many Bluetooth terminals can the Bluetooth gateway connect to?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:32
-#: db2dff734ef34e1981fb82501a0e53c7
+#: ../../source/docs/software-framework/bt/gateway.rst:32 db2dff734ef34e1981fb82501a0e53c7
 msgid "400个"
-msgstr ""
+msgstr "400."
 
-#: ../../source/docs/software-framework/bt/gateway.rst:35
-#: 864547b5152b48a7a559cebb1804bd3a
+#: ../../source/docs/software-framework/bt/gateway.rst:35 864547b5152b48a7a559cebb1804bd3a
 msgid "这个32-G网关里面就一个esp32吗"
-msgstr ""
+msgstr "Is there only one ESP32 inside this 32-G gateway?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:36
-#: 7d577aef02e04e1187580ef50b9ba2e4
+#: ../../source/docs/software-framework/bt/gateway.rst:36 7d577aef02e04e1187580ef50b9ba2e4
 msgid "ESP32+网口"
-msgstr ""
+msgstr "ESP32 + Ethernet port."
 
-#: ../../source/docs/software-framework/bt/gateway.rst:39
-#: f9166e3c44fd46c0a4985ea43be0dbda
+#: ../../source/docs/software-framework/bt/gateway.rst:39 f9166e3c44fd46c0a4985ea43be0dbda
 msgid "这个32-G里面是由什么组成"
-msgstr ""
+msgstr "What is the 32-G composed of?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:40
-#: a7eee04ec5a34ddc9bc570ce4abc6d8e
+#: ../../source/docs/software-framework/bt/gateway.rst:40 a7eee04ec5a34ddc9bc570ce4abc6d8e
 msgid "ESP32模块、网口 、拨码开关、 按键等"
-msgstr ""
+msgstr "ESP32 module, Ethernet port, DIP switch, buttons, etc."
 
-#: ../../source/docs/software-framework/bt/gateway.rst:43
-#: 619c8d9e3fac41e592356b0a86dae2d7
+#: ../../source/docs/software-framework/bt/gateway.rst:43 619c8d9e3fac41e592356b0a86dae2d7
 msgid "32-G以太网用不了么"
-msgstr ""
+msgstr "Can the 32-G Ethernet be used?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:44
-#: 9387b683e0cc48d8ba02f7064ef311ed
+#: ../../source/docs/software-framework/bt/gateway.rst:44 9387b683e0cc48d8ba02f7064ef311ed
 msgid "可以使用的"
-msgstr ""
+msgstr "Yes, it can be used."
 
-#: ../../source/docs/software-framework/bt/gateway.rst:47
-#: e18d6fc2c39f4723bbeb8bceead7572f
+#: ../../source/docs/software-framework/bt/gateway.rst:47 e18d6fc2c39f4723bbeb8bceead7572f
 msgid "32-G蓝牙网关和蓝牙模块可以多远距离通讯"
-msgstr ""
+msgstr "What is the communication distance between the 32-G Bluetooth gateway and Bluetooth modules?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:48
-#: b70f46efa6284c3893c649ee2607609b
+#: ../../source/docs/software-framework/bt/gateway.rst:48 b70f46efa6284c3893c649ee2607609b
 msgid "100米"
-msgstr ""
+msgstr "100m."
 
-#: ../../source/docs/software-framework/bt/gateway.rst:51
-#: ee5d90948fff4eaaa2d0ce153518e695
+#: ../../source/docs/software-framework/bt/gateway.rst:51 ee5d90948fff4eaaa2d0ce153518e695
 msgid "32-G支持 蓝牙mesh吗"
-msgstr ""
+msgstr "Does 32-G support Bluetooth Mesh?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:52
-#: 9e3979b7ffe64cb0aabe6348bac5097a
+#: ../../source/docs/software-framework/bt/gateway.rst:52 9e3979b7ffe64cb0aabe6348bac5097a
 msgid "支持的"
-msgstr ""
+msgstr "Yes, it does."
 
-#: ../../source/docs/software-framework/bt/gateway.rst:55
-#: 51cac0b25d624bfa8837b2afa80b8e4f
+#: ../../source/docs/software-framework/bt/gateway.rst:55 51cac0b25d624bfa8837b2afa80b8e4f
 msgid "32-G可以连接多少个蓝牙设备"
-msgstr ""
+msgstr "How many Bluetooth devices can 32-G connect to?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:56
-#: 5bb6f360223e4d67a0e8317141593d2d
+#: ../../source/docs/software-framework/bt/gateway.rst:56 5bb6f360223e4d67a0e8317141593d2d
 msgid "500个"
-msgstr ""
+msgstr "500."
 
-#: ../../source/docs/software-framework/bt/gateway.rst:59
-#: 3cef6be6de7a42219e65f61a2c1f4c47
+#: ../../source/docs/software-framework/bt/gateway.rst:59 3cef6be6de7a42219e65f61a2c1f4c47
 msgid "32-G蓝牙网关支持Arduino吗"
-msgstr ""
+msgstr "Does the 32-G Bluetooth gateway support Arduino?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:63
-#: 69429769251d4ea0814f6f5ae0e9a865
+#: ../../source/docs/software-framework/bt/gateway.rst:63 69429769251d4ea0814f6f5ae0e9a865
 msgid "32-G可以接涂鸦sig mesh蓝牙模块吗？"
-msgstr ""
+msgstr "Can 32-G connect to Tuya SIG Mesh Bluetooth modules?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:64
-#: 375cf96dc041453f93e3fa6e5d1b3eca
+#: ../../source/docs/software-framework/bt/gateway.rst:64 375cf96dc041453f93e3fa6e5d1b3eca
 msgid "不行"
-msgstr ""
+msgstr "No, it cannot."
 
-#: ../../source/docs/software-framework/bt/gateway.rst:67
-#: 57ca73bbee664836be38352bb774bc35
+#: ../../source/docs/software-framework/bt/gateway.rst:67 57ca73bbee664836be38352bb774bc35
 msgid "32-G可以蓝牙跟蓝牙设备通讯，并通过wifi把数据透传上网络上去吗？"
-msgstr ""
+msgstr "Can 32-G communicate with Bluetooth devices via Bluetooth and transparently transmit data to the network via Wi-Fi?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:68
-#: d6ff4c02185a43728edc96a289c20e99
+#: ../../source/docs/software-framework/bt/gateway.rst:68 d6ff4c02185a43728edc96a289c20e99
 msgid "WIFI就是直接上网"
-msgstr ""
+msgstr "Wi-Fi is used to connect directly to the Internet."
 
-#: ../../source/docs/software-framework/bt/gateway.rst:71
-#: d2b72309b604415cad7c7725057b6c5a
+#: ../../source/docs/software-framework/bt/gateway.rst:71 d2b72309b604415cad7c7725057b6c5a
 msgid "32-G可以配套贵司的哪些蓝牙模块吗？"
-msgstr ""
+msgstr "Which Bluetooth modules from your company can be used with 32-G?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:72
-#: a05fd023dab949599357e64290ff9461
+#: ../../source/docs/software-framework/bt/gateway.rst:72 a05fd023dab949599357e64290ff9461
 msgid "TB和PB系列都可以"
-msgstr ""
+msgstr "Both TB and PB series can be used."
 
-#: ../../source/docs/software-framework/bt/gateway.rst:76
-#: 6344753aa2e94fc58bb71902cfb63aac
+#: ../../source/docs/software-framework/bt/gateway.rst:76 6344753aa2e94fc58bb71902cfb63aac
 msgid "ESP32-G网关与蓝牙模组走的是什么通信协议"
-msgstr ""
+msgstr "What communication protocol is used between the ESP32-G gateway and Bluetooth modules?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:77
-#: 2a8114c0b6af4e6cbeeed4eff107ba0d
+#: ../../source/docs/software-framework/bt/gateway.rst:77 2a8114c0b6af4e6cbeeed4eff107ba0d
 msgid "走的是SIG MESH蓝牙通信协议"
-msgstr ""
+msgstr "It uses the SIG Mesh Bluetooth communication protocol."
 
-#: ../../source/docs/software-framework/bt/gateway.rst:80
-#: 3e7446c8dc794e2a9433dbdaa1c07fcf
+#: ../../source/docs/software-framework/bt/gateway.rst:80 3e7446c8dc794e2a9433dbdaa1c07fcf
 msgid "ESP32-G网关能监测多个手环信息吗"
-msgstr ""
+msgstr "Can the ESP32-G gateway monitor information from multiple wristbands?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:81
-#: 1e4c6ec8ebe34a609c8fa919ce818d68
+#: ../../source/docs/software-framework/bt/gateway.rst:81 1e4c6ec8ebe34a609c8fa919ce818d68
 msgid "网关暂不支持该功能，如需实现，需要做二次开发"
-msgstr ""
+msgstr "The gateway does not currently support this function. If implementation is required, secondary development is needed."
 
-#: ../../source/docs/software-framework/bt/gateway.rst:84
-#: f8ddf768654d475992d4b4e303bc8c3c
+#: ../../source/docs/software-framework/bt/gateway.rst:84 f8ddf768654d475992d4b4e303bc8c3c
 msgid "ESP32-G网关可以接入所有蓝牙设备和WIFI设备吗"
-msgstr ""
+msgstr "Can the ESP32-G gateway connect to all Bluetooth devices and Wi-Fi devices?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:85
-#: 2e110757934d4ea8a4dddab68657f04e
+#: ../../source/docs/software-framework/bt/gateway.rst:85 2e110757934d4ea8a4dddab68657f04e
 msgid "可以接入所有WIFI设备，但仅支持接入符合MESH协议的蓝牙设备"
-msgstr ""
+msgstr "It can connect to all Wi-Fi devices, but for Bluetooth devices, it only supports devices that comply with the Mesh protocol."
 
-#: ../../source/docs/software-framework/bt/gateway.rst:88
-#: 293af1938ae04923b83d0e40d0395d51
+#: ../../source/docs/software-framework/bt/gateway.rst:88 293af1938ae04923b83d0e40d0395d51
 msgid "ESP32-G网关含磁性吗"
-msgstr ""
+msgstr "Does the ESP32-G gateway contain magnetic components?"
 
-#: ../../source/docs/software-framework/bt/gateway.rst:89
-#: 828aba4f6b9742aeb00238a00deed8f8
+#: ../../source/docs/software-framework/bt/gateway.rst:89 828aba4f6b9742aeb00238a00deed8f8
 msgid "该产品不含磁性"
-msgstr ""
-
+msgstr "This product does not contain magnetic components."
