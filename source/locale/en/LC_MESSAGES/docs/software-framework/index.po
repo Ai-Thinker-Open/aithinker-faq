@@ -8,73 +8,83 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/index.rst:4 88aff78869ee47c8a92d585cd6ffc3e4
+#: ../source/docs/software-framework/index.rst:4
+#: 7c80b925d19942babc9a1106c61170b2
 msgid "软件使用"
 msgstr "Software Usage"
 
-#: ../../source/docs/software-framework/index.rst:5 d3ff8e3df29646108c66389ad7ea748c
+#: ../source/docs/software-framework/index.rst:5
+#: abba98499344499885a1e76ce35e6c4f
 msgid "这里汇集了我司模组使用开发的常见问题"
-msgstr "This section gathers frequently asked questions about the use and development of our modules."
+msgstr ""
+"This section gathers frequently asked questions about the use and "
+"development of our modules."
 
-#: ../../source/docs/software-framework/index.rst:8 a29440e221564954b0ad7a99f60a9c85
+#: ../source/docs/software-framework/index.rst:8
+#: cec618e39bba4ee18f6aa41d44a89fea
 msgid "WiFi系列"
 msgstr "Wi-Fi Series"
 
-#: ../../source/docs/software-framework/index.rst:16 0d3b6e698d664fe7aae3e92ae0d4c837
+#: ../source/docs/software-framework/index.rst:16
+#: d229550764014194b45cf7cb15cbe372
 msgid "蓝牙系列"
 msgstr "Bluetooth Series"
 
-#: ../../source/docs/software-framework/index.rst:26 9b42927cd77e4e73857f5399f70023a6
+#: ../source/docs/software-framework/index.rst:26
+#: 52df6c8508da44b8a0414d2afd60f966
 msgid "2.4G系列"
 msgstr "2.4G Series"
 
-#: ../../source/docs/software-framework/index.rst:36 0b304ad7afc14a4588a15032386a6371
+#: ../source/docs/software-framework/index.rst:36
+#: 75985f5eb21b4069bee546feb0621a28
 msgid "GPRS系列"
 msgstr "GPRS Series"
 
-#: ../../source/docs/software-framework/index.rst:46 ba9961474b7d4fc49ffc8ef241b07bcd
+#: ../source/docs/software-framework/index.rst:46
+#: d913193cc4d9466f96f1dbfbccf86109
 msgid "GPS系列"
 msgstr "GPS Series"
 
-#: ../../source/docs/software-framework/index.rst:56 2d3117d6155b494d988cf94774f7c97e
+#: ../source/docs/software-framework/index.rst:56
+#: ff894ccef04f40baaabc23242c029744
 msgid "UWB系列"
 msgstr "UWB Series"
 
-#: ../../source/docs/software-framework/index.rst:66 fa0e135d12834ad696e29bb05504da51
+#: ../source/docs/software-framework/index.rst:66
+#: 9ece82dc3cc64cc0a7d33708e73dfed4
 msgid "LoRa/LoRaWan系列"
 msgstr "LoRa/LoRaWAN Series"
 
-#: ../../source/docs/software-framework/index.rst:75 45e6983e9baf4c2da649c2c9f6db4797
-msgid "4G Cat.1系列"
-msgstr "4G Cat.1 Series"
-
-#: ../../source/docs/software-framework/index.rst:86 f9e537801b024d1b918db3ca5aaa7b86
+#: ../source/docs/software-framework/index.rst:76
+#: 91f3495bfa00489d869bf3b9c30196ac
 msgid "离线语音系列"
 msgstr "Offline Voice Series"
 
-#: ../../source/docs/software-framework/index.rst:97 c2c459d6eca64da3bbfab5127e67b243
-msgid "NB系列"
-msgstr "NB Series"
-
-#: ../../source/docs/software-framework/index.rst:106 1830f876af6a4bdbbc86753dae18152a
+#: ../source/docs/software-framework/index.rst:87
+#: d563cb3a62f54c0fbf86cc11b2932488
 msgid "雷达模组系列"
 msgstr "Radar Module Series"
 
-#: ../../source/docs/software-framework/index.rst:115 ff81cb63a3514522815035d39b1e9c67
+#: ../source/docs/software-framework/index.rst:96
+#: 6df1dc1223394f4baf49436f8f8a1ee5
 msgid "开源硬件-小安派系列"
 msgstr "Open-source Hardware - AiPi Series"
 
-#: ../../source/docs/software-framework/index.rst:123 b43cc9a488f942b2a987e4e967bc5478
+#: ../source/docs/software-framework/index.rst:104
+#: 4a603a5355714a3ebaa143b1aa106438
 msgid "其它"
 msgstr "Others"
+
+#~ msgid "NB系列"
+#~ msgstr "NB Series"

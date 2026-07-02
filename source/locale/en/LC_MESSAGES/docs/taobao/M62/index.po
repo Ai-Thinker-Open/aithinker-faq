@@ -8,61 +8,65 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/taobao/M62/index.rst:2 016cffa3726a4de8a9e9c59d7afbf667
+#: ../source/docs/taobao/M62/index.rst:2 62396e36fb104b22af1007df395b4ad1
 msgid "Ai-M62系列"
 msgstr "Ai-M62 Series"
 
-#: ../../source/docs/taobao/M62/index.rst:6 3ac01af91b9a44999facc739ed577a24
+#: ../source/docs/taobao/M62/index.rst:6 c3ed3846748f4951a3c5f62efd6e4b8f
 msgid "1.1 Ai-M62系列出厂AT固件"
 msgstr "1.1 Ai-M62 Series Factory AT Firmware"
 
-#: ../../source/docs/taobao/M62/index.rst:8 2804f213cf3b42608ed61c68d9945a9b
+#: ../source/docs/taobao/M62/index.rst:8 d504b0d4779a482880fb8201e9ade782
 msgid "**说明：**"
 msgstr "**Description:**"
 
-#: ../../source/docs/taobao/M62/index.rst:10 6b2fa6c5202c419c9689a8904e3332c2
+#: ../source/docs/taobao/M62/index.rst:10 ce95790cecb64a63a3173f5a7beabc4e
 msgid "固件版本号：(V0.0.1)"
 msgstr "Firmware version: (V0.0.1)"
 
-#: ../../source/docs/taobao/M62/index.rst:11 fd7bd04d370346388136049d078c09d4
+#: ../source/docs/taobao/M62/index.rst:11 998bf23949414e6f9e280fbcf04020e5
 msgid "启动方式：自定义"
 msgstr "Boot mode: Custom"
 
-#: ../../source/docs/taobao/M62/index.rst:12 dda86759406347de8e8de1c19f013d94
+#: ../source/docs/taobao/M62/index.rst:12 18d0df3bef8948b4b36bd90eec250aef
 msgid "固件大小：1038KB"
 msgstr "Firmware size: 1038KB"
 
-#: ../../source/docs/taobao/M62/index.rst:13 96be50a529f84a668137b41da55bfce7
+#: ../source/docs/taobao/M62/index.rst:13 26a72265783c4958bee9719aefe3a4cd
 msgid "日志串口|波特率：UART1(IO26、28) | 115200"
 msgstr "Log serial port | Baud rate: UART1(IO26, 28) | 115200"
 
-#: ../../source/docs/taobao/M62/index.rst:14 d0c441a2564d4601ba253ba5b257ca90
+#: ../source/docs/taobao/M62/index.rst:14 fad4537c03b64cc6a8c9df7b319917ba
 msgid "命令串口|波特率：UART0(IO21、IO22) | 115200"
 msgstr "Command serial port | Baud rate: UART0(IO21, IO22) | 115200"
 
-#: ../../source/docs/taobao/M62/index.rst:15 f9496c1a383240c59f9543ca81c99e61
+#: ../source/docs/taobao/M62/index.rst:15 b35d6fec9b6348559f1496dc41daa4db
 msgid "支持升级：否"
 msgstr "Upgrade supported: No"
 
-#: ../../source/docs/taobao/M62/index.rst:16 d13e4b286f444594a7594e29e679b2c5
+#: ../source/docs/taobao/M62/index.rst:16 87d33400718e41f59ec4093e71a93587
 msgid "MD5校验码：7430a8c1cb817a57cd5a84905ae22756"
 msgstr "MD5 checksum: 7430a8c1cb817a57cd5a84905ae22756"
 
-#: ../../source/docs/taobao/M62/index.rst:19 1c15d46cf97249eb9c63bfcbd1ec1d4e
+#: ../source/docs/taobao/M62/index.rst:19 4789d21fb835457393452d71a851fb59
 msgid "**启动信息**"
 msgstr "**Boot Information**"
 
-#: ../../source/docs/taobao/M62/index.rst:36 0f8a74ee31174a5ab127ea718bffc2f9
-msgid "**固件下载：** `(固件号：2127)  <https://docs.ai-thinker.com/_media/m62_combo_v0.01_01141118_1_.zip>`__"
-msgstr "**Firmware Download:** `(Firmware No.: 2127)  <https://docs.ai-thinker.com/_media/m62_combo_v0.01_01141118_1_.zip>`__"
+#: ../source/docs/taobao/M62/index.rst:36 c3351a31f605465f8bbebc52bd67ebaa
+msgid ""
+"**固件下载：** `(固件号：2127)  <https://docs.ai-thinker.com/_media/"
+"m62_combo_v0.01_01141118_1_.zip>`__"
+msgstr ""
+"**Firmware Download:** `(Firmware No.: 2127)  <https://docs.ai-thinker.com/"
+"_media/m62_combo_v0.01_01141118_1_.zip>`__"

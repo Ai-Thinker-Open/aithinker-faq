@@ -8,157 +8,256 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/development-environment/BT/tb.rst:2 4413db12046440abb88a3765078b6648
+#: ../source/docs/development-environment/BT/tb.rst:2
+#: f836c1366a3e4231824c7fe76c465437
 msgid "泰凌微TB系列"
 msgstr "Telink TB Series"
 
-#: ../../source/docs/development-environment/BT/tb.rst:6 4225b906acba4daaae6a02abc281cf85
+#: ../source/docs/development-environment/BT/tb.rst:6
+#: e9f492a2a623413d86eeb50cb3b1465c
 msgid "1. 简介"
 msgstr "1. Introduction"
 
-#: ../../source/docs/development-environment/BT/tb.rst:7 d73a958c64254639a28256e2feef94d0
-msgid "安信可科技针对物联网设计通用型的蓝牙模组，其功能强大、用途广泛。可以用于智能灯、智能插座、智能空调等其他智能家电。同时符合BLE 5.0及SIG Mesh规范，可直接通过智能手机组建Mesh网络，也可对接天猫精灵智能音箱，适用于多种智能家居应用场景。"
-msgstr "Ai-Thinker Technology has designed a general-purpose Bluetooth module for IoT applications. It is powerful and widely applicable, and can be used in smart lights, smart sockets, smart air conditioners, and other smart home appliances. It also complies with BLE 5.0 and SIG Mesh specifications. A Mesh network can be created directly via a smartphone, and it can also be connected to Tmall Genie smart speakers, making it suitable for various smart home application scenarios."
+#: ../source/docs/development-environment/BT/tb.rst:7
+#: 2cfda2e8bf9243e89f52dd6ab36dbc1b
+msgid ""
+"安信可科技针对物联网设计通用型的蓝牙模组，其功能强大、用途广泛。可以用于智能"
+"灯、智能插座、智能空调等其他智能家电。同时符合BLE 5.0及SIG Mesh规范，可直接通"
+"过智能手机组建Mesh网络，也可对接天猫精灵智能音箱，适用于多种智能家居应用场"
+"景。"
+msgstr ""
+"Ai-Thinker Technology has designed a general-purpose Bluetooth module for "
+"IoT applications. It is powerful and widely applicable, and can be used in "
+"smart lights, smart sockets, smart air conditioners, and other smart home "
+"appliances. It also complies with BLE 5.0 and SIG Mesh specifications. A "
+"Mesh network can be created directly via a smartphone, and it can also be "
+"connected to Tmall Genie smart speakers, making it suitable for various "
+"smart home application scenarios."
 
-#: ../../source/docs/development-environment/BT/tb.rst:9 b7a9434a33fa445abe976613dceda62a
-msgid "更多资料请转跳： `安信可官方docs <https://docs.ai-thinker.com/blue_tooth>`__"
-msgstr "For more information, please visit: `Ai-Thinker official docs <https://docs.ai-thinker.com/blue_tooth>`__"
+#: ../source/docs/development-environment/BT/tb.rst:9
+#: 0b15fdedcea44d92b77192da66f30ad7
+msgid ""
+"更多资料请转跳： `安信可官方docs <https://docs.ai-thinker.com/blue_tooth>`__"
+msgstr ""
+"For more information, please visit: `Ai-Thinker official docs <https://docs."
+"ai-thinker.com/blue_tooth>`__"
 
-#: ../../source/docs/development-environment/BT/tb.rst:12 2ecd081c80fc44b59669ba0fbbc4cf5f
+#: ../source/docs/development-environment/BT/tb.rst:12
+#: deb640370719475eac6a870e7f334f90
 msgid "2. 开发环境搭建"
 msgstr "2. Setting Up the Development Environment"
 
-#: ../../source/docs/development-environment/BT/tb.rst:15 f6b5474cedf1486fa1d26b67f306dd48
+#: ../source/docs/development-environment/BT/tb.rst:15
+#: 385896dac70b4db286bded7b06a22431
 msgid "2.1 安装软件和依赖"
 msgstr "2.1 Installing Software and Dependencies"
 
-#: ../../source/docs/development-environment/BT/tb.rst:16 34e957c39ecd48ca820370513b051771
+#: ../source/docs/development-environment/BT/tb.rst:16
+#: 07ac62ac29a94e62a260591053f045ce
 msgid "**推荐环境：**"
 msgstr "**Recommended environment:**"
 
-#: ../../source/docs/development-environment/BT/tb.rst:18 0aafeef7db234759adf47ae51a662078
+#: ../source/docs/development-environment/BT/tb.rst:18
+#: 91f9bde077c4453ea890c3fd6fa963c2
 msgid "GCC：gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)"
 msgstr "GCC: gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)"
 
-#: ../../source/docs/development-environment/BT/tb.rst:19 2f1c4da66ed34c5a969307bd178df0bf
+#: ../source/docs/development-environment/BT/tb.rst:19
+#: 095efcd9b4584bdd977e4d8a490a5599
 msgid "Python：3.6"
 msgstr "Python: 3.6"
 
-#: ../../source/docs/development-environment/BT/tb.rst:20 e1b6a43cbf484a3ebb3037f1430853b9
-msgid "内核：Linux ubuntu 5.3.0-28-generic #30~18.04.1-Ubuntu  x86_64 GNU/Linux"
-msgstr "Kernel: Linux ubuntu 5.3.0-28-generic #30~18.04.1-Ubuntu x86_64 GNU/Linux"
+#: ../source/docs/development-environment/BT/tb.rst:20
+#: 49b0ff36f2104129981ab9918a0eaef4
+msgid ""
+"内核：Linux ubuntu 5.3.0-28-generic #30~18.04.1-Ubuntu  x86_64 GNU/Linux"
+msgstr ""
+"Kernel: Linux ubuntu 5.3.0-28-generic #30~18.04.1-Ubuntu x86_64 GNU/Linux"
 
-#: ../../source/docs/development-environment/BT/tb.rst:22 f09aeeb6433845488d4aea1aa25c6138
-msgid "为了更好大家玩玩，这里给大家小白入门安装 Linux 系统； 下载 VM 虚拟机 版本15.5.1， `点我下载 <https://www.vmware.com/go/getworkstation-win>`__ ::"
-msgstr "To make it easier for beginners to get started, this section introduces how to install a Linux system. Download VMware Workstation version 15.5.1: `Download here <https://www.vmware.com/go/getworkstation-win>`__ ::"
+#: ../source/docs/development-environment/BT/tb.rst:22
+#: e1159e4ad5d9483a889989e4cdd798f0
+msgid ""
+"为了更好大家玩玩，这里给大家小白入门安装 Linux 系统； 下载 VM 虚拟机 版本"
+"15.5.1， `点我下载 <https://www.vmware.com/go/getworkstation-win>`__ ::"
+msgstr ""
+"To make it easier for beginners to get started, this section introduces how "
+"to install a Linux system. Download VMware Workstation version 15.5.1: "
+"`Download here <https://www.vmware.com/go/getworkstation-win>`__ ::"
 
-#: ../../source/docs/development-environment/BT/tb.rst:27 6413c2214aa04ea28b3bae34b3684a62
+#: ../source/docs/development-environment/BT/tb.rst:27
+#: 96d09e79a23b45eea95f8e8ddb39e8dd
 msgid "和谐码： **FC7D0-D1YDL-M8DXZ-CYPZE-P2AY6**"
 msgstr "License key: **FC7D0-D1YDL-M8DXZ-CYPZE-P2AY6**"
 
-#: ../../source/docs/development-environment/BT/tb.rst:29 240ba79ffa604234b6e1d1ba115ee946
-msgid "下载镜像，这里选择ubuntu桌面版18.04.4版本， `点我下载 <http://mirrors.aliyun.com/ubuntu-releases/18.04.4/ubuntu-18.04.4-desktop-amd64.iso>`__ ::"
-msgstr "Download the system image. Here, Ubuntu Desktop 18.04.4 is selected: `Download here <http://mirrors.aliyun.com/ubuntu-releases/18.04.4/ubuntu-18.04.4-desktop-amd64.iso>`__ ::"
+#: ../source/docs/development-environment/BT/tb.rst:29
+#: 292a71c6634d4df4ba15cf8eecb897da
+msgid ""
+"下载镜像，这里选择ubuntu桌面版18.04.4版本， `点我下载 <http://mirrors.aliyun."
+"com/ubuntu-releases/18.04.4/ubuntu-18.04.4-desktop-amd64.iso>`__ ::"
+msgstr ""
+"Download the system image. Here, Ubuntu Desktop 18.04.4 is selected: "
+"`Download here <http://mirrors.aliyun.com/ubuntu-releases/18.04.4/"
+"ubuntu-18.04.4-desktop-amd64.iso>`__ ::"
 
-#: ../../source/docs/development-environment/BT/tb.rst:33 36ebe996cf494336a11a49af39ecdd26
-msgid "重要的一步，VM安装乌邦图步骤请参考如下教程， `点我访问 <https://jingyan.baidu.com/article/f96699bb147a73894e3c1b2e.html>`__ 导进之之后，我们还需要安装几个常用的软件 ： ::"
-msgstr "An important step: for instructions on installing Ubuntu in VMware, please refer to the following tutorial: `Visit here <https://jingyan.baidu.com/article/f96699bb147a73894e3c1b2e.html>`__ After importing the image, you also need to install several commonly used software packages: ::"
+#: ../source/docs/development-environment/BT/tb.rst:33
+#: 9a6cb84996da497a8f246fef51437ccf
+msgid ""
+"重要的一步，VM安装乌邦图步骤请参考如下教程， `点我访问 <https://jingyan."
+"baidu.com/article/f96699bb147a73894e3c1b2e.html>`__ 导进之之后，我们还需要安"
+"装几个常用的软件 ： ::"
+msgstr ""
+"An important step: for instructions on installing Ubuntu in VMware, please "
+"refer to the following tutorial: `Visit here <https://jingyan.baidu.com/"
+"article/f96699bb147a73894e3c1b2e.html>`__ After importing the image, you "
+"also need to install several commonly used software packages: ::"
 
-#: ../../source/docs/development-environment/BT/tb.rst:40 e68f1ff1601e4d0eabae3639bc6a0064
+#: ../source/docs/development-environment/BT/tb.rst:40
+#: 26ba0050a0a14f50a595aa50356d5854
 msgid "还有一个Python3.6要安装哈！ ::"
 msgstr "Python 3.6 also needs to be installed: ::"
 
-#: ../../source/docs/development-environment/BT/tb.rst:53 4bdb52599ae948c6981faf5b5fae27ff
+#: ../source/docs/development-environment/BT/tb.rst:53
+#: 7e39b1e074d146848cdc499d7834afc4
 msgid "2.2 安装环境"
 msgstr "2.2 Installing the Toolchain"
 
-#: ../../source/docs/development-environment/BT/tb.rst:55 2b15c84a11674aaa9a370d0683f59f13
+#: ../source/docs/development-environment/BT/tb.rst:55
+#: ef8a388f04d04a30af6e27b6f3919a58
 msgid "下载链接获取工具链： ::"
 msgstr "Download the toolchain using the following link: ::"
 
-#: ../../source/docs/development-environment/BT/tb.rst:58 4fd043601bd346a087d1f31c5271fb7f
+#: ../source/docs/development-environment/BT/tb.rst:58
+#: 1bd7c6171d444c93932889ef5aeb47c0
 msgid "解压到 opt文件夹里面，之后得到的文件夹名字是《tc32》: ::"
-msgstr "Extract it to the opt directory. The extracted folder will be named tc32; ::"
+msgstr ""
+"Extract it to the opt directory. The extracted folder will be named tc32; ::"
 
-#: ../../source/docs/development-environment/BT/tb.rst:61 0618c7a9f74c4d6a88fb9e9e8ea57604
+#: ../source/docs/development-environment/BT/tb.rst:61
+#: adfd98923cdf40a1a8f8596cbc22dc0f
 msgid "设置环境变量， **不懂linux小白的同学，认真看下面的动图哈** ："
-msgstr "Set the environment variable. **If you are not familiar with Linux, please carefully watch the animated image below** :"
+msgstr ""
+"Set the environment variable. **If you are not familiar with Linux, please "
+"carefully watch the animated image below** :"
 
-#: ../../source/docs/development-environment/BT/tb.rst:63 dc652ef5b05b467fad54c2fef79f4f79
+#: ../source/docs/development-environment/BT/tb.rst:63
+#: 7f526a38470947a493a9878c42589917
 msgid "之后按下 i 表示嵌入代码： `vim ~/.bashrc`"
 msgstr "Press \"i\"  to enter insert mode: `vim ~/.bashrc`"
 
-#: ../../source/docs/development-environment/BT/tb.rst:64 57ae4844fc3f453288a0dcc2d97e7db4
+#: ../source/docs/development-environment/BT/tb.rst:64
+#: ef2ef94f91af480d8afdd03d724b1df3
 msgid "任意一处添加  表示嵌入代码： `export PATH=$PATH:/opt/tc32/bin`"
-msgstr "Add the following line anywhere in the file: `export PATH=$PATH:/opt/tc32/bin`"
+msgstr ""
+"Add the following line anywhere in the file: `export PATH=$PATH:/opt/tc32/"
+"bin`"
 
-#: ../../source/docs/development-environment/BT/tb.rst:65 6de7a112e2684d57a2c77103a6dff3c8
+#: ../source/docs/development-environment/BT/tb.rst:65
+#: b6621633199145c886a6d1352b564e78
 msgid "按下esc 再 :wq 表示写入保存： `source ~/.bashrc`"
-msgstr "Press \"esc\", then enter \":wq\" to save and exit. Then run: `source ~/.bashrc`"
+msgstr ""
+"Press \"esc\", then enter \":wq\" to save and exit. Then run: `source ~/."
+"bashrc`"
 
-#: ../../source/docs/development-environment/BT/tb.rst:66 76df00418eb54ff4a52450ad498f97d6
+#: ../source/docs/development-environment/BT/tb.rst:66
+#: 248c78bb5ee94e8d9e32adc41afbcee9
 msgid "测试是否设置变量成功： `tc32-elf-gcc -v`"
-msgstr "Test whether the environment variable has been set successfully: `tc32-elf-gcc -v`"
+msgstr ""
+"Test whether the environment variable has been set successfully: `tc32-elf-"
+"gcc -v`"
 
-#: ../../source/docs/development-environment/BT/tb.rst:71 bbe61c84db374a9b986e16cf691ad2af
+#: ../source/docs/development-environment/BT/tb.rst:77
+#: f85fbd4eb8fb4b1987ef243c62b9562e
 msgid "2.3 安装SDK并编译"
 msgstr "2.3 Installing the SDK and Compiling"
 
-#: ../../source/docs/development-environment/BT/tb.rst:73 b1232a56822a4afe955c36fa06007ab8
+#: ../source/docs/development-environment/BT/tb.rst:79
+#: c5514313c3c845c186038ee89712c977
 msgid "以下SDK代码为同步安信可GitHub仓库，并通过git拉取: ::"
-msgstr "The following SDK code is synchronized from the Ai-Thinker GitHub repository and pulled via Git: ::"
+msgstr ""
+"The following SDK code is synchronized from the Ai-Thinker GitHub repository "
+"and pulled via Git: ::"
 
-#: ../../source/docs/development-environment/BT/tb.rst:76 867487a0e910465bbb0d344750014e2e
+#: ../source/docs/development-environment/BT/tb.rst:82
+#: 09589cd266e0445c9a00dbe5d35fb137
 msgid "**注意，务必让文件夹有全部权限，否则编译不通过！** ::"
-msgstr "**Note: make sure the folder has full permissions; otherwise, compilation may fail** ::"
+msgstr ""
+"**Note: make sure the folder has full permissions; otherwise, compilation "
+"may fail** ::"
 
-#: ../../source/docs/development-environment/BT/tb.rst:79 a36e2b0dca2c42bda21adf8a47d2fdf5
+#: ../source/docs/development-environment/BT/tb.rst:85
+#: 08025ea6f03c4f12bdf7d235778a9626
 msgid "下面编译一个点亮LED 的程序： ::"
 msgstr "Next compile a simple LED blinking program: ::"
 
-#: ../../source/docs/development-environment/BT/tb.rst:87 cbde819bc8784f7fb7fd057ab72eb2ed
+#: ../source/docs/development-environment/BT/tb.rst:93
+#: d77800a0201d4abb8672c18fd5b6d166
 msgid "清理残留： **make clean**"
 msgstr "Clean residual files: **make clean**"
 
-#: ../../source/docs/development-environment/BT/tb.rst:88 c59ca18ec7864b7e9a935a8c79e34f22
+#: ../source/docs/development-environment/BT/tb.rst:94
+#: 8516c152fe104d9eb6dcf57d6d0d6935
 msgid "编译固件： **make all**"
 msgstr "Compile firmware: **make all**"
 
-#: ../../source/docs/development-environment/BT/tb.rst:89 e6771d18628f4d0bb6defd44e5e4c9c6
+#: ../source/docs/development-environment/BT/tb.rst:95
+#: e993d4dd6c6641d79a193c3cfce71c00
 msgid "打开串口监控： **make monitor**"
 msgstr "Open serial monitor: **make monitor**"
 
-#: ../../source/docs/development-environment/BT/tb.rst:92 4d0b8f8d2abd4433930e1ac921baa916
+#: ../source/docs/development-environment/BT/tb.rst:98
+#: a8d7220d4f91400eaeece49026fd519a
 msgid "3. 常见问题"
 msgstr "3. Frequently Asked Questions"
 
-#: ../../source/docs/development-environment/BT/tb.rst:95 c131d520a0684fedb319c90915a17f7e
+#: ../source/docs/development-environment/BT/tb.rst:101
+#: 34b90657fe314f5db120c0632861a3d6
 msgid "3.1 如何查看是否开发板已连接到虚拟机Linux了？"
-msgstr "3.1 How to Check Whether the Development Board Is Connected to the Linux Virtual Machine?"
+msgstr ""
+"3.1 How to Check Whether the Development Board Is Connected to the Linux "
+"Virtual Machine?"
 
-#: ../../source/docs/development-environment/BT/tb.rst:97 9a7a0948381e4936ad80b9b0c317aa49
+#: ../source/docs/development-environment/BT/tb.rst:103
+#: 53f19f10bceb43e58d3a581079bb3f5a
 msgid "先通过查看是否依附，再看看是否在列表中？ **2条指令即可！** ::"
-msgstr "First check whether the device is attached, and then check whether it appears in the device list.  **Only two commands are needed.** ::"
+msgstr ""
+"First check whether the device is attached, and then check whether it "
+"appears in the device list.  **Only two commands are needed.** ::"
 
-#: ../../source/docs/development-environment/BT/tb.rst:105 521bc4c1fe7b41e5ada3d61fd5410ae4
+#: ../source/docs/development-environment/BT/tb.rst:111
+#: a1049568910840d0960e13c1064dedf7
 msgid "3.2 权限问题 /dev/ttyUSB0"
 msgstr "3.2 Permission Issue: /dev/ttyUSB0"
 
-#: ../../source/docs/development-environment/BT/tb.rst:106 f811245c65904ebb8193e7e085070049
-msgid "**使用某些 Linux 版本向 TB-02 烧写固件时，可能会出现 Failed to open port /dev/ttyUSB0 错误消息。此时，可以将当前用户增加至 :ref: `Linux Dialout 组 <linux-dialout-group>`。**"
-msgstr "**When flashing firmware to the TB-02 using some Linux versions, the error message \"Failed to open port /dev/ttyUSB0\" may appear. In this case, you can add the current user to the: `Linux Dialout Group <linux-dialout-group>`.**"
+#: ../source/docs/development-environment/BT/tb.rst:112
+#: 4ccf3013a31243bfbc756e4da27bde72
+msgid ""
+"**使用某些 Linux 版本向 TB-02 烧写固件时，可能会出现 Failed to open port /"
+"dev/ttyUSB0 错误消息。此时，可以将当前用户增加至 :ref: `Linux Dialout 组 "
+"<linux-dialout-group>`。**"
+msgstr ""
+"**When flashing firmware to the TB-02 using some Linux versions, the error "
+"message \"Failed to open port /dev/ttyUSB0\" may appear. In this case, you "
+"can add the current user to the: `Linux Dialout Group <linux-dialout-group>`."
+"**"
 
-#: ../../source/docs/development-environment/BT/tb.rst:108 e2534f276fa5468e9bfe33109ea32971
-msgid "因为默认情况下，只有root用户和属于dialout组的用户会有读写权限，因此直接把自己的用户加入到dialout组就可以了。操作完命令后要重启一下，就永久生效了。 ::"
-msgstr "By default, only the root user and users belonging to the dialout group have read and write permissions. Therefore, you can simply add your user account to the dialout group. After running the command, restart the system, and the change will take effect permanently. ::"
+#: ../source/docs/development-environment/BT/tb.rst:114
+#: 667f41a1fe5d4053a9f72f0befe8a0a1
+msgid ""
+"因为默认情况下，只有root用户和属于dialout组的用户会有读写权限，因此直接把自己"
+"的用户加入到dialout组就可以了。操作完命令后要重启一下，就永久生效了。 ::"
+msgstr ""
+"By default, only the root user and users belonging to the dialout group have "
+"read and write permissions. Therefore, you can simply add your user account "
+"to the dialout group. After running the command, restart the system, and the "
+"change will take effect permanently. ::"

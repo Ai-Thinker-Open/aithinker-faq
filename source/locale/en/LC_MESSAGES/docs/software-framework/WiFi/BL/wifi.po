@@ -8,200 +8,287 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:37+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:2 3e33abd63d294272951f38db7d06f9b8
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:2
+#: 203a89e0318e48a89e4e884d5bcf69c1
 msgid "Wi-Fi"
 msgstr "Wi-Fi"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:16 878765a35e174782aa25d148f904fbf5
-msgid "**安信可Ai-WB2系列SDK和API参考链接：** `参考链接 <https://wb2-api-web.readthedocs.io/en/latest/docs/api-guides/index.html>`__"
-msgstr "**Ai-Thinker Ai-WB2 Series SDK and API Reference Link:** `Reference Link <https://wb2-api-web.readthedocs.io/en/latest/docs/api-guides/index.html>`__"
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:16
+#: 31a65ba0b95d4527a948149aff95e609
+msgid ""
+"**安信可Ai-WB2系列SDK和API参考链接：** `参考链接 <https://wb2-api-web."
+"readthedocs.io/en/latest/docs/api-guides/index.html>`__"
+msgstr ""
+"**Ai-Thinker Ai-WB2 Series SDK and API Reference Link:** `Reference Link "
+"<https://wb2-api-web.readthedocs.io/en/latest/docs/api-guides/index.html>`__"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:19 ecdcc1646a5a46d3a5f203554a395739
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:19
+#: 9050f2a9cd8243fe8b97131d85400292
 msgid "目前WB2系列模组支持esptouch v2版本吗"
 msgstr "Does the WB2 series module currently support esptouch v2?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:20 232270549d3a45d4a33e5d2b10de21b9
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:20
+#: eab5b173da6c40b5a69d55d5473de867
 msgid "不支持"
 msgstr "Not supported."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:23 a2290cb94874409aa706c1f30d421e85
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:23
+#: 9f4ec95c402040f790c5d4f682e70916
 msgid "WB2系列模组支持MQTT开发吗"
 msgstr "Does the WB2 series module support MQTT development?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:24 ef48ba603e794e9b839ac6d8c7f2f312
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:24
+#: 57f1e6e0eb074340a8345ec07eb54199
 msgid "支持"
 msgstr "Supported."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:27 3234b532074e4c54bea329d6d27af1e2
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:27
+#: c8d55a4b3a2e4e739ccae53f634a2cb8
 msgid "请问WB2系列模组支持接入中文名称的WIFI么？"
-msgstr "Does the WB2 series module support connecting to Wi-Fi with a Chinese SSID?"
+msgstr ""
+"Does the WB2 series module support connecting to Wi-Fi with a Chinese SSID?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:28 19bd4af80395411db2ac12c432ced00f
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:28
+#: 7dbcf27fbe084f62a5054d3ca88a9200
 msgid "支持UTF-8格式的中文"
 msgstr "It supports Chinese in UTF-8 format."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:31 1dc5115059184d92ae12d4d31621d13c
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:31
+#: 8bf842c1537641b598007d1f2ca665fd
 msgid "请问WB2系列模组内置TCP是么？"
 msgstr "Does the WB2 series module have built-in TCP?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:32 d51ded22bc6c43559692b0cad03df97b
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:32
+#: 904971f4b0114143832639982304908c
 msgid "固件中包含TCP协议栈；"
 msgstr "The firmware includes a TCP protocol stack."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:35 af3bfcb50d4c4aadab7ec34b5b675d66
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:35
+#: a7555e4ceb1841b891f6ec5229b840d2
 msgid "请问ESP-01S模组以及WB2系列模组支持接入onenet平台么？"
-msgstr "Do the ESP-01S module and WB2 series module support connection to the OneNET platform?"
+msgstr ""
+"Do the ESP-01S module and WB2 series module support connection to the OneNET "
+"platform?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:36 b1585fa3ce594184b70be7f4f5a4a6fa
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:36
+#: aef382140ac14a8194173f979ebdc443
 msgid "两款模组均支持；"
 msgstr "Both modules support it."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:39 81d6b4393d694a73aae621ced2b6b0c4
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:39
+#: a3d2ca271eae44818a4c350c7d394900
 msgid "请问WB2系列模组有RJ45接口么？"
 msgstr "Does the WB2 series module have an RJ45 interface?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:40 dabebd8dfa844d9587fe485e1053345b
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:40
+#: 13fdd0b599aa4822a292c54ca5ea488f
 msgid "WB2系列模组没有以太网（RJ45）接口；"
 msgstr "The WB2 series module does not have an Ethernet (RJ45) interface."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:43 4e5f0b04f1d54018b5a76f351fee3fc7
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:43
+#: 319a330b0dfb401e9de2e49b6ef87382
 msgid "上电之后我直接连接wifi，设置的默认密码，但为何都连接失败了"
-msgstr "After power-on, I directly connect to Wi-Fi using the default password I set, but why does the connection always fail?"
+msgstr ""
+"After power-on, I directly connect to Wi-Fi using the default password I "
+"set, but why does the connection always fail?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:44 1b008b842e7f4fcc804cab6aad2cb7ea
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:44
+#: 26509baf43e4452dbdcb2ed06dc92899
 msgid "热点需要手动配置开启"
 msgstr "The hotspot needs to be manually configured and enabled."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:47 787df9eff21f43f48a533d578c37bebc
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:47
+#: 53289d4b12bb41d1a99aa1915d21fbef
 msgid "请问Combo-AT固件中 “AT+MQTTPUBRAW” 指令一次性最多可以发送多长的数据？"
-msgstr "In Combo-AT firmware, what is the maximum data length that can be sent at one time using the \"AT+MQTTPUBRAW\" command?"
+msgstr ""
+"In Combo-AT firmware, what is the maximum data length that can be sent at "
+"one time using the \"AT+MQTTPUBRAW\" command?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:48 ec81e7bac7b74302a7e78c1daacace56
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:48
+#: 322644fade1e4372b0f3f702e9b733e7
 msgid "最多支持发送的数据长度为1024Bytes。"
 msgstr "The maximum supported data length is 1024 Bytes."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:51 dc7c4fe01abf40ff90e06d9c88a10467
-msgid "请问博流1823号固件中 “ AT+MQTTPUBRAW ” 指令一次性最多可以发送多长的数据？"
-msgstr "In Bouffalo Lab firmware No. 1823, what is the maximum data length that can be sent at one time using the \"AT+MQTTPUBRAW\" command?"
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:51
+#: 1c0168489b5a474a89bff6add97f6f7c
+msgid ""
+"请问博流1823号固件中 “ AT+MQTTPUBRAW ” 指令一次性最多可以发送多长的数据？"
+msgstr ""
+"In Bouffalo Lab firmware No. 1823, what is the maximum data length that can "
+"be sent at one time using the \"AT+MQTTPUBRAW\" command?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:52 f5777af1cd1a46c29e2aa2e6a53f8c07
-msgid "可发送的数据长度没有限制，由模组剩余内存大小决定，可通过指令“AT+SYSRAM”实时查询模组剩余内存大小"
-msgstr "There is no fixed limit on the data length that can be sent. It depends on the remaining memory size of the module. You can use the \"AT+SYSRAM\" command to query the remaining memory size of the module in real time."
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:52
+#: 7d5326c9150a42d5ba83022be47a42e6
+msgid ""
+"可发送的数据长度没有限制，由模组剩余内存大小决定，可通过指令“AT+SYSRAM”实时查"
+"询模组剩余内存大小"
+msgstr ""
+"There is no fixed limit on the data length that can be sent. It depends on "
+"the remaining memory size of the module. You can use the \"AT+SYSRAM\" "
+"command to query the remaining memory size of the module in real time."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:55 56df7114d03a4ebd81df372368cb8574
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:55
+#: a6117d14d0db4f19a01564cde9bdfebd
 msgid "请问，Combo-AT固件订阅或者发布的主题长度有限制么，最长多少个字节？"
-msgstr "Is there a limit on the topic length for subscribing or publishing in Combo-AT firmware? What is the maximum length in bytes?"
+msgstr ""
+"Is there a limit on the topic length for subscribing or publishing in Combo-"
+"AT firmware? What is the maximum length in bytes?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:56 be07de0f74af48c5aefb6ba55b06867f
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:56
+#: eec4966eeeeb42839db841694be65887
 msgid "主题最长支持1008个字节；"
 msgstr "The maximum supported topic length is 1008 bytes."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:59 91bddc4019f94b3b89e7eb1b650b6497
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:59
+#: 320d55816fc94e1a8f10630177452c4a
 msgid "请问Ai-WB2系列模组烧录用的是哪种接口，JTAG还是UART？"
-msgstr "Which interface is used to flash the Ai-WB2 series module, JTAG or UART?"
+msgstr ""
+"Which interface is used to flash the Ai-WB2 series module, JTAG or UART?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:60 0769e21b5bdf441b94f2ed3d0b2cb1a6
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:60
+#: 6dec0c0c93d0452b9df40c8c3f8c961c
 msgid "用的是串口烧录的方式；"
 msgstr "It uses serial port flashing."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:63 5bebddaf54784fc89bff56f0e6abcbac
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:63
+#: 8921d40b7a814e3894391dcd34943142
 msgid "请问用于wifi系列模组做TCP透传测试的网页有么？"
-msgstr "Is there a web page for TCP transparent transmission testing for Wi-Fi series modules?"
+msgstr ""
+"Is there a web page for TCP transparent transmission testing for Wi-Fi "
+"series modules?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:64 8a1ecadf96954488b85c091d5d45bccb
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:64
+#: e659aaf7dbf44d3a9cd6bfaf1a7d45c6
 msgid "用这个链接：http://tt.ai-thinker.com:8000/ttcloud"
 msgstr "Use this link: http://tt.ai-thinker.com:8000/ttcloud"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:67 ed2c5e562f2c46aeb2a9b3b065e60981
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:67
+#: b15a64428c6f4b4e83464256b0e60106
 msgid "请问WB2的wifi跟蓝牙功能的使用是否用的同一个串口？"
 msgstr "Do the Wi-Fi and Bluetooth functions of WB2 use the same serial port?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:68 8240a640193842c280b065f364477b1d
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:68
+#: 236438fa04264b4cb983c89771320608
 msgid "是的"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:71 59e15f83acab48a7b0a16b090a4d2e8d
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:71
+#: 2e9137b110e34a5d99a6103fcb442768
 msgid "WB2-32S写的最大连接数5个是什么意思"
 msgstr "What does the maximum connection number of 5 written for WB2-32S mean?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:72 0314cb0714db4345bed03608e2bdf1b2
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:72
+#: fd39644184d84e278b938fd99d19b31a
 msgid "模块当热点使用的时候，可以接入5个设备"
-msgstr "When the module is used as a hotspot, up to 5 devices can connect to it."
+msgstr ""
+"When the module is used as a hotspot, up to 5 devices can connect to it."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:75 a4cd48f7ddbe4984b118a5ee7bdc88a8
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:75
+#: 3d52542d32ca4a1ea2304e5069b69423
 msgid "请问有支ipv6的模组么？"
 msgstr "Are there any modules that support IPv6?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:76 d8411743d04447d39484fc567eb79a3f
-msgid "目前没有出厂固件支持ipv6的模组，WB2系列模组支持ipv6，但是需要用户二次开发实现；"
-msgstr "Currently, no module with factory firmware supports IPv6. The WB2 series module supports IPv6, but users need to implement it through secondary development."
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:76
+#: 9ba2f82bbeaa4bb88b00f122b9aee154
+msgid ""
+"目前没有出厂固件支持ipv6的模组，WB2系列模组支持ipv6，但是需要用户二次开发实"
+"现；"
+msgstr ""
+"Currently, no module with factory firmware supports IPv6. The WB2 series "
+"module supports IPv6, but users need to implement it through secondary "
+"development."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:79 f54f613c4aa14eb19a30f33b6974d395
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:79
+#: e2620ec121f9495692da1d88b5de34fc
 msgid "WB2系列模组支持保持两个连接吗"
 msgstr "Does the WB2 series module support maintaining two connections?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:80 3580533ceb1d464491eca1693c8ae348
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:80
+#: 0a6070526405467f8bba964ecd968f66
 msgid "支持保持两个连接，但不能同时收发数据"
-msgstr "It supports maintaining two connections, but cannot send and receive data simultaneously."
+msgstr ""
+"It supports maintaining two connections, but cannot send and receive data "
+"simultaneously."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:83 4183b5d358ad42788b0a66844d9f5af7
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:83
+#: fdf0aab29bf04e339fb3d825319d8d13
 msgid "请问：WB2系列模组的AP+STA是否可以同时并独立工作？"
-msgstr "Can the AP+STA mode of the WB2 series module work simultaneously and independently?"
+msgstr ""
+"Can the AP+STA mode of the WB2 series module work simultaneously and "
+"independently?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:84 71f856f2ec3141e89ea7671f2fddf69c
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:84
+#: 3a22db4f779642e79b6c11c65de618ef
 msgid "功能独立，时分复用。"
 msgstr "The functions are independent and use time-division multiplexing."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:87 924b29ab9c8d4a9ebd3eaa127102f6c3
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:87
+#: 56128f38f5944711b44159cb785a9a1d
 msgid "WB2-32S模组，如何通过AT指令设置设备在路由器端的显示名称？"
-msgstr "For the WB2-32S module, how can I set the device display name on the router side through AT commands?"
+msgstr ""
+"For the WB2-32S module, how can I set the device display name on the router "
+"side through AT commands?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:88 b0b97a7aea2c4e8287003f8cafd80c24
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:88
+#: 0708ec6e766c498698bb7e1e714b516d
 msgid "可以使用AT+CWHOSTNAME这个指令进行设置"
 msgstr "You can use the AT+CWHOSTNAME command to set it."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:91 c04d663a71fd4d6084cec1e8d020e7f5
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:91
+#: 7eb958c4056f49799448f8463bce61af
 msgid "请问WB2-32S模组的固件有web配网功能么？"
-msgstr "Does the firmware of the WB2-32S module support web-based network configuration?"
+msgstr ""
+"Does the firmware of the WB2-32S module support web-based network "
+"configuration?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:92 21985568fd94463891290655b2cf9986
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:92
+#: 3ee3ad9b2eb04a0cb451279a4f71b806
 msgid "目前没有"
 msgstr "Not currently."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:95 56d6007691784c5e894a1eb719dbb1a6
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:95
+#: e6649434e4e84c3e9f5f0f85bec540a4
 msgid "WB2模组连上路由之后如何访问互联网"
-msgstr "How can the WB2 module access the Internet after connecting to a router?"
+msgstr ""
+"How can the WB2 module access the Internet after connecting to a router?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:96 67b86415853040ddae85c13d019aad5e
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:96
+#: 2785226f6bd4419c92323e264eaa72ec
 msgid "通过TCP MQTT HTTP的方式"
 msgstr "Through TCP, MQTT, or HTTP."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:99 d23dcd7b051b4540b13d1ebb329f0d11
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:99
+#: 16b86df736fb40d1a8314d05b2de17c5
 msgid "请问WB2作为AP实现配网的功能需要如何操作呢？"
-msgstr "How should WB2 be operated to implement network configuration as an AP?"
+msgstr ""
+"How should WB2 be operated to implement network configuration as an AP?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:100 74ea5113fa1942d880f830b84fdb4d44
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:100
+#: 0946d9a21a004ef883c7740a4ddbe610
 msgid "作为AP配网功能需要用户自行设计，建议走TCP协议实现。"
-msgstr "The AP network configuration function needs to be designed by the user. It is recommended to implement it through the TCP protocol."
+msgstr ""
+"The AP network configuration function needs to be designed by the user. It "
+"is recommended to implement it through the TCP protocol."
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:103 1aa3f121ef654df58de93de167cfbf4f
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:103
+#: cb1319fb9dbd4999a38ed59bdd5e3c01
 msgid "请问WB2作为AP可以手动配置加密模式么？"
 msgstr "Can WB2 manually configure the encryption mode when used as an AP?"
 
-#: ../../source/docs/software-framework/WiFi/BL/wifi.rst:104 964ba7f7df5e4d60a643a861c490998d
+#: ../source/docs/software-framework/WiFi/BL/wifi.rst:104
+#: 892e41ab5a414e77b55e9bf7d86ec68b
 msgid "可以的，但是需要烧录支持该功能的固件，若有需求，请联系安信可工作人员"
-msgstr "Yes, but firmware that supports this function needs to be flashed. If needed, please contact Ai-Thinker staff."
-
-#~ msgid ":link_to_translation:`en:[English]`"
-#~ msgstr ""
+msgstr ""
+"Yes, but firmware that supports this function needs to be flashed. If "
+"needed, please contact Ai-Thinker staff."

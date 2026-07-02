@@ -8,621 +8,906 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/bt/bt.rst:2 18231f0e2e0f421086fb521f31aabbab
+#: ../source/docs/software-framework/bt/bt.rst:2
+#: 7680a40d656c45f7b7fd870963cfeb0b
 msgid "蓝牙"
 msgstr "Bluetooth"
 
-#: ../../source/docs/software-framework/bt/bt.rst:17 f72f3c18aa1b442caebd632174641b31
+#: ../source/docs/software-framework/bt/bt.rst:17
+#: ca61c29497ee4418af55eca6e7d5e668
 msgid "PB-02开发工具能用arduino么"
 msgstr "Can the PB-02 development tool use Arduino?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:18 4401ddf0b1434336911e9c93e48072f6
+#: ../source/docs/software-framework/bt/bt.rst:18
+#: fe3c1b61a9f843dcbf24eda689481fd5
 msgid "不能用arduino，它开发是使用keil的"
 msgstr "No. Development is done using Keil."
 
-#: ../../source/docs/software-framework/bt/bt.rst:21 f1f13be422d44fa981b3dc8e52b56b41
+#: ../source/docs/software-framework/bt/bt.rst:21
+#: 8b81cc0bfb2c46568ea9c59249befced
 msgid "PB-02开发板可以在arduino IDE开发吗？"
 msgstr "Can the PB-02 development board be developed in Arduino IDE?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:22 a06960d66bd4438581b39eb9ab62ae75
+#: ../source/docs/software-framework/bt/bt.rst:22
+#: 9fb0501390034e87b64f2cddc68f44de
 msgid "不行哦，这个是使用keil5进行开发的"
 msgstr "No. It is developed using Keil5."
 
-#: ../../source/docs/software-framework/bt/bt.rst:25 58508ee0853a457285ada78e06410197
+#: ../source/docs/software-framework/bt/bt.rst:25
+#: 8ca750d659044045bc2691fc8d3074fd
 msgid "PB-02模块usb供电吗"
 msgstr "Can the PB-02 module be powered via USB?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:26 6e102bf7641c4e8b8449857a88bc4fac
+#: ../source/docs/software-framework/bt/bt.rst:26
+#: f0e47daf693d42418e962c5702b8674e
 msgid "USB既可以供电也可以当串口使用"
 msgstr "USB can be used both for power supply and as a serial port."
 
-#: ../../source/docs/software-framework/bt/bt.rst:29 68a2b273bcc14fd395017ef873612a38
+#: ../source/docs/software-framework/bt/bt.rst:29
+#: 6236cc149e5141fba4ef990fdc7faafd
 msgid "PB-02这个模组可以用jtag下载吗"
 msgstr "Can the PB-02 module be downloaded via JTAG?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:30 7c7ff8428f8d4df69cac50c7282110bd
+#: ../source/docs/software-framework/bt/bt.rst:30
+#: 952b752d73c543e6b8946c4945331a75
 msgid "不支持，它是通过串口下载的"
 msgstr "No. It is downloaded through the serial port."
 
-#: ../../source/docs/software-framework/bt/bt.rst:33 eb46d6bd59794957bc6fad1dd9305c54
+#: ../source/docs/software-framework/bt/bt.rst:33
+#: fc77e0a794d94c5cbda5c2cff5c13c12
 msgid "PB-01开发板做照明等中心主机用？"
-msgstr "Can the PB-01 development board be used as a central host for lighting applications?"
+msgstr ""
+"Can the PB-01 development board be used as a central host for lighting "
+"applications?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:34 ../../source/docs/software-framework/bt/bt.rst:177 96c94911a55c490298456834df0c739f fd4ddea8c132452a849ba8df66890770
+#: ../source/docs/software-framework/bt/bt.rst:34
+#: ../source/docs/software-framework/bt/bt.rst:177
+#: 736a1bfca3ae499ab87c8b6e5ef6d621 56fa428d191a44a7bd5c225b9e65c428
 msgid "可以的"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/bt/bt.rst:37 55b68dd5e7bb4a01a4ade02a92245992
+#: ../source/docs/software-framework/bt/bt.rst:37
+#: 6914ee346bfd42bdab4ff15f44c65965
 msgid "PB-02模组供电后是不是就可以工作了？就可以通过蓝牙设备搜索到模组了吗？"
-msgstr "After powering on the PB-02 module, can it work directly? Can it be found by Bluetooth devices?"
+msgstr ""
+"After powering on the PB-02 module, can it work directly? Can it be found by "
+"Bluetooth devices?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:38 88f516c7b555452db1cd130eedace902
-msgid "供电后就能搜到蓝牙信号，https://blog.csdn.net/Boantong_/article/details/109474628"
-msgstr "After power-on, the Bluetooth signal can be found. https://blog.csdn.net/Boantong_/article/details/109474628"
+#: ../source/docs/software-framework/bt/bt.rst:38
+#: d3210e5572b54dd18f89f7e16765139c
+msgid ""
+"供电后就能搜到蓝牙信号，https://blog.csdn.net/Boantong_/article/"
+"details/109474628"
+msgstr ""
+"After power-on, the Bluetooth signal can be found. https://blog.csdn.net/"
+"Boantong_/article/details/109474628"
 
-#: ../../source/docs/software-framework/bt/bt.rst:41 2d0aaac304d54cc6bfd9e4873a64f0af
+#: ../source/docs/software-framework/bt/bt.rst:41
+#: ce439155ba464e36b2b941b283a3d58b
 msgid "TB系列与PB系列在软件上能否兼容使用？"
 msgstr "Are the TB series and PB series software-compatible?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:42 48b0f189c31c4dce8ec2468eed26f408
+#: ../source/docs/software-framework/bt/bt.rst:42
+#: 81d7a5be84e546c881fe08528685b7ce
 msgid "程序不兼容，但是BLE测试软件可以使用同一个"
-msgstr "The programs are not compatible, but the BLE test software can be the same."
+msgstr ""
+"The programs are not compatible, but the BLE test software can be the same."
 
-#: ../../source/docs/software-framework/bt/bt.rst:45 7f8b4ff27d164bc3833a09aa2600cb92
+#: ../source/docs/software-framework/bt/bt.rst:45
+#: 61d02395b9a24882982527d060e6c00e
 msgid "TB系列模组中SIGMESH协议跟私有MESH协议有什么区别？"
-msgstr "What is the difference between the SIG Mesh protocol and the private MESH protocol in TB series modules?"
+msgstr ""
+"What is the difference between the SIG Mesh protocol and the private MESH "
+"protocol in TB series modules?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:46 c1723d708f4a4174873c19b635754eff
-msgid "SIGMESH协议的特点就是协议统一，所有采用SIGMESH协议的设备都采用了其中一套协议。而私有MESH则是协议独立。"
-msgstr "The characteristic of the SIG Mesh protocol is that the protocol is unified; all devices using the SIG Mesh protocol adopt the same protocol set. A private Mesh protocol is independent."
+#: ../source/docs/software-framework/bt/bt.rst:46
+#: 869235e64f6044e595bc69e7e8774531
+msgid ""
+"SIGMESH协议的特点就是协议统一，所有采用SIGMESH协议的设备都采用了其中一套协"
+"议。而私有MESH则是协议独立。"
+msgstr ""
+"The characteristic of the SIG Mesh protocol is that the protocol is unified; "
+"all devices using the SIG Mesh protocol adopt the same protocol set. A "
+"private Mesh protocol is independent."
 
-#: ../../source/docs/software-framework/bt/bt.rst:50 37ca39f1fdc743ffba448d5b4595768d
+#: ../source/docs/software-framework/bt/bt.rst:50
+#: 2db8117519514e5b8f46f2a5340260af
 msgid "PB-03F模组一包数据最大支持大多？"
 msgstr "What is the maximum size of one packet supported by the PB-03F module?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:51 56950c4b81904bee9a49814fd23807bb
+#: ../source/docs/software-framework/bt/bt.rst:51
+#: 900a9e05af56445cb5982aaf38e45f7c
 msgid "TB/PB系列模组一包数据的大小由MTU参数决定，最大支持254B。"
-msgstr "The size of one packet for TB/PB series modules is determined by the MTU parameter, with a maximum support of 254 bytes."
+msgstr ""
+"The size of one packet for TB/PB series modules is determined by the MTU "
+"parameter, with a maximum support of 254 bytes."
 
-#: ../../source/docs/software-framework/bt/bt.rst:54 58256df4f3d64a05bcff6ca3ab719ff2
+#: ../source/docs/software-framework/bt/bt.rst:54
+#: 53fbc4c947f0452c81c34ca261b53831
 msgid "PB01/02模组连接天猫精灵在设置三元组有哪些注意的地方"
-msgstr "What should be noted when setting the triplet for connecting PB01/02 modules to Tmall Genie?"
+msgstr ""
+"What should be noted when setting the triplet for connecting PB01/02 modules "
+"to Tmall Genie?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:55 8e69c87be5f745f9aad84a064ef57c28
-msgid "设备ID需要通过在线转换工具将十进制转换成十六进制并在前面补00凑够8个字节长度"
-msgstr "The device ID needs to be converted from decimal to hexadecimal using an online conversion tool, and prefixed with 00 to make it 8 bytes long."
+#: ../source/docs/software-framework/bt/bt.rst:55
+#: ca016e02feac41a08542de4f8181af1c
+msgid ""
+"设备ID需要通过在线转换工具将十进制转换成十六进制并在前面补00凑够8个字节长度"
+msgstr ""
+"The device ID needs to be converted from decimal to hexadecimal using an "
+"online conversion tool, and prefixed with 00 to make it 8 bytes long."
 
-#: ../../source/docs/software-framework/bt/bt.rst:58 c709c10690534636b0621a191576adaf
+#: ../source/docs/software-framework/bt/bt.rst:58
+#: 1d9811fe9d8d45dba751ed14c2a3c088
 msgid "蓝牙调试助手可以给TB-02开发板发送AT指令控制IO口的电平吗"
-msgstr "Can the Bluetooth debugging assistant send AT commands to the TB-02 development board to control the IO pin level?"
+msgstr ""
+"Can the Bluetooth debugging assistant send AT commands to the TB-02 "
+"development board to control the IO pin level?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:59 a6b7a8f71c524f949b26a835bea27214
+#: ../source/docs/software-framework/bt/bt.rst:59
+#: 3444e8d54928467388161d0de5d8243a
 msgid "出厂AT固件不支持，需要对AT固件做二次开发实现"
-msgstr "The factory AT firmware does not support this. Secondary development of the AT firmware is required."
+msgstr ""
+"The factory AT firmware does not support this. Secondary development of the "
+"AT firmware is required."
 
-#: ../../source/docs/software-framework/bt/bt.rst:62 ef19a0f3aa504d549e5b44f90c7010b4
+#: ../source/docs/software-framework/bt/bt.rst:62
+#: 5b2a865229124c14873c127c0b732588
 msgid "PB-03F模组支持BLE5.0么？"
 msgstr "Does the PB-03F module support BLE 5.0?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:63 8a3467163e964ea3b3570e0af43fcc63
+#: ../source/docs/software-framework/bt/bt.rst:63
+#: 21daace1ef7a4175a9316011bbb02822
 msgid "支持，PB-03系列模组支持BLE5.2，该协议向下兼容；"
-msgstr "Yes. The PB-03 series modules support BLE 5.2, and the protocol is backward compatible."
+msgstr ""
+"Yes. The PB-03 series modules support BLE 5.2, and the protocol is backward "
+"compatible."
 
-#: ../../source/docs/software-framework/bt/bt.rst:66 be4c5ce2567b436f8ec24d5c729b923a
+#: ../source/docs/software-framework/bt/bt.rst:66
+#: 4664d24334c04cb7a9940e954a9d1f67
 msgid "如何实现手机控制TB-02的LED开关？"
 msgstr "How can a mobile phone control the LED switch of TB-02?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:67 44f8ce7fa5334f6a8866dbfa434c1ecc
+#: ../source/docs/software-framework/bt/bt.rst:67
+#: eaddd4afe10141109fd9263b6690d9fd
 msgid "调用GPIO相关指令即可操作LED等的开关状态。"
-msgstr "Call GPIO-related commands to control the on/off state of LEDs and others."
+msgstr ""
+"Call GPIO-related commands to control the on/off state of LEDs and others."
 
-#: ../../source/docs/software-framework/bt/bt.rst:70 aa167910324948109886a9920ab64904
+#: ../source/docs/software-framework/bt/bt.rst:70
+#: abcc3d84c1c24208af7838660d97b583
 msgid "PB-02能传音乐吗"
 msgstr "Can PB-02 transmit music?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:71 ../../source/docs/software-framework/bt/bt.rst:273 468e8ea3856941239b18978d2ef9e72c f50224acccb1494dbf87a63f57034efc
+#: ../source/docs/software-framework/bt/bt.rst:71
+#: ../source/docs/software-framework/bt/bt.rst:273
+#: 2592dfae44964918912408088ba1d2d1 c192aa43c42649589c185d5d871739a4
 msgid "不能，该蓝牙没有音频芯片"
 msgstr "No. This Bluetooth module does not have an audio chip."
 
-#: ../../source/docs/software-framework/bt/bt.rst:74 aa07f01cfc934687929a29b44a410a90
+#: ../source/docs/software-framework/bt/bt.rst:74
+#: 3501e782c7b64822bcfea123bfd0d2ed
 msgid "PB03出厂默认AT固件最长能设置蓝牙广播名称为多少个字节"
-msgstr "What is the maximum Bluetooth advertising name length supported by the default factory AT firmware of PB-03?"
+msgstr ""
+"What is the maximum Bluetooth advertising name length supported by the "
+"default factory AT firmware of PB-03?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:75 5bc27324e20e4275ab215c02a1ed7652
+#: ../source/docs/software-framework/bt/bt.rst:75
+#: abda3c6aa77848cb980f3c2c27ca4c7c
 msgid "12个字节"
 msgstr "12 bytes."
 
-#: ../../source/docs/software-framework/bt/bt.rst:78 c6b514e207054d389fe2b2996c857fce
+#: ../source/docs/software-framework/bt/bt.rst:78
+#: 09344625867c401c9767410fd23b1fac
 msgid "PB-01、02如何对接天猫精灵"
 msgstr "How do PB-01 and PB-02 connect to Tmall Genie?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:79 40e0c7c36b1140efa237693f08763435
+#: ../source/docs/software-framework/bt/bt.rst:79
+#: 424b896d52f642069aa23be22913643c
 msgid "烧写支持对接天猫精灵固件并通过指令设置天猫精灵平台提供的三元组"
-msgstr "Flash the firmware that supports Tmall Genie integration, and set the triplet provided by the Tmall Genie platform through commands."
+msgstr ""
+"Flash the firmware that supports Tmall Genie integration, and set the "
+"triplet provided by the Tmall Genie platform through commands."
 
-#: ../../source/docs/software-framework/bt/bt.rst:82 1eb7479fb8584c94b33a710a95362118
+#: ../source/docs/software-framework/bt/bt.rst:82
+#: 98a41a31c38a46f1ac9260c37f79886a
 msgid "PB01如何外接带IPEX座子的天线"
 msgstr "How can PB01 connect to an external antenna with an IPEX connector?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:83 a8a9c66aa6b24798879315f81391394a
+#: ../source/docs/software-framework/bt/bt.rst:83
+#: 9796ef46dfbf4d589a14722aea391ec9
 msgid "默认天线采用半孔焊盘方式，可以在主板上设计一个IPEX端口方便进行外接"
-msgstr "By default, the antenna uses a castellated solder pad design. You can design an IPEX port on the mainboard for external antenna connection."
+msgstr ""
+"By default, the antenna uses a castellated solder pad design. You can design "
+"an IPEX port on the mainboard for external antenna connection."
 
-#: ../../source/docs/software-framework/bt/bt.rst:87 398cacceab2e478fbb8fbd303f9294ab
+#: ../source/docs/software-framework/bt/bt.rst:87
+#: e0a9585b5ff14f0f8bdc08b418924d9f
 msgid "PB系列的SDK代码用什么开发平台"
 msgstr "What development platform is used for the PB series SDK code?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:88 1ef746e0e43b4d40b2b0fb849414068a
+#: ../source/docs/software-framework/bt/bt.rst:88
+#: e29b60ec515a49fb82027626a70acd33
 msgid "keil5"
 msgstr "Keil5."
 
-#: ../../source/docs/software-framework/bt/bt.rst:91 586f3bb8b0524cbb958b9c98142b6dbd
+#: ../source/docs/software-framework/bt/bt.rst:91
+#: 2c9345a0a5e34660938fe9b8030659c4
 msgid "PB-03F模块的信号强度与通信距离能到多少"
-msgstr "What are the signal strength and communication distance of the PB-03F module?"
+msgstr ""
+"What are the signal strength and communication distance of the PB-03F module?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:92 a7c9000ae0a04b20be9725f5e68eaa37
+#: ../source/docs/software-framework/bt/bt.rst:92
+#: e5876f97ca6043df82a40857fb85b4bd
 msgid "信号强度10dbm，通讯距离空旷环境100米左右"
-msgstr "The signal strength is 10dBm, and the communication distance is about 100m in an open environment."
+msgstr ""
+"The signal strength is 10dBm, and the communication distance is about 100m "
+"in an open environment."
 
-#: ../../source/docs/software-framework/bt/bt.rst:95 a9e3aa69aa9b4da585773b1439b66fda
+#: ../source/docs/software-framework/bt/bt.rst:95
+#: 2f1000ae4f1d4052b31e357ae9fc2383
 msgid "PB-03F自带32.768K晶振吗"
 msgstr "Does PB-03F have a built-in 32.768 kHz crystal?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:96 3d55ca09eed84a958aebb35a619fb018
+#: ../source/docs/software-framework/bt/bt.rst:96
+#: a9d25ffaca364561aa309c60efd14244
 msgid "内部芯片自带"
 msgstr "It is built into the internal chip."
 
-#: ../../source/docs/software-framework/bt/bt.rst:99 cb4e2440c44840beaf427b8e66c12073
+#: ../source/docs/software-framework/bt/bt.rst:99
+#: 41af9d1502ed4d99ac437bd2139bcee1
 msgid "TB-02的复位引脚是高电平复位还是低电平"
 msgstr "Is the reset pin of TB-02 active-high or active-low?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:100 ../../source/docs/software-framework/bt/bt.rst:165 89e58c4773ec4a0989c098e573238c41 c55937dcc4ae46e8af9ffe8738db1aee
+#: ../source/docs/software-framework/bt/bt.rst:100
+#: ../source/docs/software-framework/bt/bt.rst:165
+#: 19c5401893c94d00b94b96c20ae4f015 cb67f0fb3cef4c578df62ae3e579f6ca
 msgid "低电平复位"
 msgstr "Active-low reset."
 
-#: ../../source/docs/software-framework/bt/bt.rst:103 ce05b3d5274047b9927c5b170c642314
+#: ../source/docs/software-framework/bt/bt.rst:103
+#: 4ee76f320e0e43cfa18f1d9ba92a9bdd
 msgid "TB/PB系列模组能否支持SIG_MESH_1.0.1版本"
 msgstr "Can TB/PB series modules support SIG_Mesh_1.0.1?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:104 7481d33462be40dbb6907b9fac606a10
+#: ../source/docs/software-framework/bt/bt.rst:104
+#: 3117affdd90345b4a094399ff923559a
 msgid "可以支持。"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/bt/bt.rst:107 1ef8b93e78544874860e7b4975c182ac
+#: ../source/docs/software-framework/bt/bt.rst:107
+#: 5ea8ee2fe66f4032bf3c940cbab6f939
 msgid "PB-03M模组能否贴片焊接"
 msgstr "Can the PB-03M module be mounted by SMT soldering?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:108 977a1e10f302482492d030e0b74f49cb
+#: ../source/docs/software-framework/bt/bt.rst:108
+#: 706cdcf7d1c24cc9a02811fef55a31f5
 msgid "可以贴片焊接。"
 msgstr "Yes, it supports SMT soldering."
 
-#: ../../source/docs/software-framework/bt/bt.rst:112 cca5c0d8a5cd4fc8b3c75fcd73d00520
+#: ../source/docs/software-framework/bt/bt.rst:112
+#: d6bbf9d3300244cf89af931d3add25b0
 msgid "BLE模块哪款支持自组网"
 msgstr "Which BLE module supports self-organizing networking?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:113 aade2caf72604d758afa93348d73838d
+#: ../source/docs/software-framework/bt/bt.rst:113
+#: d52faeb87cc2479bbdebf220c904636e
 msgid "TB系列模组，需要跑私有MESH协议"
 msgstr "TB series modules, running a private Mesh protocol."
 
-#: ../../source/docs/software-framework/bt/bt.rst:116 aeb2ae7d6f7943199ffff3ac27acedd2
+#: ../source/docs/software-framework/bt/bt.rst:116
+#: 72a6168309c74c188eaef9eecc5026f8
 msgid "PB02模组出厂AT固件支持对接天猫精灵吗"
-msgstr "Does the factory AT firmware of the PB-02 module support Tmall Genie integration?"
+msgstr ""
+"Does the factory AT firmware of the PB-02 module support Tmall Genie "
+"integration?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:117 9c19922b98794260b53b671e4afdfbb7
+#: ../source/docs/software-framework/bt/bt.rst:117
+#: 860fedb721d244b29202e65f6d67eef7
 msgid "不支持，需要通过串口重新烧写天猫精灵固件"
-msgstr "No. The Tmall Genie firmware must be re-flashed through the serial port."
+msgstr ""
+"No. The Tmall Genie firmware must be re-flashed through the serial port."
 
-#: ../../source/docs/software-framework/bt/bt.rst:120 7941cdcdb7c244e8b962aaff07c75695
+#: ../source/docs/software-framework/bt/bt.rst:120
+#: 02dcba401abf4f768b3242a52521d09e
 msgid "PB-03模组有内部分32.768k晶振么？"
 msgstr "Does the PB-03 module have an internal 32.768 kHz crystal?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:121 a3330010c11749028292127709c664c1
+#: ../source/docs/software-framework/bt/bt.rst:121
+#: 3d9388ce01154da4bb77e2613f5af43e
 msgid "有的"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/bt/bt.rst:124 5c557a3aea6f45fab00372346b4e496b
+#: ../source/docs/software-framework/bt/bt.rst:124
+#: d52d73f7b82e4d9b9b27bf0eb7bcd659
 msgid "PB-03可以实现蓝牙透传么？"
 msgstr "Can PB-03 implement Bluetooth transparent transmission?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:125 ../../source/docs/software-framework/bt/bt.rst:189 a1f5107322a244b1a579f0a95f5fddd5 f25f78243d9f4ee6b9e1326107f17cf2
+#: ../source/docs/software-framework/bt/bt.rst:125
+#: ../source/docs/software-framework/bt/bt.rst:189
+#: d130da6a80934da79cd1a2ed7d061144 259b09d52c3f4a63a49490f4c554b053
 msgid "可以"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/bt/bt.rst:128 39b0d2b94cf74632a2523d32b73d144e
+#: ../source/docs/software-framework/bt/bt.rst:128
+#: 4e90fe1903074d588c0f993adee98d1a
 msgid "PB-01模组能否在没有网关的情况下实现mesh自组网？"
-msgstr "Can the PB-01 module implement Mesh self-organizing networking without a gateway?"
+msgstr ""
+"Can the PB-01 module implement Mesh self-organizing networking without a "
+"gateway?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:129 4402fdc801804994bb1690098e3d7aa0
+#: ../source/docs/software-framework/bt/bt.rst:129
+#: 02db62734ce84df0bc00c118fbff9acf
 msgid "不可以，节点的数据需要网关上传"
 msgstr "No. Node data needs to be uploaded through a gateway."
 
-#: ../../source/docs/software-framework/bt/bt.rst:132 0e52c769728a4fc196943b328c5b18f5
+#: ../source/docs/software-framework/bt/bt.rst:132
+#: d20defb9d5c248848f6b60827844334d
 msgid "TB-02模组的MASH组网SDK开源么"
 msgstr "Is the Mesh networking SDK of the TB-02 module open source?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:133 1444c084e597411b8628ba435192ea63
-msgid "开源的，SDK仓库链接为：https://github.com/Ai-Thinker-Open/Telink_SIG_Mesh"
-msgstr "Yes. The SDK repository link is: https://github.com/Ai-Thinker-Open/Telink_SIG_Mesh"
+#: ../source/docs/software-framework/bt/bt.rst:133
+#: 3eb49789894a48a98b96102b588538f9
+msgid ""
+"开源的，SDK仓库链接为：https://github.com/Ai-Thinker-Open/Telink_SIG_Mesh"
+msgstr ""
+"Yes. The SDK repository link is: https://github.com/Ai-Thinker-Open/"
+"Telink_SIG_Mesh"
 
-#: ../../source/docs/software-framework/bt/bt.rst:136 da312932aa75437c93b7a2ce99fdfd69
+#: ../source/docs/software-framework/bt/bt.rst:136
+#: c11bc32699254025a159c93619509852
 msgid "TB-03F V8固件，V9固件和AT MESH固件有啥区别"
-msgstr "What are the differences between TB-03F V8 firmware, V9 firmware, and AT Mesh firmware?"
+msgstr ""
+"What are the differences between TB-03F V8 firmware, V9 firmware, and AT "
+"Mesh firmware?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:137 44f07e45c9394c7baebb1a7bee888995
+#: ../source/docs/software-framework/bt/bt.rst:137
+#: 0bf30a0d6bf14a739b98c47861492a31
 msgid "V8 V9固件为AT基本功能固件，不具备MESH功能；AT MESH固件支持组网通信"
-msgstr "V8 and V9 firmware are AT basic-function firmware and do not have Mesh functionality. AT Mesh firmware supports networking communication."
+msgstr ""
+"V8 and V9 firmware are AT basic-function firmware and do not have Mesh "
+"functionality. AT Mesh firmware supports networking communication."
 
-#: ../../source/docs/software-framework/bt/bt.rst:140 a3d3427c5b9a46e0b4092cc44baba07b
+#: ../source/docs/software-framework/bt/bt.rst:140
+#: e67fdb0b2c514603903f344abbcc8522
 msgid "PB-03能否能实现透传么"
 msgstr "Can PB-03 implement transparent transmission?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:141 bcacf387f0cd45f4a21ffce282fdb07d
-msgid "该模组具有透传功能，详情参考说明文档。该模组支持二次开发，详情访问我司官方DOCS系统。"
-msgstr "This module has transparent transmission functionality. For details, refer to the user manual. The module supports secondary development. For details, visit our official DOCS system."
+#: ../source/docs/software-framework/bt/bt.rst:141
+#: 089cac6d3f8b44ff94d68dea40c1e535
+msgid ""
+"该模组具有透传功能，详情参考说明文档。该模组支持二次开发，详情访问我司官方"
+"DOCS系统。"
+msgstr ""
+"This module has transparent transmission functionality. For details, refer "
+"to the user manual. The module supports secondary development. For details, "
+"visit our official DOCS system."
 
-#: ../../source/docs/software-framework/bt/bt.rst:144 49076696c2204cc3847089c8b555e66a
+#: ../source/docs/software-framework/bt/bt.rst:144
+#: f392500e1f024df0a62fcd51217f3c1a
 msgid "请问下PB-03可以二次开发么，用的哪一个开发环境呢？"
-msgstr "Can PB-03 be secondarily developed? Which development environment is used?"
+msgstr ""
+"Can PB-03 be secondarily developed? Which development environment is used?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:145 7f35d8c84db74c5b8fa11dae2a77224b
+#: ../source/docs/software-framework/bt/bt.rst:145
+#: 1b4592439d874af88e034c2d693f0cf1
 msgid "支持二次开发，用的开发环境是keil MDK。"
-msgstr "Yes, it supports secondary development. The development environment is Keil MDK."
+msgstr ""
+"Yes, it supports secondary development. The development environment is Keil "
+"MDK."
 
-#: ../../source/docs/software-framework/bt/bt.rst:148 d63900a5e27f4e5f8fcfad3563cb0144
+#: ../source/docs/software-framework/bt/bt.rst:148
+#: b39b870c40384185a60573be8af12070
 msgid "TB-04模组能否与其他蓝牙设备进行通讯？"
 msgstr "Can the TB-04 module communicate with other Bluetooth devices?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:149 71e2933d71e941bd94e29f063cd93327
+#: ../source/docs/software-framework/bt/bt.rst:149
+#: 60adfb33b6034f188b436e7284c80a55
 msgid "通过二次开发可以实现；"
 msgstr "This can be implemented through secondary development."
 
-#: ../../source/docs/software-framework/bt/bt.rst:152 e21929417b7e4eb68e945b941df4a382
+#: ../source/docs/software-framework/bt/bt.rst:152
+#: 8a91729af17b4417ac25557d2bb8e791
 msgid "TB系列模块天猫和小米的音响都支持吗"
 msgstr "Do TB series modules support both Tmall Genie and Xiaomi speakers?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:153 c7579eafecbf4ad3af2940cef3c4703d
+#: ../source/docs/software-framework/bt/bt.rst:153
+#: 53de506a80e547e5aef5ea5e04166e94
 msgid "目前仅支持天猫精灵音响"
 msgstr "Currently, only Tmall Genie speakers are supported."
 
-#: ../../source/docs/software-framework/bt/bt.rst:156 f8292e5238834297a785e1d43afa3f13
+#: ../source/docs/software-framework/bt/bt.rst:156
+#: 740238eb25774d89826997d3359fec2a
 msgid "请问一下PB-03F的RX0、TX0串口电平是TTL还是232？"
 msgstr "Are the RX0 and TX0 serial port levels of PB-03F TTL or RS232?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:157 79c216a3ee2c4b8685cedd5cddb5c323
+#: ../source/docs/software-framework/bt/bt.rst:157
+#: e71f84e310f44c2a8a67f4b403a0004d
 msgid "是TTL电平"
 msgstr "They are TTL levels."
 
-#: ../../source/docs/software-framework/bt/bt.rst:160 d81983f091e54e47b366d7c878e25afb
+#: ../source/docs/software-framework/bt/bt.rst:160
+#: e3132717d10540d88dd75bf7acac8621
 msgid "TB/PB系列模块可以跟电脑通信吗"
 msgstr "Can TB/PB series modules communicate with a computer?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:161 de20539a017046cc89e1015300df442a
+#: ../source/docs/software-framework/bt/bt.rst:161
+#: 44afc332509c41fbb22ab1e309ee7001
 msgid "可以，不过需要购买专门的蓝牙适配器进行调试"
-msgstr "Yes, but a dedicated Bluetooth adapter needs to be purchased for debugging."
+msgstr ""
+"Yes, but a dedicated Bluetooth adapter needs to be purchased for debugging."
 
-#: ../../source/docs/software-framework/bt/bt.rst:164 49b261f7994e41f68edbe23b7d6390e7
+#: ../source/docs/software-framework/bt/bt.rst:164
+#: 3bad6a7e6a504495bef61ac08c48de7b
 msgid "PB-02模组上的RST引脚复位是高电平还是低电平"
 msgstr "Is the RST pin reset of the PB-02 module active-high or active-low?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:168 780702cc9b524450a508f3023ff683dd
+#: ../source/docs/software-framework/bt/bt.rst:168
+#: cfa68ad87bff4fb1bd677e4348f5f300
 msgid "PB-03F模组在烧录固件过程中掉电了，有办法恢复么？"
-msgstr "If the PB-03F module loses power during firmware flashing, is there a way to recover it?"
+msgstr ""
+"If the PB-03F module loses power during firmware flashing, is there a way to "
+"recover it?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:169 5dbdc07893b143b9b094558976c0b1b1
+#: ../source/docs/software-framework/bt/bt.rst:169
+#: 2cd80197abf94337a2d26f216dbd986d
 msgid "重新刷固件即可"
 msgstr "Just flash the firmware again."
 
-#: ../../source/docs/software-framework/bt/bt.rst:172 03ee2f05392b46b7b3053fa59bfb52af
+#: ../source/docs/software-framework/bt/bt.rst:172
+#: 26172768c4fb499c9f0618836d4cb7bc
 msgid "TB系列模组支持OTA升级吗"
 msgstr "Do TB series modules support OTA upgrade?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:173 71c5360bd0e741eb9d6c54550c8982a0
+#: ../source/docs/software-framework/bt/bt.rst:173
+#: 7548a29527ff4c8c9553c5c2de732772
 msgid "支持，可以通过APP的方式进行升级"
 msgstr "Yes, they can be upgraded via an app."
 
-#: ../../source/docs/software-framework/bt/bt.rst:176 d18ca9b8855f487b83fd6e6c8187339a
+#: ../source/docs/software-framework/bt/bt.rst:176
+#: 35be6c33339a436f8c120c523928a2b9
 msgid "请问一下，PB-03F模组二次开发，GPIO中断能用吗？"
-msgstr "For secondary development of the PB-03F module, can GPIO interrupts be used?"
+msgstr ""
+"For secondary development of the PB-03F module, can GPIO interrupts be used?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:180 24eb0ee425b94205af57fa7277bdf568
+#: ../source/docs/software-framework/bt/bt.rst:180
+#: b83cbd3aaa38456c938138dc313b1dd4
 msgid "你好，请问一下PB-03F模组在刷机的时候掉电了，还能回复吗？"
-msgstr "If the PB-03F module loses power during flashing, can it still be recovered?"
+msgstr ""
+"If the PB-03F module loses power during flashing, can it still be recovered?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:181 32327dd5f0954181a18c9909cf1bd893
+#: ../source/docs/software-framework/bt/bt.rst:181
+#: ce6be0316f92458a856c0c2b80168816
 msgid "重新刷固件即可；"
 msgstr "Just flash the firmware again."
 
-#: ../../source/docs/software-framework/bt/bt.rst:184 0eadab020b0640d595327d5f8f4e25df
+#: ../source/docs/software-framework/bt/bt.rst:184
+#: 0d6f188d1fac4de6bafb6e38940cf943
 msgid "PB系列能否与WB2系列进行蓝牙相互通讯"
-msgstr "Can PB series modules communicate with WB2 series modules via Bluetooth?"
+msgstr ""
+"Can PB series modules communicate with WB2 series modules via Bluetooth?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:185 55f6027eb043472c8b8abc6e61914f9d
+#: ../source/docs/software-framework/bt/bt.rst:185
+#: 1e3cbd1ce82f4a9f96d57483a9af1113
 msgid "可以相互通讯"
 msgstr "Yes, they can communicate with each other."
 
-#: ../../source/docs/software-framework/bt/bt.rst:188 96ab6ab64c9d42f3baf7f30e8a6a034f
+#: ../source/docs/software-framework/bt/bt.rst:188
+#: 7619a3b0de384395aa598d58dd4f9181
 msgid "PB-03F可以接出IIC接口吗"
 msgstr "Can PB-03F expose an IIC interface?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:192 1d7bb18e96dc4c1094676430f5ebe91b
+#: ../source/docs/software-framework/bt/bt.rst:192
+#: f8c957000e194b6f9a04bffe28d91239
 msgid "PB-03可以使用vscode软件开发吗"
 msgstr "Can PB-03 be developed using VS Code?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:193 6a97d8e7901347c9b4e5a74fe81d9d95
+#: ../source/docs/software-framework/bt/bt.rst:193
+#: c7d639ba035b46e59608d571e9b85cbf
 msgid "可以，在vscode上安装keil插件"
 msgstr "Yes. Install the Keil plugin in VS Code."
 
-#: ../../source/docs/software-framework/bt/bt.rst:196 8981ba2eaca94145a4cfe3ce34839360
+#: ../source/docs/software-framework/bt/bt.rst:196
+#: 89fe0b2468024152a779921baec3d221
 msgid "PB-03F开发板可以测蓝牙的指标吗"
 msgstr "Can the PB-03F development board test Bluetooth specifications?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:197 78f2b132143a474198aac7977d9b07ef
+#: ../source/docs/software-framework/bt/bt.rst:197
+#: 117480318324490ea8324b7e29476bae
 msgid "不可以，测试蓝牙指标建议使用专门的测试设备"
-msgstr "No. It is recommended to use dedicated test equipment for testing Bluetooth specifications."
+msgstr ""
+"No. It is recommended to use dedicated test equipment for testing Bluetooth "
+"specifications."
 
-#: ../../source/docs/software-framework/bt/bt.rst:200 ad6f948362274384b2e5c4203bb79bb9
+#: ../source/docs/software-framework/bt/bt.rst:200
+#: 68711d7c28084e308bdb322e16c895f7
 msgid "PB03模块组网的时候，手机可以加入MESH组网中吗"
-msgstr "When PB-03 modules are networked, can a mobile phone join the Mesh network?"
+msgstr ""
+"When PB-03 modules are networked, can a mobile phone join the Mesh network?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:201 a73479449f9c4221abae7edb0f9c35ca
+#: ../source/docs/software-framework/bt/bt.rst:201
+#: b324e905d16e49ff9c1cc40a495dbca3
 msgid "手机只能当配网者"
 msgstr "A mobile phone can only act as a provisioner."
 
-#: ../../source/docs/software-framework/bt/bt.rst:204 f8518b643ca74a3da3fa133ddc2d3626
+#: ../source/docs/software-framework/bt/bt.rst:204
+#: f3e233ac97ce45bc908c3428aeaad361
 msgid "请问TB-02蓝牙模块不适用APP或者小程序的情况下能否连接手机自带的蓝牙？"
-msgstr "Can the TB-02 Bluetooth module connect to the phone's built-in Bluetooth without using an app or mini program?"
+msgstr ""
+"Can the TB-02 Bluetooth module connect to the phone's built-in Bluetooth "
+"without using an app or mini program?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:205 8db099681f8c4cc5a58106b658aa231a
+#: ../source/docs/software-framework/bt/bt.rst:205
+#: 94c1a95ce58747a59b93ecaa1209e7bf
 msgid "不能"
 msgstr "No."
 
-#: ../../source/docs/software-framework/bt/bt.rst:208 5905ae8733ae4d34b944a961971cc118
+#: ../source/docs/software-framework/bt/bt.rst:208
+#: 63b546ef03a246e687c2fe2a9dee77ba
 msgid "请问PB-02的MESH组网是用的阿里的SDK么？"
 msgstr "Does the PB-02 Mesh networking use Alibaba's SDK?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:209 e23c3e7e122f41199a7ee8a588060bce
-msgid "不是阿里的，SDK获取仓库链接： `参考链接  <https://github.com/Ai-Thinker-Open/AiThinker-Open-PB-BleMesh>`__"
-msgstr "No. The SDK repository link is: `Reference link <https://github.com/Ai-Thinker-Open/AiThinker-Open-PB-BleMesh>`__"
+#: ../source/docs/software-framework/bt/bt.rst:209
+#: 99587777502e468487f0a40872c0380d
+msgid ""
+"不是阿里的，SDK获取仓库链接： `参考链接  <https://github.com/Ai-Thinker-Open/"
+"AiThinker-Open-PB-BleMesh>`__"
+msgstr ""
+"No. The SDK repository link is: `Reference link <https://github.com/Ai-"
+"Thinker-Open/AiThinker-Open-PB-BleMesh>`__"
 
-#: ../../source/docs/software-framework/bt/bt.rst:213 53ebd6c136fc433bb279745c85af71df
+#: ../source/docs/software-framework/bt/bt.rst:213
+#: 04d245cf1e9c4eaaaa0943983bea2250
 msgid "请问TB-02模组的天猫固件是否上电即可连接天猫？"
-msgstr "Can the Tmall firmware of the TB-02 module connect to Tmall immediately after power-on?"
+msgstr ""
+"Can the Tmall firmware of the TB-02 module connect to Tmall immediately "
+"after power-on?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:214 dda086d1901b4253aa2ad34ef3c26a7a
-msgid "需要实现配置三元组，具体使用方法见说明文档： `参考链接  <https://blog.csdn.net/Boantong_/article/details/104649680>`__"
-msgstr "The triplet needs to be configured first. For detailed usage, see the documentation: `Reference link <https://blog.csdn.net/Boantong_/article/details/104649680>`__"
+#: ../source/docs/software-framework/bt/bt.rst:214
+#: 2b73cba8007a4fd5b2b51b966ba98886
+msgid ""
+"需要实现配置三元组，具体使用方法见说明文档： `参考链接  <https://blog.csdn."
+"net/Boantong_/article/details/104649680>`__"
+msgstr ""
+"The triplet needs to be configured first. For detailed usage, see the "
+"documentation: `Reference link <https://blog.csdn.net/Boantong_/article/"
+"details/104649680>`__"
 
-#: ../../source/docs/software-framework/bt/bt.rst:219 1d60e20248bf4b24b49d67df5f350c0b
+#: ../source/docs/software-framework/bt/bt.rst:219
+#: 057dc1084a8f422ebd4b58a5bca74d36
 msgid "请问蓝牙模块可修改名称么？"
 msgstr "Can the Bluetooth module name be modified?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:220 55c9ab15a2714b6b972a063e4c72857b
+#: ../source/docs/software-framework/bt/bt.rst:220
+#: 5e15b4ef53794cfb894bfa4a5181d19a
 msgid "使用修改名称的指令修改即可；注：修改以后配置从机"
-msgstr "Yes, use the name modification command. Note: After modification, configure it as a slave device."
+msgstr ""
+"Yes, use the name modification command. Note: After modification, configure "
+"it as a slave device."
 
-#: ../../source/docs/software-framework/bt/bt.rst:224 aa46063bd13741ecba57293b47500b9b
+#: ../source/docs/software-framework/bt/bt.rst:224
+#: a58222b4365d49cb9c96e0483b5e8663
 msgid "请问贵公司有支持BT/BLE双模模组么？"
 msgstr "Does your company have BT/BLE dual-mode modules?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:225 ../../source/docs/software-framework/bt/bt.rst:285 3e5ef9ec0dc6408cbe98c6761fdb7ef3 f1ac28f46a4c4763a3cdcd3b3db4f126
+#: ../source/docs/software-framework/bt/bt.rst:225
+#: ../source/docs/software-framework/bt/bt.rst:285
+#: c99dbb8aba0b4e5c986632d7f44f57fb 392b700697fa47bcafb486f25320eec1
 msgid "没有"
 msgstr "No."
 
-#: ../../source/docs/software-framework/bt/bt.rst:228 b85e943bda3a47fba4e1e117cea7fd45
+#: ../source/docs/software-framework/bt/bt.rst:228
+#: 021403e5157a4bf583b479482e18bdc7
 msgid "PB系列模块可以当普通蓝牙进行配对吗"
 msgstr "Can PB series modules be paired as ordinary Bluetooth devices?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:229 080f8b3f6f204797b8875d703bf58367
+#: ../source/docs/software-framework/bt/bt.rst:229
+#: 61231129c7c04b95aafef88d1966bada
 msgid "可以，不过仅支持配对，不支持通信，通信需要下载蓝牙调试助手"
-msgstr "Yes, but only pairing is supported. Communication requires downloading a Bluetooth debugging assistant."
+msgstr ""
+"Yes, but only pairing is supported. Communication requires downloading a "
+"Bluetooth debugging assistant."
 
-#: ../../source/docs/software-framework/bt/bt.rst:232 bea3501eeff34811a0490c153a93994b
+#: ../source/docs/software-framework/bt/bt.rst:232
+#: d12555ace2414e7ba0d58c256ecaa8ca
 msgid "TB-04可以配棒状天线吗"
 msgstr "Can TB-04 be used with a rod antenna?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:233 d88e6d9922ae429a964ef6217b0ad81b
+#: ../source/docs/software-framework/bt/bt.rst:233
+#: 5a8aa39c7c644314b9b2dd2dda2647df
 msgid "可以，不过需要用户自行焊接IPEX座子"
 msgstr "Yes, but users need to solder the IPEX connector themselves."
 
-#: ../../source/docs/software-framework/bt/bt.rst:236 6db9fe7d046047eeb9b8585641f8435c
+#: ../source/docs/software-framework/bt/bt.rst:236
+#: 89bc3b87a09346fc93c329496cf5d1bf
 msgid "PB-03F模块如何同时烧录AT固件和自己写的程序"
-msgstr "How can the PB-03F module flash both AT firmware and my own program at the same time?"
+msgstr ""
+"How can the PB-03F module flash both AT firmware and my own program at the "
+"same time?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:237 11d8e59fe5e844db81c3402e7ee26ade
+#: ../source/docs/software-framework/bt/bt.rst:237
+#: 3a1f6921b705469ca804f1300fe31fc7
 msgid "在AT固件的工程中进行二次开发"
 msgstr "Perform secondary development within the AT firmware project."
 
-#: ../../source/docs/software-framework/bt/bt.rst:240 bb15f7e918b344859cd8147ae27d0735
+#: ../source/docs/software-framework/bt/bt.rst:240
+#: d0a28b2e1ae74c27afea0c592837b640
 msgid "有支持功率调节WIFI/蓝牙模块吗"
 msgstr "Are there Wi-Fi/Bluetooth modules that support power adjustment?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:241 cab5ba69deac4a98ba29c5132b262bf3
+#: ../source/docs/software-framework/bt/bt.rst:241
+#: 051743e0a2464871b9e3c0268426032e
 msgid "ESP系列和TB PB系列都支持调试功率"
 msgstr "ESP series and TB/PB series all support power debugging."
 
-#: ../../source/docs/software-framework/bt/bt.rst:244 70945038e9704253946ab52a5b308887
+#: ../source/docs/software-framework/bt/bt.rst:244
+#: 698ea5f7f1894eddb72aec6442b9d5e9
 msgid "PB01模块广播指令是同时吗还是依此发送"
-msgstr "Are PB-01 module advertising commands sent simultaneously or sequentially?"
+msgstr ""
+"Are PB-01 module advertising commands sent simultaneously or sequentially?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:245 9241736624564abfb993fbddb857bf83
+#: ../source/docs/software-framework/bt/bt.rst:245
+#: 4afa972bd5154a5f8cf3da3b03cedf32
 msgid "广播指令是同时发送的"
 msgstr "Advertising commands are sent simultaneously."
 
-#: ../../source/docs/software-framework/bt/bt.rst:248 280283dd0fae4dc09f05e1cc4b94cd36
+#: ../source/docs/software-framework/bt/bt.rst:248
+#: 1e482b25826943b9b3bb8729cefcbd77
 msgid "请问PB-02模组是否有苹果端的蓝牙调试助手软件？"
-msgstr "Is there an iOS Bluetooth debugging assistant app for the PB-02 module?"
+msgstr ""
+"Is there an iOS Bluetooth debugging assistant app for the PB-02 module?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:249 49a6f1a613284c48b91d06a74bf70a3e
+#: ../source/docs/software-framework/bt/bt.rst:249
+#: bea1426061f040619e6af0ef3a563264
 msgid "在苹果商店上下载nrfconnect APP。"
 msgstr "Download the nRF Connect app from the Apple App Store."
 
-#: ../../source/docs/software-framework/bt/bt.rst:252 ec29b58f4d2445969bfeaa3a0e29cefc
+#: ../source/docs/software-framework/bt/bt.rst:252
+#: 05b458b1c31d4c26a3fa1215c3b0a20d
 msgid "请问：PB-02模组对接ESP32-G网关的固件要用哪一个？"
-msgstr "Which firmware should be used for the PB-02 module to connect to the ESP32-G gateway?"
+msgstr ""
+"Which firmware should be used for the PB-02 module to connect to the ESP32-G "
+"gateway?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:253 475605514d5d47a6b90dfcf879b37b23
+#: ../source/docs/software-framework/bt/bt.rst:253
+#: 34b393edd1a6443480f20d085f0c8206
 msgid "需烧录特定固件，请联系安信可工作人员获取固件。"
-msgstr "Specific firmware needs to be flashed. Please contact Ai-Thinker staff to obtain the firmware."
+msgstr ""
+"Specific firmware needs to be flashed. Please contact Ai-Thinker staff to "
+"obtain the firmware."
 
-#: ../../source/docs/software-framework/bt/bt.rst:256 79059d6b7bc244d884b9ca8bf0351856
+#: ../source/docs/software-framework/bt/bt.rst:256
+#: 1c617a209bff4f88a4a653e0bd8ca640
 msgid "PB-03模组AT模式和透传模式如何切换"
-msgstr "How do switch between AT mode and transparent transmission mode on the PB-03 module?"
+msgstr ""
+"How do switch between AT mode and transparent transmission mode on the PB-03 "
+"module?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:257 ff53f267f82b448f841d4d4f54f010eb
-msgid "透传切换到AT是发送+++字符串   AT切换到透传就发送AT+TRANSENTER 进入蓝牙透传模式"
-msgstr "To switch from transparent transmission to AT mode, send the string +++. To switch from AT mode to transparent transmission mode, send AT+TRANSENTER to enter Bluetooth transparent transmission mode."
+#: ../source/docs/software-framework/bt/bt.rst:257
+#: b53f19a8fbc14226be6ec700d93c2c82
+msgid ""
+"透传切换到AT是发送+++字符串   AT切换到透传就发送AT+TRANSENTER 进入蓝牙透传模"
+"式"
+msgstr ""
+"To switch from transparent transmission to AT mode, send the string +++. To "
+"switch from AT mode to transparent transmission mode, send AT+TRANSENTER to "
+"enter Bluetooth transparent transmission mode."
 
-#: ../../source/docs/software-framework/bt/bt.rst:260 36a889ce751b4ef1b3590dc2fbe9530f
+#: ../source/docs/software-framework/bt/bt.rst:260
+#: 672273aa7d4a49e2abc1c9270dbea39b
 msgid "TB-03F蓝牙通信一个模块做主模块可以连接多少个从模块"
-msgstr "When one TB-03F Bluetooth communication module acts as the master, how many slave modules can it connect to?"
+msgstr ""
+"When one TB-03F Bluetooth communication module acts as the master, how many "
+"slave modules can it connect to?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:261 19ef8fdd73c44a1da2876feac8412ba4
+#: ../source/docs/software-framework/bt/bt.rst:261
+#: c09b818e600947e79247344d16b3d774
 msgid "默认出厂AT固件仅支持一个  如果需要链接多个得需要烧写MESH固件"
-msgstr "The default factory AT firmware supports only one slave. If multiple connections are required, Mesh firmware needs to be flashed."
+msgstr ""
+"The default factory AT firmware supports only one slave. If multiple "
+"connections are required, Mesh firmware needs to be flashed."
 
-#: ../../source/docs/software-framework/bt/bt.rst:264 8cc6ee1f39874de282c68e380bf544f7
+#: ../source/docs/software-framework/bt/bt.rst:264
+#: 0b87d9098cfc43958929914d632d2d0f
 msgid "PB-03模块用mesh网络的话，支持ESP32-G网关吗"
 msgstr "Does PB-03 support the ESP32-G gateway when using a Mesh network?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:265 3cef1159a6274d1cbd788c308a77b35d
+#: ../source/docs/software-framework/bt/bt.rst:265
+#: d818dd541f8048baa4fa43161cebbd78
 msgid "支持使用"
 msgstr "Yes, it is supported."
 
-#: ../../source/docs/software-framework/bt/bt.rst:268 72a42052f06b470faad6da0ca3298510
+#: ../source/docs/software-framework/bt/bt.rst:268
+#: 89108627337f42aa866faf39fd9132b5
 msgid "PB-03F模块支持蓝牙小程序扫码连接控制吗"
-msgstr "Does the PB-03F module support Bluetooth mini program QR-code scanning connection and control?"
+msgstr ""
+"Does the PB-03F module support Bluetooth mini program QR-code scanning "
+"connection and control?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:269 e2976b0b2f8e4d6fa0814b2674820236
+#: ../source/docs/software-framework/bt/bt.rst:269
+#: 2797814ced124cbc86a8ab3c631e0e94
 msgid "模组支持，需要对模块进行片上开发实现"
 msgstr "The module supports this, but on-chip development is required."
 
-#: ../../source/docs/software-framework/bt/bt.rst:272 a6e6f53aa6a7450fbd3a9046c1248a92
+#: ../source/docs/software-framework/bt/bt.rst:272
+#: c904e35398d94cadbbc291fca66751ba
 msgid "PB02能传音乐吗"
 msgstr "Can PB-02 transmit music?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:276 86d0cf68eefc40499cfc3f71b83cd321
+#: ../source/docs/software-framework/bt/bt.rst:276
+#: b7a344605ab946c191a9cb7e5fe74842
 msgid "请问PB-03开发板能传输传感器数据么？"
 msgstr "Can the PB-03 development board transmit sensor data?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:277 3681721e1192489db87a4e463fb1fe6f
+#: ../source/docs/software-framework/bt/bt.rst:277
+#: 4cbeb0a3099a43a6a495fbf6ac19ed54
 msgid "可以；"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/bt/bt.rst:280 30e5cee92be447848bf64b51bfde4811
+#: ../source/docs/software-framework/bt/bt.rst:280
+#: ab33cc28d3644b62991a2b4b01da4705
 msgid "请问PB-02支持三个模组同时连接么？"
 msgstr "Does PB-02 support simultaneous connection of three modules?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:281 06a0954f228449758700155f4b0bbae2
+#: ../source/docs/software-framework/bt/bt.rst:281
+#: 4583716135b54fc3a87e82d46c6546cb
 msgid "当前只支持点对点连接；"
 msgstr "Currently, only point-to-point connection is supported."
 
-#: ../../source/docs/software-framework/bt/bt.rst:284 4817a7cd6fb44fcdb6fead335442b94c
+#: ../source/docs/software-framework/bt/bt.rst:284
+#: cee4a1958137409e9c9405b9736a97e1
 msgid "请问贵司有支持pcie或者USB3.0的WiFi蓝牙模块么？"
-msgstr "Does your company have Wi-Fi/Bluetooth modules that support PCIe or USB 3.0?"
+msgstr ""
+"Does your company have Wi-Fi/Bluetooth modules that support PCIe or USB 3.0?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:288 fbfe2c1e2acf40bca300e28a592ff16f
+#: ../source/docs/software-framework/bt/bt.rst:288
+#: 27dbd42ad86744198c256f22f6a17e60
 msgid "请问我们板子用UART与PB-03F模组通讯，需要改板子上的程序么？"
-msgstr "If our board communicates with the PB-03F module via UART, do we need to modify the board program?"
+msgstr ""
+"If our board communicates with the PB-03F module via UART, do we need to "
+"modify the board program?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:289 d90d0fe242f74ad7b79ca4bcff1cda08
+#: ../source/docs/software-framework/bt/bt.rst:289
+#: d596a2cf62f34891a27c8007608eb26c
 msgid "用AT指令完成通讯即可"
 msgstr "Communication can be completed using AT commands."
 
-#: ../../source/docs/software-framework/bt/bt.rst:292 fb9cb570723b4fb7ad78b76089a674e2
+#: ../source/docs/software-framework/bt/bt.rst:292
+#: 2af2edba78a54d4fa84f82cb6f4ad6f2
 msgid "请问WB2-12F可无缝替换8266么？请问PWM频率多大呢？"
 msgstr "Can WB2-12F seamlessly replace ESP8266? What is the PWM frequency?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:293 6c32a0b26f7649a4b86f0fdc25cf7dd1
+#: ../source/docs/software-framework/bt/bt.rst:293
+#: ad00b685657c4cd199dfa0910a08ed8b
 msgid "芯片不一样，需研究各个引脚是否可映射通一种的功能；最高支持40M；"
-msgstr "The chips are different, so you need to check whether each pin can be mapped to the same function. The maximum supported frequency is 40MHz."
+msgstr ""
+"The chips are different, so you need to check whether each pin can be mapped "
+"to the same function. The maximum supported frequency is 40MHz."
 
-#: ../../source/docs/software-framework/bt/bt.rst:296 740de47ab7044290b6c51c19a7419b85
+#: ../source/docs/software-framework/bt/bt.rst:296
+#: 6850484d33c44261bab4059b2ba6e071
 msgid "PB-03F可以相互通信吗"
 msgstr "Can PB-03F modules communicate with each other?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:297 d10ec5fca3614695922cf7beee0007fc
+#: ../source/docs/software-framework/bt/bt.rst:297
+#: ca8b8a2ac7544dcc88c99860e4ce73ba
 msgid "可以，一个设置为主机模式，一个设置为从机模式"
 msgstr "Yes. Configure one as master mode and the other as slave mode."
 
-#: ../../source/docs/software-framework/bt/bt.rst:300 db3eba16a548456fad822ab745559feb
+#: ../source/docs/software-framework/bt/bt.rst:300
+#: 37fc45b1217943fe9183177f836c1c05
 msgid "PB-03模组可以AOA定位吗"
 msgstr "Can PB-03 module support AOA positioning?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:301 785f5ed1bb6b4cf19146699705a2580c
+#: ../source/docs/software-framework/bt/bt.rst:301
+#: 2a0bad77786741f1955ee968f8801378
 msgid "目前固件不支持AOA定位功能"
 msgstr "The current firmware does not support AOA positioning."
 
-#: ../../source/docs/software-framework/bt/bt.rst:304 140153ec55cc4b01bcd8e4a8dafbeb89
+#: ../source/docs/software-framework/bt/bt.rst:304
+#: 949a292918f64abc981586b74721136e
 msgid "PB-03模组可以通过串口进行调参吗"
 msgstr "Can PB-03 module be tuned through the serial port?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:305 8a53f69f2f7247ee8ff58d3a6837db48
+#: ../source/docs/software-framework/bt/bt.rst:305
+#: b1837ef03c2e4cbf9ec72d3c7a9dd601
 msgid "可以，通过串口发送AT指令进行参数设置"
-msgstr "Yes. Parameters can be set by sending AT commands through the serial port."
+msgstr ""
+"Yes. Parameters can be set by sending AT commands through the serial port."
 
-#: ../../source/docs/software-framework/bt/bt.rst:308 939cd95de38d48b58f5261102c94731b
+#: ../source/docs/software-framework/bt/bt.rst:308
+#: 50b6c4bb8e2248d0bb9bded5e33fcbae
 msgid "PB系列的MESH支持睡眠功能吗，可以远程唤醒不"
-msgstr "Does the PB series Mesh support sleep mode? Can it be woken up remotely?"
+msgstr ""
+"Does the PB series Mesh support sleep mode? Can it be woken up remotely?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:309 a1f98dc5ffd94d08913e8c67736d4dc5
-msgid "目前MESH固件没有集成睡眠和远程唤醒功能。如需实现，需要对模组进行二次开发"
-msgstr "The current Mesh firmware does not integrate sleep and remote wake-up functions. If required, secondary development of the module is needed."
+#: ../source/docs/software-framework/bt/bt.rst:309
+#: 1fe0faaabce546dfaf0386248c449f04
+msgid ""
+"目前MESH固件没有集成睡眠和远程唤醒功能。如需实现，需要对模组进行二次开发"
+msgstr ""
+"The current Mesh firmware does not integrate sleep and remote wake-up "
+"functions. If required, secondary development of the module is needed."
 
-#: ../../source/docs/software-framework/bt/bt.rst:312 8638bcb4f9a34116bb42d34748827211
+#: ../source/docs/software-framework/bt/bt.rst:312
+#: 416f56e526024b6a8db4a431b144eefb
 msgid "PB-02模组可以连接蓝牙耳机吗"
 msgstr "Can the PB-02 module connect to Bluetooth earphones?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:313 e808055e71f14d559bf557aba848cced
+#: ../source/docs/software-framework/bt/bt.rst:313
+#: 8b5a37637491475199f6ecdfe1752cde
 msgid "不可以，蓝牙耳机为BT经典蓝牙通讯协议，模组不支持连接"
-msgstr "No. Bluetooth earphones use the Classic Bluetooth communication protocol, and the module does not support connecting to them."
+msgstr ""
+"No. Bluetooth earphones use the Classic Bluetooth communication protocol, "
+"and the module does not support connecting to them."
 
-#: ../../source/docs/software-framework/bt/bt.rst:316 e6265865aa2b4374b91e19f1624a8658
+#: ../source/docs/software-framework/bt/bt.rst:316
+#: ed4bbc5b1a314aa7a87fb925244d4a03
 msgid "PB-02为什么不能用手机蓝牙直接连接"
 msgstr "Why can't PB-02 be directly connected using the phone's Bluetooth?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:317 4939fd87926f4603a400d6c83fe98712
+#: ../source/docs/software-framework/bt/bt.rst:317
+#: c6b3b11071244ca49b939da57cf7d9bc
 msgid "手机蓝牙属于经典蓝牙功能，PB02属于BLE蓝牙，BLE蓝牙需通过APP进行连接"
-msgstr "The phone's Bluetooth belongs to Classic Bluetooth functionality, while PB-02 is BLE Bluetooth. BLE Bluetooth needs to be connected through an app."
+msgstr ""
+"The phone's Bluetooth belongs to Classic Bluetooth functionality, while "
+"PB-02 is BLE Bluetooth. BLE Bluetooth needs to be connected through an app."
 
-#: ../../source/docs/software-framework/bt/bt.rst:320 ee6e8f56c51848d3a1072cdbee986dd4
+#: ../source/docs/software-framework/bt/bt.rst:320
+#: 574f1065e40f40afb7d01bb669323a4c
 msgid "哪款蓝牙模组支持HID功能"
 msgstr "Which Bluetooth module supports HID functionality?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:321 d3a4ed33469a499587b06c066f2c7fd9
+#: ../source/docs/software-framework/bt/bt.rst:321
+#: 9f62b763c703437cad9ecbbdf51b2b83
 msgid "TB,PB系列都支持，不过需要做开发实现"
 msgstr "Both TB and PB series support it, but development is required."
 
-#: ../../source/docs/software-framework/bt/bt.rst:324 97df5c65f8ba49b59478fed518be3745
+#: ../source/docs/software-framework/bt/bt.rst:324
+#: 7a92f4c50c684ccfae66de708eed4ae2
 msgid "请问PB-03模组使用什么工具做开发的呢？"
 msgstr "What development tool is used for the PB-03 module?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:325 f6e0616066d44dff98bb7fcf32d40fd5
-msgid "用keil开发工具。二次开发获取 `获取链接  <https://docs.ai-thinker.com/blue_tooth_pb>`__ .. image:: img/PBDOCS.png"
-msgstr "Keil is used as the development tool. For secondary development, use `Download link <https://docs.ai-thinker.com/blue_tooth_pb>`__ .. image:: img/PBDOCS.png"
+#: ../source/docs/software-framework/bt/bt.rst:325
+#: 369d5d8cdd164a35b11566a11c20fc2e
+msgid ""
+"用keil开发工具。二次开发获取 `获取链接  <https://docs.ai-thinker.com/"
+"blue_tooth_pb>`__ .. image:: img/PBDOCS.png"
+msgstr ""
+"Keil is used as the development tool. For secondary development, use "
+"`Download link <https://docs.ai-thinker.com/blue_tooth_pb>`__ .. image:: img/"
+"PBDOCS.png"
 
-#: ../../source/docs/software-framework/bt/bt.rst:329 b4828de654f74a05b65e3cf6d64bdc62
+#: ../source/docs/software-framework/bt/bt.rst:329
+#: 1e93cecc7a0848a0b3e52cb3e17177a1
 msgid "请问为何PB-03模组编译好的hex文件烧录的时候显示为非法固件？"
-msgstr "Why does the compiled hex file for the PB-03 module show as illegal firmware during flashing?"
+msgstr ""
+"Why does the compiled hex file for the PB-03 module show as illegal firmware "
+"during flashing?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:330 d208ec947cac4dd0912aab209a0537a0
+#: ../source/docs/software-framework/bt/bt.rst:330
+#: 0c83fc8abec645bab968de037ef77400
 msgid "要烧录hexf文件。"
 msgstr "You need to flash a hexf file."
 
-#: ../../source/docs/software-framework/bt/bt.rst:333 751e24892b674240b68762d7d5c35c47
+#: ../source/docs/software-framework/bt/bt.rst:333
+#: 9935c4f8834843c3a486e745ede710f6
 msgid "请问TB-04模组的mesh固件支持透传功能么？"
-msgstr "Does the TB-04 module's Mesh firmware support transparent transmission?"
+msgstr ""
+"Does the TB-04 module's Mesh firmware support transparent transmission?"
 
-#: ../../source/docs/software-framework/bt/bt.rst:334 9a916e45984a41d1b0217e8f7d980f0b
+#: ../source/docs/software-framework/bt/bt.rst:334
+#: 7778d784d2d4482cacee2fe92fecaf70
 msgid "BLE MESH功能不支持透传功能。"
 msgstr "BLE Mesh does not support transparent transmission."

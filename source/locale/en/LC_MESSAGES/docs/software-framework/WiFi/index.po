@@ -8,53 +8,48 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/WiFi/index.rst:3 dfe3134fba2440c1a8c58bbf61db525a
+#: ../source/docs/software-framework/WiFi/index.rst:2
+#: e58cb3dc33bd49caa4818ca38ab80a55
 msgid "WiFi"
 msgstr "Wi-Fi"
 
-#: ../../source/docs/software-framework/WiFi/index.rst:4 bcbeb745ebda469886f6e44268b74429
+#: ../source/docs/software-framework/WiFi/index.rst:3
+#: d2fb2e9b179c4943ad7c85733b11e6b7
 msgid "这里汇集了我司模组使用开发的常见问题"
-msgstr "This section gathers frequently asked questions about the use and development of our modules."
+msgstr ""
+"This section gathers frequently asked questions about the use and "
+"development of our modules."
 
-#: ../../source/docs/software-framework/WiFi/index.rst:7 1e8fe32b704e4d9191b97d55a5bc1f2b
-msgid "乐鑫系列相关"
-msgstr "Espressif Series"
-
-#: ../../source/docs/software-framework/WiFi/index.rst:15 46515561911f4fd681acdd940615ddff
+#: ../source/docs/software-framework/WiFi/index.rst:7
+#: e54236cad5d948a3b8e30a5329fbdf0b
 msgid "博流系列相关"
 msgstr "Bouffalo Lab Series"
 
-#: ../../source/docs/software-framework/WiFi/index.rst:23 ac9feafbf52b405eaa5b811a3fae4356
-msgid "海思系列相关"
-msgstr "HiSilicon Series"
-
-#: ../../source/docs/software-framework/WiFi/index.rst:32 9b91023ca9ad43a4b8950f1f06bb89b7
+#: ../source/docs/software-framework/WiFi/index.rst:18
+#: c3cf1bdb79fd4af6a3ecb95f849159b1
 msgid "RTL87XX系列"
 msgstr "RTL87XX Series"
 
-#: ../../source/docs/software-framework/WiFi/index.rst:42 57a8a1e3210344fc8534513e5d08355f
+#: ../source/docs/software-framework/WiFi/index.rst:28
+#: f7089214f69f4bda886364c7bab7330a
 msgid "平头哥系列"
 msgstr "T-Head Series"
 
-#: ../../source/docs/software-framework/WiFi/index.rst:52 ccf02e416ead4b768a5ceb3f8ef3f28c
-msgid "全志XW系列"
-msgstr "Allwinner XW Series"
-
-#: ../../source/docs/software-framework/WiFi/index.rst:62 7a35d10c408a431eaaebed34252fb794
-msgid "W800系列"
-msgstr "W800 Series"
-
-#: ../../source/docs/software-framework/WiFi/index.rst:72 f0e44d1486e847b69a9a7d01b1050500
+#: ../source/docs/software-framework/WiFi/index.rst:38
+#: 602bb26839ab47779cb32099c5a21568
 msgid "Ai-M61系列"
 msgstr "Ai-M61 Series"
+
+#~ msgid "瑞昱系列"
+#~ msgstr "RTL87XX Series"

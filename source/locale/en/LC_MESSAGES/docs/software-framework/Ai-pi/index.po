@@ -8,41 +8,57 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/Ai-pi/index.rst:2 1f8f4d9455fb425a873d4c12a655d6bb
+#: ../source/docs/software-framework/Ai-pi/index.rst:2
+#: b812d9ea087f471b83279ef605bf1916
 msgid "开源硬件-小安派系列"
 msgstr "Open-Source Hardware - AiPi Series"
 
-#: ../../source/docs/software-framework/Ai-pi/index.rst:16 880d2b2df73645dcaa7c5b2b3f5eef18
+#: ../source/docs/software-framework/Ai-pi/index.rst:16
+#: dea5bfe5f61c489aad99e01750047b60
 msgid "小安派开发板能驱动60pin的屏幕吗"
 msgstr "Can the AiPi development board drive a 60-pin screen?"
 
-#: ../../source/docs/software-framework/Ai-pi/index.rst:17 e92f4d1f16bf45afb550e49ae5bd8641
+#: ../source/docs/software-framework/Ai-pi/index.rst:17
+#: 3caf8ac8bf474e9dadacb7c0cb3c58a7
 msgid "不能，开发板内部没有这么多引脚接到屏幕上"
-msgstr "No. The development board does not have enough internal pins connected to the screen."
+msgstr ""
+"No. The development board does not have enough internal pins connected to "
+"the screen."
 
-#: ../../source/docs/software-framework/Ai-pi/index.rst:20 48f8a0b6bd714ea6a551d39beb81b74b
+#: ../source/docs/software-framework/Ai-pi/index.rst:20
+#: ee8574c954c84a528746d4d363e26678
 msgid "小安派开发板的屏幕和摄像头能同时使用吗"
-msgstr "Can the screen and camera of the AiPi development board be used at the same time?"
+msgstr ""
+"Can the screen and camera of the AiPi development board be used at the same "
+"time?"
 
-#: ../../source/docs/software-framework/Ai-pi/index.rst:21 13e0017b07854061bf3e130374a834b5
-msgid "不能同时使用，因为这两个外设都占用一些相同的引脚，同时使用会导致外设无法正常工作"
-msgstr "No, they cannot be used at the same time, because these two peripherals occupy some of the same pins. Using them simultaneously will cause the peripherals to fail to work properly."
+#: ../source/docs/software-framework/Ai-pi/index.rst:21
+#: 0ca38eacab9a47598edaad1e30a58d31
+msgid ""
+"不能同时使用，因为这两个外设都占用一些相同的引脚，同时使用会导致外设无法正常"
+"工作"
+msgstr ""
+"No, they cannot be used at the same time, because these two peripherals "
+"occupy some of the same pins. Using them simultaneously will cause the "
+"peripherals to fail to work properly."
 
-#: ../../source/docs/software-framework/Ai-pi/index.rst:24 debd25267b2c490dbeb62692c1a62f0b
+#: ../source/docs/software-framework/Ai-pi/index.rst:24
+#: 212c61fd8c4548a98ba23562f68faa1e
 msgid "小安派-Eyes开发板有语音识别功能吗"
 msgstr "Does the AiPi-Eyes development board have voice recognition?"
 
-#: ../../source/docs/software-framework/Ai-pi/index.rst:25 f1b2db9d3a3040f98d561ec5f20f6fbd
+#: ../source/docs/software-framework/Ai-pi/index.rst:25
+#: 91ddc680db0248c3825b36d106dc1484
 msgid "没有，目前该板子没有集成语音识别功能"
 msgstr "No. Currently, this board does not integrate voice recognition."

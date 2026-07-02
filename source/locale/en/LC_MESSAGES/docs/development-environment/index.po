@@ -8,29 +8,28 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/development-environment/index.rst:4 24225cc84c674c14aefa01318d4e888b
+#: ../source/docs/development-environment/index.rst:4
+#: 41617216be994e32ac87e20c82a23e31
 msgid "开发环境"
 msgstr "Development Environment"
 
-#: ../../source/docs/development-environment/index.rst:7 26043bf5caea40748b291d770abcab90
-msgid "espressif 乐鑫系列"
-msgstr "Espressif Series"
-
-#: ../../source/docs/development-environment/index.rst:15 02729e1557ac4d49aee71cf9ca889bdf
+#: ../source/docs/development-environment/index.rst:8
+#: 245c35f51da546a6a786556bb25a7b64
 msgid "蓝牙系列"
 msgstr "Bluetooth Series"
 
-#: ../../source/docs/development-environment/index.rst:23 fe6d28c4e0f343618c1fc126817eded2
+#: ../source/docs/development-environment/index.rst:16
+#: 34ea186e06c94c75a48ffb89f5b42f6e
 msgid "平头哥模组"
 msgstr "T-Head Modules"

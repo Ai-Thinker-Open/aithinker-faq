@@ -8,113 +8,120 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/index.rst:2 4073a270810141bebce511d533cb8a79
+#: ../source/index.rst:2 d6a1b45c37e6423f89a7c99a6073718e
 msgid "AiThinker-FAQ"
 msgstr "AiThinker-FAQ"
 
-#: ../../source/index.rst:5 fe921b48af7d4621b64cf40a884badac
-msgid "AiThinker-FAQ 是由安信可官方推出的针对常见问题的总结。在线帮助我们的用户快速检索经常问到的问题，通过简单的解释获得解答。"
-msgstr "AiThinker-FAQ is an official summary of frequently asked questions released by Ai-Thinker. It helps our users quickly search online for frequently asked questions and obtain answers through simple explanations."
+#: ../source/index.rst:5 e1e60c486d984e4f9fcb6a137cb3e0c2
+msgid ""
+"AiThinker-FAQ 是由安信可官方推出的针对常见问题的总结。在线帮助我们的用户快速"
+"检索经常问到的问题，通过简单的解释获得解答。"
+msgstr ""
+"AiThinker-FAQ is an official summary of frequently asked questions released "
+"by Ai-Thinker. It helps our users quickly search online for frequently asked "
+"questions and obtain answers through simple explanations."
 
-#: ../../source/index.rst:8 2e95904169b14be4af14d495c302daf0
+#: ../source/index.rst:8 a646efba3d53427daa3a8f7cecb08a45
 msgid "|使用说明|_"
 msgstr "|Instructions|_"
 
-#: ../../source/index.rst:19 dfccdab408e74868ab748a6be30ca3af
+#: ../source/index.rst:19 6f4c25a5a0d147229b22b2b35caed79a
 msgid "使用说明"
 msgstr "Instructions"
 
-#: ../../source/index.rst:8 f6603e9bda874b1b935d3ceff0da9103
+#: ../source/index.rst:8 df848b1b43ae44429d93e601a35c8a31
 msgid "|开发环境|_"
 msgstr "|Development Environment|_"
 
-#: ../../source/index.rst:22 e13c40e7202d4875899cbe4acaddbfc1
+#: ../source/index.rst:22 968b21c01fe94bd4a83372ed236ef588
 msgid "开发环境"
 msgstr "Development Environment"
 
-#: ../../source/index.rst:8 af33d770301a459697ccce424881fc2d
+#: ../source/index.rst:8 48b6ff9e8caa4c378eb45bc8888b7e1f
 msgid "|应用方案|_"
 msgstr "|Application Solution|_"
 
-#: ../../source/index.rst:25 59b46c9838f341ecaeb3893248426083
+#: ../source/index.rst:25 e19718176e54466aa4161b219a9ec581
 msgid "应用方案"
 msgstr "Application Solution"
 
-#: ../../source/index.rst:10 df4461a791fd4c5ba6c62a3076deb63b
+#: ../source/index.rst:10 a939bf0b66974cdd8d6423ba09777ecf
 msgid "`使用说明`_"
 msgstr "`Instructions`_"
 
-#: ../../source/index.rst:10 d888fc53fae7443b83b0a4bf8673bfb6
+#: ../source/index.rst:10 d00836ace54a4c70abc590abf8dad218
 msgid "`开发环境`_"
 msgstr "`Development Environment`_"
 
-#: ../../source/index.rst:10 3015cdf7dd034a2d8dfc4133fc6d2604
+#: ../source/index.rst:10 7f608226ad0f49338dd5205d58a6f5a4
 msgid "`应用方案`_"
 msgstr "`Application Solution`_"
 
-#: ../../source/index.rst:12 02d86cbce3354077b06531c58456449d
+#: ../source/index.rst:12 895748daa91f4411916a954476ed9df6
 msgid "|软件使用|_"
 msgstr "|Software Usage|_"
 
-#: ../../source/index.rst:28 14affe840fe645fbacfbba57b865df55
+#: ../source/index.rst:28 0793b45a93d746a6b2e4fab05a289d2c
 msgid "软件使用"
 msgstr "Software Usage"
 
-#: ../../source/index.rst:12 22580e5659db4d86bc0bcb2a3a9d4c3a
+#: ../source/index.rst:12 b4b9da761ec742feb25395c5d6363aae
 msgid "|硬件相关|_"
 msgstr "|Hardware Related|_"
 
-#: ../../source/index.rst:31 1eba809d6b384be6a8282ed544752762
+#: ../source/index.rst:31 c645a2fc8db84df7af50f8fb8be6a4a2
 msgid "硬件相关"
 msgstr "Hardware Related"
 
-#: ../../source/index.rst:12 1df1789896094dd994911523ef86fcdb
+#: ../source/index.rst:12 0ffa66e328f84363ac9e85dc9e03213f
 msgid "|出厂固件|_"
 msgstr "|Factory Firmware|_"
 
-#: ../../source/index.rst:34 c806ff6a0b7148eca31b51b889ac92fa
+#: ../source/index.rst:34 7689ffc735124b7aabdc3c613c2e4ffc
 msgid "出厂固件"
 msgstr "Factory Firmware"
 
-#: ../../source/index.rst:14 99c59fc74f20451db2189d016887dba0
+#: ../source/index.rst:14 50dad52b26954a459f1ef98d25311e70
 msgid "`软件使用`_"
 msgstr "`Software Usage`_"
 
-#: ../../source/index.rst:14 e0715fcc5c4947e79e2534d76f5543b4
+#: ../source/index.rst:14 d5dde24132f842b7994b41604f795ada
 msgid "`硬件相关`_"
 msgstr "`Hardware Related`_"
 
-#: ../../source/index.rst:14 c5590fdbb3924199becf1c9884d6eead
+#: ../source/index.rst:14 34c0894a2e3f41279f78ef4b2ba537de
 msgid "`出厂固件`_"
 msgstr "`Factory Firmware`_"
 
-#: ../../source/index.rst:40 780a912911094c34a66fff4eec739b7d
+#: ../source/index.rst:40 e52714b4b32c40ed931c1634d7fc2db5
 msgid "联系我们"
 msgstr "Contact Us"
 
-#: ../../source/index.rst:41 6bdcc1270c7c410f8f84bd23940d5fc1
+#: ../source/index.rst:41 5a535e3a77714a5eb3a5443ec3565601
 msgid "样品购买： https://anxinke.taobao.com"
 msgstr "Sample purchase: https://anxinke.taobao.com"
 
-#: ../../source/index.rst:42 75fd9c7a5dcd47a7b060baafc3959e13
+#: ../source/index.rst:42 0443dea22e764c13a3d67b19ab8fb009
 msgid "样品资料： https://docs.ai-thinker.com"
 msgstr "Sample documentation: https://docs.ai-thinker.com"
 
-#: ../../source/index.rst:43 fbc70b59b3ae4dcb839a4593501ad8c5
+#: ../source/index.rst:43 0c86dfd4e220459daa0c6762f5db542b
 msgid "商务合作： 0755-29162996"
 msgstr "Business cooperation: 0755-29162996"
 
-#: ../../source/index.rst:44 540fd5a24d0a4c7db99e831bc5d50c97
+#: ../source/index.rst:44 6c54753db8a44316929ae9dfb680cc80
 msgid "公司地址： 深圳市宝安区西乡固戍华丰智慧创新港C栋410"
-msgstr "Company address: Room 410, Building C, Huafeng Smart Innovation Port, Gushu, Xixiang, Bao'an District, Shenzhen"
+msgstr ""
+"Company address: Room 410, Building C, Huafeng Smart Innovation Port, Gushu, "
+"Xixiang, Bao'an District, Shenzhen"

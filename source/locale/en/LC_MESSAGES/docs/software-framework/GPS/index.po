@@ -8,21 +8,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/GPS/index.rst:9 484c23efb9a64db7b3d5ff0d1c6d3c3a
+#: ../source/docs/software-framework/GPS/index.rst:9
+#: 20e6323b3d844053bfcf77266563e1bb
 msgid "BG系列"
 msgstr "BG Series"
 
-#: ../../source/docs/software-framework/GPS/index.rst:19 d6262cbb9a534995b2b2c6d76bf66db1
+#: ../source/docs/software-framework/GPS/index.rst:19
+#: d326f7fc8836419195df55f15939e0ba
 msgid "GP系列"
 msgstr "GP Series"

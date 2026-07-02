@@ -8,206 +8,304 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/Rd/index.rst:2 efc9a2cf703c482283b5f3ac98b12646
+#: ../source/docs/software-framework/Rd/index.rst:2
+#: c257172a0afc4831998a3c48fc86be0e
 msgid "雷达模组系列"
 msgstr "Radar Module Series"
 
-#: ../../source/docs/software-framework/Rd/index.rst:16 a8ce3c13c5094b3e973f15c9f3e3928b
+#: ../source/docs/software-framework/Rd/index.rst:16
+#: 34a7533508934f12bcdca3d6f94ff83f
 msgid "Rd-01模组的上位机以及搭建环境在哪儿获取？"
-msgstr "Where can I obtain the host computer software and environment setup for the Rd-01 module?"
+msgstr ""
+"Where can I obtain the host computer software and environment setup for the "
+"Rd-01 module?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:17 f3a25b67b2b64481831374867c168dc3
-msgid "资料获取链接： `参考链接  <https://docs.ai-thinker.com/radar>`__ 开发环境以及上位机使用见博文： `参考链接  <https://blog.csdn.net/Boantong_/article/details/130235376>`__"
-msgstr "Data download link: `Reference link <https://docs.ai-thinker.com/radar>`__ For the development environment and host computer software usage, please refer to the blog post: `Reference link <https://blog.csdn.net/Boantong_/article/details/130235376>`__"
+#: ../source/docs/software-framework/Rd/index.rst:17
+#: 06297b0022c04ffc995af0540a67b829
+msgid ""
+"资料获取链接： `参考链接  <https://docs.ai-thinker.com/radar>`__ 开发环境以及"
+"上位机使用见博文： `参考链接  <https://blog.csdn.net/Boantong_/article/"
+"details/130235376>`__"
+msgstr ""
+"Data download link: `Reference link <https://docs.ai-thinker.com/radar>`__ "
+"For the development environment and host computer software usage, please "
+"refer to the blog post: `Reference link <https://blog.csdn.net/Boantong_/"
+"article/details/130235376>`__"
 
-#: ../../source/docs/software-framework/Rd/index.rst:23 d54b2d5b1a5f42479e393ee696d749c4
+#: ../source/docs/software-framework/Rd/index.rst:23
+#: ea1695d1a93a4bd495a61d09c59d8a9d
 msgid "Rd-01模组二次开发资料中，哪些是蓝牙那边的资料？"
-msgstr "In the secondary development materials of the Rd-01 module, which materials are related to Bluetooth?"
+msgstr ""
+"In the secondary development materials of the Rd-01 module, which materials "
+"are related to Bluetooth?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:24 4a4e57d1c2aa47ce88f51d66fa86def7
+#: ../source/docs/software-framework/Rd/index.rst:24
+#: 46cd9d02809446c48a6bf12b47d5937d
 msgid "SDK中的Ai-Thinker-WB2子模块中application下Bluetooth即为蓝牙相关用例。"
-msgstr "In the SDK, the Bluetooth-related examples are under application/Bluetooth in the Ai-Thinker-WB2 submodule."
+msgstr ""
+"In the SDK, the Bluetooth-related examples are under application/Bluetooth "
+"in the Ai-Thinker-WB2 submodule."
 
-#: ../../source/docs/software-framework/Rd/index.rst:27 5d1c5005b8f04727835be66062c50f6f
+#: ../source/docs/software-framework/Rd/index.rst:27
+#: d9154b3bf8364bb5900e7af2326d1800
 msgid "Rd-01模组能接入天猫精灵平台么？"
 msgstr "Can the Rd-01 module be connected to the Tmall Genie platform?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:28 1a981377c11343ce91b409d58eca87ef
+#: ../source/docs/software-framework/Rd/index.rst:28
+#: 737039ef1b80419d9bd72e4a2f9f3801
 msgid "不能。"
 msgstr "No."
 
-#: ../../source/docs/software-framework/Rd/index.rst:31 99bf27c7bb8849c09ddd188f92d1f820
+#: ../source/docs/software-framework/Rd/index.rst:31
+#: 47048467d35f465593b8eb1f57110bbf
 msgid "请问：Rd-01模组可以用arduino做开发吗？"
 msgstr "Can the Rd-01 module be developed with Arduino?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:32 29f4dfc7f99a47f793173473a0ddb8db
+#: ../source/docs/software-framework/Rd/index.rst:32
+#: 54e6ce6cc5b94ca18e885a11cbca139a
 msgid "不支持。"
 msgstr "Not supported."
 
-#: ../../source/docs/software-framework/Rd/index.rst:35 f23c1222d3cf4a4d9829c366d9a7c744
+#: ../source/docs/software-framework/Rd/index.rst:35
+#: 24285261a6cc43ba8a0fe41e3c3ad9db
 msgid "Rd-01雷达模组可以监测出空间中人的数量吗，最多可以监测到几个人"
-msgstr "Can the Rd-01 radar module detect the number of people in a space? What is the maximum number of people it can detect?"
+msgstr ""
+"Can the Rd-01 radar module detect the number of people in a space? What is "
+"the maximum number of people it can detect?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:36 1c8a8dffd5c34d8fbe774d8800d48061
-msgid "可以监测人的数量，需做二次开发实现，最多能监测到多少个人得看代码处理逻辑"
-msgstr "It can detect the number of people, but secondary development is required. The maximum number of people that can be detected depends on the code processing logic."
+#: ../source/docs/software-framework/Rd/index.rst:36
+#: 67049bc4ddc241cd94697f06715d0b6d
+msgid ""
+"可以监测人的数量，需做二次开发实现，最多能监测到多少个人得看代码处理逻辑"
+msgstr ""
+"It can detect the number of people, but secondary development is required. "
+"The maximum number of people that can be detected depends on the code "
+"processing logic."
 
-#: ../../source/docs/software-framework/Rd/index.rst:39 93ce5cb18fa04e63b23a0f3393fb3a16
+#: ../source/docs/software-framework/Rd/index.rst:39
+#: 894a80fbe7414348b8b19ad11c00b5e4
 msgid "Rd-01模块探测角度可调吗"
 msgstr "Can the detection angle of the Rd-01 module be adjusted?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:40 8c64351f65f446d4968aaa0b70930619
+#: ../source/docs/software-framework/Rd/index.rst:40
+#: ecc2411579534c2783d4f2ca88176884
 msgid "模块不可以调整探测角度"
 msgstr "The detection angle of the module cannot be adjusted."
 
-#: ../../source/docs/software-framework/Rd/index.rst:43 547a206bea594b71a08bae3296640c09
+#: ../source/docs/software-framework/Rd/index.rst:43
+#: 9845542fc26f4611beccfc210fe381e9
 msgid "Rd-01模块上面有人体感应芯片吗"
 msgstr "Does the Rd-01 module have a human presence sensing chip?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:44 d6a0b2de228d447394cc807420badd87
+#: ../source/docs/software-framework/Rd/index.rst:44
+#: 5f098a0e91094ca48e78c500b3f2bdf9
 msgid "有，这款模组是由WIFI+BLE+雷达芯片组成的，可以进行人体感应"
-msgstr "Yes. This module consists of Wi-Fi + BLE + radar chip and can perform human presence sensing."
+msgstr ""
+"Yes. This module consists of Wi-Fi + BLE + radar chip and can perform human "
+"presence sensing."
 
-#: ../../source/docs/software-framework/Rd/index.rst:47 2912d33add0447558fbf95e4ed48549e
+#: ../source/docs/software-framework/Rd/index.rst:47
+#: ae437e9f9c914d65bbd43bd428cbe2a3
 msgid "Rd-01雷达模组不接WIFI天线能否使用"
-msgstr "Can the Rd-01 radar module be used without connecting the Wi-Fi antenna?"
+msgstr ""
+"Can the Rd-01 radar module be used without connecting the Wi-Fi antenna?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:48 33d6dcc36b82462cabc44755b9f65f19
+#: ../source/docs/software-framework/Rd/index.rst:48
+#: fdc191895aaf436c9c576c07458d704f
 msgid "模块上雷达芯片的天线是板载的，可以使用雷达功能"
-msgstr "The antenna of the radar chip on the module is onboard, so the radar function can be used."
+msgstr ""
+"The antenna of the radar chip on the module is onboard, so the radar "
+"function can be used."
 
-#: ../../source/docs/software-framework/Rd/index.rst:51 e8344268216f4d1cb8835a48e558485a
+#: ../source/docs/software-framework/Rd/index.rst:51
+#: 6bc67a6eca124b03b2570e1242070249
 msgid "Rd-01模块可以感应多远距离，安装在空调内合适吗"
-msgstr "How far can the Rd-01 module sense? Is it suitable to install inside an air conditioner?"
+msgstr ""
+"How far can the Rd-01 module sense? Is it suitable to install inside an air "
+"conditioner?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:52 8c06591704e640b4ba7ba79ec71e3fab
+#: ../source/docs/software-framework/Rd/index.rst:52
+#: c61070e18f0342fda495bba6b14a7587
 msgid "感应距离5米，可安装在空调内进行使用"
-msgstr "The sensing distance is 5 meters. It can be installed inside an air conditioner for use."
+msgstr ""
+"The sensing distance is 5 meters. It can be installed inside an air "
+"conditioner for use."
 
-#: ../../source/docs/software-framework/Rd/index.rst:55 bacdd2e7c6d548d1bd770834ce1f1391
+#: ../source/docs/software-framework/Rd/index.rst:55
+#: 9aa5ed5ed648413da8319d8880919193
 msgid "Rd-01模块能检测到静止的人吗"
 msgstr "Can the Rd-01 module detect a stationary person?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:56 b02b0b58a4d045ce8add6be79d4d24f2
+#: ../source/docs/software-framework/Rd/index.rst:56
+#: d492418fcf1548989a8a39d3d61844c9
 msgid "模块可实现高灵敏度的人体存在状态感应，识别运动和静止状态下的人体"
-msgstr "The module can achieve high-sensitivity human presence sensing and identify humans in both moving and stationary states."
+msgstr ""
+"The module can achieve high-sensitivity human presence sensing and identify "
+"humans in both moving and stationary states."
 
-#: ../../source/docs/software-framework/Rd/index.rst:59 09c018dc4a8f422d9e297ddedbf3d4a2
+#: ../source/docs/software-framework/Rd/index.rst:59
+#: 2e0dfdfc68da4f72bc817c7835a01ae1
 msgid "请问Rd-01可以按照WB2的AT指令实现组网么?"
 msgstr "Can Rd-01 implement networking according to WB2 AT commands?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:60 b80f9df458b24636b9b6f93a97df7c10
+#: ../source/docs/software-framework/Rd/index.rst:60
+#: 4f588dfaafca47c082ec9b55ea3f8e47
 msgid "不可以，雷达驱动与AT固件是两套东西"
 msgstr "No. The radar driver and AT firmware are two separate things."
 
-#: ../../source/docs/software-framework/Rd/index.rst:63 eb7ebb40d13943c5b266e5e520a4c3c4
+#: ../source/docs/software-framework/Rd/index.rst:63
+#: 406315db26f54ae9b2061cee5bdb0925
 msgid "请问雷达的最短检测距离是？"
 msgstr "What is the minimum detection distance of the radar?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:64 12da05f821ec439ea92807b9513c8458
+#: ../source/docs/software-framework/Rd/index.rst:64
+#: 0b9cdfa19ff54e64ba5cbaed576ce5a7
 msgid "0.75米；"
 msgstr "0.75 meters."
 
-#: ../../source/docs/software-framework/Rd/index.rst:67 fe86fb27e57d4910ab07ec7797acf8ce
+#: ../source/docs/software-framework/Rd/index.rst:67
+#: d20aa7d17f21472e9c051921b49feaed
 msgid "Rd-01模组可以刷esphome固件吗"
 msgstr "Can the Rd-01 module be flashed with ESPHome firmware?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:68 e4b44c7b551c446e94fa988f5c3a0a0f
-msgid "不可以刷，内部芯片方案不同，Rd-01模组使用的是BL602系列芯片，并非ESP系列芯片"
-msgstr "No. The internal chip solution is different. The Rd-01 module uses the BL602 series chip, not an ESP series chip."
+#: ../source/docs/software-framework/Rd/index.rst:68
+#: 4ed63a22f4084198bbc6a3f63ae23cc4
+msgid ""
+"不可以刷，内部芯片方案不同，Rd-01模组使用的是BL602系列芯片，并非ESP系列芯片"
+msgstr ""
+"No. The internal chip solution is different. The Rd-01 module uses the BL602 "
+"series chip, not an ESP series chip."
 
-#: ../../source/docs/software-framework/Rd/index.rst:71 f81da0786c994b2fa649b591a2186b5b
+#: ../source/docs/software-framework/Rd/index.rst:71
+#: fe0d879955114b00841a6f3049199973
 msgid "雷达系列模组能区分物体和人体吗"
 msgstr "Can the radar module series distinguish between objects and people?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:72 2a83b02f6046488eaa8e08cb8d2f62d8
+#: ../source/docs/software-framework/Rd/index.rst:72
+#: bd060f634f7d4cad94a5ef670a9e9f7e
 msgid "不能区分，仅支持监测是否有人无人"
 msgstr "No. It only supports detecting whether someone is present or absent."
 
-#: ../../source/docs/software-framework/Rd/index.rst:75 03631f53bd804272b2623053b8475c6c
+#: ../source/docs/software-framework/Rd/index.rst:75
+#: d5077952e2734c179159f80e42dceb75
 msgid "Rd-01雷达模组可以监测人体心跳和呼吸吗"
 msgstr "Can the Rd-01 radar module detect human heartbeat and breathing?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:76 a475cd3203de42c298fc950266dba01d
+#: ../source/docs/software-framework/Rd/index.rst:76
+#: e8efbde7b9be44abb2b62b0575d917d1
 msgid "不可以监测心跳和呼吸，模组是可感知区域内是否有运动或者微动的人体"
-msgstr "No. It cannot detect heartbeat or breathing. The module can sense whether there is a moving or slightly moving human body in the area."
+msgstr ""
+"No. It cannot detect heartbeat or breathing. The module can sense whether "
+"there is a moving or slightly moving human body in the area."
 
-#: ../../source/docs/software-framework/Rd/index.rst:79 ed16aeee1e00401b94c58fbe7b3a0503
+#: ../source/docs/software-framework/Rd/index.rst:79
+#: 3c394714933f4a769a181f540bcacaeb
 msgid "雷达24g和10g在性能上有什么差异吗"
 msgstr "What are the performance differences between 24G radar and 10G radar?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:80 8e19ed1cd594447a9ae40214ed26d22b
-msgid "10g只能监测运动的人且没有距离信息，24g可以监测运动和静止的人体且有对应的距离信息"
-msgstr "10G radar can only detect moving people and does not provide distance information. 24G radar can detect moving and stationary people and provides corresponding distance information."
+#: ../source/docs/software-framework/Rd/index.rst:80
+#: 3e986bd2d8e447d08bcfd87bcff2c0fc
+msgid ""
+"10g只能监测运动的人且没有距离信息，24g可以监测运动和静止的人体且有对应的距离"
+"信息"
+msgstr ""
+"10G radar can only detect moving people and does not provide distance "
+"information. 24G radar can detect moving and stationary people and provides "
+"corresponding distance information."
 
-#: ../../source/docs/software-framework/Rd/index.rst:83 b47c17026b174b4bb57c9b76973ca62b
+#: ../source/docs/software-framework/Rd/index.rst:83
+#: c2194a264969486ea76df11395106010
 msgid "请问RD-01的开发资料有么？"
 msgstr "Are development materials available for RD-01?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:84 be738077be5a48c8be8ed17d7d5425d4
+#: ../source/docs/software-framework/Rd/index.rst:84
+#: c482394efa5e4715a21856b2071cb7f3
 msgid "`官网  <https://docs.ai-thinker.com/rd-01>`__有，如下："
-msgstr "They are available on the `official website  <https://docs.ai-thinker.com/rd-01>`__, as shown below:"
+msgstr ""
+"They are available on the `official website  <https://docs.ai-thinker.com/"
+"rd-01>`__, as shown below:"
 
-#: ../../source/docs/software-framework/Rd/index.rst:91 3daba4f2fbbb4668bdda338c21c4316c
+#: ../source/docs/software-framework/Rd/index.rst:91
+#: 58b749b96c68491eb3481bb63060515c
 msgid "请问Rd-03的数据帧是16进制的么？"
 msgstr "Are the Rd-03 data frames in hexadecimal?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:92 2a739540dc684fecbfb496afc2860879
+#: ../source/docs/software-framework/Rd/index.rst:92
+#: 00e96f8f768b4b5cb93ed5e15e6328be
 msgid "是的，每个字节数据均是hex数据；"
 msgstr "Yes. Each byte of data is HEX data."
 
-#: ../../source/docs/software-framework/Rd/index.rst:95 23cedd24cb774651b208b878ffd04ed8
+#: ../source/docs/software-framework/Rd/index.rst:95
+#: 14e8a7b8980d4a5a87903a9356f3cbec
 msgid "RD-01可以接入home assistaant吗"
 msgstr "Can RD-01 be integrated with Home Assistant?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:96 961b23fa781d46c4b2166dab87e24e74
+#: ../source/docs/software-framework/Rd/index.rst:96
+#: 6dcb0d1c32604948ade008781cc71b9c
 msgid "可以，不过需要做代码开发进行实现"
 msgstr "Yes, but code development is required."
 
-#: ../../source/docs/software-framework/Rd/index.rst:99 4ce28c138b5d4e1ebb3f928f55e9d62c
+#: ../source/docs/software-framework/Rd/index.rst:99
+#: fb4ee0078f3b438cb580424b7f681681
 msgid "RD-01模组最近距离是多少"
 msgstr "What is the nearest detection distance of the RD-01 module?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:100 fcd33291de70488c92dbf0f11bdccbf4
+#: ../source/docs/software-framework/Rd/index.rst:100
+#: 303262dbe7c341ba9a5e7a7a582fab28
 msgid "一个距离门0.75m"
 msgstr "One distance gate is 0.75 m."
 
-#: ../../source/docs/software-framework/Rd/index.rst:103 85971f28ea234533a55c6a94f685d32c
+#: ../source/docs/software-framework/Rd/index.rst:103
+#: 0325bc520d9d4d378755ec8db0cc3be4
 msgid "RD-03模组可以将波特率修改为9600吗"
 msgstr "Can the baud rate of the Rd-03 module be changed to 9600?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:104 ffe4f0a7919548329bc44091c6c49bef
+#: ../source/docs/software-framework/Rd/index.rst:104
+#: a04e1d657f1545bcbb4e3434ee9c6fa8
 msgid "可以，不过需要通过修改代码进行实现"
 msgstr "Yes, but it must be implemented by modifying the code."
 
-#: ../../source/docs/software-framework/Rd/index.rst:107 b35d5b165e384c6f890381eeceae3607
+#: ../source/docs/software-framework/Rd/index.rst:107
+#: fb6de5090c454ea3bc586927195dd406
 msgid "请问Rd-01是否支持platformio平台开发？"
 msgstr "Does Rd-01 support development on the PlatformIO platform?"
 
-#: ../../source/docs/software-framework/Rd/index.rst:108 25a8b2e7f68849ee80c29973b9775d36
+#: ../source/docs/software-framework/Rd/index.rst:108
+#: 6f20c81895c3424faaffee458d858b1b
 msgid "不支持"
 msgstr "Not supported."
 
-#: ../../source/docs/software-framework/Rd/index.rst:111 5b50cb5477f746e3b052369728056330
+#: ../source/docs/software-framework/Rd/index.rst:111
+#: 82e2a198a7eb4882a14db839332eafcd
 msgid "Rd-03通过串口修改距离门断电保存方法"
-msgstr "Method for modifying the Rd-03 distance gate via serial port and saving it after power-off"
+msgstr ""
+"Method for modifying the Rd-03 distance gate via serial port and saving it "
+"after power-off"
 
-#: ../../source/docs/software-framework/Rd/index.rst:129 7e4cf41e581843869322f1669636d7e6
+#: ../source/docs/software-framework/Rd/index.rst:129
+#: 23a8e07f27994bf880f1b08c984fc9c9
 msgid "Rd-03固件版本号V1.5.5通过串口配置雷达系统参数方法"
-msgstr "Method for configuring radar system parameters via serial port for Rd-03 firmware version V1.5.5"
+msgstr ""
+"Method for configuring radar system parameters via serial port for Rd-03 "
+"firmware version V1.5.5"
 
-#: ../../source/docs/software-framework/Rd/index.rst:133 b76f156ff9d44ff2b3bace311b816a08
-#, python-format
-msgid "具体方法及协议参考 `Rd-03串口通信协议  <https://docs.ai-thinker.com/_media/rd-03_v1.0.0%E4%B8%B2%E5%8F%A3%E9%80%9A%E8%AE%AF%E5%8D%8F%E8%AE%AE.pdf>`__"
-msgstr "For detailed methods and protocol information, refer to `Rd-03 Serial Communication Protocol  <https://docs.ai-thinker.com/_media/rd-03_v1.0.0%E4%B8%B2%E5%8F%A3%E9%80%9A%E8%AE%AF%E5%8D%8F%E8%AE%AE.pdf>`__"
+#: ../source/docs/software-framework/Rd/index.rst:133
+#: 95171c0f48454990893d578041dcb1e5
+msgid ""
+"具体方法及协议参考 `Rd-03串口通信协议  <https://docs.ai-thinker.com/_media/"
+"rd-03_v1.0.0%E4%B8%B2%E5%8F%A3%E9%80%9A%E8%AE%AF%E5%8D%8F%E8%AE%AE.pdf>`__"
+msgstr ""
+"For detailed methods and protocol information, refer to `Rd-03 Serial "
+"Communication Protocol  <https://docs.ai-thinker.com/_media/"
+"rd-03_v1.0.0%E4%B8%B2%E5%8F%A3%E9%80%9A%E8%AE%AF%E5%8D%8F%E8%AE%AE.pdf>`__"

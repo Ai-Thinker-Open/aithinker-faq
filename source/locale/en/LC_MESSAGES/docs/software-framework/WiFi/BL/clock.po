@@ -8,44 +8,71 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:37+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/WiFi/BL/clock.rst:2 5fa23b782bdd4a41a152d8297927b8b4
+#: ../source/docs/software-framework/WiFi/BL/clock.rst:2
+#: 877a67c13df54617a028b45ceba45cdb
 msgid "时钟"
 msgstr "Clock"
 
-#: ../../source/docs/software-framework/WiFi/BL/clock.rst:17 e58973a36e604876a91808632948db68
+#: ../source/docs/software-framework/WiFi/BL/clock.rst:17
+#: de7c16af72484952b50b2bd7fc8725cf
 msgid "如果想给某个外设配置一个时钟，需要调用哪些函数？"
-msgstr "If you want to configure a clock for a specific peripheral, which functions need to be called?"
+msgstr ""
+"If you want to configure a clock for a specific peripheral, which functions "
+"need to be called?"
 
-#: ../../source/docs/software-framework/WiFi/BL/clock.rst:19 45f0f99a33d64c019c713497be51bfa1
-msgid "GLB_Set_System_CLK() --> 设置整个系统的时钟， 部分外设时钟也来源于此 GLB_Set_......_CLK() --> 设置目标外设时钟 GLB_AHB_Slave1_Clock_Gate() --> 部分外设时钟默认被gate， 使用该外设时需要主动ungate 其它外设 --> 目标外设内相关时钟配置"
-msgstr "GLB_Set_System_CLK() --> Sets the clock for the entire system. Some peripheral clocks are also derived from this. GLB_Set_......_CLK() --> Sets the clock for the target peripheral. GLB_AHB_Slave1_Clock_Gate() --> Some peripheral clocks are gated by default. When using such a peripheral, you need to actively ungate it. Other peripherals --> Relevant clock configuration inside the target peripheral."
+#: ../source/docs/software-framework/WiFi/BL/clock.rst:19
+#: eea24aa3326d4191b59fc698deecd214
+msgid ""
+"GLB_Set_System_CLK() --> 设置整个系统的时钟， 部分外设时钟也来源于此 "
+"GLB_Set_......_CLK() --> 设置目标外设时钟 GLB_AHB_Slave1_Clock_Gate() --> 部"
+"分外设时钟默认被gate， 使用该外设时需要主动ungate 其它外设 --> 目标外设内相关"
+"时钟配置"
+msgstr ""
+"GLB_Set_System_CLK() --> Sets the clock for the entire system. Some "
+"peripheral clocks are also derived from this. GLB_Set_......_CLK() --> Sets "
+"the clock for the target peripheral. GLB_AHB_Slave1_Clock_Gate() --> Some "
+"peripheral clocks are gated by default. When using such a peripheral, you "
+"need to actively ungate it. Other peripherals --> Relevant clock "
+"configuration inside the target peripheral."
 
-#: ../../source/docs/software-framework/WiFi/BL/clock.rst:24 ca440985e6964af59e1e900072559cfd
+#: ../source/docs/software-framework/WiFi/BL/clock.rst:24
+#: 7f97d9bc482e44b2b1d396a2bf6c75a9
 msgid "PDS、HBN的工作机制是什么？如何实现唤醒？"
-msgstr "What are the operating mechanisms of PDS and HBN? How is wake-up implemented?"
+msgstr ""
+"What are the operating mechanisms of PDS and HBN? How is wake-up implemented?"
 
-#: ../../source/docs/software-framework/WiFi/BL/clock.rst:26 d440a8719ef940d69dc9778dd69f1830
-msgid "将芯片划分为多个电源域，通过不同电源域掉电与否的组合来实现不同级别的低功耗模式，详情参见低RM功耗章节。 不同级别的低功耗模式唤醒源均不相同。"
-msgstr "The chip is divided into multiple power domains. Different levels of low-power modes are implemented through combinations of whether different power domains are powered down. For details, refer to the low-power chapter of the RM. Wake-up sources vary for different levels of low-power modes."
+#: ../source/docs/software-framework/WiFi/BL/clock.rst:26
+#: 7361b4b2b6e9413ba0569e198538ac01
+msgid ""
+"将芯片划分为多个电源域，通过不同电源域掉电与否的组合来实现不同级别的低功耗模"
+"式，详情参见低RM功耗章节。 不同级别的低功耗模式唤醒源均不相同。"
+msgstr ""
+"The chip is divided into multiple power domains. Different levels of low-"
+"power modes are implemented through combinations of whether different power "
+"domains are powered down. For details, refer to the low-power chapter of the "
+"RM. Wake-up sources vary for different levels of low-power modes."
 
-#: ../../source/docs/software-framework/WiFi/BL/clock.rst:30 6ad9831c4d43444d835f03d46ea7ba50
+#: ../source/docs/software-framework/WiFi/BL/clock.rst:30
+#: 6bea23641f874bbebfd011b5feff5d61
 msgid "芯片的功耗是多少？"
 msgstr "What is the chip power consumption?"
 
-#: ../../source/docs/software-framework/WiFi/BL/clock.rst:32 a4a85b959ea349298a8d8cdbfd9bd3e0
-msgid "低负荷运行时电流在10mA左右，高负荷运行时电流40mA以上，低功耗模式最低可达2uA左右。"
-msgstr "The current is around 10 mA under low-load operation, over 40 mA under high-load operation, and can be as low as around 2 μA in low-power mode."
-
-#~ msgid ":link_to_translation:`en:[English]`"
-#~ msgstr ""
+#: ../source/docs/software-framework/WiFi/BL/clock.rst:32
+#: 9678af03480d439a8ddbe532a48de9ed
+msgid ""
+"低负荷运行时电流在10mA左右，高负荷运行时电流40mA以上，低功耗模式最低可达2uA左"
+"右。"
+msgstr ""
+"The current is around 10 mA under low-load operation, over 40 mA under high-"
+"load operation, and can be as low as around 2 μA in low-power mode."

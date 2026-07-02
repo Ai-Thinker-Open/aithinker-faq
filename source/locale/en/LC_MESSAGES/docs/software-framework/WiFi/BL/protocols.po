@@ -8,36 +8,46 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:37+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/WiFi/BL/protocols.rst:2 d3617086d68943038fce8feb39a6e2a0
+#: ../source/docs/software-framework/WiFi/BL/protocols.rst:2
+#: 0f66d158519a42e081b5e8959987361d
 msgid "协议"
 msgstr "Protocols"
 
-#: ../../source/docs/software-framework/WiFi/BL/protocols.rst:18 38e473c753e9477f999e275e3f5c8b38
+#: ../source/docs/software-framework/WiFi/BL/protocols.rst:18
+#: 28fc9085926044a9a0fefe99cfc86047
 msgid "请问WB2-12F模组可以实现网页配网功能并实现数据传输么？"
-msgstr "Can the WB2-12F module implement web-based provisioning and data transmission?"
+msgstr ""
+"Can the WB2-12F module implement web-based provisioning and data "
+"transmission?"
 
-#: ../../source/docs/software-framework/WiFi/BL/protocols.rst:19 4db6d15bd130469283282840d842a73d
+#: ../source/docs/software-framework/WiFi/BL/protocols.rst:19
+#: 6ae2c47831134a2797f4599e364c7d3a
 msgid "没有现成的代码，需要用户自行设计。"
-msgstr "There is no ready-made code available. Users need to design it themselves."
+msgstr ""
+"There is no ready-made code available. Users need to design it themselves."
 
-#: ../../source/docs/software-framework/WiFi/BL/protocols.rst:22 e8166c8d4f3649ecafbff1769c07d277
-msgid "请问一秒发送5个包，一个包200bytes，传输200个设备，则为40Kbyte每秒，请问那个模组支持呢？"
-msgstr "If 5 packets are sent per second, each packet is 200 bytes, and data is transmitted from 200 devices, that is 40 Kbytes per second. Which module supports this?"
+#: ../source/docs/software-framework/WiFi/BL/protocols.rst:22
+#: d0ad73b81f6c4df48013e2bf7f524838
+msgid ""
+"请问一秒发送5个包，一个包200bytes，传输200个设备，则为40Kbyte每秒，请问那个模"
+"组支持呢？"
+msgstr ""
+"If 5 packets are sent per second, each packet is 200 bytes, and data is "
+"transmitted from 200 devices, that is 40 Kbytes per second. Which module "
+"supports this?"
 
-#: ../../source/docs/software-framework/WiFi/BL/protocols.rst:23 611c51b4a6f54b188722d176cc062ac5
+#: ../source/docs/software-framework/WiFi/BL/protocols.rst:23
+#: 487101904c3c435f97548729b8aebcfe
 msgid "WB2系列模块。"
 msgstr "WB2 series modules."
-
-#~ msgid ":link_to_translation:`en:[English]`"
-#~ msgstr ""

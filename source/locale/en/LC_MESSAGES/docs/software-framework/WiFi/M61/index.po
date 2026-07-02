@@ -8,49 +8,65 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/WiFi/M61/index.rst:2 5d68190bb25642a184a26870b00cd726
+#: ../source/docs/software-framework/WiFi/M61/index.rst:2
+#: 7ba5a638acb9400fb3135023e64775d4
 msgid "安信可 Ai-M61系列模块 FAQ"
 msgstr "Ai-Thinker Ai-M61 Series Module FAQ"
 
-#: ../../source/docs/software-framework/WiFi/M61/index.rst:16 0306aa55f8e341a78506e7f304401a55
+#: ../source/docs/software-framework/WiFi/M61/index.rst:16
+#: a491fe7694384e6eaa83a9b725937ec0
 msgid "Ai-M61系列模组支持AD转换吗"
 msgstr "Do Ai-M61 series modules support AD conversion?"
 
-#: ../../source/docs/software-framework/WiFi/M61/index.rst:17 f1f8cb3534804465b2e8c504823f655e
+#: ../source/docs/software-framework/WiFi/M61/index.rst:17
+#: 7ad1ce1a271546b89a4bec4dd5bdf43d
 msgid "模组支持AD转换，需通过开发实现"
-msgstr "The modules support AD conversion, which needs to be implemented through development."
+msgstr ""
+"The modules support AD conversion, which needs to be implemented through "
+"development."
 
-#: ../../source/docs/software-framework/WiFi/M61/index.rst:20 44482480a8294b8586d202531f95a10b
+#: ../source/docs/software-framework/WiFi/M61/index.rst:20
+#: f1f5347f0a0c4f5c8d5193c52082f523
 msgid "有使用网口链接的模块吗"
 msgstr "Are there any modules that use an Ethernet port connection?"
 
-#: ../../source/docs/software-framework/WiFi/M61/index.rst:21 6ba031768e0b4e268c0e9c001e7ee130
+#: ../source/docs/software-framework/WiFi/M61/index.rst:21
+#: dcc420c4249247768bf78de91865033e
 msgid "可以选择M61/62系列的模组"
 msgstr "You can choose the M61/M62 series modules."
 
-#: ../../source/docs/software-framework/WiFi/M61/index.rst:24 f93573523a644150a457f28fab3a24aa
+#: ../source/docs/software-framework/WiFi/M61/index.rst:24
+#: ab51b2fefdf74148850b70ab5e35df82
 msgid "M61/62系列模组支持DAC功能吗，具体是使用哪个引脚"
-msgstr "Do M61/M62 series modules support DAC functionality, and which pins are used specifically?"
+msgstr ""
+"Do M61/M62 series modules support DAC functionality, and which pins are used "
+"specifically?"
 
-#: ../../source/docs/software-framework/WiFi/M61/index.rst:25 eb5fe52845a04fd789fb6b14935f38e0
+#: ../source/docs/software-framework/WiFi/M61/index.rst:25
+#: 6ef4c3a0169946ba8941af32ca414c95
 msgid "模组支持DAC功能，channelA为GPIO3,channelB为GPIO2引脚"
-msgstr "The modules support DAC functionality. Channel A uses the GPIO3 pin, and Channel B uses the GPIO2 pin."
+msgstr ""
+"The modules support DAC functionality. Channel A uses the GPIO3 pin, and "
+"Channel B uses the GPIO2 pin."
 
-#: ../../source/docs/software-framework/WiFi/M61/index.rst:28 1a5d2049d6354ad38a064d85e646c7f5
+#: ../source/docs/software-framework/WiFi/M61/index.rst:28
+#: 79db2079200a451da81b4008cb76da41
 msgid "请问咱们wifi6模组图像数据实测传输速率多大？"
-msgstr "What is the measured image data transmission rate of your Wi-Fi 6 module?"
+msgstr ""
+"What is the measured image data transmission rate of your Wi-Fi 6 module?"
 
-#: ../../source/docs/software-framework/WiFi/M61/index.rst:29 209accc9b37846d6b9fded98756d9149
+#: ../source/docs/software-framework/WiFi/M61/index.rst:29
+#: 7fefafbb20174879b39229b79445f4d8
 msgid "可达50Mbps"
 msgstr "It can reach 50 Mbps."

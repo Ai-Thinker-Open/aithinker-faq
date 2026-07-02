@@ -8,144 +8,206 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:37+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:2 0a98b30a4e3b412da129ca348cb4c1b2
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:2
+#: f984a45b27574b75a1356fb8b25b1503
 msgid "蓝牙"
 msgstr "Bluetooth"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:17 ba3b7fa9e0b14dd0b5801a8ab5fe4813
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:17
+#: 36a1c96970d741cbb92935f0a6444801
 msgid "WB2系列支持Bluetooth®LE 5.0 吗？"
 msgstr "Does the WB2 series support Bluetooth® LE 5.0?"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:18 06d209f50f784f589440f8bd5c28af5f
-msgid "支持部分BLE 5.0功能，例如Channel Selection #2，Limited High Duty Cycle Non Connectable Adv， 不支持LE Advertising Extension， 2M PHY，Long Range"
-msgstr "Some BLE 5.0 features are supported, such as Channel Selection #2 and Limited High Duty Cycle Non Connectable Adv. LE Advertising Extension, 2M PHY, and Long Range are not supported."
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:18
+#: 53d20b06ca8346179b12381c3d1ab9ed
+msgid ""
+"支持部分BLE 5.0功能，例如Channel Selection #2，Limited High Duty Cycle Non "
+"Connectable Adv， 不支持LE Advertising Extension， 2M PHY，Long Range"
+msgstr ""
+"Some BLE 5.0 features are supported, such as Channel Selection #2 and "
+"Limited High Duty Cycle Non Connectable Adv. LE Advertising Extension, 2M "
+"PHY, and Long Range are not supported."
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:24 d25ef49f2e094a61a266a9888b005f9b
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:24
+#: be8f1bfa091f4f208150b247ccd06c7a
 msgid "可以。蓝牙OTA协议为博流自研，支持断点续传，单次写flash大小可配置。"
-msgstr "Yes. The Bluetooth OTA protocol is developed by Bouffalo Lab. It supports breakpoint resume, and the flash write size per operation is configurable."
+msgstr ""
+"Yes. The Bluetooth OTA protocol is developed by Bouffalo Lab. It supports "
+"breakpoint resume, and the flash write size per operation is configurable."
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:28 0771f0782ad847f2aad47f0079269755
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:28
+#: 6df4004a46b247849d5e1b808221711c
 msgid "WB2系列的Bluetooth®LE 吞吐量是多少？"
 msgstr "What is the Bluetooth® LE throughput of the WB2 series?"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:29 71f01f012b8c4e488895af6e388cf1f3
-msgid "两个模组之间进行吞吐量测试，BLE连接间隔设置为25ms，实测平均速率为570kbps 模组与手机（mate30 pro）之间进行吞吐量测试，手机app使用BLE调试助手，BLE连接间隔设置为25ms，实测平均速率为400kbps"
-msgstr "In a throughput test between two modules, with the BLE connection interval set to 25 ms, the measured average rate was 570 kbps. In a throughput test between the module and a mobile phone (Mate30 Pro), using the BLE Debug Assistant app on the phone and with the BLE connection interval set to 25 ms, the measured average rate was 400 kbps."
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:29
+#: 131351a368ac452494381f16b6c024f6
+msgid ""
+"两个模组之间进行吞吐量测试，BLE连接间隔设置为25ms，实测平均速率为570kbps 模组"
+"与手机（mate30 pro）之间进行吞吐量测试，手机app使用BLE调试助手，BLE连接间隔设"
+"置为25ms，实测平均速率为400kbps"
+msgstr ""
+"In a throughput test between two modules, with the BLE connection interval "
+"set to 25 ms, the measured average rate was 570 kbps. In a throughput test "
+"between the module and a mobile phone (Mate30 Pro), using the BLE Debug "
+"Assistant app on the phone and with the BLE connection interval set to 25 "
+"ms, the measured average rate was 400 kbps."
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:33 214c51d0ec4648f7b6832738f5cd425e
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:33
+#: 5313e4b019b34df584905742c1b81369
 msgid "WB2系列的发射功率是多少？"
 msgstr "What is the transmit power of the WB2 series?"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:34 71b3a256d803464b91c09b066ffbd1ca
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:34
+#: d620fcbbc3504bc7a5250624fe145348
 msgid "支持0到15dBm"
 msgstr "0 to 15 dBm is supported."
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:37 e858e6b23cb8410f935e33449675ff44
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:37
+#: 9f7b50d9fd224c21b208f51c54e8f020
 msgid "WB2系列支持多少个客户端连接？"
 msgstr "How many client connections does the WB2 series support?"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:38 0293131f40f1408e8fbf8cfdf4e9e66a
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:38
+#: 2c05220d65f74983a71e593c84207ca2
 msgid "最大可支持10个蓝牙连接，不局限于蓝牙设备类型（master或slave）。"
-msgstr "Up to 10 Bluetooth connections are supported, regardless of Bluetooth device type (master or slave)."
+msgstr ""
+"Up to 10 Bluetooth connections are supported, regardless of Bluetooth device "
+"type (master or slave)."
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:41 31a1fa5f5277495ca216bfa54103ace8
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:41
+#: c9378e2fba154447939f5a263e0e54e1
 msgid "Ai-WB2-12F模块可以连接手机放音乐吗"
 msgstr "Can the Ai-WB2-12F module connect to a phone to play music?"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:42 d564d632082243d19d963d49a6e1844b
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:42
+#: 1dd7197700c0483abc1a7a1351685621
 msgid "不可以，因为使用的蓝牙是BLE蓝牙，无法传输音频数据。"
 msgstr "No. The module uses BLE Bluetooth, which cannot transmit audio data."
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:45 b1f57aea74724d73921cb04023e1af21
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:45
+#: a7c056db58e64bb0af923cd965d3f4c3
 msgid "为什么我写的ble组件，无法正常工作？"
 msgstr "Why does the BLE component I wrote fail to work properly?"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:46 c659926b4e58412392b9e24efce15455
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:46
+#: 2b7b67a2a65d491c8251374d7b7f8772
 msgid "经仔细检查，发现初始化遗漏了bl_sys_init"
-msgstr "After careful checking, it was found that bl_sys_init was missing during initialization."
+msgstr ""
+"After careful checking, it was found that bl_sys_init was missing during "
+"initialization."
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:49 ecb069b59d4f436c87ce7791c49a22bc
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:49
+#: 5fe2c85f3538439e80eb8ce4c22dbba6
 msgid "蓝牙4.0的手机能连上WB2系列模组吗"
 msgstr "Can a Bluetooth 4.0 phone connect to a WB2 series module?"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:50 2b4a98c380634ba9987b95c4a5e5eaa7
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:50
+#: 6d3759de7c7944028594b7b1f3e5b9a0
 msgid "可以，手机端安装BLE蓝牙调试APP即可连接"
 msgstr "Yes. Install a BLE Bluetooth debugging app on the phone to connect."
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:53 c82d8ab833f84c77b0b43c180d9ec700
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:53
+#: 1986569d304f4fe695073602db6dfe22
 msgid "请问一下Ai-WB2-12F模组的蓝牙是只能用来配网的吗？是否可以蓝牙控制？"
-msgstr "Is the Bluetooth function of the Ai-WB2-12F module only used for network provisioning? Can it be used for Bluetooth control?"
+msgstr ""
+"Is the Bluetooth function of the Ai-WB2-12F module only used for network "
+"provisioning? Can it be used for Bluetooth control?"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:54 a59ec0f60d604873b97d8791beabbc8c
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:54
+#: 27abe6f65de24709b9259cb930a632ce
 msgid "该模组的蓝牙可与手机APP中的蓝牙实现数据透传；"
-msgstr "The Bluetooth function of this module can implement data transparent transmission with Bluetooth in a mobile app."
+msgstr ""
+"The Bluetooth function of this module can implement data transparent "
+"transmission with Bluetooth in a mobile app."
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:57 6ee4a1622fe44e78bb58693374f64767
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:57
+#: 97e5715bbf8a4063b2f4226f3d016aca
 msgid "请问Ai-WB2-12F-Kit配置蓝牙之后重启是否会保存配置项"
-msgstr "Will the Ai-WB2-12F-Kit save configuration items after Bluetooth is configured and the device is restarted?"
+msgstr ""
+"Will the Ai-WB2-12F-Kit save configuration items after Bluetooth is "
+"configured and the device is restarted?"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:58 ec2c3065204a460abfcd19a460794022
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:58
+#: 834010f56b2047338fdf6bfba0f68bfe
 msgid "不会，每次重启需重新配置"
 msgstr "No. It needs to be reconfigured after each restart."
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:61 af034071e5fd409d903b3fc2247afe97
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:61
+#: 797e3d6ea3eb4491b3145d92b674ac11
 msgid "WB2系列模块支持蓝牙A2DP功能吗"
 msgstr "Does the WB2 series module support Bluetooth A2DP?"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:62 9bcd3d63640c4d38aafa5fef4908b72d
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:62
+#: f598276e8bed499fb116e8eeb8574e4c
 msgid "该功能为经典蓝牙功能，目前模块使用为BLE蓝牙，不支持蓝牙A2DP"
-msgstr "This is a Classic Bluetooth feature. The current module uses BLE Bluetooth and does not support Bluetooth A2DP."
+msgstr ""
+"This is a Classic Bluetooth feature. The current module uses BLE Bluetooth "
+"and does not support Bluetooth A2DP."
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:65 fd1c59fde02340cd8e78f8fc6f7f038f
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:65
+#: 391f581ce4894977badd3105d87d28a4
 msgid "WB2系列模块可以修改蓝牙MAC地址吗"
 msgstr "Can the Bluetooth MAC address of the WB2 series module be modified?"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:66 ce3c7b769b204f6f9bcc2cd276477360
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:66
+#: cd6f565dcfd74208ac4a5c2941622bd5
 msgid "可以修改，AT指令和二次开发有相关的教程"
-msgstr "Yes. Related tutorials are available for both AT commands and secondary development."
+msgstr ""
+"Yes. Related tutorials are available for both AT commands and secondary "
+"development."
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:69 8067a664a0be4b45b4fe9468d820f097
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:69
+#: fa8cd0e66b964b36844ee2b9681e4cfe
 msgid "请问为何Ai-WB2-12F模组实现蓝牙配网功能老是出现重启的现象呢？"
-msgstr "Why does the Ai-WB2-12F module keep restarting when implementing Bluetooth network provisioning?"
+msgstr ""
+"Why does the Ai-WB2-12F module keep restarting when implementing Bluetooth "
+"network provisioning?"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:70 cd9782d5f7704bc59aaeb9601401f3da
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:70
+#: c32e9c5fe1c3434d91a63e516ee8726c
 msgid "检查一下模组供电情况，供电不足将导致模组重启；"
-msgstr "Check the module power supply. Insufficient power supply will cause the module to restart."
+msgstr ""
+"Check the module power supply. Insufficient power supply will cause the "
+"module to restart."
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:73 d56d3a27143648f5bc8fbe39280e54f1
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:73
+#: 78324f54add84f0b995974352b705cc7
 msgid "WB2-12F蓝牙可以关闭吗"
 msgstr "Can Bluetooth on the WB2-12F be turned off?"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:74 9db6711899bb43a388318d5f351263ed
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:74
+#: c1307b44eb014548aa28d4cba4e935ea
 msgid "默认蓝牙功能处于关闭状态"
 msgstr "The Bluetooth function is disabled by default."
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:77 94f8767ac4474b85b1a1c24491c11ca4
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:77
+#: 13c3b4671b614a31a16db71c46b8ff89
 msgid "请问WB2-12F模组蓝牙支持2M速率传输么？"
 msgstr "Does the WB2-12F module support 2M Bluetooth rate transmission?"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:78 e78afc851918462d97a878d134b9a153
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:78
+#: f026fb50cf614be3a43c9532d236ca5d
 msgid "不支持；"
 msgstr "No."
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:81 cd0fccd3e64b4a49b2f11f472a74b7db
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:81
+#: 6b9c262e83f6460a91a8deb001e783cc
 msgid "请问WB2-32S模组可以通过蓝牙获取手机APP的歌词么？"
 msgstr "Can the WB2-32S module obtain lyrics from a mobile app via Bluetooth?"
 
-#: ../../source/docs/software-framework/WiFi/BL/ble-bt.rst:82 f77d5a834fca44dc8416dca9575d51f1
+#: ../source/docs/software-framework/WiFi/BL/ble-bt.rst:82
+#: 34e050966699494f825b951ef8d1f146
 msgid "不支持。"
 msgstr "No."
-
-#~ msgid ":link_to_translation:`en:[English]`"
-#~ msgstr ""

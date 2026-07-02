@@ -8,285 +8,417 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/VC/index.rst:2 26b5101e096d4fce8082048de6d2c31f
+#: ../source/docs/software-framework/VC/index.rst:2
+#: d225ace7fe6840e3b2686c3dc2c46bcc
 msgid "离线语音VC系列"
 msgstr "Offline Voice VC Series"
 
-#: ../../source/docs/software-framework/VC/index.rst:17 be0b0df94b854d5daa4ccda8859838b2
+#: ../source/docs/software-framework/VC/index.rst:17
+#: 2b99615aaaf2450ea648761b3936c33d
 msgid "语料命令词最多支持多少条？"
 msgstr "What is the maximum number of supported command words?"
 
-#: ../../source/docs/software-framework/VC/index.rst:18 6951e85ae0a346a798bfd57e1005ca50
+#: ../source/docs/software-framework/VC/index.rst:18
+#: 722c2e86148940389f8c729db09d1784
 msgid "150条"
 msgstr "150 entries."
 
-#: ../../source/docs/software-framework/VC/index.rst:22 18eceb5f394140d8bd038bde604ea6f0
+#: ../source/docs/software-framework/VC/index.rst:22
+#: bcfc2978f069464d98a2cb0a927586af
 msgid "唤醒词最多支持多少条？"
 msgstr "What is the maximum number of supported wake words?"
 
-#: ../../source/docs/software-framework/VC/index.rst:23 d8e504c363e94d19bccc6bb96f584afa
+#: ../source/docs/software-framework/VC/index.rst:23
+#: 1d2b1eb8a3aa40018dbd67e4a39cee16
 msgid "10条"
 msgstr "10 entries."
 
-#: ../../source/docs/software-framework/VC/index.rst:27 1979c2ec7ade49a8b74eac67ab1afea7
+#: ../source/docs/software-framework/VC/index.rst:27
+#: b8b880b84f5348a0a2c719edb1041ee5
 msgid "VC系列模组电路设计时候，需不需要外加功放芯片？"
-msgstr "When designing circuits for VC series modules, is an external power amplifier chip required?"
+msgstr ""
+"When designing circuits for VC series modules, is an external power "
+"amplifier chip required?"
 
-#: ../../source/docs/software-framework/VC/index.rst:28 5aaa7813428a4002bfa6fe5cf41a87c3
+#: ../source/docs/software-framework/VC/index.rst:28
+#: 4c72c21465b24ca5909a40676e0ba012
 msgid "不需要"
 msgstr "No."
 
-#: ../../source/docs/software-framework/VC/index.rst:32 7f914f5e9b574c19b8e28c7ff5f733dc
+#: ../source/docs/software-framework/VC/index.rst:32
+#: d70d351061524365825aeaa5a37fb774
 msgid "VC系列模组支持以下哪些烧录方式？"
 msgstr "Which programming methods are supported by VC series modules?"
 
-#: ../../source/docs/software-framework/VC/index.rst:33 84b5948946e34762a6f921c447a59a74
+#: ../source/docs/software-framework/VC/index.rst:33
+#: ace4c3a913a34ffca7bc2c8203c566e8
 msgid "JTAG调试器和串口烧录"
 msgstr "JTAG debugger and serial port programming"
 
-#: ../../source/docs/software-framework/VC/index.rst:37 40f4da4bcf0e470a91c4573e9603510b
+#: ../source/docs/software-framework/VC/index.rst:37
+#: 688f5695dc2349c8892bb5e61dd0f298
 msgid "VC系列模组的电压电流要求是？"
 msgstr "What are the voltage and current requirements of VC series modules?"
 
-#: ../../source/docs/software-framework/VC/index.rst:38 9830f8e9f89844a79698450e206af06e
+#: ../source/docs/software-framework/VC/index.rst:38
+#: ae25ed3849d948cb9113f109ee97c448
 msgid "供电电压 3.6V-5V，供电电流>500mA"
 msgstr "Supply voltage: 3.6V–5V; supply current: >500mA"
 
-#: ../../source/docs/software-framework/VC/index.rst:42 41b39079cc464605a72a4786bf6e923d
+#: ../source/docs/software-framework/VC/index.rst:42
+#: f758d208a5ee48e5ad6992f51a8a7db8
 msgid "中英版本唤醒/命令固件支持自学习吗？"
-msgstr "Do the Chinese and English wake-word/command firmware versions support self-learning?"
+msgstr ""
+"Do the Chinese and English wake-word/command firmware versions support self-"
+"learning?"
 
-#: ../../source/docs/software-framework/VC/index.rst:43 ../../source/docs/software-framework/VC/index.rst:74 3e2857e70c034f4aba984a6fd3a8af1a 60becd37584445d6b38d7b5bd026a6a0
+#: ../source/docs/software-framework/VC/index.rst:43
+#: ../source/docs/software-framework/VC/index.rst:74
+#: 135407eb6df849baa82b042bde70de8e 758d591479cc4f0fa965dc67ae3597b1
 msgid "支持"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/VC/index.rst:47 89e0a912b9354d3d969a3274b69897b0
+#: ../source/docs/software-framework/VC/index.rst:47
+#: 69bd8ff90d774311a7f4ebc4f476719e
 msgid "支持粤语/河南话等方言吗？"
 msgstr "Are Cantonese, Henan dialect, and other dialects supported?"
 
-#: ../../source/docs/software-framework/VC/index.rst:48 c215ba5fc1fe4f45b2ba706843b879bb
+#: ../source/docs/software-framework/VC/index.rst:48
+#: ad84d65cbbe2465f831e5f920d6c3c1b
 msgid "不支持"
 msgstr "No."
 
-#: ../../source/docs/software-framework/VC/index.rst:52 1a995452e1be4935be27cf420c8b2ce2
+#: ../source/docs/software-framework/VC/index.rst:52
+#: cc9aa3599620429b815902bc55e4e2ac
 msgid "VC系列和之前的VB系列语音模组，开发环境/下载器是一样的吗？"
-msgstr "Are the development environment and downloader for the VC series the same as those for the previous VB series voice modules?"
+msgstr ""
+"Are the development environment and downloader for the VC series the same as "
+"those for the previous VB series voice modules?"
 
-#: ../../source/docs/software-framework/VC/index.rst:53 ef320b58702044fc83211df7124cf472
+#: ../source/docs/software-framework/VC/index.rst:53
+#: cb90f0f24c9e4b97a99d06bd9c6163ad
 msgid "VC使用开发平台是Linux ,VB是Windows CDK IDE，各自有自己的下载器下载"
-msgstr "VC uses a Linux development platform, while VB uses the Windows CDK IDE. Each has its own downloader."
+msgstr ""
+"VC uses a Linux development platform, while VB uses the Windows CDK IDE. "
+"Each has its own downloader."
 
-#: ../../source/docs/software-framework/VC/index.rst:57 68e7bd6f375741cd8353977dc6e34e5c
+#: ../source/docs/software-framework/VC/index.rst:57
+#: ed9270860d314392a14ff6220986bb2a
 msgid "VC系列模组接麦克风推荐购买哪种"
 msgstr "What type of microphone is recommended for VC series modules?"
 
-#: ../../source/docs/software-framework/VC/index.rst:58 d95328837cd24fc4b0b49d9c71a38dc7
+#: ../source/docs/software-framework/VC/index.rst:58
+#: 031a44e1eb22424ea2c7a1286fb9aad2
 msgid "可以按照灵敏度-27db的标准"
 msgstr "You can choose one according to the sensitivity standard of -27 dB."
 
-#: ../../source/docs/software-framework/VC/index.rst:61 dd70085a21424245ba5ff863b90edd9b
+#: ../source/docs/software-framework/VC/index.rst:61
+#: c51b6f47d43040cc8d6c6cf258fa7e2c
 msgid "VC系列模组咪头的拾音最远能达到多少米"
-msgstr "What is the maximum pickup distance of the microphone on VC series modules?"
+msgstr ""
+"What is the maximum pickup distance of the microphone on VC series modules?"
 
-#: ../../source/docs/software-framework/VC/index.rst:62 37ee549b044e46bfbff0b22424deb506
+#: ../source/docs/software-framework/VC/index.rst:62
+#: b9baceebbbea499da366c70ac11e3308
 msgid "最远5米。"
 msgstr "Up to 5 meters."
 
-#: ../../source/docs/software-framework/VC/index.rst:65 4ce8ad9525b649898f83c88fb8898617
+#: ../source/docs/software-framework/VC/index.rst:65
+#: 5fb6dfaac9514b8f851b1745bc1dfa5f
 msgid "VC系列模组支持播报吗"
 msgstr "Do VC series modules support voice announcements?"
 
-#: ../../source/docs/software-framework/VC/index.rst:66 6bc8afd30c5a409a87e8b2305206b22b
+#: ../source/docs/software-framework/VC/index.rst:66
+#: cbd2112ec34349ffaab6550fb36323c5
 msgid "支持，不过没有TTS功能"
 msgstr "Yes, but they do not have TTS functionality."
 
-#: ../../source/docs/software-framework/VC/index.rst:69 9d7f18a6f8ae442a997853ee2f4ec581
+#: ../source/docs/software-framework/VC/index.rst:69
+#: 71a8c9e65ef74c59ae90ad4e138756d3
 msgid "VC系列模组使用语音开放平台是不能进入I2C开发吗？"
-msgstr "Does using the voice open platform mean the VC series module cannot enter I2C development?"
+msgstr ""
+"Does using the voice open platform mean the VC series module cannot enter "
+"I2C development?"
 
-#: ../../source/docs/software-framework/VC/index.rst:70 ae8be89a6cda4c3c8155722441770d9c
+#: ../source/docs/software-framework/VC/index.rst:70
+#: 760c8af495fc4989a98a3dda4870c6ef
 msgid "不能开发I2C功能"
 msgstr "I2C functionality cannot be developed."
 
-#: ../../source/docs/software-framework/VC/index.rst:73 2ad99fbc74224a80b543493d38181386
+#: ../source/docs/software-framework/VC/index.rst:73
+#: 13b089ae525f4fb792a062725802a0ed
 msgid "VC系列模组支持自定义免唤醒命令词吗"
 msgstr "Do VC series modules support custom wake-free command words?"
 
-#: ../../source/docs/software-framework/VC/index.rst:77 e81a74415ff9471c8fa13e729ab1c1bc
+#: ../source/docs/software-framework/VC/index.rst:77
+#: 573165c7bdc64911b044dfaceba648ef
 msgid "VC系列开发板中文固件和英文固件是不是硬件通用的"
-msgstr "Are the Chinese firmware and English firmware for the VC series development board compatible with the same hardware?"
+msgstr ""
+"Are the Chinese firmware and English firmware for the VC series development "
+"board compatible with the same hardware?"
 
-#: ../../source/docs/software-framework/VC/index.rst:78 ec2bc4eaba5c48e998a3c3817863a6b3
+#: ../source/docs/software-framework/VC/index.rst:78
+#: 2eb7495647004033b235b27f214da295
 msgid "共用同一个硬件"
 msgstr "They use the same hardware."
 
-#: ../../source/docs/software-framework/VC/index.rst:81 a3e8a88b7a6941558d831f918512c8f2
-msgid "VC模组在线创建产品SDK中有B2B3B6B7引脚，但是实际产品引脚定义没有这几个引脚，是怎么回事"
-msgstr "In the SDK created online for VC modules, there are B2, B3, B6, and B7 pins, but the actual product pin definition does not include these pins. Why?"
+#: ../source/docs/software-framework/VC/index.rst:81
+#: c60e2729cf1b482eb14fae998df338d0
+msgid ""
+"VC模组在线创建产品SDK中有B2B3B6B7引脚，但是实际产品引脚定义没有这几个引脚，是"
+"怎么回事"
+msgstr ""
+"In the SDK created online for VC modules, there are B2, B3, B6, and B7 pins, "
+"but the actual product pin definition does not include these pins. Why?"
 
-#: ../../source/docs/software-framework/VC/index.rst:82 c548f7eb64f8417d88d974282a5e9e82
-msgid "B0 B1 B8 是特殊功能脚，B8是系统log 默认是输出脚波特率57600，B0 B1是JATG 烧录脚"
-msgstr "B0, B1, and B8 are special function pins. B8 is the system log pin and is an output pin by default with a baud rate of 57600. B0 and B1 are JTAG programming pins."
+#: ../source/docs/software-framework/VC/index.rst:82
+#: 2d16b305e0c04977a2e0c4d0dec9a6f1
+msgid ""
+"B0 B1 B8 是特殊功能脚，B8是系统log 默认是输出脚波特率57600，B0 B1是JATG 烧录"
+"脚"
+msgstr ""
+"B0, B1, and B8 are special function pins. B8 is the system log pin and is an "
+"output pin by default with a baud rate of 57600. B0 and B1 are JTAG "
+"programming pins."
 
-#: ../../source/docs/software-framework/VC/index.rst:85 6004ea7a63f94dec90867b260fcf8b2c
+#: ../source/docs/software-framework/VC/index.rst:85
+#: d1a9b9acc91b426c8d96d2bae6a70fcf
 msgid "VC系列所使用的咪头参数是多少"
 msgstr "What are the microphone parameters used by the VC series?"
 
-#: ../../source/docs/software-framework/VC/index.rst:86 a7ea479a228543b68c8a627d353045ac
+#: ../source/docs/software-framework/VC/index.rst:86
+#: ea6431519e0c4ee88ab2c639ade8a3cf
 msgid "咪头的接收灵敏度为-31dB"
 msgstr "The microphone receiving sensitivity is -31 dB."
 
-#: ../../source/docs/software-framework/VC/index.rst:89 4fdb007e478f41bd8dbe1ef106d68aa0
+#: ../source/docs/software-framework/VC/index.rst:89
+#: 1cce1ecc11ad4ae98e890535ac2dd417
 msgid "VC-02模块支持永久唤醒吗"
 msgstr "Does the VC-02 module support permanent wake-up?"
 
-#: ../../source/docs/software-framework/VC/index.rst:90 028920a6c8b6453b82046804dd6273cf
+#: ../source/docs/software-framework/VC/index.rst:90
+#: 7466524a7f1044778a5b1fee17d48ccd
 msgid "支持，需要通过开发实现，出厂固件没有实现该功能"
-msgstr "Yes. It needs to be implemented through development. The factory firmware does not implement this function."
+msgstr ""
+"Yes. It needs to be implemented through development. The factory firmware "
+"does not implement this function."
 
-#: ../../source/docs/software-framework/VC/index.rst:93 bb7e4a04ff3d4550aa2d05bef2a25483
+#: ../source/docs/software-framework/VC/index.rst:93
+#: c18877078aa04293a73c0f74ac1a7bc3
 msgid "请问VC语音开发板的串口是哪一种芯片？"
-msgstr "What chip is used for the serial port on the VC voice development board?"
+msgstr ""
+"What chip is used for the serial port on the VC voice development board?"
 
-#: ../../source/docs/software-framework/VC/index.rst:94 5e56ca823278433d97744717a8201023
+#: ../source/docs/software-framework/VC/index.rst:94
+#: 2744a03485e549cbbec02b8e6eb61a37
 msgid "CH340"
 msgstr "CH340."
 
-#: ../../source/docs/software-framework/VC/index.rst:97 28036e2977ee416189910299705dec86
+#: ../source/docs/software-framework/VC/index.rst:97
+#: 93d497a3ecd04445ab9d735fb4aa3f78
 msgid "VC-02-Kit是否可以用于驱动舵机？"
 msgstr "Can the VC-02-Kit be used to drive a servo?"
 
-#: ../../source/docs/software-framework/VC/index.rst:98 eb0dc0305de64ffcac75f62ea11cfe8f
+#: ../source/docs/software-framework/VC/index.rst:98
+#: 7e2cfe7d28dd4f5e995dbe226003d7ba
 msgid "需外部搭建H桥等电路配合驱动"
 msgstr "An external H-bridge or similar circuit is required for driving it."
 
-#: ../../source/docs/software-framework/VC/index.rst:101 4b26abd3d8aa4fcabe386cf4bfb52bf2
+#: ../source/docs/software-framework/VC/index.rst:101
+#: fa69b10821f94effb8e735626ceffcfc
 msgid "目前有哪些模块支持声纹识别功能"
 msgstr "Which modules currently support voiceprint recognition?"
 
-#: ../../source/docs/software-framework/VC/index.rst:102 be61a5a2a4b84e0499a26c80d8eb0bbc
+#: ../source/docs/software-framework/VC/index.rst:102
+#: 80fa4a14cc6245cf9fd7130efcbcfce7
 msgid "声纹识别功能的模块目前没有，有语音识别的VC系列模块"
-msgstr "There are currently no modules with voiceprint recognition. The VC series modules support voice recognition."
+msgstr ""
+"There are currently no modules with voiceprint recognition. The VC series "
+"modules support voice recognition."
 
-#: ../../source/docs/software-framework/VC/index.rst:105 fb209cbd199d42e395c0d2a0ad63a44f
+#: ../source/docs/software-framework/VC/index.rst:105
+#: df4dc12e590942d5ab722113a750f83d
 msgid "VC开发板是否可以通过板子上的USB口进行固件烧录"
-msgstr "Can the VC development board burn firmware through the USB port on the board?"
+msgstr ""
+"Can the VC development board burn firmware through the USB port on the board?"
 
-#: ../../source/docs/software-framework/VC/index.rst:106 6ae7bf5df7e246a5929a0609f1b8e2d5
-msgid "可以，模块通过USB转串口的方式给开发板进行固件烧写(烧录的固件必须使用build.sh update指令生成的uni_app_release_update.bin,烧录工具只能使用UniOneUpdateTool.exe)"
-msgstr "Yes. The module uses USB-to-serial to burn firmware to the development board. The firmware to be burned must be the ``uni_app_release_update.bin`` generated by the ``build.sh update`` command, and the burning tool can only be ``UniOneUpdateTool.exe``."
+#: ../source/docs/software-framework/VC/index.rst:106
+#: 5db4f6f8e1474acd9932e2d63d015f54
+msgid ""
+"可以，模块通过USB转串口的方式给开发板进行固件烧写(烧录的固件必须使用build.sh "
+"update指令生成的uni_app_release_update.bin,烧录工具只能使用UniOneUpdateTool."
+"exe)"
+msgstr ""
+"Yes. The module uses USB-to-serial to burn firmware to the development "
+"board. The firmware to be burned must be the ``uni_app_release_update.bin`` "
+"generated by the ``build.sh update`` command, and the burning tool can only "
+"be ``UniOneUpdateTool.exe``."
 
-#: ../../source/docs/software-framework/VC/index.rst:109 4bfcd50a217d4fdbba81f006d1640a80
+#: ../source/docs/software-framework/VC/index.rst:109
+#: 33c0ce98ffdf4a1ebe05bcbb98a3f1ed
 msgid "VC-02的命令词可以自己编辑吗"
 msgstr "Can the command words of VC-02 be edited by users?"
 
-#: ../../source/docs/software-framework/VC/index.rst:110 1f23fe01a6534391b2d9b60b706eeba4
+#: ../source/docs/software-framework/VC/index.rst:110
+#: a7c7f541ac35475382f2b674f2a627e9
 msgid "可以，通过平台生成SDK的方式"
 msgstr "Yes. This can be done by generating an SDK through the platform."
 
-#: ../../source/docs/software-framework/VC/index.rst:113 6a6095c0911f438c8d7fbfe29c3153cd
+#: ../source/docs/software-framework/VC/index.rst:113
+#: a89eb01d392e476aa1a45e4212e79caf
 msgid "VC-02开发板可以同时识别英文和中文吗"
-msgstr "Can the VC-02 development board recognize English and Chinese at the same time?"
+msgstr ""
+"Can the VC-02 development board recognize English and Chinese at the same "
+"time?"
 
-#: ../../source/docs/software-framework/VC/index.rst:114 45477250efdf4fff974bcb2fe3e5bf4b
+#: ../source/docs/software-framework/VC/index.rst:114
+#: 9933463ccc1d45ba85923834369c8509
 msgid "不可以，烧写什么版本的固件就支持什么语言"
 msgstr "No. It supports whichever language version of firmware is burned."
 
-#: ../../source/docs/software-framework/VC/index.rst:117 ef2f2694bfde483bac6ab75532c660dd
+#: ../source/docs/software-framework/VC/index.rst:117
+#: e84a526e1df9402e815b1da4ea8d6d5a
 msgid "VC-01中文和英文能做到一起使用吗"
 msgstr "Can VC-01 support Chinese and English at the same time?"
 
-#: ../../source/docs/software-framework/VC/index.rst:118 ba3f025b8f774ec29ef5fa959b543abb
+#: ../source/docs/software-framework/VC/index.rst:118
+#: 513fe5c66141412fb8574987554bfc97
 msgid "不可以，中文固件和英文固件只能二选一"
-msgstr "No. Chinese firmware and English firmware are mutually exclusive; only one can be selected."
+msgstr ""
+"No. Chinese firmware and English firmware are mutually exclusive; only one "
+"can be selected."
 
-#: ../../source/docs/software-framework/VC/index.rst:121 e2a7dfd8183d4673bdcf9849c6bd7cea
-msgid "请问VC-02-Kit是要自己写代码么？还是给一个网页，设置完了以后生成bin文件？"
-msgstr "For VC-02-Kit, do users need to write code themselves, or is there a web page where settings are configured and then a bin file is generated?"
+#: ../source/docs/software-framework/VC/index.rst:121
+#: b5af8bd1cc764c588872334dc041e59a
+msgid ""
+"请问VC-02-Kit是要自己写代码么？还是给一个网页，设置完了以后生成bin文件？"
+msgstr ""
+"For VC-02-Kit, do users need to write code themselves, or is there a web "
+"page where settings are configured and then a bin file is generated?"
 
-#: ../../source/docs/software-framework/VC/index.rst:122 ba6d39a0db36457191f94fed5729a4f6
-msgid "网页设置完成将生成对应功能的SDK，用户直接SDK编译完成后生成固件，也可在SDK的功能做一些完善之后再编译生成固件"
-msgstr "After configuration on the web page, an SDK with the corresponding functions will be generated. Users can directly compile the SDK to generate firmware, or improve the SDK functions before compiling and generating firmware."
+#: ../source/docs/software-framework/VC/index.rst:122
+#: 3c5281c7337745f89c823ba8bfb49537
+msgid ""
+"网页设置完成将生成对应功能的SDK，用户直接SDK编译完成后生成固件，也可在SDK的功"
+"能做一些完善之后再编译生成固件"
+msgstr ""
+"After configuration on the web page, an SDK with the corresponding functions "
+"will be generated. Users can directly compile the SDK to generate firmware, "
+"or improve the SDK functions before compiling and generating firmware."
 
-#: ../../source/docs/software-framework/VC/index.rst:125 3a280093edae4295a99131920702977c
+#: ../source/docs/software-framework/VC/index.rst:125
+#: 27d2da108d464052b86313771506e52c
 msgid "VC-02离线语音模组可以使用arduinoIDE编程吗"
 msgstr "Can the VC-02 offline voice module be programmed with Arduino IDE?"
 
-#: ../../source/docs/software-framework/VC/index.rst:126 4d339b97a9f94fca99ab545ab8174764
+#: ../source/docs/software-framework/VC/index.rst:126
+#: 3a5c960e60044e9da093867f6346647a
 msgid "不可以，目前仅支持通过语音平台生成的SDK进行编程"
-msgstr "No. Currently, it only supports programming through the SDK generated by the voice platform."
+msgstr ""
+"No. Currently, it only supports programming through the SDK generated by the "
+"voice platform."
 
-#: ../../source/docs/software-framework/VC/index.rst:129 1d5c226be44b4395ab72a961b8925744
+#: ../source/docs/software-framework/VC/index.rst:129
+#: e6056f3dc25d46b0ac5ccfe8be19663d
 msgid "VC-02开发板做开发的时候注册账号，下载离线语音固件需要收费吗"
-msgstr "When developing with the VC-02 development board, is there any charge for registering an account or downloading offline voice firmware?"
+msgstr ""
+"When developing with the VC-02 development board, is there any charge for "
+"registering an account or downloading offline voice firmware?"
 
-#: ../../source/docs/software-framework/VC/index.rst:130 f0a3c0d97e1c4702be9a9f17bf336b60
+#: ../source/docs/software-framework/VC/index.rst:130
+#: d621cd4935d34320ba04887dac248520
 msgid "不需要收费，注册账号和下载固件都是免费的"
 msgstr "No. Account registration and firmware downloads are both free."
 
-#: ../../source/docs/software-framework/VC/index.rst:133 b61c4e7650c448beb8ab6b0d4768e9da
+#: ../source/docs/software-framework/VC/index.rst:133
+#: a3f4d4231ea34694a5775d7b8f48cfc3
 msgid "请问贵司有支持语音对话，并且可以对接云端的模组么？"
-msgstr "Do you have any modules that support voice conversation and cloud connection?"
+msgstr ""
+"Do you have any modules that support voice conversation and cloud connection?"
 
-#: ../../source/docs/software-framework/VC/index.rst:134 74126c40bc8d4f4daff03f4adb1b2447
+#: ../source/docs/software-framework/VC/index.rst:134
+#: b697965bbebd4914b9f5ebea9a49e434
 msgid "目前没有支持语音对话的模组；"
 msgstr "Currently, there are no modules that support voice conversation."
 
-#: ../../source/docs/software-framework/VC/index.rst:137 e9baa812ec6b4875947d7a18edab626a
-msgid "VC系列模组通过在线生成离线语音估计，只有一个文件，没有update格式的问题该如何处理"
-msgstr "When generating offline voice firmware online for VC series modules, only one file is generated and there is no update-format file. How should this be handled?"
+#: ../source/docs/software-framework/VC/index.rst:137
+#: 2541461e70054bf2b53e806dd29717d0
+msgid ""
+"VC系列模组通过在线生成离线语音估计，只有一个文件，没有update格式的问题该如何"
+"处理"
+msgstr ""
+"When generating offline voice firmware online for VC series modules, only "
+"one file is generated and there is no update-format file. How should this be "
+"handled?"
 
-#: ../../source/docs/software-framework/VC/index.rst:138 d89b09b68ee14d9d8f3e542254177223
+#: ../source/docs/software-framework/VC/index.rst:138
+#: a8a189990ab74f958d7fb27ef29c9955
 msgid "使用./build.sh update，编译的时候后缀带update才会有"
-msgstr "Use ``./build.sh update``. The update-format file will only be generated when the compilation command includes ``update``."
+msgstr ""
+"Use ``./build.sh update``. The update-format file will only be generated "
+"when the compilation command includes ``update``."
 
-#: ../../source/docs/software-framework/VC/index.rst:141 62decb730bd84820b2cadef64c3b0037
+#: ../source/docs/software-framework/VC/index.rst:141
+#: 5f5cdf54cb254034b9ea5c57cd79e899
 msgid "VC-02开发板配套的喇叭是多少欧姆多少W的"
-msgstr "What are the impedance and power rating of the speaker supplied with the VC-02 development board?"
+msgstr ""
+"What are the impedance and power rating of the speaker supplied with the "
+"VC-02 development board?"
 
-#: ../../source/docs/software-framework/VC/index.rst:142 5ac2dd41e6964287ab4c9f6777e77d4d
+#: ../source/docs/software-framework/VC/index.rst:142
+#: f2437777b0e64873808831946381d800
 msgid "2W8欧姆"
 msgstr "2W, 8 ohms."
 
-#: ../../source/docs/software-framework/VC/index.rst:145 348ca1d1e9e74f799ebdf8d87198909a
+#: ../source/docs/software-framework/VC/index.rst:145
+#: 333555e31eec47a980aabcd244d5cc8f
 msgid "VC-02开发板支持休眠状态下进行语音唤醒吗"
 msgstr "Does the VC-02 development board support voice wake-up in sleep mode?"
 
-#: ../../source/docs/software-framework/VC/index.rst:146 db90968f579840e786df12863d900498
+#: ../source/docs/software-framework/VC/index.rst:146
+#: 2d53d483555c454a828d7a8d58501568
 msgid "不支持休眠状态进行语音唤醒，目前仅支持待机状态进行语音唤醒"
-msgstr "It does not support voice wake-up in sleep mode. Currently, voice wake-up is only supported in standby mode."
+msgstr ""
+"It does not support voice wake-up in sleep mode. Currently, voice wake-up is "
+"only supported in standby mode."
 
-#: ../../source/docs/software-framework/VC/index.rst:149 0404fc3c4f8d4c919a0a4b646597874d
+#: ../source/docs/software-framework/VC/index.rst:149
+#: da971ad6cfb943f2aa4db88c715dc58e
 msgid "VC-02开发板可以录音吗"
 msgstr "Can the VC-02 development board record audio?"
 
-#: ../../source/docs/software-framework/VC/index.rst:150 82ba029c390149cd9976d36b8b5a3c1b
+#: ../source/docs/software-framework/VC/index.rst:150
+#: 029231f7561f403fae48fd1c0f8dac7d
 msgid "不可以，开发板没有录音功能"
 msgstr "No. The development board does not have a recording function."
 
-#: ../../source/docs/software-framework/VC/index.rst:153 b3eb9f3d1b38457591c690bde6bfd6d8
+#: ../source/docs/software-framework/VC/index.rst:153
+#: 7e8274e8040d4e66a66fe5cd59ce4b03
 msgid "VC离线语音模组支持OTA吗"
 msgstr "Does the VC offline voice module support OTA?"
 
-#: ../../source/docs/software-framework/VC/index.rst:154 91b9cbf6487744ce98534d4d9dc8bb38
+#: ../source/docs/software-framework/VC/index.rst:154
+#: 127819e5750345269e1edde565ba6118
 msgid "不支持，模组本身没有这个功能"
 msgstr "No. The module itself does not have this function."
 
-#: ../../source/docs/software-framework/VC/index.rst:157 c107f153324c46698103cbce7d672069
+#: ../source/docs/software-framework/VC/index.rst:157
+#: 2071fe3751bf4b6283193c374c3e7af1
 msgid "请问离线语音模组输出能驱动几路继电器呢？"
 msgstr "How many relay channels can the offline voice module output drive?"
 
-#: ../../source/docs/software-framework/VC/index.rst:158 a589fe43041640b899e21dfcb0bcd2ba
+#: ../source/docs/software-framework/VC/index.rst:158
+#: ea6dd6415e384b808aaf2ffb97b2c239
 msgid "4"
 msgstr "4."

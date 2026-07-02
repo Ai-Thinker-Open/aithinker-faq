@@ -8,669 +8,934 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:2 dd4a6c4117de4b568483b71ea53a7ef2
+#: ../source/docs/software-framework/GPS/BG/index.rst:2
+#: baaa80f65825439b9d6781ca67379e44
 msgid "安信可 GPS系列模块 FAQ"
 msgstr "Ai-Thinker GPS Series Module FAQ"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:17 253916b99b544651b723bad1d0a419b3
+#: ../source/docs/software-framework/GPS/BG/index.rst:17
+#: b2c5a945c605405fa5dddff79cf0dd92
 msgid "BG01-T数据刷新率多少？"
 msgstr "What is the data refresh rate of BG01-T?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:18 4aac1f1a73274eeb90e5b6786f194b04
+#: ../source/docs/software-framework/GPS/BG/index.rst:18
+#: 1c0432acf3bf4d3988ad944ea47cfe93
 msgid "答：默认一秒钟，最快能达到200ms"
 msgstr "A: The default is once per second, and the fastest can reach 200ms."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:21 57904aa32b7b44448ac462b8349716ae
+#: ../source/docs/software-framework/GPS/BG/index.rst:21
+#: d3a4ed1c9cbf498c8d36b55ad5646a3b
 msgid "BG02模块精度怎么样"
 msgstr "How accurate is the BG02 module?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:23 a51690596a0742aa91cc754cde1dd253
+#: ../source/docs/software-framework/GPS/BG/index.rst:23
+#: be76fca0909d47c89bf62ea45c08ba5e
 msgid "定位精度5米"
 msgstr "The positioning accuracy is 5m."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:26 fb7b32fd7afc403b87c61fa442b21783
+#: ../source/docs/software-framework/GPS/BG/index.rst:26
+#: 8a96e2dc8a944a088fa66f6133295470
 msgid "BG01-T GPS协议是ublox还是nmea"
 msgstr "Does BG01-T use the u-blox protocol or NMEA protocol?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:27 6be1fc1993ee4704834a3e20aabde9fb
+#: ../source/docs/software-framework/GPS/BG/index.rst:27
+#: 9a544423610e4f71bae211d7bcb1158b
 msgid "协议是NMEA"
 msgstr "The protocol is NMEA."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:30 16622a777be648aba0f19787896a5435
+#: ../source/docs/software-framework/GPS/BG/index.rst:30
+#: 4ca17b75a7c14e20a5be4ce2e9e12e53
 msgid "这个BG02-T模块输入电源是多少V？"
 msgstr "What is the input power supply voltage of the BG02-T module?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:31 ddef5d264b9941aebfa2d769941f2c5d
+#: ../source/docs/software-framework/GPS/BG/index.rst:31
+#: 39c697d1728d44ecabd2ad2ae01ba679
 msgid "3.3V"
 msgstr "3.3V."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:34 9cb29a085665491f9702100055374834
+#: ../source/docs/software-framework/GPS/BG/index.rst:34
+#: 26c4045ae40e44fcb3e848b34b16a37f
 msgid "\"BG01-T怎么看定位"
 msgstr "How do I view positioning data from BG01-T?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:35 e9aeb48054cf4e2e9dd2faaa3d20549f
+#: ../source/docs/software-framework/GPS/BG/index.rst:35
+#: b8f6966cb1214fed8534966bf7a8ee6a
 msgid "通过串口的打印信息，获取经纬度"
-msgstr "Obtain the longitude and latitude through serial port print information."
+msgstr ""
+"Obtain the longitude and latitude through serial port print information."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:38 53af6173cae341d795c2207dcb0e546b
+#: ../source/docs/software-framework/GPS/BG/index.rst:38
+#: 3a8a8261cf084b32a670ffee36ce7910
 msgid "BG01-T加电池就可以定位了吗"
 msgstr "Can BG01-T position after adding a battery?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:40 3ab56bbf5da34fc982c8e69eca637e25
+#: ../source/docs/software-framework/GPS/BG/index.rst:40
+#: aaacde007f28448e895cbc8a2d6212f1
 msgid "是的，要在室外才能正常定位"
 msgstr "Yes, but it must be outdoors to position normally."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:43 db5d118f70de4b22a6ec3542d7494507
+#: ../source/docs/software-framework/GPS/BG/index.rst:43
+#: 6943041294464aa5bde57062f5e20094
 msgid "BG-01用的是哪一款APP？"
 msgstr "Which app does BG-01 use?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:44 702a1250abc94ea58945fce9b5b380fa
+#: ../source/docs/software-framework/GPS/BG/index.rst:44
+#: 9437db1885094aac892953f44b898721
 msgid "没有APP的哦，数据是通过串口进行查看的哦"
 msgstr "There is no app. The data is viewed through the serial port."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:47 33ed3add29954fe5a1170f057064d2d3
+#: ../source/docs/software-framework/GPS/BG/index.rst:47
+#: 9f2431ba80c04739bbac8dccb13248b1
 msgid "BG01-T通电就可以定位吗"
 msgstr "Can BG01-T position after power-on?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:48 34e6845e2fed42039745c9e66da2aec1
+#: ../source/docs/software-framework/GPS/BG/index.rst:48
+#: 6995c04318074d6d9e8d33ca832b2313
 msgid "是的，通电就可以进行定位"
 msgstr "Yes, it can position after power-on."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:51 dd63cc6adfed492a8c9cae93b79e267a
+#: ../source/docs/software-framework/GPS/BG/index.rst:51
+#: fac060520efa4b1090422d41140c3dce
 msgid "BG01-T，这个USB口是做什么用的 ？"
 msgstr "What is the USB port on BG01-T used for?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:52 757c67c845e14e819bc59d3940def8e6
+#: ../source/docs/software-framework/GPS/BG/index.rst:52
+#: 53d7d198b76f49909b4242c3f0d67fbf
 msgid "USB是方便接线"
 msgstr "USB is for convenient wiring."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:55 ea89ee439ca94877a060f7b74ad3ce19
+#: ../source/docs/software-framework/GPS/BG/index.rst:55
+#: ca3ba43965f448f0a1127816ecda5662
 msgid "BG-02和GP-02有什么区别吗"
 msgstr "What is the difference between BG-02 and GP-02?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:56 52a92f7b091c41e1855706125abeedd8
+#: ../source/docs/software-framework/GPS/BG/index.rst:56
+#: 691e86b234fe475a98e94a205cb4574b
 msgid "使用的GPS芯片不一样，推荐使用BG-02，BG-02定位的精度高，性能好。"
-msgstr "They use different GPS chips. BG-02 is recommended because it has higher positioning accuracy and better performance."
+msgstr ""
+"They use different GPS chips. BG-02 is recommended because it has higher "
+"positioning accuracy and better performance."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:59 53fb230e61ed45daab65708acdfd8fef
+#: ../source/docs/software-framework/GPS/BG/index.rst:59
+#: c54472aef4ec4287830063f140cd54cd
 msgid "BG02-T VCC电压范围具体是多少"
 msgstr "What exactly is the VCC voltage range of BG02-T?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:60 ed39b73454e546318939ec278b69b12b
+#: ../source/docs/software-framework/GPS/BG/index.rst:60
+#: ca239495c11045ab8dce0dad2ae4518e
 msgid "3.6~5V"
 msgstr "3.6–5V."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:63 d7a4d3792c8f4160bb328c863ea7a840
+#: ../source/docs/software-framework/GPS/BG/index.rst:63
+#: 79df3f264daa4bf8a3da0737d76384d1
 msgid "bg01t和bg02t有什么区别"
 msgstr "What is the difference between BG01-T and BG02-T?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:64 1ded4e694b2c4f8a8787339b47cb5b48
+#: ../source/docs/software-framework/GPS/BG/index.rst:64
+#: 398ffdb8b5494ea0b50e145453050941
 msgid "BG01-T比BG02-T尺寸大一些，天线大一点，稳定性好一点。其它并无区别"
-msgstr "BG01-T is slightly larger than BG02-T, has a larger antenna, and is slightly more stable. There are no other differences."
+msgstr ""
+"BG01-T is slightly larger than BG02-T, has a larger antenna, and is slightly "
+"more stable. There are no other differences."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:67 f864e7549d5344e88f70f5345694dc08
+#: ../source/docs/software-framework/GPS/BG/index.rst:67
+#: 2cca407ab833404da84bf9cf76696521
 msgid "BG02模块5V供电行吗？"
 msgstr "Can the BG02 module be powered by 5V?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:68 e094d0a474c84e68a86ebaa226727a1c
+#: ../source/docs/software-framework/GPS/BG/index.rst:68
+#: ef998e286404494686d7df0db5a1e158
 msgid "单模块只能使用3.3V供电"
 msgstr "The standalone module can only use 3.3V power supply."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:72 92793f96b1da444e8adb6514af2d3407
+#: ../source/docs/software-framework/GPS/BG/index.rst:72
+#: a866f0e606bf4f8b8e58b4f0b110051b
 msgid "BG02-T 5v供电没事吧"
 msgstr "Is 5V power supply okay for BG02-T?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:73 96b7eed3440b4cad88e854fea3bec81b
+#: ../source/docs/software-framework/GPS/BG/index.rst:73
+#: 897a73ac59ff4116be02ca4798c7e289
 msgid "没有问题，开发板上面有做降压电路的"
 msgstr "No problem. The development board has a step-down circuit."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:76 fbdd6cb872ee42f5bc09c98f9d5bd46a
+#: ../source/docs/software-framework/GPS/BG/index.rst:76
+#: 11094a516cdd41f192604e747270b5ce
 msgid "BG01-T模块通电就输出gps 坐标吗"
 msgstr "Does the BG01-T module output GPS coordinates after power-on?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:77 b88efc963bb94fc4a354f96a20468498
+#: ../source/docs/software-framework/GPS/BG/index.rst:77
+#: ed084c8bddd54234b283aab30554cf59
 msgid "通电输出经纬度"
 msgstr "It outputs longitude and latitude after power-on."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:80 2d3817480b9f4bb683ad2f88333ddd59
+#: ../source/docs/software-framework/GPS/BG/index.rst:80
+#: b4675cd6fc4b4418af0b3f0161011be9
 msgid "BG01-T可以远程访问嘛"
 msgstr "Can BG01-T be accessed remotely?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:81 b16212c7e0df4ccb85a476ee0df61473
+#: ../source/docs/software-framework/GPS/BG/index.rst:81
+#: 0862b8e121f74b8aaeb4ac3de6f57947
 msgid "不可以远程访问"
 msgstr "No, it cannot be accessed remotely."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:84 60ca1a7b25fc4a30a03be64dc6f8b6fd
+#: ../source/docs/software-framework/GPS/BG/index.rst:84
+#: 000678a0992d4c57ac3220ab6a00c472
 msgid "BG02-T 不是中科微的芯片嘛？有配置工具吗？"
-msgstr "Doesn't BG02-T use a chip from Zhongke Micro? Is there a configuration tool?"
+msgstr ""
+"Doesn't BG02-T use a chip from Zhongke Micro? Is there a configuration tool?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:85 3c2bd55ca2634a0795e50e7b1742a657
+#: ../source/docs/software-framework/GPS/BG/index.rst:85
+#: 67711f5454d442a994519360bad560de
 msgid "这款模组的芯片是GK9501国科微的。上电就自动输出信息的"
-msgstr "This module uses the GK9501 chip from Goke Micro. It automatically outputs information after power-on."
+msgstr ""
+"This module uses the GK9501 chip from Goke Micro. It automatically outputs "
+"information after power-on."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:88 2f0400bde0694aae8d2bee847204236c
+#: ../source/docs/software-framework/GPS/BG/index.rst:88
+#: 72a495de5e4942fd89ed89093b1f7436
 msgid "BG02-T电池电压是多少呢？上面那科纽扣电池是多大电压的"
-msgstr "What is the battery voltage of BG02-T? What voltage is the coin cell on it?"
+msgstr ""
+"What is the battery voltage of BG02-T? What voltage is the coin cell on it?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:89 3bfcff863a7348179ce76316c5e1219f
+#: ../source/docs/software-framework/GPS/BG/index.rst:89
+#: 92904c19fd6b4998b6776ae353208ec1
 msgid "这个是GPS的开发板，供电需要3.6V到5V。3.3V"
-msgstr "This is a GPS development board. It requires 3.6V to 5V power supply. The coin cell is 3.3V."
+msgstr ""
+"This is a GPS development board. It requires 3.6V to 5V power supply. The "
+"coin cell is 3.3V."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:92 a522e1ede5664480972cc1d85bafa44d
+#: ../source/docs/software-framework/GPS/BG/index.rst:92
+#: 0496dc032f9c4dc486a1dce49da80e20
 msgid "BG01-T用什么平台可以实时看到定位器的位置"
 msgstr "What platform can be used to view the location of BG01-T in real time?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:93 623e26b2bc2843b880a336b1efdd31fd
+#: ../source/docs/software-framework/GPS/BG/index.rst:93
+#: 5a86abaac4494e7a8f5787dea593dbf2
 msgid "上电是通过串口调试助手查看打印出来的定位数据"
-msgstr "After power-on, use a serial debugging assistant to view the printed positioning data."
+msgstr ""
+"After power-on, use a serial debugging assistant to view the printed "
+"positioning data."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:96 461673ec0ae64d369a2adc29a1b6622a
+#: ../source/docs/software-framework/GPS/BG/index.rst:96
+#: 1b2ce2669d574991bfe0b7b703d09745
 msgid "BG01-T定位模块可以加在别的电路板里面吗"
 msgstr "Can the BG01-T positioning module be added to another circuit board?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:97 ../../source/docs/software-framework/GPS/BG/index.rst:106 07c198e9213b452498d204cb3555dffd 79eecbc9288f4859a6d8c2b8e1b7ca6c
+#: ../source/docs/software-framework/GPS/BG/index.rst:97
+#: ../source/docs/software-framework/GPS/BG/index.rst:106
+#: 6db309ff8048452f85e97dbb070115e9 b930c01b771b49518a0e55c9e24b6d11
 msgid "可以"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:100 802c3cbceaa0441c993faf6e3a261fcb
+#: ../source/docs/software-framework/GPS/BG/index.rst:100
+#: 0df471ddcadd4a86b46369f30b9d70f4
 msgid "BG01-T模块夏利n7可以用吗"
 msgstr "Can the BG01-T module be used on a Xiali N7?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:101 e9fe8274a2e04b488801aa66311ac195
+#: ../source/docs/software-framework/GPS/BG/index.rst:101
+#: 37fed1295a124c88a79f24de9f1c7a12
 msgid "不行哦，我们做的只是模块，需要配合其他单片机才能使用"
-msgstr "No. What we provide is only a module, and it needs to be used together with another microcontroller."
+msgstr ""
+"No. What we provide is only a module, and it needs to be used together with "
+"another microcontroller."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:105 c0d7e16c35254324829ad82d3582a46d
+#: ../source/docs/software-framework/GPS/BG/index.rst:105
+#: 0195494b1a854cb49eb86a4b09866bf2
 msgid "BG02用3.3V 800mA的LDO供电可以么"
 msgstr "Can BG02 be powered by a 3.3V 800mA LDO?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:109 9b4319b340b048b6a7a178a92ff8742e
+#: ../source/docs/software-framework/GPS/BG/index.rst:109
+#: 39defbc62211441faa9c12e4734b589a
 msgid "BG01-T可不可以做GPS车速传感器用"
 msgstr "Can BG01-T be used as a GPS vehicle speed sensor?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:110 b9fdf638879446e89e17a332748895da
+#: ../source/docs/software-framework/GPS/BG/index.rst:110
+#: b3d5ed692590479a9d4672e2430859b1
 msgid "车载定位"
 msgstr "It can be used for vehicle positioning."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:113 c7a99e59ae7249b0a27bf83ec0d632ea
+#: ../source/docs/software-framework/GPS/BG/index.rst:113
+#: 81af0c703f6f404195996680f50465e5
 msgid "BG01-T能装万年历上改成卫星授时吗"
-msgstr "Can BG01-T be installed in a perpetual calendar and changed to satellite time synchronization?"
+msgstr ""
+"Can BG01-T be installed in a perpetual calendar and changed to satellite "
+"time synchronization?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:116 7dc02e13550c4ef38282914cc6982be1
+#: ../source/docs/software-framework/GPS/BG/index.rst:116
+#: 9c3b5d1baab749e5bb996d9bdc2d03d4
 msgid "不行哦，这个只是GPS的定位，没有授时的功能这款BG01-T有指示灯吗"
-msgstr "No. This is only for GPS positioning and does not have a time synchronization function. Does this BG01-T have an indicator light?"
+msgstr ""
+"No. This is only for GPS positioning and does not have a time "
+"synchronization function. Does this BG01-T have an indicator light?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:118 276ff0405b924e1289f0282a8aa0009c
+#: ../source/docs/software-framework/GPS/BG/index.rst:118
+#: f23830d27796451f9619efa833c92926
 msgid "没有指示灯哦"
 msgstr "No, it does not have an indicator light."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:121 e302aee6c53744cea8ce20921c4c05de
+#: ../source/docs/software-framework/GPS/BG/index.rst:121
+#: f31357bc04fd45cf8372373728a6eb5f
 msgid "BG01-T模块航模可以用吗"
 msgstr "Can the BG01-T module be used in model aircraft?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:122 d2afb9f57a2a4d6197c698e62dfd15a3
+#: ../source/docs/software-framework/GPS/BG/index.rst:122
+#: 859e80e2afad4ab8be12608bd330a31f
 msgid "可以用"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:125 e8d4c9dbd4bc4fb5ad8cdbc7d3758db9
+#: ../source/docs/software-framework/GPS/BG/index.rst:125
+#: b8dece941e8344a09c34be749c18b347
 msgid "BG01模块能装在无人机上吗"
 msgstr "Can the BG01 module be installed on a drone?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:126 ../../source/docs/software-framework/GPS/BG/index.rst:159 ../../source/docs/software-framework/GPS/BG/index.rst:281 ../../source/docs/software-framework/GPS/BG/index.rst:323 ../../source/docs/software-framework/GPS/BG/index.rst:343 4def0fecb35d4aafbda4356d1b6e942a 778da2562997420da16983bd8ef6ef1a 8bb007e3180e4f7984d16f1203fa5a41 b1c60c33c0d24a13a6d61512d561fe18 ee808cb2397b4080b143245687a03ef7
+#: ../source/docs/software-framework/GPS/BG/index.rst:126
+#: ../source/docs/software-framework/GPS/BG/index.rst:159
+#: ../source/docs/software-framework/GPS/BG/index.rst:281
+#: ../source/docs/software-framework/GPS/BG/index.rst:323
+#: ../source/docs/software-framework/GPS/BG/index.rst:343
+#: 0df376c50259407ebfd5b27b5cad62cf 5ef7dd71b19b49618bd1ac578871b84e
+#: 44e7ed0ba27a4e77afffe1c5b551bf27 e331fff8fdd247438e27a8da81f84a5f
+#: 4f6ccffdeb8a489e8cb7fd1ee71b5765
 msgid "可以的"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:129 aadbc014773c4560a3489ed27b910a96
-msgid "BG01-T已经集成了 MCU 了吗？ 也就是直接可以将GPS信息发送到自己的服务器，不需要额外接入处理芯片了？"
-msgstr "Does BG01-T already integrate an MCU? In other words, can it directly send GPS information to my own server without an additional processing chip?"
+#: ../source/docs/software-framework/GPS/BG/index.rst:129
+#: 7e63e7e57edb46b1ac68531181da6a1f
+msgid ""
+"BG01-T已经集成了 MCU 了吗？ 也就是直接可以将GPS信息发送到自己的服务器，不需要"
+"额外接入处理芯片了？"
+msgstr ""
+"Does BG01-T already integrate an MCU? In other words, can it directly send "
+"GPS information to my own server without an additional processing chip?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:130 203d735d23e74d058634da5b21669ef9
+#: ../source/docs/software-framework/GPS/BG/index.rst:130
+#: b1219809b16f413ead17db2017c52ba1
 msgid "这个只是将GPS信息接收到通过串口助手打印出来  需要额外接入处理芯片"
-msgstr "It only receives GPS information and prints it through a serial assistant. An additional processing chip is required."
+msgstr ""
+"It only receives GPS information and prints it through a serial assistant. "
+"An additional processing chip is required."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:133 0c77e6e2575f47ca902f61f5e461cc45
+#: ../source/docs/software-framework/GPS/BG/index.rst:133
+#: 576ce5e8ccae4cf0aefef1229f005902
 msgid "BG01-T默认出货波特率是多少"
 msgstr "What is the default shipment baud rate of BG01-T?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:134 ee7be77c3c01482f87d3b79e13c2c463
+#: ../source/docs/software-framework/GPS/BG/index.rst:134
+#: ca6250e6c7ce4b9b8ab56b438c5eeed1
 msgid "115200"
 msgstr "115200."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:137 c35f81479f7d4b0694d791f93d723824
+#: ../source/docs/software-framework/GPS/BG/index.rst:137
+#: 3ce6cc25dce94ee5839991cd2ace9f09
 msgid "Bg02-T 后台能看到定位吗？"
 msgstr "Can the positioning be seen in the backend for BG02-T?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:139 e4de5600f7424374b4e47c7643806f7f
+#: ../source/docs/software-framework/GPS/BG/index.rst:139
+#: 482524c7a3e845b6ae960cdf4acc2786
 msgid "这个是在串口信息上进行查看的，没有联网的功能"
-msgstr "It is viewed through serial port information. It has no networking function."
+msgstr ""
+"It is viewed through serial port information. It has no networking function."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:142 4f8db0ffdb0143b486504baa2843f681
+#: ../source/docs/software-framework/GPS/BG/index.rst:142
+#: b32fbc3ce0774a85a99be2b37ab153ab
 msgid "GPS模块波特率19200的有吗"
 msgstr "Are there GPS modules with a baud rate of 19200?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:143 da480fe71a174195ad009ac3e6bb9d33
+#: ../source/docs/software-framework/GPS/BG/index.rst:143
+#: 61ab33f12d904b488db391ae2505bda4
 msgid "BG01、BG02可以通过设置进行波特率的更改"
 msgstr "BG01 and BG02 can change the baud rate through settings."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:146 8ca5db9877c84d669f174e71aa60cac6
+#: ../source/docs/software-framework/GPS/BG/index.rst:146
+#: 4bb5b361ba0545eea8adbc602df5b64a
 msgid "BG02-T这款gps的波特率是多少 ？另外协议是nmea还是ublox"
-msgstr "What is the baud rate of the BG02-T GPS module? Also, is the protocol NMEA or u-blox?"
+msgstr ""
+"What is the baud rate of the BG02-T GPS module? Also, is the protocol NMEA "
+"or u-blox?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:147 14fdccf567b54152b46426a5962e0a84
+#: ../source/docs/software-framework/GPS/BG/index.rst:147
+#: 89c6f97360ad4b6394d0f57c7a78afef
 msgid "9600，协议是nmea，可以5V供电"
 msgstr "9600. The protocol is NMEA. It can be powered by 5V."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:150 20f1339cfefc4a1d8e9ef716630ec449
+#: ../source/docs/software-framework/GPS/BG/index.rst:150
+#: 34adecc72a514bba9c53a1d354190310
 msgid "BG01如何定位"
 msgstr "How does BG01 perform positioning?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:151 cf538fd0d72d482b96867e50e0ff2356
+#: ../source/docs/software-framework/GPS/BG/index.rst:151
+#: f105b8a9b81d4af49803ac3195de25df
 msgid "通过搜星定位，不需要插卡"
 msgstr "It positions by searching satellites and does not require a SIM card."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:154 6671537673264b32aa64ccea39d964c5
+#: ../source/docs/software-framework/GPS/BG/index.rst:154
+#: 14c0e9c0e5ca42949fa08df62a682a18
 msgid "BG01-T GPS和BDS都支持,,,是分开支持还是同时支持?"
-msgstr "BG01-T supports both GPS and BDS. Are they supported separately or simultaneously?"
+msgstr ""
+"BG01-T supports both GPS and BDS. Are they supported separately or "
+"simultaneously?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:155 71c8e57479bf4f909075c45cbeab83d6
+#: ../source/docs/software-framework/GPS/BG/index.rst:155
+#: da7910c3e7f84992904b2e677e92e53a
 msgid "同时支持"
 msgstr "They are supported simultaneously."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:158 a28fd26233d74cd9aa63359aa974025d
+#: ../source/docs/software-framework/GPS/BG/index.rst:158
+#: 34baad1776964b748a5ecb1455081b2a
 msgid "BG02-T可以用在飞控上吗"
 msgstr "Can BG02-T be used on a flight controller?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:162 61c44c7f7ff5464491334a9723e86679
-msgid "BG02模块接上陶瓷天线就能使用了嘛？装飞控上的，就使用到VCC RX TX GND这四根线"
-msgstr "Can the BG02 module be used once connected to a ceramic antenna? If installed on a flight controller, only VCC, RX, TX, and GND are used."
+#: ../source/docs/software-framework/GPS/BG/index.rst:162
+#: 4116985d80e541d699429a776f8116fa
+msgid ""
+"BG02模块接上陶瓷天线就能使用了嘛？装飞控上的，就使用到VCC RX TX GND这四根线"
+msgstr ""
+"Can the BG02 module be used once connected to a ceramic antenna? If "
+"installed on a flight controller, only VCC, RX, TX, and GND are used."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:163 ../../source/docs/software-framework/GPS/BG/index.rst:331 003ed51f7f9842db959c906ad9ca2429 e285679f86a84ff89dc997f3e784ea57
+#: ../source/docs/software-framework/GPS/BG/index.rst:163
+#: ../source/docs/software-framework/GPS/BG/index.rst:331
+#: e6f507c966164cd6a33be419ffbe3f42 9d09e0446968400abac0823ba8ea0c25
 msgid "是的"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:166 863c89ca0dd84a28aec7871c4378e318
+#: ../source/docs/software-framework/GPS/BG/index.rst:166
+#: 637b7d2454f2437a9b4ba6d6d36ebb3f
 msgid "有没有低功耗gps模块？"
 msgstr "Are there low-power GPS modules?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:167 c0ac844fbf6343deb9ce36af24059204
+#: ../source/docs/software-framework/GPS/BG/index.rst:167
+#: ae70908b96ce4d26958dc213f89d2d29
 msgid "BG01  BG02"
 msgstr "BG01 and BG02."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:170 742dc994ed7743c980fa6950f07a5b42
+#: ../source/docs/software-framework/GPS/BG/index.rst:170
+#: c22539c123914c60bfac44adc591ac5e
 msgid "BG02-T可以连8266吗"
 msgstr "Can BG02-T connect to 8266?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:171 c6acc202954c403e9bfb6783d5060fed
+#: ../source/docs/software-framework/GPS/BG/index.rst:171
+#: 18bcb95db13b49fa90f2dc2019ec0491
 msgid "不行哦，它没有联网的功能"
 msgstr "No. It does not have networking functionality."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:174 101e5451fa1547bca25b228873b6d031
+#: ../source/docs/software-framework/GPS/BG/index.rst:174
+#: 2642e9effb4c49d8ac75682603247930
 msgid "BG02-T可以作为8266的外设吗 ."
 msgstr "Can BG02-T be used as a peripheral for 8266?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:175 78b30966dcf34cf9b77f8319b1b07099
+#: ../source/docs/software-framework/GPS/BG/index.rst:175
+#: ddeef67f28a145b891364e9e2e9e3a93
 msgid "可以作为8266的外设"
 msgstr "Yes, it can be used as a peripheral for 8266."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:178 942f689040ed4b05926ecae620e5ea89
+#: ../source/docs/software-framework/GPS/BG/index.rst:178
+#: 08a4dc4646a7415e9a9579e3fec5fd78
 msgid "BG01-T模块能直接写入程序吗？可以二次开发？"
-msgstr "Can programs be directly written into the BG01-T module? Can it be secondarily developed?"
+msgstr ""
+"Can programs be directly written into the BG01-T module? Can it be "
+"secondarily developed?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:179 85d9aa74967f4423822cbfdf5a78552a
+#: ../source/docs/software-framework/GPS/BG/index.rst:179
+#: 7d469d0470ac40dfa93df0f07a4df845
 msgid "这个不行哦"
 msgstr "No, it cannot."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:182 77ab3dbcf1464f68906b89f73635e20f
+#: ../source/docs/software-framework/GPS/BG/index.rst:182
+#: 40d47ef1459a4b43a848dbfebee1596b
 msgid "BG02最低电流多少了"
 msgstr "What is the minimum current of BG02?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:183 b2524132ff654d63bd2e1c21e03c8b68
+#: ../source/docs/software-framework/GPS/BG/index.rst:183
+#: d3ca4a04535d43d4902bd7807149d7dc
 msgid "0.3mA"
 msgstr "0.3mA."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:186 992e0baad61a417f83d0cea128d58147
+#: ../source/docs/software-framework/GPS/BG/index.rst:186
+#: b0e4a215c1f443e4bf75192166be740e
 msgid "BG01模块天线有什么要求吗"
 msgstr "Are there any requirements for the BG01 module antenna?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:187 3cc82c45f6d34743bd07e607fd136082
+#: ../source/docs/software-framework/GPS/BG/index.rst:187
+#: 2a9d1a6f72f942fca8577416f3781d72
 msgid "淘宝搜索GPS天线就行"
 msgstr "Search for \"GPS antenna\" on Taobao."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:190 3da693a02b3e4f5f952a5dacc98ed8bd
+#: ../source/docs/software-framework/GPS/BG/index.rst:190
+#: e2deea6e259f4c28930edb58cfb84cc1
 msgid "BG02定位精度多少？"
 msgstr "What is the positioning accuracy of BG02?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:191 2861d84afbb745b89f0077c315a5ded1
+#: ../source/docs/software-framework/GPS/BG/index.rst:191
+#: 006c1e03e24446368aaaaa1ca265e3dc
 msgid "定位精度小于10米"
 msgstr "The positioning accuracy is less than 10 meters."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:194 60931a72a8d644f7ad9e3b54d41fc6d1
+#: ../source/docs/software-framework/GPS/BG/index.rst:194
+#: 43bd5bc8ba954bac824325f41891fdf1
 msgid "BG02-T搜星速度怎样"
 msgstr "How fast is BG02-T in searching satellites?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:195 ef6df7a7f30d417083e8410c8f766b6f
+#: ../source/docs/software-framework/GPS/BG/index.rst:195
+#: 5bac379b0fbe41dea211bbd5f4a63ee2
 msgid "30S"
 msgstr "30 seconds."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:198 528e10ea40da421187a4dc27ad3b9600
+#: ../source/docs/software-framework/GPS/BG/index.rst:198
+#: 21dfe4f99bee4169bb5419f4b40a020d
 msgid "BG01-T可以改软件的经纬度吗"
 msgstr "Can the software longitude and latitude of BG01-T be modified?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:199 9d2b17a773814c61bf4bbe474a520bff
+#: ../source/docs/software-framework/GPS/BG/index.rst:199
+#: e6afc3e60e6840068bf3a82990fba4df
 msgid "不可以哦"
 msgstr "No."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:202 2d03586e72724b39b1b560194ecce59d
+#: ../source/docs/software-framework/GPS/BG/index.rst:202
+#: b0f0a46741534cbf9221e18cc883f232
 msgid "BG01-T空旷地能搜多少颗星？"
 msgstr "How many satellites can BG01-T search in an open area?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:203 d22c64d9436b47219723c702d072e884
+#: ../source/docs/software-framework/GPS/BG/index.rst:203
+#: 034562d7562a471481e8e4fe36c47672
 msgid "30颗星"
 msgstr "30 satellites."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:206 8168932c1d2b4fed8fb21b4ded408893
+#: ../source/docs/software-framework/GPS/BG/index.rst:206
+#: 8b070acbeebc4cf385e876e44e1a9a7a
 msgid "BG02-T支持北斗通信吗？"
 msgstr "Does BG02-T support BeiDou communication?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:207 f43bffa333e84ea198925dadd9d1f184
+#: ../source/docs/software-framework/GPS/BG/index.rst:207
+#: 0810f0d5207c44a7aff637b762922178
 msgid "可以通过串口进行通信设置定位参数，具体您可以查看官网的GK9501指令集"
-msgstr "Positioning parameters can be configured through serial communication. For details, please refer to the GK9501 command set on the official website."
+msgstr ""
+"Positioning parameters can be configured through serial communication. For "
+"details, please refer to the GK9501 command set on the official website."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:211 a1d78f6e040440bb912831471adf749f
+#: ../source/docs/software-framework/GPS/BG/index.rst:211
+#: 6d80f19b5ac249ed93b17ee67c5df397
 msgid "Bg01-T GPS gate触发周期是1秒，还是10毫秒或其它可设定"
-msgstr "Is the GPS gate trigger period of BG01-T 1s, 10ms, or otherwise configurable?"
+msgstr ""
+"Is the GPS gate trigger period of BG01-T 1s, 10ms, or otherwise configurable?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:212 29f2b44022c44638a12691c3325fef0b
+#: ../source/docs/software-framework/GPS/BG/index.rst:212
+#: 6ac538e773b74410a3ab6cfb6fea679d
 msgid "可设定"
 msgstr "It is configurable."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:215 6e602544b8da4bbbaf58416e9928d496
+#: ../source/docs/software-framework/GPS/BG/index.rst:215
+#: 89f00edfbb0a4797bd19b1183b3b7bd3
 msgid "BG01-T这个模块有秒脉冲1pps信号输出吗？"
 msgstr "Does this BG01-T module have a 1PPS pulse-per-second signal output?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:216 16994437dc4049c299c32ded2f696e7c
+#: ../source/docs/software-framework/GPS/BG/index.rst:216
+#: 5d1f001ec27d4ab190d0cd64b76994ab
 msgid "有的"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:219 abdbcd8e58c44ac2b7afbf3b9cce4e40
+#: ../source/docs/software-framework/GPS/BG/index.rst:219
+#: 8ac057916a9c42b5bf3a374a22831c99
 msgid "BG01-T可以加装北斗模块，形成双模块搜星定位？"
-msgstr "Can BG01-T be equipped with an additional BeiDou module to form dual-module satellite positioning?"
+msgstr ""
+"Can BG01-T be equipped with an additional BeiDou module to form dual-module "
+"satellite positioning?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:220 e125992034c84a4983611e9b89577bdd
+#: ../source/docs/software-framework/GPS/BG/index.rst:220
+#: a4beeed6248241669678f2ba71f367d6
 msgid "不行哦"
 msgstr "No."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:223 010ccaee776148ca89e2088f818da5fc
+#: ../source/docs/software-framework/GPS/BG/index.rst:223
+#: 4745a26f270a46fdaf718bef01e39e46
 msgid "BG01-T有定位，监听吗"
 msgstr "Does BG01-T support positioning and monitoring/listening?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:224 5bc2ff5eaa9640f19b73180b1f9ac9d8
+#: ../source/docs/software-framework/GPS/BG/index.rst:224
+#: 480963eb37054e9ba6c646462378753a
 msgid "只有定位功能"
 msgstr "It only has positioning functionality."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:227 72072205d8824e7f8e36adb79c0e3d50
+#: ../source/docs/software-framework/GPS/BG/index.rst:227
+#: eb5885bd24db4509a2c56aa993744893
 msgid "BG01-T供电是用数据线还是用vcc和gnd引脚呢"
 msgstr "Should BG01-T be powered using a data cable or the VCC and GND pins?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:228 8ebfa454100c4ab2a6e6d223d28c7c01
+#: ../source/docs/software-framework/GPS/BG/index.rst:228
+#: a29c307553194b268246353240a9bd23
 msgid "数据线、VCC GND二选一"
 msgstr "Either the data cable or VCC/GND can be used."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:231 72a0250314534dd29c4569b1a5e9ab69
+#: ../source/docs/software-framework/GPS/BG/index.rst:231
+#: b4ccf8d75f3d45a4b6f3312d8505e07c
 msgid "BG01-T模块用vcc，gnd供电的话，需要多大的电压？ 是3.3伏，还是五伏？"
-msgstr "If BG01-T is powered through VCC and GND, what voltage is required? 3.3V or 5V?"
+msgstr ""
+"If BG01-T is powered through VCC and GND, what voltage is required? 3.3V or "
+"5V?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:232 954281f097044c248910345b32bbfaed
+#: ../source/docs/software-framework/GPS/BG/index.rst:232
+#: 8c587bfb307a4505825e832f00daa9a5
 msgid "5V"
 msgstr "5V."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:235 776b240da2e646c899a41bb27ae43067
+#: ../source/docs/software-framework/GPS/BG/index.rst:235
+#: ace8224d1cbb46f8969e8564ed595d3e
 msgid "BG01-T_封装.pcb ，这个文件打不开"
 msgstr "The BG01-T_封装.pcb file cannot be opened."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:236 94769417146d486a920bfe465ca49bd6
+#: ../source/docs/software-framework/GPS/BG/index.rst:236
+#: 4eec901664384b33b850b27c945ddcc9
 msgid "用PADS9.5版本，不是用AD"
 msgstr "Use PADS 9.5, not AD."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:239 17db4bb43e0b439dac21179aa8be2cbc
+#: ../source/docs/software-framework/GPS/BG/index.rst:239
+#: c71f50cfd4934cbabde4b72f97a6c697
 msgid "这个BG02-T的输出协议是什么"
 msgstr "What is the output protocol of BG02-T?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:240 bda9f2b94aca46eeaa4136edd3133c0c
+#: ../source/docs/software-framework/GPS/BG/index.rst:240
+#: 3321b4901b2c44fd8013f7ad441a794b
 msgid "输出协议是NMEA"
 msgstr "The output protocol is NMEA."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:243 8a4f9c793fab4e3ca8aafb38ca9a5dd5
+#: ../source/docs/software-framework/GPS/BG/index.rst:243
+#: c8ccde5a3a954a14ba24f11dae0d3cc8
 msgid "BG02-T模块怎么还有个纽扣电池 ？可以去掉么"
 msgstr "Why does the BG02-T module have a coin cell? Can it be removed?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:245 450265234e214c8c8bcf091f9d8ddbd8
+#: ../source/docs/software-framework/GPS/BG/index.rst:245
+#: 305fd4b499c743f4833aeba0345dd117
 msgid "那个是超级电容 ，驱动模块的"
 msgstr "That is a supercapacitor used to drive the module."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:248 55ebf2c4e855497d993d1a24adbb08a2
+#: ../source/docs/software-framework/GPS/BG/index.rst:248
+#: 43e6676f165e44858e83aa08107570f9
 msgid "请问BG02-T模块的通信接口是？"
 msgstr "What is the communication interface of the BG02-T module?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:249 eb75fc9e52c84049b828a96ee8e08121
+#: ../source/docs/software-framework/GPS/BG/index.rst:249
+#: 8bd887ca6b9c45ee8d68156cb03f5305
 msgid "串口"
 msgstr "Serial port."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:252 10de578340184576aeeb360c5657e605
+#: ../source/docs/software-framework/GPS/BG/index.rst:252
+#: 3e6c7b1007e24b8b99d125d8b3988366
 msgid "BG02-T可以直接读取北斗信号吗"
 msgstr "Can BG02-T directly read BeiDou signals?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:253 9ed584fbd89a42418ab3ba4a844c9ae3
+#: ../source/docs/software-framework/GPS/BG/index.rst:253
+#: b19b8ccf8545404ea7392790f0a6e571
 msgid "不需要哦，直接就能读取.不过要到室外"
-msgstr "No additional operation is needed; it can read directly. However, it must be outdoors."
+msgstr ""
+"No additional operation is needed; it can read directly. However, it must be "
+"outdoors."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:256 059de4711f75473892d8898d34541b96
+#: ../source/docs/software-framework/GPS/BG/index.rst:256
+#: acc1b1df3c674c9c863dd27c5481915f
 msgid "BG02-T农村空旷地最少搜多少星？"
-msgstr "How many satellites can BG02-T search at minimum in an open rural area?"
+msgstr ""
+"How many satellites can BG02-T search at minimum in an open rural area?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:257 36d67ab0fcde4290b96669114c7df599
+#: ../source/docs/software-framework/GPS/BG/index.rst:257
+#: 303719947bf6496392c3156382b798e5
 msgid "10颗以上是没问题的"
 msgstr "More than 10 satellites should be no problem."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:260 3e121b8096d844fb9b232cf3df08a066
+#: ../source/docs/software-framework/GPS/BG/index.rst:260
+#: dcdf6d08d4494de4b4a5e14809118be4
 msgid "BG01-T模块怎样装进导航?怎么接导航电路板上?"
-msgstr "How is the BG01-T module installed into a navigation device? How is it connected to the navigation circuit board?"
+msgstr ""
+"How is the BG01-T module installed into a navigation device? How is it "
+"connected to the navigation circuit board?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:261 ef4aa51f0ed24a6f99e436ea6495a0d9
+#: ../source/docs/software-framework/GPS/BG/index.rst:261
+#: 8c1a59023af84909b51fb4e1e61cd747
 msgid "通过串口"
 msgstr "Through the serial port."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:264 f186844aaecd40969aaa422e21894874
+#: ../source/docs/software-framework/GPS/BG/index.rst:264
+#: f152ad9ac55149a8bb072620a730ddaf
 msgid "BG01-T是北斗和GPS双模吗？ 是可以直接接USB用吗？"
-msgstr "Is BG01-T GPS + BeiDou dual-mode? Can it be connected directly via USB?"
+msgstr ""
+"Is BG01-T GPS + BeiDou dual-mode? Can it be connected directly via USB?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:265 429aee5a3f2f4297b1da4f8d23afa385
+#: ../source/docs/software-framework/GPS/BG/index.rst:265
+#: a049bc65c679430c9b3208e2a7c3e6ef
 msgid "是的，GPS+北斗，USB只是供电功能，不能当串口，需要另外购买串口板CP2102"
-msgstr "Yes, it is GPS + BeiDou. USB is only for power supply and cannot be used as a serial port. You need to purchase a CP2102 serial board separately."
+msgstr ""
+"Yes, it is GPS + BeiDou. USB is only for power supply and cannot be used as "
+"a serial port. You need to purchase a CP2102 serial board separately."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:268 1fa51c3010064c1d91fa9d4ad6cc3b9f
+#: ../source/docs/software-framework/GPS/BG/index.rst:268
+#: 0a737d3514f7429cbaa39058c9a81db9
 msgid "BG01—T和BG02-T的主要差别在哪？"
 msgstr "What are the main differences between BG01-T and BG02-T?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:269 023af9cc815641598508867d7f3e7811
-msgid "BG01-T比BG02-T尺寸大一些，陶瓷天线大一点，BG01-T的稳定性相对更好一点，其它并无区别。您可以根据您的具体需求来选择"
-msgstr "BG01-T is slightly larger than BG02-T, has a larger ceramic antenna, and has relatively better stability. There are no other differences. You can choose according to your specific needs."
+#: ../source/docs/software-framework/GPS/BG/index.rst:269
+#: fe79e2da18eb4b43aa7f6ffc6774f510
+msgid ""
+"BG01-T比BG02-T尺寸大一些，陶瓷天线大一点，BG01-T的稳定性相对更好一点，其它并"
+"无区别。您可以根据您的具体需求来选择"
+msgstr ""
+"BG01-T is slightly larger than BG02-T, has a larger ceramic antenna, and has "
+"relatively better stability. There are no other differences. You can choose "
+"according to your specific needs."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:272 dd75b96d489f4b18865cff8aa78227d6
+#: ../source/docs/software-framework/GPS/BG/index.rst:272
+#: ef984ef745c7427c86133683796324cb
 msgid "BG02-T GPS定位精度多少"
 msgstr "What is the GPS positioning accuracy of BG02-T?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:273 a76b2457b2c74efca5d4cae04f6d543f
+#: ../source/docs/software-framework/GPS/BG/index.rst:273
+#: 1f19a6339acc4618952ef1924a84fbf6
 msgid "10CM"
 msgstr "10cm."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:276 1eac27e9e9fc4666b25afed0c0229cc0
+#: ../source/docs/software-framework/GPS/BG/index.rst:276
+#: 1e5b75cc5f474839bd8ea5889b14534e
 msgid "\"BG01-T USb是数据接口吗"
 msgstr "Is the USB on BG01-T a data interface?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:277 f013b57a70e5400094f235e806160eb8
+#: ../source/docs/software-framework/GPS/BG/index.rst:277
+#: 271206b5b5e44de4bae6c9558745d6ab
 msgid "仅支持供电"
 msgstr "It only supports power supply."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:280 e8603029ad9b45fbb5d3af0f1446c824
+#: ../source/docs/software-framework/GPS/BG/index.rst:280
+#: 8ef84d55694d4dd283cd3a9727467dc8
 msgid "BG02这个可以用手环里面吗"
 msgstr "Can BG02 be used in a wristband?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:284 4b7dd1f54d6d48338b9e62a718377ec9
+#: ../source/docs/software-framework/GPS/BG/index.rst:284
+#: c9951b117f414e39b585bcfb2ed80a66
 msgid "这款可以同单片机通信不"
 msgstr "Can this communicate with a microcontroller?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:285 84b66eea588e4816896db1094c2e5afd
+#: ../source/docs/software-framework/GPS/BG/index.rst:285
+#: 9c80214a7b9d47d2bb4d1bff5704f284
 msgid "可以同单片机通信"
 msgstr "Yes, it can communicate with a microcontroller."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:288 41e0d66cb8a043a0b1a32c36825dcf6c
+#: ../source/docs/software-framework/GPS/BG/index.rst:288
+#: 5e7fb8a9616c4d0fb5493af8be261658
 msgid "BG02-T是接到电脑取得卫星的数据吗？"
 msgstr "Is BG02-T connected to a computer to obtain satellite data?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:289 92f2c96f25e4479b88f7494a9252761b
+#: ../source/docs/software-framework/GPS/BG/index.rst:289
+#: eedfc91f72b24c7497bce3c2afa8cd56
 msgid "用USB转TTL的串口板接好线 ，然后USB插到电脑上就有GPS数据出来"
-msgstr "Connect it using a USB-to-TTL serial board, then plug the USB into the computer, and GPS data will be output."
+msgstr ""
+"Connect it using a USB-to-TTL serial board, then plug the USB into the "
+"computer, and GPS data will be output."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:292 1e744bcefb3e4af5bcb17d270369f2d7
+#: ../source/docs/software-framework/GPS/BG/index.rst:292
+#: 97813ffe4b104a2b84e4eef5dc193bdf
 msgid "BG-02支持 北斗定位吗"
 msgstr "Does BG-02 support BeiDou positioning?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:293 43d831af821841838b14e2b80a006431
-msgid "\"BG系列GPS模块是通过搜星定位，不需要插卡， 通电就可以获取经纬度信息 ，通过串口调试助手查看打印出来的定位数据，不过需要注意的是需要在室外才能正常定位，室内是无法使用的，如果室内定位推荐您选用我们的另一款UWB高精度测距定位模块BU01：https://item.taobao.com/item.htm?ft=t&id=602542217862\""
-msgstr "BG series GPS modules position by searching satellites and do not require a SIM card. They can obtain longitude and latitude information after power-on. The printed positioning data can be viewed through a serial debugging assistant. Note that normal positioning requires outdoor use; it cannot be used indoors. If indoor positioning is required, we recommend another UWB high-precision ranging and positioning module, BU01: https://item.taobao.com/item.htm?ft=t&id=602542217862"
+#: ../source/docs/software-framework/GPS/BG/index.rst:293
+#: 6f9b025207b0467ea6365a95dfda0b10
+msgid ""
+"\"BG系列GPS模块是通过搜星定位，不需要插卡， 通电就可以获取经纬度信息 ，通过串"
+"口调试助手查看打印出来的定位数据，不过需要注意的是需要在室外才能正常定位，室"
+"内是无法使用的，如果室内定位推荐您选用我们的另一款UWB高精度测距定位模块BU01："
+"https://item.taobao.com/item.htm?ft=t&id=602542217862\""
+msgstr ""
+"BG series GPS modules position by searching satellites and do not require a "
+"SIM card. They can obtain longitude and latitude information after power-on. "
+"The printed positioning data can be viewed through a serial debugging "
+"assistant. Note that normal positioning requires outdoor use; it cannot be "
+"used indoors. If indoor positioning is required, we recommend another UWB "
+"high-precision ranging and positioning module, BU01: https://item.taobao.com/"
+"item.htm?ft=t&id=602542217862"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:298 a25569baee7d4f1da698a265675235dd
+#: ../source/docs/software-framework/GPS/BG/index.rst:298
+#: c4a3b79592474c94b3bf6648ea0f8087
 msgid "Bg02是单GPS吗"
 msgstr "Is BG02 GPS-only?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:299 0a477bee527146248950afa39b71ef13
+#: ../source/docs/software-framework/GPS/BG/index.rst:299
+#: 17b773346006409db9fe500e5332cddc
 msgid "GPS+BDS"
 msgstr "GPS + BDS."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:302 5d11bbedabd344b79ee91ecc09e0fe54
+#: ../source/docs/software-framework/GPS/BG/index.rst:302
+#: 1b9941d5573a4c858ace1eee394b026e
 msgid "BG01/02支持SIM卡吗"
 msgstr "Do BG01/02 support SIM cards?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:303 4d093eadaeca459f9f5958688d2fcdf3
+#: ../source/docs/software-framework/GPS/BG/index.rst:303
+#: fb391b1e8539466b82a747adb188fc74
 msgid "不支持"
 msgstr "No."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:306 d8db67ecc1a7486483dee9e0926937f9
+#: ../source/docs/software-framework/GPS/BG/index.rst:306
+#: bb7eb662c6034f33a0ea0f2560cb0b05
 msgid "BG02的必须得接天线才能使用吗？"
 msgstr "Must BG02 be connected to an antenna to work?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:307 ad4c1959b48441d8ba0fd21c6668c34d
+#: ../source/docs/software-framework/GPS/BG/index.rst:307
+#: 72489b7dab8a4441b97b4d581175e2dd
 msgid "必须"
 msgstr "Yes, it must."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:310 bf093f4f3314443a9ef12f368e03e225
+#: ../source/docs/software-framework/GPS/BG/index.rst:310
+#: 3c4cbdf802994f32ae7c05c5e79db86e
 msgid "BG01-T和BG02-T的供电范围多少"
 msgstr "What is the power supply range of BG01-T and BG02-T?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:311 75228f1d3a504ebe83ef845bb67e8b59
-msgid "BG01-T和BG02-T的供电电压范围是3.6-5V，BG01和BG02单模块则只能使用3.3V供电"
-msgstr "The power supply voltage range of BG01-T and BG02-T is 3.6–5V. The BG01 and BG02 standalone modules can only use 3.3V power supply."
+#: ../source/docs/software-framework/GPS/BG/index.rst:311
+#: eff4cbe970b64421b16e8b53cd03cc34
+msgid ""
+"BG01-T和BG02-T的供电电压范围是3.6-5V，BG01和BG02单模块则只能使用3.3V供电"
+msgstr ""
+"The power supply voltage range of BG01-T and BG02-T is 3.6–5V. The BG01 and "
+"BG02 standalone modules can only use 3.3V power supply."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:314 1c8dfe8cc04f41eca8ea2d3469728a8b
+#: ../source/docs/software-framework/GPS/BG/index.rst:314
+#: 1e54da51612148849d4b51563aefb826
 msgid "BG02-T串口，供电引脚那4个焊盘间距和宽度多少"
-msgstr "What are the pitch and width of the four solder pads for the BG02-T serial port and power pins?"
+msgstr ""
+"What are the pitch and width of the four solder pads for the BG02-T serial "
+"port and power pins?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:315 490aff83328f4d749d6ecf12c4f85b1a
+#: ../source/docs/software-framework/GPS/BG/index.rst:315
+#: 6cd6c6379b7c4264b7f8d98cc0181f70
 msgid "都是2.0mm"
 msgstr "They are all 2.0mm."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:318 960048a4b316410bad86dd8a9e1ae484
+#: ../source/docs/software-framework/GPS/BG/index.rst:318
+#: 64ed38c9145049058e9d90a81f86ba8c
 msgid "BG01-T gps不支持5v供电吗？"
 msgstr "Does BG01-T GPS not support 5V power supply?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:319 bb93a98287754f438772ac56c7bdc762
+#: ../source/docs/software-framework/GPS/BG/index.rst:319
+#: ffd7c1c50de048e99b1bc2d2848ac354
 msgid "支持"
 msgstr "It supports 5V."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:322 ce7be23dd93344e99851dc89b0ee7be7
+#: ../source/docs/software-framework/GPS/BG/index.rst:322
+#: 0792927a2aed46e7bd46627d2c656285
 msgid "BG02可以配电池吗，做成充电那种"
 msgstr "Can BG02 be equipped with a battery and made rechargeable?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:326 65ecdbec3f794618a2537547c00a1398
+#: ../source/docs/software-framework/GPS/BG/index.rst:326
+#: bc50de73231542cf997992f37a61b005
 msgid "BG02-T想集成到PCB板上，应该怎么焊接呢？"
-msgstr "If I want to integrate BG02-T onto a PCB board, how should it be soldered?"
+msgstr ""
+"If I want to integrate BG02-T onto a PCB board, how should it be soldered?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:327 07834f018bed48709281a1c7a2aab660
+#: ../source/docs/software-framework/GPS/BG/index.rst:327
+#: d5f3bad760f24a60a525d166af4262f6
 msgid "如果集成到PCB板上，建议使用单模组"
-msgstr "If integrating it onto a PCB board, it is recommended to use the standalone module."
+msgstr ""
+"If integrating it onto a PCB board, it is recommended to use the standalone "
+"module."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:330 776bb863092d43bc9bbd1517f299e541
+#: ../source/docs/software-framework/GPS/BG/index.rst:330
+#: 6cbbff85fc8b4605911ac078c76dc5ee
 msgid "BG02-T是体积最小的带天线模块？"
 msgstr "Is BG02-T the smallest module with an antenna?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:334 0fa48b5e25bd47d79a090a39dc0727cb
+#: ../source/docs/software-framework/GPS/BG/index.rst:334
+#: a3ec9fd809c9429da2b5574490eb202e
 msgid "请问BG01-T如何测试？"
 msgstr "How do I test BG01-T?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:335 ba5ec5a7a15e43889a019fafe482f68b
+#: ../source/docs/software-framework/GPS/BG/index.rst:335
+#: e904ba8788d9490da87ca39ed6c80264
 msgid "上电就会默认输出串口打印信息"
 msgstr "It outputs serial print information by default after power-on."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:338 00c1e8c0fc064036996420808b8d3e31
+#: ../source/docs/software-framework/GPS/BG/index.rst:338
+#: f7278391ba6e4c16bffbd7a96552c2b5
 msgid "BG02-T接上串口  接上电就输出定位信息了？"
-msgstr "Will BG02-T output positioning information after connecting the serial port and power?"
+msgstr ""
+"Will BG02-T output positioning information after connecting the serial port "
+"and power?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:339 ae7f16e0c4dc49c59548ff3a59f15ba9
+#: ../source/docs/software-framework/GPS/BG/index.rst:339
+#: 486d4756624d4c96a4fee17e6eead79d
 msgid "接上电就能输出定位信息"
 msgstr "It can output positioning information after power-on."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:342 ac064643b38d426fac35b8b31f5610d5
+#: ../source/docs/software-framework/GPS/BG/index.rst:342
+#: e135ace356f94a089da690b93feec8a0
 msgid "BG02-T不用联网都能获取经纬度吗"
 msgstr "Can BG02-T obtain longitude and latitude without networking?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:346 1eff696a11fd4087848af633ccb93772
+#: ../source/docs/software-framework/GPS/BG/index.rst:346
+#: 762407ff7faa48e68767bb6ecd8fbf6c
 msgid "BG01-T定位模块的安装有什么要求？？ttl的距离最长能搞多远"
-msgstr "What are the installation requirements for the BG01-T positioning module? How far can TTL go at maximum?"
+msgstr ""
+"What are the installation requirements for the BG01-T positioning module? "
+"How far can TTL go at maximum?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:347 031a5a74335740349826992db2d87f89
+#: ../source/docs/software-framework/GPS/BG/index.rst:347
+#: e31c3d91a0e84f6a99e9ddf3f59daa1d
 msgid "天线朝天空。10cm"
 msgstr "The antenna should face the sky. 10cm."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:350 53287188907c4f299f401503143e58fa
+#: ../source/docs/software-framework/GPS/BG/index.rst:350
+#: 283197b115104e7bb3fc0163b8085545
 msgid "BG01-T micro usb干什么的 只供电？"
 msgstr "What is the BG01-T micro USB used for? Is it only for power supply?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:351 969406f3aa6e4883bdef89f303cbb7be
+#: ../source/docs/software-framework/GPS/BG/index.rst:351
+#: d13d40483e0e40a38aaa78e56bd2f52e
 msgid "这个USB接口是方便接线，只可以给模块供电，没有其他功能哦"
-msgstr "This USB interface is for convenient wiring. It can only supply power to the module and has no other function."
+msgstr ""
+"This USB interface is for convenient wiring. It can only supply power to the "
+"module and has no other function."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:354 677330794f9b46e4b64d19f8170f7061
+#: ../source/docs/software-framework/GPS/BG/index.rst:354
+#: 2dd930421e8f490598239a1a570b6d80
 msgid "BG02需要插卡吗"
 msgstr "Does BG02 require a SIM card?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:355 50d731c7724f4c339694c524a8c10086
+#: ../source/docs/software-framework/GPS/BG/index.rst:355
+#: 21ad339419324545ba0ac39bd59f4dbc
 msgid "不需要"
 msgstr "No."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:358 f654e53eb0164c84bfb47207d9231638
+#: ../source/docs/software-framework/GPS/BG/index.rst:358
+#: 0497b6aa732a4565bd160711330debcb
 msgid "BG02和GP02有什么区别"
 msgstr "What is the difference between BG02 and GP02?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:359 4c7997b995bc44dabc838e68bcb282c9
+#: ../source/docs/software-framework/GPS/BG/index.rst:359
+#: dfada0ded9fc4fb59c323c2e0427e741
 msgid "用的芯片厂家不同"
 msgstr "They use chips from different manufacturers."
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:362 a820525b8dbc47169c5f43d0854e2d83
+#: ../source/docs/software-framework/GPS/BG/index.rst:362
+#: 7551fe7acbb24cb1b4a5c4fb3880257e
 msgid "BG01-T用什么软件来看定位呢"
 msgstr "What software is used to view positioning for BG01-T?"
 
-#: ../../source/docs/software-framework/GPS/BG/index.rst:363 17d93a10f420412eb2c2fd655be23023
-msgid "BG系列GPS模块是通过搜星定位，不需要插卡，通电就可以获取经纬度信息，通过串口调试助手查看打印出来的定位数据，不过需要注意的是需要在室外才能正常定位，室内是无法使用的，如果室内定位推荐您选用我们的另一款UWB高精度测距定位模块BU01：https://item.taobao.com/item.htm?ft=t&id=602542217862"
-msgstr "BG series GPS modules position by searching satellites and do not require a SIM card. They can obtain longitude and latitude information after power-on. The printed positioning data can be viewed through a serial debugging assistant. Note that normal positioning requires outdoor use; it cannot be used indoors. If indoor positioning is required, we recommend another UWB high-precision ranging and positioning module, BU01: https://item.taobao.com/item.htm?ft=t&id=602542217862"
+#: ../source/docs/software-framework/GPS/BG/index.rst:363
+#: 4598fd6c224d4ddd995debf53a9a343c
+msgid ""
+"BG系列GPS模块是通过搜星定位，不需要插卡，通电就可以获取经纬度信息，通过串口调"
+"试助手查看打印出来的定位数据，不过需要注意的是需要在室外才能正常定位，室内是"
+"无法使用的，如果室内定位推荐您选用我们的另一款UWB高精度测距定位模块BU01："
+"https://item.taobao.com/item.htm?ft=t&id=602542217862"
+msgstr ""
+"BG series GPS modules position by searching satellites and do not require a "
+"SIM card. They can obtain longitude and latitude information after power-on. "
+"The printed positioning data can be viewed through a serial debugging "
+"assistant. Note that normal positioning requires outdoor use; it cannot be "
+"used indoors. If indoor positioning is required, we recommend another UWB "
+"high-precision ranging and positioning module, BU01: https://item.taobao.com/"
+"item.htm?ft=t&id=602542217862"

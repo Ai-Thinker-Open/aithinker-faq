@@ -8,1001 +8,1478 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:2 acc43a3d915841d5b2497747e8d441a2
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:2
+#: 3e917dabcab7468c8e8a966c747e4910
 msgid "安信可 RTL87XX系列模块 FAQ"
 msgstr "Ai-Thinker RTL87XX Series Module FAQ"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:18 8d08107a0cb447a59d4cd060baac0d01
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:18
+#: 1e313817c56c4675a32e6e9db8db83fb
 msgid "BW16可不可以支持DNS解析？"
 msgstr "Does BW16 support DNS resolution?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:19 e69ca7bef7684a0d990515fa2115cb89
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:19
+#: 0c792a1eeb48467592d44b25c0e080a5
 msgid "不支持DNS解析"
 msgstr "DNS resolution is not supported."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:22 1601faff33904aab8a5e479458d384d1
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:22
+#: 76be8cd74aab4b77ba988a76e7ddc02b
 msgid "BW16用蓝牙来搜索配置网络，使智能设备接入WIFI路由器网络，可以实现不"
-msgstr "Can BW16 use Bluetooth to search for and configure the network, so that smart devices can access a Wi-Fi router network?"
+msgstr ""
+"Can BW16 use Bluetooth to search for and configure the network, so that "
+"smart devices can access a Wi-Fi router network?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:23 ef3ff03b44a04c09b6380feef0e6a0fa
-msgid "这个是可以实现的，具体可以查看我们的指令手册， https://docs.ai-thinker.com/rtl87xx"
-msgstr "Yes, this can be implemented. For details, please refer to our command manual: https://docs.ai-thinker.com/rtl87xx"
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:23
+#: 5de03b5b129d4bccb43c6c8b8ddd1f1a
+msgid ""
+"这个是可以实现的，具体可以查看我们的指令手册， https://docs.ai-thinker.com/"
+"rtl87xx"
+msgstr ""
+"Yes, this can be implemented. For details, please refer to our command "
+"manual: https://docs.ai-thinker.com/rtl87xx"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:26 6221ff7d770943f8ac5086758e74a20c
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:26
+#: cecdf924caeb4db1bfde5293e261cf2c
 msgid "BW 16可以wifi 蓝牙同时开启使用么"
 msgstr "Can BW16 enable and use Wi-Fi and Bluetooth at the same time?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:27 ae82cda63bee4a06a99ab43e1406aef4
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:27
+#: 0a889c45be594390bf3fd6ce41deeba1
 msgid "可以使用，具体查看我们的蓝牙配网的功能"
-msgstr "Yes. For details, please refer to our Bluetooth network provisioning function."
+msgstr ""
+"Yes. For details, please refer to our Bluetooth network provisioning "
+"function."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:30 09c25446b63c4ab8b98e2623e4756a2a
-msgid "BW16 wifi最大传输速度是多少 ？和mcu是啥接口 ？有Spi传输方式吗 ？一般mcu串口都没那么快"
-msgstr "What is the maximum Wi-Fi transmission speed of BW16? What interface does it use with the MCU? Is SPI transmission supported? Generally, MCU serial ports are not that fast."
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:30
+#: 178b588c08a14ca3b4152527dfa27d97
+msgid ""
+"BW16 wifi最大传输速度是多少 ？和mcu是啥接口 ？有Spi传输方式吗 ？一般mcu串口都"
+"没那么快"
+msgstr ""
+"What is the maximum Wi-Fi transmission speed of BW16? What interface does it "
+"use with the MCU? Is SPI transmission supported? Generally, MCU serial ports "
+"are not that fast."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:32 a7fb8a4925b24562b9b3113a80edec4f
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:32
+#: 4ed2d5dda0f24d9ab3f801f68e62797c
 msgid "串口传输，最大传输速度4M。没有SPI ，WIFI传输的方式是通过串口"
-msgstr "It uses serial port transmission, with a maximum transmission speed of 4M. SPI is not available. Wi-Fi transmission is implemented through the serial port."
+msgstr ""
+"It uses serial port transmission, with a maximum transmission speed of 4M. "
+"SPI is not available. Wi-Fi transmission is implemented through the serial "
+"port."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:35 c5cdfaeeaa6d475398a7c1568a28294c
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:35
+#: 881a16ab46124f88909ce481152d67c1
 msgid "BW18 蓝牙与wifi传输速率多少能有"
 msgstr "What transmission rates can BW18 Bluetooth and Wi-Fi reach?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:36 84ef7545ca8544708696b8c2a8bdd883
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:36
+#: bcfff13ec76e4bf1988da6e68231aab3
 msgid "WIFI速率为938KB/S  蓝牙为2KB/S"
 msgstr "The Wi-Fi rate is 938 KB/s, and the Bluetooth rate is 2 KB/s."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:39 f5625fe3605246c9bc9369d07428e4ca
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:39
+#: 448d8163ad1644dfb4498898f89034a2
 msgid "WIFI双频2X2 11AC+BT5.0模组 有吗"
 msgstr "Do you have a dual-band Wi-Fi 2x2 11AC + BT5.0 module?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:40 ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:125 328396f3e171421e84637a58bd2583b8 7aae7b409fa943aabc6977c6113d5a87
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:40
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:125
+#: 57b0d85b773b46bc9a8a98d5d7245b89 8f4fd398c696494c9b5915364efd42dc
 msgid "BW16"
 msgstr "BW16."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:43 9dd75fdb53a44b2e9fd31f9c82f20a0a
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:43
+#: 53eecf07c516404dabb8aa2f1e7d86ed
 msgid "这个BW16 WIFI 接口是串口吗 ？ WIFI与WIFI之间传输速度有多少？最大"
-msgstr "Is the Wi-Fi interface of BW16 a serial port? What is the maximum Wi-Fi-to-Wi-Fi transmission speed?"
+msgstr ""
+"Is the Wi-Fi interface of BW16 a serial port? What is the maximum Wi-Fi-to-"
+"Wi-Fi transmission speed?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:44 9b3140e2e05d46e8b9a21fad49942081
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:44
+#: 62be9e8996c1408f9c5f8d0da9674d27
 msgid "是串口，传输速率1Mbit"
 msgstr "It is a serial port. The transmission rate is 1 Mbit."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:47 44b8ba7367f84c20b8bd4faa5a986d24
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:47
+#: f1d8e83a6cdf491e8546e786f5518c71
 msgid "这个BW16 WI-FI支持2.4G和5G是吗 ?同时支持吗 还是需要配置"
-msgstr "Does BW16 Wi-Fi support both 2.4G and 5G? Are they supported simultaneously, or does it need configuration?"
+msgstr ""
+"Does BW16 Wi-Fi support both 2.4G and 5G? Are they supported simultaneously, "
+"or does it need configuration?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:48 d4d1590e93184920ba07ad462adcb2a8
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:48
+#: 0bbe84384b9c4678acc873c4aa2062dc
 msgid "同时支持"
 msgstr "They are supported simultaneously."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:51 b0fbbff20d4e4e09a0d33a074d498028
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:51
+#: 6f1add84f20c42cd890aadeea7f582b7
 msgid "BW16模块，如果CHIP_EN引脚拉高，也就是模块停用情况下，模块电流有多大？"
-msgstr "For the BW16 module, if the CHIP_EN pin is pulled high, meaning the module is disabled, what is the module current?"
+msgstr ""
+"For the BW16 module, if the CHIP_EN pin is pulled high, meaning the module "
+"is disabled, what is the module current?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:52 8f632edffe494d618ff035fa0eb471d4
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:52
+#: c79097df5a2f4ffab9cbc418e8998286
 msgid "拉高这个引脚模块就是正常工作了"
 msgstr "Pulling this pin high means the module works normally."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:55 e243fd51485b4b8c9d9325524d970935
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:55
+#: 6bed5fe9291649cf91fe48b90d7ffa37
 msgid "BW16模块 是透传，还是要有驱动的"
 msgstr "Is the BW16 module transparent transmission, or does it need a driver?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:56 77fe7b29f4d24bb58b348336c2f22e7d
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:56
+#: 8720505c05c84066b4a22a5535f16783
 msgid "透传"
 msgstr "Transparent transmission."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:59 ee70f6dc85f9435c89ba0ab03c106a30
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:59
+#: b9c2861a446d4a89ace013d9d333b543
 msgid "BW16 AT指令可以提供spi接口吗？mcu上只有spi口"
-msgstr "Can BW16 AT commands provide an SPI interface? The MCU only has an SPI port."
+msgstr ""
+"Can BW16 AT commands provide an SPI interface? The MCU only has an SPI port."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:60 d3170323ee794b1d96d33a3ab2190419
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:60
+#: a240af51e002481c815d4ea90de93838
 msgid "不提供SPI接口  我们都是串口通讯 ;"
 msgstr "SPI interface is not provided. We use serial communication."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:63 8109767fe45345769bb8abdcc954a67c
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:63
+#: e6b15cbc3df94e5f8c197e7a5fd62140
 msgid "目前这款BW16已经接入了哪些平台？"
 msgstr "Which platforms has this BW16 already connected to?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:64 74e14edebcd1468892987deeeeb3499a
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:64
+#: cbdbf2453fbb45498708ca5789dbb775
 msgid "天猫 阿里飞燕"
 msgstr "Tmall and Alibaba Feiyan."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:67 3a87260261014973aa4a0ad52b511866
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:67
+#: bf80fd9555d94db685cead24752afa45
 msgid "BW16 WiFi频段是自动切换还是手动切换"
 msgstr "Does BW16 switch Wi-Fi bands automatically or manually?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:68 8d739a2a108543b1980d795fd8b4924c
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:68
+#: 8e629351214943d89d1d2f2509e6dec1
 msgid "自动切换的"
 msgstr "It switches automatically."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:72 71dab4e2f9114d83b5572153c97b05c8
-msgid "BW16模块支持自动漫游连接吗？ 也就是无缝漫游，即使用区域有多个相同SSID和密码的AP，买的wifi模块在AP之间移动时，能否自动切换AP？"
-msgstr "Does the BW16 module support automatic roaming connection? That is, seamless roaming: if there are multiple APs with the same SSID and password in the usage area, can the Wi-Fi module automatically switch APs when moving between APs?"
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:72
+#: 1e4bb3c542f541bebcfd823d202642b8
+msgid ""
+"BW16模块支持自动漫游连接吗？ 也就是无缝漫游，即使用区域有多个相同SSID和密码的"
+"AP，买的wifi模块在AP之间移动时，能否自动切换AP？"
+msgstr ""
+"Does the BW16 module support automatic roaming connection? That is, seamless "
+"roaming: if there are multiple APs with the same SSID and password in the "
+"usage area, can the Wi-Fi module automatically switch APs when moving "
+"between APs?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:73 ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:138 ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:202 ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:321 16050a417fc34ae0b1f7d56a317544cc 32505212bb224a42848070c907fd01b4 b9c5085b4019482b821107aea026b049 f1fb021c6407419fa879dcee621f9777
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:73
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:138
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:202
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:321
+#: c1473da479f642f4a7670d0e367f89c9 b67f7e28efc4416296cf67bde0448b21
+#: eb24867818db40b5bd7df48255844d7b 569baef3813248cdb8156c63eb8d69fb
 msgid "不支持"
 msgstr "Not supported."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:76 d32779efdae84c9ab608b100eefd7eed
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:76
+#: 142f0ae639694e9b94529da4587b277e
 msgid "BW16模块可以二次开发吗"
 msgstr "Can the BW16 module support secondary development?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:77 1ae56944d13b406493f2917818037edf
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:77
+#: 90bbc3dea0e44bbca063db63666029c8
 msgid "可以二次开发，但是SDK不对外开放哦"
-msgstr "Secondary development is supported, but the SDK is not publicly available."
+msgstr ""
+"Secondary development is supported, but the SDK is not publicly available."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:80 bc90ba410ec14dd0a98eea7efaf0cf8d
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:80
+#: f1740dd0e66e4833b0ca8b51d2c53284
 msgid "请问BW16 LOG_TX与LOG_RX是什么引脚？连接到CPU的什么引脚上？"
-msgstr "What pins are BW16 LOG_TX and LOG_RX? Which CPU pins should they connect to?"
+msgstr ""
+"What pins are BW16 LOG_TX and LOG_RX? Which CPU pins should they connect to?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:81 f041c3246f5349f8b53860f9e31f0b5f
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:81
+#: 2659993eebe84e578d3efcb4c0c2f737
 msgid "这个是打印log信息的串口，一般不需要连接CPU，连接CPU只需要接AT串口就可以"
-msgstr "These are the serial ports for printing log information. Generally, they do not need to be connected to the CPU. To connect to the CPU, only the AT serial port needs to be connected."
+msgstr ""
+"These are the serial ports for printing log information. Generally, they do "
+"not need to be connected to the CPU. To connect to the CPU, only the AT "
+"serial port needs to be connected."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:84 579eb44ff7744de3bdbcda69fa1cd5a7
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:84
+#: d1d613575d7f4d62ab0745018780a47c
 msgid "BW16支持微信配网吗？"
 msgstr "Does BW16 support WeChat network provisioning?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:86 23b7fee5d5054789940d1f2584b34cc0
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:86
+#: e68ee1b9ad7d43d8b7dd4dc5b798dd12
 msgid "不支持airkiss，这个配网仅支持simpleConfig。"
-msgstr "Airkiss is not supported. This provisioning only supports SimpleConfig."
+msgstr ""
+"Airkiss is not supported. This provisioning only supports SimpleConfig."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:89 88606076a94c48f5a59d51e7afdf25bc
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:89
+#: 0173117ad09f44068e4dafdfb4dd3f5e
 msgid "BW16支持ap配网吗"
 msgstr "Does BW16 support AP provisioning?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:90 4af4e9ac0ddf4b44a56236a2afc334a7
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:90
+#: 57877891dccf47dd9e4a890692a650db
 msgid "出厂默认的AT固件仅支持SimpleConfig配网和蓝牙配网"
-msgstr "The factory-default AT firmware only supports SimpleConfig provisioning and Bluetooth provisioning."
+msgstr ""
+"The factory-default AT firmware only supports SimpleConfig provisioning and "
+"Bluetooth provisioning."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:93 15b0f5a2306d4c448aa28fe51d5e55d7
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:93
+#: 758627cfb877493ca9b7067b39989bc6
 msgid "\"BW16板子可同时支持wifi和BLT吗"
 msgstr "\"Can the BW16 board support Wi-Fi and BLT at the same time?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:94 ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:415 11c7437f8f174052bbc14c7ad6f0aacc 54285ebe64bd4784a21c9d6c8f6202fc
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:94
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:415
+#: 6b6b56c7a4e2405d92d2ca5b9f62fdd6 e16e34263aff42d89075136a9a559024
 msgid "可以"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:97 7c75d01e25a24fe39071550de31ab616
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:97
+#: 34f3ca973d694e43be711d9c4dce1d21
 msgid "bw16可以使用spi通讯么？最高通讯速率多少"
-msgstr "Can BW16 use SPI communication? What is the maximum communication rate?"
+msgstr ""
+"Can BW16 use SPI communication? What is the maximum communication rate?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:98 717d4edfa26b488da2a2385d98569231
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:98
+#: 588b50e34ea04507a2ef4e1331bb66a3
 msgid "可以使用SPI通讯，但是需进行二次开发，出厂的固件不支持SPI通讯"
-msgstr "SPI communication can be used, but secondary development is required. The factory firmware does not support SPI communication."
+msgstr ""
+"SPI communication can be used, but secondary development is required. The "
+"factory firmware does not support SPI communication."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:101 f7574a1b711c4f68b7ae485f859b5b51
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:101
+#: 9e1cf44c13e34b8a8b7619918c77d36f
 msgid "BW18资料"
 msgstr "BW18 materials"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:102 1fcc8092116047afa3b6d36da501c044
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:102
+#: f4b99be8b6ba40bd883f19e209d3d858
 msgid "https://blog.csdn.net/Boantong_/article/details/104606575"
 msgstr "https://blog.csdn.net/Boantong_/article/details/104606575"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:106 babaa1d21ad447ef945f8da27ac8c2fa
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:106
+#: f46e80c2919e4c6dba9f4d9abad72b79
 msgid "这个BW16连接速度是多少？"
 msgstr "What is the connection speed of this BW16?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:107 2ccf394d1b5b4d64aae3747df982d75f
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:107
+#: ed999430b9b840e28c119e476b144445
 msgid "150kb/s"
 msgstr "150 kb/s."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:110 526cd9d3e40242dab7d3e1f08eb071b7
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:110
+#: 5d47eff1287442a79063f56334b4ec9a
 msgid "BW16支持ADC，是指可以采集模拟量吗？"
 msgstr "BW16 supports ADC. Does that mean it can collect analog values?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:112 b7d67172f5b0429fae72b96ac916287c
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:112
+#: 861adbc61da84ebaaa4a8ea2750afee2
 msgid "是的，采集模拟量"
 msgstr "Yes, it can collect analog values."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:115 e9f780890d8e4d7bacf75dae8b4ffc41
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:115
+#: dc77e861fc3343649315dafc21bb7f23
 msgid "BW16支持蓝牙mesh吗？"
 msgstr "Does BW16 support Bluetooth Mesh?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:117 91195161d5cc483fa29e817f6c3cfbe1
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:117
+#: c61ba21dec0c49d4bd46276f95a6e521
 msgid "不支持哦"
 msgstr "No."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:120 55da0b8c1968479f8605a795c3ac87f5
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:120
+#: dca43bde09f249129638cc7d9f1e2239
 msgid "BW16两块板子可以通过WIFI互传吗？"
 msgstr "Can two BW16 boards transfer data to each other through Wi-Fi?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:121 64a999d04aa147258d4b1e890bddf465
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:121
+#: 8553f084d6cf44ceb99468fac8053ae0
 msgid "可以互传"
 msgstr "Yes, they can transfer data to each other."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:124 168f6bda3c1c447c92098166b653ccda
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:124
+#: a39a31507eec4100a061a5c91c871849
 msgid "有同时支持双频段的wifi模块吗？"
 msgstr "Do you have Wi-Fi modules that support dual bands at the same time?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:128 cada35ad949a4bcf9909067e805b6a61
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:128
+#: 0912c30c622c4947a8c29721330cd3bc
 msgid "BW16可以直接同时使用WIFI和蓝牙吗 ？它不是只有一个天线，如何能同时使用"
-msgstr "Can BW16 use Wi-Fi and Bluetooth directly at the same time? It only has one antenna, so how can it use both at the same time?"
+msgstr ""
+"Can BW16 use Wi-Fi and Bluetooth directly at the same time? It only has one "
+"antenna, so how can it use both at the same time?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:130 67e6482c8ab14cd680f40a69ca96d6fe
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:130
+#: ddd5c1139fef45feb79fe020bfe14b79
 msgid "可以的，BW16的蓝牙可以进行配网，蓝牙配网就是一个示例"
-msgstr "Yes. BW16 Bluetooth can be used for network provisioning, and Bluetooth provisioning is one example."
+msgstr ""
+"Yes. BW16 Bluetooth can be used for network provisioning, and Bluetooth "
+"provisioning is one example."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:133 2d915471fd5841fbb711052cd65f474e
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:133
+#: 59e709833c994f50ba6110a806231132
 msgid "BW18是可以用来连接阿里云mqtt服务器是吗？ 内部集成了标准mqtt是吗？"
-msgstr "Can BW18 be used to connect to an Alibaba Cloud MQTT server? Is standard MQTT integrated internally?"
+msgstr ""
+"Can BW18 be used to connect to an Alibaba Cloud MQTT server? Is standard "
+"MQTT integrated internally?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:134 ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:194 9efdecd99ea24eb39c09d30c2e05e104 e37814f02efa49dd81d3bb80920575da
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:134
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:194
+#: a769bcc7949d49d0823f7c5c41f9559e 3fb789e7580f4494855603e96f318c77
 msgid "是的"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:137 800653c6f4474daa816a744fcdcce7b3
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:137
+#: 31c170d2e67d455ab5d5dc3db2436322
 msgid "BW16支持蓝牙 sig mesh吗"
 msgstr "Does BW16 support Bluetooth SIG Mesh?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:141 3543cc6391fd47a7b2d627caa35b914e
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:141
+#: cb3b9354dda44267baaf87a741e15f13
 msgid "BW18 AT指令设置WIFI mqtt那个怎么操作？"
 msgstr "How do I operate the BW18 AT commands for Wi-Fi MQTT settings?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:142 9fa1b920f1514ee1b2a09ffc58f1c973
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:142
+#: 92b6b79dfe754c4ebc57c4435a6ed99e
 msgid "https://blog.csdn.net/Boantong_/article/details/104791452"
 msgstr "https://blog.csdn.net/Boantong_/article/details/104791452"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:145 3d570df7f48a4086aef116175c999976
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:145
+#: 7db904eb28c94071abfa32a472ffe2a3
 msgid "BW16用的什么芯片"
 msgstr "What chip does BW16 use?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:146 ca6d854e64134a47a289ee79ae570a82
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:146
+#: 6b1c52f9ff1d4728945d4a2bbbab5ec8
 msgid "瑞昱的RTL8720DN"
 msgstr "Realtek RTL8720DN."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:149 8c7519a7f4f24c66918860832ff3c282
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:149
+#: c3f3ee29a6464c3688f0c5746fffca63
 msgid "RTL8710BX RTL8710AF有什么区别？"
 msgstr "What is the difference between RTL8710BX and RTL8710AF?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:150 b98077abac4f40bf85d5c1e8e6c50da3
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:150
+#: 157f89faa45744208bb23765781ad37e
 msgid "只是封装不一样，软件上是通用的"
 msgstr "Only the package is different. They are software-compatible."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:153 53b02ce1bd2940ab8f91827a314474fa
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:153
+#: 5df60c811a754416901f40bf161ec8f9
 msgid "BW12支持二次开发？"
 msgstr "Does BW12 support secondary development?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:154 ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:225 4b912568caa148d3bc320412a33ee688 8f1ed767c6644f758a3a202f38f8a3db
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:154
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:225
+#: b3db2e72bd594958af1327bae6715e7c c2921e381f9647c7a3592ccaf6937c38
 msgid "支持"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:157 180bfca8322e492386a01460b7217cd1
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:157
+#: 03a04e5356254931a7b5a11460993b36
 msgid "BW12烧入固件，需要什么硬件？"
 msgstr "What hardware is needed to flash firmware into BW12?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:158 5d9956e09a1e4fd5bd4bc39ffb92f270
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:158
+#: 03388ee58ca9426b8696630e54fbd82b
 msgid "串口板就可以烧录,使用的uart协议烧录"
-msgstr "A serial board is sufficient for flashing. It uses the UART protocol for flashing."
+msgstr ""
+"A serial board is sufficient for flashing. It uses the UART protocol for "
+"flashing."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:161 1f708c1d61fd4c1eb3dd5a3e2eca6c5e
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:161
+#: b2088494581b4a8ba914cd2e2e2fdd0a
 msgid "BW16是双频WIFI是吧，通过串口可以建立几个tcp连接？"
-msgstr "BW16 is dual-band Wi-Fi, right? How many TCP connections can be established through the serial port?"
+msgstr ""
+"BW16 is dual-band Wi-Fi, right? How many TCP connections can be established "
+"through the serial port?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:162 a8a944c2cd0c48f29aa3b2cb33badb12
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:162
+#: 3174bd09bac94d0d931134d5ebe47d47
 msgid "可以建立5个tcp连接"
 msgstr "It can establish 5 TCP connections."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:165 72783d14a75b4fd2ba1ce2d885d7c778
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:165
+#: 7ba8a734bac244bcadd0585bade7b45f
 msgid "BW16，要外接天线的，下单时备注就行，还是怎么呢？"
-msgstr "For BW16, if I need an external antenna, should I just leave a note when placing the order, or how should I do it?"
+msgstr ""
+"For BW16, if I need an external antenna, should I just leave a note when "
+"placing the order, or how should I do it?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:166 c9cfadc734d1422ab8f0a6f7c0e90148
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:166
+#: 48022641843845ef82355a610d5074ab
 msgid "外接需要拆开屏蔽盖修改某个电阻，建议您直接定制哦"
-msgstr "For an external antenna, the shielding cover needs to be removed and a certain resistor needs to be modified. We recommend direct customization."
+msgstr ""
+"For an external antenna, the shielding cover needs to be removed and a "
+"certain resistor needs to be modified. We recommend direct customization."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:169 2ebc9f21330d4b6b9655a1acfbc334be
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:169
+#: 8ee11b074b8d4ad5a0c0b9d961d1abab
 msgid "BW16的蓝牙，除了配网用，我可以自己单独控制使用吗"
-msgstr "For BW16 Bluetooth, besides being used for provisioning, can I control and use it independently?"
+msgstr ""
+"For BW16 Bluetooth, besides being used for provisioning, can I control and "
+"use it independently?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:170 fb130f3792944b7e8577ee47fec1c6de
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:170
+#: a97f21acbac54876af8a24b951e7b1dd
 msgid "二次开发可以单独使用，AT指令只能使用蓝牙配网的功能"
-msgstr "It can be used independently through secondary development. AT commands can only use the Bluetooth provisioning function."
+msgstr ""
+"It can be used independently through secondary development. AT commands can "
+"only use the Bluetooth provisioning function."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:173 6694d2508ba844e5afcb369bbecd47e6
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:173
+#: fc96b6afced74ca2b1e1a4ff6d749122
 msgid "BW16多连接，一个客户端，一个服务器，一个UDP广播可以吗？"
-msgstr "For BW16 multi-connection, can it have one client, one server, and one UDP broadcast?"
+msgstr ""
+"For BW16 multi-connection, can it have one client, one server, and one UDP "
+"broadcast?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:174 ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:182 ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:216 ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:241 1faf7bb9bb8d4f1a832aa302f415bcea 6b891ff5c08943cead1f258c0cd66819 b880533dcedf444d8155f0f5b80b7e1d eecaaa57b8934fd9aac262a854a9b041
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:174
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:182
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:216
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:241
+#: 00369ad81ebf4d5d8f68c23450477f98 e873de0f7c3943fcb4672cded73452be
+#: 10cc5d5a685148f78cf98b9b2daa83bf b610e2d5481e4821b997083b38b79e40
 msgid "可以的"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:177 dae387e8e53944959ea881d80e10b0d9
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:177
+#: 642d6857427f4becb7eaec751b7473ba
 msgid "BW16模块配网 有什么资料"
 msgstr "Are there materials for BW16 module provisioning?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:178 857bb08398344e7ab60f6ce011ea2b3c
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:178
+#: 2816eb425efb4959a113bd2aadf952c7
 msgid "https://blog.csdn.net/Boantong_/article/details/108847305"
 msgstr "https://blog.csdn.net/Boantong_/article/details/108847305"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:181 8ebe489cf48041e39037c5dcb25fa913
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:181
+#: 4650fba839bc40a6871eb78c8e4115fd
 msgid "BW16支持串口透传吗？"
 msgstr "Does BW16 support serial transparent transmission?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:185 f7d10be8af4a4ef1860ead7c29582b32
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:185
+#: d76826174c8a41f295d88713e26f9b0d
 msgid "BW16弄到电路板上连接单片机，用手机app控制灯。如何配置"
-msgstr "If BW16 is mounted on a circuit board and connected to a microcontroller to control a light with a mobile app, how should it be configured?"
+msgstr ""
+"If BW16 is mounted on a circuit board and connected to a microcontroller to "
+"control a light with a mobile app, how should it be configured?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:186 5e821464523f4f42a66dc48f82b19600
-msgid "您通过单片机去配置，https://blog.csdn.net/Boantong_/article/details/108847305"
-msgstr "You can configure it through the microcontroller: https://blog.csdn.net/Boantong_/article/details/108847305"
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:186
+#: 07d19499a8de4599a3be801d84bfda72
+msgid ""
+"您通过单片机去配置，https://blog.csdn.net/Boantong_/article/details/108847305"
+msgstr ""
+"You can configure it through the microcontroller: https://blog.csdn.net/"
+"Boantong_/article/details/108847305"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:189 6cc4da5e74ca4d87a2d6f8ed7161b678
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:189
+#: b4914653710f4405aa47ac94886cdfe3
 msgid "BW16 wifi和蓝牙都是用at指令来交互吗？"
 msgstr "Do BW16 Wi-Fi and Bluetooth both interact through AT commands?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:190 3e28c2ff6fb74d8fac0b64868e02799a
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:190
+#: b4ab6900403d4c158116667cf1001b2b
 msgid "是用at指令来交互"
 msgstr "They interact through AT commands."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:193 a89207a5a008403397fdfa2a46e1946e
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:193
+#: 7f523e08f701447599e82850e86007bf
 msgid "BW16的wifi和蓝牙共用一个天线是吧？"
 msgstr "Do BW16 Wi-Fi and Bluetooth share one antenna?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:197 d548fada85bc47469f51acd4cbd681b7
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:197
+#: 642a1ae95ba44ac19413434edf660d23
 msgid "BW16蓝牙是不是不能实现透传？只是对wifi的配置用的？"
-msgstr "Does BW16 Bluetooth fail to implement transparent transmission and only serve as Wi-Fi configuration?"
+msgstr ""
+"Does BW16 Bluetooth fail to implement transparent transmission and only "
+"serve as Wi-Fi configuration?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:198 c1bc09467519459e97ca9bd491e74f0f
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:198
+#: b9d47141bf5c456eb8de7b8e4955c707
 msgid "出厂默认固件蓝牙只能用作配网"
 msgstr "The factory-default firmware can only use Bluetooth for provisioning."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:201 45ee8d1373b34d2dbd0e1a5603e38164
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:201
+#: 1013f1fc236a4597a2a170692e8b6adb
 msgid "BW16开发板支持arduino吗"
 msgstr "Does the BW16 development board support Arduino?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:205 156d423aec3e4bae9f15e5e36393be43
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:205
+#: 176d91337745417c8c3fab537220a8b2
 msgid "BW16外接定制是不是拆掉个电阻就行"
-msgstr "For BW16 external-antenna customization, is it enough to remove a resistor?"
+msgstr ""
+"For BW16 external-antenna customization, is it enough to remove a resistor?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:206 9138a8057b924ffeab36de695f60cc0b
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:206
+#: 9edaa9336668418ea60fbd75af585a76
 msgid "不是哦，里面电路设计也要改的"
 msgstr "No. The internal circuit design also needs to be changed."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:209 b26dff4edced4114949aa6104bf91cc0
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:209
+#: 3062d225081d43f5907f4bd77b7b1fdf
 msgid "BW16模块，通讯距离能达到多远"
 msgstr "What communication distance can the BW16 module reach?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:211 6129c4528ed141f1aa725b64eb8cf182
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:211
+#: 25495bf676f14bf48a9ab17685698673
 msgid "wifi40-50米，蓝牙一样的，传输距离受限于发射功率和天线的接收灵敏度"
-msgstr "Wi-Fi is 40–50 meters, and Bluetooth is similar. The transmission distance is limited by transmit power and antenna receive sensitivity."
+msgstr ""
+"Wi-Fi is 40–50 meters, and Bluetooth is similar. The transmission distance "
+"is limited by transmit power and antenna receive sensitivity."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:215 f7f1937eb0ca403e8f05a660a6ca20c1
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:215
+#: 760a699ba2e9434ea70764b9911667e7
 msgid "BW16  wifi 和蓝牙可以同时使用吗"
 msgstr "Can BW16 Wi-Fi and Bluetooth be used at the same time?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:220 16f7171e822246eabca3d62980e98644
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:220
+#: 7283fccab9af41299569c56f5d795806
 msgid "BW16模块支持MQTT协议吗"
 msgstr "Does the BW16 module support the MQTT protocol?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:221 0873038c1a814dc29955dc4398b491ce
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:221
+#: 2f0efd98e5c54798996b15912459c62a
 msgid "需要二次开发"
 msgstr "Secondary development is required."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:224 e3a1e8a5ff7d46b38570d532addecb50
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:224
+#: e9eeb14f001a44d497aeb3debfd20697
 msgid "BW16模块支持域名连接吗"
 msgstr "Does the BW16 module support domain name connection?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:228 26f95dcc66384b78b4e53f6249d60196
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:228
+#: 5b29a4c0724b481d8fcbde67ef941224
 msgid "BW16速率有多少？蓝牙速率"
 msgstr "What is the BW16 rate? What about the Bluetooth rate?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:229 303b13811d574e5dbdca54d6ff490204
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:229
+#: 85c1ed302e8e4ca383af35555bdabbd9
 msgid "1Mbit，蓝牙最大30KB/S"
 msgstr "1 Mbit. Bluetooth can reach up to 30 KB/s."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:232 5ac173370ddb475396c7d9037b8a00b1
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:232
+#: 896942540c1745a4bcab1ca5677caa22
 msgid "BW16那个IPEX座的焊盘也是没用的？具体怎么改？"
-msgstr "Is the pad for the BW16 IPEX socket unused? How should it be modified specifically?"
+msgstr ""
+"Is the pad for the BW16 IPEX socket unused? How should it be modified "
+"specifically?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:233 fbafb00612094fdab066091cb851ecaa
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:233
+#: aeb5cedbf3494ec1b8f5662c865bac95
 msgid "预留的，里面需要改电阻。电阻换到R9"
-msgstr "It is reserved. The internal resistor needs to be changed. Move the resistor to R9."
+msgstr ""
+"It is reserved. The internal resistor needs to be changed. Move the resistor "
+"to R9."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:236 a5a416b0b0434e5893dffd56a3ee4af2
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:236
+#: 0d515ed2d39e4b2d95430fe7cd14048c
 msgid "BW16可以对mcu编程吗？"
 msgstr "Can BW16 program the MCU?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:237 5f45187fda7a44079db56665320f1a5c
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:237
+#: 117ca321b916465b806fc232c5deb274
 msgid "可以，需要C语言基础比较扎实"
 msgstr "Yes, but solid C language skills are required."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:240 36432860afd146a5b3539316d9fa0133
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:240
+#: 202730fa1a5f4895b01f71f0e4c869c1
 msgid "BW16可以改Mac吗"
 msgstr "Can BW16 modify the MAC address?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:244 34adc3efc21c4478bc911df4208ca10b
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:244
+#: 75d646996b004183ad67962c6f37e24d
 msgid "BW16  WIFI和蓝牙，二选一？WIFI双频是同时存在的，还是二选一"
-msgstr "For BW16 Wi-Fi and Bluetooth, is it one or the other? Are the Wi-Fi dual bands present simultaneously, or one of the two?"
+msgstr ""
+"For BW16 Wi-Fi and Bluetooth, is it one or the other? Are the Wi-Fi dual "
+"bands present simultaneously, or one of the two?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:245 f7fe304135244da3aa881c542f6b13da
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:245
+#: 17e4e4e0956e4794be3ce74939a6c2cb
 msgid "是的，二选一。同时存在"
 msgstr "Yes, one of the two. They are present simultaneously."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:248 63aff67b013543d58b9b89536ba3e128
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:248
+#: da86c60a4b7c4acc9d299ae560183bdc
 msgid "BW16模块可以自动重连吗"
 msgstr "Can the BW16 module reconnect automatically?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:249 3a4fd107c7ee4d12b2bbbbf44b9c5f7e
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:249
+#: 574c9df875394494b0b06f4d26295587
 msgid "可以自动连接"
 msgstr "It can connect automatically."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:252 29ceb67529dc4403a41b625b4e9a4350
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:252
+#: a1d6a365449746ad9ec716e35685d894
 msgid "BW16模块能接到什么云平台呢?"
 msgstr "Which cloud platform can the BW16 module connect to?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:253 b7d9d32baf6442809fe0acd8e6be2b15
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:253
+#: fa51cfeafae94cf995fc66eda505787b
 msgid "阿里云"
 msgstr "Alibaba Cloud."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:256 b482bef9e3aa451d8594667e0cf9b5f4
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:256
+#: c752dbbb8ca746928f949a30f54a555c
 msgid "BW16支持什么协议?你们有自已的云吗?"
 msgstr "What protocols does BW16 support? Do you have your own cloud?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:257 49547307fff0419c8883fc5a34e43f54
-msgid "TCP UDP HTTP MQTT（需二次开发）。目前有一个测试的透传云，仅供测试使用http://tt.ai-thinker.com:8000/ttcloud"
-msgstr "TCP, UDP, HTTP, and MQTT (secondary development required). Currently, there is a test transparent-transmission cloud, for testing only: http://tt.ai-thinker.com:8000/ttcloud"
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:257
+#: 81a2ea00a25c4d67bae8e2118b59e6b1
+msgid ""
+"TCP UDP HTTP MQTT（需二次开发）。目前有一个测试的透传云，仅供测试使用http://"
+"tt.ai-thinker.com:8000/ttcloud"
+msgstr ""
+"TCP, UDP, HTTP, and MQTT (secondary development required). Currently, there "
+"is a test transparent-transmission cloud, for testing only: http://tt.ai-"
+"thinker.com:8000/ttcloud"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:260 1aff6442b7884ea4ab9c939d79e7a494
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:260
+#: a88765ac4c6d4219a7fd16ab98b73433
 msgid "BW16 wifi和蓝牙可以连接同时使用？"
 msgstr "Can BW16 Wi-Fi and Bluetooth connect and be used at the same time?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:261 8836f512f5564bbc8a635cb77e0ce1cd
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:261
+#: 6c8d68f8ed924d0e8bb3536c9db21794
 msgid "可以连接同时使用"
 msgstr "Yes, they can connect and be used at the same time."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:264 eaee24e38fce4e399e4d46c960294f87
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:264
+#: 90aa8af593954350b1fa57e15176d65e
 msgid "BW16开发板带USB转串口吗？是cp2102？"
 msgstr "Does the BW16 development board include USB-to-serial? Is it CP2102?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:265 ab495c83ff694589a84b214bbdd5dc24
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:265
+#: c38752679be34dd7b11f47fd7ee4c83d
 msgid "CH340"
 msgstr "CH340."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:268 3568d774d728455394fc2cc5aafba72d
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:268
+#: 2786bf50b28346678888ccff4a0bb4cb
 msgid "BW16描述是接口有SPI，这个SPI是可以传输数据吗？"
-msgstr "BW16 is described as having an SPI interface. Can this SPI transmit data?"
+msgstr ""
+"BW16 is described as having an SPI interface. Can this SPI transmit data?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:269 a64fd8cbb7344797ba54024d02cbdf1c
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:269
+#: 4651793d53764938be856039e60fd51f
 msgid "需要做二次开发的，AT固件不支持SPI。仅支持串口asd"
-msgstr "Secondary development is required. AT firmware does not support SPI. It only supports serial port asd."
+msgstr ""
+"Secondary development is required. AT firmware does not support SPI. It only "
+"supports serial port asd."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:272 3af9ea35d1ec4ca6abf9212282d394a2
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:272
+#: 6b5bdb3122f44a37a0595dbb59fde5d3
 msgid "BW16的WiFi可以在2.4G频段和5G频段同时工作吗？"
 msgstr "Can BW16 Wi-Fi work on both 2.4G and 5G bands at the same time?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:273 f92ae4b70fbd41928540f15b5c4d9ac3
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:273
+#: 16d7cc52e499498fb12f9ec7339dca94
 msgid "可以，因为模组设计的天线有2.4G频段和5G频段，在使用上不冲突"
-msgstr "Yes. The module antenna is designed for both 2.4G and 5G bands, and they do not conflict in use."
+msgstr ""
+"Yes. The module antenna is designed for both 2.4G and 5G bands, and they do "
+"not conflict in use."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:276 c560e60ec56349c1a521f5f4529e0d36
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:276
+#: c2dc2898ac3545bb9675c65ff0f28cc4
 msgid "BW16的2.4G与5G频段如何做切换？"
 msgstr "How does BW16 switch between 2.4G and 5G bands?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:277 c879c760a28944a39db82855623ab63b
-msgid "2.4G与5G切换内部已做好的，不能手动切换。若需专门连接5G频段，可连接5G频段WiFi。"
-msgstr "2.4G and 5G switching is handled internally and cannot be switched manually. If you need to connect specifically to the 5G band, connect to a 5G Wi-Fi network."
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:277
+#: 3be104cc3d014822b11ba669f125825c
+msgid ""
+"2.4G与5G切换内部已做好的，不能手动切换。若需专门连接5G频段，可连接5G频段"
+"WiFi。"
+msgstr ""
+"2.4G and 5G switching is handled internally and cannot be switched manually. "
+"If you need to connect specifically to the 5G band, connect to a 5G Wi-Fi "
+"network."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:280 6615bf23a18f4c0ba393055f476e8f81
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:280
+#: 23fd5970c7894d3fa648fcc3540ba09a
 msgid "BW16作为AP可以连接多少个设备"
 msgstr "How many devices can connect to BW16 as an AP?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:281 b7350b36f88b496abff496f33f104fc0
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:281
+#: 2aff8573cc19475da948ba63125cfacb
 msgid "3个"
 msgstr "3 devices."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:284 eda9ac35ee8b4a2788c7981da41df673
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:284
+#: 8628cc72474f496184a0df91dc026791
 msgid "BW16蓝牙功能待机电流和发射电流是多少"
 msgstr "What are the standby current and transmit current of BW16 Bluetooth?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:285 6a90f973de21455c8ae5f6a006a65d8f
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:285
+#: a577132268f045ddbfff851b80470138
 msgid "蓝牙待机电流为20mA，发射电流为35mA"
 msgstr "Bluetooth standby current is 20 mA, and transmit current is 35 mA."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:288 7b42ffe16ae4463197846f01da0c451a
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:288
+#: 3723ffe6018f43d1891b1df5bf53a325
 msgid "BW16能否连接2.4G/5G混频的路由器吗"
 msgstr "Can BW16 connect to a router with mixed 2.4G/5G bands?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:289 6a1064c81cc74f779eb303c6264f16ad
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:289
+#: d4b0443df0bf4d67b0b880fc28e91939
 msgid "可以连接。"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:292 122440c083d54d11b04030f6d60c8cfe
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:292
+#: 7c7d312409364810baeca99f390f1cec
 msgid "请问BW16可以开启5G的热点么？"
 msgstr "Can BW16 enable a 5G hotspot?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:293 f31d4d1899fd41269d724d247c7b7f54
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:293
+#: 3b03c41eb0a84e209e4331ad09f31c4d
 msgid "不可以，BW16的2.4G频段与5G频段是内部做好切换的，不可手动配置"
-msgstr "No. BW16 2.4G and 5G bands are switched internally and cannot be configured manually."
+msgstr ""
+"No. BW16 2.4G and 5G bands are switched internally and cannot be configured "
+"manually."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:296 03054ddf4a6c4e7aa950a0f0921049ae
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:296
+#: 87a9966ccb2047179f3fe195f4d9acb1
 msgid "BW16模组支持USB通讯么？"
 msgstr "Does the BW16 module support USB communication?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:297 1e7b01506b414ef694017204f00c09d8
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:297
+#: f1c16220945445b38b0a4ff61b1a3f4f
 msgid "不可以，BW16模组没有USB硬件接口"
 msgstr "No. The BW16 module has no USB hardware interface."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:300 f78e1cdd9a5644809a8cc981f2504a56
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:300
+#: 249416237b574db18d8e98912e5926e3
 msgid "只能看到BW16的蓝牙配网功能资料，BW15的没有，是否不支持"
-msgstr "I can only see materials for BW16 Bluetooth provisioning, but not for BW15. Is it not supported?"
+msgstr ""
+"I can only see materials for BW16 Bluetooth provisioning, but not for BW15. "
+"Is it not supported?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:301 06a8bbf2d91e43d6a702a79bc7954ad7
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:301
+#: fe2c86e3e0fd400e911f6b927f3b3e98
 msgid "BW15没有蓝牙配网功能，智能配网功能与BW16是通用的"
-msgstr "BW15 does not have Bluetooth provisioning. The smart provisioning function is common with BW16."
+msgstr ""
+"BW15 does not have Bluetooth provisioning. The smart provisioning function "
+"is common with BW16."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:304 e23f7f3b9d50479c8aad9143ec6d85ed
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:304
+#: 439367be1da84ecd9b78b5958ff09a75
 msgid "BW15的蓝牙不是可以给wifi辅助配网么？"
 msgstr "Can’t BW15 Bluetooth assist Wi-Fi provisioning?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:305 ce208d55924c40868829c319979bfab7
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:305
+#: 12f68f415fd54a3296c73fd1d4323928
 msgid "没有开发该功能"
 msgstr "This function has not been developed."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:308 3ea8ec00bd894c05bc98631b6401de27
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:308
+#: a200b74ee95642528717c4e2cb8cd874
 msgid "请问BW16模组的封装文件是否不支持AD打开"
 msgstr "Does the BW16 module package file not support opening with AD?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:309 a472919e4e3f4a05ad104d7cd8cd3ec6
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:309
+#: a3f0ab97b44e42c49f727ab91f530046
 msgid "封装文件包中的.asc文件支持通过AD软件打开"
-msgstr "The .asc file in the package file bundle can be opened with AD software."
+msgstr ""
+"The .asc file in the package file bundle can be opened with AD software."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:312 eaa2ada8573f4d80be98673c67110878
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:312
+#: 35d342dab7a44be2939129bb29ce87e9
 msgid "BW15的配网APP有IOS版本的么"
 msgstr "Is there an iOS version of the BW15 provisioning app?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:313 08afb701ec6a4bd29c2f7d0ee118ab89
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:313
+#: 387519c3bf784a8d9c5912b714325700
 msgid "有的，与BW16配网的APP是通用的"
 msgstr "Yes. It is common with the BW16 provisioning app."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:316 bd8f34dda7f24c47a07cdb1a10ffc5d5
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:316
+#: c0d4e0a6735c4dae9c0fcd89b1c01f31
 msgid "为何BW16开发板接入电脑不能启动呢"
-msgstr "Why can’t the BW16 development board start when connected to a computer?"
+msgstr ""
+"Why can’t the BW16 development board start when connected to a computer?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:317 8ddae576aa674704b5dc79a0131b687d
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:317
+#: 591e47a3c46c448f81c7707ef17c6120
 msgid "检查USB口是否保护了；在不断插拔的情况下，有时直接断开电，USB口就保护了"
-msgstr "Check whether the USB port is protected. During repeated plugging and unplugging, sometimes power is directly cut off and the USB port becomes protected."
+msgstr ""
+"Check whether the USB port is protected. During repeated plugging and "
+"unplugging, sometimes power is directly cut off and the USB port becomes "
+"protected."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:320 749fe763fd1f451e9e67d225c29a3b64
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:320
+#: 5682ca180d5048209f422197671118b1
 msgid "BW16的蓝牙配网功能，支持修改广播功能么"
-msgstr "Does the BW16 Bluetooth provisioning function support modifying broadcast functions?"
+msgstr ""
+"Does the BW16 Bluetooth provisioning function support modifying broadcast "
+"functions?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:324 f8fcd37b351b40489f69ee88087047ea
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:324
+#: cd251b8ce1994773b083684b8dfc1dda
 msgid "BW16模组5G频段能达到的最高速度是多少"
-msgstr "What is the maximum speed that the BW16 module can reach on the 5G band?"
+msgstr ""
+"What is the maximum speed that the BW16 module can reach on the 5G band?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:325 e262143b4f514b73b6d528f29c398f10
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:325
+#: 6687ddbb72c8430fab222a8157fe7fbd
 msgid "2M以内"
 msgstr "Within 2M."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:328 e0397765fccf4ec2a2371b97187c1eea
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:328
+#: 6635e0abaf5342c197f2b8c3d2670f01
 msgid "BW16 Combo-AT固件和at固件有什么区别"
 msgstr "What is the difference between BW16 Combo-AT firmware and AT firmware?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:329 e652e50557e245359bc8eb554151eb90
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:329
+#: 0b8fe08c5dd140c9b5d24a7551b2756a
 msgid "Combo-AT固件支持MQTT功能和蓝牙通信功能"
-msgstr "Combo-AT firmware supports MQTT functions and Bluetooth communication functions."
+msgstr ""
+"Combo-AT firmware supports MQTT functions and Bluetooth communication "
+"functions."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:332 a55de54189104135b99350057b8cf862
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:332
+#: f1359ca4293b4a8182d02d82f92509c4
 msgid "BW16和BW18有什么区别"
 msgstr "What is the difference between BW16 and BW18?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:333 c84fcbe984a643bfa1b36824b5033c8e
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:333
+#: de81241364db4b68bd92f65c7ee5ecc3
 msgid "芯片不一样。BW16使用的芯片是RTL系列，BW18使用的芯片是ESP32系列"
-msgstr "The chips are different. BW16 uses an RTL-series chip, while BW18 uses an ESP32-series chip."
+msgstr ""
+"The chips are different. BW16 uses an RTL-series chip, while BW18 uses an "
+"ESP32-series chip."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:336 69a65d9439c14b90ab288d45d3c8940a
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:336
+#: 2d358a6c9a424ec7954672c1a325c72a
 msgid "BW16模组连接MQTT有密码长度限制吗"
 msgstr "Is there a password length limit for BW16 module MQTT connection?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:337 16f58df1bce64a86955e6b3a56ec712b
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:337
+#: 5e9be0c4afb14b109f90112b7d8e91b2
 msgid "有，MQTT密码长度不能超过64个字节"
 msgstr "Yes. The MQTT password length cannot exceed 64 bytes."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:340 876aec42f3874febb0c4242191243fc4
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:340
+#: 1000b668f7b04f6cbf1862bf68b4ae4d
 msgid "BW16 arduino开发如果需要指定串口输出可以参考哪一个示例"
-msgstr "Which example can I refer to if I need to specify serial output in BW16 Arduino development?"
+msgstr ""
+"Which example can I refer to if I need to specify serial output in BW16 "
+"Arduino development?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:341 616e27e7974148b9a2cd36f7afeb288f
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:341
+#: 5dd8789d086c419d921b6fb2800028e6
 msgid "可以参考AmebaSoftwareSerial中的SoftwareSerial_Basic示例"
-msgstr "You can refer to the SoftwareSerial_Basic example in AmebaSoftwareSerial."
+msgstr ""
+"You can refer to the SoftwareSerial_Basic example in AmebaSoftwareSerial."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:344 fe339486ca3b446bbeee95f565fcfe7f
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:344
+#: b89dd1af45df4ad1bbcc4692e3075fab
 msgid "BW16模组如何指定工作在5G频段还是2.4G频段？"
-msgstr "How does the BW16 module specify whether it works on the 5G band or the 2.4G band?"
+msgstr ""
+"How does the BW16 module specify whether it works on the 5G band or the 2.4G "
+"band?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:345 98cd91ee5150425cac4060fb6d7390e6
-msgid "BW16的工作频段的切换是内部做好的，若是指定5G频段工作的话，可通过连接5G WIFI的方式。"
-msgstr "BW16 band switching is handled internally. If you want to specify 5G-band operation, you can connect to a 5G Wi-Fi network."
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:345
+#: e52df8f5754941f6b4fdb3d9db5c63de
+msgid ""
+"BW16的工作频段的切换是内部做好的，若是指定5G频段工作的话，可通过连接5G WIFI的"
+"方式。"
+msgstr ""
+"BW16 band switching is handled internally. If you want to specify 5G-band "
+"operation, you can connect to a 5G Wi-Fi network."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:348 64ea476a8c0a46fbb3cc75ead0ac3c18
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:348
+#: 3a9f16b4c02b41f7915428f449757957
 msgid "为何给BW16发送指令，老是回复“unknow command”提示呢？"
 msgstr "Why does BW16 always reply with “unknow command” when I send commands?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:349 203a910eb6f54024b0dae22396d971a3
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:349
+#: 717554c31fd64cd380fb3faf6eddbdb4
 msgid "通常出现这种提示，表示指令不支持，即：指令有误。"
-msgstr "Usually this prompt means the command is not supported, i.e., the command is incorrect."
+msgstr ""
+"Usually this prompt means the command is not supported, i.e., the command is "
+"incorrect."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:352 4a0673b318d646a99e4ea97f2947a22c
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:352
+#: e2ca9b9561154131990e060756dc087f
 msgid "BW16进入透传以后，断开网络，要如何退出透传呢？"
-msgstr "After BW16 enters transparent transmission, how do I exit transparent transmission after the network is disconnected?"
+msgstr ""
+"After BW16 enters transparent transmission, how do I exit transparent "
+"transmission after the network is disconnected?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:353 585d839fee70486ea09b2bd6033aed02
-msgid "无论是否断网，均通过发送“+++”退出透传，另外，发送“+++”的时候不得加回车换行符。"
-msgstr "Regardless of whether the network is disconnected, send “+++” to exit transparent transmission. In addition, do not add carriage return or line feed when sending “+++”."
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:353
+#: 943ad3e04298489c9c447a94cb83cd85
+msgid ""
+"无论是否断网，均通过发送“+++”退出透传，另外，发送“+++”的时候不得加回车换行"
+"符。"
+msgstr ""
+"Regardless of whether the network is disconnected, send “+++” to exit "
+"transparent transmission. In addition, do not add carriage return or line "
+"feed when sending “+++”."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:356 8ad68a08e4214ea78b3b2fa324a4cfee
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:356
+#: b6f36aea70f84ac58c572fc9ba00fcf5
 msgid "BW16WIFI名称和密码最大能设置多少个字节"
-msgstr "What is the maximum number of bytes for the BW16 Wi-Fi name and password?"
+msgstr ""
+"What is the maximum number of bytes for the BW16 Wi-Fi name and password?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:357 ecabe2e578cf41cd876c1ebf38cf94b5
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:357
+#: 56afb5cd15b348b48ee61aaf0037ab97
 msgid "名称32个，密码64个"
 msgstr "SSID: 32 bytes; password: 64 bytes."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:360 c3ac400639b8467280496a67e8e49c8f
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:360
+#: fef8f30a3d744079977ec1362d86cb2d
 msgid "请问，BW16开发板arduino开发环境要如何搭建？"
-msgstr "How do I set up the Arduino development environment for the BW16 development board?"
+msgstr ""
+"How do I set up the Arduino development environment for the BW16 development "
+"board?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:361 4a85ba2947004704a4836e40e6e1af67
-msgid "参考说明链接：https://blog.csdn.net/weixin_51452951/article/details/122286441"
-msgstr "Refer to this link: https://blog.csdn.net/weixin_51452951/article/details/122286441"
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:361
+#: 3f8813a8815043e5b3ee689daa0d7f5f
+msgid ""
+"参考说明链接：https://blog.csdn.net/weixin_51452951/article/details/122286441"
+msgstr ""
+"Refer to this link: https://blog.csdn.net/weixin_51452951/article/"
+"details/122286441"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:364 587a32b946304bec8b5746158f154530
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:364
+#: 0e8b7983371e4898b8edf34a30ec368b
 msgid "请问，BW16模组是否可以直接替换ESP-12F模组？"
 msgstr "Can the BW16 module directly replace the ESP-12F module?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:365 89c46640f24243d39e1b29f8d2f0b596
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:365
+#: 20664853462540ef875fab6d86cbe691
 msgid "BW16以及ESP-12F模组的供电以及AT串口是pin to pin的；"
-msgstr "The power supply and AT serial port of BW16 and ESP-12F modules are pin-to-pin compatible."
+msgstr ""
+"The power supply and AT serial port of BW16 and ESP-12F modules are pin-to-"
+"pin compatible."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:368 7c745ce722d946bd8785c8971cde878e
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:368
+#: 1ff6add6d66f493f83b365b0419ac336
 msgid "请问BW16是否有自动重连功能？"
 msgstr "Does BW16 have an automatic reconnection function?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:369 7bdecc60324546c3867ba991e366630e
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:369
+#: be062376e5a74f1ba33fb8f5af4cbee3
 msgid "Combo-AT固件可以通过配置指令：AT+WAUTOCONN=1，实现重启功能；"
-msgstr "Combo-AT firmware can enable reconnection through the configuration command: AT+WAUTOCONN=1."
+msgstr ""
+"Combo-AT firmware can enable reconnection through the configuration command: "
+"AT+WAUTOCONN=1."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:372 1ea1d7fad97a4bc2b2a93e5097010074
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:372
+#: 4f720db3c3c84cefa7fb21226190f722
 msgid "请问BW16如何查询wifi连接状态呢？"
 msgstr "How can BW16 query the Wi-Fi connection status?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:373 f73b9f560570473a80e94a0375f85392
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:373
+#: 3e1b2759698842d5938cb00c0ad17fc5
 msgid "Combo-AT固件通过发送指令：AT+WJAP?，查询wifi连接状态"
-msgstr "Combo-AT firmware can query the Wi-Fi connection status by sending the command: AT+WJAP?"
+msgstr ""
+"Combo-AT firmware can query the Wi-Fi connection status by sending the "
+"command: AT+WJAP?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:376 149fcca4e3f8477b8ace8a767b41cd02
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:376
+#: e6282fec5a674552b98cf60ce20981d4
 msgid "请问一下BW16集成的MAC是否有ipv6协议栈？"
 msgstr "Does the MAC integrated in BW16 have an IPv6 protocol stack?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:377 13eb6b30b5ef4056b84e386ad5f6a4b9
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:377
+#: cbd1947819f14365893ddf8d18ab74ae
 msgid "有的。"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:380 312390bde3c9449e8bb6bd0eee65ba3f
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:380
+#: b8d5f117efa848d3825675dec8278c6c
 msgid "BW16模组可以将配网成功后的WIFI密码读取出来吗"
-msgstr "Can the BW16 module read out the Wi-Fi password after successful provisioning?"
+msgstr ""
+"Can the BW16 module read out the Wi-Fi password after successful "
+"provisioning?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:381 a08ef85998e8489aacc0037cd8f313c2
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:381
+#: 05dcd9c290004386afa1c9769bc66eb3
 msgid "不可以，目前仅支持将WIFI的SSID读取"
 msgstr "No. Currently, only the Wi-Fi SSID can be read."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:384 e25c14472d2a460da564a31654742989
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:384
+#: 882ec1ab8c654d2e93c34df5fc1beaf6
 msgid "请问BW16的AT固件与Combo-AT固件之间有什么区别？"
 msgstr "What is the difference between BW16 AT firmware and Combo-AT firmware?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:385 81728f945e9348379be598ddefea2b06
-msgid "AT固件是老版本固件，不包含蓝牙功能，Combo-AT固件是安信可设计开发的，功能比较齐全；AT固件与Combo-AT固件的指令完全不一样；Combo-AT固件功能更全，推荐使用；"
-msgstr "AT firmware is an older firmware version and does not include Bluetooth functions. Combo-AT firmware is designed and developed by Ai-Thinker and has more complete functions. The commands of AT firmware and Combo-AT firmware are completely different. Combo-AT firmware has more complete functions and is recommended."
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:385
+#: 89924b06d7844b7889a528917de78882
+msgid ""
+"AT固件是老版本固件，不包含蓝牙功能，Combo-AT固件是安信可设计开发的，功能比较"
+"齐全；AT固件与Combo-AT固件的指令完全不一样；Combo-AT固件功能更全，推荐使用；"
+msgstr ""
+"AT firmware is an older firmware version and does not include Bluetooth "
+"functions. Combo-AT firmware is designed and developed by Ai-Thinker and has "
+"more complete functions. The commands of AT firmware and Combo-AT firmware "
+"are completely different. Combo-AT firmware has more complete functions and "
+"is recommended."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:388 dad92170cd12446aab33a72109e73ae4
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:388
+#: e3ab03ee864547a090f44321b162dc16
 msgid "请问旧版本的BW16开发板为何烧录失败？"
 msgstr "Why does firmware flashing fail on the old BW16 development board?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:389 fca1980e95fe49b9b9b83bf5e0a63388
-msgid "MicroUSB接口连接的是模组AT串口，烧录的话，需要借助USB转TTL模块连接Log_RXD、Log_TXD完成固件升级；"
-msgstr "The MicroUSB interface is connected to the module AT serial port. For flashing, you need to use a USB-to-TTL module connected to Log_RXD and Log_TXD to complete the firmware upgrade."
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:389
+#: 3123bf5f0d7f4da9bb98d63a0cda50f4
+msgid ""
+"MicroUSB接口连接的是模组AT串口，烧录的话，需要借助USB转TTL模块连接Log_RXD、"
+"Log_TXD完成固件升级；"
+msgstr ""
+"The MicroUSB interface is connected to the module AT serial port. For "
+"flashing, you need to use a USB-to-TTL module connected to Log_RXD and "
+"Log_TXD to complete the firmware upgrade."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:392 ef5781dfb8fd45368e9dd2a927f0c42e
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:392
+#: da43b862eabb4cebb61d91dcad773d8c
 msgid "BW16同时用WIFI和蓝牙会丢包吗"
-msgstr "Will packets be lost when BW16 uses Wi-Fi and Bluetooth at the same time?"
+msgstr ""
+"Will packets be lost when BW16 uses Wi-Fi and Bluetooth at the same time?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:393 6206779317bf49a5a40f609d4280032c
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:393
+#: 1f8a6ad4e1cf40658676e2992ef3325e
 msgid "同时用会丢包"
 msgstr "Packets will be lost when they are used at the same time."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:396 7cd8786e7ffb49838760bd67f11be152
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:396
+#: 510431c603704838b0c2eb91bfa5177a
 msgid "BW16的驱动程序和ESP-01S的一样吗"
 msgstr "Is the BW16 driver the same as ESP-01S?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:397 5838e302f3494899a9183b153a05f038
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:397
+#: e5589a209ba6401284d2c96974e694ba
 msgid "不一样，指令格式不同"
 msgstr "No. The command formats are different."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:400 813f48c2eb8a410f95f1189e8767da76
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:400
+#: 9ff2ef0daf52452bb3dc7a3873d12587
 msgid "请问BW16模组的主频是多少？"
 msgstr "What is the main frequency of the BW16 module?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:401 aa125274eadb431891fcdad53d84bc07
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:401
+#: cbc43cb8b3aa4cff82e095c11dc7cf74
 msgid "80M"
 msgstr "80M."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:404 57e0f3c9d12d4eacb215caad9b7e688e
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:404
+#: b471340a776043a5a9177ddc1c0ebe7e
 msgid "请问BW16模组可以通过SPI进行通讯么？"
 msgstr "Can the BW16 module communicate through SPI?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:405 36f0bb1cfe1f488ea5f780e33f30171c
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:405
+#: 13fe3a8f535247c0ac7f0a2637d33439
 msgid "可通过二次开发实现；二次开发资料需前报名协议才能释放；"
-msgstr "It can be implemented through secondary development. Secondary development materials can only be released after signing the agreement in advance."
+msgstr ""
+"It can be implemented through secondary development. Secondary development "
+"materials can only be released after signing the agreement in advance."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:409 24e1baef08184643b787efd64008870f
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:409
+#: 9237d29928d142888f9e8a8dcd2dddec
 msgid "请问BW16模组能连接WPA2企业加密么？"
 msgstr "Can the BW16 module connect to WPA2 Enterprise encryption?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:410 02a37b278dae4bdda83f0cb58b0d527a
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:410
+#: 99d8a7d018a24e7d9496ca665b208950
 msgid "可以通过二次开发实现"
 msgstr "It can be implemented through secondary development."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:414 39d660547cb2435599634ab1826d72e1
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:414
+#: d1866c81f8e8426c9c448d87a7bd5b3c
 msgid "请问BW16模组可以通过232串口通讯么"
 msgstr "Can the BW16 module communicate through an RS-232 serial port?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:419 7acb5458fe4e4c1d92c95d8dffbfb43f
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:419
+#: edd11bf2163f415baf6587c88dbdd0b7
 msgid "请问BW16模组支持PWM输出么"
 msgstr "Does the BW16 module support PWM output?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:420 73999357e3444c18b03f40706200371b
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:420
+#: cbcac99c3eab4f7d9f0ecd1f0f638483
 msgid "支持，需二次开发"
 msgstr "Yes, secondary development is required."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:423 f08cf16dd992491eb20e2b696076fb38
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:423
+#: 782c65a5b721433f9eccbdd75b6691df
 msgid "BW16 Combo-AT指令的开发板和旧版AT指令的开发板不通用吗"
-msgstr "Are the BW16 development board with Combo-AT commands and the old AT-command development board incompatible?"
+msgstr ""
+"Are the BW16 development board with Combo-AT commands and the old AT-command "
+"development board incompatible?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:424 f73a7ca732a84032875d384cb5be194e
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:424
+#: 09ed83b6583f482a8a2b47cc14173309
 msgid "指令格式不同，不通用"
 msgstr "The command formats are different and they are not compatible."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:427 670bbec179e345c582ee6d4fb5296a86
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:427
+#: ba4539cff4804f718eebdc480d82b8dc
 msgid "BW16的芯片主频是多少"
 msgstr "What is the chip main frequency of BW16?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:428 01d1ae197c6c492da2aecf9af8038727
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:428
+#: ff6e97e997a847f6add5a997a58b79b7
 msgid "主频200MHz"
 msgstr "The main frequency is 200 MHz."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:431 e0daa39ccf884e379fc4b87714e1a63c
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:431
+#: 453e7abab00f4cf3954c870020c386d9
 msgid "BW16支持MQTT接入阿里云物联网平台吗"
 msgstr "Does BW16 support MQTT access to Alibaba Cloud IoT Platform?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:432 dc6e874997ea4353845e83dac700bb6d
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:432
+#: 4d83fdcf9942488d934580bfc00f8f3b
 msgid "支持的"
 msgstr "Yes, it is supported."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:435 cc901d205a7a4140956f2204e64fea76
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:435
+#: 458cea64f7bc4c77ad22b663c79f3f65
 msgid "BW16的蓝牙扫描频率可以通过指令调整吗"
-msgstr "Can the BW16 Bluetooth scanning frequency be adjusted through commands?"
+msgstr ""
+"Can the BW16 Bluetooth scanning frequency be adjusted through commands?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:436 089ff611c1f2413095135a845311724b
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:436
+#: 93fd8014e11544b0b8d88eaabf2bcf21
 msgid "不可以，目前没有对应的指令进行设置"
 msgstr "No. There is currently no corresponding command for setting it."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:439 b27bea9443054963bd2f7fdac9bff9e3
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:439
+#: 88f10db67fcd4b519e2861aee8fc0678
 msgid "请问BW16模组支持STM32驱动么？"
 msgstr "Does the BW16 module support STM32 driving?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:440 0ff7aadab8d6417ca57db21614d4edff
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:440
+#: ba93336e08c84d9d880b92d7dbee7e99
 msgid "支持，直接通过串口发送AT指令的方式实现。"
-msgstr "Yes. It is implemented by directly sending AT commands through the serial port."
+msgstr ""
+"Yes. It is implemented by directly sending AT commands through the serial "
+"port."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:443 89fda7bf409a4ad3b3e1cbc6fbd4ad00
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:443
+#: 2ac16e287e6747cea2f8e587aff0d875
 msgid "请问BW16的蓝牙扫描频率是否可调？"
 msgstr "Is the BW16 Bluetooth scanning frequency adjustable?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:444 2603861a08bc47d8bc2ef3a770439f79
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:444
+#: 00729c2fbd5f45d9ac925be8fbef9431
 msgid "没有该功能的指令。"
 msgstr "There is no command for this function."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:447 a2770876e72c4b6280efd75c61e5f616
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:447
+#: c302a7f93238472ba8a516d77d6cff9c
 msgid "请问BW16没有wifi/蓝牙连接指示灯么？"
 msgstr "Does BW16 have no Wi-Fi/Bluetooth connection indicator LED?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:448 e8970852d17241ebb9452c43152af8e5
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:448
+#: 572a9f3f65a4480ba7f100929c8a36fd
 msgid "没有。"
 msgstr "No."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:451 d8b6d235f9e64e71bc7915b38ebb369a
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:451
+#: 534873258acf4cef851c100881f6109d
 msgid "BW16是否支持HTTP客户端分包获取web服务器文件包？"
-msgstr "Does BW16 support HTTP client segmented retrieval of web server file packages?"
+msgstr ""
+"Does BW16 support HTTP client segmented retrieval of web server file "
+"packages?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:452 05599bcf6d61462abcfe3d99bf57270d
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:452
+#: 2b0bcfcf42aa42308f823941471744aa
 msgid "可通过增加Range字段的方式实现分包获取资源功能。"
-msgstr "It can be implemented by adding the Range field to retrieve resources in segments."
+msgstr ""
+"It can be implemented by adding the Range field to retrieve resources in "
+"segments."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:455 bb1499cb796a44ed8d8283622b11410d
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:455
+#: eb5d70f722794f248b74096cc4960aee
 msgid "BW16 WIFI模块可以修改WIFI信道吗"
 msgstr "Can the BW16 Wi-Fi module modify the Wi-Fi channel?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:456 89639ad8d6304db29c73239853a176bb
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:456
+#: c7218cc369fc46d1a930f225a5d1e811
 msgid "可以，通过串口发送AT指令设置模块为AP模式进行修改"
-msgstr "Yes. You can set the module to AP mode through AT commands sent via serial port and then modify it."
+msgstr ""
+"Yes. You can set the module to AP mode through AT commands sent via serial "
+"port and then modify it."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:459 e5eb62f901bd4b3b808c42d339d3256a
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:459
+#: c0e0b5ee3c774a3d88380f56a50151c8
 msgid "BW16配网工具支持IOS手机吗"
 msgstr "Does the BW16 provisioning tool support iOS phones?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:460 d446b0b212f144d0a0fcf496f69df107
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:460
+#: b23c85cf61084939ab51a1b5365aab4e
 msgid "支持，可以在IOS应用商店搜索easy wifi config进行下载"
-msgstr "Yes. You can search for “easy wifi config” in the iOS App Store and download it."
+msgstr ""
+"Yes. You can search for “easy wifi config” in the iOS App Store and download "
+"it."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:463 b3f84cfd93844eb38d2c7e21021fbd47
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:463
+#: 486a961987534848b632ce2c3ddd4e1c
 msgid "请问为何BW16开发板配置联网老是联网失败？我这边账号密码明明是对的"
-msgstr "Why does the BW16 development board always fail to connect to the network during provisioning? The account and password on my side are clearly correct."
+msgstr ""
+"Why does the BW16 development board always fail to connect to the network "
+"during provisioning? The account and password on my side are clearly correct."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:464 de77202ca683487292c17cad378e7166
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:464
+#: 37e43de0e09c421d91bf14079f9a8ecf
 msgid "检查一下供电情况，供电不足将导致联网超时"
-msgstr "Check the power supply. Insufficient power supply will cause connection timeout."
+msgstr ""
+"Check the power supply. Insufficient power supply will cause connection "
+"timeout."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:467 55732169f92546639a273dcc7f2b1bb0
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:467
+#: 8ca039dca0f04f6488f7dcbfa74e7971
 msgid "请问BW16模组可以连接车机完成wifi连接么？"
-msgstr "Can the BW16 module connect to an in-vehicle infotainment system to complete Wi-Fi connection?"
+msgstr ""
+"Can the BW16 module connect to an in-vehicle infotainment system to complete "
+"Wi-Fi connection?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:468 670b7e5873904e26810182901da5d1e0
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:468
+#: 336ae0a3151f42319a13702ed7e90e58
 msgid "不能，BW16非网卡类模组"
 msgstr "No. BW16 is not a network-card-type module."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:471 eb4641d8b3fe4817b6766504d4d9c7a4
-msgid "BW16模块为什么网络调试助手断开连接会返回socketAutodel，而模块断开连接不会自己返回"
-msgstr "Why does the BW16 module return socketAutodel when the network debugging assistant disconnects, but does not return it automatically when the module disconnects?"
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:471
+#: b91fa16f02b146579250bbe28f4749ab
+msgid ""
+"BW16模块为什么网络调试助手断开连接会返回socketAutodel，而模块断开连接不会自己"
+"返回"
+msgstr ""
+"Why does the BW16 module return socketAutodel when the network debugging "
+"assistant disconnects, but does not return it automatically when the module "
+"disconnects?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:472 fc1a7122cabe434ea0f82af2ce5ac4d7
-msgid "因为模块断开连接属于手动删除链接，不符合自动删除链接的条件，所以不会返回socketAutodel"
-msgstr "Because module disconnection is a manual link deletion and does not meet the conditions for automatic link deletion, it will not return socketAutodel."
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:472
+#: df01aa8c3edc4661a7112bff10c7a60a
+msgid ""
+"因为模块断开连接属于手动删除链接，不符合自动删除链接的条件，所以不会返回"
+"socketAutodel"
+msgstr ""
+"Because module disconnection is a manual link deletion and does not meet the "
+"conditions for automatic link deletion, it will not return socketAutodel."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:475 eb76d0565dc74b63bce46c48976d643c
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:475
+#: a61b9d245720479a9c893ed359bccd3c
 msgid "请问BW16模组能否做热点实现中继功能？"
-msgstr "Can the BW16 module work as a hotspot and implement relay functionality?"
+msgstr ""
+"Can the BW16 module work as a hotspot and implement relay functionality?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:476 f0b3ec26e2e64afb87167d07df2d8087
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:476
+#: 386068edfd9140eb891b7fc0a743fb84
 msgid "可以自行配置实现；"
 msgstr "You can configure and implement it yourself."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:479 5ee3ab825978438f8b46679c194a67fd
-msgid "请问我这边用MCU驱动BW16模组，串口应该接的是LOG_TX、LOG_RX还是接AT_TX、AT_RX？"
-msgstr "When using an MCU to drive the BW16 module, should the serial port be connected to LOG_TX/LOG_RX or AT_TX/AT_RX?"
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:479
+#: daf220a0bebc4faf89369019132e7188
+msgid ""
+"请问我这边用MCU驱动BW16模组，串口应该接的是LOG_TX、LOG_RX还是接AT_TX、AT_RX？"
+msgstr ""
+"When using an MCU to drive the BW16 module, should the serial port be "
+"connected to LOG_TX/LOG_RX or AT_TX/AT_RX?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:480 f975e10b5e354646af343fa3f1d3602d
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:480
+#: c2440a32afca40f88d75fa5c7f765aea
 msgid "接AT_TX跟AT_RX；"
 msgstr "Connect to AT_TX and AT_RX."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:483 537bbf5ce1ee40cc8aa64ae4b2e97e67
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:483
+#: 27cc9da844024614bc4f5af9e906d6be
 msgid "请问为何BW16模组启动配置串口波特率为115200出来的是乱码？"
-msgstr "Why is the output garbled when the BW16 module startup configuration serial baud rate is set to 115200?"
+msgstr ""
+"Why is the output garbled when the BW16 module startup configuration serial "
+"baud rate is set to 115200?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:484 c7ad00eb31c142acbfc5c61f2195f82a
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:484
+#: ac769e7cf011437180f91c669f9b0d75
 msgid "AT口的波特率要配置38400；"
 msgstr "The AT port baud rate should be configured to 38400."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:487 b08ba81ca26e4ed0991eff69b808f41c
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:487
+#: 9d41a017158f4c17a2393fdc440e3a7d
 msgid "请问BW16的蓝牙主机模式下支持连接多个设备么？"
 msgstr "Does BW16 support connecting multiple devices in Bluetooth host mode?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:488 dbfac7b5f6b54968a6e4c4dbeb958001
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:488
+#: f225a327dc7446b0ac4ebc08b61e5dde
 msgid "不支持，仅支持点对点；"
 msgstr "Not supported. Only point-to-point is supported."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:491 9b9c7e386fb244f99fcdc2c4c479e91c
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:491
+#: 2d34ff885c57484895bd872db9831ca3
 msgid "请问BW16支持SPI接口实现AT指令交互功能的么？"
 msgstr "Does BW16 support SPI interface for AT command interaction?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:492 fd0de62e2e5c48938002e1f611864cda
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:492
+#: b11b64ff480347c894e85341a289e19b
 msgid "目前没有，若有定制需求，请联系安信可工作人员；"
-msgstr "Currently no. If you have customization requirements, please contact Ai-Thinker staff."
+msgstr ""
+"Currently no. If you have customization requirements, please contact Ai-"
+"Thinker staff."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:495 34b2c521544146af90353daa38d7ffeb
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:495
+#: a6743c0935154fa48afc9f97e26a201e
 msgid "请问BW16作为AP可以接入多少个设备呢？"
 msgstr "How many devices can connect to BW16 as an AP?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:496 992ca0b58eb9476cb7909ace4f521e0e
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:496
+#: 3e26fba21cf248a28c1c6c7fe5b96921
 msgid "5个"
 msgstr "5 devices."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:499 cdc76b83b896428e9582f4a534c89e58
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:499
+#: 8f30e1734f9b4a508176041911ab2e4c
 msgid "请问BW16支持串口实现wifi透传功能么？"
 msgstr "Does BW16 support Wi-Fi transparent transmission through serial port?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:500 f55c055e24fc4170a4ecc12c75a4ff4a
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:500
+#: 98117ef70fc74e588a49181a167e8070
 msgid "支持TCP、UDP透传功能；"
 msgstr "TCP and UDP transparent transmission are supported."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:503 4eb4fbdf17314d66a4581607f48d4c2c
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:503
+#: 34bec7a3dca44630a4eaf2d83cb8cd6b
 msgid "请问BW16支持微信airkiss配网功能么？"
 msgstr "Does BW16 support WeChat AirKiss provisioning?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:504 dc844839929c46b9976f73542beae712
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:504
+#: 69799e946d35462ba1af688cee0cea24
 msgid "BW16不支持；"
 msgstr "BW16 does not support it."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:507 cd5b3f5ef84045caa002358c659ecd5d
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:507
+#: d4c12fb065a54981aa109c6e45eb9b29
 msgid "请问BW16开发板的type-C口是否支持直接上传程序？"
-msgstr "Does the Type-C port on the BW16 development board support directly uploading programs?"
+msgstr ""
+"Does the Type-C port on the BW16 development board support directly "
+"uploading programs?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:508 dcc96fc2dec4472f9188831a1601c097
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:508
+#: ede0a64672ef419e995cc2045df259bb
 msgid "支持，该接口为烧录接口。"
 msgstr "Yes. This interface is the flashing interface."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:511 2b0258fad4094d3db266383665f4db4e
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:511
+#: f19c22583363493e98e1ba69ac14035e
 msgid "请问BW16由板载天线切换IPEX要如何操作？"
 msgstr "How do I switch BW16 from the onboard antenna to IPEX?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:512 1e67d52517e54537bfd4ae4208de9c77
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:512
+#: 50bd60e32aeb4a4483fad4489de1c8cc
 msgid "通过改变电阻的位置实现。 .. image:: img/BW16dianzu.png"
 msgstr "By changing the resistor position. .. image:: img/BW16dianzu.png"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:516 58699d8332de49daa7fbc3f0228b90e3
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:516
+#: 07a73770e8c649a3bff40418db7cb4f1
 msgid "请问BW16在透传模式下支持一对多传输么？"
-msgstr "Does BW16 support one-to-many transmission in transparent transmission mode?"
+msgstr ""
+"Does BW16 support one-to-many transmission in transparent transmission mode?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:517 a250cc7f84864703a1e08327a3ca69b1
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:517
+#: 15b3b81057e6496bbde54ccad1c53a3a
 msgid "不支持，透传功能只能一对一。"
-msgstr "Not supported. The transparent transmission function is only one-to-one."
+msgstr ""
+"Not supported. The transparent transmission function is only one-to-one."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:520 f76ee2adf43a4f95bd593ee20d02b278
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:520
+#: fb574165533940799b41911825b31218
 msgid "请问BW16模组的复位引脚由其他单片机控制么？"
-msgstr "Is the reset pin of the BW16 module controlled by another microcontroller?"
+msgstr ""
+"Is the reset pin of the BW16 module controlled by another microcontroller?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:521 d1edaa9a8ec3451db3a53ed9db84ce1b
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:521
+#: 9f9d5a16c00e4bfeb23af58e06f63376
 msgid "是的。"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:524 b9dc7eb0ea014edc9cbd883437c3ec45
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:524
+#: a9bf2420891246a4adeb4df1d0d056a1
 msgid "请问BW16静态IP设置中掩码已经网关IP要如何配置呢？"
-msgstr "How should the mask and gateway IP be configured in BW16 static IP settings?"
+msgstr ""
+"How should the mask and gateway IP be configured in BW16 static IP settings?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:525 c69d0e3e0eb941d1bccf441a0ffc197c
-msgid "先配置模组为动态配置IP模式，连接wifi以后读出网关IP以及掩码等相关内容并保存，配置静态IP的时候直接填写该IP以及掩码即可。"
-msgstr "First configure the module to dynamic IP mode. After connecting to Wi-Fi, read out and save the gateway IP, mask, and other related information. When configuring a static IP, directly fill in that IP and mask."
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:525
+#: ca9e7e9171ec4ae380931cdf08692259
+msgid ""
+"先配置模组为动态配置IP模式，连接wifi以后读出网关IP以及掩码等相关内容并保存，"
+"配置静态IP的时候直接填写该IP以及掩码即可。"
+msgstr ""
+"First configure the module to dynamic IP mode. After connecting to Wi-Fi, "
+"read out and save the gateway IP, mask, and other related information. When "
+"configuring a static IP, directly fill in that IP and mask."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:528 41413c1f96314084ad8a1e1b98cc2fa0
-msgid "请问BW16模组需要手机与模组进行配对实现配网功能么？还是说一上电即可实现配网功能？"
-msgstr "Does the BW16 module need the phone and module to pair for provisioning, or can provisioning be performed immediately after power-on?"
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:528
+#: ee85abbfc8284e439063c26bc434419a
+msgid ""
+"请问BW16模组需要手机与模组进行配对实现配网功能么？还是说一上电即可实现配网功"
+"能？"
+msgstr ""
+"Does the BW16 module need the phone and module to pair for provisioning, or "
+"can provisioning be performed immediately after power-on?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:529 f9e1d358617b4f919bccf9301dcf6b74
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:529
+#: 3c2dfd2bc7a647f680c1cb7d7b3ad3af
 msgid "需要用户手动配置模组进入配网模式。"
-msgstr "The user needs to manually configure the module to enter provisioning mode."
+msgstr ""
+"The user needs to manually configure the module to enter provisioning mode."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:532 966041f0e2d344d6a69bc11ef0be78ad
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:532
+#: f3495466e5864aeda3e98b12310c94ee
 msgid "请问BW16支持flash大小256Mbits么？"
 msgstr "Does BW16 support 256 Mbits Flash size?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:533 f7cbd254f391413eba32fbdade88a2e4
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:533
+#: c5d6f3e649024c10b5c01f624d17b01e
 msgid "不支持，支持最大128Mbits"
 msgstr "No. It supports a maximum of 128 Mbits."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:536 ba416875a8bf4c4d8408c2f70de71d6d
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:536
+#: 247a6e5c56c245b1b7e4642daebf5214
 msgid "请问为何我BW16模组老是烧录失败？"
 msgstr "Why does my BW16 module always fail to flash?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:537 2d8fd69b1a0a4464beca23b97a2d3cc6
-msgid "检查一下接的串口是否正确，需要接Log_TX以及Log_RX用于烧录固件，另外要设置模组进入烧录模式。通过普通串口判断模组是否进入烧录模式（hex显示下移植打印“15”则成功进入烧录模式）。"
-msgstr "Check whether the connected UART is correct. You need to connect Log_TX and Log_RX for firmware flashing, and also set the module to enter flashing/download mode. You can use the normal UART to determine whether the module has entered flashing mode (if “15” is printed in hex display mode, it means the module has successfully entered flashing mode)."
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:537
+#: 16f3aa996f14439a820d11d2bf218b7c
+msgid ""
+"检查一下接的串口是否正确，需要接Log_TX以及Log_RX用于烧录固件，另外要设置模组"
+"进入烧录模式。通过普通串口判断模组是否进入烧录模式（hex显示下移植打印“15”则成"
+"功进入烧录模式）。"
+msgstr ""
+"Check whether the connected UART is correct. You need to connect Log_TX and "
+"Log_RX for firmware flashing, and also set the module to enter flashing/"
+"download mode. You can use the normal UART to determine whether the module "
+"has entered flashing mode (if “15” is printed in hex display mode, it means "
+"the module has successfully entered flashing mode)."
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:540 1ff1b0fe054d44e5b10a9415456f2763
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:540
+#: 6fe334bd4513407983ffc069d7c97170
 msgid "请问BW16模组要那个引脚与MCU连接？"
 msgstr "Which pins of the BW16 module should be connected to the MCU?"
 
-#: ../../source/docs/software-framework/WiFi/RTL87XX/index.rst:541 668912c072334a5c9a4461ea9d5d4e12
+#: ../source/docs/software-framework/WiFi/RTL87XX/index.rst:541
+#: 13f1d6e2e5e24be1b4d2166411d1d4bd
 msgid "AT_RX以及AT_TX，开发板则接PB2_RX1以及PB1_TX1"
-msgstr "Use AT_RX and AT_TX. For the development board, connect to PB2_RX1 and PB1_TX1."
+msgstr ""
+"Use AT_RX and AT_TX. For the development board, connect to PB2_RX1 and "
+"PB1_TX1."

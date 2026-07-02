@@ -8,557 +8,841 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:2 e5cd1839547b479da591b60f2de71e22
+#: ../source/docs/software-framework/2.4G/index.rst:2
+#: 68be373b79824e869731fcf84a1ffcee
 msgid "安信可 2.4G系列模块 FAQ"
 msgstr "Ai-Thinker 2.4G Series Module FAQ"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:18 51cada1560ba47dd9b9e7bcae05aca18
+#: ../source/docs/software-framework/2.4G/index.rst:18
+#: 960627ff87024a37b2b22552a26421c2
 msgid "Si24R1芯片与nRF24L01+芯片有什么区别?"
 msgstr "What is the difference between the Si24R1 chip and the nRF24L01+ chip?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:19 33c4f0c6adf3416ca919caab1c872f22
-msgid "Si24R1芯片与nRF24L01+芯片兼容，可以直接替换。SI24R1芯片的优点就是SHDN关断状态的电流要小，standby-I状态的电流也要小，同时SI24R1芯片支持更大功率的输出7dBm，（需要软件设置内部寄存器配置使之工作在7dBm模式），SI24R1的总的平均电流消耗要比nRF24L01+的小。"
-msgstr "The Si24R1 chip is compatible with the nRF24L01+ chip and can be used as a direct replacement. The advantages of the Si24R1 chip are lower current consumption in SHDN shutdown state and lower current consumption in standby-I state. At the same time, the Si24R1 chip supports a higher output power of 7dBm. (Software configuration of internal registers is required to make it work in 7dBm mode. ) The overall average current consumption of the Si24R1 is lower than that of the nRF24L01+."
+#: ../source/docs/software-framework/2.4G/index.rst:19
+#: 20270a0202c14d86b5bc87463ea0be29
+msgid ""
+"Si24R1芯片与nRF24L01+芯片兼容，可以直接替换。SI24R1芯片的优点就是SHDN关断状态"
+"的电流要小，standby-I状态的电流也要小，同时SI24R1芯片支持更大功率的输出7dBm，"
+"（需要软件设置内部寄存器配置使之工作在7dBm模式），SI24R1的总的平均电流消耗要"
+"比nRF24L01+的小。"
+msgstr ""
+"The Si24R1 chip is compatible with the nRF24L01+ chip and can be used as a "
+"direct replacement. The advantages of the Si24R1 chip are lower current "
+"consumption in SHDN shutdown state and lower current consumption in standby-"
+"I state. At the same time, the Si24R1 chip supports a higher output power of "
+"7dBm. (Software configuration of internal registers is required to make it "
+"work in 7dBm mode. ) The overall average current consumption of the Si24R1 "
+"is lower than that of the nRF24L01+."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:22 437f33c9beee4494beb6193c3abc0627
+#: ../source/docs/software-framework/2.4G/index.rst:22
+#: 75aa41a4d80a4f86b7851cc6261844a7
 msgid "Si24R1与nRF24L01+与BK2425芯片哪一个性能比较好?"
 msgstr "Which chip has better performance: Si24R1, nRF24L01+, or BK2425?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:24 9377bef18f92487eb068a4184cc744a3
-msgid "答：从功率上比较：Si24R1最大功率是5mV>BK2425最大功率是2.5mV>nRF24L01最大功率是1mV"
-msgstr "A: In terms of power: Si24R1 maximum power is 5mV > BK2425 maximum power is 2.5mV > nRF24L01 maximum power is 1mV."
+#: ../source/docs/software-framework/2.4G/index.rst:24
+#: 330344d2742e4567808154092d337ffd
+msgid ""
+"答：从功率上比较：Si24R1最大功率是5mV>BK2425最大功率是2.5mV>nRF24L01最大功率"
+"是1mV"
+msgstr ""
+"A: In terms of power: Si24R1 maximum power is 5mV > BK2425 maximum power is "
+"2.5mV > nRF24L01 maximum power is 1mV."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:27 3d0bc3587bdf41b1b4f323e419b2731a
+#: ../source/docs/software-framework/2.4G/index.rst:27
+#: c977272fffd94c629a4afc446932491a
 msgid "NF-03跟24l01兼容吗"
 msgstr "Is NF-03 compatible with 24L01?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:29 38eb78f9524342259096b8e9f6473eb7
+#: ../source/docs/software-framework/2.4G/index.rst:29
+#: 11f538de9b8d4b0595fcc393b23baa97
 msgid "兼容，支持多发一收"
 msgstr "Compatible. It supports multiple transmitters and one receiver."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:32 43473bd9dd964910a41d2a6cd2f73383
+#: ../source/docs/software-framework/2.4G/index.rst:32
+#: dab34275e82749279aa460022e8aa3f3
 msgid "NF-01-S这个直接用吗 ?还是需要编程"
 msgstr "Can NF-01-S be used directly, or does it need programming?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:33 c1db743c0bf14d49bd53c61e350bd7c2
+#: ../source/docs/software-framework/2.4G/index.rst:33
+#: c832b9dd7a0f4f09989cffd9db24f534
 msgid "需要编程,这只是一个射频芯片"
 msgstr "It needs programming. This is only an RF chip."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:36 56d36df3f7a849dd8e9cebd1c3c3334d
+#: ../source/docs/software-framework/2.4G/index.rst:36
+#: 0e6b49d3106943af9b1bacb9e4d262ef
 msgid "NF-04与NF-02-PA 互通吗？"
 msgstr "Can NF-04 communicate with NF-02-PA?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:37 f167605fe17548f694c0b060f3ceca25
+#: ../source/docs/software-framework/2.4G/index.rst:37
+#: f253c954d3f04ad788131f38c093835c
 msgid "互通的"
 msgstr "Yes, they can communicate with each other."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:40 64bc6d1854824ddf9af5e6d1851e75f9
+#: ../source/docs/software-framework/2.4G/index.rst:40
+#: fb46486242514c4aa207b3e5eb0485f1
 msgid "NF-03可以供电电压5v吗"
 msgstr "Can the NF-03 be powered with 5V?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:41 fdf6bb91dd154f81a6518762b286817e
+#: ../source/docs/software-framework/2.4G/index.rst:41
+#: b869767711174c288b8da4f02aeacc5c
 msgid "建议供电3V3，供电5V会烧坏芯片"
-msgstr "A 3.3V power supply is recommended. A 5V power supply will burn out the chip."
+msgstr ""
+"A 3.3V power supply is recommended. A 5V power supply will burn out the chip."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:44 318f939d73c24393957a21966e20fa4e
+#: ../source/docs/software-framework/2.4G/index.rst:44
+#: 7d08ed1b79b844b69f246c2e1ca5834e
 msgid "NF-04-MI模块的通信距离有多远"
 msgstr "What is the communication distance of the NF-04-MI module?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:45 ../../source/docs/software-framework/2.4G/index.rst:70 89113dbf9d604c84a2affd9c64a81179 a6aeb71ecd4444e886a726d83ac6c2d2
+#: ../source/docs/software-framework/2.4G/index.rst:45
+#: ../source/docs/software-framework/2.4G/index.rst:70
+#: a396692b83c44d3ca24f5ebbd919ef87 1bb01e305fab41c4bea599ef3e385d3f
 msgid "120米"
 msgstr "120m."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:48 a69fcf687e5e449797e41e426d62bb9e
-msgid "NF-03模块，不需要烧写程序，直接可以透传，对吗？模块本身，上电即可工作吗？"
-msgstr "Does the NF-03 module support transparent transmission directly without programming? Does the module itself work immediately after power-on?"
+#: ../source/docs/software-framework/2.4G/index.rst:48
+#: 04f161e4931a4b2186614e9aeb48b6cb
+msgid ""
+"NF-03模块，不需要烧写程序，直接可以透传，对吗？模块本身，上电即可工作吗？"
+msgstr ""
+"Does the NF-03 module support transparent transmission directly without "
+"programming? Does the module itself work immediately after power-on?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:49 579016f6db77407889a3bf476af3be87
+#: ../source/docs/software-framework/2.4G/index.rst:49
+#: 189742b4a59042059bde1a7091c20bd0
 msgid "这个模块需要外接MCU，需要MCU配置寄存器"
-msgstr "This module requires an external MCU, and the MCU needs to configure the registers."
+msgstr ""
+"This module requires an external MCU, and the MCU needs to configure the "
+"registers."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:52 562220c45661464fb4ba18d5f36a719f
+#: ../source/docs/software-framework/2.4G/index.rst:52
+#: 46ae6abdbd744ff49e46e75ff58b3ad7
 msgid "如何把NF-01-N模块改成通电即发射？怎么设置呢？"
-msgstr "How can I make the NF-01-N module transmit immediately after power-on? How should it be configured?"
+msgstr ""
+"How can I make the NF-01-N module transmit immediately after power-on? How "
+"should it be configured?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:53 b115dc2720e44ff4b04c84d293216ce2
+#: ../source/docs/software-framework/2.4G/index.rst:53
+#: d69e4d8af4294eab96f510030f6cc614
 msgid "通过设置寄存器，可以参考我们提供的51单片机的demo程序"
-msgstr "It can be done by setting registers. You can refer to the 51 MCU demo program we provide."
+msgstr ""
+"It can be done by setting registers. You can refer to the 51 MCU demo "
+"program we provide."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:56 9ee698a7e11f4dddb09e6f065361127f
+#: ../source/docs/software-framework/2.4G/index.rst:56
+#: 8bb710c7b2864a6d83a5079d741fdb05
 msgid "\"NF-03传送距离多远？"
 msgstr "How far is the NF-03 transmission distance?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:58 59f7a896e19d4ed7a662b43caec0c4e9
+#: ../source/docs/software-framework/2.4G/index.rst:58
+#: 81a9d22068f6472098c3be2c331365b0
 msgid "240m"
 msgstr "240m."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:61 ed825b110b994a77b3634aa9ab76af1b
+#: ../source/docs/software-framework/2.4G/index.rst:61
+#: f4ca0501eb284e9fa135730eb2804965
 msgid "2.4G稳定性哪款好？"
 msgstr "Which 2.4G module has good stability?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:62 2e64b7e8f450459e9cd8599e43b771be
+#: ../source/docs/software-framework/2.4G/index.rst:62
+#: 922d9e4cc52c4a84bd96eb77836fc8b8
 msgid "NF-02-PA"
 msgstr "NF-02-PA."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:65 9beaa9221bab461abfbdc823c8656507
+#: ../source/docs/software-framework/2.4G/index.rst:65
+#: 4c36e88b1c0d4cf891c4befb1cbac99b
 msgid "发射端si24r1，接收端是nrf24l01+，可以通信吗"
-msgstr "Can a transmitter using Si24R1 communicate with a receiver using nRF24L01+?"
+msgstr ""
+"Can a transmitter using Si24R1 communicate with a receiver using nRF24L01+?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:66 1a7ecb6c98dc49bc95d738935be252cb
+#: ../source/docs/software-framework/2.4G/index.rst:66
+#: ec1aa48fee564f4a922b702f018b9c3c
 msgid "可以通信"
 msgstr "Yes, they can communicate."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:69 681be70becf1458b94d98d2a44c575c4
+#: ../source/docs/software-framework/2.4G/index.rst:69
+#: f6fe1e69231b4131a23ec1135ab91038
 msgid "\"NF-04多少米"
 msgstr "How far is the NF-04 transmission distance?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:73 99ca7d0ca6a849c0a38e24effbfdb613
+#: ../source/docs/software-framework/2.4G/index.rst:73
+#: 1f7eec9b1a304651bebdccc841600f2f
 msgid "怎么区分NF-01-N和NF-01-S"
 msgstr "How to distinguish NF-01-N and NF-01-S?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:74 bce8d92610f349eb902d18ad7df39383
+#: ../source/docs/software-framework/2.4G/index.rst:74
+#: 949be420e90a41b1be3bbefe70a1f6cf
 msgid "他们使用的射频芯片不一样 可以参考芯片手册"
 msgstr "They use different RF chips. You can refer to the chip manuals."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:77 f4cce3f5c3014eaaa6868080e7f6a600
+#: ../source/docs/software-framework/2.4G/index.rst:77
+#: 53913866c17641639a9b314064dbaf60
 msgid "这种3.3V供电的2.4G  NF-04-MI模块，能否与5V供电的单片机信号线直接连接"
-msgstr "Can this 3.3V-powered 2.4G NF-04-MI module be directly connected to the signal lines of a 5V-powered MCU?"
+msgstr ""
+"Can this 3.3V-powered 2.4G NF-04-MI module be directly connected to the "
+"signal lines of a 5V-powered MCU?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:78 ebf8e9a0329f4d4594fae85d6e086ad8
+#: ../source/docs/software-framework/2.4G/index.rst:78
+#: 3fe92212793a429380687e06614d455b
 msgid "不行,必须设计降压电路"
 msgstr "No. A step-down circuit must be designed."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:81 740711c5bd2b48e18c14dd134ec5c893
+#: ../source/docs/software-framework/2.4G/index.rst:81
+#: fa8ffbc2954c4427ba7c7f02084d5e66
 msgid "NF-03模块有没有程序的"
 msgstr "Does the NF-03 module come with a program?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:82 a1d0d11a647843b5b5d2859c3904f97e
+#: ../source/docs/software-framework/2.4G/index.rst:82
+#: 587726c45c4f4fcc904f2df3082b8c46
 msgid "NF-03这款是射频芯片，所以不带程序的，通过MCU寄存器去操作"
-msgstr "NF-03 is an RF chip, so it does not come with a program. It is operated by MCU register configuration."
+msgstr ""
+"NF-03 is an RF chip, so it does not come with a program. It is operated by "
+"MCU register configuration."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:85 c1e78d8047b240bbaa44b85e4c13ed83
+#: ../source/docs/software-framework/2.4G/index.rst:85
+#: 113faf53871a4881ac90c767237c6c97
 msgid "NF-01-S 这个是wifi透传吗?是走wifi协议吗?"
-msgstr "Is NF-01-S Wi-Fi transparent transmission? Does it use the Wi-Fi protocol?"
+msgstr ""
+"Is NF-01-S Wi-Fi transparent transmission? Does it use the Wi-Fi protocol?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:86 487f1de4924f444083f8e991adca3e19
+#: ../source/docs/software-framework/2.4G/index.rst:86
+#: b3413e79f0fd49b28101c32f21ffea61
 msgid "支持SPI透传,走的不是WIFI协议 ,是SPI协议"
-msgstr "It supports SPI transparent transmission. It does not use the Wi-Fi protocol; it uses the SPI protocol."
+msgstr ""
+"It supports SPI transparent transmission. It does not use the Wi-Fi "
+"protocol; it uses the SPI protocol."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:89 4fa97d1eabd04edaa626265e9750ff2e
+#: ../source/docs/software-framework/2.4G/index.rst:89
+#: baba7099585940acbf7812f02a3ada5f
 msgid "NF-01-S可以做AP吗。 设备跟你们的模块连，手机APP跟模块连。实现透传。"
-msgstr "Can NF-01-S work as an AP? Devices connect to the module, and the mobile app connects to the module to implement transparent transmission."
+msgstr ""
+"Can NF-01-S work as an AP? Devices connect to the module, and the mobile app "
+"connects to the module to implement transparent transmission."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:91 f4d06c26277746ff8cddf7fe758e6d19
+#: ../source/docs/software-framework/2.4G/index.rst:91
+#: c71d447d5f054f9296cb45b6635d24e3
 msgid "SPI协议，这个只是纯射频模块，没有AP这种概念哦"
-msgstr "It uses the SPI protocol. This is only a pure RF module, so there is no AP concept."
+msgstr ""
+"It uses the SPI protocol. This is only a pure RF module, so there is no AP "
+"concept."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:94 b8514c2379374bd3912a3a67855b99ee
+#: ../source/docs/software-framework/2.4G/index.rst:94
+#: cf072f282510478b8b0fe6eb02a77b59
 msgid "2.4G系列有5V供电的吗"
 msgstr "Are there any 5V-powered modules in the 2.4G series?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:95 eacb9ae73bbc4ea0b96990bd1e1688c4
+#: ../source/docs/software-framework/2.4G/index.rst:95
+#: fe124fc63a394d76af5786b2ef2a991a
 msgid "2.4G模块都是3.3V供电的，如果使用5V供电请自行设计电路进行降压"
-msgstr "All 2.4G modules are powered by 3.3V. If using a 5V power supply, please design your own step-down circuit."
+msgstr ""
+"All 2.4G modules are powered by 3.3V. If using a 5V power supply, please "
+"design your own step-down circuit."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:98 7567ca779fac49699aa3181ee03c52f9
+#: ../source/docs/software-framework/2.4G/index.rst:98
+#: 40173410e9ce491bad864da12dd396cb
 msgid "\"有串口通信的2.4G模块吗"
 msgstr "Are there 2.4G modules with serial communication?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:99 3a0d35806b8145e1b1d935b2ea5a4a89
+#: ../source/docs/software-framework/2.4G/index.rst:99
+#: 3bed619abc2a4f92981cd8dc10c50687
 msgid "没有，2.4g都是SPI通信的，是单2.4，不是WIFI"
-msgstr "No. All 2.4G modules use SPI communication. They are single 2.4G modules, not Wi-Fi modules."
+msgstr ""
+"No. All 2.4G modules use SPI communication. They are single 2.4G modules, "
+"not Wi-Fi modules."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:102 6eb111b9c8f94ab7bcd7ea5d22376281
+#: ../source/docs/software-framework/2.4G/index.rst:102
+#: c9a06945e3f34446bc8799a138c4c627
 msgid "Nf-02可以做音频传输吧？"
 msgstr "Can NF-02 be used for audio transmission?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:103 62b9221a7f5d49de86489b499e0a2a07
+#: ../source/docs/software-framework/2.4G/index.rst:103
+#: 03633d2aecf94147ae38b09d42c1006c
 msgid "不行哦"
 msgstr "No."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:106 87b43e6f0b3e414883507569bb5bb7ec
+#: ../source/docs/software-framework/2.4G/index.rst:106
+#: 9b6b56aa97984282b55d82333904d0fa
 msgid "为什么叫邦定2401模块？与普通的2401模块有什么不同？"
-msgstr "Why is it called a bonded 2401 module? What is the difference from an ordinary 2401 module?"
+msgstr ""
+"Why is it called a bonded 2401 module? What is the difference from an "
+"ordinary 2401 module?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:107 787aa67adaa94779917f05514076a842
+#: ../source/docs/software-framework/2.4G/index.rst:107
+#: 0cafd6e587b845ce8bf128cae82c7f1f
 msgid "使用的射频芯片不一样"
 msgstr "The RF chip used is different."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:110 b1054be6d20d41daa5b88bb3b909c61a
+#: ../source/docs/software-framework/2.4G/index.rst:110
+#: 7466d8dbf1fd402797736bc694880bc0
 msgid "NF-02是发射器吧？接收呢"
 msgstr "Is NF-02 a transmitter? What about receiver?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:111 a14506749dcf489093e2112954db180d
+#: ../source/docs/software-framework/2.4G/index.rst:111
+#: 82b70918a3d74ee7ad04ada8a287c8e8
 msgid "发射和接收都可以做的"
 msgstr "It can be used for both ttransmitter and receiver."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:114 f208a29ab6c9476e8d4870fdb8b9d322
+#: ../source/docs/software-framework/2.4G/index.rst:114
+#: 3eb1d37dc61246e3b544896b08a0bc3d
 msgid "NF-02模块的接收可以用哪些模块呢？"
 msgstr "Which modules can be used as receivers for the NF-02 module?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:115 7733e9f5c7994273af5b5426c079cdf8
+#: ../source/docs/software-framework/2.4G/index.rst:115
+#: 81a76d883413407c8a10c849bbab9748
 msgid "发送和接收都可以用这个，2.4G属于收发模块"
-msgstr "This module can be used for both transmitting and receiving. 2.4G modules are transceiver modules."
+msgstr ""
+"This module can be used for both transmitting and receiving. 2.4G modules "
+"are transceiver modules."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:119 1aff3b629b7141be9ae8a18fe96113d5
-msgid "\"NF-02   和 NF-03  在数据在 能对接的吧？ 能不有 NF-02 做一款 跟NF-03一样的接口？"
-msgstr "Can NF-02 and NF-03 connect with each other in terms of data? Can you make an NF-02 with the same interface as NF-03?"
+#: ../source/docs/software-framework/2.4G/index.rst:119
+#: 6c1cc6c5bb8444958ea9feabaaeea5d9
+msgid ""
+"\"NF-02   和 NF-03  在数据在 能对接的吧？ 能不有 NF-02 做一款 跟NF-03一样的接"
+"口？"
+msgstr ""
+"Can NF-02 and NF-03 connect with each other in terms of data? Can you make "
+"an NF-02 with the same interface as NF-03?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:121 888e727cda5840358199ae69efc937e7
+#: ../source/docs/software-framework/2.4G/index.rst:121
+#: e67f16d548ef45f0b0e6ff1a4830105d
 msgid "数据可以对接的，但是我们没有跟NF-03一样接口的NF-02"
-msgstr "The data can connect with each other, but we do not have an NF-02 with the same interface as NF-03."
+msgstr ""
+"The data can connect with each other, but we do not have an NF-02 with the "
+"same interface as NF-03."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:124 3a8d4ff84e2e438fb1c3bf5502806ed3
+#: ../source/docs/software-framework/2.4G/index.rst:124
+#: 02274de24b0f4d689322332b795cad46
 msgid "能做遥控的是那种"
 msgstr "Which module can be used for remote control?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:126 d6a9c280ddf14177a78508cf429eeeb0
+#: ../source/docs/software-framework/2.4G/index.rst:126
+#: f76020f734744e15b1d5b7985a7498b4
 msgid "2.4G、WIFI都可以"
 msgstr "Both 2.4G and Wi-Fi can be used."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:130 615655a0190140eebea6a17c9b8f3a57
+#: ../source/docs/software-framework/2.4G/index.rst:130
+#: a6f17ea13e884442a9ce32f1157d4ed9
 msgid "这款2.4G  NF-03模块实际使用过程中，最大的发射功率可以配置成多少啊？"
-msgstr "In actual use, what is the maximum transmit power that this 2.4G NF-03 module can be configured to?"
+msgstr ""
+"In actual use, what is the maximum transmit power that this 2.4G NF-03 "
+"module can be configured to?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:131 390a49a1ea8645ef8b42b7e43cd648bf
+#: ../source/docs/software-framework/2.4G/index.rst:131
+#: 15ebb143325d40e59ceb40d1423bcf8d
 msgid "7dbm，您可以查看我们官网的芯片手册"
 msgstr "7dBm. You can check the chip manual on our official website."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:134 1435895cfbb5495ba9f52547a96c9ad9
+#: ../source/docs/software-framework/2.4G/index.rst:134
+#: ea8dbd4aa168401dad30554e4f293ae5
 msgid "NF-04-MI模块需要自己往模块的芯片里面编写程序吗？"
-msgstr "Do I need to write programs into the chip of the NF-04-MI module myself?"
+msgstr ""
+"Do I need to write programs into the chip of the NF-04-MI module myself?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:136 da8271518a73484d96e2fc67be7b0928
+#: ../source/docs/software-framework/2.4G/index.rst:136
+#: 3bc93efa7d6e463c9d652ea2b6457b59
 msgid "不需要"
 msgstr "No."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:139 af7eec1ba74a46f6ba05de8b04515db7
+#: ../source/docs/software-framework/2.4G/index.rst:139
+#: 5a46aeda54924d10b5977f3321675ad4
 msgid "假如100个2.4G无线模块在同一个房间里，各个模块之间的信号互相有干扰吗？"
-msgstr "If 100 2.4G wireless modules are in the same room, will the signals between modules interfere with each other?"
+msgstr ""
+"If 100 2.4G wireless modules are in the same room, will the signals between "
+"modules interfere with each other?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:140 55ecd50a1bd844239582f902d00a6f31
+#: ../source/docs/software-framework/2.4G/index.rst:140
+#: 5aab9c465e3a41e7b5ff50f50916b468
 msgid "不会有干扰的"
 msgstr "No, there will be no interference."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:143 00a85c208a8c473aba603c26f6933361
+#: ../source/docs/software-framework/2.4G/index.rst:143
+#: 48888494a1a24c83b57d72d3ef4a1cb9
 msgid "这个NF-03是串口透传的吗？ 有多少个信道？"
-msgstr "Is this NF-03 a serial transparent transmission module? How many channels does it have?"
+msgstr ""
+"Is this NF-03 a serial transparent transmission module? How many channels "
+"does it have?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:145 54025d13871a444cbc80620358a36359
+#: ../source/docs/software-framework/2.4G/index.rst:145
+#: aa3fd77eade54b04a8aacaeb0f499b22
 msgid "不是串口透传哦,信道您可以查看芯片手册哈"
-msgstr "It is not serial transparent transmission. For channels, you can refer to the chip manual."
+msgstr ""
+"It is not serial transparent transmission. For channels, you can refer to "
+"the chip manual."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:148 d1057e5a978249c49cb7e14cce2f558a
+#: ../source/docs/software-framework/2.4G/index.rst:148
+#: 24c91181af674ab2bbdeb8a3aea76a58
 msgid "是否可以将SI24R1连接至电脑并显示接受的数据？是不是有配套的硬件模块？"
-msgstr "Can Si24R1 be connected to a computer and display received data? Is there a supporting hardware module?"
+msgstr ""
+"Can Si24R1 be connected to a computer and display received data? Is there a "
+"supporting hardware module?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:149 a36361a3d24f4e09949bb0887175f4e6
+#: ../source/docs/software-framework/2.4G/index.rst:149
+#: cfe23a5d03f747dbac15c897fd03c486
 msgid "SI24R1模块是需要MCU去驱动才能进行使用"
 msgstr "The Si24R1 module requires an MCU to drive it before it can be used."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:152 3c06162969c447a3a7435b53b09ec07c
-msgid "NF-03模块是免开发模块，还是一定要连接mcu，如果用这个模块连接RC522射频模块，可以正常工作吗"
-msgstr "Is the NF-03 module a development-free module, or must it be connected to an MCU? If this module is connected to an RC522 RF module, can it work properly?"
+#: ../source/docs/software-framework/2.4G/index.rst:152
+#: 6bad86be7e7a4f968744e12b20727c7c
+msgid ""
+"NF-03模块是免开发模块，还是一定要连接mcu，如果用这个模块连接RC522射频模块，可"
+"以正常工作吗"
+msgstr ""
+"Is the NF-03 module a development-free module, or must it be connected to an "
+"MCU? If this module is connected to an RC522 RF module, can it work properly?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:153 15a5bf344784432286274b960967a9ca
+#: ../source/docs/software-framework/2.4G/index.rst:153
+#: 9d834576966e47aa842022b806647e4b
 msgid "一定要接MCU"
 msgstr "It must be connected to an MCU."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:156 5f408c9691a746d9b8ea8ab8184c5243
-msgid "2.4G模块 你们提供上位机端的测试工具吗？ 如果我使用你们的模块 那应该怎样测试这个模块的工作情况呢"
-msgstr "Do you provide a PC-side test tool for 2.4G modules? If I use your module, how should I test whether the module is working properly?"
+#: ../source/docs/software-framework/2.4G/index.rst:156
+#: cd5df379ab2c46ff857cef72af334cac
+msgid ""
+"2.4G模块 你们提供上位机端的测试工具吗？ 如果我使用你们的模块 那应该怎样测试这"
+"个模块的工作情况呢"
+msgstr ""
+"Do you provide a PC-side test tool for 2.4G modules? If I use your module, "
+"how should I test whether the module is working properly?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:158 0082b565f18a4121a1c6c71ace4e4dd7
+#: ../source/docs/software-framework/2.4G/index.rst:158
+#: 301421db83014259ae55198fd1147fc2
 msgid "我们没有上位机端的测试工具，无法提供,通过MCU驱动."
-msgstr "We do not have a PC-side test tool and cannot provide one. It is driven through an MCU."
+msgstr ""
+"We do not have a PC-side test tool and cannot provide one. It is driven "
+"through an MCU."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:162 6056d3bcaf244537a3031fc832a518e7
+#: ../source/docs/software-framework/2.4G/index.rst:162
+#: ea6d544d2c834914b61d8e994c77c3c8
 msgid "NF-04-MI可以直接连串口透传吗？"
-msgstr "Can NF-04-MI be directly connected to a serial port for transparent transmission?"
+msgstr ""
+"Can NF-04-MI be directly connected to a serial port for transparent "
+"transmission?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:164 82dc46b86a684684bbde2f3a59883256
+#: ../source/docs/software-framework/2.4G/index.rst:164
+#: 9522fd4549e14510bb10e26a24c61b82
 msgid "不可以"
 msgstr "No."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:167 5640b6b1391f4fe18d3e0d72f92cfd12
+#: ../source/docs/software-framework/2.4G/index.rst:167
+#: 1abfb05b8cf742b8862f9a0a811e7e83
 msgid "NF-02延时时间是多久"
 msgstr "What is the delay time of NF-02?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:168 b25620109be84b99b00b9f20d84126b8
+#: ../source/docs/software-framework/2.4G/index.rst:168
+#: 473a9fdfc7e64834b3969146c72ab397
 msgid "200ms"
 msgstr "200ms."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:171 58f4039eeb8e43b291b5f495bc68f805
+#: ../source/docs/software-framework/2.4G/index.rst:171
+#: 24767ce6ef43493780b2c5ba0377784a
 msgid "Nf-03这个程序和NRF24L01的通用吗"
 msgstr "Is the program for NF-03 compatible with NRF24L01?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:172 6261bea33b4246f3801008d075060b42
+#: ../source/docs/software-framework/2.4G/index.rst:172
+#: fbf0862746554feca6f1e503dd3376d3
 msgid "通用"
 msgstr "Yes, compatible."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:176 682a434a59d64c8bb8f44baed5e046ab
-msgid "NF-04-MI手册上说能传输120米，实际测试10米不到，有办法提高通讯距离吗 ？如果布线好的话，能传输多远呢，速度最低的情况下，你们测试试过吗"
-msgstr "The NF-04-MI manual says it can transmit 120 meters, but the actual test is less than 10 meters. Is there any way to improve the communication distance? If the wiring is good, how far can it transmit? Have you tested it at the lowest speed?"
+#: ../source/docs/software-framework/2.4G/index.rst:176
+#: 62c42f61dc9049f9ace582370e37cef6
+msgid ""
+"NF-04-MI手册上说能传输120米，实际测试10米不到，有办法提高通讯距离吗 ？如果布"
+"线好的话，能传输多远呢，速度最低的情况下，你们测试试过吗"
+msgstr ""
+"The NF-04-MI manual says it can transmit 120 meters, but the actual test is "
+"less than 10 meters. Is there any way to improve the communication distance? "
+"If the wiring is good, how far can it transmit? Have you tested it at the "
+"lowest speed?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:178 323cbc4a78ff408697f0c7666f7b1e38
-msgid "改善天线区域的布线。NF-04-MI这个不能传远距离的，如果需要传远距离推荐使用NF-03，NF-03能传输175米，NF-04-MI只能传30米"
-msgstr "Improve the wiring in the antenna area. NF-04-MI is not suitable for long-distance transmission. If long-distance transmission is required, NF-03 is recommended. NF-03 can transmit 175 meters, while NF-04-MI can only transmit 30 meters."
+#: ../source/docs/software-framework/2.4G/index.rst:178
+#: d0fb62db286f44bdbe210093e84b9d94
+msgid ""
+"改善天线区域的布线。NF-04-MI这个不能传远距离的，如果需要传远距离推荐使用"
+"NF-03，NF-03能传输175米，NF-04-MI只能传30米"
+msgstr ""
+"Improve the wiring in the antenna area. NF-04-MI is not suitable for long-"
+"distance transmission. If long-distance transmission is required, NF-03 is "
+"recommended. NF-03 can transmit 175 meters, while NF-04-MI can only transmit "
+"30 meters."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:181 1d596905e2484f94a261b21f8abc9291
+#: ../source/docs/software-framework/2.4G/index.rst:181
+#: 4c144ebad59c44a281467c4068041ca8
 msgid "nrf24L01可以和BK2425通讯对吧"
 msgstr "Can nRF24L01 communicate with BK2425?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:183 ../../source/docs/software-framework/2.4G/index.rst:236 ../../source/docs/software-framework/2.4G/index.rst:241 030b5bc439b0475986859a275d24a9a7 0ff542276de8413c9469da18ba39758d 110d73b9512442d88ad80aacb9ce128e
+#: ../source/docs/software-framework/2.4G/index.rst:183
+#: ../source/docs/software-framework/2.4G/index.rst:236
+#: ../source/docs/software-framework/2.4G/index.rst:241
+#: fc043d769f5d4fb78909ad8533711183 c44e5a12af5549b0ab92331f3bae29ae
+#: ca439c34d0ec4b389c93ce9e9a868fbf
 msgid "可以的"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:186 3ae7b15435714b54b8b9eea9dc2b32b2
+#: ../source/docs/software-framework/2.4G/index.rst:186
+#: 470c704136c64f639225f7fbdddad617
 msgid "NF-03，想改用ipx胶棒天线，要怎么焊接？"
-msgstr "For NF-03, if I want to use an IPEX rubber antenna instead, how should I solder it?"
+msgstr ""
+"For NF-03, if I want to use an IPEX rubber antenna instead, how should I "
+"solder it?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:187 829b4edb418c4f3193902fbed5bff77c
+#: ../source/docs/software-framework/2.4G/index.rst:187
+#: 7e6729b7550748a1a643ab9fc7bf5ffe
 msgid "这个无法改用哦，上面没有预留IPEX接口，只能使用板载天线"
-msgstr "This cannot be changed. There is no reserved IPEX interface on it, so only the onboard antenna can be used."
+msgstr ""
+"This cannot be changed. There is no reserved IPEX interface on it, so only "
+"the onboard antenna can be used."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:190 31cf38c2d2284e3f81cf713d25dcf082
+#: ../source/docs/software-framework/2.4G/index.rst:190
+#: 35fd34aa5d434d648f3d813bb97e5a79
 msgid "2.4G模块是烧录好程序的吗？透传使用"
-msgstr "Are 2.4G modules pre-programmed? Can they be used for transparent transmission?"
+msgstr ""
+"Are 2.4G modules pre-programmed? Can they be used for transparent "
+"transmission?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:191 2e13a4dbb41048069e14d12de02b45ac
+#: ../source/docs/software-framework/2.4G/index.rst:191
+#: 61667e4c982044d880a16676397d4fd1
 msgid "不能透传，NF-03只是一个射频模块，程序是已经固化好的"
-msgstr "They cannot be used for transparent transmission. NF-03 is only an RF module, and the program is already solidified."
+msgstr ""
+"They cannot be used for transparent transmission. NF-03 is only an RF "
+"module, and the program is already solidified."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:194 44e7f3cea1284c488b1ef6ec3fbed2b5
+#: ../source/docs/software-framework/2.4G/index.rst:194
+#: e7578bc81a4a4972aab853110e37e81b
 msgid "NF-02-PA要不要焊电容？"
 msgstr "Does NF-02-PA require soldering a capacitor?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:195 7c2a682c3e2f4becb0d3c860427b0e91
+#: ../source/docs/software-framework/2.4G/index.rst:195
+#: 2819a1f4d5e346bea27f2889a6156249
 msgid "不需要焊电容"
 msgstr "No capacitor needs to be soldered."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:198 31f5c8fc32644b4ab2c2ce3f06f42a1b
+#: ../source/docs/software-framework/2.4G/index.rst:198
+#: 9935c2108209490698c7016b7a4ecfe5
 msgid "NRF24L01,一收多发，最多可以挂几个通信？"
-msgstr "For NRF24L01, in one-receiver-multiple-transmitters mode, how many devices can communicate at most?"
+msgstr ""
+"For NRF24L01, in one-receiver-multiple-transmitters mode, how many devices "
+"can communicate at most?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:199 129521fabcb54f89b6a8fedc56632dbc
+#: ../source/docs/software-framework/2.4G/index.rst:199
+#: 82937170f7044fe1bd05aa2d5db77d8c
 msgid "6个，2.4G模块是通过SPI协议操作相关的寄存器值来传数据的"
-msgstr "6, the 2.4G module transmits data by operating related register values through the SPI protocol."
+msgstr ""
+"6, the 2.4G module transmits data by operating related register values "
+"through the SPI protocol."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:203 22b65b2855834003ae5e16872440e101
+#: ../source/docs/software-framework/2.4G/index.rst:203
+#: 484fd65e2786459badc2db8272f936bb
 msgid "NF-02-PE这个模块，发射时电流峰值是多少"
 msgstr "What is the peak current of the NF-02-PE module during transmission?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:204 14c755d041b9477db7c75348f02a60e8
+#: ../source/docs/software-framework/2.4G/index.rst:204
+#: 9f596e668fc645c8b70056a403625f22
 msgid "250mA"
 msgstr "250mA."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:207 f52a14b0a1ed45c0a84cc12ccbdb74f0
+#: ../source/docs/software-framework/2.4G/index.rst:207
+#: 1b5031911e8048b99b0aac75995c540b
 msgid "NF-01-N看可以提供stm32F103c8t6的例程，在哪里可以下载"
 msgstr "Where can I download the STM32F103C8T6 example for NF-01-N?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:209 fc7c49001d2540b2a8358799db1f2e6f
+#: ../source/docs/software-framework/2.4G/index.rst:209
+#: 35c797066ccd41a4bde69fd00d5dc683
 msgid "2.4G的demo程序没有STM32的，都是51单片机的demo程序，您可以自己进行移植"
-msgstr "There is no STM32 demo program for 2.4G modules. Only 51 MCU demo programs are available. You can port it yourself."
+msgstr ""
+"There is no STM32 demo program for 2.4G modules. Only 51 MCU demo programs "
+"are available. You can port it yourself."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:213 8d97c2235c8344c990bc0f77d6338402
+#: ../source/docs/software-framework/2.4G/index.rst:213
+#: 4661611a029a4c92bc7deffd9323c63c
 msgid "这个NF-04模块支持透传的"
 msgstr "Does this NF-04 module support transparent transmission?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:214 56f0db544a6945b8aae9cfd86bf503f3
+#: ../source/docs/software-framework/2.4G/index.rst:214
+#: 0342bf1a94f44c78acaf2c976d775176
 msgid "支持"
 msgstr "Yes."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:217 7640f8359b894e7cb87ae7fcc5970399
-msgid "NF-02怎么用电脑驱动它收发信号？需要哪些工具之类的？对它的配置，只是对里面射频芯片的操作吗"
-msgstr "How can I use a computer to drive NF-02 to transmite and receive signals? What tools are required? Is its configuration only about operating the RF chip inside?"
+#: ../source/docs/software-framework/2.4G/index.rst:217
+#: 5d9fc3c5870d4c258ec073be0424374c
+msgid ""
+"NF-02怎么用电脑驱动它收发信号？需要哪些工具之类的？对它的配置，只是对里面射频"
+"芯片的操作吗"
+msgstr ""
+"How can I use a computer to drive NF-02 to transmite and receive signals? "
+"What tools are required? Is its configuration only about operating the RF "
+"chip inside?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:219 c914114045324bf7be673700b08e2bfa
-msgid "必须搭配单片机使用。这边都是接单片机的，当然也可以接支持SPI的设备，但是必须对里面射频芯片进行操作"
-msgstr "It must be used with an MCU. We usually connect it to an MCU. Of course, it can also be connected to devices that support SPI, but the internal RF chip must be operated."
+#: ../source/docs/software-framework/2.4G/index.rst:219
+#: 00999bdd1e6b440db760737fafec4e73
+msgid ""
+"必须搭配单片机使用。这边都是接单片机的，当然也可以接支持SPI的设备，但是必须对"
+"里面射频芯片进行操作"
+msgstr ""
+"It must be used with an MCU. We usually connect it to an MCU. Of course, it "
+"can also be connected to devices that support SPI, but the internal RF chip "
+"must be operated."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:222 3184cf4bf4d54eda80ba259bd6e82d99
+#: ../source/docs/software-framework/2.4G/index.rst:222
+#: 66f3d956820749d8b41b4029396a8436
 msgid "NF-03怎么检测他有没有发送出去"
 msgstr "How can NF-03 detect whether it has transmitted successfully?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:224 d1a7cc57a1d84b0b8fa317427dd4b89d
-msgid "芯片手册上有一个状态寄存器 ，可以通过该寄存器进行检测，具体您可以查看这边提供的代码和芯片手册"
-msgstr "There is a status register in the chip manual. You can detect it through this register. For details, please refer to the code and chip manual we provide."
+#: ../source/docs/software-framework/2.4G/index.rst:224
+#: e729cb559db141a5b9f9eef2ff67eb4e
+msgid ""
+"芯片手册上有一个状态寄存器 ，可以通过该寄存器进行检测，具体您可以查看这边提供"
+"的代码和芯片手册"
+msgstr ""
+"There is a status register in the chip manual. You can detect it through "
+"this register. For details, please refer to the code and chip manual we "
+"provide."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:227 721a2f1108984da1a76fb397c0e90a0f
+#: ../source/docs/software-framework/2.4G/index.rst:227
+#: 6b54de8bdf36400fb3cdfb5477cf6518
 msgid "NF-02用1M的空中速率，距离能到多少"
 msgstr "How far can NF-02 reach at an air data rate of 1M?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:228 7cbc776ea89f42f2b6519583577bcd6e
+#: ../source/docs/software-framework/2.4G/index.rst:228
+#: 46416c494d58490d9857450044c51274
 msgid "1000米"
 msgstr "1000m."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:231 386aab8b15d14225898cfebd9dc83dc6
+#: ../source/docs/software-framework/2.4G/index.rst:231
+#: 5a7123ab168b449a9cb8cd82a304f22a
 msgid "金属外壳对距离有没有影响"
 msgstr "Does a metal enclosure affect the distance?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:232 5813e9a3bf3442389103c34fbd7a6406
+#: ../source/docs/software-framework/2.4G/index.rst:232
+#: ca893dcb29764088b580db25651df3aa
 msgid "会有影响，金属外壳会吸收天线辐射"
 msgstr "Yes, it does. A metal enclosure will absorb antenna radiation."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:235 6d0a90a3edb94d1a861890e0420a4dc3
+#: ../source/docs/software-framework/2.4G/index.rst:235
+#: ee8db78f26974bfab6e02dd27d5eeaf5
 msgid "\"NF-03可以直接替换nrf24L01吗？"
 msgstr "Can NF-03 directly replace nRF24L01?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:239 db84d1c44501417583b6808d9d847499
+#: ../source/docs/software-framework/2.4G/index.rst:239
+#: 799ca91ad02f40c28062b2e16630fca9
 msgid "NF-03是否可稳定工作在2M传输？"
 msgstr "Can NF-03 work stably at 2M transmission?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:244 2142460559934557ade429fd5b4fb46d
+#: ../source/docs/software-framework/2.4G/index.rst:244
+#: 3092c5aa9c764a8abf86944b161dd418
 msgid "NF-01-S怎么接温湿传感？"
 msgstr "How does NF-01-S connect to a temperature and humidity sensor?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:245 d7b0735c8d60499691a9fb0840b0b081
+#: ../source/docs/software-framework/2.4G/index.rst:245
+#: 9c354120f9a34721bf4db7263a047737
 msgid "外接一个MCU，MCU上接温湿度传感器"
-msgstr "Connect an external MCU, and connect the temperature and humidity sensor to the MCU."
+msgstr ""
+"Connect an external MCU, and connect the temperature and humidity sensor to "
+"the MCU."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:248 ccc05b9d5f3f453aa6927ef8f6d09431
+#: ../source/docs/software-framework/2.4G/index.rst:248
+#: 2c7bddc028fc47a2b3af868de980ae54
 msgid "NF-02若希望工作在2Mbps，可工作在什么距离？"
 msgstr "If NF-02 is expected to work at 2Mbps, what distance can it support?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:249 1fb89b0b1b05405dad1e26c095bd37b9
+#: ../source/docs/software-framework/2.4G/index.rst:249
+#: 76bf36aa24104c6b92b82aff9b256156
 msgid "0-500米左右"
 msgstr "About 0–500m."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:252 c08ea191f46f42e698840207e12be1ed
+#: ../source/docs/software-framework/2.4G/index.rst:252
+#: d542b3ac8ef0408cb2a61619958ebcc4
 msgid "Si24R1与NRF24L01+的程序能否兼容，如果不兼容，需要修改哪些参数?"
-msgstr "Can the programs of Si24R1 and NRF24L01+ be compatible? If not, which parameters need to be modified?"
+msgstr ""
+"Can the programs of Si24R1 and NRF24L01+ be compatible? If not, which "
+"parameters need to be modified?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:253 b34486998f3b4e438def9e59c514ebdc
+#: ../source/docs/software-framework/2.4G/index.rst:253
+#: 3221e6e8b284444cadb7b29b5244a3a5
 msgid "不兼容，建议使用各自的驱动demo"
-msgstr "They are not compatible. It is recommended to use their respective driver demos."
+msgstr ""
+"They are not compatible. It is recommended to use their respective driver "
+"demos."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:256 e28a3a0e35644e148eb64c4068eeb271
+#: ../source/docs/software-framework/2.4G/index.rst:256
+#: 85d0b3eaff8a47f99b839c903fb5d79f
 msgid "是否有STM32系列的示例提供？"
 msgstr "Are STM32 series examples provided?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:257 c314531b9b144f01adec5babfde31f6e
+#: ../source/docs/software-framework/2.4G/index.rst:257
+#: 8b45f47b30f041db8f382a3728e82d6a
 msgid "没有，只有STC51单片机的驱动程序，可以参考该程序逻辑"
-msgstr "No. Only the driver program for STC51 MCU is available. You can refer to the logic of that program."
+msgstr ""
+"No. Only the driver program for STC51 MCU is available. You can refer to the "
+"logic of that program."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:260 5810a3e7d1284a5fba4d018db552d533
+#: ../source/docs/software-framework/2.4G/index.rst:260
+#: 7b16343985754d28a7dca43bfa5d882e
 msgid "NF-03模组能否实现一个主机配20个从机的方案？"
-msgstr "Can the NF-03 module implement a solution with one master and 20 slaves?"
+msgstr ""
+"Can the NF-03 module implement a solution with one master and 20 slaves?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:261 6a32a501ac5e49b6a11b07ebc52b4f87
+#: ../source/docs/software-framework/2.4G/index.rst:261
+#: 233ad4ea58ab4f209179868606e33455
 msgid "可以，该功能主要用MCU写的应用决定。"
-msgstr "Yes. This function is mainly determined by the application written on the MCU."
+msgstr ""
+"Yes. This function is mainly determined by the application written on the "
+"MCU."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:264 cce0d306ad5842f3a27075e4cf9a94ee
+#: ../source/docs/software-framework/2.4G/index.rst:264
+#: 26615bb9fac64b9fafa7e68985f45f0a
 msgid "2.4G模块在1M和2M模式下，频偏为多少"
 msgstr "What is the frequency offset of the 2.4G module in 1M and 2M modes?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:265 c71c854a7f474e629d4ea3e9a4b811a7
+#: ../source/docs/software-framework/2.4G/index.rst:265
+#: 9e1b03c99fc54b41af492acbfb42d0ad
 msgid "频偏为+-20ppm"
 msgstr "The frequency offset is ±20 ppm."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:268 93c0c4dd639c4058b5681169fdf017d0
+#: ../source/docs/software-framework/2.4G/index.rst:268
+#: 883ac83351d549ac8a3aba5495d4d5aa
 msgid "NF-03与NF-05软硬件兼容吗"
 msgstr "Are NF-03 and NF-05 compatible in software and hardware?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:269 35ccc80a84ea48f49188e417d5919918
+#: ../source/docs/software-framework/2.4G/index.rst:269
+#: dbe02104d11f4a698a018c29a8193402
 msgid "03和05只是硬件封装兼容，软件由于芯片不同需要修改相关驱动"
-msgstr "NF-03 and NF-05 are only compatible in hardware package. Since the chips are different, the relevant software drivers need to be modified."
+msgstr ""
+"NF-03 and NF-05 are only compatible in hardware package. Since the chips are "
+"different, the relevant software drivers need to be modified."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:272 44eef787cb1c45398bb2248beae7ea64
+#: ../source/docs/software-framework/2.4G/index.rst:272
+#: 856f0a8cc7b442f382b94569f79aa0e1
 msgid "请问Si24R1型号的2.4G模组是否有自动跳频功能？"
-msgstr "Does the Si24R1 2.4G module have an automatic frequency hopping function?"
+msgstr ""
+"Does the Si24R1 2.4G module have an automatic frequency hopping function?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:273 108e11e92eb749a0a9eeb40e4ccfe1da
+#: ../source/docs/software-framework/2.4G/index.rst:273
+#: bbb000e677424724b4bfd42fe52b3d64
 msgid "没有"
 msgstr "No."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:276 fabd08092e8c466aa6bc4793f6f9811f
+#: ../source/docs/software-framework/2.4G/index.rst:276
+#: f4348135512d47968a082fdc72f55e10
 msgid "请问NF-01-S模组的驱动有STM32版本的么？"
 msgstr "Is there an STM32 version driver for the NF-01-S module?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:277 d0d8f8874d04476cbeae28c00e2dc60a
+#: ../source/docs/software-framework/2.4G/index.rst:277
+#: 0ab17fa570a54c6a9221d7946d69844c
 msgid "没有，目前只有官网上的驱动，51单片机驱动的；"
-msgstr "No. Currently, only the driver on the official website is available, which is a 51 MCU driver."
+msgstr ""
+"No. Currently, only the driver on the official website is available, which "
+"is a 51 MCU driver."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:282 614927c7baf841bfa4ca8a4b843720bc
+#: ../source/docs/software-framework/2.4G/index.rst:282
+#: 23117a76905a4e54b1c1f02ca0811532
 msgid "2.4G模块带自动重发不"
 msgstr "Does the 2.4G module support automatic retransmission?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:283 b642a79031f94787a10ec97d141b8a93
+#: ../source/docs/software-framework/2.4G/index.rst:283
+#: 526b858412fb4a9e85d741bc136103a1
 msgid "带，具体查看寄存器手册"
 msgstr "Yes. For details, please refer to the register manual."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:286 65c0b383c83746f8a436315191421e86
+#: ../source/docs/software-framework/2.4G/index.rst:286
+#: 98cf897f21834900b732e5a30e952a3c
 msgid "请问NF-05-S模块的flash有多大？"
 msgstr "How large is the flash of the NF-05-S module?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:287 b2eec372233545378e9a98ca2470b5a2
+#: ../source/docs/software-framework/2.4G/index.rst:287
+#: d3458dc1eb8f49d5b10040e26ffbb98e
 msgid "该模块不带MCU；"
 msgstr "This module does not include an MCU."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:290 1c0316169a634b5db992c52510ff0ae8
+#: ../source/docs/software-framework/2.4G/index.rst:290
+#: 72bc4f4a4dea490992aadae025455f9d
 msgid "NF-05模块支持多发一收吗"
 msgstr "Does the NF-05 module support multiple transmitters and one receiver?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:291 b58c9c85e62748369cfd618dc6b158ea
+#: ../source/docs/software-framework/2.4G/index.rst:291
+#: 1ca0a449029f4ae9bd7582f0278bb0fd
 msgid "支持，具体可以从芯片手册上查询相关寄存器参数配置"
-msgstr "Yes. You can check the relevant register parameter configuration in the chip manual."
+msgstr ""
+"Yes. You can check the relevant register parameter configuration in the chip "
+"manual."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:294 ab1e07f3d67747228fca6d2365c4a8e0
+#: ../source/docs/software-framework/2.4G/index.rst:294
+#: ad351e0e5c9c44588dc0f9988ad1f213
 msgid "请问SI24R1国产芯片模组NF-03是否支持多通一？"
-msgstr "Does the Si24R1 domestic chip module NF-03 support multiple transmitters and one receiver?"
+msgstr ""
+"Does the Si24R1 domestic chip module NF-03 support multiple transmitters and "
+"one receiver?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:295 783dca313da34f528650325a1b1f0126
+#: ../source/docs/software-framework/2.4G/index.rst:295
+#: e26fa395bace4e86afd6d0db4e83e592
 msgid "需做好时间分配，模组只有一个通道用于收发；"
-msgstr "Time allocation must be handled properly. The module has only one channel for receiving and transmitting."
+msgstr ""
+"Time allocation must be handled properly. The module has only one channel "
+"for receiving and transmitting."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:298 ea8bd519d9b64155ac2229f855e0cfd9
+#: ../source/docs/software-framework/2.4G/index.rst:298
+#: e5b0d8b3b78f413cbab267e74318b862
 msgid "NF-02-PA模块怎样才能勾达到2Mbps的传输速率"
 msgstr "How can the NF-02-PA module reach a transmission rate of 2Mbps?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:299 0310dab7574a4f3db19779034d0bf803
+#: ../source/docs/software-framework/2.4G/index.rst:299
+#: 2f165e03644d4feebba3d561b7f356b3
 msgid "通过SPI读写相关寄存器进行操作"
 msgstr "Operate it by reading and writing the relevant registers through SPI."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:302 b523aba0cd7c4a1597e628472d93dd39
+#: ../source/docs/software-framework/2.4G/index.rst:302
+#: 07254ff21e13433b9f5ec6e5fe8ac39b
 msgid "请问Si25R1模块是否有一个固定的物理地址？如何区分模组？"
-msgstr "Does the Si25R1 module have a fixed physical address? How can modules be distinguished?"
+msgstr ""
+"Does the Si25R1 module have a fixed physical address? How can modules be "
+"distinguished?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:303 24b43f31994e43cebd5b21b782d2b5f0
+#: ../source/docs/software-framework/2.4G/index.rst:303
+#: 2083e696b8a94359a3d596e93a114f05
 msgid "没有物理地址，需在MCU上面做区分；"
-msgstr "There is no physical address. Distinction needs to be implemented on the MCU."
+msgstr ""
+"There is no physical address. Distinction needs to be implemented on the MCU."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:306 baa0973190404328a8dd7a63b48e6d4b
+#: ../source/docs/software-framework/2.4G/index.rst:306
+#: 54a87b8d0daa4a73baf173646ee164aa
 msgid "2.4G模块经常发送会一直显示达到最大重发次数的问题，该如何解决"
-msgstr "The 2.4G module often keeps showing that it has reached the maximum number of retransmissions when transmitting. How can this be solved?"
+msgstr ""
+"The 2.4G module often keeps showing that it has reached the maximum number "
+"of retransmissions when transmitting. How can this be solved?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:307 32864a50c5ca4594afcef34ee9cd330f
+#: ../source/docs/software-framework/2.4G/index.rst:307
+#: cbca60cc85324e14856d3ad63deaf28c
 msgid "检查下是否有清除TX_DS或MAX_RT中断"
 msgstr "Check whether the TX_DS or MAX_RT interrupt has been cleared."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:310 46f03479d8af4a52bfe6fa9e1d5ab755
+#: ../source/docs/software-framework/2.4G/index.rst:310
+#: fe320b8a640f49ac85c70a612b0f163a
 msgid "纯2.4G模组支持重新烧写代码吗"
 msgstr "Does a pure 2.4G module support re-flashing code?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:311 7ac60dde5a4643e7a87ae308b707c955
+#: ../source/docs/software-framework/2.4G/index.rst:311
+#: 79b1c292967e4cd5a9fd9a85005c0d05
 msgid "不支持，该模组属于纯射频模组，出厂已固化程序，不可重新烧写"
-msgstr "No. This module is a pure RF module. The factory program has been solidified and cannot be re-flashed."
+msgstr ""
+"No. This module is a pure RF module. The factory program has been solidified "
+"and cannot be re-flashed."
 
-#: ../../source/docs/software-framework/2.4G/index.rst:314 dddaad2acfa3434fb1b5bf295956e22d
+#: ../source/docs/software-framework/2.4G/index.rst:314
+#: 33c58ec57dd74e738660aa787b071cf0
 msgid "NF-01-S模组射频信号可以穿透塑料外壳吗"
 msgstr "Can the RF signal of the NF-01-S module penetrate a plastic enclosure?"
 
-#: ../../source/docs/software-framework/2.4G/index.rst:315 60138ce9f30c40acb46295734f363694
+#: ../source/docs/software-framework/2.4G/index.rst:315
+#: fbfca2ba43924706a224eb1a05784bc5
 msgid "模组射频信号可以穿透塑料外壳"
 msgstr "The RF signal of the module can penetrate a plastic enclosure."

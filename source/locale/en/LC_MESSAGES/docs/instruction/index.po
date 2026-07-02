@@ -8,57 +8,92 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/instruction/index.rst:2 a428e2b78050429481f6f65c1204f96a
+#: ../source/docs/instruction/index.rst:2 dd7a13a2382444669dffdeec5dd76a2d
 msgid "使用说明"
 msgstr "Instructions"
 
-#: ../../source/docs/instruction/index.rst:4 1d1193c67abf4504ad9b27e68287c540
-msgid "本节为 AiThinker-FAQ 的使用说明。“问题查找”旨在帮助您快速了解该网站的搜索方法及分类框架，节省问题查找时间。"
-msgstr "This section provides instructions for using AiThinker-FAQ. “Question Search” is intended to help you quickly understand the search methods and category framework of this website, saving time when looking for answers."
+#: ../source/docs/instruction/index.rst:4 b4cba23036ce44ae95633dc95a6cef11
+msgid ""
+"本节为 AiThinker-FAQ 的使用说明。“问题查找”旨在帮助您快速了解该网站的搜索方法"
+"及分类框架，节省问题查找时间。"
+msgstr ""
+"This section provides instructions for using AiThinker-FAQ. “Question "
+"Search” is intended to help you quickly understand the search methods and "
+"category framework of this website, saving time when looking for answers."
 
-#: ../../source/docs/instruction/index.rst:7 c27dcbca47ac482dbbe124cdbc8516a7
+#: ../source/docs/instruction/index.rst:7 4e8907db49894dbcac2677f18586070d
 msgid "搜索问题技巧"
 msgstr "Tips for Searching Questions"
 
-#: ../../source/docs/instruction/index.rst:9 ec2faadfb9f74599942aa00e19805c6b
+#: ../source/docs/instruction/index.rst:9 24e53091fe294a2a89bdc19e18ff3b1c
 msgid "目前可以归纳出以下 2 种搜索问题的技巧："
 msgstr "Currently, the following two search techniques can be summarized:"
 
-#: ../../source/docs/instruction/index.rst:11 ../../source/docs/instruction/index.rst:15 7a9678f60b2f4e13ac830887c093031a 9efd177f665d42eaa69b95753a967bef
+#: ../source/docs/instruction/index.rst:11
+#: ../source/docs/instruction/index.rst:15 93fe52e9554540eea5d83d676c63b543
+#: 4fb7aa59ec4e4557873c96b8af5fd8e3
 msgid "搜索关键词"
 msgstr "Search by Keywords"
 
-#: ../../source/docs/instruction/index.rst:12 ../../source/docs/instruction/index.rst:25 2167233a3b3f4ce99aad177268ca3fd4 d51aab9f846d42009c9eea1c27f02b2e
+#: ../source/docs/instruction/index.rst:12
+#: ../source/docs/instruction/index.rst:25 ef7e916f5d204e10a8845dee0ba5fc79
+#: ece9c577c96b437eb5deaf2d9c7c53d1
 msgid "排除某个关键词"
 msgstr "Exclude a Certain Keyword"
 
-#: ../../source/docs/instruction/index.rst:17 2f415536d30e4dafb5b47c8075577068
+#: ../source/docs/instruction/index.rst:17 6bc758148d744a6d9aa1d2ae789b2214
 msgid "将问题中的关键词提取出来并搜索它们，此时搜索结果会得到最匹配的结果。"
-msgstr "Extract the keywords from the question and search for them. The search results will then return the most relevant matches."
+msgstr ""
+"Extract the keywords from the question and search for them. The search "
+"results will then return the most relevant matches."
 
-#: ../../source/docs/instruction/index.rst:20 2810bdc7d19c4eb68c0f9b8c08bda449
-msgid "比如问题为：``ESP32 的 Bluetooth LE 吞吐量是多少？``"
-msgstr "For example, if the question is: ``What is the Bluetooth LE throughput of ESP32?``"
+#: ../source/docs/instruction/index.rst:20 4eea11e1319b49be991f7b0f6ce49272
+msgid "比如问题为：``Ai-WB2-12F 的 Bluetooth LE 吞吐量是多少？``"
+msgstr "For example, if the question is: ``What is the Bluetooth LE throughput of Ai-WB2-12F?``"
 
-#: ../../source/docs/instruction/index.rst:22 2c76c520ff01401ba9c73d3daeaa0abd
-msgid "此时搜索：``ESP32``、``BLE`` 和 ``吞吐量`` 等关键字为宜。"
-msgstr "In this case, it is recommended to search for keywords such as ``ESP32``, ``BLE``, and ``throughput``."
+#: ../source/docs/instruction/index.rst:22 418f6cf043e640b6bae64969655142e5
+msgid "此时搜索：``Ai-WB2-12F``、``BLE`` 和 ``吞吐量`` 等关键字为宜。"
+msgstr "In this case, it is recommended to search for keywords such as ``Ai-WB2-12F``, ``BLE``, and ``throughput``."
 
-#: ../../source/docs/instruction/index.rst:27 ad9db8bf967b4bda9815324cc9d42939
-msgid "在搜索内容中添加一个标识符 ``-``, 格式为： ``关键词  -排除关键词``。此时搜索结果不会出现有排除关键词的结果。"
-msgstr "Add the identifier ``-`` to the search content in the following format: ``keyword -excluded_keyword``. In this case, search results containing the excluded keyword will not appear."
+#: ../source/docs/instruction/index.rst:27 d924381104cc45fb98514d16a6763b62
+msgid ""
+"在搜索内容中添加一个标识符 ``-``, 格式为： ``关键词  -排除关键词``。此时搜索"
+"结果不会出现有排除关键词的结果。"
+msgstr ""
+"Add the identifier ``-`` to the search content in the following format: "
+"``keyword -excluded_keyword``. In this case, search results containing the "
+"excluded keyword will not appear."
 
-#: ../../source/docs/instruction/index.rst:29 f69bfd4656e7483a9d24140b6707251e
-msgid "比如搜索：``ESP32 -ble``。任何搜索结果中有 ``ble`` 的结果将会被过滤。"
-msgstr "For example, search for: ``ESP32 -ble``. Any search result containing ``ble`` will be filtered out."
+#: ../source/docs/instruction/index.rst:29 02031687935040aab9b786263b30e5cd
+msgid ""
+"比如搜索：``Ai-WB2-12F -ble``。任何搜索结果中有 ``ble`` 的结果将会被过滤。"
+msgstr ""
+"For example, search for: ``Ai-WB2-12F -ble``. Any search result containing "
+"``ble`` will be filtered out."
+
+#~ msgid "比如问题为：``ESP32 的 Bluetooth LE 吞吐量是多少？``"
+#~ msgstr ""
+#~ "For example, if the question is: ``What is the Bluetooth LE throughput of "
+#~ "ESP32?``"
+
+#~ msgid "此时搜索：``ESP32``、``BLE`` 和 ``吞吐量`` 等关键字为宜。"
+#~ msgstr ""
+#~ "In this case, it is recommended to search for keywords such as ``ESP32``, "
+#~ "``BLE``, and ``throughput``."
+
+#~ msgid ""
+#~ "比如搜索：``ESP32 -ble``。任何搜索结果中有 ``ble`` 的结果将会被过滤。"
+#~ msgstr ""
+#~ "For example, search for: ``ESP32 -ble``. Any search result containing "
+#~ "``ble`` will be filtered out."

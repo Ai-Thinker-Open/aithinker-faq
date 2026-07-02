@@ -8,172 +8,289 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:37+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:2 34536d85f5494f3d97bc8f05c1a37038
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:2
+#: ff67b8489fd548d0acd931976d071f8c
 msgid "外设"
 msgstr "Peripherals"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:17 3e46f95abc0748f1ac9f88bde45c469a
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:17
+#: 6b99a58d4a6547b8befece4f994e1e6b
 msgid "ADC的精度和采样率是多少？"
 msgstr "What are the ADC resolution and sampling rate?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:18 ee5eb220a93d4d508d540458d4611809
-msgid "ADC实际精度为12BIT,当OSR=256,打开平均值滤波的时候可以达到16bit精度。 当ADC工作在非多通道扫描模式时,最大可支持2M采样率。 如果是多通道扫描模式，最大支持1M采样率。"
-msgstr "The actual ADC resolution is 12-bit. When OSR=256 and average filtering is enabled, it can reach 16-bit resolution. When the ADC works in non-multi-channel scan mode, the maximum supported sampling rate is 2M. In multi-channel scan mode, the maximum supported sampling rate is 1M."
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:18
+#: 9f518909171542f8baeab43cb515413f
+msgid ""
+"ADC实际精度为12BIT,当OSR=256,打开平均值滤波的时候可以达到16bit精度。 当ADC工"
+"作在非多通道扫描模式时,最大可支持2M采样率。 如果是多通道扫描模式，最大支持1M"
+"采样率。"
+msgstr ""
+"The actual ADC resolution is 12-bit. When OSR=256 and average filtering is "
+"enabled, it can reach 16-bit resolution. When the ADC works in non-multi-"
+"channel scan mode, the maximum supported sampling rate is 2M. In multi-"
+"channel scan mode, the maximum supported sampling rate is 1M."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:23 d523f49274cd4d168efb332b3afae319
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:23
+#: 1cae6b750e3547f2b1bef61a54306a63
 msgid "mtimer的作用是什么，它是如何工作的？"
 msgstr "What is the function of mtimer and how does it work?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:24 b5b8a65ca7094ddbab83c8f3655590b0
-msgid "MTimer为内核提供的一个timer，开启后实现计时功能，计数值与比较值寄存器位于内核，使用方式与一般timer无明显区别。"
-msgstr "MTimer is a timer provided by the core. After it is enabled, it provides timing functionality. The counter value and compare value registers are located in the core. Its usage is not significantly different from a normal timer."
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:24
+#: f05f52b9d36a4cba98a129af946cb893
+msgid ""
+"MTimer为内核提供的一个timer，开启后实现计时功能，计数值与比较值寄存器位于内"
+"核，使用方式与一般timer无明显区别。"
+msgstr ""
+"MTimer is a timer provided by the core. After it is enabled, it provides "
+"timing functionality. The counter value and compare value registers are "
+"located in the core. Its usage is not significantly different from a normal "
+"timer."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:27 1b166e6d0a4f41ab89b82dab1619f2c4
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:27
+#: 8e36d6d2ca474ce6acc7552a71efd489
 msgid "模组包含几个timer?"
 msgstr "How many timers does the module contain?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:28 054e32a43e814569a61a27df59988e31
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:28
+#: 6c3eaced2bec423f924de329dd8ca773
 msgid "1个64-bit mtimer，2个32-bit normal timer，1个16-bit watchdog timer。"
-msgstr "It contains one 64-bit mtimer, two 32-bit normal timers, and one 16-bit watchdog timer."
+msgstr ""
+"It contains one 64-bit mtimer, two 32-bit normal timers, and one 16-bit "
+"watchdog timer."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:32 3776ff04f8f04918b39e684a530ad292
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:32
+#: d1b7571e83984057aebe703c097b45c0
 msgid "看门狗的超时时间如何设置？超时的现象是什么？"
 msgstr "How is the watchdog timeout set? What happens when it times out?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:33 edbb6c14052c4d63b070973e763f9bb4
-msgid "看门狗包含一个计数器和比较器，通过写入比较器的值，当计数器向上计数达到比较器的值时，会产生一个看门狗中断信号或者一个系统复位信号， 具体产生哪种信号由用户自行设置。"
-msgstr "The watchdog includes a counter and a comparator. By writing a value to the comparator, when the counter counts upward and reaches the comparator value, a watchdog interrupt signal or a system reset signal will be generated. Which signal is generated is configured by the user."
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:33
+#: 43503f7a16254c808e33687492e1f683
+msgid ""
+"看门狗包含一个计数器和比较器，通过写入比较器的值，当计数器向上计数达到比较器"
+"的值时，会产生一个看门狗中断信号或者一个系统复位信号， 具体产生哪种信号由用户"
+"自行设置。"
+msgstr ""
+"The watchdog includes a counter and a comparator. By writing a value to the "
+"comparator, when the counter counts upward and reaches the comparator value, "
+"a watchdog interrupt signal or a system reset signal will be generated. "
+"Which signal is generated is configured by the user."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:38 69d9e9cfc06548ec9192e19844a7ad3f
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:38
+#: 11593106dee54f288d2107fa9feacd23
 msgid "GPIO的配置参数有哪些？如何配置？"
 msgstr "What are the GPIO configuration parameters? How are they configured?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:39 86509980ad7846558e0d39c642fadede
-msgid "gpioPin : GPIO pin number， GPIO编号 gpioFun : GPIO function， GPIO功能 gpioMode : input/output/af， 输入/输出/复用模式 pullType : pull_up/pull_down/pull_none， 上拉/下拉/浮空 drive : drive strength， 驱动能力， 数值越大驱动能力越强 smtCtrl : smt, 迟滞控制，建议设一 详情参见低RM GPIO章节。"
-msgstr "gpioPin: GPIO pin number. gpioFun: GPIO function. gpioMode: input/output/af, input/output/alternate function mode. pullType: pull_up/pull_down/pull_none, pull-up/pull-down/floating. drive: drive strength; the larger the value, the stronger the drive capability. smtCtrl: smt, hysteresis control, recommended to be set to 1. For details, refer to the GPIO section of the RM."
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:39
+#: f751429417774649a43fd7805f9b1348
+msgid ""
+"gpioPin : GPIO pin number， GPIO编号 gpioFun : GPIO function， GPIO功能 "
+"gpioMode : input/output/af， 输入/输出/复用模式 pullType : pull_up/pull_down/"
+"pull_none， 上拉/下拉/浮空 drive : drive strength， 驱动能力， 数值越大驱动能"
+"力越强 smtCtrl : smt, 迟滞控制，建议设一 详情参见低RM GPIO章节。"
+msgstr ""
+"gpioPin: GPIO pin number. gpioFun: GPIO function. gpioMode: input/output/af, "
+"input/output/alternate function mode. pullType: pull_up/pull_down/pull_none, "
+"pull-up/pull-down/floating. drive: drive strength; the larger the value, the "
+"stronger the drive capability. smtCtrl: smt, hysteresis control, recommended "
+"to be set to 1. For details, refer to the GPIO section of the RM."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:45 f5f18245fe94411495572a16b3d44357
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:45
+#: 4fdcc84dfa4a408ea319fb67dd3e3347
 msgid "GPIO的引脚在使用时有什么需要注意的？"
 msgstr "What should be noted when using GPIO pins?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:46 971f3187d34f4906bbf2e53647608881
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:46
+#: 11279d7ecd654e11a6fcf2b795e38448
 msgid "需要正确配置GPIO结构体，不建议同时使能input与output。"
-msgstr "The GPIO structure must be configured correctly. It is not recommended to enable input and output at the same time."
+msgstr ""
+"The GPIO structure must be configured correctly. It is not recommended to "
+"enable input and output at the same time."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:50 12f861b738fc4dc8b52e62f669bd56d3
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:50
+#: 8bdc67b3921e4e618c300febbe03ba57
 msgid "SPI一次最多发送多少字节？发送机制是什么？"
-msgstr "What is the maximum number of bytes that SPI can send at one time? What is the transmission mechanism?"
+msgstr ""
+"What is the maximum number of bytes that SPI can send at one time? What is "
+"the transmission mechanism?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:51 63dd11ad87d149d3abf3bd5909792a21
-msgid "SPI一次可发送任意长度个字节，只需要保持tx fifo中有持续可用的数据，另外tx fifo的宽度可根据需要设置为8/16/24/32-bit。 发送机制是：使能spi发送功能之后，tx fifo中的数据会按照设定的位宽和bit顺序进入移位寄存器中，然后按照极性和相位的设置在每一个时钟的上升沿/下降沿去改变MISO/MOSI的引脚电平将数据发送出去。 例如CPOL=1，CPHA=1，则SPI时钟空闲时为高电平，数据在时钟的上升沿被送出。"
-msgstr "SPI can send any number of bytes at one time, as long as there is continuously available data in the tx fifo. In addition, the width of the tx fifo can be set to 8/16/24/32-bit as needed. The transmission mechanism is: after enabling the SPI transmit function, data in the tx fifo enters the shift register according to the configured bit width and bit order, and then, according to the polarity and phase settings, the MISO/MOSI pin level is changed on each rising/falling edge of the clock to send the data out. For example, when CPOL=1 and CPHA=1, the SPI clock is high when idle, and data is output on the rising edge of the clock."
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:51
+#: 07e3026d9ff94fc0bdd398bf631148c7
+msgid ""
+"SPI一次可发送任意长度个字节，只需要保持tx fifo中有持续可用的数据，另外tx fifo"
+"的宽度可根据需要设置为8/16/24/32-bit。 发送机制是：使能spi发送功能之后，tx "
+"fifo中的数据会按照设定的位宽和bit顺序进入移位寄存器中，然后按照极性和相位的设"
+"置在每一个时钟的上升沿/下降沿去改变MISO/MOSI的引脚电平将数据发送出去。 例如"
+"CPOL=1，CPHA=1，则SPI时钟空闲时为高电平，数据在时钟的上升沿被送出。"
+msgstr ""
+"SPI can send any number of bytes at one time, as long as there is "
+"continuously available data in the tx fifo. In addition, the width of the tx "
+"fifo can be set to 8/16/24/32-bit as needed. The transmission mechanism is: "
+"after enabling the SPI transmit function, data in the tx fifo enters the "
+"shift register according to the configured bit width and bit order, and "
+"then, according to the polarity and phase settings, the MISO/MOSI pin level "
+"is changed on each rising/falling edge of the clock to send the data out. "
+"For example, when CPOL=1 and CPHA=1, the SPI clock is high when idle, and "
+"data is output on the rising edge of the clock."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:57 d0a6575542e64260b474b7259560e576
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:57
+#: 06a9b3d32ded481e9df5468d3bf77a1d
 msgid "模组是否支持播放/录音的功能，支持哪些常用的频率和位宽？"
-msgstr "Does the module support playback/recording functions? What common frequencies and bit widths are supported?"
+msgstr ""
+"Does the module support playback/recording functions? What common "
+"frequencies and bit widths are supported?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:58 ca044a19f7454284accf6b91437ee065
-msgid "模组内置12-bit ADC以及10-bit DAC，可以通过ADC和DAC的基本功能配合推荐的功放/录音电路，完成播放和录音的功能。 仅支持8K常用采样率16-bit位宽播放，因为DAC的时钟仅支持32K 16K 8K 512K四种采样率可选，没有专业的audio PLL ，只有8K是常用的播放采样率，其他采样率不常用。"
-msgstr "The module has a built-in 12-bit ADC and 10-bit DAC. Playback and recording functions can be implemented through the basic functions of the ADC and DAC together with the recommended power amplifier/recording circuit. Only 8K common sampling rate and 16-bit bit-width playback are supported. Because the DAC clock only supports four optional sampling rates: 32K, 16K, 8K, and 512K, and there is no dedicated audio PLL. Only 8K is a common playback sampling rate; the other sampling rates are not commonly used."
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:58
+#: aef4d485f78c41579591af7643b16338
+msgid ""
+"模组内置12-bit ADC以及10-bit DAC，可以通过ADC和DAC的基本功能配合推荐的功放/录"
+"音电路，完成播放和录音的功能。 仅支持8K常用采样率16-bit位宽播放，因为DAC的时"
+"钟仅支持32K 16K 8K 512K四种采样率可选，没有专业的audio PLL ，只有8K是常用的播"
+"放采样率，其他采样率不常用。"
+msgstr ""
+"The module has a built-in 12-bit ADC and 10-bit DAC. Playback and recording "
+"functions can be implemented through the basic functions of the ADC and DAC "
+"together with the recommended power amplifier/recording circuit. Only 8K "
+"common sampling rate and 16-bit bit-width playback are supported. Because "
+"the DAC clock only supports four optional sampling rates: 32K, 16K, 8K, and "
+"512K, and there is no dedicated audio PLL. Only 8K is a common playback "
+"sampling rate; the other sampling rates are not commonly used."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:62 bea5e25924574a6e98a48a12436fb7eb
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:62
+#: 62c4594639d64d8a9fe698b95741afd6
 msgid "Ai-WB2-12F模组的AT串口可以关闭作为普通UART通讯口么？"
-msgstr "Can the AT serial port of the Ai-WB2-12F module be disabled and used as a normal UART communication port?"
+msgstr ""
+"Can the AT serial port of the Ai-WB2-12F module be disabled and used as a "
+"normal UART communication port?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:63 70bb50a2fff9420ebec116ab58fed477
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:63
+#: 85965d3a367a456a9554000b349a648f
 msgid "可以的，需要做二次开发。"
 msgstr "Yes, secondary development is required."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:66 568a7d27980c4aeb89b28f547cb63010
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:66
+#: 7e80809855e04c07bd660587867b7a22
 msgid "WB2系列的开发上NC引脚是做啥用的"
 msgstr "What are the NC pins on WB2 series development boards used for?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:67 2fe5396eb2e146a58d7603be2f80c69f
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:67
+#: 83e514414df34954b2f53b0cae7af5b1
 msgid "NC表示没有引出该引脚，无法使用"
 msgstr "NC means that the pin is not routed out and cannot be used."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:70 9045666608dd40f3adde281cd9b24737
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:70
+#: 5774e315a8094da2b1b962950e6d40a6
 msgid "WB2系列模组带USB接口吗"
 msgstr "Do WB2 series modules have a USB interface?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:71 09833bbfedfa44038f86441355f8c968
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:71
+#: 902b3fe3e95c4637badba624161580de
 msgid "不带，模组内部的芯片没有USB相关的引脚接口"
-msgstr "No. The chip inside the module does not have USB-related pins or interfaces."
+msgstr ""
+"No. The chip inside the module does not have USB-related pins or interfaces."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:74 1a686282b3eb40858c6297ff4b3a1a26
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:74
+#: 43d4ba68b49b4e3cb399addb254f3a07
 msgid "请问WB2-12F模组（AT固件）支持硬件流控么？"
-msgstr "Does the WB2-12F module with AT firmware support hardware flow control?"
+msgstr ""
+"Does the WB2-12F module with AT firmware support hardware flow control?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:75 769eaf4fba174063b3aa6b8e58f55bec
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:75
+#: f0a2d52f79c243a8b8016f46f26f884e
 msgid "不支持；"
 msgstr "No."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:78 8208b186e7b7428a93c0433001a1b018
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:78
+#: 53441a8f60fe472ab2bcbc3a23440305
 msgid "Ai-WB2-12F的ADC是多少位的"
 msgstr "How many bits is the ADC of Ai-WB2-12F?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:79 998166dc5ea540cf9570d0b9cfae818b
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:79
+#: 231189a1ba80470298f923fae1660de9
 msgid "ADC为8位"
 msgstr "The ADC is 8-bit."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:82 0d8c4c07df654e428ed5c83fef319748
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:82
+#: be9a3d563a27448398d38cb5ceb984ed
 msgid "请问Ai-WB2-07S模组是否支持SPI接口AT指令驱动控制？"
 msgstr "Does the Ai-WB2-07S module support SPI-interface AT command control?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:83 3cdadce881de45759940557b8cd7244b
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:83
+#: 281e01ab31d04558b466da49e66107ce
 msgid "不支持，出厂固件仅支持串口"
 msgstr "No. The factory firmware only supports UART."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:86 e72d5eb17c7a43bd9cc960ab1edfb4dc
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:86
+#: 43a0959a63e94dc68e6595aa98c7f172
 msgid "WB2系列模组的EN引脚有没有必要用三极管实现控制？"
-msgstr "Is it necessary to use a transistor to control the EN pin of WB2 series modules?"
+msgstr ""
+"Is it necessary to use a transistor to control the EN pin of WB2 series "
+"modules?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:87 cdba94ee640e4e4e90e25277dcb8148f
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:87
+#: b846409498644de89fe2f6ead5c6b3f7
 msgid "不需要。"
 msgstr "No."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:90 ea114fb6ff2049ddb0890bd0d217b1b4
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:90
+#: 4e918f0836274f0b8ecbbd50de24b7b9
 msgid "WB2-32S开发板有几个串口可以使用，为什么好多引脚都是NC"
-msgstr "How many UART ports are available on the WB2-32S development board? Why are many pins NC?"
+msgstr ""
+"How many UART ports are available on the WB2-32S development board? Why are "
+"many pins NC?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:91 0c78b61e20394b9b9a65148182ccf2b2
-msgid "开发板有2个串口可以使用，通过软件定义实现，NC引脚表示该引脚为悬空引脚，不可使用"
-msgstr "The development board has 2 UART ports available, implemented through software definition. NC pins indicate floating pins and cannot be used."
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:91
+#: 7cae0fa2d3f3451c8ebc8ec781c64abf
+msgid ""
+"开发板有2个串口可以使用，通过软件定义实现，NC引脚表示该引脚为悬空引脚，不可使"
+"用"
+msgstr ""
+"The development board has 2 UART ports available, implemented through "
+"software definition. NC pins indicate floating pins and cannot be used."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:94 322927fd495446f1ab46bbcd4309df2e
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:94
+#: 655cdb783e0e4a589076d69b2d3da5e7
 msgid "WB2系列的串口支持硬件流控吗"
 msgstr "Do the UART ports of WB2 series support hardware flow control?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:95 674ff73b68fd4043b59cf6c025c8e833
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:95
+#: 7521bbe5eb0746c08fc148ab02550139
 msgid "需做开发实现，默认不支持硬件流控"
-msgstr "It needs to be implemented through development. Hardware flow control is not supported by default."
+msgstr ""
+"It needs to be implemented through development. Hardware flow control is not "
+"supported by default."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:98 6b28f08842d14aacb5ac29fe1a058575
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:98
+#: 3625860dc5bc48359f656b90724970b0
 msgid "请问WB2-32S模组没有SDIO接口么？"
 msgstr "Does the WB2-32S module not have an SDIO interface?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:99 e10ec1b40c344e339ae2ba88c6e84d16
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:99
+#: 47f9207f51004192a6b580a0938ad59e
 msgid "有的；"
 msgstr "Yes, it does."
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:103 ebe364f5d2df413698a97d8280cb7765
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:103
+#: c57b0ac5036b4fb29819f9a77bab3f3c
 msgid "WB2-07S这个RST引脚和EN引脚有什么区别吗"
 msgstr "What is the difference between the RST pin and EN pin of WB2-07S?"
 
-#: ../../source/docs/software-framework/WiFi/BL/peripherals.rst:104 b6af74b1e4114e73ac533d56a3dc694c
-msgid "没有区别，只是模块默认通过EN引脚进行复位，如果需要通过RST进行复位需要修改模组内部硬件实现"
-msgstr "There is no difference. The module resets through the EN pin by default. If reset through RST is required, the module's internal hardware needs to be modified."
-
-#~ msgid ":link_to_translation:`en:[English]`"
-#~ msgstr ""
+#: ../source/docs/software-framework/WiFi/BL/peripherals.rst:104
+#: f86b61d64d014fb8a5bd28b4e6557919
+msgid ""
+"没有区别，只是模块默认通过EN引脚进行复位，如果需要通过RST进行复位需要修改模组"
+"内部硬件实现"
+msgstr ""
+"There is no difference. The module resets through the EN pin by default. If "
+"reset through RST is required, the module's internal hardware needs to be "
+"modified."

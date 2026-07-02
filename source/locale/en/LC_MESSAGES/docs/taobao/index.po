@@ -8,53 +8,44 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-01 14:28+0800\n"
+"POT-Creation-Date: 2026-07-02 10:58+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../../source/docs/taobao/index.rst:3 698b41c5f59342b895febd482c5cd9eb
+#: ../source/docs/taobao/index.rst:3 9845c64ad484410b8d2143e0fcc73381
 msgid "出厂固件"
 msgstr "Factory Firmware"
 
-#: ../../source/docs/taobao/index.rst:6 82e3a79301a94dc4b49b1579efdc2bb7
-msgid "espressif 乐鑫系列"
-msgstr "Espressif Series"
-
-#: ../../source/docs/taobao/index.rst:14 489e27f72f3e4413bc35dfe576f9f8e4
+#: ../source/docs/taobao/index.rst:7 0b75e693fb7a43f6900b95060be2dc1a
 msgid "蓝牙系列"
 msgstr "Bluetooth Series"
 
-#: ../../source/docs/taobao/index.rst:23 09ad7699cf3341469e5357e4e9ca6fc9
+#: ../source/docs/taobao/index.rst:17 818651f6f363467e8966dfeb9fa70c45
 msgid "Ai-WB2系列"
 msgstr "Ai-WB2 Series"
 
-#: ../../source/docs/taobao/index.rst:32 77e161028ff04b9aba8d4fecf9ba9b52
-msgid "Ai-WB1系列"
-msgstr "Ai-WB1 Series"
-
-#: ../../source/docs/taobao/index.rst:41 a48808539576466099e1e698c8bda093
-msgid "Ai-WB3系列"
-msgstr "Ai-WB3 Series"
-
-#: ../../source/docs/taobao/index.rst:50 e44b2529d9db418bb7a27522ffc1c709
+#: ../source/docs/taobao/index.rst:27 0f89ba9d483e42ba964a14e29a9b6e4f
 msgid "Ai-M62系列"
 msgstr "Ai-M62 Series"
 
-#: ../../source/docs/taobao/index.rst:59 15527672a8eb4c4a8c08ef5b0843387e
+#: ../source/docs/taobao/index.rst:37 25bfe9ec7fcb4670a652b7f7a90b88c2
 msgid "Ai-M61系列"
 msgstr "Ai-M61 Series"
 
-#: ../../source/docs/taobao/index.rst:68 44c32c0705bb4f8c9af15d4b480fc280
-msgid "RTL87XX系列"
-msgstr "RTL87XX Series"
+#: ../source/docs/taobao/index.rst:47 4094fcae8e7f4da28cf26dfc9f702653
+msgid "瑞昱系列"
+msgstr "Realtek Series"
 
-#: ../../source/docs/taobao/index.rst:77 2569b431ec0d4fd59d1be22fb93a599a
-msgid "RD系列"
-msgstr "RD Series"
+#: ../source/docs/taobao/index.rst:57 9287d777b72e43eea492eb3e0e39c13d
+msgid "雷达系列"
+msgstr "Radar Series"
+
+#~ msgid "RTL87XX系列"
+#~ msgstr "RTL87XX Series"
