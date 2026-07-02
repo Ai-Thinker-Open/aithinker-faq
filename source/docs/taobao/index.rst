@@ -2,16 +2,10 @@
 出厂固件
 ***********
 
-espressif 乐鑫系列
----------
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   espressif/*
 
 蓝牙系列
---------
+------------------
+
 .. toctree::
    :maxdepth: 1
    :glob:
@@ -20,7 +14,8 @@ espressif 乐鑫系列
 
 
 Ai-WB2系列
---------
+------------------
+
 .. toctree::
    :maxdepth: 1
    :glob:
@@ -28,26 +23,9 @@ Ai-WB2系列
    BL/*
 
 
-Ai-WB1系列
---------
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   W800/*
-
-
-Ai-WB3系列
---------
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   WB3/*
-
-
 Ai-M62系列
---------
+------------------
+
 .. toctree::
    :maxdepth: 1
    :glob:
@@ -56,7 +34,8 @@ Ai-M62系列
 
 
 Ai-M61系列
---------
+------------------
+
 .. toctree::
    :maxdepth: 1
    :glob:
@@ -64,8 +43,9 @@ Ai-M61系列
    M61/*
 
 
-RTL87XX系列
---------
+瑞昱系列
+------------------
+
 .. toctree::
    :maxdepth: 1
    :glob:
@@ -73,8 +53,9 @@ RTL87XX系列
    BW16/*
 
 
-RD系列
---------
+雷达系列
+------------------
+
 .. toctree::
    :maxdepth: 1
    :glob:

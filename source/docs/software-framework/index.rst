@@ -71,16 +71,6 @@ LoRa/LoRaWan系列
 
    LoRa-LoRaWan/*
 
-4G Cat.1系列
----------
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   4G Cat.1/*
-
-
 
 离线语音系列
 ---------
@@ -91,15 +81,6 @@ LoRa/LoRaWan系列
 
    VC/*
 
-
-
-NB系列
----------
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   NB/*
 
 
 雷达模组系列

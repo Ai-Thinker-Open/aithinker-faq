@@ -197,11 +197,9 @@ source_suffix = {
 
 html_theme = "sphinx_rtd_theme"
 
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_logo = '_static/AI-Thinker-logo.png'
 html_theme_options = {
     'logo_only': True,
-    'display_version': False,
     'titles_only': False,
     'style_nav_header_background': 'white',
 }

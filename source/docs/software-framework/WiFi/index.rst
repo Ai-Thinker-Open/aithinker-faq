@@ -1,35 +1,21 @@
-
 WiFi
 ***********
 | 这里汇集了我司模组使用开发的常见问题
 
-乐鑫系列相关
----------
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   espressif/*
 
 博流系列相关
----------
+------------------
+
 .. toctree::
    :maxdepth: 1
    :glob:
 
    BL/*
 
-海思系列相关
----------
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   Hi/*
 
 
 RTL87XX系列
----------
+------------------
 
 .. toctree::
    :maxdepth: 1
@@ -39,7 +25,7 @@ RTL87XX系列
 
 
 平头哥系列
----------
+------------------
 
 .. toctree::
    :maxdepth: 1
@@ -48,28 +34,8 @@ RTL87XX系列
    TG/*
 
 
-全志XW系列
----------
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   XW/*
-
-
-W800系列
----------
-
-.. toctree::
-   :maxdepth: 1
-   :glob:
-
-   W800/*
-
-
 Ai-M61系列
----------
+------------------
 
 .. toctree::
    :maxdepth: 1
