@@ -2,3 +2,6 @@ build
 使用构造文档
 *.po~
 _pot_out
+.idea
+.vscode
+_build_en
