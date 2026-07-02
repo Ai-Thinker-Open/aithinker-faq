@@ -5,9 +5,9 @@
 # Required
 version: 2
 
-# 英文/i18n 项目先仅构建 HTML；PDF 需 xelatex+CJK 字体，且 FAQ 体量大易失败
-formats:
-  - html
+# HTML 始终默认构建，无需在此声明；此处留空表示不额外构建 pdf/epub/htmlzip
+# （PDF 需 xelatex+CJK 字体，且 FAQ 体量大易失败，故不启用）
+formats: []
 
 # Set the version of Python and other tools you might need
 build:
