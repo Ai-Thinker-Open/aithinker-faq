@@ -5,33 +5,40 @@ AiThinker-FAQ
 | AiThinker-FAQ 是由安信可官方推出的针对常见问题的总结。在线帮助我们的用户快速检索经常问到的问题，通过简单的解释获得解答。
 
 ==================  ==================  ==================
-|使用说明|_          |开发环境|_         |应用方案|_
+|instructions|_     |dev-env|_          |app-solution|_
 ------------------  ------------------  ------------------
 `使用说明`_          `开发环境`_         `应用方案`_
 ------------------  ------------------  ------------------
-|软件使用|_          |硬件相关|_         |出厂固件|_
+|software|_          |hardware|_         |factory-fw|_
 ------------------  ------------------  ------------------
 `软件使用`_          `硬件相关`_         `出厂固件`_
 ==================  ==================  ==================
 
 
 
-.. |使用说明| image:: _static/instruction.png
+.. |instructions| image:: _static/instruction.png
+.. _instructions: docs/instruction/index.html
+
+.. |dev-env| image:: _static/development-environment.png
+.. _dev-env: docs/development-environment/index.html
+
+.. |app-solution| image:: _static/application-solution.png
+.. _app-solution: docs/application-solution/index.html
+
+.. |software| image:: _static/software-framework.png
+.. _software: docs/software-framework/index.html
+
+.. |hardware| image:: _static/hardware-related.png
+.. _hardware: docs/hardware-related/index.html
+
+.. |factory-fw| image:: _static/test-verification.png
+.. _factory-fw: docs/taobao/index.html
+
 .. _使用说明: docs/instruction/index.html
-
-.. |开发环境| image:: _static/development-environment.png
 .. _开发环境: docs/development-environment/index.html
-
-.. |应用方案| image:: _static/application-solution.png
 .. _应用方案: docs/application-solution/index.html
-
-.. |软件使用| image:: _static/software-framework.png
 .. _软件使用: docs/software-framework/index.html
-
-.. |硬件相关| image:: _static/hardware-related.png
 .. _硬件相关: docs/hardware-related/index.html
-
-.. |出厂固件| image:: _static/test-verification.png
 .. _出厂固件: docs/taobao/index.html
 
 
@@ -55,4 +62,3 @@ AiThinker-FAQ
    docs/software-framework/index
    docs/hardware-related/index
    docs/taobao/index
-   

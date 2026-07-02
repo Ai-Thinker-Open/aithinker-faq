@@ -21,9 +21,24 @@ import sys
 
 # -- Project information -----------------------------------------------------
 
-project = u'安信可科技'
-copyright = u'2020, 安信可科技'
-author = u'安信可科技'
+# 语言由 RTD 注入 READTHEDOCS_LANGUAGE；本地无该变量时默认 zh_CN
+_rtd_lang = os.environ.get('READTHEDOCS_LANGUAGE', 'zh_CN')
+if _rtd_lang.lower().startswith('en'):
+    language = 'en'
+elif _rtd_lang.lower().startswith('zh'):
+    language = 'zh_CN'
+else:
+    language = _rtd_lang
+
+# 英文构建时使用英文项目元数据，避免 PDF/LaTeX 因中文标题报错
+if language == 'en':
+    project = u'Ai-Thinker'
+    copyright = u'2020, Ai-Thinker'
+    author = u'Ai-Thinker'
+else:
+    project = u'安信可科技'
+    copyright = u'2020, 安信可科技'
+    author = u'安信可科技'
 
 # The short X.Y version
 version = u''
@@ -62,10 +77,7 @@ master_doc = 'index'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-# 语言由 Read the Docs 为每个项目注入的环境变量 READTHEDOCS_LANGUAGE 决定，
-# 从而实现「同一仓库、多个 RTD 项目、各构建一种语言」的官方翻译方案；
-# 本地构建（无该环境变量）时回退为简体中文 zh_CN。
-language = os.environ.get('READTHEDOCS_LANGUAGE', 'zh_CN')
+# language 已在上方根据 READTHEDOCS_LANGUAGE 设置
 
 # -- 国际化 (i18n) 配置 -------------------------------------------------------
 # 翻译文件（.po/.mo）存放目录，相对于 source/ 目录

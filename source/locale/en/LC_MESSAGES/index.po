@@ -3,12 +3,12 @@
 # This file is distributed under the same license as the 安信可科技 package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2026.
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: 安信可科技\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-02 10:58+0800\n"
+"POT-Creation-Date: 2026-07-02 11:40+0800\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: en <LL@li.org>\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "Generated-By: Babel 2.16.0\n"
 
-#: ../source/index.rst:2 d6a1b45c37e6423f89a7c99a6073718e
+#: ../source/index.rst:2 82ca198409904a23aea3bc6044e2c822
 msgid "AiThinker-FAQ"
 msgstr "AiThinker-FAQ"
 
-#: ../source/index.rst:5 e1e60c486d984e4f9fcb6a137cb3e0c2
+#: ../source/index.rst:5 43f1e7cf27974ad0a9e1c36ced8d8936
 msgid ""
 "AiThinker-FAQ 是由安信可官方推出的针对常见问题的总结。在线帮助我们的用户快速"
 "检索经常问到的问题，通过简单的解释获得解答。"
@@ -32,96 +32,132 @@ msgstr ""
 "by Ai-Thinker. It helps our users quickly search online for frequently asked "
 "questions and obtain answers through simple explanations."
 
-#: ../source/index.rst:8 a646efba3d53427daa3a8f7cecb08a45
-msgid "|使用说明|_"
-msgstr "|Instructions|_"
+#: ../source/index.rst:8 cf663bc71bba483cab4cf5d327212608
+msgid "|instructions|_"
+msgstr "|instructions|_"
 
-#: ../source/index.rst:19 6f4c25a5a0d147229b22b2b35caed79a
-msgid "使用说明"
-msgstr "Instructions"
+#: ../source/index.rst:19 cf663bc71bba483cab4cf5d327212608
+msgid "instructions"
+msgstr "instructions"
 
-#: ../source/index.rst:8 df848b1b43ae44429d93e601a35c8a31
-msgid "|开发环境|_"
-msgstr "|Development Environment|_"
+#: ../source/index.rst:8 12126e36684e4aa0be452e2567e56f56
+msgid "|dev-env|_"
+msgstr "|dev-env|_"
 
-#: ../source/index.rst:22 968b21c01fe94bd4a83372ed236ef588
-msgid "开发环境"
-msgstr "Development Environment"
+#: ../source/index.rst:22 1640eb61dae0475f9845b488afb228f5
+msgid "dev-env"
+msgstr "dev-env"
 
-#: ../source/index.rst:8 48b6ff9e8caa4c378eb45bc8888b7e1f
-msgid "|应用方案|_"
-msgstr "|Application Solution|_"
+#: ../source/index.rst:8 56d6a2aedff54cb9a6b217a8bc226ba6
+msgid "|app-solution|_"
+msgstr "|app-solution|_"
 
-#: ../source/index.rst:25 e19718176e54466aa4161b219a9ec581
-msgid "应用方案"
-msgstr "Application Solution"
+#: ../source/index.rst:25 623e31d242cc460aa97552f8e4391e9f
+msgid "app-solution"
+msgstr "app-solution"
 
-#: ../source/index.rst:10 a939bf0b66974cdd8d6423ba09777ecf
+#: ../source/index.rst:10 80c115d6125349b2b4180c16e20e38ff
 msgid "`使用说明`_"
 msgstr "`Instructions`_"
 
-#: ../source/index.rst:10 d00836ace54a4c70abc590abf8dad218
+#: ../source/index.rst:10 29e0fc411ec04d72868419297cd64355
 msgid "`开发环境`_"
 msgstr "`Development Environment`_"
 
-#: ../source/index.rst:10 7f608226ad0f49338dd5205d58a6f5a4
+#: ../source/index.rst:10 20aff75901d1413fbd2b97ec09877af2
 msgid "`应用方案`_"
 msgstr "`Application Solution`_"
 
-#: ../source/index.rst:12 895748daa91f4411916a954476ed9df6
-msgid "|软件使用|_"
-msgstr "|Software Usage|_"
+#: ../source/index.rst:12 05304b2c7dc548db8e511c5f35489509
+msgid "|software|_"
+msgstr "|software|_"
 
-#: ../source/index.rst:28 0793b45a93d746a6b2e4fab05a289d2c
-msgid "软件使用"
-msgstr "Software Usage"
+#: ../source/index.rst:28 4efc4c8307f84da0bb68fa3cc15767b9
+msgid "software"
+msgstr "software"
 
-#: ../source/index.rst:12 b4b9da761ec742feb25395c5d6363aae
-msgid "|硬件相关|_"
-msgstr "|Hardware Related|_"
+#: ../source/index.rst:12 498a71ba69ee4832bf9feae016304bbc
+msgid "|hardware|_"
+msgstr "|hardware|_"
 
-#: ../source/index.rst:31 c645a2fc8db84df7af50f8fb8be6a4a2
-msgid "硬件相关"
-msgstr "Hardware Related"
+#: ../source/index.rst:31 eb939ec362e84b68a9af08e85dbe2803
+msgid "hardware"
+msgstr "hardware"
 
-#: ../source/index.rst:12 0ffa66e328f84363ac9e85dc9e03213f
-msgid "|出厂固件|_"
-msgstr "|Factory Firmware|_"
+#: ../source/index.rst:12 d3d4f4191a4f4693bfd63be5e60dfaa8
+msgid "|factory-fw|_"
+msgstr "|factory-fw|_"
 
-#: ../source/index.rst:34 7689ffc735124b7aabdc3c613c2e4ffc
-msgid "出厂固件"
-msgstr "Factory Firmware"
+#: ../source/index.rst:34 e24d1c4432a94a548bd97b0442c81236
+msgid "factory-fw"
+msgstr "factory-fw"
 
-#: ../source/index.rst:14 50dad52b26954a459f1ef98d25311e70
+#: ../source/index.rst:14 af03623369f242229d8b9203b758fbb6
 msgid "`软件使用`_"
 msgstr "`Software Usage`_"
 
-#: ../source/index.rst:14 d5dde24132f842b7994b41604f795ada
+#: ../source/index.rst:14 f6d4de548c3b41978de3699152b94dd3
 msgid "`硬件相关`_"
 msgstr "`Hardware Related`_"
 
-#: ../source/index.rst:14 34c0894a2e3f41279f78ef4b2ba537de
+#: ../source/index.rst:14 9b7b240118bc4444862d457b723e6e19
 msgid "`出厂固件`_"
 msgstr "`Factory Firmware`_"
 
-#: ../source/index.rst:40 e52714b4b32c40ed931c1634d7fc2db5
+#: ../source/index.rst:47 1fc9622f890b4246b4fadfc7a63f7910
 msgid "联系我们"
 msgstr "Contact Us"
 
-#: ../source/index.rst:41 5a535e3a77714a5eb3a5443ec3565601
+#: ../source/index.rst:48 6aeb15717cc2455e8d6d744ea4c48af1
 msgid "样品购买： https://anxinke.taobao.com"
 msgstr "Sample purchase: https://anxinke.taobao.com"
 
-#: ../source/index.rst:42 0443dea22e764c13a3d67b19ab8fb009
+#: ../source/index.rst:49 f3f2980450d3460fa7a5095bd4b6eebe
 msgid "样品资料： https://docs.ai-thinker.com"
 msgstr "Sample documentation: https://docs.ai-thinker.com"
 
-#: ../source/index.rst:43 0c86dfd4e220459daa0c6762f5db542b
+#: ../source/index.rst:50 936b9aab06384dfa8df3fbefcd7e657f
 msgid "商务合作： 0755-29162996"
 msgstr "Business cooperation: 0755-29162996"
 
-#: ../source/index.rst:44 6c54753db8a44316929ae9dfb680cc80
+#: ../source/index.rst:51 9684f02b1b4247e4a731cce08f55ea65
 msgid "公司地址： 深圳市宝安区西乡固戍华丰智慧创新港C栋410"
 msgstr ""
 "Company address: Room 410, Building C, Huafeng Smart Innovation Port, Gushu, "
 "Xixiang, Bao'an District, Shenzhen"
+
+#~ msgid "|使用说明|_"
+#~ msgstr "|Instructions|_"
+
+#~ msgid "使用说明"
+#~ msgstr "Instructions"
+
+#~ msgid "|开发环境|_"
+#~ msgstr "|Development Environment|_"
+
+#~ msgid "开发环境"
+#~ msgstr "Development Environment"
+
+#~ msgid "|应用方案|_"
+#~ msgstr "|Application Solution|_"
+
+#~ msgid "应用方案"
+#~ msgstr "Application Solution"
+
+#~ msgid "|软件使用|_"
+#~ msgstr "|Software Usage|_"
+
+#~ msgid "软件使用"
+#~ msgstr "Software Usage"
+
+#~ msgid "|硬件相关|_"
+#~ msgstr "|Hardware Related|_"
+
+#~ msgid "硬件相关"
+#~ msgstr "Hardware Related"
+
+#~ msgid "|出厂固件|_"
+#~ msgstr "|Factory Firmware|_"
+
+#~ msgid "出厂固件"
+#~ msgstr "Factory Firmware"
