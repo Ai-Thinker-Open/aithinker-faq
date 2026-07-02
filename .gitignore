@@ -5,3 +5,4 @@ _pot_out
 .idea
 .vscode
 _build_en
+.vscode/*
