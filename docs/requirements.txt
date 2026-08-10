@@ -2,6 +2,12 @@
 Sphinx==4.5.0
 sphinx-rtd-theme==1.2.2
 docutils==0.17.1
+# Sphinx 4.5-compatible extension releases. Newer 2.x versions require Sphinx 5+.
+sphinxcontrib-applehelp==1.0.4
+sphinxcontrib-devhelp==1.0.2
+sphinxcontrib-htmlhelp==2.0.0
+sphinxcontrib-qthelp==1.0.3
+sphinxcontrib-serializinghtml==1.1.5
 # Markdown 支持：官方推荐的 MyST 解析器（替代已废弃的 recommonmark）
 # 0.18.1 兼容 Sphinx 4.x / docutils 0.17 / Python 3.8
 myst-parser==0.18.1

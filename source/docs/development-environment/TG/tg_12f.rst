@@ -1,8 +1,8 @@
 TG-12F
-======
+========================================================================================================================================================================================================
 
 1. 简介
-~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  `平头哥官方资料获取 <https://occ.t-head.cn/vendor/detail/download?id=3840454249402605568&vendorId=3706716635429273600&module=1#sticky>`__
 
 TG-12F模块采用平头哥TG7100C芯片，TG7100C 是智能新一代高集成 Wi-Fi 和 BLE 组合芯片。无线子系统包含 2.4G 射频、Wi-Fi 802.11b/g/n 和 BLE 基带/MAC 设计。微控制器子系统包含一个低功耗 32 位 RISC CPU、高速缓存和存储器。电源管理单元提供灵活的设置实现低功耗模式，并支持多种安全功能。
@@ -25,7 +25,7 @@ TG-12F模块采用平头哥TG7100C芯片，TG7100C 是智能新一代高集成 W
 - 监控遥控
 
 2. 开发环境搭建依赖
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 目前TG-12F开发环境仅支持Linux环境，不支持windows环境。
 
 **注意**
@@ -36,6 +36,7 @@ TG-12F模块采用平头哥TG7100C芯片，TG7100C 是智能新一代高集成 W
 
 安装 Ubuntu（版本 16.04 X64）程序运行时库。请您按顺序逐条执行命令:
 ::
+
     sudo apt-get update
     sudo apt-get -y install libssl-dev:i386
     sudo apt-get -y install libncurses-dev:i386
@@ -43,6 +44,7 @@ TG-12F模块采用平头哥TG7100C芯片，TG7100C 是智能新一代高集成 W
 
 安装 Ubuntu（版本 16.04 X64）依赖软件包。请您按顺序逐条执行命令:
 ::
+
     sudo apt-get update
     sudo apt-get -y install git wget make flex bison gperf unzip
     sudo apt-get -y install gcc-multilib
@@ -53,6 +55,7 @@ TG-12F模块采用平头哥TG7100C芯片，TG7100C 是智能新一代高集成 W
 
 安装 Python 依赖包。请您按顺序逐条执行命令:
 ::
+
     python -m pip install setuptools
     python -m pip install wheel
     python -m pip install aos-cube
@@ -68,24 +71,28 @@ TG-12F模块采用平头哥TG7100C芯片，TG7100C 是智能新一代高集成 W
 
 执行以下指令：
 :: 
+
     python -m pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/ --upgrade pip
 
 基于 pip 依次安装第三方包和 aos-cube
 :: 
+
     pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/ setuptools
     pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/ wheel
     pip install --trusted-host=mirrors.aliyun.com -i https://mirrors.aliyun.com/pypi/simple/ aos-cube
 
 1. 获取SDK
-~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 执行： 
 ::
+
     git clone -b release_1.6.6 https://gitee.com/Ai-Thinker-Open/Ai-Thinker-Open-TG7100C_SDK.git
 
 4. 编译
-~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 快速编译 living_platform_demo示例。
 ::
+
    ./build.sh example living_platform_demo tg7100cevb MAINLAND ONLINE 0
 
 SDK 根目录 build.sh 文件说明如下，根据硬件使用的模组型号和要编译的应用，修改文件中的如下参数:
@@ -111,7 +118,7 @@ build.sh 脚本会自动判断模组的 toolchain（交叉编译工具链）是�
 - 不要把代码存放在 Windows 共享目录下，然后通过 mount 挂载到 Ubuntu 系统里。建议直接在Ubuntu 系统内下载和解压代码。
 
 5. 烧录
-~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 进入烧录模式先将IO8拉高进入烧录模式。
 
 - 开发板接线：开发板已默认将IO8拉高，直接用Micro-USB线将开发板和电脑连接起来即可
@@ -127,6 +134,7 @@ build.sh 脚本会自动判断模组的 toolchain（交叉编译工具链）是�
             VDD         3.3V
             GND         GND
         =========  =========
+
 下载 `TG7100C_FlashEnv烧录调试工具 <https://occ-oss-prod.oss-cn-hangzhou.aliyuncs.com/userFiles/3706713731985244160/resource/3706713731985244160smJBaJkFPK.zip>`__
 
 - 在下载的文件包里面打开文件夹docs下的 `TG Flash Environment` 用户手册

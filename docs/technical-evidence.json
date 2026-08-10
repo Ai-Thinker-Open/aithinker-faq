@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "repository": "Ai-Thinker-Open/aithinker-faq",
+  "repository_type": "Document",
+  "validated_commit": "85088a7f016d67be72f23b328064155f1b3b986c",
+  "validated_at": "2026-08-10T11:53:22+08:00",
+  "rollback": {
+    "tag": "audit-baseline-before-health-improvements",
+    "commit": "df28b8251bee1bd9b0b47fd58b13cdf590692ad4"
+  },
+  "environment": {
+    "operating_system": "Windows",
+    "python": "3.12.13",
+    "sphinx": "4.5.0",
+    "sphinx_intl": "2.1.0",
+    "sphinx_rtd_theme": "1.2.2",
+    "docutils": "0.17.1",
+    "babel": "2.18.0"
+  },
+  "validation": {
+    "command": "python tools/validate_repository.py",
+    "catalog_coverage": {
+      "documents": 46,
+      "po_files": 46,
+      "mo_files": 46,
+      "active_messages": 3219,
+      "untranslated_messages": 0,
+      "fuzzy_messages": 0,
+      "result": "pass"
+    },
+    "catalog_compilation": {
+      "command": "sphinx-intl build -l en -d source/locale",
+      "result": "pass"
+    },
+    "html_builds": [
+      {
+        "language": "zh_CN",
+        "options": "-q -W --keep-going -E -b html",
+        "result": "pass"
+      },
+      {
+        "language": "en",
+        "options": "-q -W --keep-going -E -b html",
+        "result": "pass"
+      }
+    ]
+  },
+  "baseline_defect": {
+    "observed": "A fresh dependency installation selected sphinxcontrib 2.x extensions that require Sphinx 5 or newer, while the repository pins Sphinx 4.5.0.",
+    "effect": "Both language builds stopped before reading source documents.",
+    "resolution": "Pinned Sphinx 4.5-compatible sphinxcontrib extension releases in docs/requirements.txt."
+  },
+  "limitations": [
+    "This repository contains documentation and no firmware or runtime application to compile.",
+    "PDF, EPUB and HTML ZIP are not requested by .readthedocs.yaml and were not validated.",
+    "External-link availability and third-party content correctness were not tested.",
+    "No device flashing or hardware-in-the-loop validation applies to this repository."
+  ],
+  "log": "docs/validation-logs/Sphinx-validation.log"
+}
