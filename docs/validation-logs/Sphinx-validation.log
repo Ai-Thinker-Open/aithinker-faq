@@ -1,0 +1,29 @@
+Repository: Ai-Thinker-Open/aithinker-faq
+Validated commit: 85088a7f016d67be72f23b328064155f1b3b986c
+Validated at: 2026-08-10T11:53:22+08:00
+Host: Windows
+Python: 3.12.13
+Sphinx: 4.5.0
+sphinx-intl: 2.1.0
+sphinx-rtd-theme: 1.2.2
+docutils: 0.17.1
+Babel: 2.18.0
+
+Command:
+  python tools/validate_repository.py
+
+Result:
+  Catalogs: 46 documents, 46 PO, 46 MO, 3219 active messages, 0 untranslated, 0 fuzzy
+  English catalogs compiled successfully.
+  Strict HTML build passed: zh_CN
+  Strict HTML build passed: en
+  VALIDATION PASSED
+
+Strict build options:
+  sphinx-build -q -W --keep-going -E -b html
+
+Declared build boundary:
+  .readthedocs.yaml requests the default HTML build only (formats: []).
+  PDF, EPUB, HTML ZIP, external-link availability, firmware compilation,
+  device flashing, and hardware-in-the-loop tests are outside this repository's
+  declared validation surface.
