@@ -6,3 +6,5 @@ _pot_out
 .vscode
 _build_en
 .vscode/*
+__pycache__/
+.venv/

@@ -67,11 +67,11 @@ function Update-Translations {
 
 function Build-Docs {
     Write-Host '[3/3] 构建中文站点 -> build\html ...' -ForegroundColor Cyan
-    sphinx-build -b html $SourceDir $HtmlDir
+    sphinx-build -W --keep-going -E -b html $SourceDir $HtmlDir
     if ($LASTEXITCODE -ne 0) { throw '中文站点构建失败' }
 
     Write-Host '构建英文站点 -> build\html\en ...' -ForegroundColor Cyan
-    sphinx-build -b html -D language=en $SourceDir $HtmlEnDir
+    sphinx-build -W --keep-going -E -b html -D language=en $SourceDir $HtmlEnDir
     if ($LASTEXITCODE -ne 0) { throw '英文站点构建失败' }
 
     Write-Host '构建完成：中文 build\html，英文 build\html\en' -ForegroundColor Green
